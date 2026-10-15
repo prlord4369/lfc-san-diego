@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T19:48:12Z",
+  "updated": "2026-10-15T19:57:16Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -306,8 +306,8 @@
         "pos": "FW",
         "nat": "England",
         "reg": "U21",
-          "profile": "https://www.liverpoolfc.com/teams/academy/josh-sonni-lambie",
-          "note": "Academy",
+        "profile": "https://www.liverpoolfc.com/teams/academy/josh-sonni-lambie",
+        "note": "Academy",
         "added": "2026-10-15",
         "fd": true
       }
@@ -904,7 +904,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He picked up a tight hamstring on international duty and missed the Manchester City and LASK games. Iraola says it is still too early to call for the Brentford match on 17 October.",
+      "detail": "He picked up a tight hamstring on international duty and missed the City and LASK games. Iraola says it is still too early to call for the Brentford match on 17 October.",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/andoni-iraola-drops-huge-liverpool-145000706.html"
     },
@@ -940,7 +940,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He has been out since ruptring his right Achilles in April. Brit Brief reports a return could come in January, while the club-linked earlier estimate pointed to around December.",
+      "detail": "He has been out since rupturing his right Achilles in April and could be back around January, according to Brit Brief.",
       "source": "Brit Brief",
       "url": "https://britbrief.co.uk/sports/doping/liverpool-injury-update-szoboszlai-isak-gakpo-latest-15102026.html"
     },
@@ -949,7 +949,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been sidelined since January with knee damage from surgery and is not yet close to training with the squad. The expected return window is November or December.",
+      "detail": "He has been sidelined since January with knee damage and is not close to training with the team yet. Recent reports still point to a return in November or December.",
       "source": "Brit Brief",
       "url": "https://britbrief.co.uk/sports/doping/liverpool-injury-update-szoboszlai-isak-gakpo-latest-15102026.html"
     },
@@ -958,7 +958,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played since his ACL injury last September and his recovery has taken longer than planned. Liverpool will not return him to team training until the November international break.",
+      "detail": "He has not played since tearing his ACL last September, and his recovery has taken longer than planned. Liverpool will not return him to team training until the November international break.",
       "source": "Brit Brief",
       "url": "https://britbrief.co.uk/sports/football/liverpool-face-brentford-with-szoboszlai-isak-gakpo-doubts.html"
     }
