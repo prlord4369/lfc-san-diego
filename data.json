@@ -1,0 +1,1440 @@
+{
+  "updated": "2026-10-15T19:38:39Z",
+  "venue": {
+    "name": "Whiskey Girl",
+    "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
+    "map": "https://www.google.com/maps/search/?api=1&query=Whiskey+Girl+702+Fifth+Ave+San+Diego+CA"
+  },
+  "standing": {
+    "position": "9th",
+    "competition": "Premier League",
+    "record": "P6 W2 D3 L1 · 9 pts"
+  },
+  "squad": {
+    "asof": "2026-10-12",
+    "source": "Premier League squad numbers 2026/27",
+    "url": "https://www.premierleague.com/en/news/4725682/all-20-premier-league-clubs-squad-numbers-for-202627-season",
+    "regUrl": "https://www.liverpoolfc.com/news/liverpool-submit-premier-league-squad-list-2026-27",
+    "players": [
+      {
+        "no": 1,
+        "name": "Alisson Becker",
+        "pos": "GK",
+        "nat": "Brazil",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/alisson-becker"
+      },
+      {
+        "no": 25,
+        "name": "Giorgi Mamardashvili",
+        "pos": "GK",
+        "nat": "Georgia",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/giorgi-mamardashvili"
+      },
+      {
+        "no": 28,
+        "name": "Freddie Woodman",
+        "pos": "GK",
+        "nat": "England",
+        "reg": "HG",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/freddie-woodman"
+      },
+      {
+        "no": 56,
+        "name": "Vitezslav Jaros",
+        "pos": "GK",
+        "nat": "Czechia",
+        "reg": "HG",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/vitezslav-jaros"
+      },
+      {
+        "no": 95,
+        "name": "Harvey Davies",
+        "pos": "GK",
+        "nat": "England",
+        "reg": "U21",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/harvey-davies"
+      },
+      {
+        "no": 2,
+        "name": "Joe Gomez",
+        "pos": "DF",
+        "nat": "England",
+        "reg": "HG",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/joe-gomez"
+      },
+      {
+        "no": 4,
+        "name": "Virgil van Dijk",
+        "pos": "DF",
+        "nat": "Netherlands",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/virgil-van-dijk"
+      },
+      {
+        "no": 5,
+        "name": "Jérémy Jacquet",
+        "pos": "DF",
+        "nat": "France",
+        "reg": "U21",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremy-jacquet"
+      },
+      {
+        "no": 6,
+        "name": "Milos Kerkez",
+        "pos": "DF",
+        "nat": "Hungary",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/milos-kerkez"
+      },
+      {
+        "no": 12,
+        "name": "Conor Bradley",
+        "pos": "DF",
+        "nat": "Northern Ireland",
+        "reg": "HG",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/conor-bradley"
+      },
+      {
+        "no": 15,
+        "name": "Giovanni Leoni",
+        "pos": "DF",
+        "nat": "Italy",
+        "reg": "U21",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/giovanni-leoni"
+      },
+      {
+        "no": 21,
+        "name": "Kostas Tsimikas",
+        "pos": "DF",
+        "nat": "Greece",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/kostas-tsimikas"
+      },
+      {
+        "no": 30,
+        "name": "Jeremie Frimpong",
+        "pos": "DF",
+        "nat": "Netherlands",
+        "reg": "HG",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremie-frimpong"
+      },
+      {
+        "no": 33,
+        "name": "Ronald Araújo",
+        "pos": "DF",
+        "nat": "Uruguay",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/ronald-araujo"
+      },
+      {
+        "no": 44,
+        "name": "Luke Chambers",
+        "pos": "DF",
+        "nat": "England",
+        "reg": "HG",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/luke-chambers"
+      },
+      {
+        "no": 52,
+        "name": "Isaac Mabaya",
+        "pos": "DF",
+        "nat": "England",
+        "reg": "HG"
+      },
+      {
+        "no": 3,
+        "name": "Wataru Endo",
+        "pos": "MF",
+        "nat": "Japan",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/wataru-endo"
+      },
+      {
+        "no": 7,
+        "name": "Florian Wirtz",
+        "pos": "MF",
+        "nat": "Germany",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/florian-wirtz"
+      },
+      {
+        "no": 8,
+        "name": "Dominik Szoboszlai",
+        "pos": "MF",
+        "nat": "Hungary",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/dominik-szoboszlai"
+      },
+      {
+        "no": 10,
+        "name": "Alexis Mac Allister",
+        "pos": "MF",
+        "nat": "Argentina",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/alexis-mac-allister"
+      },
+      {
+        "no": 38,
+        "name": "Ryan Gravenberch",
+        "pos": "MF",
+        "nat": "Netherlands",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/ryan-gravenberch"
+      },
+      {
+        "no": 42,
+        "name": "Trey Nyoni",
+        "pos": "MF",
+        "nat": "England",
+        "reg": "U21",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/trey-nyoni"
+      },
+      {
+        "no": 53,
+        "name": "James McConnell",
+        "pos": "MF",
+        "nat": "England",
+        "reg": "HG",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/james-mcconnell"
+      },
+      {
+        "no": 9,
+        "name": "Alexander Isak",
+        "pos": "FW",
+        "nat": "Sweden",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/alexander-isak"
+      },
+      {
+        "no": 14,
+        "name": "Federico Chiesa",
+        "pos": "FW",
+        "nat": "Italy",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/federico-chiesa"
+      },
+      {
+        "no": 18,
+        "name": "Cody Gakpo",
+        "pos": "FW",
+        "nat": "Netherlands",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/cody-gakpo"
+      },
+      {
+        "no": 22,
+        "name": "Hugo Ekitike",
+        "pos": "FW",
+        "nat": "France",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/hugo-ekitike"
+      },
+      {
+        "no": 23,
+        "name": "Víctor Muñoz",
+        "pos": "FW",
+        "nat": "Spain",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/victor-munoz"
+      },
+      {
+        "no": 29,
+        "name": "Bradley Barcola",
+        "pos": "FW",
+        "nat": "France",
+        "reg": "",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/bradley-barcola"
+      },
+      {
+        "no": 67,
+        "name": "Lewis Koumas",
+        "pos": "FW",
+        "nat": "Wales",
+        "reg": "U21",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/lewis-koumas"
+      },
+      {
+        "no": 73,
+        "name": "Rio Ngumoha",
+        "pos": "FW",
+        "nat": "England",
+        "reg": "U21",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/rio-ngumoha"
+      },
+      {
+        "no": 76,
+        "name": "Jayden Danns",
+        "pos": "FW",
+        "nat": "England",
+        "reg": "U21",
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/jayden-danns"
+      }
+    ]
+  },
+  "table": {
+    "asof": "2026-10-15",
+    "source": "Premier League",
+    "url": "https://www.premierleague.com/en/tables",
+    "rows": [
+      {
+        "pos": 1,
+        "team": "Manchester City",
+        "p": 6,
+        "w": 6,
+        "d": 0,
+        "l": 0,
+        "gf": 16,
+        "ga": 5,
+        "pts": 18
+      },
+      {
+        "pos": 2,
+        "team": "Arsenal",
+        "p": 6,
+        "w": 5,
+        "d": 0,
+        "l": 1,
+        "gf": 10,
+        "ga": 5,
+        "pts": 15
+      },
+      {
+        "pos": 3,
+        "team": "Brighton & Hove Albion",
+        "p": 6,
+        "w": 4,
+        "d": 1,
+        "l": 1,
+        "gf": 18,
+        "ga": 5,
+        "pts": 13
+      },
+      {
+        "pos": 4,
+        "team": "Brentford",
+        "p": 6,
+        "w": 2,
+        "d": 4,
+        "l": 0,
+        "gf": 12,
+        "ga": 6,
+        "pts": 10
+      },
+      {
+        "pos": 5,
+        "team": "Everton",
+        "p": 6,
+        "w": 2,
+        "d": 4,
+        "l": 0,
+        "gf": 8,
+        "ga": 5,
+        "pts": 10
+      },
+      {
+        "pos": 6,
+        "team": "Chelsea",
+        "p": 6,
+        "w": 3,
+        "d": 1,
+        "l": 2,
+        "gf": 15,
+        "ga": 13,
+        "pts": 10
+      },
+      {
+        "pos": 7,
+        "team": "Leeds United",
+        "p": 6,
+        "w": 2,
+        "d": 3,
+        "l": 1,
+        "gf": 8,
+        "ga": 5,
+        "pts": 9
+      },
+      {
+        "pos": 8,
+        "team": "Hull City",
+        "p": 6,
+        "w": 2,
+        "d": 3,
+        "l": 1,
+        "gf": 8,
+        "ga": 6,
+        "pts": 9
+      },
+      {
+        "pos": 9,
+        "team": "Liverpool",
+        "p": 6,
+        "w": 2,
+        "d": 3,
+        "l": 1,
+        "gf": 7,
+        "ga": 7,
+        "pts": 9
+      },
+      {
+        "pos": 10,
+        "team": "Ipswich Town",
+        "p": 6,
+        "w": 3,
+        "d": 0,
+        "l": 3,
+        "gf": 9,
+        "ga": 12,
+        "pts": 9
+      },
+      {
+        "pos": 11,
+        "team": "Newcastle United",
+        "p": 6,
+        "w": 2,
+        "d": 2,
+        "l": 2,
+        "gf": 10,
+        "ga": 13,
+        "pts": 8
+      },
+      {
+        "pos": 12,
+        "team": "Crystal Palace",
+        "p": 6,
+        "w": 2,
+        "d": 1,
+        "l": 3,
+        "gf": 9,
+        "ga": 12,
+        "pts": 7
+      },
+      {
+        "pos": 13,
+        "team": "Manchester United",
+        "p": 6,
+        "w": 1,
+        "d": 3,
+        "l": 2,
+        "gf": 9,
+        "ga": 9,
+        "pts": 6
+      },
+      {
+        "pos": 14,
+        "team": "Coventry City",
+        "p": 6,
+        "w": 2,
+        "d": 0,
+        "l": 4,
+        "gf": 5,
+        "ga": 11,
+        "pts": 6
+      },
+      {
+        "pos": 15,
+        "team": "Nottingham Forest",
+        "p": 6,
+        "w": 1,
+        "d": 2,
+        "l": 3,
+        "gf": 5,
+        "ga": 8,
+        "pts": 5
+      },
+      {
+        "pos": 16,
+        "team": "Aston Villa",
+        "p": 6,
+        "w": 1,
+        "d": 2,
+        "l": 3,
+        "gf": 6,
+        "ga": 11,
+        "pts": 5
+      },
+      {
+        "pos": 17,
+        "team": "Sunderland",
+        "p": 6,
+        "w": 1,
+        "d": 1,
+        "l": 4,
+        "gf": 6,
+        "ga": 12,
+        "pts": 4
+      },
+      {
+        "pos": 18,
+        "team": "AFC Bournemouth",
+        "p": 6,
+        "w": 0,
+        "d": 3,
+        "l": 3,
+        "gf": 7,
+        "ga": 13,
+        "pts": 3
+      },
+      {
+        "pos": 19,
+        "team": "Tottenham Hotspur",
+        "p": 6,
+        "w": 0,
+        "d": 3,
+        "l": 3,
+        "gf": 3,
+        "ga": 9,
+        "pts": 3
+      },
+      {
+        "pos": 20,
+        "team": "Fulham",
+        "p": 6,
+        "w": 0,
+        "d": 2,
+        "l": 4,
+        "gf": 6,
+        "ga": 10,
+        "pts": 2
+      }
+    ]
+  },
+  "results": [
+    {
+      "date": "2026-08-23",
+      "opp": "Newcastle United",
+      "ha": "A",
+      "score": "2-2",
+      "r": "D",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-08-29",
+      "opp": "Nottingham Forest",
+      "ha": "H",
+      "score": "2-2",
+      "r": "D",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-09-04",
+      "opp": "Ipswich Town",
+      "ha": "A",
+      "score": "2-0",
+      "r": "W",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-09-09",
+      "opp": "Atlético Madrid",
+      "ha": "H",
+      "score": "2-1",
+      "r": "W",
+      "comp": "Champions League"
+    },
+    {
+      "date": "2026-09-12",
+      "opp": "Fulham",
+      "ha": "H",
+      "score": "0-0",
+      "r": "D",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-09-15",
+      "opp": "Tottenham Hotspur",
+      "ha": "H",
+      "score": "3-1",
+      "r": "W",
+      "comp": "Carabao Cup R3"
+    },
+    {
+      "date": "2026-09-20",
+      "opp": "AFC Bournemouth",
+      "ha": "A",
+      "score": "1-0",
+      "r": "W",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-10-11",
+      "opp": "Manchester City",
+      "ha": "H",
+      "score": "0-3",
+      "r": "L",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-10-14",
+      "opp": "LASK Linz",
+      "ha": "A",
+      "score": "6-3",
+      "r": "W",
+      "comp": "Champions League"
+    }
+  ],
+  "fixtures": [
+    {
+      "kickoff": "2026-10-17T14:00:00Z",
+      "opp": "Brentford",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-10-20T19:00:00Z",
+      "opp": "Villarreal",
+      "ha": "H",
+      "comp": "Champions League",
+      "scope": "international"
+    },
+    {
+      "kickoff": "2026-10-25T14:00:00Z",
+      "opp": "Brighton & Hove Albion",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-10-28T20:00:00Z",
+      "opp": "Chelsea",
+      "ha": "H",
+      "comp": "Carabao Cup R4",
+      "tbc": false,
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-11-01T16:30:00Z",
+      "opp": "Arsenal",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-11-04T17:45:00Z",
+      "opp": "Fenerbahçe",
+      "ha": "A",
+      "comp": "Champions League",
+      "scope": "international",
+      "venue": "Istanbul, Turkey"
+    },
+    {
+      "kickoff": "2026-11-08T14:00:00Z",
+      "opp": "Crystal Palace",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-11-22T16:30:00Z",
+      "opp": "Manchester United",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-11-25T20:00:00Z",
+      "opp": "Club Brugge",
+      "ha": "A",
+      "comp": "Champions League",
+      "scope": "international",
+      "venue": "Bruges, Belgium"
+    },
+    {
+      "kickoff": "2026-11-29T12:00:00Z",
+      "opp": "Everton",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-12-02T20:00:00Z",
+      "opp": "Sunderland",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-12-05T15:00:00Z",
+      "opp": "Chelsea",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-12-09T20:00:00Z",
+      "opp": "FC Porto",
+      "ha": "H",
+      "comp": "Champions League",
+      "scope": "international"
+    },
+    {
+      "kickoff": "2026-12-12T15:00:00Z",
+      "opp": "Leeds United",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-12-19T15:00:00Z",
+      "opp": "Tottenham Hotspur",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-12-26T17:30:00Z",
+      "opp": "Hull City",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-12-30T20:15:00Z",
+      "opp": "Aston Villa",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-01-02T15:00:00Z",
+      "opp": "Coventry City",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-01-05T20:15:00Z",
+      "opp": "Sunderland",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-01-16T15:00:00Z",
+      "opp": "Crystal Palace",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-01-19T20:00:00Z",
+      "opp": "Inter Milan",
+      "ha": "A",
+      "comp": "Champions League",
+      "scope": "international",
+      "venue": "Milan, Italy"
+    },
+    {
+      "kickoff": "2027-01-23T15:00:00Z",
+      "opp": "Manchester United",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-01-27T20:00:00Z",
+      "opp": "Lens",
+      "ha": "H",
+      "comp": "Champions League",
+      "scope": "international"
+    },
+    {
+      "kickoff": "2027-01-30T15:00:00Z",
+      "opp": "Everton",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-02-06T15:00:00Z",
+      "opp": "Arsenal",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-02-10T20:00:00Z",
+      "opp": "Coventry City",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-02-20T15:00:00Z",
+      "opp": "Hull City",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-02-27T15:00:00Z",
+      "opp": "Tottenham Hotspur",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-03-03T20:00:00Z",
+      "opp": "Aston Villa",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-03-13T15:00:00Z",
+      "opp": "Ipswich Town",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-03-20T15:00:00Z",
+      "opp": "Fulham",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-04-10T14:00:00Z",
+      "opp": "Newcastle United",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-04-17T14:00:00Z",
+      "opp": "Nottingham Forest",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-04-24T14:00:00Z",
+      "opp": "Leeds United",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-05-01T14:00:00Z",
+      "opp": "Chelsea",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-05-08T14:00:00Z",
+      "opp": "Manchester City",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-05-15T14:00:00Z",
+      "opp": "Brentford",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-05-23T14:00:00Z",
+      "opp": "Brighton & Hove Albion",
+      "ha": "A",
+      "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "kickoff": "2027-05-30T15:00:00Z",
+      "opp": "AFC Bournemouth",
+      "ha": "H",
+      "comp": "Premier League",
+      "scope": "domestic"
+    }
+  ],
+  "fixtureNotes": [
+    "FA Cup third round: January 2027, opponent decided by the draw in early December.",
+    "Champions League knockout dates depend on where Liverpool finish in the league phase (top 8 go straight to the round of 16 in March; 9th–24th play a February play-off)."
+  ],
+  "injuries": [
+    {
+      "player": "Dominik Szoboszlai",
+      "pos": "MF",
+      "status": "doubt",
+      "issue": "Hamstring",
+      "detail": "He picked up a tight hamstring on international duty and missed the Manchester City and LASK games. Iraola says it is still too early to call for Saturday's Brentford match (17 October).",
+      "source": "Dave Sport",
+      "url": "https://dave.sport/news/liverpool-injury-update-isak-gakpo-szoboszlai-brentford/"
+    },
+    {
+      "player": "Cody Gakpo",
+      "pos": "FW",
+      "status": "doubt",
+      "issue": "Ankle",
+      "detail": "He hurt his ankle in a tackle on international duty and missed the City and LASK games. Iraola has left the chance open for Brentford, but his fitness is not yet confirmed.",
+      "source": "Dave Sport",
+      "url": "https://dave.sport/news/liverpool-injury-update-isak-gakpo-szoboszlai-brentford/"
+    },
+    {
+      "player": "Alexander Isak",
+      "pos": "FW",
+      "status": "doubt",
+      "issue": "Thigh",
+      "detail": "He has a thigh problem from the international break and has missed the City and LASK matches. Iraola says it is not a long-term issue, but Isak had not returned to training and remains a question mark for Brentford.",
+      "source": "Brit Brief",
+      "url": "https://britbrief.co.uk/sports/injuries/liverpool-injury-news-isak-gakpo-szoboszlai-doubts-for-brentford.html"
+    },
+    {
+      "player": "Ryan Gravenberch",
+      "pos": "MF",
+      "status": "out",
+      "issue": "Suspension",
+      "detail": "He is serving a one-match league ban for his red card against Manchester City, so he misses the Brentford trip. He is available again for the Brighton game on 25 October.",
+      "source": "Dave Sport",
+      "url": "https://dave.sport/news/liverpool-injury-update-isak-gakpo-szoboszlai-brentford/"
+    },
+    {
+      "player": "Hugo Ekitike",
+      "pos": "FW",
+      "status": "out",
+      "issue": "Achilles",
+      "detail": "He ruptured his Achilles in April and is still some way from full training. A return around December is the likeliest, though he may help in the final group-stage games.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
+    },
+    {
+      "player": "Conor Bradley",
+      "pos": "DF",
+      "status": "out",
+      "issue": "Knee",
+      "detail": "He had surgery on a serious left knee injury sustained at Arsenal in January and is training alone. November or December is the likeliest return window.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
+    },
+    {
+      "player": "Giovanni Leoni",
+      "pos": "DF",
+      "status": "out",
+      "issue": "ACL",
+      "detail": "He has not played since September 2025 after an ACL injury, and Iraola says his issue involves more than the ligament tear. Liverpool are targeting the November international break for his return to team training and will not rush him.",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/liverpool-face-triple-injury-doubt-134500755.html"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10-15",
+      "source": "Liverpool Echo",
+      "title": "Unexpected Liverpool absence at LASK may have hinted at new plan under Andoni Iraola",
+      "summary": "Virgil van Dijk was a substitute in the Champions League win at LASK and it may not be the last time the Liverpool captain is rotated to the bench this season",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/unexpected-liverpool-absence-lask-hinted-34769993"
+    },
+    {
+      "date": "2026-10-15",
+      "source": "Liverpool Echo",
+      "title": "Virgil van Dijk lifts lid on Bradley Barcola as 'massive' Liverpool difference expected",
+      "summary": "Liverpool skipper Virgil van Dijk believes new £123m signing Bradley Barcola will have turned a corner with his Champions League hat-trick at LASK",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-lifts-lid-34769907"
+    },
+    {
+      "date": "2026-10-15",
+      "source": "Liverpool Echo",
+      "title": "Liverpool given Adam Wharton transfer instruction after Alex Scott £100m valuation assessed",
+      "summary": "Adam Wharton's current Crystal Palace contract dosen't expire until the summer of 2029, but that hasn't stopped him being linked with a move to Liverpool",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-wharton-transfer-alex-scott-34770625"
+    },
+    {
+      "date": "2026-10-15",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola sets Liverpool players challenge amid hectic schedule - 'We haven't slept'",
+      "summary": "Andoni Iraola challenges his Liverpool players to embrace the schedule ahead of Saturday's trip to Brentford",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sets-liverpool-players-34769073"
+    },
+    {
+      "date": "2026-10-15",
+      "source": "Liverpool Echo",
+      "title": "Isak, Gakpo, Szoboszlai - Liverpool injury news and return dates ahead of Brentford",
+      "summary": "The Liverpool boss spoke to the media on Thursday afternoon and provided injury updates ahead of the Premier League clash against Brentford",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-injuries-brentford-isak-gakpo-34768335"
+    },
+    {
+      "date": "2026-10-15",
+      "source": "Liverpool Echo",
+      "title": "Giovanni Leoni return for Liverpool delayed as Andoni Iraola explains injury concern",
+      "summary": "Liverpool boss Andoni Iraola has offered an update on the fitness of his injured players ahead of the Premier League clash at Brentford on Saturday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/giovanni-leoni-return-liverpool-delayed-34768554"
+    },
+    {
+      "date": "2026-10-15",
+      "source": "BBC Sport",
+      "title": "Why Souness rejected Barcelona when he left Liverpool",
+      "summary": "Liverpool legend Graeme Souness reveals he rejected the chance to sign for Barcelona when he left the European champions.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm0j07pdw95eo"
+    },
+    {
+      "date": "2026-10-15",
+      "source": "BBC Sport",
+      "title": "'Unbelievable' player performance makes Liverpool fan smile",
+      "summary": "Liverpool fan Nahyan Chowdhury hails Bradley Barcola and Lewis Koumas performances against LASK",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq9vzg1jnnzwo"
+    },
+    {
+      "date": "2026-10-14",
+      "source": "BBC Sport",
+      "title": "Brilliant Barcola scores first hat-trick to get lift-off at Liverpool",
+      "summary": "Liverpool's summer signing Bradley Barcola scores his first senior hat-trick, and his first goals for Liverpool, as he helps his side beat LASK 6-3 in Austria to make it two wins from two in this season's Champions League.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmx237q7nl21o"
+    },
+    {
+      "date": "2026-10-14",
+      "source": "BBC Sport",
+      "title": "Barcola shines as Liverpool score six to beat LASK",
+      "summary": "Bradley Barcola scores a hat-trick as Liverpool beat LASK 6-3 in Austria to make it two wins from two in the league phase of this season's Champions League.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c68jzlwpk01zo"
+    },
+    {
+      "date": "2026-10-14",
+      "source": "BBC Sport",
+      "title": "On night of mayhem for Liverpool, Barcola arrives in style",
+      "summary": "Bradley Barcola's form was the subject of pre-match questions before Liverpool faced LASK - but the France forward's Champions League hat-trick was the perfect answer.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c39wzg59x1yxo"
+    },
+    {
+      "date": "2026-10-13",
+      "source": "BBC Sport",
+      "title": "Iraola - Barcola and Wirtz will come good",
+      "summary": "Head coach Andoni Iraola has said ahead of Liverpool's Champions League match against LASK on Wednesday that he believes that Wirtz and Barcola performances will come.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr9dzjvdl57po"
+    }
+  ],
+  "outlets": [
+    {
+      "name": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news"
+    },
+    {
+      "name": "BBC Sport",
+      "url": "https://www.bbc.com/sport/football/teams/liverpool"
+    },
+    {
+      "name": "Liverpool Echo",
+      "url": "https://www.liverpoolecho.co.uk/all-about/liverpool-fc"
+    },
+    {
+      "name": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/"
+    },
+    {
+      "name": "ESPN",
+      "url": "https://www.espn.com/soccer/team/_/id/364/liverpool"
+    },
+    {
+      "name": "Sky Sports",
+      "url": "https://www.skysports.com/liverpool"
+    }
+  ],
+  "clTable": {
+    "asof": "2026-10-15",
+    "source": "UEFA",
+    "url": "https://www.uefa.com/uefachampionsleague/standings/",
+    "rows": [
+      {
+        "pos": 1,
+        "team": "Paris Saint-Germain",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 10,
+        "ga": 3,
+        "pts": 6
+      },
+      {
+        "pos": 2,
+        "team": "Barcelona",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 9,
+        "ga": 2,
+        "pts": 6
+      },
+      {
+        "pos": 3,
+        "team": "Aston Villa",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 9,
+        "ga": 2,
+        "pts": 6
+      },
+      {
+        "pos": 4,
+        "team": "VfB Stuttgart",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "pts": 6
+      },
+      {
+        "pos": 5,
+        "team": "Liverpool",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 8,
+        "ga": 4,
+        "pts": 6
+      },
+      {
+        "pos": 6,
+        "team": "Sporting CP",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 5,
+        "ga": 1,
+        "pts": 6
+      },
+      {
+        "pos": 7,
+        "team": "Arsenal",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 0,
+        "pts": 6
+      },
+      {
+        "pos": 8,
+        "team": "Real Madrid",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 4,
+        "pts": 6
+      },
+      {
+        "pos": 9,
+        "team": "Real Betis Balompié",
+        "p": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 4,
+        "pts": 6
+      },
+      {
+        "pos": 10,
+        "team": "Bayern Munich",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 8,
+        "ga": 3,
+        "pts": 4
+      },
+      {
+        "pos": 11,
+        "team": "FK Shakhtar Donetsk",
+        "p": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "pts": 4
+      },
+      {
+        "pos": 12,
+        "team": "Como 1907",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 6,
+        "ga": 4,
+        "pts": 3
+      },
+      {
+        "pos": 13,
+        "team": "Manchester United",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 4,
+        "ga": 2,
+        "pts": 3
+      },
+      {
+        "pos": 14,
+        "team": "Villarreal",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 5,
+        "ga": 4,
+        "pts": 3
+      },
+      {
+        "pos": 15,
+        "team": "Atlético Madrid",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 2,
+        "pts": 3
+      },
+      {
+        "pos": 16,
+        "team": "Club Brugge",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 6,
+        "ga": 6,
+        "pts": 3
+      },
+      {
+        "pos": 17,
+        "team": "Manchester City",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 4,
+        "ga": 4,
+        "pts": 3
+      },
+      {
+        "pos": 18,
+        "team": "Borussia Dortmund",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 3,
+        "pts": 3
+      },
+      {
+        "pos": 19,
+        "team": "Lens",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 4,
+        "pts": 3
+      },
+      {
+        "pos": 20,
+        "team": "PAE AEK",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 3
+      },
+      {
+        "pos": 21,
+        "team": "RB Leipzig",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 3
+      },
+      {
+        "pos": 22,
+        "team": "Sabah FK",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 3
+      },
+      {
+        "pos": 23,
+        "team": "Feyenoord Rotterdam",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 4,
+        "ga": 7,
+        "pts": 3
+      },
+      {
+        "pos": 24,
+        "team": "FK Bodø/Glimt",
+        "p": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 5,
+        "pts": 3
+      },
+      {
+        "pos": 25,
+        "team": "AS Roma",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 4,
+        "ga": 5,
+        "pts": 1
+      },
+      {
+        "pos": 26,
+        "team": "PSV",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 1
+      },
+      {
+        "pos": 27,
+        "team": "Viking FK",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 4,
+        "ga": 6,
+        "pts": 1
+      },
+      {
+        "pos": 28,
+        "team": "Fenerbahçe",
+        "p": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 7,
+        "pts": 1
+      },
+      {
+        "pos": 29,
+        "team": "Inter Milan",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 4,
+        "ga": 6,
+        "pts": 0
+      },
+      {
+        "pos": 30,
+        "team": "FC Porto",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 5,
+        "pts": 0
+      },
+      {
+        "pos": 31,
+        "team": "SK Slavia Praha",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 5,
+        "pts": 0
+      },
+      {
+        "pos": 32,
+        "team": "SSC Napoli",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 4,
+        "pts": 0
+      },
+      {
+        "pos": 33,
+        "team": "LASK Linz",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 3,
+        "ga": 7,
+        "pts": 0
+      },
+      {
+        "pos": 34,
+        "team": "Lille OSC",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 6,
+        "pts": 0
+      },
+      {
+        "pos": 35,
+        "team": "Galatasaray",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 7,
+        "pts": 0
+      },
+      {
+        "pos": 36,
+        "team": "ŠK Slovan Bratislava",
+        "p": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 9,
+        "pts": 0
+      }
+    ]
+  }
+}
