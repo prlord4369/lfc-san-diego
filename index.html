@@ -668,19 +668,23 @@ function render(data) {
     var groups = [["GK", "Goalkeepers"], ["DF", "Defenders"], ["MF", "Midfielders"], ["FW", "Forwards"]];
     var html = "<thead><tr><th>No.</th><th class=\"tm\">Player</th><th>Nationality</th><th>Reg.</th><th>Status</th></tr></thead><tbody>";
     groups.forEach(function (g) {
-      var ps = sq.players.filter(function (p) { return p.pos === g[0]; }).sort(function (a, b) { return a.no - b.no; });
+      // New signings may not have a shirt number yet: they sort to the end of their group
+      var ps = sq.players.filter(function (p) { return p.pos === g[0]; })
+        .sort(function (a, b) { return (a.no == null ? 999 : a.no) - (b.no == null ? 999 : b.no); });
       if (!ps.length) return;
       html += "<tr class=\"grp\"><td colspan=\"5\">" + g[1] + "</td></tr>";
       ps.forEach(function (p) {
         var inj = injBy[p.name];
         var who = p.profile ? "<a class=\"pl\" href=\"" + esc(p.profile) + "\" target=\"_blank\" rel=\"noopener\">" + esc(p.name) + "</a>" : esc(p.name);
-        html += "<tr><td class=\"ps\">" + esc(p.no) + "</td><td class=\"tm\">" + who + (p.note ? " <span class=\"reg\">(" + esc(p.note) + ")</span>" : "") + "</td>" +
+        html += "<tr><td class=\"ps\">" + (p.no == null ? "–" : esc(p.no)) + "</td><td class=\"tm\">" + who + (p.note ? " <span class=\"reg\">(" + esc(p.note) + ")</span>" : "") + "</td>" +
           "<td>" + esc(p.nat) + "</td><td class=\"reg\">" + esc(p.reg || "") + "</td>" +
           "<td>" + (inj ? "<span class=\"chip " + inj.status + "\" title=\"" + esc(inj.issue) + "\">" + names[inj.status] + "</span>" : "") + "</td></tr>";
       });
     });
     document.getElementById("sq").innerHTML = html + "</tbody>";
-    document.getElementById("sq-asof").innerHTML = (sq.asof ? "As of " + esc(new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(sq.asof + "T12:00:00Z"))) : "") +
+    // "checked" is set by every daily update; "asof" only when a player was added or removed
+    var sqDate = sq.checked || sq.asof;
+    document.getElementById("sq-asof").innerHTML = (sqDate ? (sq.checked ? "Checked " : "As of ") + esc(new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(sqDate + "T12:00:00Z"))) : "") +
       (sq.url ? " · <a href=\"" + esc(sq.url) + "\" target=\"_blank\" rel=\"noopener\">Source</a>" : "");
   }
   // Subpages: #squad and #standings replace the main content; any other hash shows the main page.
