@@ -301,11 +301,13 @@
         "profile": "https://www.liverpoolfc.com/teams/mens-team/jayden-danns"
       },
       {
-        "no": null,
+        "no": 82,
         "name": "Joshua Sonni-Lambie",
         "pos": "FW",
         "nat": "England",
-        "reg": "",
+        "reg": "U21",
+          "profile": "https://www.liverpoolfc.com/teams/academy/josh-sonni-lambie",
+          "note": "Academy",
         "added": "2026-10-15",
         "fd": true
       }
