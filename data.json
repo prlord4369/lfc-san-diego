@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T19:38:39Z",
+  "updated": "2026-10-15T19:48:12Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -11,7 +11,7 @@
     "record": "P6 W2 D3 L1 · 9 pts"
   },
   "squad": {
-    "asof": "2026-10-12",
+    "asof": "2026-10-15",
     "source": "Premier League squad numbers 2026/27",
     "url": "https://www.premierleague.com/en/news/4725682/all-20-premier-league-clubs-squad-numbers-for-202627-season",
     "regUrl": "https://www.liverpoolfc.com/news/liverpool-submit-premier-league-squad-list-2026-27",
@@ -22,7 +22,8 @@
         "pos": "GK",
         "nat": "Brazil",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/alisson-becker"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/alisson-becker",
+        "fd": true
       },
       {
         "no": 25,
@@ -30,7 +31,8 @@
         "pos": "GK",
         "nat": "Georgia",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/giorgi-mamardashvili"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/giorgi-mamardashvili",
+        "fd": true
       },
       {
         "no": 28,
@@ -38,7 +40,8 @@
         "pos": "GK",
         "nat": "England",
         "reg": "HG",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/freddie-woodman"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/freddie-woodman",
+        "fd": true
       },
       {
         "no": 56,
@@ -46,7 +49,8 @@
         "pos": "GK",
         "nat": "Czechia",
         "reg": "HG",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/vitezslav-jaros"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/vitezslav-jaros",
+        "fd": true
       },
       {
         "no": 95,
@@ -54,7 +58,8 @@
         "pos": "GK",
         "nat": "England",
         "reg": "U21",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/harvey-davies"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/harvey-davies",
+        "fd": true
       },
       {
         "no": 2,
@@ -62,7 +67,8 @@
         "pos": "DF",
         "nat": "England",
         "reg": "HG",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/joe-gomez"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/joe-gomez",
+        "fd": true
       },
       {
         "no": 4,
@@ -70,7 +76,8 @@
         "pos": "DF",
         "nat": "Netherlands",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/virgil-van-dijk"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/virgil-van-dijk",
+        "fd": true
       },
       {
         "no": 5,
@@ -78,7 +85,8 @@
         "pos": "DF",
         "nat": "France",
         "reg": "U21",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremy-jacquet"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremy-jacquet",
+        "fd": true
       },
       {
         "no": 6,
@@ -86,7 +94,8 @@
         "pos": "DF",
         "nat": "Hungary",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/milos-kerkez"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/milos-kerkez",
+        "fd": true
       },
       {
         "no": 12,
@@ -94,7 +103,8 @@
         "pos": "DF",
         "nat": "Northern Ireland",
         "reg": "HG",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/conor-bradley"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/conor-bradley",
+        "fd": true
       },
       {
         "no": 15,
@@ -102,7 +112,8 @@
         "pos": "DF",
         "nat": "Italy",
         "reg": "U21",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/giovanni-leoni"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/giovanni-leoni",
+        "fd": true
       },
       {
         "no": 21,
@@ -110,7 +121,8 @@
         "pos": "DF",
         "nat": "Greece",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/kostas-tsimikas"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/kostas-tsimikas",
+        "fd": true
       },
       {
         "no": 30,
@@ -118,7 +130,8 @@
         "pos": "DF",
         "nat": "Netherlands",
         "reg": "HG",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremie-frimpong"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremie-frimpong",
+        "fd": true
       },
       {
         "no": 33,
@@ -126,7 +139,8 @@
         "pos": "DF",
         "nat": "Uruguay",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/ronald-araujo"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/ronald-araujo",
+        "fd": true
       },
       {
         "no": 44,
@@ -149,7 +163,8 @@
         "pos": "MF",
         "nat": "Japan",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/wataru-endo"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/wataru-endo",
+        "fd": true
       },
       {
         "no": 7,
@@ -157,7 +172,8 @@
         "pos": "MF",
         "nat": "Germany",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/florian-wirtz"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/florian-wirtz",
+        "fd": true
       },
       {
         "no": 8,
@@ -165,7 +181,8 @@
         "pos": "MF",
         "nat": "Hungary",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/dominik-szoboszlai"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/dominik-szoboszlai",
+        "fd": true
       },
       {
         "no": 10,
@@ -173,7 +190,8 @@
         "pos": "MF",
         "nat": "Argentina",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/alexis-mac-allister"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/alexis-mac-allister",
+        "fd": true
       },
       {
         "no": 38,
@@ -181,7 +199,8 @@
         "pos": "MF",
         "nat": "Netherlands",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/ryan-gravenberch"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/ryan-gravenberch",
+        "fd": true
       },
       {
         "no": 42,
@@ -189,7 +208,8 @@
         "pos": "MF",
         "nat": "England",
         "reg": "U21",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/trey-nyoni"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/trey-nyoni",
+        "fd": true
       },
       {
         "no": 53,
@@ -197,7 +217,8 @@
         "pos": "MF",
         "nat": "England",
         "reg": "HG",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/james-mcconnell"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/james-mcconnell",
+        "fd": true
       },
       {
         "no": 9,
@@ -205,7 +226,8 @@
         "pos": "FW",
         "nat": "Sweden",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/alexander-isak"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/alexander-isak",
+        "fd": true
       },
       {
         "no": 14,
@@ -213,7 +235,8 @@
         "pos": "FW",
         "nat": "Italy",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/federico-chiesa"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/federico-chiesa",
+        "fd": true
       },
       {
         "no": 18,
@@ -221,7 +244,8 @@
         "pos": "FW",
         "nat": "Netherlands",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/cody-gakpo"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/cody-gakpo",
+        "fd": true
       },
       {
         "no": 22,
@@ -229,7 +253,8 @@
         "pos": "FW",
         "nat": "France",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/hugo-ekitike"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/hugo-ekitike",
+        "fd": true
       },
       {
         "no": 23,
@@ -237,7 +262,8 @@
         "pos": "FW",
         "nat": "Spain",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/victor-munoz"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/victor-munoz",
+        "fd": true
       },
       {
         "no": 29,
@@ -245,7 +271,8 @@
         "pos": "FW",
         "nat": "France",
         "reg": "",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/bradley-barcola"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/bradley-barcola",
+        "fd": true
       },
       {
         "no": 67,
@@ -253,7 +280,8 @@
         "pos": "FW",
         "nat": "Wales",
         "reg": "U21",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/lewis-koumas"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/lewis-koumas",
+        "fd": true
       },
       {
         "no": 73,
@@ -261,7 +289,8 @@
         "pos": "FW",
         "nat": "England",
         "reg": "U21",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/rio-ngumoha"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/rio-ngumoha",
+        "fd": true
       },
       {
         "no": 76,
@@ -270,8 +299,18 @@
         "nat": "England",
         "reg": "U21",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/jayden-danns"
+      },
+      {
+        "no": null,
+        "name": "Joshua Sonni-Lambie",
+        "pos": "FW",
+        "nat": "England",
+        "reg": "",
+        "added": "2026-10-15",
+        "fd": true
       }
-    ]
+    ],
+    "checked": "2026-10-15"
   },
   "table": {
     "asof": "2026-10-15",
@@ -863,25 +902,25 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He picked up a tight hamstring on international duty and missed the Manchester City and LASK games. Iraola says it is still too early to call for Saturday's Brentford match (17 October).",
-      "source": "Dave Sport",
-      "url": "https://dave.sport/news/liverpool-injury-update-isak-gakpo-szoboszlai-brentford/"
+      "detail": "He picked up a tight hamstring on international duty and missed the Manchester City and LASK games. Iraola says it is still too early to call for the Brentford match on 17 October.",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/andoni-iraola-drops-huge-liverpool-145000706.html"
     },
     {
       "player": "Cody Gakpo",
       "pos": "FW",
       "status": "doubt",
       "issue": "Ankle",
-      "detail": "He hurt his ankle in a tackle on international duty and missed the City and LASK games. Iraola has left the chance open for Brentford, but his fitness is not yet confirmed.",
-      "source": "Dave Sport",
-      "url": "https://dave.sport/news/liverpool-injury-update-isak-gakpo-szoboszlai-brentford/"
+      "detail": "He hurt his ankle on international duty and missed the City and LASK games. Iraola has left the chance open for Brentford, but his fitness is not yet confirmed.",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/andoni-iraola-drops-huge-liverpool-145000706.html"
     },
     {
       "player": "Alexander Isak",
       "pos": "FW",
       "status": "doubt",
       "issue": "Thigh",
-      "detail": "He has a thigh problem from the international break and has missed the City and LASK matches. Iraola says it is not a long-term issue, but Isak had not returned to training and remains a question mark for Brentford.",
+      "detail": "He has a thigh problem from the international break and missed the City and LASK matches. Iraola says it is not a long-term issue, but Isak had not returned to training before Brentford.",
       "source": "Brit Brief",
       "url": "https://britbrief.co.uk/sports/injuries/liverpool-injury-news-isak-gakpo-szoboszlai-doubts-for-brentford.html"
     },
@@ -890,36 +929,36 @@
       "pos": "MF",
       "status": "out",
       "issue": "Suspension",
-      "detail": "He is serving a one-match league ban for his red card against Manchester City, so he misses the Brentford trip. He is available again for the Brighton game on 25 October.",
-      "source": "Dave Sport",
-      "url": "https://dave.sport/news/liverpool-injury-update-isak-gakpo-szoboszlai-brentford/"
+      "detail": "He is serving a one-match ban for his red card against Manchester City, so he misses the Brentford trip.",
+      "source": "Brit Brief",
+      "url": "https://britbrief.co.uk/sports/football/liverpool-face-brentford-with-szoboszlai-isak-gakpo-doubts.html"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He ruptured his Achilles in April and is still some way from full training. A return around December is the likeliest, though he may help in the final group-stage games.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
+      "detail": "He has been out since ruptring his right Achilles in April. Brit Brief reports a return could come in January, while the club-linked earlier estimate pointed to around December.",
+      "source": "Brit Brief",
+      "url": "https://britbrief.co.uk/sports/doping/liverpool-injury-update-szoboszlai-isak-gakpo-latest-15102026.html"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He had surgery on a serious left knee injury sustained at Arsenal in January and is training alone. November or December is the likeliest return window.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
+      "detail": "He has been sidelined since January with knee damage from surgery and is not yet close to training with the squad. The expected return window is November or December.",
+      "source": "Brit Brief",
+      "url": "https://britbrief.co.uk/sports/doping/liverpool-injury-update-szoboszlai-isak-gakpo-latest-15102026.html"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played since September 2025 after an ACL injury, and Iraola says his issue involves more than the ligament tear. Liverpool are targeting the November international break for his return to team training and will not rush him.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/liverpool-face-triple-injury-doubt-134500755.html"
+      "detail": "He has not played since his ACL injury last September and his recovery has taken longer than planned. Liverpool will not return him to team training until the November international break.",
+      "source": "Brit Brief",
+      "url": "https://britbrief.co.uk/sports/football/liverpool-face-brentford-with-szoboszlai-isak-gakpo-doubts.html"
     }
   ],
   "news": [
