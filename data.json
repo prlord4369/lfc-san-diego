@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T12:25:12Z",
+  "updated": "2026-10-16T19:44:01Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -967,44 +967,51 @@
     {
       "date": "2026-10-16",
       "source": "Liverpool Echo",
+      "title": "14 players to miss Brentford vs Liverpool as late fitness tests scheduled",
+      "summary": "Liverpool are still dealing with a number of injuries as Andoni Iraola prepares his side to take on Brentford in the Premier League, with the Bees flying high in fourth",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/brentford-vs-liverpool-team-news-34778074"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "What Andoni Iraola has given Trey Nyoni as Liverpool midfielder makes Thiago Alcantara claim",
+      "summary": "Liverpool teenage midfielder Trey Nyoni speaks after his first Champions League start and his plans for the season",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-andoni-iraola-given-trey-34774110"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "BBC Sport",
+      "title": "Feel-good Koumas story something for Liverpool to smile about",
+      "summary": "Lewis Koumas on breaking Steven Gerrard's record, seizing his opportunity under Andoni Iraola, and why he couldn't sleep after playing Manchester City.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwy7l5e4376no"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "Lewis Koumas responds to Steven Gerrard revelation and makes Liverpool vow - 'I just want more'",
+      "summary": "Liverpool youngster Lewis Koumas has opened up on an important week in his career and his plans under head coach Andoni Iraola",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/lewis-koumas-responds-steven-gerrard-34774046"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "Linda Henry pens emotional message to Liverpool fans to mark special occasion",
+      "summary": "John Henry's wife Linda Pizzuti Henry has sent an emotional message to Liverpool fans on social media",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-fsg-linda-john-henry-34776382"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "Brentford boss gives injury updates on five players including Kevin Schade ahead of Liverpool game",
+      "summary": "Brentford boss Keith Andrews faced the press ahead of his side's Premier League clash with Liverpool on Saturday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/brentford-boss-gives-injury-updates-34776242"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
       "title": "Liverpool 'have badly overspent and won't finish in the top four this season'",
       "summary": "Former Liverpool midfielder Dietmar Hamann has slammed the Reds' transfer business and dismissed hopes of a top-four finish under Andoni Iraola",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-have-badly-overspent-wont-34773261"
-    },
-    {
-      "date": "2026-10-16",
-      "source": "Liverpool Echo",
-      "title": "Liverpool warned that 'rock-solid' Caoimhin Kelleher could cost them - Brentford Q&A",
-      "summary": "The ECHO spoke to Brentford fan Jake Murtagh ahead of Liverpool's trip to London for the Saturday 3pm kick-off",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-warned-rock-solid-caoimhin-34771274"
-    },
-    {
-      "date": "2026-10-16",
-      "source": "Liverpool Echo",
-      "title": "How Bradley Barcola and Florian Wirtz got going and have Liverpool found future midfield pair?",
-      "summary": "TACTICAL ANALYSIS: Liverpool's 6-3 victory in the second game of the Champions League league phase flattered their opponents with plenty of encouraging signs from under-fire stars",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/how-bradley-barcola-florian-wirtz-34768856"
-    },
-    {
-      "date": "2026-10-15",
-      "source": "Liverpool Echo",
-      "title": "Liverpool latest: Iraola admits dilemma as Gerrard identifies Wirtz's biggest issue",
-      "summary": "Andoni Iraola has opened up about difficulties within his Liverpool team",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-florian-wirtz-iraola-gerrard-34770078"
-    },
-    {
-      "date": "2026-10-15",
-      "source": "Liverpool Echo",
-      "title": "Will Wright on Liverpool future, learning from Alexander Isak and what Andoni Iraola has told him",
-      "summary": "Academy striker Will Wright scored a hat-trick for Liverpool in midweek while Luca Eden has been praised",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/wright-liverpool-future-learning-alexander-34767724"
-    },
-    {
-      "date": "2026-10-15",
-      "source": "Liverpool Echo",
-      "title": "Liverpool stars have had perfect springboard ahead of Premier League litmus test",
-      "summary": "Our Reds Jury discuss a brilliant night in the Champions League ahead of Saturday afternoon's Premier League trip to Brentford",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-stars-perfect-springboard-ahead-34771563"
     },
     {
       "date": "2026-10-15",
@@ -1040,13 +1047,6 @@
       "title": "On night of mayhem for Liverpool, Barcola arrives in style",
       "summary": "Bradley Barcola's form was the subject of pre-match questions before Liverpool faced LASK - but the France forward's Champions League hat-trick was the perfect answer.",
       "url": "https://www.bbc.co.uk/sport/football/articles/c39wzg59x1yxo"
-    },
-    {
-      "date": "2026-10-13",
-      "source": "BBC Sport",
-      "title": "Iraola - Barcola and Wirtz will come good",
-      "summary": "Head coach Andoni Iraola has said ahead of Liverpool's Champions League match against LASK on Wednesday that he believes that Wirtz and Barcola performances will come.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cr9dzjvdl57po"
     }
   ],
   "outlets": [
