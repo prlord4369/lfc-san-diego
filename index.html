@@ -190,8 +190,6 @@ section { min-width: 0; scroll-margin-top: 16px; }
 
 /* Squad view (shown only at #squad) */
 .squad-view .wrap { padding-block: 28px 40px; display: grid; gap: 20px; }
-.back-link { justify-self: start; font-weight: 700; font-size: .9rem; color: var(--red); text-decoration: none; }
-.back-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .lt.sq td.ps { color: var(--fg); font-weight: 700; }
 .lt.sq td, .lt.sq th { text-align: left; }
 .lt.sq td.tm { width: auto; }
@@ -308,7 +306,6 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 
 <div class="squad-view" id="table-view" hidden>
   <div class="wrap">
-    <a class="back-link" href="#top">← Back to main page</a>
     <section id="standings" aria-labelledby="st-h">
       <div class="sec-head"><h2 id="st-h">Standings</h2><span class="label" id="lt-asof"></span></div>
       <div class="tabs" role="tablist" aria-label="Competitions">
@@ -333,19 +330,16 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
         <div class="cup" id="cup-fa"></div>
       </div>
     </section>
-    <a class="back-link" href="#top">← Back to main page</a>
   </div>
 </div>
 
 <div class="squad-view" id="squad-view" hidden>
   <div class="wrap">
-    <a class="back-link" href="#top">← Back to main page</a>
     <section aria-labelledby="sq-h">
       <div class="sec-head"><h2 id="sq-h">First-team squad 2026/27</h2><span class="label" id="sq-asof"></span></div>
       <div class="lt-wrap"><table class="lt sq" id="sq"></table></div>
       <p class="note"><b>HG</b> = homegrown on the Premier League 25-man list. <b>U21</b> = under-21, eligible without being on the list. Availability comes from the injury list on the main page.</p>
     </section>
-    <a class="back-link" href="#top">← Back to main page</a>
   </div>
 </div>
 
@@ -633,7 +627,7 @@ function render(data) {
     "A knockout competition, so there's no league table. Premier League clubs join in the third round in early January; the draw is made in early December.",
     "Liverpool join in the third round in January. The opponent comes from the draw in early December.");
 
-  // Tabs: click or arrow keys; the chosen tab is remembered on this device
+  // Tabs: click or arrow keys. Opening the Standings page always starts on the Premier League tab (see route).
   var tabs = [].slice.call(document.querySelectorAll(".tabs [role=tab]"));
   var showTab = function (key) {
     tabs.forEach(function (b) {
@@ -642,7 +636,6 @@ function render(data) {
       document.getElementById(b.getAttribute("aria-controls")).hidden = !on;
     });
     document.getElementById("lt-asof").innerHTML = key === "pl" ? asOf(lt) : key === "cl" ? asOf(clt) : "";
-    try { localStorage.setItem("lfcsd-standings", key); } catch (e) {}
   };
   tabs.forEach(function (b, i) {
     b.addEventListener("click", function () { showTab(b.dataset.tab); });
@@ -652,9 +645,7 @@ function render(data) {
       var nb = tabs[(i + d + tabs.length) % tabs.length]; showTab(nb.dataset.tab); nb.focus();
     });
   });
-  var savedTab = "pl";
-  try { savedTab = localStorage.getItem("lfcsd-standings") || "pl"; } catch (e) {}
-  showTab(tabs.some(function (b) { return b.dataset.tab === savedTab; }) ? savedTab : "pl");
+  showTab("pl");
 
   // News
   var dfmt = function (s) { if (s.length === 7) return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", year: "numeric" }).format(new Date(s + "-15T12:00:00Z")); return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(s + "T12:00:00Z")); };
@@ -707,7 +698,8 @@ function render(data) {
     var cur = views[location.hash] && views[location.hash].ok ? location.hash : "";
     Object.keys(views).forEach(function (k) { views[k].el.hidden = k !== cur; });
     mainParts.forEach(function (el) { if (el) el.hidden = !!cur; });
-    // A subpage, or "#top" (the back links and the site name), starts at the very top so the header bar shows.
+    if (cur === "#standings") showTab("pl");   // every visit to Standings opens on the Premier League
+    // A subpage, or "#top" (the site name), starts at the very top so the header bar shows.
     // (#top is on the next-match banner, so scrolling to the element itself would hide the header above it.)
     if (cur || location.hash === "#top") { window.scrollTo(0, 0); return; }
     // Coming back from the squad view: the anchor was hidden when the browser tried to scroll to it
