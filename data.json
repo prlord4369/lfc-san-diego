@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T19:48:24Z",
+  "updated": "2026-10-16T19:52:36Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -642,8 +642,8 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "tbc": true,
-      "scope": "domestic"
+      "scope": "domestic",
+      "tbc": true
     },
     {
       "kickoff": "2026-11-01T16:30:00Z",
@@ -904,7 +904,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Int'l knock",
-      "detail": "He was absent for the Manchester City and LASK matches after an injury picked up on international duty. Iraola has not ruled him out for Brentford on 17 October, but the final training session will decide.",
+      "detail": "He was absent for the Manchester City and LASK matches after an injury picked up on international duty. Iraola has not ruled him out for Brentford on 17 October, and the final training session will decide.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
@@ -931,7 +931,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Suspension",
-      "detail": "He was sent off in the 3-0 defeat to Manchester City and is serving a one-match league suspension, so he misses Brentford. He is available again for the Brighton match.",
+      "detail": "He was sent off in the 3-0 defeat to Manchester City and is serving a one-match league suspension, so he misses Brentford.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
@@ -940,7 +940,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Long-term injury",
-      "detail": "He is a long-term absentee and has not returned to action. No confirmed return date was found in an approved outlet.",
+      "detail": "He is listed among the long-term absentees and has not returned to action. No confirmed return date was found in an approved outlet.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
@@ -949,7 +949,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Long-term injury",
-      "detail": "He is a long-term absentee and has not returned to action. No confirmed return date was found in an approved outlet.",
+      "detail": "He is listed among the long-term absentees and has not returned to action. No confirmed return date was found in an approved outlet.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
@@ -958,7 +958,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Long-term injury",
-      "detail": "He is a long-term absentee and has not returned to action. No confirmed return date was found in an approved outlet.",
+      "detail": "He is listed among the long-term absentees and has not returned to action. No confirmed return date was found in an approved outlet.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     }
