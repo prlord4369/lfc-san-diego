@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T23:08:48Z",
+  "updated": "2026-10-16T23:11:46Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -638,14 +638,6 @@
       "scope": "domestic"
     },
     {
-      "kickoff": "2026-10-28T20:00:00Z",
-      "opp": "Chelsea",
-      "ha": "H",
-      "comp": "Carabao Cup R4",
-      "tbc": true,
-      "scope": "domestic"
-    },
-    {
       "kickoff": "2026-11-01T16:30:00Z",
       "opp": "Arsenal",
       "ha": "H",
@@ -904,7 +896,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He aggravated a hamstring issue on Hungary duty and has missed the last two games. He is said to be hopeful of a return within about a week, and a Brentford role cannot be ruled out.",
+      "detail": "He aggravated a hamstring issue on Hungary duty and has missed the last two games. He is reportedly hopeful of a return within about a week, and a role against Brentford cannot be ruled out.",
       "source": "This Is Anfield",
       "url": "https://www.thisisanfield.com/2026/10/dominik-szoboszlai-injury-update-liverpool-return/"
     },
@@ -913,7 +905,7 @@
       "pos": "FW",
       "status": "doubt",
       "issue": "Ankle",
-      "detail": "He injured his ankle on Netherlands duty and has missed the Manchester City and LASK matches. Iraola says he has not trained with the group yet and is taking it day to day.",
+      "detail": "He hurt his ankle on Netherlands duty and has missed the Manchester City and LASK matches. Iraola says he has not trained with the group yet and is taking it day to day.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-gives-szoboszlai-34758851"
     },
