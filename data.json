@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T19:44:01Z",
+  "updated": "2026-10-16T19:48:24Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -642,7 +642,7 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "tbc": false,
+      "tbc": true,
       "scope": "domestic"
     },
     {
@@ -903,64 +903,64 @@
       "player": "Dominik Szoboszlai",
       "pos": "MF",
       "status": "doubt",
-      "issue": "Hamstring",
-      "detail": "He returned from Hungary duty with hamstring tightness and missed the Manchester City and LASK games. Iraola has not ruled him out for Brentford on 17 October, but the final training session will decide.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/andoni-iraola-drops-huge-liverpool-145000706.html"
+      "issue": "Int'l knock",
+      "detail": "He was absent for the Manchester City and LASK matches after an injury picked up on international duty. Iraola has not ruled him out for Brentford on 17 October, but the final training session will decide.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
     {
       "player": "Cody Gakpo",
       "pos": "FW",
       "status": "doubt",
-      "issue": "Ankle",
-      "detail": "He picked up an ankle injury on Netherlands duty and missed the City and LASK matches. Iraola has not ruled him out for Brentford, but his availability depends on his fitness in the final training session.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/andoni-iraola-drops-huge-liverpool-145000706.html"
+      "issue": "Int'l knock",
+      "detail": "He missed the Manchester City and LASK matches after an injury picked up on international duty. Iraola has not ruled him out for Brentford, and late checks continue.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
     {
       "player": "Alexander Isak",
       "pos": "FW",
       "status": "doubt",
-      "issue": "Thigh",
-      "detail": "He suffered a thigh problem on Sweden duty and has missed the last two games across all competitions. Iraola says it is not a long-term concern, and a return for the Brentford match on 17 October is possible.",
-      "source": "Sports Mole",
-      "url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/injuries-and-suspensions/are-gakpo-isak-szoboszlai-back-liverpool-injury-suspension-list-vs-brentford_607012.html"
+      "issue": "Int'l knock",
+      "detail": "He missed the Manchester City and LASK matches after an injury picked up on international duty. Iraola has not ruled him out for Brentford on 17 October, with the final training session deciding.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
       "status": "out",
       "issue": "Suspension",
-      "detail": "He was sent off in the 3-0 defeat to Manchester City and is serving a one-match ban, so he misses the Brentford trip.",
-      "source": "Brit Brief",
-      "url": "https://britbrief.co.uk/sports/football/liverpool-face-brentford-with-szoboszlai-isak-gakpo-doubts.html"
+      "detail": "He was sent off in the 3-0 defeat to Manchester City and is serving a one-match league suspension, so he misses Brentford. He is available again for the Brighton match.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
-      "issue": "Achilles",
-      "detail": "He has been out since rupturing his right Achilles in April and could be back around January, according to Brit Brief.",
-      "source": "Brit Brief",
-      "url": "https://britbrief.co.uk/sports/doping/liverpool-injury-update-szoboszlai-isak-gakpo-latest-15102026.html"
+      "issue": "Long-term injury",
+      "detail": "He is a long-term absentee and has not returned to action. No confirmed return date was found in an approved outlet.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
-      "issue": "Knee",
-      "detail": "He has been sidelined since January with knee damage and is not close to training with the team yet. Recent reports still point to a return in November or December.",
-      "source": "Brit Brief",
-      "url": "https://britbrief.co.uk/sports/doping/liverpool-injury-update-szoboszlai-isak-gakpo-latest-15102026.html"
+      "issue": "Long-term injury",
+      "detail": "He is a long-term absentee and has not returned to action. No confirmed return date was found in an approved outlet.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
-      "issue": "ACL",
-      "detail": "He has not played since his ACL injury last September and his injury needs extra caution. The club are targeting the November international break for his return to team training.",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/articles/liverpool-face-triple-injury-doubt-134500755.html"
+      "issue": "Long-term injury",
+      "detail": "He is a long-term absentee and has not returned to action. No confirmed return date was found in an approved outlet.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     }
   ],
   "news": [
