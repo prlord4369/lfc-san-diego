@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T20:01:18Z",
+  "updated": "2026-10-16T23:08:48Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -904,25 +904,25 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He picked up a tight hamstring on international duty and has missed the last two matches. He has not trained with the group yet, and Iraola has not ruled him out for Brentford on 17 October.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-brentford-isak-34777095"
+      "detail": "He aggravated a hamstring issue on Hungary duty and has missed the last two games. He is said to be hopeful of a return within about a week, and a Brentford role cannot be ruled out.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/dominik-szoboszlai-injury-update-liverpool-return/"
     },
     {
       "player": "Cody Gakpo",
       "pos": "FW",
       "status": "doubt",
       "issue": "Ankle",
-      "detail": "He withdrew from international duty with an ankle injury and has missed the Manchester City and LASK matches. He has not returned to training with the group, but Iraola has left the door open for Brentford.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/isak-szoboszlai-gakpo-injury-liverpool-news-lask-brentford/"
+      "detail": "He injured his ankle on Netherlands duty and has missed the Manchester City and LASK matches. Iraola says he has not trained with the group yet and is taking it day to day.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-gives-szoboszlai-34758851"
     },
     {
       "player": "Alexander Isak",
       "pos": "FW",
       "status": "doubt",
       "issue": "Thigh",
-      "detail": "He withdrew from international duty with a thigh injury described as minor and has missed the last two matches. Iraola has not ruled him out for Brentford, and training will decide.",
+      "detail": "He picked up a thigh problem described as minor on Sweden duty and has missed the last two matches. Iraola has not ruled him out for Brentford, and training will decide.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     },
@@ -931,16 +931,16 @@
       "pos": "MF",
       "status": "out",
       "issue": "Suspension",
-      "detail": "He was sent off in the 3-0 defeat to Manchester City and is serving a one-match league suspension, so he misses Brentford.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
+      "detail": "He was sent off in the Manchester City defeat and misses the Brentford match.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is recovering from an Achilles rupture and is reportedly targeting a comeback around Christmas. A possible return is Liverpool's Boxing Day trip to Hull.",
+      "detail": "He is recovering from Achilles surgery and Iraola has refused to set a timeframe, though he is doing well. A possible return is the Boxing Day trip to Hull.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     },
@@ -949,7 +949,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been sidelined since a serious knee injury against Arsenal in January and is not expected to resume training until next month at the earliest. A return is possibly November or December, and Liverpool are likely to be cautious.",
+      "detail": "He has been out since a serious knee injury against Arsenal in January and is not yet in full training. A return is possibly in November or December, and Liverpool will be cautious.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     },
@@ -958,12 +958,19 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has suffered a setback in his recovery from a serious knee injury, and his plan to train with the squad has slipped. Iraola says he is now due to start in the next international break, around November.",
+      "detail": "A setback in his knee recovery has delayed his plans, and he is now due to start in the next international break, around November.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     }
   ],
   "news": [
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola explains how Rio Ngumoha will fulfil Liverpool potential - 'not something normal'",
+      "summary": "Rio Ngumoha has broken into the England setup and excelled when Liverpool beat LASK 6-3 in the Champions League on Wednesday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-explains-how-rio-34775856"
+    },
     {
       "date": "2026-10-16",
       "source": "Liverpool Echo",
@@ -1005,13 +1012,6 @@
       "title": "Brentford boss gives injury updates on five players including Kevin Schade ahead of Liverpool game",
       "summary": "Brentford boss Keith Andrews faced the press ahead of his side's Premier League clash with Liverpool on Saturday afternoon",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/brentford-boss-gives-injury-updates-34776242"
-    },
-    {
-      "date": "2026-10-16",
-      "source": "Liverpool Echo",
-      "title": "Liverpool 'have badly overspent and won't finish in the top four this season'",
-      "summary": "Former Liverpool midfielder Dietmar Hamann has slammed the Reds' transfer business and dismissed hopes of a top-four finish under Andoni Iraola",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-have-badly-overspent-wont-34773261"
     },
     {
       "date": "2026-10-15",
