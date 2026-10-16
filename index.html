@@ -243,6 +243,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
   <div class="wrap">
     <a class="brand" href="#top"><b>LFC San Diego</b></a>
     <nav class="nav" aria-label="Sections">
+      <a href="#top">Home</a>
       <a href="#fixtures">Fixtures</a>
       <a href="#injuries">Injuries</a>
       <a href="#news">News</a>
@@ -707,6 +708,12 @@ function render(data) {
     if (target) target.scrollIntoView();
   };
   window.addEventListener("hashchange", route);
+  // Home / site name when the address already ends in #top: no hashchange fires, so scroll up here
+  document.querySelectorAll("a[href='#top']").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      if (location.hash === "#top") { e.preventDefault(); window.scrollTo(0, 0); }
+    });
+  });
   route();
 
   var upd = new Date(data.updated);
