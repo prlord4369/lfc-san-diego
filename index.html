@@ -57,7 +57,10 @@ h2 { font-size: 2rem; }
 .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 
 /* Header */
-.top { background: var(--red); color: var(--on-red); }
+/* The header bar stays pinned to the top while the page scrolls. --header-h (set by script) is its
+   height, so menu jumps land just below it instead of underneath it. */
+.top { background: var(--red); color: var(--on-red); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50; box-shadow: 0 1px 0 rgba(0,0,0,.08); }
+html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top, 0px)); }
 .top .wrap { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: center; gap: 12px 24px; padding-block: 14px; }
 .top .brand { grid-column: 1; justify-self: start; }
 .top .nav { grid-column: 2 / 4; justify-self: end; }
@@ -354,6 +357,14 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 </footer>
 
 <script>
+// Keep --header-h equal to the pinned header's height (it grows when the menu wraps on phones)
+(function () {
+  var top = document.querySelector(".top");
+  var set = function () { document.documentElement.style.setProperty("--header-h", top.offsetHeight + "px"); };
+  set();
+  if (window.ResizeObserver) new ResizeObserver(set).observe(top); else window.addEventListener("resize", set);
+})();
+
 // Page data lives in data.json, which the daily GitHub Action rewrites.
 fetch("data.json", { cache: "no-cache" })
   .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
