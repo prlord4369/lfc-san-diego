@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T19:57:16Z",
+  "updated": "2026-10-16T12:25:12Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
   },
   "table": {
-    "asof": "2026-10-15",
+    "asof": "2026-10-16",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -904,7 +904,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He picked up a tight hamstring on international duty and missed the City and LASK games. Iraola says it is still too early to call for the Brentford match on 17 October.",
+      "detail": "He returned from Hungary duty with hamstring tightness and missed the Manchester City and LASK games. Iraola has not ruled him out for Brentford on 17 October, but the final training session will decide.",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/andoni-iraola-drops-huge-liverpool-145000706.html"
     },
@@ -913,7 +913,7 @@
       "pos": "FW",
       "status": "doubt",
       "issue": "Ankle",
-      "detail": "He hurt his ankle on international duty and missed the City and LASK games. Iraola has left the chance open for Brentford, but his fitness is not yet confirmed.",
+      "detail": "He picked up an ankle injury on Netherlands duty and missed the City and LASK matches. Iraola has not ruled him out for Brentford, but his availability depends on his fitness in the final training session.",
       "source": "Yahoo Sports",
       "url": "https://sports.yahoo.com/articles/andoni-iraola-drops-huge-liverpool-145000706.html"
     },
@@ -922,16 +922,16 @@
       "pos": "FW",
       "status": "doubt",
       "issue": "Thigh",
-      "detail": "He has a thigh problem from the international break and missed the City and LASK matches. Iraola says it is not a long-term issue, but Isak had not returned to training before Brentford.",
-      "source": "Brit Brief",
-      "url": "https://britbrief.co.uk/sports/injuries/liverpool-injury-news-isak-gakpo-szoboszlai-doubts-for-brentford.html"
+      "detail": "He suffered a thigh problem on Sweden duty and has missed the last two games across all competitions. Iraola says it is not a long-term concern, and a return for the Brentford match on 17 October is possible.",
+      "source": "Sports Mole",
+      "url": "https://www.sportsmole.co.uk/football/liverpool/injury-news/injuries-and-suspensions/are-gakpo-isak-szoboszlai-back-liverpool-injury-suspension-list-vs-brentford_607012.html"
     },
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
       "status": "out",
       "issue": "Suspension",
-      "detail": "He is serving a one-match ban for his red card against Manchester City, so he misses the Brentford trip.",
+      "detail": "He was sent off in the 3-0 defeat to Manchester City and is serving a one-match ban, so he misses the Brentford trip.",
       "source": "Brit Brief",
       "url": "https://britbrief.co.uk/sports/football/liverpool-face-brentford-with-szoboszlai-isak-gakpo-doubts.html"
     },
@@ -958,53 +958,53 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played since tearing his ACL last September, and his recovery has taken longer than planned. Liverpool will not return him to team training until the November international break.",
-      "source": "Brit Brief",
-      "url": "https://britbrief.co.uk/sports/football/liverpool-face-brentford-with-szoboszlai-isak-gakpo-doubts.html"
+      "detail": "He has not played since his ACL injury last September and his injury needs extra caution. The club are targeting the November international break for his return to team training.",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/liverpool-face-triple-injury-doubt-134500755.html"
     }
   ],
   "news": [
     {
-      "date": "2026-10-15",
+      "date": "2026-10-16",
       "source": "Liverpool Echo",
-      "title": "Unexpected Liverpool absence at LASK may have hinted at new plan under Andoni Iraola",
-      "summary": "Virgil van Dijk was a substitute in the Champions League win at LASK and it may not be the last time the Liverpool captain is rotated to the bench this season",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/unexpected-liverpool-absence-lask-hinted-34769993"
+      "title": "Liverpool 'have badly overspent and won't finish in the top four this season'",
+      "summary": "Former Liverpool midfielder Dietmar Hamann has slammed the Reds' transfer business and dismissed hopes of a top-four finish under Andoni Iraola",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-have-badly-overspent-wont-34773261"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "Liverpool warned that 'rock-solid' Caoimhin Kelleher could cost them - Brentford Q&A",
+      "summary": "The ECHO spoke to Brentford fan Jake Murtagh ahead of Liverpool's trip to London for the Saturday 3pm kick-off",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-warned-rock-solid-caoimhin-34771274"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "How Bradley Barcola and Florian Wirtz got going and have Liverpool found future midfield pair?",
+      "summary": "TACTICAL ANALYSIS: Liverpool's 6-3 victory in the second game of the Champions League league phase flattered their opponents with plenty of encouraging signs from under-fire stars",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/how-bradley-barcola-florian-wirtz-34768856"
     },
     {
       "date": "2026-10-15",
       "source": "Liverpool Echo",
-      "title": "Virgil van Dijk lifts lid on Bradley Barcola as 'massive' Liverpool difference expected",
-      "summary": "Liverpool skipper Virgil van Dijk believes new £123m signing Bradley Barcola will have turned a corner with his Champions League hat-trick at LASK",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-lifts-lid-34769907"
+      "title": "Liverpool latest: Iraola admits dilemma as Gerrard identifies Wirtz's biggest issue",
+      "summary": "Andoni Iraola has opened up about difficulties within his Liverpool team",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-florian-wirtz-iraola-gerrard-34770078"
     },
     {
       "date": "2026-10-15",
       "source": "Liverpool Echo",
-      "title": "Liverpool given Adam Wharton transfer instruction after Alex Scott £100m valuation assessed",
-      "summary": "Adam Wharton's current Crystal Palace contract dosen't expire until the summer of 2029, but that hasn't stopped him being linked with a move to Liverpool",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-wharton-transfer-alex-scott-34770625"
+      "title": "Will Wright on Liverpool future, learning from Alexander Isak and what Andoni Iraola has told him",
+      "summary": "Academy striker Will Wright scored a hat-trick for Liverpool in midweek while Luca Eden has been praised",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/wright-liverpool-future-learning-alexander-34767724"
     },
     {
       "date": "2026-10-15",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola sets Liverpool players challenge amid hectic schedule - 'We haven't slept'",
-      "summary": "Andoni Iraola challenges his Liverpool players to embrace the schedule ahead of Saturday's trip to Brentford",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sets-liverpool-players-34769073"
-    },
-    {
-      "date": "2026-10-15",
-      "source": "Liverpool Echo",
-      "title": "Isak, Gakpo, Szoboszlai - Liverpool injury news and return dates ahead of Brentford",
-      "summary": "The Liverpool boss spoke to the media on Thursday afternoon and provided injury updates ahead of the Premier League clash against Brentford",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-injuries-brentford-isak-gakpo-34768335"
-    },
-    {
-      "date": "2026-10-15",
-      "source": "Liverpool Echo",
-      "title": "Giovanni Leoni return for Liverpool delayed as Andoni Iraola explains injury concern",
-      "summary": "Liverpool boss Andoni Iraola has offered an update on the fitness of his injured players ahead of the Premier League clash at Brentford on Saturday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/giovanni-leoni-return-liverpool-delayed-34768554"
+      "title": "Liverpool stars have had perfect springboard ahead of Premier League litmus test",
+      "summary": "Our Reds Jury discuss a brilliant night in the Champions League ahead of Saturday afternoon's Premier League trip to Brentford",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-stars-perfect-springboard-ahead-34771563"
     },
     {
       "date": "2026-10-15",
@@ -1076,7 +1076,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-15",
+    "asof": "2026-10-16",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
