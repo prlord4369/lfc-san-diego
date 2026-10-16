@@ -201,6 +201,11 @@ section { min-width: 0; scroll-margin-top: 16px; }
 
 /* News */
 .news-sec { grid-column: 1 / -1; }
+/* FAQs: each question opens and closes on click */
+.faq { border-bottom: 1px solid var(--line); }
+.faq summary { padding: 14px 0; font-weight: 700; cursor: pointer; }
+.faq summary:hover { color: var(--red); }
+.faq p { margin: 0 0 16px; max-width: 65ch; color: var(--muted); }
 .news { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 0 32px; }
 .story { padding: 18px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .story .src { display: flex; justify-content: space-between; gap: 10px; }
@@ -249,6 +254,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <a href="#news">News</a>
       <a href="#standings">Standings</a>
       <a href="#squad">Squad</a>
+      <a href="#faq">FAQs</a>
     </nav>
   </div>
 </header>
@@ -301,6 +307,14 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <div class="sec-head"><h2 id="news-h">News</h2><span class="label" id="news-upd"></span></div>
       <div class="news" id="news-list"></div>
       <div class="outlets" id="outlets"><span class="label" style="align-self:center">Read more at</span></div>
+    </section>
+
+    <!-- FAQs: add questions as <details class="faq"><summary>Question?</summary><p>Answer.</p></details> inside #faq-list and remove the placeholder line -->
+    <section id="faq" class="news-sec" aria-labelledby="faq-h">
+      <div class="sec-head"><h2 id="faq-h">FAQs</h2></div>
+      <div id="faq-list">
+        <p class="note">Questions and answers coming soon.</p>
+      </div>
     </section>
   </div>
 </main>
