@@ -221,6 +221,7 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .watch b { font: 800 1.9rem/1.05 var(--font-display); text-transform: uppercase; }
 .watch p { margin: 0; font-size: .88rem; color: var(--muted); }
 .watch a { color: var(--pacific); font-weight: 600; font-size: .88rem; }
+.watch-links { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-top: 4px; }
 .hero .meta a { color: inherit; }
 footer { border-top: 1px solid var(--line); background: var(--surface); }
 footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
@@ -526,7 +527,9 @@ function render(data) {
   if (data.venue) {
     w.innerHTML = "<span class=\"label\">Official Watch Headquarters</span><b>" + esc(data.venue.name) + "</b>" +
       "<p>" + esc(data.venue.address) + "</p><p>Gaslamp Quarter, downtown San Diego. Come watch the Reds with us.</p>" +
-      "<a href=\"" + esc(data.venue.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>";
+      "<div class=\"watch-links\"><a href=\"" + esc(data.venue.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>" +
+      // Park Smarter: the app for San Diego street meters with the blue Park Smarter sticker
+      "<a href=\"https://www.parksmarter.com/\" target=\"_blank\" rel=\"noopener\">Pay for parking (Park Smarter)</a></div>";
   } else { w.hidden = true; }
 
   // Form strip
