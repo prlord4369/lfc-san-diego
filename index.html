@@ -405,6 +405,7 @@ var TEAM_LINKS = {
   "hull city": PL + "88/hull-city/overview",
   "ipswich town": PL + "40/ipswich-town/overview",
   "leeds united": PL + "2/leeds-united/overview",
+  "liverpool": PL + "14/liverpool/overview",
   "manchester city": PL + "43/manchester-city/overview",
   "manchester united": PL + "1/manchester-united/overview",
   "newcastle united": PL + "4/newcastle-united/overview",
@@ -603,13 +604,13 @@ function render(data) {
     var url = uclByKey[teamKey(name)];
     return url ? "<a href=\"" + esc(url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(name) + "</a>" : teamLink(name);
   };
-  // link(name) draws a team name; by default other clubs link to their profile and Liverpool stays plain
+  // link(name) draws a team name; by default every club, Liverpool included, links to its premierleague.com page
   var leagueTable = function (t, zone, link) {
     return "<thead><tr><th>#</th><th class=\"tm\">Team</th><th>P</th><th class=\"xs\">W</th><th class=\"xs\">D</th><th class=\"xs\">L</th>" +
       "<th class=\"xs\">GF</th><th class=\"xs\">GA</th><th>GD</th><th>Pts</th></tr></thead><tbody>" +
       t.rows.map(function (r) {
         return "<tr" + (r.team === "Liverpool" ? " class=\"lfc\"" : "") + "><td class=\"ps" + (zone ? " " + zone(r.pos) : "") + "\">" + r.pos + "</td>" +
-          "<td class=\"tm\">" + (link ? link(r.team) : r.team === "Liverpool" ? esc(r.team) : teamLink(r.team)) + "</td>" +
+          "<td class=\"tm\">" + (link || teamLink)(r.team) + "</td>" +
           "<td>" + r.p + "</td><td class=\"xs\">" + r.w + "</td><td class=\"xs\">" + r.d + "</td><td class=\"xs\">" + r.l + "</td>" +
           "<td class=\"xs\">" + r.gf + "</td><td class=\"xs\">" + r.ga + "</td><td>" + gd(r) + "</td><td class=\"pts\">" + r.pts + "</td></tr>";
       }).join("") + "</tbody>";
