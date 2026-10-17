@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T23:11:46Z",
+  "updated": "2026-10-17T12:18:02Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-16"
+    "checked": "2026-10-17"
   },
   "table": {
-    "asof": "2026-10-16",
+    "asof": "2026-10-17",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -354,6 +354,28 @@
       },
       {
         "pos": 4,
+        "team": "Everton",
+        "p": 7,
+        "w": 2,
+        "d": 5,
+        "l": 0,
+        "gf": 8,
+        "ga": 5,
+        "pts": 11
+      },
+      {
+        "pos": 5,
+        "team": "Chelsea",
+        "p": 7,
+        "w": 3,
+        "d": 2,
+        "l": 2,
+        "gf": 15,
+        "ga": 13,
+        "pts": 11
+      },
+      {
+        "pos": 6,
         "team": "Brentford",
         "p": 6,
         "w": 2,
@@ -361,28 +383,6 @@
         "l": 0,
         "gf": 12,
         "ga": 6,
-        "pts": 10
-      },
-      {
-        "pos": 5,
-        "team": "Everton",
-        "p": 6,
-        "w": 2,
-        "d": 4,
-        "l": 0,
-        "gf": 8,
-        "ga": 5,
-        "pts": 10
-      },
-      {
-        "pos": 6,
-        "team": "Chelsea",
-        "p": 6,
-        "w": 3,
-        "d": 1,
-        "l": 2,
-        "gf": 15,
-        "ga": 13,
         "pts": 10
       },
       {
@@ -636,6 +636,14 @@
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
+    },
+    {
+      "kickoff": "2026-10-28T00:00:00Z",
+      "opp": "Chelsea",
+      "ha": "H",
+      "comp": "Carabao Cup R4",
+      "scope": "domestic",
+      "tbc": true
     },
     {
       "kickoff": "2026-11-01T16:30:00Z",
@@ -896,7 +904,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He aggravated a hamstring issue on Hungary duty and has missed the last two games. He is reportedly hopeful of a return within about a week, and a role against Brentford cannot be ruled out.",
+      "detail": "He aggravated a hamstring issue on Hungary duty and has missed the last two games. He is reportedly hopeful of returning within about a week, and a role against Brentford cannot be ruled out, though Villarreal looks more likely.",
       "source": "This Is Anfield",
       "url": "https://www.thisisanfield.com/2026/10/dominik-szoboszlai-injury-update-liverpool-return/"
     },
@@ -906,8 +914,8 @@
       "status": "doubt",
       "issue": "Ankle",
       "detail": "He hurt his ankle on Netherlands duty and has missed the Manchester City and LASK matches. Iraola says he has not trained with the group yet and is taking it day to day.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-gives-szoboszlai-34758851"
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/isak-szoboszlai-gakpo-injury-liverpool-news-lask-brentford/"
     },
     {
       "player": "Alexander Isak",
@@ -923,16 +931,16 @@
       "pos": "MF",
       "status": "out",
       "issue": "Suspension",
-      "detail": "He was sent off in the Manchester City defeat and misses the Brentford match.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
+      "detail": "He was sent off in the Manchester City defeat and serves a one-match league suspension, so he misses the Brentford match.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is recovering from Achilles surgery and Iraola has refused to set a timeframe, though he is doing well. A possible return is the Boxing Day trip to Hull.",
+      "detail": "He is recovering from Achilles surgery, and reports say he is targeting a return around Christmas. Liverpool's Boxing Day trip to Hull is a possible comeback date.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     },
@@ -941,41 +949,62 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been out since a serious knee injury against Arsenal in January and is not yet in full training. A return is possibly in November or December, and Liverpool will be cautious.",
+      "detail": "He has been out since a serious knee injury against Arsenal in January. He is edging closer to training with the group, and a return is possibly in November or December, with Liverpool being cautious.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/14-players-risk-missing-brentford-34778918"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "A setback in his knee recovery has delayed his plans, and he is now due to start in the next international break, around November.",
+      "detail": "A setback in his knee recovery has delayed his plans, and he is now due to start training in the next international break, around November.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     }
   ],
   "news": [
     {
-      "date": "2026-10-16",
+      "date": "2026-10-17",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola explains how Rio Ngumoha will fulfil Liverpool potential - 'not something normal'",
-      "summary": "Rio Ngumoha has broken into the England setup and excelled when Liverpool beat LASK 6-3 in the Champions League on Wednesday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-explains-how-rio-34775856"
+      "title": "Brentford vs Liverpool LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "summary": "Liverpool are at the Gtech Community Stadium on Saturday afternoon to take on Brentford in the Premier League",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/brentford-liverpool-live-score-stream-34773678"
+    },
+    {
+      "date": "2026-10-17",
+      "source": "Liverpool Echo",
+      "title": "Brentford vs Liverpool: Can I watch Premier League clash on TV today?",
+      "summary": "Liverpool face a tricky test against unbeaten Brentford in their Premier League clash on Saturday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brentford-tv-stream-kickoff-34772898"
+    },
+    {
+      "date": "2026-10-17",
+      "source": "Liverpool Echo",
+      "title": "Lewis Koumas reveals the Liverpool moment which meant 'absolutely everything' to him",
+      "summary": "Lewis Koumas made a big impact in Liverpool's Champions League win against LASK, and has opened up on a big moment for him so early in his career with the Reds",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-lewis-koumas-steven-gerrard-34778727"
     },
     {
       "date": "2026-10-16",
       "source": "Liverpool Echo",
-      "title": "14 players to miss Brentford vs Liverpool as late fitness tests scheduled",
-      "summary": "Liverpool are still dealing with a number of injuries as Andoni Iraola prepares his side to take on Brentford in the Premier League, with the Bees flying high in fourth",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/brentford-vs-liverpool-team-news-34778074"
+      "title": "Liverpool latest: Huge Alex Scott boost as Andoni Iraola told he'll repeat Arne Slot failure",
+      "summary": "Andoni Iraola has been told he'll follow in Arne Slot's footsteps in one specific way",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-alex-scott-iraola-slot-34776303"
     },
     {
       "date": "2026-10-16",
       "source": "Liverpool Echo",
-      "title": "What Andoni Iraola has given Trey Nyoni as Liverpool midfielder makes Thiago Alcantara claim",
-      "summary": "Liverpool teenage midfielder Trey Nyoni speaks after his first Champions League start and his plans for the season",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-andoni-iraola-given-trey-34774110"
+      "title": "Liverpool line-ups vs Brentford as Florian Wirtz and Rio Ngumoha decisions made",
+      "summary": "Liverpool predicted line-ups and teams for the Premier League clash against Brentford on Saturday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-vs-brentford-34775048"
+    },
+    {
+      "date": "2026-10-16",
+      "source": "Liverpool Echo",
+      "title": "Concern won't go away until Liverpool address one painful shortcoming under Andoni Iraola",
+      "summary": "In the latest Blood Red column, Ian Doyle looks at the trip to Brentford and why Liverpool won't want a repeat of history",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/concern-wont-go-away-until-34776430"
     },
     {
       "date": "2026-10-16",
@@ -983,27 +1012,6 @@
       "title": "Feel-good Koumas story something for Liverpool to smile about",
       "summary": "Lewis Koumas on breaking Steven Gerrard's record, seizing his opportunity under Andoni Iraola, and why he couldn't sleep after playing Manchester City.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwy7l5e4376no"
-    },
-    {
-      "date": "2026-10-16",
-      "source": "Liverpool Echo",
-      "title": "Lewis Koumas responds to Steven Gerrard revelation and makes Liverpool vow - 'I just want more'",
-      "summary": "Liverpool youngster Lewis Koumas has opened up on an important week in his career and his plans under head coach Andoni Iraola",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/lewis-koumas-responds-steven-gerrard-34774046"
-    },
-    {
-      "date": "2026-10-16",
-      "source": "Liverpool Echo",
-      "title": "Linda Henry pens emotional message to Liverpool fans to mark special occasion",
-      "summary": "John Henry's wife Linda Pizzuti Henry has sent an emotional message to Liverpool fans on social media",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-fsg-linda-john-henry-34776382"
-    },
-    {
-      "date": "2026-10-16",
-      "source": "Liverpool Echo",
-      "title": "Brentford boss gives injury updates on five players including Kevin Schade ahead of Liverpool game",
-      "summary": "Brentford boss Keith Andrews faced the press ahead of his side's Premier League clash with Liverpool on Saturday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/brentford-boss-gives-injury-updates-34776242"
     },
     {
       "date": "2026-10-15",
@@ -1068,7 +1076,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-16",
+    "asof": "2026-10-17",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
