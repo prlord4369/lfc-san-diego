@@ -151,6 +151,11 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .inj li { padding: 13px 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; }
 .inj .p { font-weight: 700; }
 .inj .pos { font-weight: 400; color: var(--muted); font-size: .8rem; }
+/* A small referee's card beside a suspension reason (real card colours, readable in both themes) */
+.inj .card { display: inline-block; width: 8px; height: 11px; border-radius: 1.5px; margin: 0 5px 0 1px; vertical-align: -1px; box-shadow: 0 0 0 .5px rgba(0,0,0,.25); }
+.inj .ban { white-space: nowrap; font-weight: 700; color: var(--fg); }
+.inj .card.red { background: #d71a28; }
+.inj .card.yellow { background: #f5c518; }
 .inj .why { grid-column: 1 / -1; font-size: .84rem; color: var(--muted); }
 .chip { align-self: start; font: 700 .68rem/1 var(--font-body); text-transform: uppercase; letter-spacing: .08em; padding: 5px 8px; border-radius: 3px; white-space: nowrap; }
 .chip.out { background: var(--chip-bad); color: var(--bad); }
@@ -609,7 +614,16 @@ function render(data) {
   var counts = { out: 0, doubt: 0, back: 0 }; inj.forEach(function (i) { counts[i.status]++; });
   document.getElementById("inj-sum").innerHTML = ["out", "doubt", "back"].map(function (k) { return "<span><b>" + counts[k] + "</b> " + names[k].toLowerCase() + "</span>"; }).join("");
   document.getElementById("inj-list").innerHTML = inj.map(function (i) {
-    return "<li><span class=\"p\">" + esc(i.player) + " <span class=\"pos\">" + esc(i.pos) + " · " + esc(i.issue) + "</span></span>" +
+    // Suspensions say why: a red card, or yellow cards built up over several matches
+    // just the card symbol: a red card, or a yellow card × the number of bookings (5 in the Premier League)
+    var nY = Number(i.yellows) || 5;
+    var why = i.suspension === "red"
+        ? "<span class=\"ban\" role=\"img\" aria-label=\"Suspended: red card\" title=\"Suspended: red card\"><span class=\"card red\"></span></span>"
+      : i.suspension === "yellows"
+        ? "<span class=\"ban\" role=\"img\" aria-label=\"Suspended: " + nY + " yellow cards\" title=\"Suspended: " + nY + " yellow cards\"><span class=\"card yellow\"></span>×" + nY + "</span>"
+      : "";
+    var issue = why || esc(i.issue);
+    return "<li><span class=\"p\">" + esc(i.player) + " <span class=\"pos\">" + esc(i.pos) + " · " + issue + "</span></span>" +
       "<span class=\"chip " + i.status + "\">" + names[i.status] + "</span>" +
       "<span class=\"why\">" + esc(i.detail) + (i.url ? " <a href=\"" + esc(i.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(i.source) + "</a>" : "") + "</span></li>";
   }).join("");
