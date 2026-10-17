@@ -372,6 +372,23 @@ var LIVE_URL = "https://lfc-live.pr-lord.workers.dev/";
 // Opponent profile pages: premierleague.com for English clubs, uefa.com (English) for European clubs.
 // Keys are normalised names (see teamKey), so "Brighton & Hove Albion" and "Brighton and Hove Albion" both match.
 var PL = "https://www.premierleague.com/en/clubs/", UCL = "https://www.uefa.com/uefachampionsleague/clubs/";
+// Champions League 2026/27 league phase: each club's UEFA.com page (English), keyed by the name
+// in the standings data. Used by the Champions League table, where every club links to UEFA.
+var UCL_PAGES = {
+  "Paris Saint-Germain": "52747--paris", "Barcelona": "50080--barcelona", "Aston Villa": "52683--aston-villa",
+  "VfB Stuttgart": "50107--stuttgart", "Liverpool": "7889--liverpool", "Sporting CP": "50149--sporting-cp",
+  "Arsenal": "52280--arsenal", "Real Madrid": "50051--real-madrid", "Real Betis Balompié": "52265--real-betis",
+  "Bayern Munich": "50037--bayern-munchen", "FK Shakhtar Donetsk": "52707--shakhtar", "Como 1907": "79946--como",
+  "Manchester United": "52682--man-utd", "Villarreal": "70691--villarreal", "Atlético Madrid": "50124--atleti",
+  "Club Brugge": "50043--club-brugge", "Manchester City": "52919--man-city", "Borussia Dortmund": "52758--b-dortmund",
+  "Lens": "52277--lens", "PAE AEK": "50129--aek-athens", "RB Leipzig": "2603790--leipzig", "Sabah FK": "2609356--sabah",
+  "Feyenoord Rotterdam": "52749--feyenoord", "FK Bodø/Glimt": "59333--bodo-glimt", "AS Roma": "50137--roma",
+  "PSV": "50062--psv", "Viking FK": "52319--viking", "Fenerbahçe": "52692--fenerbahce", "Inter Milan": "50138--inter",
+  "FC Porto": "50064--porto", "SK Slavia Praha": "52498--slavia-praha", "SSC Napoli": "50136--napoli",
+  "LASK Linz": "63405--lask", "Lille OSC": "75797--lille", "Galatasaray": "50067--galatasaray",
+  "ŠK Slovan Bratislava": "52797--s-bratislava"
+};
+
 var TEAM_LINKS = {
   "arsenal": PL + "3/arsenal/overview",
   "aston villa": PL + "7/aston-villa/overview",
@@ -422,8 +439,12 @@ function render(data) {
   };
   var ptHour = function (d) { return Number(fmt(d, { hour: "numeric", hour12: false })) % 24; };
   var now = Date.now();
+  // How long a game stays in the banner after kick-off. Games with a live score are held until about
+  // an hour after full time (90 min + half-time + stoppage ≈ 115 min, + 60 = 175 min) so the final
+  // score shows for that hour; other games (no live score) move on after 2 hours as before.
+  var holdMs = function (f) { return /^(Premier League|Champions League)/.test(f.comp) ? 175 * 60e3 : 2 * 3600e3; };
   var fixtures = data.fixtures.map(function (f) { return Object.assign({}, f, { d: new Date(f.kickoff) }); })
-    .filter(function (f) { return f.d.getTime() > now - 2 * 3600e3; })
+    .filter(function (f) { return f.d.getTime() > now - holdMs(f); })
     .sort(function (a, b) { return a.d - b.d; });
 
   // Hero
@@ -467,7 +488,8 @@ function render(data) {
           : s.minute ? s.minute + (s.injuryTime ? "+" + s.injuryTime : "") + "′"
           // No minute on this data plan: name the half from the time since kick-off (first half + stoppage ends by ~50 min)
           : (Date.now() - new Date(s.kickoff) < 50 * 60e3 ? "1st half" : "2nd half");
-        document.getElementById("next-label").innerHTML = (s.live ? "<span class=\"live-dot\" aria-hidden=\"true\"></span>Live · " : "") + esc(next.comp);
+        document.getElementById("next-label").innerHTML = (s.live ? "<span class=\"live-dot\" aria-hidden=\"true\"></span>Live · "
+          : s.status === "FINISHED" ? "Final score · " : "") + esc(next.comp);
         cd.setAttribute("aria-label", "Score");
         // Team badge when the relay supplies one; the abbreviation otherwise (or if the image fails to load)
         var side = function (t) {
@@ -486,6 +508,9 @@ function render(data) {
       }).catch(function () { /* keep showing whatever is on screen */ });
     };
     pollLive(); setInterval(pollLive, 30000);
+    // A page left open moves on to the next fixture by itself when the hold ends
+    var holdEnds = next.d.getTime() + holdMs(next) - Date.now();
+    if (holdEnds > 0 && holdEnds < 6 * 3600e3) setTimeout(function () { location.reload(); }, holdEnds + 5000);
     document.addEventListener("visibilitychange", pollLive);
   } else {
     document.getElementById("next-title").textContent = "Fixtures to be announced";
@@ -571,12 +596,20 @@ function render(data) {
   var gd = function (r) { var g = r.gf - r.ga; return g > 0 ? "+" + g : String(g); };
   var day = function (s) { return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(s + "T12:00:00Z")); };
   // zone(pos) returns a class for the position cell (Champions League qualification stripes)
-  var leagueTable = function (t, zone) {
+  // Champions League table: every club (Liverpool included) links to its UEFA.com page
+  var uclByKey = {};
+  Object.keys(UCL_PAGES).forEach(function (n) { uclByKey[teamKey(n)] = UCL + UCL_PAGES[n] + "/"; });
+  var uclLink = function (name) {
+    var url = uclByKey[teamKey(name)];
+    return url ? "<a href=\"" + esc(url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(name) + "</a>" : teamLink(name);
+  };
+  // link(name) draws a team name; by default other clubs link to their profile and Liverpool stays plain
+  var leagueTable = function (t, zone, link) {
     return "<thead><tr><th>#</th><th class=\"tm\">Team</th><th>P</th><th class=\"xs\">W</th><th class=\"xs\">D</th><th class=\"xs\">L</th>" +
       "<th class=\"xs\">GF</th><th class=\"xs\">GA</th><th>GD</th><th>Pts</th></tr></thead><tbody>" +
       t.rows.map(function (r) {
         return "<tr" + (r.team === "Liverpool" ? " class=\"lfc\"" : "") + "><td class=\"ps" + (zone ? " " + zone(r.pos) : "") + "\">" + r.pos + "</td>" +
-          "<td class=\"tm\">" + (r.team === "Liverpool" ? esc(r.team) : teamLink(r.team)) + "</td>" +
+          "<td class=\"tm\">" + (link ? link(r.team) : r.team === "Liverpool" ? esc(r.team) : teamLink(r.team)) + "</td>" +
           "<td>" + r.p + "</td><td class=\"xs\">" + r.w + "</td><td class=\"xs\">" + r.d + "</td><td class=\"xs\">" + r.l + "</td>" +
           "<td class=\"xs\">" + r.gf + "</td><td class=\"xs\">" + r.ga + "</td><td>" + gd(r) + "</td><td class=\"pts\">" + r.pts + "</td></tr>";
       }).join("") + "</tbody>";
@@ -591,7 +624,7 @@ function render(data) {
   document.getElementById("lt-empty").hidden = hasRows(lt);
   if (hasRows(clt)) {
     // League phase: 1st-8th go to the round of 16, 9th-24th to the knockout play-offs, 25th-36th are out
-    document.getElementById("clt").innerHTML = leagueTable(clt, function (p) { return p <= 8 ? "z1" : p <= 24 ? "z2" : ""; });
+    document.getElementById("clt").innerHTML = leagueTable(clt, function (p) { return p <= 8 ? "z1" : p <= 24 ? "z2" : ""; }, uclLink);
     document.getElementById("cl-zones").innerHTML =
       "<span><i style=\"background:var(--ok)\"></i>1st–8th: round of 16</span><span><i style=\"background:var(--warn)\"></i>9th–24th: knockout play-offs</span><span>25th–36th: eliminated</span>";
   }
