@@ -377,6 +377,14 @@ var LIVE_URL = "https://lfc-live.pr-lord.workers.dev/";
 // Opponent profile pages: premierleague.com for English clubs, uefa.com (English) for European clubs.
 // Keys are normalised names (see teamKey), so "Brighton & Hove Albion" and "Brighton and Hove Albion" both match.
 var PL = "https://www.premierleague.com/en/clubs/", UCL = "https://www.uefa.com/uefachampionsleague/clubs/";
+// Park Smarter (IPS Group), San Diego's meter payment app
+var PARK = {
+  web: "https://www.parksmarter.com/",
+  ios: "https://apps.apple.com/us/app/park-smarter/id1055789534",
+  androidPkg: "com.ipsgroupinc.parksmarter",
+  android: "https://play.google.com/store/apps/details?id=com.ipsgroupinc.parksmarter"
+};
+
 // Champions League 2026/27 league phase: each club's UEFA.com page (English), keyed by the name
 // in the standings data. Used by the Champions League table, where every club links to UEFA.
 var UCL_PAGES = {
@@ -529,7 +537,17 @@ function render(data) {
       "<p>" + esc(data.venue.address) + "</p><p>Gaslamp Quarter, downtown San Diego. Come watch the Reds with us.</p>" +
       "<div class=\"watch-links\"><a href=\"" + esc(data.venue.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>" +
       // Park Smarter: the app for San Diego street meters with the blue Park Smarter sticker
-      "<a href=\"https://www.parksmarter.com/\" target=\"_blank\" rel=\"noopener\">Pay for parking (Park Smarter)</a></div>";
+      "<a id=\"park-link\" href=\"" + PARK.web + "\" target=\"_blank\" rel=\"noopener\">Pay for parking (Park Smarter)</a></div>";
+    // Phones get the app: iPhone/iPad -> App Store page (shows "Open" when it's already installed);
+    // Android -> opens the app if installed, otherwise its Google Play page. Computers keep the website.
+    var ua = navigator.userAgent || "", pl = document.getElementById("park-link");
+    var isIOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    if (isIOS) { pl.href = PARK.ios; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
+    else if (/Android/.test(ua)) {
+      pl.href = "intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=" +
+        PARK.androidPkg + ";S.browser_fallback_url=" + encodeURIComponent(PARK.android) + ";end";
+      pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target");
+    }
   } else { w.hidden = true; }
 
   // Form strip
