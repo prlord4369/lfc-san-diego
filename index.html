@@ -615,14 +615,14 @@ function render(data) {
   document.getElementById("inj-sum").innerHTML = ["out", "doubt", "back"].map(function (k) { return "<span><b>" + counts[k] + "</b> " + names[k].toLowerCase() + "</span>"; }).join("");
   document.getElementById("inj-list").innerHTML = inj.map(function (i) {
     // Suspensions say why: a red card, or yellow cards built up over several matches
-    // just the card symbol: a red card, or a yellow card × the number of bookings (5 in the Premier League)
+    // "Suspension" plus the card(s) that caused it: a red card, or a yellow card × the number of bookings (5 in the Premier League)
     var nY = Number(i.yellows) || 5;
     var why = i.suspension === "red"
         ? "<span class=\"ban\" role=\"img\" aria-label=\"Suspended: red card\" title=\"Suspended: red card\"><span class=\"card red\"></span></span>"
       : i.suspension === "yellows"
         ? "<span class=\"ban\" role=\"img\" aria-label=\"Suspended: " + nY + " yellow cards\" title=\"Suspended: " + nY + " yellow cards\"><span class=\"card yellow\"></span>×" + nY + "</span>"
       : "";
-    var issue = why || esc(i.issue);
+    var issue = why ? "Suspension " + why : esc(i.issue);
     return "<li><span class=\"p\">" + esc(i.player) + " <span class=\"pos\">" + esc(i.pos) + " · " + issue + "</span></span>" +
       "<span class=\"chip " + i.status + "\">" + names[i.status] + "</span>" +
       "<span class=\"why\">" + esc(i.detail) + (i.url ? " <a href=\"" + esc(i.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(i.source) + "</a>" : "") + "</span></li>";
