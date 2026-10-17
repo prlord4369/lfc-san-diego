@@ -381,7 +381,6 @@ var PL = "https://www.premierleague.com/en/clubs/", UCL = "https://www.uefa.com/
 var PARK = {
   web: "https://www.parksmarter.com/",
   ios: "https://apps.apple.com/us/app/park-smarter/id1055789534",
-  androidPkg: "com.ipsgroupinc.parksmarter",
   android: "https://play.google.com/store/apps/details?id=com.ipsgroupinc.parksmarter"
 };
 
@@ -538,16 +537,13 @@ function render(data) {
       "<div class=\"watch-links\"><a href=\"" + esc(data.venue.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>" +
       // Park Smarter: the app for San Diego street meters with the blue Park Smarter sticker
       "<a id=\"park-link\" href=\"" + PARK.web + "\" target=\"_blank\" rel=\"noopener\">Pay for parking (Park Smarter)</a></div>";
-    // Phones get the app: iPhone/iPad -> App Store page (shows "Open" when it's already installed);
-    // Android -> opens the app if installed, otherwise its Google Play page. Computers keep the website.
+    // Phones get the app's store page, which shows "Open" when it's already installed and "Get"/"Install"
+    // when it isn't. (Park Smarter publishes no app links or URL scheme, so a website can't open it directly;
+    // tested on Android 2026-10.) Computers keep the website.
     var ua = navigator.userAgent || "", pl = document.getElementById("park-link");
     var isIOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
     if (isIOS) { pl.href = PARK.ios; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
-    else if (/Android/.test(ua)) {
-      pl.href = "intent://#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;package=" +
-        PARK.androidPkg + ";S.browser_fallback_url=" + encodeURIComponent(PARK.android) + ";end";
-      pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target");
-    }
+    else if (/Android/.test(ua)) { pl.href = PARK.android; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
   } else { w.hidden = true; }
 
   // Form strip
