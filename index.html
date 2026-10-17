@@ -72,10 +72,7 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .brand { align-items: center; }
 .brand b { font: 800 1.9rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .02em; color: var(--on-red); }
 .brand span { font-size: .8rem; opacity: .85; }
-/* Liver Bird: one small SVG (assets/liverbird.svg) used as a mask, so it takes whatever colour the
-   CSS gives it; the browser downloads it once for both places it appears */
-.brand .crest { flex: none; width: 20px; height: 36px; opacity: 1; background: var(--on-red);
-  -webkit-mask: url(assets/liverbird.svg) center / contain no-repeat; mask: url(assets/liverbird.svg) center / contain no-repeat; }
+/* Liver Bird watermark: one small SVG (assets/liverbird.svg) used as a mask, so it takes the colour the CSS gives it */
 .hero::before { content: ""; position: absolute; top: 50%; right: max(8px, calc(50% - 560px)); transform: translateY(-50%);
   height: min(118%, 300px); aspect-ratio: 977 / 1790; background: var(--on-red); opacity: .08; pointer-events: none;
   -webkit-mask: url(assets/liverbird.svg) center / contain no-repeat; mask: url(assets/liverbird.svg) center / contain no-repeat; }
@@ -248,7 +245,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top"><span class="crest" aria-hidden="true"></span><b>LFC San Diego</b></a>
+    <a class="brand" href="#top"><b>LFC San Diego</b></a>
     <nav class="nav" aria-label="Sections">
       <a href="#top">Home</a>
       <a href="#fixtures">Fixtures</a>
