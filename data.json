@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T18:46:20Z",
+  "updated": "2026-10-18T12:18:11Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-17"
+    "checked": "2026-10-18"
   },
   "table": {
-    "asof": "2026-10-17",
+    "asof": "2026-10-18",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -905,108 +905,110 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He returned from a hamstring problem but went down with a non-contact injury after 29 minutes at Brentford and was substituted. The length of his new absence has not been confirmed.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-liverpool-injury-brentford-34779783"
-    },
-    {
-      "player": "Alexander Isak",
-      "pos": "FW",
-      "status": "back",
-      "issue": "Thigh",
-      "detail": "He returned from a thigh problem and was named in the starting XI at Brentford after missing the last two matches.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/team-confirmed-brentford-szoboszlai-wirtz-34779225"
-    },
-    {
-      "player": "Cody Gakpo",
-      "pos": "FW",
-      "status": "back",
-      "issue": "Ankle",
-      "detail": "He was named among the substitutes at Brentford after missing the Manchester City and LASK matches with an ankle problem.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/team-confirmed-brentford-szoboszlai-wirtz-34779225"
-    },
-    {
-      "player": "Ryan Gravenberch",
-      "pos": "MF",
-      "status": "out",
-      "issue": "Suspension",
-      "detail": "He was sent off against Manchester City and is serving a one-match league suspension, so he misses the Brentford match.",
-      "suspension": "red",
+      "detail": "He aggravated the same hamstring problem and was substituted after 32 minutes of the 2-1 win at Brentford. Andoni Iraola says he will need more time, so no return date is set.",
       "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/brentford-v-liverpool-team-news-premier-league"
+      "url": "https://www.liverpoolfc.com/news/andoni-iraola-on-jeremie-frimpong-and-dominik-szoboszlai-injuries"
+    },
+    {
+      "player": "Jeremie Frimpong",
+      "pos": "DF",
+      "status": "out",
+      "issue": "Injury",
+      "detail": "He came on at half-time at Brentford but had to come off moments later with a new injury. Iraola says Liverpool will be without him for some time.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/andoni-iraola-on-jeremie-frimpong-and-dominik-szoboszlai-injuries"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is recovering from Achilles surgery and is reported to be doing very well on his plan. No firm return date has been confirmed.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-team-news-vs-brentford-injuries-suspension-squad/"
+      "detail": "He is recovering from a ruptured Achilles and is doing very well, but Iraola will not give a timeframe. Earlier reports had targeted a return around Christmas.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/hugo-ekitikes-injury-recovery-going-34771056"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been out since a serious knee injury against Arsenal in January and is not far from doing some training with the group. Liverpool are being cautious about his return.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-team-news-vs-brentford-injuries-suspension-squad/"
+      "detail": "He has been out since a serious knee injury against Arsenal in January and is not far from doing some things with the group. Liverpool are being cautious about his return.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/hugo-ekitikes-injury-recovery-going-34771056"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "A setback in his knee recovery has delayed him, and he is due to return to training during the November international break.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-team-news-vs-brentford-injuries-suspension-squad/"
+      "detail": "A setback in his knee recovery has delayed him, and he is now due to start his return in the November international break.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
     }
   ],
   "news": [
     {
-      "date": "2026-10-17",
+      "date": "2026-10-18",
       "source": "Liverpool Echo",
-      "title": "Dominik Szoboszlai and Jeremie Frimpong injury latest as Andoni Iraola gives worrying Liverpool update",
-      "summary": "Andoni Iraola fears he will be without Dominik Szoboszlai and Jeremie Frimpong \"for some time\" after they picked up injuries in Liverpool's 2-1 Premier League triumph at Brentford",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-jeremie-frimpong-injury-34779488"
+      "title": "'Really blessed' - Virgil van Dijk makes feelings clear after Liverpool milestone and gives Florian Wirtz verdict",
+      "summary": "Virgil van Dijk reacts to Liverpool's 2-1 win over Brentford on what was his 150th game as captain of the club in the Premier League",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/really-blessed-virgil-van-dijk-34781455"
+    },
+    {
+      "date": "2026-10-18",
+      "source": "Liverpool Echo",
+      "title": "Ex-Liverpool star released by Jurgen Klopp told he's 'world class again' in major U-turn",
+      "summary": "The former Reds star's career is on the up again after winning promotion last season",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-loris-karius-jurgen-klopp-34781524"
+    },
+    {
+      "date": "2026-10-18",
+      "source": "Liverpool Echo",
+      "title": "Alexander Isak explains key to lethal Liverpool finish and what left him 'screaming' from the bench",
+      "summary": "Reaction from match-winner Alexander Isak after his goal secured a hard-fought 2-1 triumph for Liverpool at Brentford on Saturday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-explains-key-lethal-34780877"
+    },
+    {
+      "date": "2026-10-18",
+      "source": "Liverpool Echo",
+      "title": "National media make Florian Wirtz point and identify 'foolish' moment everything changed for Liverpool",
+      "summary": "How the national media reacted to Liverpool's hard-fought 2-1 Premier League victory over Brentford at the Gtech Community Stadium",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/national-media-make-florian-wirtz-34780880"
     },
     {
       "date": "2026-10-17",
       "source": "Liverpool Echo",
-      "title": "Brentford 1 Liverpool 2 LIVE - Iraola and Isak react, Frimpong and Szoboszlai injury latest",
-      "summary": "Liverpool are at the Gtech Community Stadium on Saturday afternoon to take on Brentford in the Premier League",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/brentford-liverpool-live-score-stream-34773678"
+      "title": "'Cute and clever' - Keith Andrews questions Jeremy Jacquet's role in red card against Liverpool",
+      "summary": "Brentford boss Keith Andrews delivers his verdict on his side's two sending offs against Liverpool, who took full advantage to win 2-1 at the Gtech Community Stadium",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/cute-clever-keith-andrews-questions-34779504"
     },
     {
       "date": "2026-10-17",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola's bold Liverpool move pays off as Alexander Isak sends classy reminder",
-      "summary": "The Paul Gorst verdict from the Gtech Community Stadium after Liverpool come from behind to win 2-1 against a Brentford team that finished with nine men",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/andoni-iraolas-bold-liverpool-move-34779484"
+      "title": "I cried when I realised my Liverpool career was over – I shouldn't have been on the pitch",
+      "summary": "Liverpool fans were saddened to see one club icon's career come to an end in unfortunate circumstances, which saw the star in question reduced to tears once he realised the truth",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-thiago-alcantara-injury-retirement-34767109"
     },
     {
       "date": "2026-10-17",
-      "source": "Liverpool Echo",
-      "title": "Caustic Brentford chant misses point about Liverpool win and what Andoni Iraola is doing",
-      "summary": "Ian Doyle with the main talking point from Liverpool's Premier League clash at Brentford on Saturday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/caustic-brentford-chant-misses-point-34779479"
+      "source": "BBC Sport",
+      "title": "Wirtz delivers but remains Liverpool's conundrum",
+      "summary": "Florian Wirtz is instrumental as Liverpool return to winning ways in the Premier League, but does he remain boss Andoni Iraola's great conundrum?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo"
     },
     {
       "date": "2026-10-17",
-      "source": "Liverpool Echo",
-      "title": "Liverpool player ratings with Victor Munoz and two others 8/10 in big Brentford win",
-      "summary": "Ian Doyle with the Liverpool player ratings and scores from the Premier League clash at Brentford on Saturday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-player-ratings-victor-munoz-34779469"
+      "source": "BBC Sport",
+      "title": "'Florian Wirtz - unbelievable!'",
+      "summary": "Liverpool fan Abigail Rudkin was delighted with Florian Wirtz's performance during the Reds' win at Brentford, after increased scrutiny over the German's start to life at Anfield.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cke8rz8d9qrro"
     },
     {
       "date": "2026-10-17",
-      "source": "Liverpool Echo",
-      "title": "Liverpool endure chaotic end to first half as VAR intervenes twice and eight minutes added on",
-      "summary": "The Premier League clash between Liverpool and Brentford saw goals, red cards, penalty controversy and VAR involvement in just 10 minutes",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brentford-var-yehor-yarmolyuk-34779849"
+      "source": "BBC Sport",
+      "title": "Liverpool come from behind to beat nine-man Brentford",
+      "summary": "Liverpool come from behind to beat Brentford 2-1 at the Gtech Community Stadium as the hosts finish with nine men after red cards for Yehor Yarmoliuk and Vitaly Janelt.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c65yn28p859wo"
     },
     {
       "date": "2026-10-16",
@@ -1028,27 +1030,6 @@
       "title": "'Unbelievable' player performance makes Liverpool fan smile",
       "summary": "Liverpool fan Nahyan Chowdhury hails Bradley Barcola and Lewis Koumas performances against LASK",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq9vzg1jnnzwo"
-    },
-    {
-      "date": "2026-10-14",
-      "source": "BBC Sport",
-      "title": "Brilliant Barcola scores first hat-trick to get lift-off at Liverpool",
-      "summary": "Liverpool's summer signing Bradley Barcola scores his first senior hat-trick, and his first goals for Liverpool, as he helps his side beat LASK 6-3 in Austria to make it two wins from two in this season's Champions League.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmx237q7nl21o"
-    },
-    {
-      "date": "2026-10-14",
-      "source": "BBC Sport",
-      "title": "Barcola shines as Liverpool score six to beat LASK",
-      "summary": "Bradley Barcola scores a hat-trick as Liverpool beat LASK 6-3 in Austria to make it two wins from two in the league phase of this season's Champions League.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c68jzlwpk01zo"
-    },
-    {
-      "date": "2026-10-14",
-      "source": "BBC Sport",
-      "title": "On night of mayhem for Liverpool, Barcola arrives in style",
-      "summary": "Bradley Barcola's form was the subject of pre-match questions before Liverpool faced LASK - but the France forward's Champions League hat-trick was the perfect answer.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c39wzg59x1yxo"
     }
   ],
   "outlets": [
@@ -1078,7 +1059,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-17",
+    "asof": "2026-10-18",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
