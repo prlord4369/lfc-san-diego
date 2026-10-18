@@ -184,6 +184,9 @@ section { min-width: 0; scroll-margin-top: 16px; }
 /* Champions League qualification zones: a stripe on the position cell */
 .lt td.ps.z1 { box-shadow: inset 3px 0 0 var(--ok); }
 .lt td.ps.z2 { box-shadow: inset 3px 0 0 var(--warn); }
+/* Premier League: Europa League places and the relegation zone */
+.lt td.ps.z3 { box-shadow: inset 3px 0 0 var(--pacific); }
+.lt td.ps.z4 { box-shadow: inset 3px 0 0 var(--bad); }
 .zones { display: flex; flex-wrap: wrap; gap: 6px 18px; padding-top: 12px; font-size: .78rem; color: var(--muted); }
 .zones i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
 /* Cup runs: one row per round */
@@ -327,6 +330,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       </div>
       <div role="tabpanel" id="pane-pl" aria-labelledby="tab-pl">
         <div class="lt-wrap"><table class="lt" id="lt"></table></div>
+        <div class="zones" id="pl-zones"></div>
         <p class="note" id="lt-empty" hidden>The Premier League table appears after the next daily update.</p>
       </div>
       <div role="tabpanel" id="pane-cl" aria-labelledby="tab-cl" hidden>
@@ -656,7 +660,14 @@ function render(data) {
   };
   var hasRows = function (t) { return !!(t && t.rows && t.rows.length); };
   var lt = data.table, clt = data.clTable;
-  if (hasRows(lt)) document.getElementById("lt").innerHTML = leagueTable(lt);
+  if (hasRows(lt)) {
+    // Usual places: 1st-4th Champions League, 5th Europa League, bottom three relegated
+    // (extra European places can go further down when cup winners or UEFA's bonus spot apply)
+    var nPL = lt.rows.length;
+    document.getElementById("lt").innerHTML = leagueTable(lt, function (p) { return p <= 4 ? "z1" : p === 5 ? "z3" : p > nPL - 3 ? "z4" : ""; });
+    document.getElementById("pl-zones").innerHTML =
+      "<span><i style=\"background:var(--ok)\"></i>1st–4th: Champions League</span><span><i style=\"background:var(--pacific)\"></i>5th: Europa League</span><span><i style=\"background:var(--bad)\"></i>18th–20th: relegation</span>";
+  }
   document.getElementById("lt-empty").hidden = hasRows(lt);
   if (hasRows(clt)) {
     // League phase: 1st-8th go to the round of 16, 9th-24th to the knockout play-offs, 25th-36th are out
