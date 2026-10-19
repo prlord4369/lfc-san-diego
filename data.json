@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T12:28:29Z",
+  "updated": "2026-10-19T14:44:16Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -639,12 +639,12 @@
       "scope": "domestic"
     },
     {
-      "kickoff": "2026-10-28T00:00:00Z",
+      "kickoff": "2026-10-28T20:00:00Z",
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
       "scope": "domestic",
-      "tbc": true
+      "tbc": false
     },
     {
       "kickoff": "2026-11-01T16:30:00Z",
@@ -905,76 +905,77 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "A hamstring problem picked up on Hungary duty has kept him out of the last two games. Reports describe it as not serious, and he is hopeful of returning within about a week.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/dominik-szoboszlai-injury-update-liverpool-return/"
+      "detail": "He aggravated the same hamstring problem at Brentford on 17 October and was replaced after 32 minutes. Iraola says it is not a new injury and he needs more time, but he is not expected to be out for too long.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
+      "reported": "2026-10-19"
+    },
+    {
+      "player": "Jeremie Frimpong",
+      "pos": "DF",
+      "status": "out",
+      "issue": "Hamstring",
+      "detail": "He pulled up with a new hamstring injury after coming on at half-time at Brentford on 17 October. Iraola thinks his return before the November international break is unlikely.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
+      "reported": "2026-10-19"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is recovering from Achilles tendon surgery and Iraola says the rehab is going well, but no timeframe has been given. Earlier reports had targeted a return around Christmas.",
+      "detail": "He is still a long-term absentee after Achilles surgery, but reports say his recovery is progressing well. No firm return date has been given.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/hugo-ekitikes-injury-recovery-going-34771056"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/14-players-risk-missing-brentford-34778918",
+      "reported": "2026-10-17"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been out since a serious knee injury against Arsenal in January and is doing some work with the group. Liverpool are being cautious, and a return around the November international break looks most likely.",
+      "detail": "He has been out since a serious knee injury at Arsenal in January and is edging closer to a training comeback. Liverpool are expected to be cautious, so a return around November or December looks likely.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/14-players-risk-missing-brentford-34778918"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/14-players-risk-missing-brentford-34778918",
+      "reported": "2026-10-17"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "A setback in his knee recovery from an ACL injury has delayed his comeback. He is now set to start his return in the November international break.",
+      "detail": "His knee recovery from ACL surgery has suffered a setback and is taking longer than planned. He is scheduled to return to training in November, with his comeback starting in the next international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
+      "reported": "2026-10-19"
     },
     {
-      "player": "Alexander Isak",
-      "pos": "FW",
+      "player": "Vitezslav Jaros",
+      "pos": "GK",
       "status": "out",
-      "issue": "Thigh",
-      "detail": "He picked up a thigh muscle injury on international duty, which has been described as minor. He has been ruled out of recent matches, and Iraola is assessing him day to day.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-gives-szoboszlai-34758851"
-    },
-    {
-      "player": "Cody Gakpo",
-      "pos": "FW",
-      "status": "out",
-      "issue": "Ankle",
-      "detail": "He hurt his ankle during the Netherlands game against Serbia and withdrew from the squad. He is doing individual work and will return when he feels ready, with no date set.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-gives-szoboszlai-34758851"
-    },
-    {
-      "player": "Federico Chiesa",
-      "pos": "FW",
-      "status": "out",
-      "issue": "Back",
-      "detail": "He has had a lower back problem since pre-season and has not played a minute this season. He is back in training, but Iraola has not committed to using him.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-manchester-city-injury-news-34742891"
-    },
-    {
-      "player": "Ryan Gravenberch",
-      "pos": "MF",
-      "status": "out",
-      "issue": "Suspension",
-      "detail": "He was sent off in a controversial incident, leaving Iraola without another midfield option for the Brentford match. Check the club for the length of his ban.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135",
-      "suspension": "red"
+      "issue": "ACL",
+      "detail": "He has been sidelined since a serious knee injury on loan at Ajax in February and is still in rehabilitation. No return date has been given in the latest report.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/szoboszlai-frimpong-injury-update-out-some-time-liverpool/",
+      "reported": "2026-10-18"
     }
   ],
   "news": [
+    {
+      "date": "2026-10-19",
+      "source": "Liverpool Echo",
+      "title": "Chelsea vs Liverpool kick-off time moved after Premier League decision",
+      "summary": "Three Liverpool Premier League games have been altered following the latest raft of television changes",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/chelsea-vs-liverpool-kick-time-34786708"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Liverpool Echo",
+      "title": "Jeremie Frimpong in 'massive' Liverpool injury blow as Andoni Iraola gives Dominik Szoboszlai update",
+      "summary": "Andoni Iraola has today provided an injury update on Jeremie Frimpong and Dominik Szoboszlai",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jeremie-frimpong-massive-liverpool-injury-34786170"
+    },
     {
       "date": "2026-10-19",
       "source": "Liverpool Echo",
@@ -1002,20 +1003,6 @@
       "title": "Trent Alexander-Arnold suffers new embarrassment as writing on the wall for ex-Liverpool star",
       "summary": "Trent Alexander-Arnold continues to find life after Liverpool difficult, with his Real Madrid future looking iffy under Jose Mourinho",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-arnold-liverpool-real-madrid-34783620"
-    },
-    {
-      "date": "2026-10-18",
-      "source": "Liverpool Echo",
-      "title": "Why Andoni Iraola and Julian Ward go back years as big Liverpool plan takes shape after FSG U-turn",
-      "summary": "SPECIAL REPORT: A closer look at the re-appointment of Julian Ward as Liverpool's new sporting director with insight from head coach Andoni Iraola",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-julian-ward-go-34781991"
-    },
-    {
-      "date": "2026-10-18",
-      "source": "Liverpool Echo",
-      "title": "Liverpool latest: Andoni Iraola issue spotted as plan B transfer option 'emerges'",
-      "summary": "Thoughts at Liverpool have already turned to the next transfer windows",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-alex-scott-danny-murphy-34782181"
     },
     {
       "date": "2026-10-17",
