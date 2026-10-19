@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T12:18:11Z",
+  "updated": "2026-10-19T12:28:29Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-18"
+    "checked": "2026-10-19"
   },
   "table": {
-    "asof": "2026-10-18",
+    "asof": "2026-10-19",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -333,24 +333,24 @@
       {
         "pos": 2,
         "team": "Arsenal",
-        "p": 6,
-        "w": 5,
+        "p": 7,
+        "w": 6,
         "d": 0,
         "l": 1,
-        "gf": 10,
+        "gf": 11,
         "ga": 5,
-        "pts": 15
+        "pts": 18
       },
       {
         "pos": 3,
         "team": "Brighton & Hove Albion",
-        "p": 6,
-        "w": 4,
+        "p": 7,
+        "w": 5,
         "d": 1,
         "l": 1,
-        "gf": 18,
+        "gf": 23,
         "ga": 5,
-        "pts": 13
+        "pts": 16
       },
       {
         "pos": 4,
@@ -387,6 +387,17 @@
       },
       {
         "pos": 7,
+        "team": "Leeds United",
+        "p": 7,
+        "w": 2,
+        "d": 4,
+        "l": 1,
+        "gf": 9,
+        "ga": 6,
+        "pts": 10
+      },
+      {
+        "pos": 8,
         "team": "Everton",
         "p": 7,
         "w": 2,
@@ -395,17 +406,6 @@
         "gf": 8,
         "ga": 7,
         "pts": 10
-      },
-      {
-        "pos": 8,
-        "team": "Leeds United",
-        "p": 6,
-        "w": 2,
-        "d": 3,
-        "l": 1,
-        "gf": 8,
-        "ga": 5,
-        "pts": 9
       },
       {
         "pos": 9,
@@ -453,28 +453,39 @@
       },
       {
         "pos": 13,
-        "team": "Crystal Palace",
-        "p": 6,
-        "w": 2,
-        "d": 1,
-        "l": 3,
-        "gf": 9,
-        "ga": 12,
+        "team": "Manchester United",
+        "p": 7,
+        "w": 1,
+        "d": 4,
+        "l": 2,
+        "gf": 10,
+        "ga": 10,
         "pts": 7
       },
       {
         "pos": 14,
-        "team": "Manchester United",
-        "p": 6,
-        "w": 1,
-        "d": 3,
-        "l": 2,
+        "team": "Crystal Palace",
+        "p": 7,
+        "w": 2,
+        "d": 1,
+        "l": 4,
         "gf": 9,
-        "ga": 9,
-        "pts": 6
+        "ga": 17,
+        "pts": 7
       },
       {
         "pos": 15,
+        "team": "AFC Bournemouth",
+        "p": 7,
+        "w": 1,
+        "d": 3,
+        "l": 3,
+        "gf": 9,
+        "ga": 13,
+        "pts": 6
+      },
+      {
+        "pos": 16,
         "team": "Coventry City",
         "p": 6,
         "w": 2,
@@ -485,7 +496,7 @@
         "pts": 6
       },
       {
-        "pos": 16,
+        "pos": 17,
         "team": "Fulham",
         "p": 7,
         "w": 1,
@@ -496,37 +507,26 @@
         "pts": 5
       },
       {
-        "pos": 17,
+        "pos": 18,
         "team": "Nottingham Forest",
-        "p": 6,
+        "p": 7,
         "w": 1,
         "d": 2,
-        "l": 3,
+        "l": 4,
         "gf": 5,
-        "ga": 8,
+        "ga": 9,
         "pts": 5
       },
       {
-        "pos": 18,
+        "pos": 19,
         "team": "Sunderland",
-        "p": 6,
+        "p": 7,
         "w": 1,
         "d": 1,
-        "l": 4,
+        "l": 5,
         "gf": 6,
-        "ga": 12,
+        "ga": 14,
         "pts": 4
-      },
-      {
-        "pos": 19,
-        "team": "AFC Bournemouth",
-        "p": 6,
-        "w": 0,
-        "d": 3,
-        "l": 3,
-        "gf": 7,
-        "ga": 13,
-        "pts": 3
       },
       {
         "pos": 20,
@@ -905,25 +905,16 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He aggravated the same hamstring problem and was substituted after 32 minutes of the 2-1 win at Brentford. Andoni Iraola says he will need more time, so no return date is set.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/andoni-iraola-on-jeremie-frimpong-and-dominik-szoboszlai-injuries"
-    },
-    {
-      "player": "Jeremie Frimpong",
-      "pos": "DF",
-      "status": "out",
-      "issue": "Injury",
-      "detail": "He came on at half-time at Brentford but had to come off moments later with a new injury. Iraola says Liverpool will be without him for some time.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/andoni-iraola-on-jeremie-frimpong-and-dominik-szoboszlai-injuries"
+      "detail": "A hamstring problem picked up on Hungary duty has kept him out of the last two games. Reports describe it as not serious, and he is hopeful of returning within about a week.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/dominik-szoboszlai-injury-update-liverpool-return/"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is recovering from a ruptured Achilles and is doing very well, but Iraola will not give a timeframe. Earlier reports had targeted a return around Christmas.",
+      "detail": "He is recovering from Achilles tendon surgery and Iraola says the rehab is going well, but no timeframe has been given. Earlier reports had targeted a return around Christmas.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/hugo-ekitikes-injury-recovery-going-34771056"
     },
@@ -932,62 +923,99 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been out since a serious knee injury against Arsenal in January and is not far from doing some things with the group. Liverpool are being cautious about his return.",
+      "detail": "He has been out since a serious knee injury against Arsenal in January and is doing some work with the group. Liverpool are being cautious, and a return around the November international break looks most likely.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/hugo-ekitikes-injury-recovery-going-34771056"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/14-players-risk-missing-brentford-34778918"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "A setback in his knee recovery has delayed him, and he is now due to start his return in the November international break.",
+      "detail": "A setback in his knee recovery from an ACL injury has delayed his comeback. He is now set to start his return in the November international break.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135"
+    },
+    {
+      "player": "Alexander Isak",
+      "pos": "FW",
+      "status": "out",
+      "issue": "Thigh",
+      "detail": "He picked up a thigh muscle injury on international duty, which has been described as minor. He has been ruled out of recent matches, and Iraola is assessing him day to day.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-gives-szoboszlai-34758851"
+    },
+    {
+      "player": "Cody Gakpo",
+      "pos": "FW",
+      "status": "out",
+      "issue": "Ankle",
+      "detail": "He hurt his ankle during the Netherlands game against Serbia and withdrew from the squad. He is doing individual work and will return when he feels ready, with no date set.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-gives-szoboszlai-34758851"
+    },
+    {
+      "player": "Federico Chiesa",
+      "pos": "FW",
+      "status": "out",
+      "issue": "Back",
+      "detail": "He has had a lower back problem since pre-season and has not played a minute this season. He is back in training, but Iraola has not committed to using him.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-manchester-city-injury-news-34742891"
+    },
+    {
+      "player": "Ryan Gravenberch",
+      "pos": "MF",
+      "status": "out",
+      "issue": "Suspension",
+      "detail": "He was sent off in a controversial incident, leaving Iraola without another midfield option for the Brentford match. Check the club for the length of his ban.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-brentford-isak-34771135",
+      "suspension": "red"
     }
   ],
   "news": [
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "source": "Liverpool Echo",
-      "title": "'Really blessed' - Virgil van Dijk makes feelings clear after Liverpool milestone and gives Florian Wirtz verdict",
-      "summary": "Virgil van Dijk reacts to Liverpool's 2-1 win over Brentford on what was his 150th game as captain of the club in the Premier League",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/really-blessed-virgil-van-dijk-34781455"
+      "title": "Andoni Iraola press conference LIVE - Liverpool boss on Szoboszlai, Frimpong injuries, Villarreal clash",
+      "summary": "Liverpool boss Andoni Iraola and defender Ronald Araujo face the press ahead of his side's Champions League clash with Villarreal at Anfield on Tuesday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-press-conference-live-34785321"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Liverpool Echo",
+      "title": "Liverpool have to accept new Alexander Isak reality - and the January window is huge",
+      "summary": "The first part of John Aldridge's ECHO column touches on the win at Brentford, Alexander Isak and the January transfer window",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-accept-new-alexander-isak-34785010"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Liverpool Echo",
+      "title": "Gilberto Mora 'confirms' Liverpool transfer as tunnel footage from fans emerges",
+      "summary": "Liverpool continue to be linked with a move for the young star",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/gilberto-mora-liverpool-transfer-news-34784209"
+    },
+    {
+      "date": "2026-10-19",
+      "source": "Liverpool Echo",
+      "title": "Trent Alexander-Arnold suffers new embarrassment as writing on the wall for ex-Liverpool star",
+      "summary": "Trent Alexander-Arnold continues to find life after Liverpool difficult, with his Real Madrid future looking iffy under Jose Mourinho",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-arnold-liverpool-real-madrid-34783620"
     },
     {
       "date": "2026-10-18",
       "source": "Liverpool Echo",
-      "title": "Ex-Liverpool star released by Jurgen Klopp told he's 'world class again' in major U-turn",
-      "summary": "The former Reds star's career is on the up again after winning promotion last season",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-loris-karius-jurgen-klopp-34781524"
+      "title": "Why Andoni Iraola and Julian Ward go back years as big Liverpool plan takes shape after FSG U-turn",
+      "summary": "SPECIAL REPORT: A closer look at the re-appointment of Julian Ward as Liverpool's new sporting director with insight from head coach Andoni Iraola",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-julian-ward-go-34781991"
     },
     {
       "date": "2026-10-18",
       "source": "Liverpool Echo",
-      "title": "Alexander Isak explains key to lethal Liverpool finish and what left him 'screaming' from the bench",
-      "summary": "Reaction from match-winner Alexander Isak after his goal secured a hard-fought 2-1 triumph for Liverpool at Brentford on Saturday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-explains-key-lethal-34780877"
-    },
-    {
-      "date": "2026-10-18",
-      "source": "Liverpool Echo",
-      "title": "National media make Florian Wirtz point and identify 'foolish' moment everything changed for Liverpool",
-      "summary": "How the national media reacted to Liverpool's hard-fought 2-1 Premier League victory over Brentford at the Gtech Community Stadium",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/national-media-make-florian-wirtz-34780880"
-    },
-    {
-      "date": "2026-10-17",
-      "source": "Liverpool Echo",
-      "title": "'Cute and clever' - Keith Andrews questions Jeremy Jacquet's role in red card against Liverpool",
-      "summary": "Brentford boss Keith Andrews delivers his verdict on his side's two sending offs against Liverpool, who took full advantage to win 2-1 at the Gtech Community Stadium",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/cute-clever-keith-andrews-questions-34779504"
-    },
-    {
-      "date": "2026-10-17",
-      "source": "Liverpool Echo",
-      "title": "I cried when I realised my Liverpool career was over – I shouldn't have been on the pitch",
-      "summary": "Liverpool fans were saddened to see one club icon's career come to an end in unfortunate circumstances, which saw the star in question reduced to tears once he realised the truth",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-thiago-alcantara-injury-retirement-34767109"
+      "title": "Liverpool latest: Andoni Iraola issue spotted as plan B transfer option 'emerges'",
+      "summary": "Thoughts at Liverpool have already turned to the next transfer windows",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-alex-scott-danny-murphy-34782181"
     },
     {
       "date": "2026-10-17",
@@ -1002,13 +1030,6 @@
       "title": "'Florian Wirtz - unbelievable!'",
       "summary": "Liverpool fan Abigail Rudkin was delighted with Florian Wirtz's performance during the Reds' win at Brentford, after increased scrutiny over the German's start to life at Anfield.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cke8rz8d9qrro"
-    },
-    {
-      "date": "2026-10-17",
-      "source": "BBC Sport",
-      "title": "Liverpool come from behind to beat nine-man Brentford",
-      "summary": "Liverpool come from behind to beat Brentford 2-1 at the Gtech Community Stadium as the hosts finish with nine men after red cards for Yehor Yarmoliuk and Vitaly Janelt.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c65yn28p859wo"
     },
     {
       "date": "2026-10-16",
@@ -1030,6 +1051,13 @@
       "title": "'Unbelievable' player performance makes Liverpool fan smile",
       "summary": "Liverpool fan Nahyan Chowdhury hails Bradley Barcola and Lewis Koumas performances against LASK",
       "url": "https://www.bbc.co.uk/sport/football/videos/cq9vzg1jnnzwo"
+    },
+    {
+      "date": "2026-10-14",
+      "source": "BBC Sport",
+      "title": "Brilliant Barcola scores first hat-trick to get lift-off at Liverpool",
+      "summary": "Liverpool's summer signing Bradley Barcola scores his first senior hat-trick, and his first goals for Liverpool, as he helps his side beat LASK 6-3 in Austria to make it two wins from two in this season's Champions League.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmx237q7nl21o"
     }
   ],
   "outlets": [
@@ -1059,7 +1087,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-18",
+    "asof": "2026-10-19",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
