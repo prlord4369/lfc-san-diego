@@ -20,6 +20,7 @@
   --red-deep: #7a0c1c;
   --on-red: #ffffff;
   --pacific: #0b6f78;
+  --europa: #3457d5;   /* Europa League stripe: a true blue, clearly apart from the green */
   --ok: #2c7a3f;
   --warn: #a8650a;
   --bad: #b3152c;
@@ -33,7 +34,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #131012; --surface: #1d181a; --fg: #f3eded; --muted: #a99ea1; --line: #342c2f;
-    --red: #e3354d; --red-deep: #5c0915; --on-red: #ffffff; --pacific: #4fc0ca;
+    --red: #e3354d; --red-deep: #5c0915; --on-red: #ffffff; --pacific: #4fc0ca; --europa: #7d9bff;
     --ok: #6cc983; --warn: #e3a64a; --bad: #ff6b7f;
     --chip-ok: #18301e; --chip-warn: #33250f; --chip-bad: #3a1219;
     color-scheme: dark;
@@ -41,7 +42,7 @@
 }
 :root[data-theme="dark"] {
   --bg: #131012; --surface: #1d181a; --fg: #f3eded; --muted: #a99ea1; --line: #342c2f;
-  --red: #e3354d; --red-deep: #5c0915; --on-red: #ffffff; --pacific: #4fc0ca;
+  --red: #e3354d; --red-deep: #5c0915; --on-red: #ffffff; --pacific: #4fc0ca; --europa: #7d9bff;
   --ok: #6cc983; --warn: #e3a64a; --bad: #ff6b7f;
   --chip-ok: #18301e; --chip-warn: #33250f; --chip-bad: #3a1219;
   color-scheme: dark;
@@ -184,9 +185,8 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .tabs button[aria-selected="true"] { color: var(--red); border-bottom-color: var(--red); }
 /* Champions League qualification zones: a stripe on the position cell */
 .lt td.ps.z1 { box-shadow: inset 3px 0 0 var(--ok); }
-.lt td.ps.z2 { box-shadow: inset 3px 0 0 var(--warn); }
 /* Premier League: Europa League places and the relegation zone */
-.lt td.ps.z3 { box-shadow: inset 3px 0 0 var(--pacific); }
+.lt td.ps.z3 { box-shadow: inset 3px 0 0 var(--europa); }
 .lt td.ps.z4 { box-shadow: inset 3px 0 0 var(--bad); }
 .zones { display: flex; flex-wrap: wrap; gap: 6px 18px; padding-top: 12px; font-size: .78rem; color: var(--muted); }
 .zones i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
@@ -670,14 +670,15 @@ function render(data) {
     var nPL = lt.rows.length;
     document.getElementById("lt").innerHTML = leagueTable(lt, function (p) { return p <= 4 ? "z1" : p === 5 ? "z3" : p > nPL - 3 ? "z4" : ""; });
     document.getElementById("pl-zones").innerHTML =
-      "<span><i style=\"background:var(--ok)\"></i>1st–4th: Champions League</span><span><i style=\"background:var(--pacific)\"></i>5th: Europa League</span><span><i style=\"background:var(--bad)\"></i>18th–20th: relegation</span>";
+      "<span><i style=\"background:var(--ok)\"></i>1st–4th: Champions League</span><span><i style=\"background:var(--europa)\"></i>5th: Europa League</span><span><i style=\"background:var(--bad)\"></i>18th–20th: relegation</span>";
   }
   document.getElementById("lt-empty").hidden = hasRows(lt);
   if (hasRows(clt)) {
     // League phase: 1st-8th go to the round of 16, 9th-24th to the knockout play-offs, 25th-36th are out
-    document.getElementById("clt").innerHTML = leagueTable(clt, function (p) { return p <= 8 ? "z1" : p <= 24 ? "z2" : ""; }, uclLink);
+    // Same colours as the Premier League tab: green = straight through, blue = play-offs, red = out
+    document.getElementById("clt").innerHTML = leagueTable(clt, function (p) { return p <= 8 ? "z1" : p <= 24 ? "z3" : "z4"; }, uclLink);
     document.getElementById("cl-zones").innerHTML =
-      "<span><i style=\"background:var(--ok)\"></i>1st–8th: round of 16</span><span><i style=\"background:var(--warn)\"></i>9th–24th: knockout play-offs</span><span>25th–36th: eliminated</span>";
+      "<span><i style=\"background:var(--ok)\"></i>1st–8th: round of 16</span><span><i style=\"background:var(--europa)\"></i>9th–24th: knockout play-offs</span><span><i style=\"background:var(--bad)\"></i>25th–36th: eliminated</span>";
   }
   document.getElementById("clt-empty").hidden = hasRows(clt);
 
