@@ -153,6 +153,7 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .inj .pos { font-weight: 400; color: var(--muted); font-size: .8rem; }
 /* A small referee's card beside a suspension reason (real card colours, readable in both themes) */
 .inj .card { display: inline-block; width: 8px; height: 11px; border-radius: 1.5px; margin: 0 5px 0 1px; vertical-align: -1px; box-shadow: 0 0 0 .5px rgba(0,0,0,.25); }
+.inj .rep { white-space: nowrap; }
 .inj .ban { white-space: nowrap; font-weight: 700; color: var(--fg); }
 .inj .card.red { background: #d71a28; }
 .inj .card.yellow { background: #f5c518; }
@@ -629,7 +630,10 @@ function render(data) {
     var issue = why ? "Suspension " + why : esc(i.issue);
     return "<li><span class=\"p\">" + esc(i.player) + " <span class=\"pos\">" + esc(i.pos) + " · " + issue + "</span></span>" +
       "<span class=\"chip " + i.status + "\">" + names[i.status] + "</span>" +
-      "<span class=\"why\">" + esc(i.detail) + (i.url ? " <a href=\"" + esc(i.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(i.source) + "</a>" : "") + "</span></li>";
+      "<span class=\"why\">" + esc(i.detail) + (i.url ? " <a href=\"" + esc(i.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(i.source) + "</a>" : "") +
+      // When the cited article was published, so members can see how fresh each entry is
+      (/^\d{4}-\d{2}-\d{2}$/.test(i.reported || "") ? " <span class=\"rep\">· Reported " + esc(new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(i.reported + "T12:00:00Z"))) + "</span>" : "") +
+      "</span></li>";
   }).join("");
 
   // Standings: league tables for the Premier League and Champions League, Liverpool's run for the two cups
