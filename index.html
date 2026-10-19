@@ -675,10 +675,10 @@ function render(data) {
   document.getElementById("lt-empty").hidden = hasRows(lt);
   if (hasRows(clt)) {
     // League phase: 1st-8th go to the round of 16, 9th-24th to the knockout play-offs, 25th-36th are out
-    // Same colours as the Premier League tab: green = straight through, blue = play-offs, red = out
-    document.getElementById("clt").innerHTML = leagueTable(clt, function (p) { return p <= 8 ? "z1" : p <= 24 ? "z3" : "z4"; }, uclLink);
+    // Same colours as the Premier League tab: green = straight through, blue = play-offs (25th-36th unmarked)
+    document.getElementById("clt").innerHTML = leagueTable(clt, function (p) { return p <= 8 ? "z1" : p <= 24 ? "z3" : ""; }, uclLink);
     document.getElementById("cl-zones").innerHTML =
-      "<span><i style=\"background:var(--ok)\"></i>1st–8th: round of 16</span><span><i style=\"background:var(--europa)\"></i>9th–24th: knockout play-offs</span><span><i style=\"background:var(--bad)\"></i>25th–36th: eliminated</span>";
+      "<span><i style=\"background:var(--ok)\"></i>1st–8th: round of 16</span><span><i style=\"background:var(--europa)\"></i>9th–24th: knockout play-offs</span><span>25th–36th: eliminated</span>";
   }
   document.getElementById("clt-empty").hidden = hasRows(clt);
 
