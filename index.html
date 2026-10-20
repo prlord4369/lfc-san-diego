@@ -105,6 +105,9 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 @keyframes pulse { 50% { opacity: .25; } }
 .countdown .u {font-size: .7rem; text-transform: uppercase; letter-spacing: .12em; opacity: .75; }
 .hero .local { margin-top: 6px; font-size: .82rem; opacity: .8; }
+/* US viewing: its own line between the date line and the UK kick-off, small like the latter */
+.hero .tv { margin-top: 6px; font-size: .82rem; opacity: .8; }
+.hero .tv strong { font-weight: 700; }
 
 /* Form strip */
 .form { border-bottom: 1px solid var(--line); background: var(--surface); }
@@ -273,6 +276,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <div class="label" id="next-label">Next match</div>
       <h1 id="next-title">Liverpool <span class="v">v</span> —</h1>
       <div class="meta" id="next-meta"></div>
+      <div class="tv" id="next-tv" hidden></div>
       <div class="local" id="next-local"></div>
     </div>
     <div class="countdown" id="countdown" aria-label="Time to kickoff"></div>
@@ -470,6 +474,19 @@ function render(data) {
     .filter(function (f) { return f.d.getTime() > now - holdMs(f); })
     .sort(function (a, b) { return a.d - b.d; });
 
+  // US viewing: a fixture's own "us" field (set once the US channel is announced) wins over the competition default
+  var US_TV = [
+    [/^Premier League/i, "Peacock / NBC / USA Network"],
+    [/^(Champions League|Europa League|Conference League|UEFA)/i, "Paramount+ (some games on CBS)"],
+    [/^(Carabao Cup|EFL Cup|League Cup)/i, "Paramount+"],
+    [/^FA Cup/i, "ESPN+"]
+  ];
+  var usTV = function (f) {
+    if (f.us) return f.us;
+    for (var i = 0; i < US_TV.length; i++) if (US_TV[i][0].test(f.comp)) return US_TV[i][1];
+    return "";
+  };
+
   // Hero
   var next = fixtures[0];
   if (next) {
@@ -485,6 +502,9 @@ function render(data) {
       // Only claim the venue is showing it when the fixture is marked "atVenue": true (screening confirmed with the bar)
       (data.venue && next.atVenue
         ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(data.venue.name) + "</strong></a></span>" : "");
+    var tvLine = document.getElementById("next-tv");
+    tvLine.innerHTML = usTV(next) ? "Watch on <strong>" + esc(usTV(next)) + "</strong>" : "";
+    tvLine.hidden = !usTV(next);
     document.getElementById("next-local").textContent = "UK kick-off " +
       new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", hour: "2-digit", minute: "2-digit" }).format(next.d);
     var cd = document.getElementById("countdown");
@@ -570,18 +590,6 @@ function render(data) {
   var filter = "all", showAll = false;
   try { filter = localStorage.getItem("lfcsd-filter") || "all"; } catch (e) {}
   var list = document.getElementById("fx-list"), more = document.getElementById("fx-more");
-  // US viewing: a fixture's own "us" field (set once the US channel is announced) wins over the competition default
-  var US_TV = [
-    [/^Premier League/i, "Peacock / NBC / USA Network"],
-    [/^(Champions League|Europa League|Conference League|UEFA)/i, "Paramount+ (some games on CBS)"],
-    [/^(Carabao Cup|EFL Cup|League Cup)/i, "Paramount+"],
-    [/^FA Cup/i, "ESPN+"]
-  ];
-  var usTV = function (f) {
-    if (f.us) return f.us;
-    for (var i = 0; i < US_TV.length; i++) if (US_TV[i][0].test(f.comp)) return US_TV[i][1];
-    return "";
-  };
   function renderFixtures() {
     var rows = fixtures.filter(function (f) { return filter === "all" || f.scope === filter; });
     var shown = showAll ? rows : rows.slice(0, 10);
