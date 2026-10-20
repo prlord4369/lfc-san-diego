@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T14:44:16Z",
+  "updated": "2026-10-20T12:25:48Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   "table": {
-    "asof": "2026-10-19",
+    "asof": "2026-10-20",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -486,17 +486,28 @@
       },
       {
         "pos": 16,
-        "team": "Coventry City",
-        "p": 6,
-        "w": 2,
-        "d": 0,
-        "l": 4,
-        "gf": 5,
-        "ga": 11,
+        "team": "Tottenham Hotspur",
+        "p": 7,
+        "w": 1,
+        "d": 3,
+        "l": 3,
+        "gf": 6,
+        "ga": 10,
         "pts": 6
       },
       {
         "pos": 17,
+        "team": "Coventry City",
+        "p": 7,
+        "w": 2,
+        "d": 0,
+        "l": 5,
+        "gf": 6,
+        "ga": 14,
+        "pts": 6
+      },
+      {
+        "pos": 18,
         "team": "Fulham",
         "p": 7,
         "w": 1,
@@ -507,7 +518,7 @@
         "pts": 5
       },
       {
-        "pos": 18,
+        "pos": 19,
         "team": "Nottingham Forest",
         "p": 7,
         "w": 1,
@@ -518,7 +529,7 @@
         "pts": 5
       },
       {
-        "pos": 19,
+        "pos": 20,
         "team": "Sunderland",
         "p": 7,
         "w": 1,
@@ -527,17 +538,6 @@
         "gf": 6,
         "ga": 14,
         "pts": 4
-      },
-      {
-        "pos": 20,
-        "team": "Tottenham Hotspur",
-        "p": 6,
-        "w": 0,
-        "d": 3,
-        "l": 3,
-        "gf": 3,
-        "ga": 9,
-        "pts": 3
       }
     ]
   },
@@ -643,8 +643,8 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "scope": "domestic",
-      "tbc": false
+      "tbc": false,
+      "scope": "domestic"
     },
     {
       "kickoff": "2026-11-01T16:30:00Z",
@@ -905,50 +905,50 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He aggravated the same hamstring problem at Brentford on 17 October and was replaced after 32 minutes. Iraola says it is not a new injury and he needs more time, but he is not expected to be out for too long.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
-      "reported": "2026-10-19"
+      "detail": "He suffered a recurrence of the hamstring problem at Brentford on 17 October and was replaced after 32 minutes. Iraola says it is not a new injury and he needs more time to recover fully, so he is out for the Villarreal game.",
+      "source": "Liverpool FC",
+      "url": "https://liverpoolfc.com/news/liverpool-v-villarreal-team-news-champions-league",
+      "reported": "2026-10-20"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He pulled up with a new hamstring injury after coming on at half-time at Brentford on 17 October. Iraola thinks his return before the November international break is unlikely.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
-      "reported": "2026-10-19"
+      "detail": "He picked up a new muscle injury at Brentford on 17 October and was substituted shortly after coming on. Iraola says he may not return until after the November international break.",
+      "source": "Liverpool FC",
+      "url": "https://liverpoolfc.com/news/liverpool-v-villarreal-team-news-champions-league",
+      "reported": "2026-10-20"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still a long-term absentee after Achilles surgery, but reports say his recovery is progressing well. No firm return date has been given.",
+      "detail": "He is still recovering from Achilles surgery and remains sidelined, but Iraola says he is doing very well. Reports suggest he could resume training as early as next month, with no firm return date.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/14-players-risk-missing-brentford-34778918",
-      "reported": "2026-10-17"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-miss-training-munoz-szoboszlai-34788077",
+      "reported": "2026-10-20"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been out since a serious knee injury at Arsenal in January and is edging closer to a training comeback. Liverpool are expected to be cautious, so a return around November or December looks likely.",
+      "detail": "He is still sidelined after a serious knee injury against Arsenal in January and has not yet resumed training. Liverpool are expected to be cautious, so a return around November or December looks likely.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/14-players-risk-missing-brentford-34778918",
-      "reported": "2026-10-17"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-miss-training-munoz-szoboszlai-34788077",
+      "reported": "2026-10-20"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "His knee recovery from ACL surgery has suffered a setback and is taking longer than planned. He is scheduled to return to training in November, with his comeback starting in the next international break.",
+      "detail": "His ACL recovery has been delayed and he will not be part of the Villarreal game. His comeback is not expected until the November international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
-      "reported": "2026-10-19"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
+      "reported": "2026-10-20"
     },
     {
       "player": "Vitezslav Jaros",
@@ -957,52 +957,66 @@
       "issue": "ACL",
       "detail": "He has been sidelined since a serious knee injury on loan at Ajax in February and is still in rehabilitation. No return date has been given in the latest report.",
       "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/szoboszlai-frimpong-injury-update-out-some-time-liverpool/",
+      "url": "https://thisisanfield.com/2026/10/szoboszlai-frimpong-injury-update-out-some-time-liverpool",
       "reported": "2026-10-18"
     }
   ],
   "news": [
     {
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "source": "Liverpool Echo",
-      "title": "Chelsea vs Liverpool kick-off time moved after Premier League decision",
-      "summary": "Three Liverpool Premier League games have been altered following the latest raft of television changes",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/chelsea-vs-liverpool-kick-time-34786708"
+      "title": "Liverpool line-ups vs Villarreal as Kostas Tsimikas and Cody Gakpo given starts",
+      "summary": "Liverpool take on Villarreal in the Champions League on Tuesday night, with boss Andoni Iraola hinting he is ready to ring the changes",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-fc-villarreal-team-xi-34790326"
+    },
+    {
+      "date": "2026-10-20",
+      "source": "Liverpool Echo",
+      "title": "Virgil van Dijk looks to key Liverpool advantage as Reds emerge from nightmare run",
+      "summary": "Liverpool captain Virgil van Dijk was writing in his programme notes ahead of Tuesday night's Champions League clash with Villarreal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-looks-key-34790035"
+    },
+    {
+      "date": "2026-10-20",
+      "source": "Liverpool Echo",
+      "title": "Steven Gerrard speaks mind on Florian Wirtz and Bradley Barcola as Liverpool staff sent message",
+      "summary": "Both Florian Wirtz and Bradley Barcola have had slow starts to their Liverpool careers but are showing signs of improvement",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-wirtz-barcola-liverpool-34789251"
+    },
+    {
+      "date": "2026-10-20",
+      "source": "Liverpool Echo",
+      "title": "Nine players set to miss Liverpool vs Villarreal after triple Andoni Iraola blow",
+      "summary": "Liverpool host Villarreal at Anfield in the Champions League with Andoni Iraola missing several players after they sustained multiple injuries against Brentford",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-villarreal-team-news-ucl-34789032"
     },
     {
       "date": "2026-10-19",
       "source": "Liverpool Echo",
-      "title": "Jeremie Frimpong in 'massive' Liverpool injury blow as Andoni Iraola gives Dominik Szoboszlai update",
-      "summary": "Andoni Iraola has today provided an injury update on Jeremie Frimpong and Dominik Szoboszlai",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jeremie-frimpong-massive-liverpool-injury-34786170"
+      "title": "Rafael Benítez set for Liverpool reunion as new role brings Anfield return",
+      "summary": "Former Liverpool boss Rafa Benitez is set to cross paths with one of his old stars at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-rafa-benitez-anfield-reunion-34786643"
     },
     {
       "date": "2026-10-19",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola press conference LIVE - Liverpool boss on Szoboszlai, Frimpong injuries, Villarreal clash",
-      "summary": "Liverpool boss Andoni Iraola and defender Ronald Araujo face the press ahead of his side's Champions League clash with Villarreal at Anfield on Tuesday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-press-conference-live-34785321"
+      "title": "Rio Ngumoha gets Liverpool transfer advice after Bayern Munich links - 'Banging on the door'",
+      "summary": "Rio Ngumoha is yet to sign a new contract since turning 18 at Liverpool and has been linked with Bayern Munich",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-gets-liverpool-transfer-34784056"
     },
     {
       "date": "2026-10-19",
-      "source": "Liverpool Echo",
-      "title": "Liverpool have to accept new Alexander Isak reality - and the January window is huge",
-      "summary": "The first part of John Aldridge's ECHO column touches on the win at Brentford, Alexander Isak and the January transfer window",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-accept-new-alexander-isak-34785010"
+      "source": "BBC Sport",
+      "title": "Araujo the stopgap solution fixing Liverpool's problems",
+      "summary": "Ronald Araujo has impressed since arriving at Liverpool from Barcelona. Could he prove a longer-term solution?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck8dz7pp4089o"
     },
     {
       "date": "2026-10-19",
-      "source": "Liverpool Echo",
-      "title": "Gilberto Mora 'confirms' Liverpool transfer as tunnel footage from fans emerges",
-      "summary": "Liverpool continue to be linked with a move for the young star",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/gilberto-mora-liverpool-transfer-news-34784209"
-    },
-    {
-      "date": "2026-10-19",
-      "source": "Liverpool Echo",
-      "title": "Trent Alexander-Arnold suffers new embarrassment as writing on the wall for ex-Liverpool star",
-      "summary": "Trent Alexander-Arnold continues to find life after Liverpool difficult, with his Real Madrid future looking iffy under Jose Mourinho",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-arnold-liverpool-real-madrid-34783620"
+      "source": "BBC Sport",
+      "title": "Brentford contact police after rugby ball kicked into stadium",
+      "summary": "Brentford say they are working with the police following a \"dangerous\" incident in which a rugby ball was kicked from a height towards the pitch during their Premier League game with Liverpool.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g17d11zvwo"
     },
     {
       "date": "2026-10-17",
@@ -1031,20 +1045,6 @@
       "title": "Why Souness rejected Barcelona when he left Liverpool",
       "summary": "Liverpool legend Graeme Souness reveals he rejected the chance to sign for Barcelona when he left the European champions.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cm0j07pdw95eo"
-    },
-    {
-      "date": "2026-10-15",
-      "source": "BBC Sport",
-      "title": "'Unbelievable' player performance makes Liverpool fan smile",
-      "summary": "Liverpool fan Nahyan Chowdhury hails Bradley Barcola and Lewis Koumas performances against LASK",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq9vzg1jnnzwo"
-    },
-    {
-      "date": "2026-10-14",
-      "source": "BBC Sport",
-      "title": "Brilliant Barcola scores first hat-trick to get lift-off at Liverpool",
-      "summary": "Liverpool's summer signing Bradley Barcola scores his first senior hat-trick, and his first goals for Liverpool, as he helps his side beat LASK 6-3 in Austria to make it two wins from two in this season's Champions League.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmx237q7nl21o"
     }
   ],
   "outlets": [
@@ -1074,7 +1074,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-19",
+    "asof": "2026-10-20",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
