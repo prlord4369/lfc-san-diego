@@ -305,7 +305,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <div id="fx-list"></div>
       <button type="button" class="more" id="fx-more">Show full season</button>
       <div id="fx-notes"></div>
-      <p class="note">Times are Pacific (San Diego). <b>TBC</b> means UK broadcasters haven't picked the slot yet, so the date or time may still move. US listings show the rights holder for each competition; the exact NBC / USA / Peacock or CBS / Paramount+ channel is set closer to the game.</p>
+      <p class="note">Times are Pacific (San Diego). <b>TBC</b> means UK broadcasters haven't picked the slot yet, so the date or time may still move. US listings show the rights holder for each competition; the exact NBC / USA / NBCSN / Peacock or CBS / Paramount+ channel is set closer to the game.</p>
     </section>
 
     <section id="injuries" aria-labelledby="inj-h">
@@ -476,7 +476,7 @@ function render(data) {
 
   // US viewing: a fixture's own "us" field (set once the US channel is announced) wins over the competition default
   var US_TV = [
-    [/^Premier League/i, "Peacock / NBC / USA Network"],
+    [/^Premier League/i, "Peacock / NBC / USA Network / NBCSN"],
     [/^(Champions League|Europa League|Conference League|UEFA)/i, "Paramount+ (some games on CBS)"],
     [/^(Carabao Cup|EFL Cup|League Cup)/i, "Paramount+"],
     [/^FA Cup/i, "ESPN+"]
