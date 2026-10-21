@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T18:46:01Z",
+  "updated": "2026-10-21T18:57:59Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -629,14 +629,19 @@
       "opp": "Brighton & Hove Albion",
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "us": "NBCSN / Peacock",
+      "usUrl": "https://worldsoccertalk.com/soccer-games-on-tv-today-in-the-united-states/"
     },
     {
       "kickoff": "2026-10-28T20:00:00Z",
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "scope": "domestic"
+      "tbc": false,
+      "scope": "domestic",
+      "us": "Paramount+",
+      "usUrl": "https://worldsoccertalk.com/soccer-games-on-tv-today-in-the-united-states/"
     },
     {
       "kickoff": "2026-11-01T16:30:00Z",
@@ -897,67 +902,67 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-injured the same hamstring at Brentford on 17 October and missed the Villarreal win. Iraola said it is not a new injury and the club will be patient until he recovers fully.",
+      "detail": "He re-injured the same hamstring at Brentford on 17 October and missed the Villarreal win. Iraola says it is not a new problem and the club will be patient until he fully recovers.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
+      "reported": "2026-10-19"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle injury early in his Brentford cameo on 17 October. Iraola says a return before the November international break will be difficult.",
+      "detail": "He picked up a new muscle injury early in his Brentford cameo on 17 October. Iraola says a return before the November international break looks difficult.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
+      "reported": "2026-10-20"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
-      "issue": "Achilles",
-      "detail": "He is still recovering from a serious Achilles injury from April and is progressing well. Reports point to training next month and competitive action in December.",
+      "issue": "Long-term injury",
+      "detail": "He remains one of the club's long-term absentees, and the latest team news gives no return date for him.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
+      "reported": "2026-10-19"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
-      "issue": "Knee",
-      "detail": "He has been out since a serious knee injury at Arsenal in January. Iraola says he is not far from joining team training, with a return expected before the end of the year.",
+      "issue": "Long-term injury",
+      "detail": "He remains one of the club's long-term absentees, and the latest team news gives no return date for him.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-frimpong-injury-update-iraola-34785027",
+      "reported": "2026-10-19"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "His ACL recovery has hit a setback and his comeback has been pushed back to the November international break. He did not play against Villarreal.",
+      "detail": "He is recovering from an ACL injury and is moving closer to joining first-team training. His comeback is not expected until the November international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
+      "reported": "2026-10-20"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
-      "status": "out",
-      "issue": "Knee",
-      "detail": "He picked up a knock at Brentford, then missed training and the Villarreal game. No official word on the severity or return date has been given.",
+      "status": "doubt",
+      "issue": "Knock",
+      "detail": "He picked up a knock at Brentford, where he scored, and missed training before the Villarreal game. The club has not given an official update on his fitness.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
+      "reported": "2026-10-20"
     },
     {
       "player": "Federico Chiesa",
       "pos": "FW",
       "status": "out",
       "issue": "Injury",
-      "detail": "He has not featured this season and was left out of Liverpool's Champions League squad, so he is unavailable for selection. No return date has been given.",
+      "detail": "He has been left out of Liverpool's Champions League squad, so he is unavailable for selection. No return date has been given.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
       "reported": "2026-10-20"
