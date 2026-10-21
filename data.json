@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T12:27:18Z",
+  "updated": "2026-10-21T18:46:01Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -636,7 +636,6 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "tbc": false,
       "scope": "domestic"
     },
     {
@@ -898,7 +897,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-injured the same hamstring at Brentford on 17 October and was not available for the Villarreal win. Iraola said it is not a new injury.",
+      "detail": "He re-injured the same hamstring at Brentford on 17 October and missed the Villarreal win. Iraola said it is not a new injury and the club will be patient until he recovers fully.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -908,7 +907,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle injury early in his Brentford cameo on 17 October and missed the Villarreal game. Iraola is not expecting an immediate recovery.",
+      "detail": "He picked up a new muscle injury early in his Brentford cameo on 17 October. Iraola says a return before the November international break will be difficult.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -918,7 +917,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still recovering from a serious Achilles injury from April. Reports suggest he could return to training next month, with competitive action targeted for December.",
+      "detail": "He is still recovering from a serious Achilles injury from April and is progressing well. Reports point to training next month and competitive action in December.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -928,7 +927,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been out since a serious knee injury at Arsenal in January. Iraola says he is not far from joining team training, and a return is expected before the end of the year.",
+      "detail": "He has been out since a serious knee injury at Arsenal in January. Iraola says he is not far from joining team training, with a return expected before the end of the year.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -938,7 +937,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "His ACL recovery has hit a setback, and his comeback has been pushed back to the November international break. He will not play against Villarreal.",
+      "detail": "His ACL recovery has hit a setback and his comeback has been pushed back to the November international break. He did not play against Villarreal.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -948,20 +947,10 @@
       "pos": "FW",
       "status": "out",
       "issue": "Knee",
-      "detail": "He picked up a knock at Brentford, then missed training and the Villarreal game. There is no official word on the severity and no return date has been set.",
+      "detail": "He picked up a knock at Brentford, then missed training and the Villarreal game. No official word on the severity or return date has been given.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
-    },
-    {
-      "player": "Vitezslav Jaros",
-      "pos": "GK",
-      "status": "out",
-      "issue": "ACL",
-      "detail": "He is still sidelined after knee surgery for a serious injury suffered on loan at Ajax in February. No return date has been given.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/szoboszlai-frimpong-injury-update-out-some-time-liverpool/",
-      "reported": "2026-10-18"
     },
     {
       "player": "Federico Chiesa",
@@ -978,30 +967,51 @@
     {
       "date": "2026-10-21",
       "source": "Liverpool Echo",
+      "title": "Rio Ngumoha put in league of his own as Jamie Redknapp reveals training videos at his house",
+      "summary": "Rio Ngumoha has enjoyed a sensational start to the season at Liverpool, with Jamie Redknapp heaping praise on the teenager after another stunning display in the Champions League",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-rio-ngumoha-redknapp-sturridge-34798661"
+    },
+    {
+      "date": "2026-10-21",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola has sent Liverpool £364m squad message after three decisions made",
+      "summary": "Andoni Iraola caused a bit of a stir with his starting line-up for Liverpool's Champions League game against Villarreal on Tuesday evening",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sent-liverpool-364m-34797778"
+    },
+    {
+      "date": "2026-10-21",
+      "source": "BBC Sport",
+      "title": "No mistake over Gravenberch red card - panel",
+      "summary": "The Premier League's Key Match Incidents Panel has backed the red card shown to Liverpool's Ryan Gravenberch against Manchester City.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmed36n7qge3o"
+    },
+    {
+      "date": "2026-10-21",
+      "source": "Liverpool Echo",
+      "title": "Liverpool issue Jayden Danns injury update as striker 'ready to go'",
+      "summary": "Liverpool striker Jayden Danns was on the bench for the Champions League win over Villarreal on Tuesday evening",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-issue-jayden-danns-injury-34796005"
+    },
+    {
+      "date": "2026-10-21",
+      "source": "Liverpool Echo",
+      "title": "Trent Alexander-Arnold tipped for Liverpool return as Bayern possibility emerges",
+      "summary": "Trent Alexander-Arnold has struggled to cement his place under Jose Mourinho at Real Madrid and one former Liverpool star believes the England international could be welcome back to Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-transfer-news-trent-alexanderarnold-34797273"
+    },
+    {
+      "date": "2026-10-21",
+      "source": "Liverpool Echo",
+      "title": "What Alexis Mac Allister is doing for Trey Nyoni as Liverpool midfielder made to wait",
+      "summary": "Teenage Liverpool midfielder Trey Nyoni took another step forward in his career with an impressive Champions League showing against Villarreal on Tuesday evening",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-alexis-mac-allister-doing-34795171"
+    },
+    {
+      "date": "2026-10-21",
+      "source": "Liverpool Echo",
       "title": "Rio Ngumoha lifts lid on 'different mentality' and makes Liverpool vow - '100% I will do it'",
       "summary": "Rio Ngumoha was Liverpool's star performer in their Champions League comeback win over Villarreal at Anfield on Tuesday evening",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-lifts-lid-different-34795793"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "Liverpool Echo",
-      "title": "Virgil van Dijk makes 'terrible' Liverpool admission and points to change under Andoni Iraola",
-      "summary": "Liverpool captain Virgil van Dijk has addressed his performance against Villarreal and what the team are now doing differently under Andoni Iraola",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-makes-terrible-34795282"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "Liverpool Echo",
-      "title": "National media react to Liverpool 'best investment' after 'panic' - 'close to chucking it away'",
-      "summary": "How the national media reacted to Liverpool's dramatic Champions League win over Villarreal at Anfield on Tuesday evening",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/national-media-react-liverpool-best-34794945"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "Liverpool Echo",
-      "title": "Liverpool have already found clear Mo Salah replacement - but there's one key difference",
-      "summary": "Liverpool were not able to find a direct replacement for Mohamed Salah this summer, but after the win over Villarreal, a solution has appeared",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-villarreal-champions-league-ngumoha-34794118"
     },
     {
       "date": "2026-10-21",
@@ -1009,20 +1019,6 @@
       "title": "Liverpool fan excited by 'special talent' Rio Ngumoha",
       "summary": "Liverpool fan Nahyan Chowdhury praises \"special, special\" talent Rio Ngumoha after his side's win over Villarreal.",
       "url": "https://www.bbc.co.uk/sport/football/videos/ck20w57lqyexo"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "Liverpool Echo",
-      "title": "Alexis Mac Allister makes damning Liverpool Arne Slot admission - 'something wasn’t right'",
-      "summary": "Liverpool finished last season in fifth place in the Premier League before Arne Slot was replaced with Andoni Iraola",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexis-mac-allister-slot-liverpool-34794115"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "Liverpool Echo",
-      "title": "Villarreal boss makes Anfield atmosphere admission after Liverpool loss - 'Seen it many times'",
-      "summary": "Villarreal boss Inigo Perez reacts after his side lost a two-goal lead in losing 4-3 to Liverpool at Anfield in the Champions League",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/villarreal-boss-makes-anfield-atmosphere-34793964"
     },
     {
       "date": "2026-10-20",
@@ -1051,13 +1047,6 @@
       "title": "Wirtz delivers but remains Liverpool's conundrum",
       "summary": "Florian Wirtz is instrumental as Liverpool return to winning ways in the Premier League, but does he remain boss Andoni Iraola's great conundrum?",
       "url": "https://www.bbc.co.uk/sport/football/articles/c9j34rke27zjo"
-    },
-    {
-      "date": "2026-10-17",
-      "source": "BBC Sport",
-      "title": "'Florian Wirtz - unbelievable!'",
-      "summary": "Liverpool fan Abigail Rudkin was delighted with Florian Wirtz's performance during the Reds' win at Brentford, after increased scrutiny over the German's start to life at Anfield.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cke8rz8d9qrro"
     }
   ],
   "outlets": [
@@ -1148,6 +1137,17 @@
       },
       {
         "pos": 6,
+        "team": "Como 1907",
+        "p": 3,
+        "w": 2,
+        "d": 0,
+        "l": 1,
+        "gf": 10,
+        "ga": 5,
+        "pts": 6
+      },
+      {
+        "pos": 7,
         "team": "Manchester City",
         "p": 3,
         "w": 2,
@@ -1158,7 +1158,7 @@
         "pts": 6
       },
       {
-        "pos": 7,
+        "pos": 8,
         "team": "Sporting CP",
         "p": 2,
         "w": 2,
@@ -1169,7 +1169,7 @@
         "pts": 6
       },
       {
-        "pos": 8,
+        "pos": 9,
         "team": "Arsenal",
         "p": 2,
         "w": 2,
@@ -1180,7 +1180,7 @@
         "pts": 6
       },
       {
-        "pos": 9,
+        "pos": 10,
         "team": "Real Madrid",
         "p": 2,
         "w": 2,
@@ -1191,7 +1191,7 @@
         "pts": 6
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Real Betis Balompié",
         "p": 2,
         "w": 2,
@@ -1202,7 +1202,7 @@
         "pts": 6
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Borussia Dortmund",
         "p": 3,
         "w": 2,
@@ -1213,7 +1213,7 @@
         "pts": 6
       },
       {
-        "pos": 12,
+        "pos": 13,
         "team": "Bayern Munich",
         "p": 2,
         "w": 1,
@@ -1224,7 +1224,7 @@
         "pts": 4
       },
       {
-        "pos": 13,
+        "pos": 14,
         "team": "AS Roma",
         "p": 3,
         "w": 1,
@@ -1235,7 +1235,7 @@
         "pts": 4
       },
       {
-        "pos": 14,
+        "pos": 15,
         "team": "FK Shakhtar Donetsk",
         "p": 2,
         "w": 1,
@@ -1246,7 +1246,7 @@
         "pts": 4
       },
       {
-        "pos": 15,
+        "pos": 16,
         "team": "Atlético Madrid",
         "p": 3,
         "w": 1,
@@ -1257,7 +1257,7 @@
         "pts": 4
       },
       {
-        "pos": 16,
+        "pos": 17,
         "team": "PSV",
         "p": 3,
         "w": 1,
@@ -1268,29 +1268,7 @@
         "pts": 4
       },
       {
-        "pos": 17,
-        "team": "Como 1907",
-        "p": 2,
-        "w": 1,
-        "d": 0,
-        "l": 1,
-        "gf": 6,
-        "ga": 4,
-        "pts": 3
-      },
-      {
         "pos": 18,
-        "team": "Manchester United",
-        "p": 2,
-        "w": 1,
-        "d": 0,
-        "l": 1,
-        "gf": 4,
-        "ga": 2,
-        "pts": 3
-      },
-      {
-        "pos": 19,
         "team": "Villarreal",
         "p": 3,
         "w": 1,
@@ -1301,13 +1279,24 @@
         "pts": 3
       },
       {
-        "pos": 20,
+        "pos": 19,
         "team": "Club Brugge",
         "p": 2,
         "w": 1,
         "d": 0,
         "l": 1,
         "gf": 6,
+        "ga": 6,
+        "pts": 3
+      },
+      {
+        "pos": 20,
+        "team": "Manchester United",
+        "p": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 5,
         "ga": 6,
         "pts": 3
       },
@@ -1346,6 +1335,17 @@
       },
       {
         "pos": 24,
+        "team": "Galatasaray",
+        "p": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 6,
+        "ga": 9,
+        "pts": 3
+      },
+      {
+        "pos": 25,
         "team": "Feyenoord Rotterdam",
         "p": 2,
         "w": 1,
@@ -1356,7 +1356,7 @@
         "pts": 3
       },
       {
-        "pos": 25,
+        "pos": 26,
         "team": "Sabah FK",
         "p": 3,
         "w": 1,
@@ -1367,7 +1367,7 @@
         "pts": 3
       },
       {
-        "pos": 26,
+        "pos": 27,
         "team": "FK Bodø/Glimt",
         "p": 3,
         "w": 1,
@@ -1378,7 +1378,7 @@
         "pts": 3
       },
       {
-        "pos": 27,
+        "pos": 28,
         "team": "PAE AEK",
         "p": 3,
         "w": 1,
@@ -1389,7 +1389,7 @@
         "pts": 3
       },
       {
-        "pos": 28,
+        "pos": 29,
         "team": "Fenerbahçe",
         "p": 3,
         "w": 0,
@@ -1400,7 +1400,7 @@
         "pts": 2
       },
       {
-        "pos": 29,
+        "pos": 30,
         "team": "Viking FK",
         "p": 2,
         "w": 0,
@@ -1411,7 +1411,7 @@
         "pts": 1
       },
       {
-        "pos": 30,
+        "pos": 31,
         "team": "SK Slavia Praha",
         "p": 3,
         "w": 0,
@@ -1422,7 +1422,7 @@
         "pts": 1
       },
       {
-        "pos": 31,
+        "pos": 32,
         "team": "Inter Milan",
         "p": 2,
         "w": 0,
@@ -1433,7 +1433,7 @@
         "pts": 0
       },
       {
-        "pos": 32,
+        "pos": 33,
         "team": "LASK Linz",
         "p": 2,
         "w": 0,
@@ -1444,7 +1444,7 @@
         "pts": 0
       },
       {
-        "pos": 33,
+        "pos": 34,
         "team": "FC Porto",
         "p": 3,
         "w": 0,
@@ -1455,25 +1455,14 @@
         "pts": 0
       },
       {
-        "pos": 34,
-        "team": "Lille OSC",
-        "p": 2,
-        "w": 0,
-        "d": 0,
-        "l": 2,
-        "gf": 2,
-        "ga": 6,
-        "pts": 0
-      },
-      {
         "pos": 35,
-        "team": "Galatasaray",
-        "p": 2,
+        "team": "Lille OSC",
+        "p": 3,
         "w": 0,
         "d": 0,
-        "l": 2,
-        "gf": 2,
-        "ga": 7,
+        "l": 3,
+        "gf": 4,
+        "ga": 10,
         "pts": 0
       },
       {
