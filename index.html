@@ -349,6 +349,30 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 .c-dots { display: flex; justify-content: center; gap: 6px; padding-top: 10px; }
 .c-dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--line); }
 .c-dots span.on { background: var(--red); }
+/* ===== Carousel motion: 1 hover lift, 2 fade-in on arrival, 5 slow continuous drift with pause button ===== */
+/* Room above and below the track so the lifted photo and its shadow aren't clipped by the scroll box */
+.c-track { padding-top: 8px; margin-top: -8px; padding-bottom: 18px; }
+.c-dots { padding-top: 0; }
+.c-slide figcaption { position: relative; }
+/* 1. Hover lift: computers only (phones have no hover), and not for people who ask for less motion */
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .c-slide { transition: transform .25s ease, box-shadow .25s ease; }
+  .c-slide img { transition: transform .6s ease; }
+  .c-slide:hover { transform: translateY(-5px); box-shadow: 0 12px 26px rgba(0,0,0,.2); }
+  .c-slide:hover img { transform: scale(1.06); }
+}
+/* 2. Fade-in: photos rise into place one after another when Club life scrolls into view */
+@media (prefers-reduced-motion: no-preference) {
+  .carousel.pre .c-slide { opacity: 0; transform: translateY(18px); }
+  .carousel.in .c-slide { transition: opacity .55s ease, transform .55s ease; transition-delay: calc(var(--i, 0) * 90ms); }
+}
+/* 5. Pause / play button for the drift, at the right end of the dots row */
+.c-ctrl { position: relative; display: flex; justify-content: center; align-items: center; min-height: 30px; }
+.c-play { position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; border-radius: 50%;
+  border: 1.5px solid var(--line); background: var(--surface); color: var(--muted); cursor: pointer; display: grid; place-items: center; padding: 0; }
+.c-play:hover { color: var(--red); border-color: var(--red); }
+.c-play svg { width: 12px; height: 12px; }
+
 .social { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; padding-top: 20px; }
 .social .label { margin-right: 4px; }
 /* Follow us: round icon buttons (Instagram, Facebook, X, email); the name shows on hover and to screen readers */
@@ -1054,6 +1078,100 @@ function render(data) {
   });
 })();
 </script>
+<script>
+// Carousel motion: fade-in on arrival, and a slow continuous drift with a pause button
+(function () {
+  var car = document.querySelector(".carousel"), track = document.getElementById("c-track"), dots = document.getElementById("c-dots");
+  if (!car || !track) return;
+  var slides = [].slice.call(track.children);
+  var calm = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // 2. Fade-in: hide the photos until the carousel scrolls into view, then let them rise in one by one
+  if (!calm && "IntersectionObserver" in window) {
+    slides.forEach(function (s, i) { s.style.setProperty("--i", Math.min(i, 5)); });
+    car.classList.add("pre");
+    var seen = new IntersectionObserver(function (es) {
+      if (!es[0].isIntersecting) return;
+      seen.disconnect();
+      car.classList.add("in");
+      requestAnimationFrame(function () { car.classList.remove("pre"); });
+      // Drop the staggered timing afterwards so the hover lift responds straight away
+      setTimeout(function () { car.classList.remove("in"); }, 1400);
+    }, { threshold: 0.25 });
+    seen.observe(car);
+  }
+
+  // 5. Slow drift: the photos glide left continuously and loop forever. A copy of the set follows the
+  // originals, so when the first set has scrolled out of view we jump back by one set width, unnoticed.
+  var SPEED = 28;   // pixels per second
+  var n = slides.length;
+  slides.forEach(function (s, i) {
+    var c = s.cloneNode(true);
+    c.setAttribute("aria-hidden", "true"); c.tabIndex = -1;
+    c.addEventListener("click", function () { s.click(); });   // the copy opens the same photo large
+    track.appendChild(c);
+  });
+  var dotEls = [].slice.call(dots.children);
+  var setW = function () { return track.children[n].offsetLeft - track.children[0].offsetLeft; };
+  var stepW = function () { return slides[0].getBoundingClientRect().width + 14; };
+  // Dots follow the drift (the original dot code doesn't know about the copies)
+  track.addEventListener("scroll", function () {
+    var i = Math.round(track.scrollLeft / stepW()) % n;
+    dotEls.forEach(function (d, k) { d.className = k === i ? "on" : ""; });
+  });
+
+  var ctrl = document.createElement("div"); ctrl.className = "c-ctrl";
+  dots.parentNode.insertBefore(ctrl, dots); ctrl.appendChild(dots);
+  var btn = document.createElement("button"); btn.type = "button"; btn.className = "c-play"; ctrl.appendChild(btn);
+  var PAUSE = "<svg viewBox='0 0 12 12' aria-hidden='true'><rect x='2' y='1' width='3' height='10' fill='currentColor'/><rect x='7' y='1' width='3' height='10' fill='currentColor'/></svg>";
+  var PLAY = "<svg viewBox='0 0 12 12' aria-hidden='true'><path d='M3 1l8 5-8 5z' fill='currentColor'/></svg>";
+
+  var playing = !calm;          // people who ask for less motion start paused
+  var hover = false, onScreen = false, lightbox = false;
+  var draw = function () {
+    btn.innerHTML = playing ? PAUSE : PLAY;
+    btn.setAttribute("aria-label", playing ? "Pause the moving photos" : "Play the moving photos");
+    btn.title = playing ? "Pause" : "Play";
+    // Snapping and smooth scrolling would fight the drift, so they're off only while it plays
+    track.style.scrollSnapType = playing ? "none" : "";
+    track.style.scrollBehavior = playing ? "auto" : "";
+    pos = track.scrollLeft;
+  };
+  var pos = 0, last = 0;
+  var stop = function () { if (playing) { playing = false; draw(); } };
+  btn.addEventListener("click", function () { playing = !playing; draw(); });
+  draw();
+
+  var tick = function (now) {
+    var dt = last ? Math.min(now - last, 100) / 1000 : 0; last = now;
+    if (playing && !hover && onScreen && !lightbox && !document.hidden) {
+      if (Math.abs(track.scrollLeft - pos) > 2) pos = track.scrollLeft;   // someone moved it: carry on from there
+      pos += SPEED * dt;
+      var w = setW();
+      if (pos >= w) pos -= w;
+      track.scrollLeft = pos;
+    }
+    requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+
+  // Pause while the mouse is over it or a key is focused in it; stop for good once someone swipes or uses the arrows
+  // (mouse only, so a tap on a phone doesn't count as hovering; a tap to open a photo doesn't stop it either)
+  car.addEventListener("pointerenter", function (e) { if (e.pointerType === "mouse") hover = true; });
+  car.addEventListener("pointerleave", function (e) { if (e.pointerType === "mouse") hover = false; });
+  track.addEventListener("focusin", function () { hover = true; });
+  track.addEventListener("focusout", function () { hover = false; });
+  track.addEventListener("touchmove", stop, { passive: true });
+  track.addEventListener("wheel", function (e) { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) stop(); }, { passive: true });
+  [].forEach.call(document.querySelectorAll(".c-nav"), function (b) { b.addEventListener("click", stop); });
+  // Only move while the carousel is on screen, and not while a photo is open large
+  if ("IntersectionObserver" in window) {
+    new IntersectionObserver(function (es) { onScreen = es[0].isIntersecting; }, { threshold: 0.5 }).observe(car);
+  } else onScreen = true;
+  new MutationObserver(function () { lightbox = !!document.querySelector(".lightbox"); }).observe(document.body, { childList: true });
+})();
+</script>
+
 
 <script>
 // Hamburger menu (phones): open/close, and close after choosing a section, on Escape, or on a tap outside
