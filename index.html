@@ -466,10 +466,10 @@ function render(data) {
   };
   var ptHour = function (d) { return Number(fmt(d, { hour: "numeric", hour12: false })) % 24; };
   var now = Date.now();
-  // How long a game stays in the banner after kick-off. Games with a live score are held until about
-  // an hour after full time (90 min + half-time + stoppage ≈ 115 min, + 60 = 175 min) so the final
-  // score shows for that hour; other games (no live score) move on after 2 hours as before.
-  var holdMs = function (f) { return /^(Premier League|Champions League)/.test(f.comp) ? 175 * 60e3 : 2 * 3600e3; };
+  // How long a game stays in the banner after kick-off: about an hour after full time, so the final
+  // score shows for that hour. A league game ends ~115 min after kick-off (+60 = 175 min); a cup tie can go
+  // to extra time and penalties (~150 min, +60 = 210 min).
+  var holdMs = function (f) { return /^(FA Cup|Carabao Cup)/.test(f.comp) ? 210 * 60e3 : 175 * 60e3; };
   var fixtures = data.fixtures.map(function (f) { return Object.assign({}, f, { d: new Date(f.kickoff) }); })
     .filter(function (f) { return f.d.getTime() > now - holdMs(f); })
     .sort(function (a, b) { return a.d - b.d; });
@@ -518,18 +518,21 @@ function render(data) {
     var showingScore = false;
     tick(); setInterval(function () { if (!showingScore) tick(); }, 30000);
 
-    // Live score: from 15 minutes before kick-off to 3 hours after, ask the score relay every 30 seconds
-    var inWindow = function () { var t = Date.now() - next.d; return t > -15 * 60e3 && t < 3 * 3600e3; };
-    var covered = /^(Premier League|Champions League)/.test(next.comp);
+    // Live score for every competition (the relay reads ESPN, with football-data.org as backup):
+    // from 15 minutes before kick-off until the banner moves on, ask the relay every 30 seconds
+    var inWindow = function () { var t = Date.now() - next.d; return t > -15 * 60e3 && t < holdMs(next); };
+    var covered = true;
     var pollLive = function () {
       if (!LIVE_URL || !covered || !inWindow() || document.hidden) return;
       fetch(LIVE_URL, { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (s) {
         // Only trust an answer about this fixture (kick-off within 2 hours of ours)
         if (!s.home || Math.abs(new Date(s.kickoff) - next.d) > 2 * 3600e3) return;
         showingScore = true;
-        var state = s.status === "PAUSED" ? "Half-time" : s.status === "FINISHED" ? "Full-time"
+        var state = s.status === "PAUSED" ? "Half-time"
+          // Full-time, plus "after extra time" or "pens 4-3" when a cup tie went that far
+          : s.status === "FINISHED" ? "Full-time" + (s.note ? " · " + s.note : "")
           : s.minute ? s.minute + (s.injuryTime ? "+" + s.injuryTime : "") + "′"
-          // No minute on this data plan: name the half from the time since kick-off (first half + stoppage ends by ~50 min)
+          // No minute (football-data.org fallback): name the half from the time since kick-off (first half + stoppage ends by ~50 min)
           : (Date.now() - new Date(s.kickoff) < 50 * 60e3 ? "1st half" : "2nd half");
         document.getElementById("next-label").innerHTML = (s.live ? "<span class=\"live-dot\" aria-hidden=\"true\"></span>Live · "
           : s.status === "FINISHED" ? "Final score · " : "") + esc(next.comp);
