@@ -100,6 +100,18 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .scoreline .sc {font: 800 3.6rem/1 var(--font-display); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .scoreline .sc i { font-style: normal; opacity: .5; padding-inline: .12em; }
 .scoreline .st { grid-column: 1 / -1; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; opacity: .85; }
+/* Goals and cards under the live score: home events left, away events right */
+.scoreline .evs { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; margin-top: 8px; padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,.18); text-align: left; max-width: 380px; width: 100%; justify-self: center; }
+.scoreline .evs ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; align-content: start; }
+.scoreline .evs ul + ul { text-align: right; }
+.scoreline .evs li { font-size: .8rem; line-height: 1.3; }
+.scoreline .evs .min { opacity: .7; font-variant-numeric: tabular-nums; }
+.scoreline .evs .ball { font-size: .75rem; margin-right: 4px; }
+.scoreline .evs .card { display: inline-block; width: 7px; height: 10px; border-radius: 1.5px; margin-right: 5px; vertical-align: -1px; box-shadow: 0 0 0 .5px rgba(0,0,0,.3); }
+.scoreline .evs .card.yellow { background: #f5c518; }
+.scoreline .evs .card.red { background: #d71a28; }
+.scoreline .evs .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .live-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: currentColor; margin-right: 7px; vertical-align: 1px; }
 @media (prefers-reduced-motion: no-preference) { .live-dot { animation: pulse 1.4s ease-in-out infinite; } }
 @keyframes pulse { 50% { opacity: .25; } }
@@ -522,6 +534,23 @@ function render(data) {
     // from 15 minutes before kick-off until the banner moves on, ask the relay every 30 seconds
     var inWindow = function () { var t = Date.now() - next.d; return t > -15 * 60e3 && t < holdMs(next); };
     var covered = true;
+    // Goals and cards under the score: each team's events in its own column, in match order.
+    // (Option 1 was goals + red cards only; switch to it by filtering out kind "yellow" below.)
+    var matchEvents = function (events) {
+      if (!events || !events.length) return "";
+      var mark = { goal: "<span class=\"ball\" aria-hidden=\"true\">⚽</span>", pen: "<span class=\"ball\" aria-hidden=\"true\">⚽</span>",
+                   og: "<span class=\"ball\" aria-hidden=\"true\">⚽</span>", yellow: "<span class=\"card yellow\" aria-hidden=\"true\"></span>",
+                   red: "<span class=\"card red\" aria-hidden=\"true\"></span>" };
+      var spoken = { goal: "Goal", pen: "Penalty goal", og: "Own goal", yellow: "Yellow card", red: "Red card" };
+      var list = function (sideName) {
+        return events.filter(function (e) { return e.side === sideName && mark[e.kind]; }).map(function (e) {
+          var extra = e.kind === "pen" ? " (pen)" : e.kind === "og" ? " (og)" : "";
+          return "<li title=\"" + spoken[e.kind] + "\">" + mark[e.kind] + "<span class=\"sr\">" + spoken[e.kind] + ": </span>" +
+            esc(e.player) + extra + " <span class=\"min\">" + esc(e.minute.replace(/'\+/, "+").replace(/'/g, "′")) + "</span></li>";
+        }).join("");
+      };
+      return "<div class=\"evs\"><ul>" + list("home") + "</ul><ul>" + list("away") + "</ul></div>";
+    };
     var pollLive = function () {
       if (!LIVE_URL || !covered || !inWindow() || document.hidden) return;
       fetch(LIVE_URL, { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (s) {
@@ -547,7 +576,7 @@ function render(data) {
         };
         cd.innerHTML = "<div class=\"scoreline\" role=\"status\">" + side(s.home) +
           "<span class=\"sc\">" + esc(s.home.score) + "<i>–</i>" + esc(s.away.score) + "</span>" + side(s.away) +
-          "<span class=\"st\">" + esc(state) + "</span></div>";
+          "<span class=\"st\">" + esc(state) + "</span>" + matchEvents(s.events) + "</div>";
         cd.querySelectorAll("img.crest").forEach(function (img) {
           img.addEventListener("error", function () { img.replaceWith(document.createTextNode(img.dataset.abbr)); });
         });
