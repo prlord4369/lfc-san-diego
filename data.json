@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T06:20:59Z",
+  "updated": "2026-10-23T12:22:25Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -631,7 +631,7 @@
       "comp": "Premier League",
       "scope": "domestic",
       "us": "NBCSN / Peacock",
-      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/"
+      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/fourth-place-chelsea-host-tottenham-hotspur-this-saturday-oct-24-at-12-30-p-m-et-on-peacock-nbcsn-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend"
     },
     {
       "kickoff": "2026-10-28T20:00:00Z",
@@ -902,7 +902,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-injured the same hamstring at Brentford on 17 October and missed the Villarreal win. Iraola says it is not a new injury, and the club will be patient until he fully recovers.",
+      "detail": "He re-aggravated the same hamstring at Brentford on 17 October and missed the Villarreal win. Iraola says it is not a new injury and the club will be patient until he has fully recovered.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -922,7 +922,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is progressing well in his recovery from a long-term Achilles injury but is a little behind Conor Bradley. Reports point to training next month and a possible return in December.",
+      "detail": "He is progressing well from a long-term Achilles problem but is a little behind Conor Bradley. Reports point to training next month and a possible return in December.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -932,7 +932,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He has been out since a serious knee injury against Arsenal in January and is not far from joining team training. Liverpool are expected to be cautious, with a possible return in November or December.",
+      "detail": "He has been out since a serious knee injury against Arsenal in January and is not far from joining team training. Liverpool will be cautious, with a possible return in November or December.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -942,7 +942,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "His recovery from a long-term ACL injury has been set back, and his comeback is now planned for the November international break.",
+      "detail": "His recovery from a long-term ACL injury has suffered a setback, and his return to training has been pushed back to the November international break.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
       "reported": "2026-10-21"
@@ -952,10 +952,20 @@
       "pos": "FW",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He missed the Villarreal win with a knee injury after a knock at Brentford. The club has not given an official update on the severity or a return date.",
+      "detail": "He missed the Villarreal win with a knee problem after a knock at Brentford. The club has not confirmed the severity, and reports suggest he could be out for around a month.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-update-barcola-munoz-34801367",
+      "reported": "2026-10-22"
+    },
+    {
+      "player": "Bradley Barcola",
+      "pos": "FW",
+      "status": "doubt",
+      "issue": "Hamstring",
+      "detail": "He is still dealing with a hamstring problem and missed full training before Brighton, doing an individual recovery session. He could miss the next three games, and his fitness for Brighton is unclear.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-update-barcola-munoz-34801367",
+      "reported": "2026-10-22"
     },
     {
       "player": "Federico Chiesa",
@@ -970,11 +980,39 @@
   ],
   "news": [
     {
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "source": "Liverpool Echo",
-      "title": "Why Rio Ngumoha could be Andoni Iraola's Liverpool trump card against red-hot Brighton",
-      "summary": "TACTICAL PREVIEW: Liverpool take on the league's best attack and defence on Sunday when Fabian Hurzeler's high-flying Seagulls come to town",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-could-andoni-iraolas-34800431"
+      "title": "Andoni Iraola Liverpool press conference LIVE - Dominik Szoboszlai, Victor Munoz injury news",
+      "summary": "Liverpool head coach Andoni Iraola will be facing the press from 1.30pm on Friday afternoon to preview Sunday's Premier League visit of Brighton",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/iraola-liverpool-press-conference-live-34806845"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "Liverpool Echo",
+      "title": "Endrick's agent makes January transfer admission after Liverpool 'enquiry'",
+      "summary": "Liverpool have been linked with Real Madrid star Endrick in the past and now his agent has spoken out over future prospects",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/endrick-liverpool-transfer-news-iraola-34806362"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "Liverpool Echo",
+      "title": "Liverpool fans rush to get 50% off 26/27 home shirt before flash sale ends Friday",
+      "summary": "Liverpool's 2026/27 home jersey is half price at one retailer ahead of the peak Christmas shopping season, but the exclusive discount code will expire on October 23.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-2627-home-shirt-deal-34804057"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "Liverpool Echo",
+      "title": "Referee who made confirmed Liverpool error picked for Reds vs Brighton clash",
+      "summary": "Liverpool take on Brighton & Hove Albion on Sunday but the man in the middle has previous with the Reds",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brighton-sam-barrott-referee-34805319"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "Liverpool Echo",
+      "title": "Jurgen Klopp makes Harry Kane feelings clear as ex-Liverpool boss reignites feud",
+      "summary": "Germany boss Jurgen Klopp made his feelings clear on what he saw as bizarre tactical decisions",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-klopp-kompany-harry-kane-34805289"
     },
     {
       "date": "2026-10-22",
@@ -982,34 +1020,6 @@
       "title": "Liverpool latest: Chelsea transfer battle intensifies as Trent Alexander-Arnold tipped for move",
       "summary": "Trent Alexander-Arnold has been backed for a Premier League return as Liverpool gear up for the winter transfer window",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-trent-camara-34803291"
-    },
-    {
-      "date": "2026-10-22",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola and Liverpool are passing more and more tests - now for another exciting one",
-      "summary": "Our Liverpool Jury look back at the Reds' 4-3 win over Villarreal on Tuesday night and ahead to the visit of Brighton this weekend",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-liverpool-passing-more-34804043"
-    },
-    {
-      "date": "2026-10-22",
-      "source": "Liverpool Echo",
-      "title": "Bradley Barcola challenged to 'raise his level mentally' to become £123m Liverpool success",
-      "summary": "Bradley Barcola signed for Liverpool for £123m in late August from Paris Saint-Germain",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-challenged-raise-level-34799893"
-    },
-    {
-      "date": "2026-10-22",
-      "source": "Liverpool Echo",
-      "title": "Liverpool 'schedule imminent meeting with agents' to discuss cancelling transfer",
-      "summary": "Liverpool are set to meet with Ifeanyi Ndukwe's agents to discuss a potential January recall",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-ifeanyi-ndukwe-levante-talks-34804684"
-    },
-    {
-      "date": "2026-10-22",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola handed immediate £157m solution after Liverpool make ‘mistake after mistake’",
-      "summary": "Liverpool return to Premier League action on Sunday as they host Brighton following a 4-3 Champions League win over Villarreal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-andoni-iraola-rio-ngumoha-34803753"
     },
     {
       "date": "2026-10-21",
