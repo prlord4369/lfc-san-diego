@@ -101,11 +101,16 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
   .top .nav { position: absolute; top: 100%; right: 12px; width: 240px; padding: 6px 0;
     border-radius: 0 0 10px 10px; box-shadow: 0 14px 30px rgba(0,0,0,.28); border-top: 1px solid rgba(255,255,255,.2); }
 }
-/* Phones: the list spans the full width under the bar, with bigger tap targets */
+/* Phones: a full-width pop-up over the page (it doesn't push the page down), 4 items tall; the rest scroll
+   inside it. The bottom edge fades while there are more items below (class "has-more", set by the menu script). */
 @media (max-width: 720px) {
   .top .wrap { padding-block: 10px; }
-  .top .nav { grid-column: 1 / -1; margin: 10px -20px -10px; padding: 4px 0 8px; border-top: 1px solid rgba(255,255,255,.2); }
-  .top .nav a { padding: 13px 20px; font-size: 1.05rem; }
+  .top .nav { position: absolute; top: 100%; left: 0; right: 0; padding: 0; flex-wrap: nowrap;
+    max-height: calc(4 * 52px); overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
+    border-top: 1px solid rgba(255,255,255,.2); border-radius: 0 0 12px 12px; box-shadow: 0 14px 30px rgba(0,0,0,.3); }
+  .top .nav a { display: flex; align-items: center; box-sizing: border-box; height: 52px; flex: none; padding: 0 20px; font-size: 1.05rem; }
+  .top .nav.has-more { -webkit-mask-image: linear-gradient(#000 calc(100% - 26px), transparent);
+    mask-image: linear-gradient(#000 calc(100% - 26px), transparent); }
 }
 @media (prefers-reduced-motion: reduce) { .menu-btn .bars i { transition: none; } }
 .brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
@@ -1190,10 +1195,14 @@ function render(data) {
 (function () {
   var btn = document.querySelector(".menu-btn"), nav = document.getElementById("site-nav");
   if (!btn || !nav) return;
+  // Phones: fade the pop-up's bottom edge while more items are hidden below
+  var hint = function () { nav.classList.toggle("has-more",nav.scrollTop + nav.clientHeight < nav.scrollHeight - 2); };
+  nav.addEventListener("scroll", hint, { passive: true });
   var set = function (open) {
     nav.classList.toggle("open", open);
     btn.setAttribute("aria-expanded", String(open));
     btn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    if (open) { nav.scrollTop = 0; hint(); }
   };
   btn.addEventListener("click", function () { set(btn.getAttribute("aria-expanded") !== "true"); });
   nav.addEventListener("click", function (e) {
