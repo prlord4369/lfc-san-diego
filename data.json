@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T12:28:38Z",
+  "updated": "2026-10-23T06:20:59Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-22"
+    "checked": "2026-10-23"
   },
   "table": {
-    "asof": "2026-10-22",
+    "asof": "2026-10-23",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -972,44 +972,44 @@
     {
       "date": "2026-10-22",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola's evolving Liverpool avoid 'crisis club' tag as quiet progress continues",
-      "summary": "Andoni Iraola's Liverpool are going under the radar so far this season - Paul Gorst examines why",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraolas-evolving-liverpool-avoid-34801879"
+      "title": "Why Rio Ngumoha could be Andoni Iraola's Liverpool trump card against red-hot Brighton",
+      "summary": "TACTICAL PREVIEW: Liverpool take on the league's best attack and defence on Sunday when Fabian Hurzeler's high-flying Seagulls come to town",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-could-andoni-iraolas-34800431"
     },
     {
       "date": "2026-10-22",
       "source": "Liverpool Echo",
-      "title": "How Andoni Iraola changed game before half-time to help Liverpool beat Villarreal",
-      "summary": "TACTICAL ANALYSIS: Rafa Benitez was the first to spot Iraola's tweak that helped Liverpool escape a shaky start to win 4-3 against Villarreal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/how-andoni-iraola-changed-game-34796776"
+      "title": "Liverpool latest: Chelsea transfer battle intensifies as Trent Alexander-Arnold tipped for move",
+      "summary": "Trent Alexander-Arnold has been backed for a Premier League return as Liverpool gear up for the winter transfer window",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-trent-camara-34803291"
     },
     {
       "date": "2026-10-22",
       "source": "Liverpool Echo",
-      "title": "'Wow' - Jeremy Jacquet's Liverpool impact clear as Reds wait on Virgil van Dijk decision",
-      "summary": "Jeremy Jacquet has made a real impression since moving from Rennes to Liverpool in the summer",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/wow-jeremy-jacquets-liverpool-impact-34800385"
+      "title": "Andoni Iraola and Liverpool are passing more and more tests - now for another exciting one",
+      "summary": "Our Liverpool Jury look back at the Reds' 4-3 win over Villarreal on Tuesday night and ahead to the visit of Brighton this weekend",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-liverpool-passing-more-34804043"
     },
     {
       "date": "2026-10-22",
       "source": "Liverpool Echo",
-      "title": "'It can't be true' - Diogo Jota's wife Rute recalls harrowing moment she discovered tragic death",
-      "summary": "Diogo Jota: Forever In Our Hearts is an emotive biography that pays tribute to Liverpool's No.20, featuring insight from Virgil van Dijk, Jurgen Klopp and Diogo's wife, Rute",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/diogo-jota-forever-hearts-read-34792786"
+      "title": "Bradley Barcola challenged to 'raise his level mentally' to become £123m Liverpool success",
+      "summary": "Bradley Barcola signed for Liverpool for £123m in late August from Paris Saint-Germain",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-challenged-raise-level-34799893"
     },
     {
       "date": "2026-10-22",
       "source": "Liverpool Echo",
-      "title": "Jurgen Klopp still can't process Diogo Jota death as he recalls 'gut feeling' over transfer",
-      "summary": "Jurgen Klopp is one of the contributors to a new biography about Diogo Jota, and says he still can't process the tragic loss of the Portuguese forward",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-diogo-jota-liverpool-34796442"
+      "title": "Liverpool 'schedule imminent meeting with agents' to discuss cancelling transfer",
+      "summary": "Liverpool are set to meet with Ifeanyi Ndukwe's agents to discuss a potential January recall",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-ifeanyi-ndukwe-levante-talks-34804684"
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "source": "Liverpool Echo",
-      "title": "Liverpool latest: Alexis Mac Allister's damning comment as Gilberto Mora links addressed",
-      "summary": "Liverpool have won three in a row after defeating Villarreal in the Champions League but have another hard test coming up against Brighton",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-mora-iraola-34797557"
+      "title": "Andoni Iraola handed immediate £157m solution after Liverpool make ‘mistake after mistake’",
+      "summary": "Liverpool return to Premier League action on Sunday as they host Brighton following a 4-3 Champions League win over Villarreal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-andoni-iraola-rio-ngumoha-34803753"
     },
     {
       "date": "2026-10-21",
@@ -1081,7 +1081,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-22",
+    "asof": "2026-10-23",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
