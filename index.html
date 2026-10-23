@@ -3,7 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
+/* ===== History page (#history): Liverpool Legends by decade + Trophy cabinet ===== */
+.hist-intro { margin: 14px 0 0; color: var(--muted); max-width: 70ch; }
+.dec-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 16px 0 4px; }
+.dec-chips a { font: 700 .78rem/1 var(--font-body); padding: 7px 11px; border-radius: 999px; border: 1px solid var(--line);
+  color: var(--fg); text-decoration: none; background: var(--surface); }
+.dec-chips a:hover { border-color: var(--red); color: var(--red); }
+.decade { padding-top: 22px; scroll-margin-top: 16px; }
+.decade h3 { font: 800 1.6rem/1 var(--font-display); text-transform: none; letter-spacing: .02em; color: var(--red);
+  display: flex; align-items: baseline; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+.decade h3 small { font: 600 .72rem/1 var(--font-body); letter-spacing: .1em; color: var(--muted); }
+.legends { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; padding-top: 12px; }
+.legend { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--red); border-radius: 6px; padding: 12px 14px; }
+.legend a { font: 800 1.2rem/1.1 var(--font-display); text-transform: uppercase; color: var(--fg); text-decoration: none; }
+.legend a:hover { color: var(--red); }
+.legend .meta { font-size: .74rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-top: 4px; }
+.legend p { margin: 6px 0 0; font-size: .86rem; }
+
+.honours-total { display: flex; align-items: baseline; gap: 12px; padding: 18px 0 4px; }
+.honours-total b { font: 800 3rem/1 var(--font-display); color: var(--red); }
+.honours-total span { color: var(--muted); font-size: .9rem; }
+.cabinet { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; padding-top: 12px; }
+.trophy { position: relative; overflow: hidden; border-radius: 8px; padding: 16px 16px 14px; color: #fff;
+  background: linear-gradient(150deg, var(--red) 0%, var(--red-deep) 100%); box-shadow: 0 6px 18px rgba(28,21,23,.16); }
+.trophy svg { position: absolute; right: 12px; top: 12px; width: 48px; height: 64px; color: #f5c84c; opacity: .95; }
+.trophy .tico { position: absolute; right: 12px; top: 12px; width: 56px; height: 72px; background: #f5c84c;
+  -webkit-mask-size: contain; mask-size: contain; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: center bottom; mask-position: center bottom; }
+.cabinet.minor .trophy .tico { background: var(--red); }
+.trophy .n { font: 800 3.2rem/1 var(--font-display); color: #f5c84c; }
+.trophy .t { font: 800 1.05rem/1.15 var(--font-display); text-transform: uppercase; letter-spacing: .02em; padding: 4px 56px 0 0; }
+.trophy details { margin-top: 10px; font-size: .78rem; }
+.trophy summary { cursor: pointer; font-weight: 700; opacity: .9; list-style: none; }
+.trophy summary::-webkit-details-marker { display: none; }
+.trophy summary::after { content: " +"; }
+.trophy details[open] summary::after { content: " \2212"; }
+.trophy .yrs { padding-top: 6px; line-height: 1.6; opacity: .92; font-family: var(--font-mono); font-size: .74rem; }
+.cabinet.minor .trophy { background: var(--surface); color: var(--fg); border: 1px solid var(--line); box-shadow: none; }
+.cabinet.minor .trophy .n, .cabinet.minor .trophy svg { color: var(--red); }
+/* Phones: two trophies per row so the cabinet stays compact */
+@media (max-width: 520px) {
+  .cabinet { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .trophy { padding: 12px 12px 10px; }
+  .trophy .n { font-size: 2.6rem; }
+  .trophy svg { width: 33px; height: 44px; right: 8px; top: 8px; }
+  .trophy .tico { width: 38px; height: 50px; right: 8px; top: 8px; }
+  .trophy .t { padding-right: 0; font-size: .92rem; }
+}
+.moments { display: grid; gap: 0; padding-top: 10px; }
+.moment { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.moment b { font: 800 1.3rem/1.1 var(--font-display); color: var(--red); }
+.moment span { font-size: .9rem; }
+.hist-h { font: 800 1.3rem/1 var(--font-display); text-transform: uppercase; padding-top: 26px; }
+</style>
 <title>LFC Supporters Club San Diego</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -426,6 +479,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <a href="#news">News</a>
       <a href="#standings">Standings</a>
       <a href="#squad">Squad</a>
+      <a href="#history">History</a>
     </nav>
   </div>
 </header>
@@ -566,6 +620,33 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <div class="sec-head"><h2 id="sq-h">First-team squad 2026/27</h2><span class="label" id="sq-asof"></span></div>
       <div class="lt-wrap"><table class="lt sq" id="sq"></table></div>
       <p class="note"><b>HG</b> = homegrown on the Premier League 25-man list. <b>U21</b> = under-21, eligible without being on the list. Availability comes from the injury list on the main page.</p>
+    </section>
+  </div>
+</div>
+
+<div class="squad-view" id="history-view" hidden>
+  <div class="wrap">
+    <section aria-labelledby="hist-h">
+      <div class="sec-head"><h2 id="hist-h">History of Liverpool</h2></div>
+      <div class="tabs" role="tablist" aria-label="History">
+        <button type="button" role="tab" id="tab-legends" aria-controls="pane-legends" data-tab="legends">Liverpool Legends</button>
+        <button type="button" role="tab" id="tab-trophies" aria-controls="pane-trophies" data-tab="trophies">Trophy cabinet</button>
+      </div>
+      <div role="tabpanel" id="pane-legends" aria-labelledby="tab-legends">
+        <p class="hist-intro">Some of the players who made Liverpool, decade by decade. Tap a name to read more.</p>
+        <div class="dec-chips" id="dec-chips"></div>
+        <div id="legends"></div>
+      </div>
+      <div role="tabpanel" id="pane-trophies" aria-labelledby="tab-trophies" hidden>
+        <div class="honours-total"><b id="major-total"></b><span>major trophies across the seven competitions below</span></div>
+        <div class="cabinet" id="cabinet"></div>
+        <div class="hist-h">Also won</div>
+        <div class="cabinet minor" id="cabinet-minor"></div>
+        <div class="hist-h">Moments that made the club</div>
+        <div class="moments" id="moments"></div>
+        <p class="note">Honours as listed by Wikipedia's Liverpool F.C. records page, checked October 2026 (no major trophy in 2025–26). Years are the season or the final.</p>
+        <p class="note">Trophy silhouettes made from drawings on Wikimedia Commons: European Cup (MacMoreno, public domain); FA Cup (CC0); Premier League, League Cup, UEFA Super Cup and Community Shield (MacMoreno, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>, simplified to silhouettes). UEFA Cup, Club World Cup and Second Division drawn for this site.</p>
+      </div>
     </section>
   </div>
 </div>
@@ -967,7 +1048,7 @@ function render(data) {
     "Liverpool join in the third round in January. The opponent comes from the draw in early December.");
 
   // Tabs: click or arrow keys. Opening the Standings page always starts on the Premier League tab (see route).
-  var tabs = [].slice.call(document.querySelectorAll(".tabs [role=tab]"));
+  var tabs = [].slice.call(document.querySelectorAll("#table-view .tabs [role=tab]"));
   var showTab = function (key) {
     tabs.forEach(function (b) {
       var on = b.dataset.tab === key;
@@ -1028,10 +1109,11 @@ function render(data) {
     document.getElementById("sq-asof").innerHTML = (sqDate ? (sq.checked ? "Checked " : "As of ") + esc(new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(sqDate + "T12:00:00Z"))) : "") +
       (sq.url ? " · <a href=\"" + esc(sq.url) + "\" target=\"_blank\" rel=\"noopener\">Source</a>" : "");
   }
-  // Subpages: #squad and #standings replace the main content; any other hash shows the main page.
+  // Subpages: #squad, #standings and #history replace the main content; any other hash shows the main page.
   // #table is the old address for #standings, kept so existing links still work.
   var views = { "#squad": { el: sqView, ok: !!(sq && sq.players && sq.players.length) },
-                "#standings": { el: document.getElementById("table-view"), ok: true } };
+                "#standings": { el: document.getElementById("table-view"), ok: true },
+                "#history": { el: document.getElementById("history-view"), ok: true } };
   var route = function () {
     if (location.hash === "#table") { history.replaceState(null, "", "#standings"); }
     var cur = views[location.hash] && views[location.hash].ok ? location.hash : "";
@@ -1256,5 +1338,63 @@ function render(data) {
   var nav0 = (performance.getEntriesByType && performance.getEntriesByType("navigation")[0]) || {};
   if (location.hash === "#watch" && nav0.type !== "reload") setTimeout(function () { centre(); flash(); }, 800);
 })();
-</script></body>
+</script>
+<script>
+// History page (#history): Liverpool Legends by decade and the Trophy cabinet, from history.json (hand-maintained)
+(function () {
+  var W = "https://en.wikipedia.org/wiki/", TDIR = "assets/trophies/";
+  var e = function (s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;"); };
+
+  // Tabs for this page only (the Standings tabs have their own)
+  var tabs = [].slice.call(document.querySelectorAll("#history-view .tabs [role=tab]"));
+  var show = function (key) {
+    tabs.forEach(function (b) {
+      var on = b.dataset.tab === key;
+      b.setAttribute("aria-selected", String(on)); b.tabIndex = on ? 0 : -1;
+      document.getElementById(b.getAttribute("aria-controls")).hidden = !on;
+    });
+  };
+  tabs.forEach(function (b, i) {
+    b.addEventListener("click", function () { show(b.dataset.tab); });
+    b.addEventListener("keydown", function (ev) {
+      var d = ev.key === "ArrowRight" ? 1 : ev.key === "ArrowLeft" ? -1 : 0; if (!d) return;
+      var nb = tabs[(i + d + tabs.length) % tabs.length]; show(nb.dataset.tab); nb.focus();
+    });
+  });
+  show("legends");
+
+  fetch("history.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (h) {
+    // Legends: decade buttons jump down the page (without changing the #history address), then cards per decade
+    document.getElementById("dec-chips").innerHTML = h.legends.map(function (d, i) {
+      return "<a href='#' data-dec='dec-" + i + "'>" + e(d.dec) + "</a>"; }).join("");
+    document.getElementById("legends").innerHTML = h.legends.map(function (d, i) {
+      return "<div class='decade' id='dec-" + i + "'><h3>" + e(d.dec) + (d.note ? " <small>" + e(d.note) + "</small>" : "") + "</h3><div class='legends'>" +
+        d.players.map(function (p) {
+          return "<div class='legend'><a href='" + W + e(p.wiki) + "' target='_blank' rel='noopener'>" + e(p.name) + "</a>" +
+            "<div class='meta'>" + e(p.pos) + " · " + e(p.years) + "</div><p>" + e(p.why) + "</p></div>";
+        }).join("") + "</div></div>";
+    }).join("");
+    document.getElementById("dec-chips").addEventListener("click", function (ev) {
+      var a = ev.target.closest("a[data-dec]"); if (!a) return; ev.preventDefault();
+      document.getElementById(a.dataset.dec).scrollIntoView({ behavior: "smooth" });
+    });
+
+    // Trophy cabinet: silhouettes are masks, so the CSS sets the colour (gold on red, red on the white tiles)
+    var tile = function (t) {
+      var m = "url(" + TDIR + e(t.icon) + ")";
+      return "<div class='trophy'><span class='tico' aria-hidden='true' style='-webkit-mask-image:" + m + ";mask-image:" + m + "'></span>" +
+        "<div class='n'>" + e(t.count) + "</div><div class='t'>" + e(t.name) + "</div>" +
+        "<details><summary>Winning years</summary><div class='yrs'>" + e(t.years) + "</div></details></div>";
+    };
+    document.getElementById("cabinet").innerHTML = h.major.map(tile).join("");
+    document.getElementById("cabinet-minor").innerHTML = h.minor.map(tile).join("");
+    document.getElementById("major-total").textContent = h.major.reduce(function (s, t) { return s + t.count; }, 0);
+    document.getElementById("moments").innerHTML = h.moments.map(function (m) {
+      return "<div class='moment'><b>" + e(m[0]) + "</b><span>" + e(m[1]) + "</span></div>"; }).join("");
+  }).catch(function () {
+    document.getElementById("legends").innerHTML = "<p class='note'>The History page couldn't load. Refresh to try again.</p>";
+  });
+})();
+</script>
+</body>
 </html>
