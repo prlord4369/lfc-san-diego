@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T18:17:20Z",
+  "updated": "2026-10-23T23:08:02Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -409,6 +409,17 @@
       },
       {
         "pos": 9,
+        "team": "Ipswich Town",
+        "p": 8,
+        "w": 3,
+        "d": 1,
+        "l": 4,
+        "gf": 12,
+        "ga": 16,
+        "pts": 10
+      },
+      {
+        "pos": 10,
         "team": "Hull City",
         "p": 7,
         "w": 2,
@@ -416,17 +427,6 @@
         "l": 2,
         "gf": 8,
         "ga": 7,
-        "pts": 9
-      },
-      {
-        "pos": 10,
-        "team": "Ipswich Town",
-        "p": 7,
-        "w": 3,
-        "d": 0,
-        "l": 4,
-        "gf": 11,
-        "ga": 15,
         "pts": 9
       },
       {
@@ -486,6 +486,17 @@
       },
       {
         "pos": 16,
+        "team": "Nottingham Forest",
+        "p": 8,
+        "w": 1,
+        "d": 3,
+        "l": 4,
+        "gf": 6,
+        "ga": 10,
+        "pts": 6
+      },
+      {
+        "pos": 16,
         "team": "Tottenham Hotspur",
         "p": 7,
         "w": 1,
@@ -496,7 +507,7 @@
         "pts": 6
       },
       {
-        "pos": 17,
+        "pos": 18,
         "team": "Coventry City",
         "p": 7,
         "w": 2,
@@ -507,7 +518,7 @@
         "pts": 6
       },
       {
-        "pos": 18,
+        "pos": 19,
         "team": "Fulham",
         "p": 7,
         "w": 1,
@@ -515,17 +526,6 @@
         "l": 4,
         "gf": 7,
         "ga": 10,
-        "pts": 5
-      },
-      {
-        "pos": 19,
-        "team": "Nottingham Forest",
-        "p": 7,
-        "w": 1,
-        "d": 2,
-        "l": 4,
-        "gf": 5,
-        "ga": 9,
         "pts": 5
       },
       {
@@ -638,8 +638,8 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "scope": "domestic",
       "tbc": false,
+      "scope": "domestic",
       "us": "Paramount+",
       "usUrl": "https://worldsoccertalk.com/teams/liverpool-tv-schedule/"
     },
@@ -656,7 +656,9 @@
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
-      "venue": "Istanbul, Turkey"
+      "venue": "Istanbul, Turkey",
+      "us": "Paramount+",
+      "usUrl": "https://www.espn.com/soccer/team/fixtures/_/id/364/liverpool"
     },
     {
       "kickoff": "2026-11-08T14:00:00Z",
@@ -902,30 +904,30 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-aggravated the same hamstring at Brentford on 17 October and missed the Villarreal win. Iraola says it is not a new injury and the club will be patient until he has fully recovered.",
+      "detail": "He re-aggravated the same hamstring at Brentford and Andoni Iraola has ruled him out of the Brighton game. He is training alone and is not far from a return.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-brighton-iraola-34808047",
+      "reported": "2026-10-22"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle injury early in his Brentford cameo. Iraola says a return before the November international break will be difficult.",
+      "detail": "He picked up a new muscle injury early in his Brentford cameo. Iraola says he will be out until the November international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
+      "reported": "2026-10-22"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is progressing well from a long-term Achilles problem but is a little behind Conor Bradley. Reports point to training next month and a possible return in December.",
+      "detail": "He is progressing well from a long-term Achilles problem but remains a little behind Conor Bradley. Reports point to training next month and a possible return in December.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
+      "reported": "2026-10-22"
     },
     {
       "player": "Conor Bradley",
@@ -934,37 +936,27 @@
       "issue": "Knee injury",
       "detail": "He has been out since a serious knee injury against Arsenal in January and is not far from joining team training. Liverpool will be cautious, with a possible return in November or December.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
+      "reported": "2026-10-22"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "His recovery from a long-term ACL injury has suffered a setback, and his return to training has been pushed back to the November international break.",
+      "detail": "His recovery from a long-term ACL injury has hit a setback, and his comeback is now planned for the November international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
+      "reported": "2026-10-22"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
-      "status": "out",
-      "issue": "Knee injury",
-      "detail": "He missed the Villarreal win with a knee problem after a knock at Brentford. The club has not confirmed the severity, and reports suggest he could be out for around a month.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-update-barcola-munoz-34801367",
-      "reported": "2026-10-22"
-    },
-    {
-      "player": "Bradley Barcola",
-      "pos": "FW",
       "status": "doubt",
-      "issue": "Hamstring",
-      "detail": "He is still dealing with a hamstring problem and missed full training before Brighton, doing an individual recovery session. He could miss the next three games, and his fitness for Brighton is unclear.",
+      "issue": "Knee",
+      "detail": "Iraola says he is dealing with some pain and is a doubt for the Brighton game. He missed the Villarreal win with a knee problem.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-update-barcola-munoz-34801367",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
       "reported": "2026-10-22"
     },
     {
@@ -979,6 +971,20 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-10-23",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola warns against Rio Ngumoha hype as Liverpool contract talks continue - 'We cannot'",
+      "summary": "Andoni Iraola warns against overhyping 18-year-old Rio Ngumoha as Liverpool continue contracts talks with the England international",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-warns-against-rio-34809663"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "Liverpool Echo",
+      "title": "Munoz, Barcola, Szoboszlai - Liverpool injury news and return dates before Brighton",
+      "summary": "Liverpool play host to Brighton in the Premier League on Sunday, but Andoni Iraola could be without a number of key players for the encounter at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-injury-news-latest-brighton-34810377"
+    },
     {
       "date": "2026-10-23",
       "source": "Liverpool Echo",
@@ -1006,20 +1012,6 @@
       "title": "Szoboszlai, Munoz, Barcola, Frimpong - Liverpool injury news and return dates ahead of Brighton",
       "summary": "The latest Liverpool injury and team news ahead of the Premier League match at home to Brighton & Hove Albion on Sunday",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/szoboszlai-munoz-barcola-frimpong-liverpool-34808504"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola lists five positions Ryan Gravenberch can play in for Liverpool and picks his best",
-      "summary": "Ryan Gravenberch was utilised at right-back in the second half of Tuesday's 4-3 win over Villarreal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-lists-five-positions-34808792"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Liverpool Echo",
-      "title": "Liverpool attend Harvey Elliott meeting as Valencia in agreement over winger",
-      "summary": "Harvey Elliott has yet to start a single match for Valencia since Liverpool loaned them the erstwhile England under-21 international during transfer deadline day",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-valencia-harvey-elliott-news-34807952"
     },
     {
       "date": "2026-10-21",
