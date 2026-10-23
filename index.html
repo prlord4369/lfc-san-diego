@@ -179,6 +179,7 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 /* Main grid */
 main .wrap { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 40px; padding-block: 40px; }
 section { min-width: 0; scroll-margin-top: 16px; }
+#injury-list { scroll-margin-top: 16px; }   /* menu "Injuries" lands on the list itself, below the Whiskey Girl box */
 .sec-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; padding-bottom: 12px; border-bottom: 3px solid var(--fg); margin-bottom: 4px; }
 .filters { display: flex; gap: 6px; flex-wrap: wrap; }
 .filters button { font: 600 .8rem/1 var(--font-body); padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
@@ -292,6 +293,15 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .watch b { font: 800 1.9rem/1.05 var(--font-display); text-transform: uppercase; }
 .watch p { margin: 0; font-size: .88rem; color: var(--muted); }
 .watch a { color: var(--pacific); font-weight: 600; font-size: .88rem; }
+/* "Find us on match day" lands here: a red glow pulses twice round the box and fades (class added by script) */
+@keyframes watch-glow {
+  0%, 50%, 100% { box-shadow: 0 0 0 0 rgba(200, 16, 46, 0); }
+  15%, 65% { box-shadow: 0 0 0 4px rgba(200, 16, 46, .9), 0 0 22px 6px rgba(200, 16, 46, .45); }
+}
+.watch.flash { animation: watch-glow 2.2s ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .watch.flash { animation: none; outline: 3px solid var(--red); outline-offset: 2px; }
+}
 .watch-links { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-top: 4px; }
 .hero .meta a { color: inherit; }
 footer { border-top: 1px solid var(--line); background: var(--surface); }
@@ -412,7 +422,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <a href="#top">Home</a>
       <a href="#match" id="nav-match">Next match</a>
       <a href="#fixtures">Fixtures</a>
-      <a href="#injuries">Injuries</a>
+      <a href="#injury-list">Injuries</a>
       <a href="#news">News</a>
       <a href="#standings">Standings</a>
       <a href="#squad">Squad</a>
@@ -506,7 +516,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 
     <section id="injuries" aria-labelledby="inj-h">
       <div class="watch" id="watch"></div>
-      <div class="sec-head"><h2 id="inj-h">Injury list</h2></div>
+      <div class="sec-head" id="injury-list"><h2 id="inj-h">Injury list</h2></div>
       <div class="inj-sum" id="inj-sum"></div>
       <ul class="inj" id="inj-list"></ul>
     </section>
@@ -1060,25 +1070,24 @@ function render(data) {
 </script>
 
 <script>
-// Mock-up carousel: sample placeholder images (the real version would read the chosen album)
+// Carousel: temporary placeholder photos from the owner (site/assets/club/sample-N.jpg), shown the way the
+// Instagram photos will be until the #LFCSDGallery feed is built
 (function () {
-  var shades = ["#c8102e", "#7a0c1c", "#0b6f78", "#2c7a3f", "#a8650a", "#3457d5", "#5c0915", "#1c1517"];
-  var labels = ["Watch party at Whiskey Girl", "Derby day crowd", "Early kick-off breakfast", "Away day trip",
-                "Scarves up for YNWA", "Members' social", "Champions League night", "End of season party"];
-  var svg = function (c, t, n) {
-    return "data:image/svg+xml;utf8," + encodeURIComponent(
-      "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>" +
-      "<stop offset='0' stop-color='" + c + "'/><stop offset='1' stop-color='#111'/></linearGradient></defs>" +
-      "<rect width='800' height='600' fill='url(#g)'/>" +
-      "<text x='40' y='520' font-family='Arial' font-size='40' font-weight='700' fill='#fff'>" + t + "</text>" +
-      "<text x='40' y='80' font-family='Arial' font-size='26' fill='#ffffffaa'>SAMPLE PHOTO " + n + "</text></svg>");
-  };
+  var photos = [
+    ["sample-1.jpg", "Watch party with the club"],
+    ["sample-2.jpg", "Player signing and a signed shirt"],
+    ["sample-3.jpg", "Night out with the OLSC scarf"],
+    ["sample-4.jpg", "Pre-season: Liverpool v Dortmund"],
+    ["sample-5.jpg", "Drinks before the match"],
+    ["sample-6.jpg", "Matchday gathering"],
+    ["sample-7.jpg", "Scarves and red smoke"]
+  ];
   var track = document.getElementById("c-track"), dots = document.getElementById("c-dots");
-  track.innerHTML = labels.map(function (t, i) {
-    return "<button class='c-slide' type='button'><figure style='margin:0'><img loading='lazy' alt='" + t + " (sample)' src=\"" + svg(shades[i], t, i + 1) + "\">" +
-      "<figcaption>" + t + "</figcaption></figure></button>";
+  track.innerHTML = photos.map(function (p) {
+    return "<button class='c-slide' type='button'><figure style='margin:0'><img loading='lazy' width='480' height='300' alt='" + p[1] + "' src='assets/club/" + p[0] + "'>" +
+      "<figcaption>" + p[1] + "</figcaption></figure></button>";
   }).join("");
-  dots.innerHTML = labels.map(function () { return "<span></span>"; }).join("");
+  dots.innerHTML = photos.map(function () { return "<span></span>"; }).join("");
   var slides = [].slice.call(track.children), dotEls = [].slice.call(dots.children);
   var step = function () { return slides[0].getBoundingClientRect().width + 14; };
   document.querySelector(".c-nav.prev").addEventListener("click", function () { track.scrollBy({ left: -step(), behavior: "smooth" }); });
@@ -1196,7 +1205,7 @@ function render(data) {
   var btn = document.querySelector(".menu-btn"), nav = document.getElementById("site-nav");
   if (!btn || !nav) return;
   // Phones: fade the pop-up's bottom edge while more items are hidden below
-  var hint = function () { nav.classList.toggle("has-more",nav.scrollTop + nav.clientHeight < nav.scrollHeight - 2); };
+  var hint = function () { nav.classList.toggle("has-more", nav.scrollTop + nav.clientHeight < nav.scrollHeight - 2); };
   nav.addEventListener("scroll", hint, { passive: true });
   var set = function (open) {
     nav.classList.toggle("open", open);
@@ -1217,6 +1226,35 @@ function render(data) {
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape" && nav.classList.contains("open")) { set(false); btn.focus(); } });
   document.addEventListener("click", function (e) { if (nav.classList.contains("open") && !e.target.closest(".top")) set(false); });
+})();
+
+// "Find us on match day": bring the Whiskey Girl box to the middle of the screen (the space below the title bar)
+// and make it glow; also on a repeat tap, and when a shared .../#watch link is opened
+(function () {
+  var flash = function () {
+    var w = document.getElementById("watch"); if (!w) return;
+    w.classList.remove("flash"); void w.offsetWidth;   // restart the animation if it's already run
+    w.classList.add("flash");
+    setTimeout(function () { w.classList.remove("flash"); }, 2400);
+  };
+  var centre = function () {
+    var w = document.getElementById("watch"); if (!w) return;
+    var bar = document.querySelector(".top").getBoundingClientRect().height, r = w.getBoundingClientRect();
+    var room = window.innerHeight - bar;
+    // Centre it in the visible area; if it's taller than that, start it just below the bar
+    var gap = r.height < room ? (room - r.height) / 2 : 12;
+    window.scrollTo(0, Math.max(0, window.scrollY + r.top - bar - gap));
+  };
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href="#watch"]'); if (!a) return;
+    e.preventDefault();
+    if (location.hash !== "#watch") history.pushState(null, "", "#watch");   // keep #watch in the address bar
+    centre();
+    setTimeout(flash, 150);
+  });
+  // A shared link opened fresh; not a refresh, which starts at the top like the rest of the site
+  var nav0 = (performance.getEntriesByType && performance.getEntriesByType("navigation")[0]) || {};
+  if (location.hash === "#watch" && nav0.type !== "reload") setTimeout(function () { centre(); flash(); }, 800);
 })();
 </script></body>
 </html>
