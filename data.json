@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T23:08:02Z",
+  "updated": "2026-10-24T00:15:33Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-23"
+    "checked": "2026-10-24"
   },
   "table": {
-    "asof": "2026-10-23",
+    "asof": "2026-10-24",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -974,6 +974,13 @@
     {
       "date": "2026-10-23",
       "source": "Liverpool Echo",
+      "title": "Andoni Iraola makes honest Alexis Mac Allister admission after dramatic Liverpool upturn - 'Impossible'",
+      "summary": "Andoni Iraola says in-form Alexis Mac Allister is one of the smartest players in his Liverpool squad",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-makes-honest-alexis-34809945"
+    },
+    {
+      "date": "2026-10-23",
+      "source": "Liverpool Echo",
       "title": "Andoni Iraola warns against Rio Ngumoha hype as Liverpool contract talks continue - 'We cannot'",
       "summary": "Andoni Iraola warns against overhyping 18-year-old Rio Ngumoha as Liverpool continue contracts talks with the England international",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-warns-against-rio-34809663"
@@ -1005,13 +1012,6 @@
       "title": "Andoni Iraola Liverpool press conference - Bradley Barcola, Dominik Szoboszlai, Victor Munoz injury news",
       "summary": "Liverpool head coach Andoni Iraola will be facing the press from 1.30pm on Friday afternoon to preview Sunday's Premier League visit of Brighton",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/iraola-liverpool-press-conference-live-34806845"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Liverpool Echo",
-      "title": "Szoboszlai, Munoz, Barcola, Frimpong - Liverpool injury news and return dates ahead of Brighton",
-      "summary": "The latest Liverpool injury and team news ahead of the Premier League match at home to Brighton & Hove Albion on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/szoboszlai-munoz-barcola-frimpong-liverpool-34808504"
     },
     {
       "date": "2026-10-21",
@@ -1083,7 +1083,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-23",
+    "asof": "2026-10-24",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
