@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T12:21:33Z",
+  "updated": "2026-10-24T18:11:36Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -326,20 +326,20 @@
         "w": 7,
         "d": 0,
         "l": 1,
-        "gf": 19,
-        "ga": 8,
+        "gf": 20,
+        "ga": 9,
         "pts": 21
       },
       {
         "pos": 2,
         "team": "Arsenal",
-        "p": 7,
-        "w": 6,
+        "p": 8,
+        "w": 7,
         "d": 0,
         "l": 1,
-        "gf": 11,
+        "gf": 13,
         "ga": 5,
-        "pts": 18
+        "pts": 21
       },
       {
         "pos": 3,
@@ -355,12 +355,12 @@
       {
         "pos": 4,
         "team": "Chelsea",
-        "p": 7,
+        "p": 8,
         "w": 4,
         "d": 1,
-        "l": 2,
+        "l": 3,
         "gf": 17,
-        "ga": 13,
+        "ga": 14,
         "pts": 13
       },
       {
@@ -381,8 +381,8 @@
         "w": 3,
         "d": 2,
         "l": 3,
-        "gf": 8,
-        "ga": 11,
+        "gf": 9,
+        "ga": 12,
         "pts": 11
       },
       {
@@ -410,12 +410,12 @@
       {
         "pos": 9,
         "team": "Everton",
-        "p": 7,
+        "p": 8,
         "w": 2,
         "d": 4,
-        "l": 1,
+        "l": 2,
         "gf": 8,
-        "ga": 7,
+        "ga": 9,
         "pts": 10
       },
       {
@@ -442,6 +442,28 @@
       },
       {
         "pos": 12,
+        "team": "Tottenham Hotspur",
+        "p": 8,
+        "w": 2,
+        "d": 3,
+        "l": 3,
+        "gf": 7,
+        "ga": 10,
+        "pts": 9
+      },
+      {
+        "pos": 13,
+        "team": "Fulham",
+        "p": 8,
+        "w": 2,
+        "d": 2,
+        "l": 4,
+        "gf": 8,
+        "ga": 10,
+        "pts": 8
+      },
+      {
+        "pos": 14,
         "team": "Newcastle United",
         "p": 7,
         "w": 2,
@@ -452,7 +474,7 @@
         "pts": 8
       },
       {
-        "pos": 13,
+        "pos": 15,
         "team": "Manchester United",
         "p": 7,
         "w": 1,
@@ -463,7 +485,7 @@
         "pts": 7
       },
       {
-        "pos": 14,
+        "pos": 16,
         "team": "Crystal Palace",
         "p": 7,
         "w": 2,
@@ -474,7 +496,7 @@
         "pts": 7
       },
       {
-        "pos": 15,
+        "pos": 17,
         "team": "AFC Bournemouth",
         "p": 7,
         "w": 1,
@@ -485,7 +507,7 @@
         "pts": 6
       },
       {
-        "pos": 16,
+        "pos": 18,
         "team": "Nottingham Forest",
         "p": 8,
         "w": 1,
@@ -496,37 +518,15 @@
         "pts": 6
       },
       {
-        "pos": 16,
-        "team": "Tottenham Hotspur",
-        "p": 7,
-        "w": 1,
-        "d": 3,
-        "l": 3,
-        "gf": 6,
-        "ga": 10,
-        "pts": 6
-      },
-      {
-        "pos": 18,
+        "pos": 19,
         "team": "Coventry City",
-        "p": 7,
+        "p": 8,
         "w": 2,
         "d": 0,
-        "l": 5,
+        "l": 6,
         "gf": 6,
-        "ga": 14,
+        "ga": 15,
         "pts": 6
-      },
-      {
-        "pos": 19,
-        "team": "Fulham",
-        "p": 7,
-        "w": 1,
-        "d": 2,
-        "l": 4,
-        "gf": 7,
-        "ga": 10,
-        "pts": 5
       },
       {
         "pos": 20,
@@ -974,44 +974,44 @@
     {
       "date": "2026-10-24",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola makes Florian Wirtz vow after Liverpool criticism - 'doesn't do him any favours'",
-      "summary": "Liverpool boss Andoni Iraola has offered strong backing of Florian Wirtz and highlighted what has impressed him about Rio Ngumoha",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-makes-florian-wirtz-34811519"
+      "title": "Jayden Danns takes major step as Liverpool 15-year-old midfielder scores again",
+      "summary": "Liverpool U21s and U18s experienced mixed fortunes on a busy day for the Academy on Saturday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jayden-danns-takes-major-step-34811523"
     },
     {
       "date": "2026-10-24",
       "source": "Liverpool Echo",
-      "title": "Liverpool released me against the manager's wishes - I had one big regret",
-      "summary": "Liverpool refused to grant the manager's wish to keep hold of a club legend",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brighton-james-milner-klopp-34796870"
+      "title": "Liverpool tipped as most likely transfer destination for PSG's Khvicha Kvaratskhelia replacement",
+      "summary": "Liverpool have been linked with many top players this season, but one of their latest targets could scupper Paris Saint-Germain's plan",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-psg-chelsea-34813072"
     },
     {
       "date": "2026-10-24",
       "source": "Liverpool Echo",
-      "title": "Ex-Liverpool star confirms Michael Owen never apologised to him after brutal public rant",
-      "summary": "Michael Owen went on an infamous rant concerning the ex-Liverpool star and the midfielder has now revealed he's never received an apology",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/michael-owen-liverpool-rant-apology-34806940"
+      "title": "Liverpool must now deal with two clear problems as Cody Gakpo surprise explained",
+      "summary": "Liverpool entertain Brighton in the Premier League on Sunday with Andoni Iraola aware of two shortcomings that are hampering his team",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-must-now-deal-two-34797991"
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "source": "Liverpool Echo",
-      "title": "'Steven Gerrard wouldn't want it this way' - Ex-Liverpool star demands lasting Man City punishment",
-      "summary": "Glen Johnson was part of the Liverpool team captained by Steven Gerrard that missed out on the Premier League title to Manchester City in 2013-14 - but he insists neither would want it handed to them retrospectively",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-wouldnt-want-way-34804866"
+      "title": "Darwin Nunez's private message to new Liverpool star says everything about his true character",
+      "summary": "Darwin Nunez remains in regular contact with a Liverpool player",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-darwin-nunez-reaction-araujo-34812387"
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "source": "Liverpool Echo",
-      "title": "Liverpool latest: Ifeanyi Ndukwe talks 'scheduled' over January return as £50m star 'scouted'",
-      "summary": "Liverpool's scouts remain hard at work as the club weighs up several pieces of major business ahead of the January transfer window",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-ndukwe-otorbi-34809269"
+      "title": "Andoni Iraola has new 'undroppable' player as Liverpool given Premier League reality check",
+      "summary": "Former Liverpool striker Peter Crouch has issued a strong message to Andoni Iraola over teen sensation Rio Ngumoha",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-new-undroppable-player-34811509"
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "source": "Liverpool Echo",
-      "title": "Jamie Carragher reveals first Xabi Alonso impression at Liverpool in X-rated message",
-      "summary": "Jamie Carragher and Xabi Alonso were reunited earlier this week as the former Liverpool defender went to meet the now Chelsea head coach at the club's training ground",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-xabi-alonso-liverpool-34811082"
+      "title": "Liverpool missing 'complete player' as Bradley Barcola warning sent - 'going to hurt'",
+      "summary": "Former Liverpool striker Djibril Cisse is backing Hugo Ekitike to return stronger from injury and Bradley Barcola to soon terrorise opposing Premier League defences",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-missing-complete-player-bradley-34811516"
     },
     {
       "date": "2026-10-21",
