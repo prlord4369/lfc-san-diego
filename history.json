@@ -1,71 +1,463 @@
 {
-  "_note": "Hand-maintained content for the History page (#history). The daily update never touches this file. Honours checked against Wikipedia's Liverpool F.C. records page in October 2026 (no major trophy in 2025-26). Add a new trophy by bumping its count and adding the year; add a legend under the right decade.",
+  "_note": "Hand-maintained content for the History page (#history). The daily update never touches this file. Honours checked against Wikipedia's Liverpool F.C. records page in October 2026 (no major trophy in 2025-26). Add a new trophy by bumping its count and adding the year; add a legend under the right decade. The story tab: chapters in order, each with years, title and paragraphs.",
+  "story": [
+    {
+      "years": "1892",
+      "title": "A ground without a team",
+      "text": [
+        "Liverpool Football Club began with an empty stadium. In the spring of 1892, Anfield belonged to John Houlding, a brewer and local politician, and its tenants were Everton, then one of the best sides in England. A quarrel over rent and control ended with Everton packing up and moving across Stanley Park. Houlding was left with a pitch, a stand and no one to play on them, so he did the obvious thing for a stubborn Liverpudlian: he started his own club.",
+        "He wanted to call it Everton Athletic. The Football Association wouldn't allow it, so the new club took the name of the city instead. It is tempting to see something in that. From the very first day, Liverpool were not a district or a parish team but the city's own."
+      ]
+    },
+    {
+      "years": "1892–1959",
+      "title": "Kop, champions and a long wait",
+      "text": [
+        "The new club was in a hurry. It won the first league it entered, climbed into the Football League a year later and went through its first season there unbeaten. By 1901 Liverpool were champions of England, and they did it again in 1906, the year a steep new bank of terracing went up behind one goal. A local journalist named it after Spion Kop, a hill in South Africa where many Lancashire soldiers had died in the Boer War. The name stuck, and in time the Kop became the most famous stand in football.",
+        "Between the wars a goalkeeper from Belfast, Elisha Scott, kept goal for more than twenty years, through back-to-back titles in the early 1920s, and his duels with Everton's great centre-forward Dixie Dean became part of Merseyside folklore. After the Second World War, Liverpool won the first championship of the new peace, inspired by a Scottish winger, Billy Liddell.",
+        "Then the club drifted. A cup final was lost, and in 1954 Liverpool were relegated. For most of the next decade they played in the Second Division, and Liddell carried the team so completely that people joked the club should be called Liddellpool. Anfield was tired, the training ground was rundown and the ambition seemed to have gone. What the club needed was someone who believed it could be great."
+      ]
+    },
+    {
+      "years": "1959–1974",
+      "title": "Shankly",
+      "text": [
+        "Bill Shankly arrived in December 1959 from Huddersfield, a coal miner's son from a Scottish village who talked about football as if it were a matter of life and death and was only half joking. He was appalled by what he found and set about changing all of it: the players, the training, the facilities and above all the expectations. He made Liverpool fitter, simpler and harder to beat, and he told the supporters, again and again, that they were the most important people at the club. They believed him.",
+        "In a cramped storeroom at Anfield, Shankly and his coaches, Bob Paisley, Joe Fagan and Reuben Bennett among them, met over cups of tea to talk about players, opponents and the game. It became known as the Boot Room, and it gave Liverpool something rare in football: a way of doing things that could outlast any one manager.",
+        "Promotion came in 1962 and the league title two years later. In 1965 Liverpool won the FA Cup for the first time, and around then the Kop took a hit song by a Liverpool band, Gerry and the Pacemakers, and made it its own. “You'll Never Walk Alone” became the club's anthem and, eventually, its motto. Shankly changed the kit to all red because he thought it made his players look bigger. He then built a second great team, which won the league and the club's first European trophy, and in 1974, at the height of it all, he stunned the city by retiring."
+      ]
+    },
+    {
+      "years": "1974–1985",
+      "title": "The quiet man and the conquest of Europe",
+      "text": [
+        "Nobody expected much from his successor. Bob Paisley was a former Liverpool player who had been at the club since 1939 as player, physio and coach, a modest man who said he never wanted the job. He turned out to be one of the greatest managers the game has known. In nine seasons his teams won six league titles and three European Cups. The first came in Rome in 1977, with the supporters filling the stadium and the city's banners hung around it. The second came the following year at Wembley, with a goal from Kenny Dalglish, the brilliant Scot signed to replace Kevin Keegan. The third came in Paris in 1981.",
+        "When Paisley retired, the Boot Room simply passed the job on again. Joe Fagan, another of Shankly's original coaches, won the league, the League Cup and the European Cup in his first season, the last of them in a penalty shoot-out in Rome. Liverpool were the dominant club in Europe, and it seemed as if the machine might run for ever."
+      ]
+    },
+    {
+      "years": "1985–1991",
+      "title": "The darkest years",
+      "text": [
+        "It ended in Brussels. Before the 1985 European Cup final against Juventus at the Heysel Stadium, Liverpool supporters charged towards Juventus fans in a neighbouring section, a wall collapsed and thirty-nine people lost their lives, most of them Italian. English clubs were banned from European competition, and Liverpool were kept out for six years. It remains a source of shame and sorrow at the club, which remembers the victims every year.",
+        "Kenny Dalglish became player-manager that summer, and his teams kept winning: a league and FA Cup double in his first season, and in 1988 a side built around John Barnes and Peter Beardsley that played some of the most beautiful football the club has ever produced.",
+        "Then came Hillsborough. On 15 April 1989, at an FA Cup semi-final in Sheffield, a crush on the overcrowded Leppings Lane terrace took the lives of ninety-seven Liverpool supporters. In the days afterwards Anfield was turned into a shrine, the Kop covered in scarves and flowers, and Dalglish and his players went to funeral after funeral. What followed was a further injustice: supporters were wrongly blamed, and the families and survivors had to fight for more than a quarter of a century for the truth. In 2016 new inquests found that the ninety-seven had been unlawfully killed and that Liverpool fans were not to blame. The fight for justice is part of the club's identity, and the ninety-seven are remembered at every anniversary.",
+        "Liverpool won the league again in 1990. Dalglish, exhausted by all he had carried, resigned the following winter. Nobody imagined that it would be thirty years before the title came back."
+      ]
+    },
+    {
+      "years": "1991–2004",
+      "title": "Looking for the way back",
+      "text": [
+        "The game changed quickly in the 1990s, with new money and the new Premier League, and Liverpool were slow to change with it. There were cups and there were bright young players from the club's own academy, Robbie Fowler, Steve McManaman, Jamie Carragher, Michael Owen and Steven Gerrard among them, but the championship always went somewhere else.",
+        "Gérard Houllier, a Frenchman who had once taught in Liverpool and stood on the Kop, brought order and belief back, and in 2001 his team won three cups in a single season: the League Cup, the FA Cup and the UEFA Cup. It wasn't the league, but it felt like Liverpool again."
+      ]
+    },
+    {
+      "years": "2004–2015",
+      "title": "Istanbul, and the fight for the club itself",
+      "text": [
+        "Then, in May 2005, came the night that every Liverpool supporter can describe. In Istanbul, in the Champions League final under Rafael Benítez, Liverpool were three goals down to a great AC Milan side at half-time. In the dressing room the players could hear their supporters singing “You'll Never Walk Alone”. Within six minutes of the restart it was 3–3. Liverpool survived extra time, Jerzy Dudek saved in the shoot-out, and Steven Gerrard, the local boy who had become captain, lifted the club's fifth European Cup. It is still called the Miracle of Istanbul.",
+        "Off the pitch, the club came close to ruin. American owners who bought Liverpool in 2007 loaded it with debt and fell out with each other, and supporters marched and protested to save it. In 2010, after a battle in the courts, Liverpool were sold to Fenway Sports Group, owners of the Boston Red Sox. The rebuilding was slow. In 2014, with Luis Suárez scoring almost at will, Liverpool came agonisingly close to the title before slipping at the last."
+      ]
+    },
+    {
+      "years": "2015–2024",
+      "title": "From doubters to believers",
+      "text": [
+        "In October 2015 Jürgen Klopp walked into Anfield and said he wanted to turn doubters into believers. He did more than that. His teams pressed and ran and played with a fury that matched the noise from the stands, and he gathered a remarkable squad: Mohamed Salah, Sadio Mané, Roberto Firmino, Virgil van Dijk, Alisson, and home-grown players like Trent Alexander-Arnold, a local lad from just down the road.",
+        "In 2019 Liverpool came back from 3–0 down against Barcelona with one of the greatest nights Anfield has ever seen, and a few weeks later won the club's sixth European Cup in Madrid. The following season they won the Premier League with room to spare, the first league title in thirty years. The pandemic meant the trophy was lifted in an empty stadium, but the city celebrated anyway. More cups followed before Klopp, worn out and adored, said goodbye in 2024."
+      ]
+    },
+    {
+      "years": "2024–today",
+      "title": "The story continues",
+      "text": [
+        "His successor, Arne Slot, won the Premier League at the first attempt in 2025, Liverpool's twentieth league title, equal to the English record. That summer the club was plunged into grief when forward Diogo Jota and his brother André Silva were killed in a car crash in Spain. Liverpool retired the number 20 shirt in his memory, the first time in the club's history that a number has been retired.",
+        "After a hard season without a trophy, Andoni Iraola became head coach in the summer of 2026. Managers come and go, but the things that have carried Liverpool for more than 130 years remain: Anfield, the Kop, a city that treats its club as family, and a song that promises nobody will have to walk alone."
+      ]
+    }
+  ],
   "legends": [
-    { "dec": "1890s–1900s", "note": "The first champions", "players": [
-      { "name": "Alex Raisbeck", "wiki": "Alex_Raisbeck", "pos": "Half-back", "years": "1898–1909", "why": "Captained Liverpool to their first two league titles, 1901 and 1906." } ] },
-    { "dec": "1910s–1930s", "note": "Between the wars", "players": [
-      { "name": "Elisha Scott", "wiki": "Elisha_Scott", "pos": "Goalkeeper", "years": "1912–34", "why": "Kept goal for over 20 years, including the back-to-back titles of 1922 and 1923." },
-      { "name": "Gordon Hodgson", "wiki": "Gordon_Hodgson", "pos": "Forward", "years": "1925–36", "why": "South African-born goal machine and one of the club's highest scorers." } ] },
-    { "dec": "1940s–1950s", "note": "Liddellpool", "players": [
-      { "name": "Billy Liddell", "wiki": "Billy_Liddell", "pos": "Winger", "years": "1938–61", "why": "Won the 1947 title and was so central to the 1950s side it was nicknamed “Liddellpool”." } ] },
-    { "dec": "1960s", "note": "Shankly's revolution", "players": [
-      { "name": "Roger Hunt", "wiki": "Roger_Hunt", "pos": "Forward", "years": "1958–69", "why": "The club's record league goalscorer and a 1966 World Cup winner." },
-      { "name": "Ian St John", "wiki": "Ian_St_John", "pos": "Forward", "years": "1961–71", "why": "Scored the extra-time winner in the 1965 FA Cup final." },
-      { "name": "Ron Yeats", "wiki": "Ron_Yeats", "pos": "Centre-back", "years": "1961–71", "why": "Shankly's “colossus” and the first Liverpool captain to lift the FA Cup." },
-      { "name": "Ian Callaghan", "wiki": "Ian_Callaghan", "pos": "Midfielder", "years": "1960–78", "why": "Holds the club appearance record: 857 games." } ] },
-    { "dec": "1970s", "note": "Champions of Europe", "players": [
-      { "name": "Kevin Keegan", "wiki": "Kevin_Keegan", "pos": "Forward", "years": "1971–77", "why": "Spearheaded the 1973 and 1976 league and UEFA Cup doubles." },
-      { "name": "Ray Clemence", "wiki": "Ray_Clemence", "pos": "Goalkeeper", "years": "1967–81", "why": "Won five league titles and three European Cups." },
-      { "name": "Emlyn Hughes", "wiki": "Emlyn_Hughes", "pos": "Defender", "years": "1967–79", "why": "Captain who lifted the club's first European Cup, in Rome in 1977." } ] },
-    { "dec": "1980s", "note": "The all-conquering years", "players": [
-      { "name": "Kenny Dalglish", "wiki": "Kenny_Dalglish", "pos": "Forward", "years": "1977–90", "why": "Scored the winner in the 1978 European Cup final; won the 1986 double as player-manager." },
-      { "name": "Ian Rush", "wiki": "Ian_Rush", "pos": "Forward", "years": "1980–87, 1988–96", "why": "The club's all-time top scorer, with 346 goals." },
-      { "name": "Graeme Souness", "wiki": "Graeme_Souness", "pos": "Midfielder", "years": "1978–84", "why": "Captained the 1984 treble: league, League Cup and European Cup." },
-      { "name": "Alan Hansen", "wiki": "Alan_Hansen", "pos": "Centre-back", "years": "1977–91", "why": "Elegant defender who won eight league titles." },
-      { "name": "Bruce Grobbelaar", "wiki": "Bruce_Grobbelaar", "pos": "Goalkeeper", "years": "1981–94", "why": "His “spaghetti legs” helped win the 1984 European Cup shoot-out." } ] },
-    { "dec": "1990s", "note": "", "players": [
-      { "name": "John Barnes", "wiki": "John_Barnes", "pos": "Winger", "years": "1987–97", "why": "Lit up the 1988 and 1990 title sides; Footballer of the Year twice." },
-      { "name": "Robbie Fowler", "wiki": "Robbie_Fowler", "pos": "Forward", "years": "1993–2001, 2006–07", "why": "Home-grown striker known to the Kop simply as “God”." },
-      { "name": "Steve McManaman", "wiki": "Steve_McManaman", "pos": "Winger", "years": "1990–99", "why": "Home-grown winger who scored both goals in the 1995 League Cup final." } ] },
-    { "dec": "2000s", "note": "Istanbul", "players": [
-      { "name": "Steven Gerrard", "wiki": "Steven_Gerrard", "pos": "Midfielder", "years": "1998–2015", "why": "Captain who led the comeback in Istanbul in 2005." },
-      { "name": "Jamie Carragher", "wiki": "Jamie_Carragher", "pos": "Defender", "years": "1997–2013", "why": "One-club man, second only to Callaghan in appearances." },
-      { "name": "Michael Owen", "wiki": "Michael_Owen", "pos": "Forward", "years": "1997–2004", "why": "Won the Ballon d'Or in 2001, the year of the cup treble." },
-      { "name": "Sami Hyypiä", "wiki": "Sami_Hyypi%C3%A4", "pos": "Centre-back", "years": "1999–2009", "why": "Commanding defender of the 2001 treble and Istanbul 2005." },
-      { "name": "Xabi Alonso", "wiki": "Xabi_Alonso", "pos": "Midfielder", "years": "2004–09", "why": "Scored the equaliser in the 2005 Champions League final." },
-      { "name": "Fernando Torres", "wiki": "Fernando_Torres", "pos": "Forward", "years": "2007–11", "why": "Scored 24 league goals in his first season." } ] },
-    { "dec": "2010s", "note": "Klopp's heavy metal", "players": [
-      { "name": "Luis Suárez", "wiki": "Luis_Su%C3%A1rez", "pos": "Forward", "years": "2011–14", "why": "Player of the Year in 2014 after 31 league goals." },
-      { "name": "Jordan Henderson", "wiki": "Jordan_Henderson", "pos": "Midfielder", "years": "2011–23", "why": "Captain who lifted the 2019 Champions League and the 2020 league title." },
-      { "name": "Mohamed Salah", "wiki": "Mohamed_Salah", "pos": "Forward", "years": "2017–", "why": "Scored a then-record 32 goals in the 2017–18 Premier League season." },
-      { "name": "Sadio Mané", "wiki": "Sadio_Man%C3%A9", "pos": "Forward", "years": "2016–22", "why": "Relentless forward of the 2019 and 2020 triumphs." },
-      { "name": "Virgil van Dijk", "wiki": "Virgil_van_Dijk", "pos": "Centre-back", "years": "2018–", "why": "Transformed the defence; captain of the 2024–25 title side." } ] },
-    { "dec": "2020s", "note": "Still being written", "players": [
-      { "name": "Alisson Becker", "wiki": "Alisson_Becker", "pos": "Goalkeeper", "years": "2018–", "why": "Goalkeeper of the 2019 Champions League win, who also scored a headed winner in 2021." },
-      { "name": "Trent Alexander-Arnold", "wiki": "Trent_Alexander-Arnold", "pos": "Full-back", "years": "2016–25", "why": "Home-grown full-back behind the quick corner that beat Barcelona in 2019." } ] }
+    {
+      "dec": "1890s–1900s",
+      "note": "The first champions",
+      "players": [
+        {
+          "name": "Alex Raisbeck",
+          "wiki": "Alex_Raisbeck",
+          "pos": "Half-back",
+          "years": "1898–1909",
+          "why": "Captained Liverpool to their first two league titles, 1901 and 1906."
+        }
+      ]
+    },
+    {
+      "dec": "1910s–1930s",
+      "note": "Between the wars",
+      "players": [
+        {
+          "name": "Elisha Scott",
+          "wiki": "Elisha_Scott",
+          "pos": "Goalkeeper",
+          "years": "1912–34",
+          "why": "Kept goal for over 20 years, including the back-to-back titles of 1922 and 1923."
+        },
+        {
+          "name": "Gordon Hodgson",
+          "wiki": "Gordon_Hodgson",
+          "pos": "Forward",
+          "years": "1925–36",
+          "why": "South African-born goal machine and one of the club's highest scorers."
+        }
+      ]
+    },
+    {
+      "dec": "1940s–1950s",
+      "note": "Liddellpool",
+      "players": [
+        {
+          "name": "Billy Liddell",
+          "wiki": "Billy_Liddell",
+          "pos": "Winger",
+          "years": "1938–61",
+          "why": "Won the 1947 title and was so central to the 1950s side it was nicknamed “Liddellpool”."
+        }
+      ]
+    },
+    {
+      "dec": "1960s",
+      "note": "Shankly's revolution",
+      "players": [
+        {
+          "name": "Roger Hunt",
+          "wiki": "Roger_Hunt",
+          "pos": "Forward",
+          "years": "1958–69",
+          "why": "The club's record league goalscorer and a 1966 World Cup winner."
+        },
+        {
+          "name": "Ian St John",
+          "wiki": "Ian_St_John",
+          "pos": "Forward",
+          "years": "1961–71",
+          "why": "Scored the extra-time winner in the 1965 FA Cup final."
+        },
+        {
+          "name": "Ron Yeats",
+          "wiki": "Ron_Yeats",
+          "pos": "Centre-back",
+          "years": "1961–71",
+          "why": "Shankly's “colossus” and the first Liverpool captain to lift the FA Cup."
+        },
+        {
+          "name": "Ian Callaghan",
+          "wiki": "Ian_Callaghan",
+          "pos": "Midfielder",
+          "years": "1960–78",
+          "why": "Holds the club appearance record: 857 games."
+        }
+      ]
+    },
+    {
+      "dec": "1970s",
+      "note": "Champions of Europe",
+      "players": [
+        {
+          "name": "Kevin Keegan",
+          "wiki": "Kevin_Keegan",
+          "pos": "Forward",
+          "years": "1971–77",
+          "why": "Spearheaded the 1973 and 1976 league and UEFA Cup doubles."
+        },
+        {
+          "name": "Ray Clemence",
+          "wiki": "Ray_Clemence",
+          "pos": "Goalkeeper",
+          "years": "1967–81",
+          "why": "Won five league titles and three European Cups."
+        },
+        {
+          "name": "Emlyn Hughes",
+          "wiki": "Emlyn_Hughes",
+          "pos": "Defender",
+          "years": "1967–79",
+          "why": "Captain who lifted the club's first European Cup, in Rome in 1977."
+        }
+      ]
+    },
+    {
+      "dec": "1980s",
+      "note": "The all-conquering years",
+      "players": [
+        {
+          "name": "Kenny Dalglish",
+          "wiki": "Kenny_Dalglish",
+          "pos": "Forward",
+          "years": "1977–90",
+          "why": "Scored the winner in the 1978 European Cup final; won the 1986 double as player-manager."
+        },
+        {
+          "name": "Ian Rush",
+          "wiki": "Ian_Rush",
+          "pos": "Forward",
+          "years": "1980–87, 1988–96",
+          "why": "The club's all-time top scorer, with 346 goals."
+        },
+        {
+          "name": "Graeme Souness",
+          "wiki": "Graeme_Souness",
+          "pos": "Midfielder",
+          "years": "1978–84",
+          "why": "Captained the 1984 treble: league, League Cup and European Cup."
+        },
+        {
+          "name": "Alan Hansen",
+          "wiki": "Alan_Hansen",
+          "pos": "Centre-back",
+          "years": "1977–91",
+          "why": "Elegant defender who won eight league titles."
+        },
+        {
+          "name": "Bruce Grobbelaar",
+          "wiki": "Bruce_Grobbelaar",
+          "pos": "Goalkeeper",
+          "years": "1981–94",
+          "why": "His “spaghetti legs” helped win the 1984 European Cup shoot-out."
+        }
+      ]
+    },
+    {
+      "dec": "1990s",
+      "note": "",
+      "players": [
+        {
+          "name": "John Barnes",
+          "wiki": "John_Barnes",
+          "pos": "Winger",
+          "years": "1987–97",
+          "why": "Lit up the 1988 and 1990 title sides; Footballer of the Year twice."
+        },
+        {
+          "name": "Robbie Fowler",
+          "wiki": "Robbie_Fowler",
+          "pos": "Forward",
+          "years": "1993–2001, 2006–07",
+          "why": "Home-grown striker known to the Kop simply as “God”."
+        },
+        {
+          "name": "Steve McManaman",
+          "wiki": "Steve_McManaman",
+          "pos": "Winger",
+          "years": "1990–99",
+          "why": "Home-grown winger who scored both goals in the 1995 League Cup final."
+        }
+      ]
+    },
+    {
+      "dec": "2000s",
+      "note": "Istanbul",
+      "players": [
+        {
+          "name": "Steven Gerrard",
+          "wiki": "Steven_Gerrard",
+          "pos": "Midfielder",
+          "years": "1998–2015",
+          "why": "Captain who led the comeback in Istanbul in 2005."
+        },
+        {
+          "name": "Jamie Carragher",
+          "wiki": "Jamie_Carragher",
+          "pos": "Defender",
+          "years": "1997–2013",
+          "why": "One-club man, second only to Callaghan in appearances."
+        },
+        {
+          "name": "Michael Owen",
+          "wiki": "Michael_Owen",
+          "pos": "Forward",
+          "years": "1997–2004",
+          "why": "Won the Ballon d'Or in 2001, the year of the cup treble."
+        },
+        {
+          "name": "Sami Hyypiä",
+          "wiki": "Sami_Hyypi%C3%A4",
+          "pos": "Centre-back",
+          "years": "1999–2009",
+          "why": "Commanding defender of the 2001 treble and Istanbul 2005."
+        },
+        {
+          "name": "Xabi Alonso",
+          "wiki": "Xabi_Alonso",
+          "pos": "Midfielder",
+          "years": "2004–09",
+          "why": "Scored the equaliser in the 2005 Champions League final."
+        },
+        {
+          "name": "Fernando Torres",
+          "wiki": "Fernando_Torres",
+          "pos": "Forward",
+          "years": "2007–11",
+          "why": "Scored 24 league goals in his first season."
+        }
+      ]
+    },
+    {
+      "dec": "2010s",
+      "note": "Klopp's heavy metal",
+      "players": [
+        {
+          "name": "Luis Suárez",
+          "wiki": "Luis_Su%C3%A1rez",
+          "pos": "Forward",
+          "years": "2011–14",
+          "why": "Player of the Year in 2014 after 31 league goals."
+        },
+        {
+          "name": "Jordan Henderson",
+          "wiki": "Jordan_Henderson",
+          "pos": "Midfielder",
+          "years": "2011–23",
+          "why": "Captain who lifted the 2019 Champions League and the 2020 league title."
+        },
+        {
+          "name": "Mohamed Salah",
+          "wiki": "Mohamed_Salah",
+          "pos": "Forward",
+          "years": "2017–",
+          "why": "Scored a then-record 32 goals in the 2017–18 Premier League season."
+        },
+        {
+          "name": "Sadio Mané",
+          "wiki": "Sadio_Man%C3%A9",
+          "pos": "Forward",
+          "years": "2016–22",
+          "why": "Relentless forward of the 2019 and 2020 triumphs."
+        },
+        {
+          "name": "Virgil van Dijk",
+          "wiki": "Virgil_van_Dijk",
+          "pos": "Centre-back",
+          "years": "2018–",
+          "why": "Transformed the defence; captain of the 2024–25 title side."
+        }
+      ]
+    },
+    {
+      "dec": "2020s",
+      "note": "Still being written",
+      "players": [
+        {
+          "name": "Alisson Becker",
+          "wiki": "Alisson_Becker",
+          "pos": "Goalkeeper",
+          "years": "2018–",
+          "why": "Goalkeeper of the 2019 Champions League win, who also scored a headed winner in 2021."
+        },
+        {
+          "name": "Trent Alexander-Arnold",
+          "wiki": "Trent_Alexander-Arnold",
+          "pos": "Full-back",
+          "years": "2016–25",
+          "why": "Home-grown full-back behind the quick corner that beat Barcelona in 2019."
+        }
+      ]
+    }
   ],
   "major": [
-    { "name": "League champions", "count": 20, "icon": "league.png", "years": "1900–01, 1905–06, 1921–22, 1922–23, 1946–47, 1963–64, 1965–66, 1972–73, 1975–76, 1976–77, 1978–79, 1979–80, 1981–82, 1982–83, 1983–84, 1985–86, 1987–88, 1989–90, 2019–20, 2024–25" },
-    { "name": "European Cup / Champions League", "count": 6, "icon": "ucl.png", "years": "1977, 1978, 1981, 1984, 2005, 2019" },
-    { "name": "UEFA Cup", "count": 3, "icon": "uel.svg", "years": "1973, 1976, 2001" },
-    { "name": "FA Cup", "count": 8, "icon": "fa.png", "years": "1965, 1974, 1986, 1989, 1992, 2001, 2006, 2022" },
-    { "name": "League Cup", "count": 10, "icon": "lc.png", "years": "1981, 1982, 1983, 1984, 1995, 2001, 2003, 2012, 2022, 2024" },
-    { "name": "UEFA Super Cup", "count": 4, "icon": "sc.png", "years": "1977, 2001, 2005, 2019" },
-    { "name": "FIFA Club World Cup", "count": 1, "icon": "cwc.svg", "years": "2019" }
+    {
+      "name": "League champions",
+      "count": 20,
+      "icon": "league.png",
+      "years": "1900–01, 1905–06, 1921–22, 1922–23, 1946–47, 1963–64, 1965–66, 1972–73, 1975–76, 1976–77, 1978–79, 1979–80, 1981–82, 1982–83, 1983–84, 1985–86, 1987–88, 1989–90, 2019–20, 2024–25"
+    },
+    {
+      "name": "European Cup / Champions League",
+      "count": 6,
+      "icon": "ucl.png",
+      "years": "1977, 1978, 1981, 1984, 2005, 2019"
+    },
+    {
+      "name": "UEFA Cup",
+      "count": 3,
+      "icon": "uel.svg",
+      "years": "1973, 1976, 2001"
+    },
+    {
+      "name": "FA Cup",
+      "count": 8,
+      "icon": "fa.png",
+      "years": "1965, 1974, 1986, 1989, 1992, 2001, 2006, 2022"
+    },
+    {
+      "name": "League Cup",
+      "count": 10,
+      "icon": "lc.png",
+      "years": "1981, 1982, 1983, 1984, 1995, 2001, 2003, 2012, 2022, 2024"
+    },
+    {
+      "name": "UEFA Super Cup",
+      "count": 4,
+      "icon": "sc.png",
+      "years": "1977, 2001, 2005, 2019"
+    },
+    {
+      "name": "FIFA Club World Cup",
+      "count": 1,
+      "icon": "cwc.svg",
+      "years": "2019"
+    }
   ],
   "minor": [
-    { "name": "Second Division", "count": 4, "icon": "div2.svg", "years": "1893–94, 1895–96, 1904–05, 1961–62" },
-    { "name": "Charity / Community Shield", "count": 16, "icon": "shield.png", "years": "1964*, 1965*, 1966, 1974, 1976, 1977*, 1979, 1980, 1982, 1986*, 1988, 1989, 1990*, 2001, 2006, 2022 (* shared)" }
+    {
+      "name": "Second Division",
+      "count": 4,
+      "icon": "div2.svg",
+      "years": "1893–94, 1895–96, 1904–05, 1961–62"
+    },
+    {
+      "name": "Charity / Community Shield",
+      "count": 16,
+      "icon": "shield.png",
+      "years": "1964*, 1965*, 1966, 1974, 1976, 1977*, 1979, 1980, 1982, 1986*, 1988, 1989, 1990*, 2001, 2006, 2022 (* shared)"
+    }
   ],
   "moments": [
-    ["1965", "The first FA Cup: Leeds beaten 2–1 after extra time."],
-    ["1977", "Rome: the first of six European Cups."],
-    ["1984", "A treble: league, League Cup and European Cup."],
-    ["1986", "League and FA Cup double, with Dalglish as player-manager."],
-    ["2001", "A cup treble: League Cup, FA Cup and UEFA Cup."],
-    ["2005", "Istanbul: 3–0 down at half-time, champions of Europe on penalties."],
-    ["2019", "Madrid: a sixth European Cup, then the Club World Cup."],
-    ["2020", "The first league title in 30 years."],
-    ["2025", "A record-equalling 20th league title."]
+    [
+      "1965",
+      "The first FA Cup: Leeds beaten 2–1 after extra time."
+    ],
+    [
+      "1977",
+      "Rome: the first of six European Cups."
+    ],
+    [
+      "1984",
+      "A treble: league, League Cup and European Cup."
+    ],
+    [
+      "1986",
+      "League and FA Cup double, with Dalglish as player-manager."
+    ],
+    [
+      "2001",
+      "A cup treble: League Cup, FA Cup and UEFA Cup."
+    ],
+    [
+      "2005",
+      "Istanbul: 3–0 down at half-time, champions of Europe on penalties."
+    ],
+    [
+      "2019",
+      "Madrid: a sixth European Cup, then the Club World Cup."
+    ],
+    [
+      "2020",
+      "The first league title in 30 years."
+    ],
+    [
+      "2025",
+      "A record-equalling 20th league title."
+    ]
   ]
 }

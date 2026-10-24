@@ -6,11 +6,30 @@
 <style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
 /* ===== History page (#history): Liverpool Legends by decade + Trophy cabinet ===== */
 .hist-intro { margin: 14px 0 0; color: var(--muted); max-width: 70ch; }
-.dec-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 16px 0 4px; }
-.dec-chips a { font: 700 .78rem/1 var(--font-body); padding: 7px 11px; border-radius: 999px; border: 1px solid var(--line);
+/* The story: readable chapters with a red year tag and display-font title */
+.story { max-width: 72ch; }
+.chapter { padding-top: 26px; scroll-margin-top: calc(var(--htabs-h, 0px) + 56px); }   /* clears the sticky tabs + chapter buttons */
+.chapter + .chapter { border-top: 1px solid var(--line); margin-top: 22px; }
+.chapter .yrs { display: inline-block; font: 700 .72rem/1 var(--font-body); letter-spacing: .1em; text-transform: uppercase;
+  color: var(--on-red); background: var(--red); padding: 5px 9px; border-radius: 999px; }
+#story .chapter h3 { font: 800 1.9rem/1.05 var(--font-display); text-transform: uppercase; margin: 10px 0 4px; }
+#story .chapter p { margin: 14px 0 0; font-size: 1rem; line-height: 1.7; color: var(--fg); }
+/* Chapter / decade buttons stay pinned under the title bar while you read; one row that scrolls sideways when it
+   doesn't fit, with the button for the section on screen highlighted (class "on", set by the history script) */
+/* History tabs stay pinned under the title bar too, slimmed down, with the section buttons pinned just below them.
+   --htabs-h is the slim tab row's height (one row: it scrolls sideways rather than wrapping). */
+#history-view { --htabs-h: 35px; }
+#history-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--htabs-h); box-sizing: border-box; }
+#history-view .tabs button { padding: 9px 12px 8px; }
+.dec-chips { position: sticky; top: calc(var(--header-h, 64px) + var(--htabs-h, 0px)); z-index: 5; display: flex; flex-wrap: nowrap; gap: 6px;
+  overflow-x: auto; scrollbar-width: none; padding: 7px 0; margin-top: 8px; background: var(--bg);
+  border-bottom: 1px solid var(--line); }
+.dec-chips::-webkit-scrollbar { display: none; }
+.dec-chips a { flex: none; font: 700 .78rem/1 var(--font-body); padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line);
   color: var(--fg); text-decoration: none; background: var(--surface); }
 .dec-chips a:hover { border-color: var(--red); color: var(--red); }
-.decade { padding-top: 22px; scroll-margin-top: 16px; }
+.dec-chips a.on { background: var(--red); border-color: var(--red); color: var(--on-red); }
+.decade { padding-top: 22px; scroll-margin-top: calc(var(--htabs-h, 0px) + 56px); }
 .decade h3 { font: 800 1.6rem/1 var(--font-display); text-transform: none; letter-spacing: .02em; color: var(--red);
   display: flex; align-items: baseline; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
 .decade h3 small { font: 600 .72rem/1 var(--font-body); letter-spacing: .1em; color: var(--muted); }
@@ -629,10 +648,16 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
     <section aria-labelledby="hist-h">
       <div class="sec-head"><h2 id="hist-h">History of Liverpool</h2></div>
       <div class="tabs" role="tablist" aria-label="History">
+        <button type="button" role="tab" id="tab-story" aria-controls="pane-story" data-tab="story">The story</button>
         <button type="button" role="tab" id="tab-legends" aria-controls="pane-legends" data-tab="legends">Liverpool Legends</button>
         <button type="button" role="tab" id="tab-trophies" aria-controls="pane-trophies" data-tab="trophies">Trophy cabinet</button>
       </div>
-      <div role="tabpanel" id="pane-legends" aria-labelledby="tab-legends">
+      <div role="tabpanel" id="pane-story" aria-labelledby="tab-story">
+        <p class="hist-intro">How a row over rent in 1892 became one of the most famous football clubs in the world.</p>
+        <div class="dec-chips" id="story-chips"></div>
+        <div class="story" id="story"></div>
+      </div>
+      <div role="tabpanel" id="pane-legends" aria-labelledby="tab-legends" hidden>
         <p class="hist-intro">Some of the players who made Liverpool, decade by decade. Tap a name to read more.</p>
         <div class="dec-chips" id="dec-chips"></div>
         <div id="legends"></div>
@@ -1134,15 +1159,15 @@ function render(data) {
       if (location.hash === "#top") { e.preventDefault(); window.scrollTo(0, 0); }
     });
   });
-  // A refresh starts at the top of the page: ignore the old scroll position and any leftover section jump
-  // (#news, #injuries...) from using the menu. The Standings and Squad pages reopen as themselves.
-  // A link someone opened fresh (not a refresh), e.g. a shared .../#fixtures, still goes to that section.
+  // A refresh always goes back to the home page at the top: drop the old scroll position and any section or
+  // subpage address (#news, #standings, #squad, #history...) left from using the menu (owner's choice, 2026-10-24).
+  // A link someone opened fresh (not a refresh), e.g. a shared .../#standings, still goes to that page or section.
   var nav0 = (performance.getEntriesByType && performance.getEntriesByType("navigation")[0]) || {};
-  if (nav0.type === "reload" && location.hash && !views[location.hash] && location.hash !== "#table") {
+  if (nav0.type === "reload" && location.hash) {
     history.replaceState(null, "", location.pathname + location.search);
   }
   route();
-  if (nav0.type === "reload" && !views[location.hash]) window.scrollTo(0, 0);
+  if (nav0.type === "reload") window.scrollTo(0, 0);
 
   var upd = new Date(data.updated);
   var updText = "Updated " + fmt(upd, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " PT";
@@ -1355,15 +1380,42 @@ function render(data) {
     });
   };
   tabs.forEach(function (b, i) {
-    b.addEventListener("click", function () { show(b.dataset.tab); });
+    // The tabs stay pinned while reading, so a switch made further down starts the new tab from its top
+    b.addEventListener("click", function () { show(b.dataset.tab); if (window.scrollY > 0) window.scrollTo(0, 0); });
     b.addEventListener("keydown", function (ev) {
       var d = ev.key === "ArrowRight" ? 1 : ev.key === "ArrowLeft" ? -1 : 0; if (!d) return;
       var nb = tabs[(i + d + tabs.length) % tabs.length]; show(nb.dataset.tab); nb.focus();
     });
   });
-  show("legends");
+  show("story");
+
+  // Chapter / decade buttons scroll within the page without changing the #history address
+  // The tapped button lights up straight away and stays lit until the reader scrolls on (more than 40 px from where
+  // the jump landed), even when its section is too near the end of the page to scroll all the way up
+  var pinned = null, pinnedY = null, settle;
+  var jump = function (ev) {
+    var a = ev.target.closest("a[data-dec]"); if (!a) return; ev.preventDefault();
+    pinned = a.dataset.dec; pinnedY = null;
+    [].forEach.call(a.parentNode.children, function (b) { b.classList.toggle("on", b === a); });
+    document.getElementById(a.dataset.dec).scrollIntoView({ behavior: "smooth" });
+    clearTimeout(settle); settle = setTimeout(function () { pinnedY = window.scrollY; }, 700);   // in case it didn't need to move
+  };
+  window.addEventListener("scroll", function () {
+    if (!pinned) return;
+    if (pinnedY === null) { clearTimeout(settle); settle = setTimeout(function () { pinnedY = window.scrollY; }, 150); }   // still gliding
+    else if (Math.abs(window.scrollY - pinnedY) > 40) { pinned = null; pinnedY = null; }
+  }, { passive: true });
 
   fetch("history.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (h) {
+    // The story: chapters told in order, each with its years, a title and a few paragraphs
+    document.getElementById("story-chips").innerHTML = h.story.map(function (c, i) {
+      return "<a href='#' data-dec='ch-" + i + "'>" + e(c.years) + "</a>"; }).join("");
+    document.getElementById("story").innerHTML = h.story.map(function (c, i) {
+      return "<article class='chapter' id='ch-" + i + "'><div class='yrs'>" + e(c.years) + "</div><h3>" + e(c.title) + "</h3>" +
+        c.text.map(function (p) { return "<p>" + e(p) + "</p>"; }).join("") + "</article>";
+    }).join("");
+    document.getElementById("story-chips").addEventListener("click", jump);
+
     // Legends: decade buttons jump down the page (without changing the #history address), then cards per decade
     document.getElementById("dec-chips").innerHTML = h.legends.map(function (d, i) {
       return "<a href='#' data-dec='dec-" + i + "'>" + e(d.dec) + "</a>"; }).join("");
@@ -1374,10 +1426,33 @@ function render(data) {
             "<div class='meta'>" + e(p.pos) + " · " + e(p.years) + "</div><p>" + e(p.why) + "</p></div>";
         }).join("") + "</div></div>";
     }).join("");
-    document.getElementById("dec-chips").addEventListener("click", function (ev) {
-      var a = ev.target.closest("a[data-dec]"); if (!a) return; ev.preventDefault();
-      document.getElementById(a.dataset.dec).scrollIntoView({ behavior: "smooth" });
-    });
+    document.getElementById("dec-chips").addEventListener("click", jump);
+
+    // Highlight the button for the section being read, and slide the button row so it stays in view
+    var spy = function (bar) {
+      var links = [].slice.call(bar.querySelectorAll("a[data-dec]"));
+      var cur = null, line = bar.getBoundingClientRect().bottom + 40;   // a section counts once its top reaches just under the buttons
+      links.forEach(function (a) { var s = document.getElementById(a.dataset.dec); if (s && s.getBoundingClientRect().top <= line) cur = a; });
+      // A tapped button wins until the reader scrolls on; otherwise, at the very bottom of the page the last section
+      // is the one being read, even if its top can't reach the line
+      var p = pinned && links.filter(function (a) { return a.dataset.dec === pinned; })[0];
+      if (p) cur = p;
+      else if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) cur = links[links.length - 1];
+      links.forEach(function (a) { a.classList.toggle("on", a === cur); });
+      if (cur) {
+        var l = cur.offsetLeft - bar.offsetLeft, r = l + cur.offsetWidth;
+        if (l < bar.scrollLeft) bar.scrollLeft = l - 8; else if (r > bar.scrollLeft + bar.clientWidth) bar.scrollLeft = r - bar.clientWidth + 8;
+      }
+    };
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking || document.getElementById("history-view").hidden) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        ticking = false;
+        ["story-chips", "dec-chips"].forEach(function (id) { var b = document.getElementById(id); if (b.offsetParent) spy(b); });
+      });
+    }, { passive: true });
 
     // Trophy cabinet: silhouettes are masks, so the CSS sets the colour (gold on red, red on the white tiles)
     var tile = function (t) {
