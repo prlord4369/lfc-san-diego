@@ -19,6 +19,8 @@
 /* History tabs stay pinned under the title bar too, slimmed down, with the section buttons pinned just below them.
    --htabs-h is the slim tab row's height (one row: it scrolls sideways rather than wrapping). */
 #history-view { --htabs-h: 35px; }
+/* Standings tabs stay pinned under the title bar too (owner, 2026-10-24) */
+#table-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); }
 #history-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--htabs-h); box-sizing: border-box; }
 #history-view .tabs button { padding: 9px 12px 8px; }
 .dec-chips { position: sticky; top: calc(var(--header-h, 64px) + var(--htabs-h, 0px)); z-index: 5; display: flex; flex-wrap: nowrap; gap: 6px;
@@ -346,6 +348,19 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .lt.sq a.pl { color: var(--fg); font-weight: 600; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
 .lt.sq a.pl:hover { color: var(--red); text-decoration-color: currentColor; }
 .lt.sq .reg {color: var(--muted); font-family: var(--font-body); font-size: .72rem; font-weight: 700; letter-spacing: .06em; }
+/* Squad column titles stay pinned under the title bar while scrolling. That needs the table to sit directly in the
+   page (no sideways-scroll box around it), so on narrow phones the columns are tightened to fit instead. */
+#squad-view .lt-wrap { overflow-x: visible; }
+#sq thead th { position: sticky; top: var(--header-h, 64px); z-index: 2; background: var(--bg); }
+@media (max-width: 420px) {
+  #sq td, #sq th { padding-inline: 4px; }
+  #sq th { letter-spacing: .04em; }
+  #sq td { font-size: .8rem; }
+  #sq td.tm { font-size: .84rem; }
+  #sq .chip { font-size: .58rem; padding: 3px 5px; }
+}
+/* Very small phones (320 px class): drop the Reg. (HG/U21) column so the table still fits */
+@media (max-width: 340px) { #sq th:nth-child(4), #sq td:nth-child(4) { display: none; } }
 
 /* News */
 .news-sec { grid-column: 1 / -1; }
@@ -1083,7 +1098,8 @@ function render(data) {
     document.getElementById("lt-asof").innerHTML = key === "pl" ? asOf(lt) : key === "cl" ? asOf(clt) : "";
   };
   tabs.forEach(function (b, i) {
-    b.addEventListener("click", function () { showTab(b.dataset.tab); });
+    // The tabs stay pinned, so a switch made further down starts the new table from the top
+    b.addEventListener("click", function () { showTab(b.dataset.tab); if (window.scrollY > 0) window.scrollTo(0, 0); });
     b.addEventListener("keydown", function (e) {
       var d = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
       if (!d) return;
