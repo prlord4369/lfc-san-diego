@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T06:16:46Z",
+  "updated": "2026-10-24T12:21:33Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -322,12 +322,12 @@
       {
         "pos": 1,
         "team": "Manchester City",
-        "p": 7,
+        "p": 8,
         "w": 7,
         "d": 0,
-        "l": 0,
+        "l": 1,
         "gf": 19,
-        "ga": 7,
+        "ga": 8,
         "pts": 21
       },
       {
@@ -376,6 +376,17 @@
       },
       {
         "pos": 6,
+        "team": "Aston Villa",
+        "p": 8,
+        "w": 3,
+        "d": 2,
+        "l": 3,
+        "gf": 8,
+        "ga": 11,
+        "pts": 11
+      },
+      {
+        "pos": 7,
         "team": "Brentford",
         "p": 7,
         "w": 2,
@@ -386,7 +397,7 @@
         "pts": 10
       },
       {
-        "pos": 7,
+        "pos": 8,
         "team": "Leeds United",
         "p": 7,
         "w": 2,
@@ -397,7 +408,7 @@
         "pts": 10
       },
       {
-        "pos": 8,
+        "pos": 9,
         "team": "Everton",
         "p": 7,
         "w": 2,
@@ -408,7 +419,7 @@
         "pts": 10
       },
       {
-        "pos": 9,
+        "pos": 10,
         "team": "Ipswich Town",
         "p": 8,
         "w": 3,
@@ -419,7 +430,7 @@
         "pts": 10
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Hull City",
         "p": 7,
         "w": 2,
@@ -430,7 +441,7 @@
         "pts": 9
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Newcastle United",
         "p": 7,
         "w": 2,
@@ -438,17 +449,6 @@
         "l": 3,
         "gf": 10,
         "ga": 14,
-        "pts": 8
-      },
-      {
-        "pos": 12,
-        "team": "Aston Villa",
-        "p": 7,
-        "w": 2,
-        "d": 2,
-        "l": 3,
-        "gf": 7,
-        "ga": 11,
         "pts": 8
       },
       {
@@ -630,16 +630,16 @@
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
-      "us": "NBCSN / Peacock",
-      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/fourth-place-chelsea-host-tottenham-hotspur-this-saturday-oct-24-at-12-30-p-m-et-on-peacock-nbcsn-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend"
+      "us": "Peacock",
+      "usUrl": "https://www.nbcsports.com/soccer/news/how-to-watch-liverpool-vs-brighton-live-stream-tv-team-news-prediction"
     },
     {
       "kickoff": "2026-10-28T20:00:00Z",
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "tbc": false,
       "scope": "domestic",
+      "tbc": false,
       "us": "Paramount+",
       "usUrl": "https://worldsoccertalk.com/teams/liverpool-tv-schedule/"
     },
@@ -904,10 +904,10 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-aggravated the same hamstring at Brentford and Andoni Iraola has ruled him out of the Brighton game. He is training alone and is not far from a return.",
+      "detail": "He re-aggravated the same hamstring at Brentford and will miss the Brighton game, with Iraola saying he is not far from a return. He is training alone and has not yet joined group training.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-brighton-iraola-34808047",
-      "reported": "2026-10-22"
+      "reported": "2026-10-23"
     },
     {
       "player": "Jeremie Frimpong",
@@ -966,24 +966,38 @@
       "issue": "Injury",
       "detail": "He has been left out of Liverpool's Champions League squad, so he is unavailable for selection. No return date has been given.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
+      "url": "https://liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
       "reported": "2026-10-20"
     }
   ],
   "news": [
+    {
+      "date": "2026-10-24",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola makes Florian Wirtz vow after Liverpool criticism - 'doesn't do him any favours'",
+      "summary": "Liverpool boss Andoni Iraola has offered strong backing of Florian Wirtz and highlighted what has impressed him about Rio Ngumoha",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-makes-florian-wirtz-34811519"
+    },
+    {
+      "date": "2026-10-24",
+      "source": "Liverpool Echo",
+      "title": "Liverpool released me against the manager's wishes - I had one big regret",
+      "summary": "Liverpool refused to grant the manager's wish to keep hold of a club legend",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brighton-james-milner-klopp-34796870"
+    },
+    {
+      "date": "2026-10-24",
+      "source": "Liverpool Echo",
+      "title": "Ex-Liverpool star confirms Michael Owen never apologised to him after brutal public rant",
+      "summary": "Michael Owen went on an infamous rant concerning the ex-Liverpool star and the midfielder has now revealed he's never received an apology",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/michael-owen-liverpool-rant-apology-34806940"
+    },
     {
       "date": "2026-10-23",
       "source": "Liverpool Echo",
       "title": "'Steven Gerrard wouldn't want it this way' - Ex-Liverpool star demands lasting Man City punishment",
       "summary": "Glen Johnson was part of the Liverpool team captained by Steven Gerrard that missed out on the Premier League title to Manchester City in 2013-14 - but he insists neither would want it handed to them retrospectively",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-wouldnt-want-way-34804866"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Liverpool Echo",
-      "title": "Jamie Carragher reveals first Xabi Alonso impression at Liverpool in X-rated message",
-      "summary": "Jamie Carragher and Xabi Alonso were reunited earlier this week as the former Liverpool defender went to meet the now Chelsea head coach at the club's training ground",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-xabi-alonso-liverpool-34811082"
     },
     {
       "date": "2026-10-23",
@@ -995,23 +1009,9 @@
     {
       "date": "2026-10-23",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola's next Liverpool objective is obvious as Anfield decline is laid bare",
-      "summary": "This week's Blood Red column assesses Liverpool's form at Anfield and how it is on Andoni Iraola to restore the fear factor",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraolas-next-liverpool-objective-34806280"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Liverpool Echo",
-      "title": "Ex-Liverpool star reacts to club signing 'Mo Salah replacement' in bargain deal",
-      "summary": "The former Liverpool star has had his say on the \"bargain\" fee Liverpool paid for a player who is attempting to fill Mohamed Salah's boots",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-mohamed-salah-replacement-bargain-34805401"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Liverpool Echo",
-      "title": "Trent Alexander-Arnold told what he has to do to secure Liverpool return",
-      "summary": "Trent Alexander-Arnold left Liverpool for Real Madrid in 2025 but has been linked with a move away from the Bernabeu",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/trent-alexander-arnold-liverpool-return-34805110"
+      "title": "Jamie Carragher reveals first Xabi Alonso impression at Liverpool in X-rated message",
+      "summary": "Jamie Carragher and Xabi Alonso were reunited earlier this week as the former Liverpool defender went to meet the now Chelsea head coach at the club's training ground",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-xabi-alonso-liverpool-34811082"
     },
     {
       "date": "2026-10-21",
