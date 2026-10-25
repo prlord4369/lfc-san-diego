@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T06:17:26Z",
+  "updated": "2026-10-25T12:21:15Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -904,79 +904,97 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-aggravated the same hamstring at Brentford and will miss the Brighton game, with Iraola saying he is not far from a return. He is training alone and has not yet joined group training.",
+      "detail": "He re-aggravated the same hamstring at Brentford and is ruled out of the Brighton game. Iraola says he is not far from a return and is training alone.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-brighton-iraola-34808047",
-      "reported": "2026-10-23"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
+      "reported": "2026-10-24"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle injury early in his Brentford cameo. Iraola says he will be out until the November international break.",
+      "detail": "He picked up a new muscle injury early in his Brentford cameo. Iraola says it will be a challenge for him to feature before the November international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
-      "reported": "2026-10-22"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
+      "reported": "2026-10-24"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is progressing well from a long-term Achilles problem but remains a little behind Conor Bradley. Reports point to training next month and a possible return in December.",
+      "detail": "He is still ramping up rehabilitation from a long-term Achilles problem. He is targeting a return before the end of the calendar year.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
-      "reported": "2026-10-22"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
+      "reported": "2026-10-24"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He has been out since a serious knee injury against Arsenal in January and is not far from joining team training. Liverpool will be cautious, with a possible return in November or December.",
+      "detail": "He is recovering from a knee problem and is targeting a return before the end of the calendar year. Liverpool will be cautious with his timeline.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
-      "reported": "2026-10-22"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
+      "reported": "2026-10-24"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "His recovery from a long-term ACL injury has hit a setback, and his comeback is now planned for the November international break.",
+      "detail": "His recovery from a long-term ACL injury has suffered a setback. He will not be back until the November international break at the earliest.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
-      "reported": "2026-10-22"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
+      "reported": "2026-10-24"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "Iraola says he is dealing with some pain and is a doubt for the Brighton game. He missed the Villarreal win with a knee problem.",
+      "detail": "He is dealing with pain from a knee knock picked up at Brentford and missed the Villarreal win. Iraola says it will be difficult for him to be available for the Brighton game.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/szoboszlai-munoz-injury-latest-iraola-34807198",
-      "reported": "2026-10-22"
-    },
-    {
-      "player": "Federico Chiesa",
-      "pos": "FW",
-      "status": "out",
-      "issue": "Injury",
-      "detail": "He has been left out of Liverpool's Champions League squad, so he is unavailable for selection. No return date has been given.",
-      "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/liverpool-could-without-8-players-34788985",
-      "reported": "2026-10-20"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
+      "reported": "2026-10-24"
     }
   ],
   "news": [
     {
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "source": "Liverpool Echo",
-      "title": "Liverpool latest: Bayern Munich chief makes bold Florian Wirtz claim as star opens up on death threats",
-      "summary": "Liverpool can make it four wins from four if they triumph over Brighton in the Premier League on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-news-florian-wirtz-araujo-34813644"
+      "title": "Liverpool vs Brighton LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "summary": "Live coverage of Liverpool's Premier League match against fellow high flyers Brighton & Hove Albion at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brighton-live-stream-score-34805481"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Liverpool vs Brighton is on as club release statement after Storm Boelo hits",
+      "summary": "Liverpool are scheduled to take on Brighton & Hove Albion in the Premier League on Sunday in a 2pm kick-off at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-vs-brighton-club-release-34813914"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Trent Alexander-Arnold footage explains it all after Liverpool return option discussed",
+      "summary": "The England international brought his long association with boyhood club Liverpool to an end last summer following months of speculation surrounding his future",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-trent-alexander-arnold-madrid-34814077"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Harvey Elliott sent off in Valencia nightmare as manager speaks out on 'absurd' moment",
+      "summary": "Harvey Elliott's loan spell at Valencia is going from bad to worse after the Liverpool midfielder was sent off in the 89th minute against Villarreal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/harvey-elliott-valencia-red-liverpool-34813935"
+    },
+    {
+      "date": "2026-10-24",
+      "source": "BBC Sport",
+      "title": "Why are Liverpool struggling for Premier League goals?",
+      "summary": "Liverpool have scored 15 goals in four cup games this season, but have managed only nine goals in seven Premier League matches.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro"
     },
     {
       "date": "2026-10-24",
@@ -988,30 +1006,9 @@
     {
       "date": "2026-10-24",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola told he's 'papering over cracks' at 'vulnerable' Liverpool",
-      "summary": "The ECHO spoke to Brighton & Hove Albion fan Tom Phillips ahead of Liverpool's huge Premier League clash with the Seagulls on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-told-hes-papering-34802211"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Liverpool Echo",
-      "title": "Alexis Mac Allister admitted things weren't right at Liverpool as Andoni Iraola made changes",
-      "summary": "Alexis Mac Allister made a big revelation following Andoni Iraola's changes at Liverpool",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-alexis-mac-allister-iraola-34798479"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Liverpool Echo",
-      "title": "Fourteen players could miss Liverpool vs Brighton after injury update",
-      "summary": "Andoni Iraola will be without a number of his Liverpool players for the Premier League clash against Brighton on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fourteen-players-could-miss-liverpool-34811534"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Liverpool Echo",
-      "title": "Is Cole Palmer suspended for Liverpool vs Chelsea after red card against Tottenham?",
-      "summary": "Cole Palmer received two yellow cards in Chelsea's Premier League defeat to Tottenham and has offered Xabi Alonso a problem",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/cole-palmer-liverpool-vs-chelsea-34813739"
+      "title": "Liverpool latest: Bayern Munich chief makes bold Florian Wirtz claim as star opens up on death threats",
+      "summary": "Liverpool can make it four wins from four if they triumph over Brighton in the Premier League on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-news-florian-wirtz-araujo-34813644"
     },
     {
       "date": "2026-10-21",
@@ -1047,13 +1044,6 @@
       "title": "Araujo the stopgap solution fixing Liverpool's problems",
       "summary": "Ronald Araujo has impressed since arriving at Liverpool from Barcelona. Could he prove a longer-term solution?",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck8dz7pp4089o"
-    },
-    {
-      "date": "2026-10-19",
-      "source": "BBC Sport",
-      "title": "Brentford contact police after rugby ball kicked into stadium",
-      "summary": "Brentford say they are working with the police following a \"dangerous\" incident in which a rugby ball was kicked from a height towards the pitch during their Premier League game with Liverpool.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4g17d11zvwo"
     }
   ],
   "outlets": [
