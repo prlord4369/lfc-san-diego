@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T18:11:36Z",
+  "updated": "2026-10-25T00:10:33Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-24"
+    "checked": "2026-10-25"
   },
   "table": {
-    "asof": "2026-10-24",
+    "asof": "2026-10-25",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -360,7 +360,7 @@
         "d": 1,
         "l": 3,
         "gf": 17,
-        "ga": 14,
+        "ga": 15,
         "pts": 13
       },
       {
@@ -447,7 +447,7 @@
         "w": 2,
         "d": 3,
         "l": 3,
-        "gf": 7,
+        "gf": 8,
         "ga": 10,
         "pts": 9
       },
@@ -974,6 +974,20 @@
     {
       "date": "2026-10-24",
       "source": "Liverpool Echo",
+      "title": "Is Cole Palmer suspended for Liverpool vs Chelsea after red card against Tottenham?",
+      "summary": "Cole Palmer received two yellow cards in Chelsea's Premier League defeat to Tottenham and has offered Xabi Alonso a problem",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/cole-palmer-liverpool-vs-chelsea-34813739"
+    },
+    {
+      "date": "2026-10-24",
+      "source": "Liverpool Echo",
+      "title": "'We want 10!' - Inside delirious Liverpool away end as Man Utd humiliated at Old Trafford",
+      "summary": "It was on this day five years ago that Liverpool rocked up at Old Trafford and humbled and embarrassed Manchester United 5-0 in their own backyard",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/we-want-10-inside-delirious-34804836"
+    },
+    {
+      "date": "2026-10-24",
+      "source": "Liverpool Echo",
       "title": "Jayden Danns takes major step as Liverpool 15-year-old midfielder scores again",
       "summary": "Liverpool U21s and U18s experienced mixed fortunes on a busy day for the Academy on Saturday afternoon",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jayden-danns-takes-major-step-34811523"
@@ -998,20 +1012,6 @@
       "title": "Darwin Nunez's private message to new Liverpool star says everything about his true character",
       "summary": "Darwin Nunez remains in regular contact with a Liverpool player",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-darwin-nunez-reaction-araujo-34812387"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola has new 'undroppable' player as Liverpool given Premier League reality check",
-      "summary": "Former Liverpool striker Peter Crouch has issued a strong message to Andoni Iraola over teen sensation Rio Ngumoha",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-new-undroppable-player-34811509"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Liverpool Echo",
-      "title": "Liverpool missing 'complete player' as Bradley Barcola warning sent - 'going to hurt'",
-      "summary": "Former Liverpool striker Djibril Cisse is backing Hugo Ekitike to return stronger from injury and Bradley Barcola to soon terrorise opposing Premier League defences",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-missing-complete-player-bradley-34811516"
     },
     {
       "date": "2026-10-21",
@@ -1083,7 +1083,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-24",
+    "asof": "2026-10-25",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
