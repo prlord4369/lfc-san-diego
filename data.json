@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-25T12:21:15Z",
+  "updated": "2026-10-25T18:13:17Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
     "map": "https://www.google.com/maps/search/?api=1&query=Whiskey+Girl+702+Fifth+Ave+San+Diego+CA"
   },
   "standing": {
-    "position": "5th",
+    "position": "4th",
     "competition": "Premier League",
-    "record": "P7 W3 D3 L1 · 12 pts"
+    "record": "P8 W4 D3 L1 · 15 pts"
   },
   "squad": {
     "asof": "2026-10-15",
@@ -344,16 +344,27 @@
       {
         "pos": 3,
         "team": "Brighton & Hove Albion",
-        "p": 7,
+        "p": 8,
         "w": 5,
         "d": 1,
-        "l": 1,
+        "l": 2,
         "gf": 23,
-        "ga": 5,
+        "ga": 7,
         "pts": 16
       },
       {
         "pos": 4,
+        "team": "Liverpool",
+        "p": 8,
+        "w": 4,
+        "d": 3,
+        "l": 1,
+        "gf": 11,
+        "ga": 8,
+        "pts": 15
+      },
+      {
+        "pos": 5,
         "team": "Chelsea",
         "p": 8,
         "w": 4,
@@ -364,18 +375,40 @@
         "pts": 13
       },
       {
-        "pos": 5,
-        "team": "Liverpool",
-        "p": 7,
-        "w": 3,
-        "d": 3,
+        "pos": 6,
+        "team": "Brentford",
+        "p": 8,
+        "w": 2,
+        "d": 5,
         "l": 1,
-        "gf": 9,
-        "ga": 8,
-        "pts": 12
+        "gf": 14,
+        "ga": 9,
+        "pts": 11
       },
       {
-        "pos": 6,
+        "pos": 7,
+        "team": "Leeds United",
+        "p": 8,
+        "w": 2,
+        "d": 5,
+        "l": 1,
+        "gf": 9,
+        "ga": 6,
+        "pts": 11
+      },
+      {
+        "pos": 8,
+        "team": "Newcastle United",
+        "p": 8,
+        "w": 3,
+        "d": 2,
+        "l": 3,
+        "gf": 12,
+        "ga": 14,
+        "pts": 11
+      },
+      {
+        "pos": 9,
         "team": "Aston Villa",
         "p": 8,
         "w": 3,
@@ -386,29 +419,18 @@
         "pts": 11
       },
       {
-        "pos": 7,
-        "team": "Brentford",
-        "p": 7,
+        "pos": 10,
+        "team": "Hull City",
+        "p": 8,
         "w": 2,
         "d": 4,
-        "l": 1,
-        "gf": 13,
+        "l": 2,
+        "gf": 9,
         "ga": 8,
         "pts": 10
       },
       {
-        "pos": 8,
-        "team": "Leeds United",
-        "p": 7,
-        "w": 2,
-        "d": 4,
-        "l": 1,
-        "gf": 9,
-        "ga": 6,
-        "pts": 10
-      },
-      {
-        "pos": 9,
+        "pos": 11,
         "team": "Everton",
         "p": 8,
         "w": 2,
@@ -419,7 +441,7 @@
         "pts": 10
       },
       {
-        "pos": 10,
+        "pos": 12,
         "team": "Ipswich Town",
         "p": 8,
         "w": 3,
@@ -430,18 +452,18 @@
         "pts": 10
       },
       {
-        "pos": 11,
-        "team": "Hull City",
-        "p": 7,
+        "pos": 13,
+        "team": "AFC Bournemouth",
+        "p": 8,
         "w": 2,
         "d": 3,
-        "l": 2,
-        "gf": 8,
-        "ga": 7,
+        "l": 3,
+        "gf": 12,
+        "ga": 13,
         "pts": 9
       },
       {
-        "pos": 12,
+        "pos": 14,
         "team": "Tottenham Hotspur",
         "p": 8,
         "w": 2,
@@ -452,7 +474,7 @@
         "pts": 9
       },
       {
-        "pos": 13,
+        "pos": 15,
         "team": "Fulham",
         "p": 8,
         "w": 2,
@@ -463,48 +485,26 @@
         "pts": 8
       },
       {
-        "pos": 14,
-        "team": "Newcastle United",
-        "p": 7,
-        "w": 2,
-        "d": 2,
-        "l": 3,
-        "gf": 10,
-        "ga": 14,
-        "pts": 8
-      },
-      {
-        "pos": 15,
+        "pos": 16,
         "team": "Manchester United",
-        "p": 7,
+        "p": 8,
         "w": 1,
         "d": 4,
-        "l": 2,
+        "l": 3,
         "gf": 10,
-        "ga": 10,
-        "pts": 7
-      },
-      {
-        "pos": 16,
-        "team": "Crystal Palace",
-        "p": 7,
-        "w": 2,
-        "d": 1,
-        "l": 4,
-        "gf": 9,
-        "ga": 17,
+        "ga": 13,
         "pts": 7
       },
       {
         "pos": 17,
-        "team": "AFC Bournemouth",
-        "p": 7,
-        "w": 1,
-        "d": 3,
-        "l": 3,
+        "team": "Crystal Palace",
+        "p": 8,
+        "w": 2,
+        "d": 1,
+        "l": 5,
         "gf": 9,
-        "ga": 13,
-        "pts": 6
+        "ga": 19,
+        "pts": 7
       },
       {
         "pos": 18,
@@ -531,25 +531,17 @@
       {
         "pos": 20,
         "team": "Sunderland",
-        "p": 7,
+        "p": 8,
         "w": 1,
-        "d": 1,
+        "d": 2,
         "l": 5,
         "gf": 6,
         "ga": 14,
-        "pts": 4
+        "pts": 5
       }
     ]
   },
   "results": [
-    {
-      "date": "2026-08-29",
-      "opp": "Nottingham Forest",
-      "ha": "H",
-      "score": "2-2",
-      "r": "D",
-      "comp": "Premier League"
-    },
     {
       "date": "2026-09-04",
       "opp": "Ipswich Town",
@@ -621,18 +613,17 @@
       "score": "4-3",
       "r": "W",
       "comp": "Champions League"
+    },
+    {
+      "date": "2026-10-25",
+      "opp": "Brighton & Hove Albion",
+      "ha": "H",
+      "score": "2-0",
+      "r": "W",
+      "comp": "Premier League"
     }
   ],
   "fixtures": [
-    {
-      "kickoff": "2026-10-25T14:00:00Z",
-      "opp": "Brighton & Hove Albion",
-      "ha": "H",
-      "comp": "Premier League",
-      "scope": "domestic",
-      "us": "Peacock",
-      "usUrl": "https://www.nbcsports.com/soccer/news/how-to-watch-liverpool-vs-brighton-live-stream-tv-team-news-prediction"
-    },
     {
       "kickoff": "2026-10-28T20:00:00Z",
       "opp": "Chelsea",
@@ -964,30 +955,51 @@
     {
       "date": "2026-10-25",
       "source": "Liverpool Echo",
-      "title": "Liverpool vs Brighton LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "title": "Liverpool 2 Brighton 0 LIVE - Andoni Iraola reaction to impressive win with Florian Wirtz injury update",
       "summary": "Live coverage of Liverpool's Premier League match against fellow high flyers Brighton & Hove Albion at Anfield",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brighton-live-stream-score-34805481"
     },
     {
       "date": "2026-10-25",
       "source": "Liverpool Echo",
-      "title": "Liverpool vs Brighton is on as club release statement after Storm Boelo hits",
-      "summary": "Liverpool are scheduled to take on Brighton & Hove Albion in the Premier League on Sunday in a 2pm kick-off at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-vs-brighton-club-release-34813914"
+      "title": "Liverpool deliver first Andoni Iraola statement as trio's transformations continue",
+      "summary": "The Paul Gorst verdict from Anfield as they Liverpool maintain their excellent form with an impressive 2-0 Premier League win over Brighton & Hove Albiomn",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/liverpool-deliver-first-andoni-iraola-34814909"
     },
     {
       "date": "2026-10-25",
       "source": "Liverpool Echo",
-      "title": "Trent Alexander-Arnold footage explains it all after Liverpool return option discussed",
-      "summary": "The England international brought his long association with boyhood club Liverpool to an end last summer following months of speculation surrounding his future",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-trent-alexander-arnold-madrid-34814077"
+      "title": "Ronald Araujo moment left Anfield roaring and spoke volumes Liverpool loanee",
+      "summary": "Ian Doyle with the main talking point from Liverpool's Premier League clash against Brighton on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-moment-left-anfield-34814903"
     },
     {
       "date": "2026-10-25",
       "source": "Liverpool Echo",
-      "title": "Harvey Elliott sent off in Valencia nightmare as manager speaks out on 'absurd' moment",
-      "summary": "Harvey Elliott's loan spell at Valencia is going from bad to worse after the Liverpool midfielder was sent off in the 89th minute against Villarreal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/harvey-elliott-valencia-red-liverpool-34813935"
+      "title": "Double blow for Florian Wirtz after Brighton win as worry emerges ahead of Chelsea and Arsenal",
+      "summary": "Florian Wirtz impressed for Liverpool against Brighton but was dealt two blows",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-florian-wirtz-injury-brighton-34815254"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Liverpool player ratings as Ronald Araujo and two others 8/10 in Brighton win",
+      "summary": "Ian Doyle with the Liverpool player ratings and scores from the Premier League clash at home to Brighton on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-player-ratings-brighton-breaking-34814900"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "BBC Sport",
+      "title": "Isak, Barcola and Wirtz turn up - player ratings for Liverpool v Brighton",
+      "summary": "How Liverpool and Brighton's players rated following their Premier League match.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crwyd857p00yo"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Steven Gerrard favourite for top Championship job as Liverpool icon set for return",
+      "summary": "The Liverpool legend has emerged as the frontrunner for a new managerial position in the Championship, having been out of the hot seat since January 2025",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-liverpool-championship-burnley-34814951"
     },
     {
       "date": "2026-10-24",
@@ -995,20 +1007,6 @@
       "title": "Why are Liverpool struggling for Premier League goals?",
       "summary": "Liverpool have scored 15 goals in four cup games this season, but have managed only nine goals in seven Premier League matches.",
       "url": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Liverpool Echo",
-      "title": "Liverpool line-ups vs Brighton as Trey Nyoni and Bradley Barcola decisions made",
-      "summary": "Liverpool predicted line-ups and teams for the Premier League clash against Brighton on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-vs-brighton-34811530"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "Liverpool Echo",
-      "title": "Liverpool latest: Bayern Munich chief makes bold Florian Wirtz claim as star opens up on death threats",
-      "summary": "Liverpool can make it four wins from four if they triumph over Brighton in the Premier League on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-news-florian-wirtz-araujo-34813644"
     },
     {
       "date": "2026-10-21",
@@ -1037,13 +1035,6 @@
       "title": "The night 'ruthless' Ngumoha came of age for Liverpool",
       "summary": "Rio Ngumoha produces a coming-of-age performance in Liverpool's comeback win over Villarreal, writes Aadam Patel.",
       "url": "https://www.bbc.co.uk/sport/football/articles/ck0e0zydv33go"
-    },
-    {
-      "date": "2026-10-19",
-      "source": "BBC Sport",
-      "title": "Araujo the stopgap solution fixing Liverpool's problems",
-      "summary": "Ronald Araujo has impressed since arriving at Liverpool from Barcelona. Could he prove a longer-term solution?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck8dz7pp4089o"
     }
   ],
   "outlets": [
