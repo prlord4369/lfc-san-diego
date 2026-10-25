@@ -191,6 +191,9 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .brand { align-items: center; }
 .brand b { font: 800 1.9rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .02em; color: var(--on-red); }
 .brand span { font-size: .8rem; opacity: .85; }
+/* Official Supporters Club crest (white on clear), used as supplied: not recoloured, no background behind it */
+.top .brand .crest { display: block; height: 56px; width: auto; }
+@media (max-width: 720px) { .top .brand .crest { height: 46px; } }
 /* Liver Bird watermark: one small SVG (assets/liverbird.svg) used as a mask, so it takes the colour the CSS gives it */
 .hero::before { content: ""; position: absolute; top: 50%; right: max(8px, calc(50% - 560px)); transform: translateY(-50%);
   height: min(118%, 300px); aspect-ratio: 977 / 1790; background: var(--on-red); opacity: .08; pointer-events: none;
@@ -502,7 +505,8 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 <body>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#top"><b>LFC San Diego</b></a>
+    <a class="brand" href="#top"><img class="crest" src="assets/crest-osc-san-diego.webp" width="533" height="180"
+       alt="Liverpool FC Official Supporters Club San Diego"></a>
     <a class="live-chip" id="live-chip" href="#match" hidden aria-live="polite"></a>
     <button class="menu-btn" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
     <nav class="nav" id="site-nav" aria-label="Sections">
@@ -1334,7 +1338,7 @@ function render(data) {
     nav.classList.toggle("open", open);
     btn.setAttribute("aria-expanded", String(open));
     btn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
-    if (open) { nav.scrollTop = 0; hint(); }
+    if (open) { nav.scrollTop = 0; hint(); openY = window.scrollY; }
   };
   btn.addEventListener("click", function () { set(btn.getAttribute("aria-expanded") !== "true"); });
   nav.addEventListener("click", function (e) {
@@ -1349,6 +1353,11 @@ function render(data) {
   });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape" && nav.classList.contains("open")) { set(false); btn.focus(); } });
   document.addEventListener("click", function (e) { if (nav.classList.contains("open") && !e.target.closest(".top")) set(false); });
+  // Scrolling the page behind an open menu closes it (more than a small nudge; scrolling inside the menu doesn't count)
+  var openY = 0;
+  window.addEventListener("scroll", function () {
+    if (nav.classList.contains("open") && Math.abs(window.scrollY - openY) > 30) set(false);
+  }, { passive: true });
 })();
 
 // "Find us on match day": bring the Whiskey Girl box to the middle of the screen (the space below the title bar)
