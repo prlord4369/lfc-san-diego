@@ -497,8 +497,21 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 .soc:hover { background: var(--red); color: var(--on-red); }
 .soc:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
 .lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.86); display: grid; place-items: center; z-index: 100; padding: 16px; }
-.lightbox img { max-width: min(1000px, 100%); max-height: 86vh; border-radius: 6px; }
+.lightbox img { max-width: min(1600px, 100%); max-height: 90vh; border-radius: 6px; }   /* the 1600 px copy */
+/* "Photo archive ↗": opens the club's shared Google Drive folder with every photo */
+.archive-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; border-radius: 999px; border: 1.5px solid var(--red);
+  color: var(--red); font: 700 .8rem/1 var(--font-body); text-decoration: none; white-space: nowrap; }
+.archive-btn:hover { background: var(--red); color: var(--on-red); }
+.archive-btn svg { width: 16px; height: 16px; flex: none; }   /* camera icon */
 .lightbox button { position: absolute; top: 14px; right: 16px; background: none; border: 0; color: #fff; font-size: 2rem; cursor: pointer; }
+/* Enlarged view: ‹ › arrows step through the photos (also arrow keys and swiping); caption and "3 / 20" underneath */
+.lightbox .lb-prev, .lightbox .lb-next { top: 50%; right: auto; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 2rem; line-height: 1; background: rgba(0,0,0,.45); box-shadow: 0 0 0 1px rgba(255,255,255,.35); }
+.lightbox .lb-prev { left: 12px; }
+.lightbox .lb-next { left: auto; right: 12px; }
+.lightbox .lb-prev:hover, .lightbox .lb-next:hover { background: rgba(200,16,46,.85); }
+.lightbox .lb-cap { position: absolute; left: 16px; right: 16px; bottom: 14px; text-align: center; color: #fff; font-size: .9rem; text-shadow: 0 1px 3px rgba(0,0,0,.8); }
+.lightbox .lb-cap span { opacity: .7; margin-left: 8px; }
 </style>
 
 </head>
@@ -557,7 +570,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 
 <section id="club" class="club-sec" aria-labelledby="club-h">
   <div class="wrap">
-  <div class="sec-head"><h2 id="club-h">Meet the LFCSD Family</h2><span class="label">Sample photos, album to come</span></div>
+  <div class="sec-head"><h2 id="club-h">Meet the LFCSD Family</h2><span id="club-extra"><span class="label">Sample photos</span></span></div>
   <div class="carousel">
     <div class="c-track" id="c-track" tabindex="0" aria-label="Club photos"></div>
     <button class="c-nav prev" type="button" aria-label="Previous photos">‹</button>
@@ -1197,10 +1210,11 @@ function render(data) {
 </script>
 
 <script>
-// Carousel: temporary placeholder photos from the owner (site/assets/club/sample-N.jpg), shown the way the
-// Instagram photos will be until the #LFCSDGallery feed is built
+// Carousel: the 20 photos most recently added to the club's shared Google Drive folder (data.gallery, saved by the
+// update into assets/club/gallery/ at two sizes), with a "Photo archive" button to the folder itself. Until the
+// gallery has photos, the owner's sample pictures (assets/club/sample-N.jpg) stand in.
 (function () {
-  var photos = [
+  var SAMPLES = [
     ["sample-1.jpg", "Watch party with the club"],
     ["sample-2.jpg", "Player signing and a signed shirt"],
     ["sample-3.jpg", "Night out with the OLSC scarf"],
@@ -1208,32 +1222,81 @@ function render(data) {
     ["sample-5.jpg", "Drinks before the match"],
     ["sample-6.jpg", "Matchday gathering"],
     ["sample-7.jpg", "Scarves and red smoke"]
-  ];
+  ].map(function (p) { return { img: "assets/club/" + p[0], big: "assets/club/" + p[0], caption: p[1] }; });
+  var e = function (s) { return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;"); };
   var track = document.getElementById("c-track"), dots = document.getElementById("c-dots");
-  track.innerHTML = photos.map(function (p) {
-    return "<button class='c-slide' type='button'><figure style='margin:0'><img loading='lazy' width='480' height='300' alt='" + p[1] + "' src='assets/club/" + p[0] + "'>" +
-      "<figcaption>" + p[1] + "</figcaption></figure></button>";
-  }).join("");
-  dots.innerHTML = photos.map(function () { return "<span></span>"; }).join("");
-  var slides = [].slice.call(track.children), dotEls = [].slice.call(dots.children);
-  var step = function () { return slides[0].getBoundingClientRect().width + 14; };
-  document.querySelector(".c-nav.prev").addEventListener("click", function () { track.scrollBy({ left: -step(), behavior: "smooth" }); });
-  document.querySelector(".c-nav.next").addEventListener("click", function () { track.scrollBy({ left: step(), behavior: "smooth" }); });
-  var mark = function () { var i = Math.round(track.scrollLeft / step()); dotEls.forEach(function (d, k) { d.className = k === i ? "on" : ""; }); };
-  track.addEventListener("scroll", mark); mark();
-  // Tap a photo to see it larger
-  slides.forEach(function (s) {
-    s.addEventListener("click", function () {
-      var lb = document.createElement("div"); lb.className = "lightbox";
-      lb.innerHTML = "<img alt='" + s.querySelector("img").alt + "' src=\"" + s.querySelector("img").src + "\"><button type='button' aria-label='Close'>×</button>";
-      lb.addEventListener("click", function () { lb.remove(); }); document.body.appendChild(lb);
-    });
-  });
+
+  var build = function (photos, archive) {
+    track.innerHTML = photos.map(function (p) {
+      return "<button class='c-slide' type='button' data-big='" + e(p.big || p.img) + "'><figure style='margin:0'>" +
+        "<img loading='lazy' alt='" + e(p.caption || "Club photo") + "' src='" + e(p.img) + "'>" +
+        "<figcaption>" + (p.caption ? e(p.caption) : "&nbsp;") + "</figcaption></figure></button>";
+    }).join("");
+    dots.innerHTML = photos.map(function () { return "<span></span>"; }).join("");
+    // Real photos: the heading's corner holds the Photo archive button instead of the "Sample photos" note
+    if (archive) document.getElementById("club-extra").innerHTML =
+      "<a class='archive-btn' href='" + e(archive) + "' target='_blank' rel='noopener' title='Every club photo, in the shared Google Drive folder'>" +
+      "<svg viewBox='0 0 24 24' aria-hidden='true' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'>" +
+      "<path d='M3.5 8h3.5l2-2.5h6l2 2.5h3.5v11.5h-17z'/><circle cx='12' cy='13.5' r='3.5'/></svg>Full Photo Archive ↗</a>";
+    var slides = [].slice.call(track.children), dotEls = [].slice.call(dots.children);
+    var step = function () { return slides[0].getBoundingClientRect().width + 14; };
+    document.querySelector(".c-nav.prev").addEventListener("click", function () { track.scrollBy({ left: -step(), behavior: "smooth" }); });
+    document.querySelector(".c-nav.next").addEventListener("click", function () { track.scrollBy({ left: step(), behavior: "smooth" }); });
+    var mark = function () { var i = Math.round(track.scrollLeft / step()); dotEls.forEach(function (d, k) { d.className = k === i ? "on" : ""; }); };
+    track.addEventListener("scroll", mark); mark();
+    // Tap a photo to see the larger copy (loaded only now, so the page stays light). In the enlarged view the
+    // ‹ › arrows, the arrow keys or a swipe step through the photos; tap the dark background, × or Escape to close.
+    var openBig = function (start) {
+      var cur = start, lb = document.createElement("div"); lb.className = "lightbox";
+      lb.setAttribute("role", "dialog"); lb.setAttribute("aria-label", "Club photos, enlarged");
+      lb.innerHTML = "<img alt=''><button type='button' class='lb-close' aria-label='Close'>×</button>" +
+        (photos.length > 1 ? "<button type='button' class='lb-prev' aria-label='Previous photo'>‹</button><button type='button' class='lb-next' aria-label='Next photo'>›</button>" : "") +
+        "<div class='lb-cap'></div>";
+      var img = lb.querySelector("img"), cap = lb.querySelector(".lb-cap");
+      var show = function (i) {
+        cur = (i + photos.length) % photos.length;
+        var p = photos[cur];
+        img.src = p.big || p.img; img.alt = p.caption || "Club photo";
+        cap.innerHTML = e(p.caption || "") + (photos.length > 1 ? "<span>" + (cur + 1) + " / " + photos.length + "</span>" : "");
+        // Fetch the neighbours in the background so stepping through feels instant
+        [cur - 1, cur + 1].forEach(function (j) { var q = photos[(j + photos.length) % photos.length]; new Image().src = q.big || q.img; });
+      };
+      var close = function () { lb.remove(); document.removeEventListener("keydown", keys); };
+      var keys = function (ev) {
+        if (ev.key === "Escape") close();
+        else if (ev.key === "ArrowLeft") show(cur - 1);
+        else if (ev.key === "ArrowRight") show(cur + 1);
+      };
+      lb.addEventListener("click", function (ev) {
+        if (ev.target.closest(".lb-prev")) show(cur - 1);
+        else if (ev.target.closest(".lb-next")) show(cur + 1);
+        else if (ev.target === lb || ev.target.closest(".lb-close")) close();
+      });
+      var x0 = null;
+      lb.addEventListener("touchstart", function (ev) { x0 = ev.touches[0].clientX; }, { passive: true });
+      lb.addEventListener("touchend", function (ev) {
+        if (x0 === null) return;
+        var dx = ev.changedTouches[0].clientX - x0; x0 = null;
+        if (Math.abs(dx) > 40) show(dx < 0 ? cur + 1 : cur - 1);
+      }, { passive: true });
+      document.addEventListener("keydown", keys);
+      show(start);
+      document.body.appendChild(lb);
+    };
+    slides.forEach(function (s, i) { s.addEventListener("click", function () { openBig(i); }); });
+    if (window.lfcCarouselMotion) window.lfcCarouselMotion();
+  };
+
+  fetch("data.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
+    var g = d.gallery;
+    if (g && g.photos && g.photos.length) build(g.photos, g.archive); else build(SAMPLES);
+  }).catch(function () { build(SAMPLES); });
 })();
 </script>
 <script>
-// Carousel motion: fade-in on arrival, and a slow continuous drift with a pause button
-(function () {
+// Carousel motion: fade-in on arrival, and a slow continuous drift with a pause button.
+// Started by the carousel script once its photos are in place.
+window.lfcCarouselMotion = function () {
   var car = document.querySelector(".carousel"), track = document.getElementById("c-track"), dots = document.getElementById("c-dots");
   if (!car || !track) return;
   var slides = [].slice.call(track.children);
@@ -1322,7 +1385,7 @@ function render(data) {
     new IntersectionObserver(function (es) { onScreen = es[0].isIntersecting; }, { threshold: 0.5 }).observe(car);
   } else onScreen = true;
   new MutationObserver(function () { lightbox = !!document.querySelector(".lightbox"); }).observe(document.body, { childList: true });
-})();
+};
 </script>
 
 
