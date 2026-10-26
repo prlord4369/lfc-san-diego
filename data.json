@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T14:31:57Z",
+  "updated": "2026-10-26T16:12:12Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -629,8 +629,8 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "scope": "domestic",
       "tbc": false,
+      "scope": "domestic",
       "us": "Paramount+",
       "usUrl": "https://worldsoccertalk.com/teams/liverpool-tv-schedule/"
     },
@@ -897,7 +897,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-aggravated the same hamstring at Brentford and missed the Brighton game. Iraola says he is not far from a return and is training alone.",
+      "detail": "He re-aggravated the same hamstring at Brentford and missed the Brighton win. Iraola says he is not far from a return and is training with the group soon.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
       "reported": "2026-10-24"
@@ -947,9 +947,9 @@
       "pos": "FW",
       "status": "out",
       "issue": "Knee",
-      "detail": "He picked up a knee knock at Brentford, missed the Villarreal win and was also missing for the Brighton game. No return date has been confirmed.",
-      "source": "NBC Sports",
-      "url": "https://www.nbcsports.com/soccer/live/liverpool-vs-brighton-live-updates-score-goals-highlights-stats-2026-october-25",
+      "detail": "He picked up a knee knock at Brentford and missed the Villarreal win and the Brighton game. No return date has been confirmed.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/florian-wirtz-injury-update-iraola-brighton-liverpool-fc/",
       "reported": "2026-10-25"
     },
     {
@@ -979,34 +979,6 @@
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-outlines-new-34817407"
     },
     {
-      "date": "2026-10-26",
-      "source": "Liverpool Echo",
-      "title": "National media make £248m Liverpool point after Brighton victory ahead of 'pivotal week'",
-      "summary": "A look at how the national media reacted to Liverpool's 2-0 win over Brighton & Hove Albion at Anfield in the Premier League on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/national-media-make-248m-liverpool-34816835"
-    },
-    {
-      "date": "2026-10-26",
-      "source": "Liverpool Echo",
-      "title": "POLL: Should Liverpool sign Ronald Araujo on a £47m permanent transfer?",
-      "summary": "Ronald Araujo further endeared himself to Liverpool supporters with an all-action and fully-committed performance in the win over Brighton at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/poll-should-liverpool-sign-ronald-34816531"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Liverpool Echo",
-      "title": "Liverpool news: Bitter Brighton boss digs out Andoni Iraola as Kop finds new hero",
-      "summary": "Liverpool secured a vital victory over Brighton and Hove Albion at Anfield, prompting quite the reaction from Fabian Hurzeler",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-iraola-brighton-premier-league-34816010"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Liverpool Echo",
-      "title": "Fabian Hurzeler makes bold claim after Liverpool defeat - 'Everyone in the stadium saw'",
-      "summary": "Fabian Hurzeler felt his Brighton & Hove Albion side were hard done by as they went down to a 2-0 Premier League defeat at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fabian-hurzeler-makes-bold-claim-34814986"
-    },
-    {
       "date": "2026-10-25",
       "source": "BBC Sport",
       "title": "'I've fallen in love with a loan player' says Liverpool fan",
@@ -1019,6 +991,20 @@
       "title": "Isak finally living up to price tag as Liverpool patience rewarded",
       "summary": "Alexander Isak scores his sixth Premier League goal of the season as Liverpool make it four wins out of their last four under Andoni Iraola.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "The Guardian",
+      "title": "Isak applies finishing touch as Liverpool bring Brighton’s winning run to an end",
+      "summary": "Brighton’s impressive run was blown off course at Anfield where Liverpool performed with an appetite and urgency at both ends of the pitch that showed Andoni Iraola’s methods taking root. It was Liverpool, deserving winners on home soil for the first time in the Premier League this season, who looked upwardly mobile.There was more evidence of the expensive trio of Florian Wirtz, Alexander Isak and Bradley Barcola feeling at home and adapting to Iraola’s demands. Wirtz was instrumental in an opening goal officially credited to Brighton’s Pascal Gross and Isak scored for the sixth time in six Premier League appearances to shatter the visitors’ sequence of four successive league wins. The sight of Barcola sprinting back to help his defence and Ronald Araújo smashing into challenges, as Liverpool stubbornly defended their lead and their box in the second half, satisfied Iraola just as much as his side’s incisiveness before the break. Continue reading...",
+      "url": "https://www.theguardian.com/football/2026/oct/25/liverpool-brighton-premier-league-match-report"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Sky Sports",
+      "title": "Isak on target again as Liverpool beat Brighton",
+      "summary": "Alexander Isak scored for a third straight Premier League game as Liverpool inflicted only Brighton's second loss of the season.",
+      "url": "https://www.skysports.com/football/liverpool-vs-brighton-and-hove-albion/report/559521"
     },
     {
       "date": "2026-10-25",
@@ -1035,6 +1021,20 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro"
     },
     {
+      "date": "2026-10-23",
+      "source": "Sky Sports",
+      "title": "Signs of life finally for Wirtz, but Liverpool still need more from playmaker",
+      "summary": "Florian Wirtz has produced some of his most impressive displays in a Liverpool shirt in the last three games, but Andoni Iraola needs his No 10 to keep sparkling with the Reds now facing three crucial tests at home that will tell us a lot more about where his game is at.",
+      "url": "https://www.skysports.com/football/news/11669/13602355/florian-wirtz-is-finally-showing-signs-of-life-at-liverpool-but-andoni-iraola-still-needs-more-from-his-116m-playmaker"
+    },
+    {
+      "date": "2026-10-22",
+      "source": "The Guardian",
+      "title": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
+      "summary": "The reigning champions must deal with the absence of Khvicha Kvaratskhelia for some time, while fans at Anfield were thrilled by Rio NgumohaParis Saint-Germain beat Barcelona 4-2 on Tuesday, but the reigning champions lost the best player in last season’s tournament, Khvicha Kvaratskhelia. This autumn has seen much lobbying for the Ballon d’Or, with the Georgian a popular choice, despite his absence from the World Cup. He is expected to be out for six months, although Rodri’s comeback from serious injury – he was rested by Barcelona on Tuesday until coming off the bench in the 60th minute – shows it can take far longer than that for players to rediscover their highest level. Continue reading...",
+      "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool"
+    },
+    {
       "date": "2026-10-21",
       "source": "BBC Sport",
       "title": "Mac Allister scores twice as Liverpool fight back to beat Villarreal",
@@ -1043,10 +1043,10 @@
     },
     {
       "date": "2026-10-21",
-      "source": "BBC Sport",
-      "title": "No mistake over Gravenberch red card - panel",
-      "summary": "The Premier League's Key Match Incidents Panel has backed the red card shown to Liverpool's Ryan Gravenberch against Manchester City.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmed36n7qge3o"
+      "source": "The Guardian",
+      "title": "‘A complete threat’: Rio Ngumoha’s electric display excites Van Dijk and Liverpool",
+      "summary": "Teenager produced man-of-the-match performance against Villarreal and has learned from Salah, says Reds captainThe shot sailed wide of Peter Gulacsi’s top corner and into the Kop, affording Villarreal much-needed respite at 4-2, but for Andoni Iraola it was a standout moment in a scintillating Champions League display from Rio Ngumoha. To a coach who called for versatility from all of his wingers this summer, here was a significant step forward among many from the 18-year-old at Anfield.There were questions over how Ngumoha would adapt to playing on the right even before Liverpool increased the likelihood by signing Bradley Barcola for £123m from Paris Saint-Germain. On his fifth start under Iraola on Tuesday, which his side won 4-3, Liverpool witnessed an answer: quickly, incisively and confidently. The teenager’s willingness to cut inside from the right and shoot from distance with his left foot captured Iraola’s imagination as much as the devastating run that created Alexis Mac Allister’s second goal of the game. Continue reading...",
+      "url": "https://www.theguardian.com/football/2026/oct/21/rio-ngumoha-progress-liverpool-villarreal-champions-league"
     }
   ],
   "outlets": [
