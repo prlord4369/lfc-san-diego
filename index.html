@@ -375,6 +375,8 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .story h3 a { text-decoration: none; }
 .story h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .story p { margin: 0; font-size: .88rem; color: var(--muted); }
+.story .read-on { color: var(--red); font-weight: 600; text-decoration: none; white-space: nowrap; }
+.story .read-on:hover { text-decoration: underline; text-underline-offset: 3px; }
 .outlets { display: flex; flex-wrap: wrap; gap: 8px 18px; padding-top: 18px; font-size: .85rem; }
 .outlets a { color: var(--pacific); font-weight: 600; }
 
@@ -1145,7 +1147,8 @@ function render(data) {
     .slice(0, NEWS_MAX).map(function (x) { return x.n; });
   document.getElementById("news-list").innerHTML = newsShown.map(function (n) {
     return "<article class=\"story\"><div class=\"src\"><span class=\"label\">" + esc(n.source) + "</span><span class=\"label\">" + dfmt(n.date) + "</span></div>" +
-      "<h3><a href=\"" + esc(n.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(n.title) + "</a></h3><p>" + esc(n.summary) + "</p></article>";
+      "<h3><a href=\"" + esc(n.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(n.title) + "</a></h3><p>" + esc(n.summary) +
+      " <a class=\"read-on\" href=\"" + esc(n.url) + "\" target=\"_blank\" rel=\"noopener\" tabindex=\"-1\">Continue reading…</a></p></article>";
   }).join("");
   document.getElementById("outlets").insertAdjacentHTML("beforeend", data.outlets.map(function (o) {
     return "<a href=\"" + esc(o.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(o.name) + "</a>";
