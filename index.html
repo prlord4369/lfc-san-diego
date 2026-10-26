@@ -19,8 +19,9 @@
 /* History tabs stay pinned under the title bar too, slimmed down, with the section buttons pinned just below them.
    --htabs-h is the slim tab row's height (one row: it scrolls sideways rather than wrapping). */
 #history-view { --htabs-h: 35px; }
+#table-view { --stabs-h: 41px; }
 /* Standings tabs stay pinned under the title bar too (owner, 2026-10-24) */
-#table-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); }
+#table-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--stabs-h); box-sizing: border-box; }
 #history-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--htabs-h); box-sizing: border-box; }
 #history-view .tabs button { padding: 9px 12px 8px; }
 .dec-chips { position: sticky; top: calc(var(--header-h, 64px) + var(--htabs-h, 0px)); z-index: 5; display: flex; flex-wrap: nowrap; gap: 6px;
@@ -355,6 +356,10 @@ section { min-width: 0; scroll-margin-top: 16px; }
    page (no sideways-scroll box around it), so on narrow phones the columns are tightened to fit instead. */
 #squad-view .lt-wrap { overflow-x: visible; }
 #sq thead th { position: sticky; top: var(--header-h, 64px); z-index: 2; background: var(--bg); }
+/* Same for the Premier League and Champions League tables, pinned under the title bar and the competition tabs
+   (fixed height --stabs-h, so the titles know where the tabs end). Below 560 px the W/D/L/GF/GA columns hide, so they fit without a scroll box. */
+#pane-pl .lt-wrap, #pane-cl .lt-wrap { overflow-x: visible; }
+#lt thead th, #clt thead th { position: sticky; top: calc(var(--header-h, 64px) + var(--stabs-h, 0px)); z-index: 2; background: var(--bg); }
 @media (max-width: 420px) {
   #sq td, #sq th { padding-inline: 4px; }
   #sq th { letter-spacing: .04em; }
