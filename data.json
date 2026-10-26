@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T18:13:17Z",
+  "updated": "2026-10-26T00:14:15Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-25"
+    "checked": "2026-10-26"
   },
   "table": {
-    "asof": "2026-10-25",
+    "asof": "2026-10-26",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -954,10 +954,52 @@
   "news": [
     {
       "date": "2026-10-25",
+      "source": "BBC Sport",
+      "title": "How Liverpool's attack impressed against Brighton",
+      "summary": "Match of the Day pundits Toby Alderweireld and Ashley Williams analyse Liverpool's impressive attacking display in their 2-0 win against Brighton at Anfield.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckq6nvp2ldz5o"
+    },
+    {
+      "date": "2026-10-25",
       "source": "Liverpool Echo",
       "title": "Liverpool 2 Brighton 0 LIVE - Andoni Iraola reaction to impressive win with Florian Wirtz injury update",
       "summary": "Live coverage of Liverpool's Premier League match against fellow high flyers Brighton & Hove Albion at Anfield",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brighton-live-stream-score-34805481"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Anfield erupts over Man United announcement after Liverpool's 2-0 win over Brighton",
+      "summary": "Liverpool romped to 2-0 win over Brighton but their Premier League rivals weren't as successful on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-utd-anfield-premier-league-34815417"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "BBC Sport",
+      "title": "'I've fallen in love with a loan player' says Liverpool fan",
+      "summary": "Liverpool fan Abigail Rudkin says she's 'fallen in love' with loan player Ronald Araujo after their 2-0 win over Brighton.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6z7xyyzg0nro"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "BBC Sport",
+      "title": "Isak finally living up to price tag as Liverpool patience rewarded",
+      "summary": "Alexander Isak scores his sixth Premier League goal of the season as Liverpool make it four wins out of their last four under Andoni Iraola.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Liverpool dealt Florian Wirtz injury blow as Andoni Iraola provides update",
+      "summary": "Andoni Iraola says Florian Wirtz is a doubt for Wednesday's Carabao Cup clash with Chelsea after the playmaker was forced off in the Premier League win over Brighton & Hove Albion",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-dealt-florian-wirtz-injury-34814965"
+    },
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Liverpool star makes himself Anfield cult hero with incredible moment in front of Kop",
+      "summary": "One Liverpool star made himself a cult hero for life with one piece of audacious defending in the 2-0 home victory over Brighton and Hove Albion",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-brighton-premier-league-araujo-34815563"
     },
     {
       "date": "2026-10-25",
@@ -969,23 +1011,9 @@
     {
       "date": "2026-10-25",
       "source": "Liverpool Echo",
-      "title": "Ronald Araujo moment left Anfield roaring and spoke volumes Liverpool loanee",
+      "title": "Ronald Araujo moment left Anfield roaring and spoke volumes about Liverpool loanee",
       "summary": "Ian Doyle with the main talking point from Liverpool's Premier League clash against Brighton on Sunday afternoon",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-moment-left-anfield-34814903"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Liverpool Echo",
-      "title": "Double blow for Florian Wirtz after Brighton win as worry emerges ahead of Chelsea and Arsenal",
-      "summary": "Florian Wirtz impressed for Liverpool against Brighton but was dealt two blows",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-florian-wirtz-injury-brighton-34815254"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Liverpool Echo",
-      "title": "Liverpool player ratings as Ronald Araujo and two others 8/10 in Brighton win",
-      "summary": "Ian Doyle with the Liverpool player ratings and scores from the Premier League clash at home to Brighton on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-player-ratings-brighton-breaking-34814900"
     },
     {
       "date": "2026-10-25",
@@ -993,13 +1021,6 @@
       "title": "Isak, Barcola and Wirtz turn up - player ratings for Liverpool v Brighton",
       "summary": "How Liverpool and Brighton's players rated following their Premier League match.",
       "url": "https://www.bbc.co.uk/sport/football/articles/crwyd857p00yo"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Liverpool Echo",
-      "title": "Steven Gerrard favourite for top Championship job as Liverpool icon set for return",
-      "summary": "The Liverpool legend has emerged as the frontrunner for a new managerial position in the Championship, having been out of the hot seat since January 2025",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-liverpool-championship-burnley-34814951"
     },
     {
       "date": "2026-10-24",
@@ -1014,27 +1035,6 @@
       "title": "Mac Allister scores twice as Liverpool fight back to beat Villarreal",
       "summary": "Rio Ngumoha provides the spark as Liverpool come from two goals down to beat Villarreal at Anfield in the Champions League.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmvg6qxp6lj7o"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "BBC Sport",
-      "title": "No mistake over Gravenberch red card - panel",
-      "summary": "The Premier League's Key Match Incidents Panel has backed the red card shown to Liverpool's Ryan Gravenberch against Manchester City.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmed36n7qge3o"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "BBC Sport",
-      "title": "Liverpool fan excited by 'special talent' Rio Ngumoha",
-      "summary": "Liverpool fan Nahyan Chowdhury praises \"special, special\" talent Rio Ngumoha after his side's win over Villarreal.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck20w57lqyexo"
-    },
-    {
-      "date": "2026-10-20",
-      "source": "BBC Sport",
-      "title": "The night 'ruthless' Ngumoha came of age for Liverpool",
-      "summary": "Rio Ngumoha produces a coming-of-age performance in Liverpool's comeback win over Villarreal, writes Aadam Patel.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck0e0zydv33go"
     }
   ],
   "outlets": [
@@ -1064,7 +1064,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-25",
+    "asof": "2026-10-26",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
