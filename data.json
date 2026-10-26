@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T00:14:15Z",
+  "updated": "2026-10-26T02:32:21Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -943,15 +943,22 @@
     {
       "player": "Victor Munoz",
       "pos": "FW",
-      "status": "doubt",
+      "status": "out",
       "issue": "Knee",
-      "detail": "He is dealing with pain from a knee knock picked up at Brentford and missed the Villarreal win. Iraola says it will be difficult for him to be available for the Brighton game.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
-      "reported": "2026-10-24"
+      "detail": "He picked up a knee knock at Brentford, missed the Villarreal win and was also missing for the Brighton game. No return date has been confirmed.",
+      "source": "NBC Sports",
+      "url": "https://www.nbcsports.com/soccer/live/liverpool-vs-brighton-live-updates-score-goals-highlights-stats-2026-october-25",
+      "reported": "2026-10-25"
     }
   ],
   "news": [
+    {
+      "date": "2026-10-25",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola hails Ronald Araujo response to tough Liverpool calls after glowing praise",
+      "summary": "Andoni Iraola praises Ronald Araujo's performance after Liverpool beat Brighton & Hove Albion 2-0 at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-hails-ronald-araujo-34814912"
+    },
     {
       "date": "2026-10-25",
       "source": "BBC Sport",
@@ -1007,13 +1014,6 @@
       "title": "Liverpool deliver first Andoni Iraola statement as trio's transformations continue",
       "summary": "The Paul Gorst verdict from Anfield as they Liverpool maintain their excellent form with an impressive 2-0 Premier League win over Brighton & Hove Albiomn",
       "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/liverpool-deliver-first-andoni-iraola-34814909"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Liverpool Echo",
-      "title": "Ronald Araujo moment left Anfield roaring and spoke volumes about Liverpool loanee",
-      "summary": "Ian Doyle with the main talking point from Liverpool's Premier League clash against Brighton on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-moment-left-anfield-34814903"
     },
     {
       "date": "2026-10-25",
@@ -1465,5 +1465,65 @@
         "pts": 0
       }
     ]
+  },
+  "gallery": {
+    "archive": "https://drive.google.com/drive/folders/1gJ392T-aOMDwZ08oKOHL_-yAUcX2df6M",
+    "photos": [
+      {
+        "caption": "26/27 Season Opener",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1QV63ipPO9UH-ZoU-O5M1ZSK6VQ694-4p-800.jpg",
+        "big": "assets/club/gallery/1QV63ipPO9UH-ZoU-O5M1ZSK6VQ694-4p-1600.jpg"
+      },
+      {
+        "caption": "LFCSD Family",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/11ScDqnCfPFgru-A_Vo_6P6CaDPzvk8Vc-800.jpg",
+        "big": "assets/club/gallery/11ScDqnCfPFgru-A_Vo_6P6CaDPzvk8Vc-1600.jpg"
+      },
+      {
+        "caption": "LFCSD Family",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1u0oeTH8ihPY7aIwJNRo_j5BXrb1G0817-800.jpg",
+        "big": "assets/club/gallery/1u0oeTH8ihPY7aIwJNRo_j5BXrb1G0817-1600.jpg"
+      },
+      {
+        "caption": "Boss Morning at Whiskey Girl",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1pEf_NbRVSjd2zohLjsRJt9I1Ps5x4nVD-800.jpg",
+        "big": "assets/club/gallery/1pEf_NbRVSjd2zohLjsRJt9I1Ps5x4nVD-1600.jpg"
+      },
+      {
+        "caption": "LFCSD Jasper",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1ArTEFPTrCJI3BLAzas-eMBGM2vRjrJlD-800.jpg",
+        "big": "assets/club/gallery/1ArTEFPTrCJI3BLAzas-eMBGM2vRjrJlD-1600.jpg"
+      },
+      {
+        "caption": "12 Pubs of XMas 2025",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1LUFLwsB31a5WQqbS8GK1JzdQQyR9wayg-800.jpg",
+        "big": "assets/club/gallery/1LUFLwsB31a5WQqbS8GK1JzdQQyR9wayg-1600.jpg"
+      },
+      {
+        "caption": "LFCSD at Whiskey Girl",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1AYEufU2EZD9T101nm5-Xi8469cFJrXTh-800.jpg",
+        "big": "assets/club/gallery/1AYEufU2EZD9T101nm5-Xi8469cFJrXTh-1600.jpg"
+      },
+      {
+        "caption": "LFCSD + Whiskey Girl",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1iwODsKJxciYBYCW1Yjen98rRGifWNyfy-800.jpg",
+        "big": "assets/club/gallery/1iwODsKJxciYBYCW1Yjen98rRGifWNyfy-1600.jpg"
+      },
+      {
+        "caption": "12 Pubs of XMas 2024",
+        "added": "2026-10-26",
+        "img": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-800.jpg",
+        "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
+      }
+    ],
+    "checked": "2026-10-26"
   }
 }
