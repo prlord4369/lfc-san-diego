@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T00:02:10Z",
+  "updated": "2026-10-27T12:50:00Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -897,59 +897,59 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-aggravated the same hamstring at Brentford and missed the Brighton win. Iraola says he is not far from a return and is training with the group soon.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
-      "reported": "2026-10-24"
+      "detail": "He re-aggravated the same hamstring at Brentford and missed the Brighton win. Hopes are for a return against Arsenal or Chelsea.",
+      "source": "This Is Anfield",
+      "url": "https://thisisanfield.com/2026/10/florian-wirtz-injury-update-iraola-brighton-liverpool-fc",
+      "reported": "2026-10-25"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle injury early in his Brentford cameo and is not expected back before the November international break.",
+      "detail": "He picked up a new muscle injury early in his Brentford cameo. Iraola says a return before the November international break will be difficult.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
-      "reported": "2026-10-24"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is still ramping up rehabilitation from a long-term Achilles problem. He is targeting a return before the end of the calendar year.",
+      "detail": "He is progressing well in his recovery from an Achilles problem, a little behind Bradley. December is the possible return date.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
-      "reported": "2026-10-24"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He is recovering from a knee problem and is targeting a return before the end of the calendar year. Liverpool will be cautious with his timeline.",
+      "detail": "He is recovering from a serious knee problem and is not far from joining in with teammates. November is the possible return date.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
-      "reported": "2026-10-24"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "His recovery from a long-term ACL injury has suffered a setback. He will not be back until the November international break at the earliest.",
+      "detail": "His recovery has suffered a setback, with his return to training pushed back to the November break. A return to match action is possible in December.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-brighton-injuries-szoboszlai-mitoma-34811580",
-      "reported": "2026-10-24"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "out",
       "issue": "Knee",
-      "detail": "He picked up a knee knock at Brentford and has missed the Villarreal and Brighton games. No return date has been confirmed.",
+      "detail": "He picked up a knee knock at Brentford and has missed recent games. Iraola described the problem as minor, and no return date has been confirmed.",
       "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/florian-wirtz-injury-update-iraola-brighton-liverpool-fc/",
+      "url": "https://thisisanfield.com/2026/10/florian-wirtz-injury-update-iraola-brighton-liverpool-fc",
       "reported": "2026-10-25"
     },
     {
@@ -957,7 +957,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Ankle knock",
-      "detail": "He twisted an ankle in the 2-0 Brighton win and was replaced after 65 minutes. Iraola says it does not look serious, but he will undergo a medical assessment.",
+      "detail": "He twisted an ankle in the 2-0 Brighton win and was replaced after 65 minutes. Iraola says it does not look big, but he will undergo a medical assessment.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/florian-wirtz-injury-update-liverpool-brighton",
       "reported": "2026-10-25"
@@ -965,18 +965,18 @@
   ],
   "news": [
     {
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "source": "Liverpool Echo",
-      "title": "Wirtz, Szoboszlai, Munoz, Frimpong - Liverpool injury news and return dates ahead of Chelsea",
-      "summary": "The latest Liverpool injury and team news ahead of the League Cup clash with Chelsea on Wednesday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/wirtz-szoboszlai-munoz-frimpong-liverpool-34820874"
+      "title": "Andoni Iraola press conference LIVE - Florian Wirtz and Liverpool injury latest for Chelsea",
+      "summary": "Live coverage of Andoni Iraola's press conference to preview Liverpool's Carabao Cup fourth-round clash at home to Premier League rivals Chelsea on Wednesday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-press-conference-live-34823413"
     },
     {
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "source": "Liverpool Echo",
-      "title": "Inside Ronald Araujo's revival at Liverpool as £47m transfer question nears answer",
-      "summary": "Special report from Paul Gorst as our Liverpool correspondent assesses Ronald Araujo's impressive start to his career at Anfield and how the on-loan defender has provided Andoni…",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/inside-ronald-araujos-revival-liverpool-34818996"
+      "title": "Jamie Carragher sends Liverpool transfer message over Trent Alexander-Arnold - 'a big mistake'",
+      "summary": "Former Liverpool defender Jamie Carragher wants Trent Alexander-Arnold back at Anfield and has praised Jeremy Jacquet's start under Andoni Iraola",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-sends-liverpool-transfer-34822382"
     },
     {
       "date": "2026-10-25",
