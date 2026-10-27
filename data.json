@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T20:30:37Z",
+  "updated": "2026-10-27T00:02:10Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-26"
+    "checked": "2026-10-27"
   },
   "table": {
-    "asof": "2026-10-26",
+    "asof": "2026-10-27",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1076,7 +1076,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-26",
+    "asof": "2026-10-27",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1536,6 +1536,6 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-10-26"
+    "checked": "2026-10-27"
   }
 }
