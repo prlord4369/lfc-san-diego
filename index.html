@@ -228,7 +228,6 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .scoreline .crest { display: block; width: 56px; height: 56px; object-fit: contain; padding: 7px; border-radius: 50%; background: #ffffff; box-shadow: 0 1px 4px rgba(0,0,0,.25); }
 .scoreline .sc {font: 800 3.6rem/1 var(--font-display); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .scoreline .sc i { font-style: normal; opacity: .5; padding-inline: .12em; }
-.scoreline .sc .pens { display: block; font: 800 1.1rem/1.2 var(--font-display); letter-spacing: .03em; opacity: .9; text-align: center; }
 .scoreline .st { grid-column: 1 / -1; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; opacity: .85; }
 /* Goals and cards under the live score: home events left, away events right */
 .scoreline .evs { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; margin-top: 8px; padding-top: 8px;
@@ -950,10 +949,8 @@ function render(data) {
               " data-abbr=\"" + abbr + "\"></span>"
             : "<span class=\"tla\">" + abbr + "</span>";
         };
-        // Regulation (and extra time) score; penalties in brackets underneath when a shoot-out was played
-        var pensTag = s.pens ? "<span class=\"pens\" title=\"Penalty shoot-out\">(" + esc(s.pens[0]) + "–" + esc(s.pens[1]) + ")</span>" : "";
         cd.innerHTML = "<div class=\"scoreline\" role=\"status\">" + side(s.home) +
-          "<span class=\"sc\">" + esc(s.home.score) + "<i>–</i>" + esc(s.away.score) + pensTag + "</span>" + side(s.away) +
+          "<span class=\"sc\">" + esc(s.home.score) + "<i>–</i>" + esc(s.away.score) + "</span>" + side(s.away) +
           "<span class=\"st\">" + esc(state) + "</span>" + matchEvents(s.events) + "</div>";
         cd.querySelectorAll("img.crest").forEach(function (img) {
           img.addEventListener("error", function () { img.replaceWith(document.createTextNode(img.dataset.abbr)); });
