@@ -20,6 +20,13 @@
    --htabs-h is the slim tab row's height (one row: it scrolls sideways rather than wrapping). */
 #history-view { --htabs-h: 35px; }
 #table-view { --stabs-h: 41px; }
+/* Standings swipe: the new tab slides in from the side the swipe came from */
+@media (prefers-reduced-motion: no-preference) {
+  #table-view .slide-l { animation: tab-in-l .22s ease-out; }
+  #table-view .slide-r { animation: tab-in-r .22s ease-out; }
+}
+@keyframes tab-in-l { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+@keyframes tab-in-r { from { opacity: 0; transform: translateX(-28px); } to { opacity: 1; transform: none; } }
 /* Standings tabs stay pinned under the title bar too (owner, 2026-10-24) */
 #table-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--stabs-h); box-sizing: border-box; }
 #history-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--htabs-h); box-sizing: border-box; }
@@ -1142,6 +1149,36 @@ function render(data) {
     });
   });
   showTab("pl");
+
+  // Swipe left/right on the Standings page for the next/previous tab (no wrap-around). Only a clearly sideways swipe
+  // counts, and not one that starts in something that scrolls sideways itself (the tab row, a wide cup table).
+  var tableView = document.getElementById("table-view"), tabRow = tableView.querySelector(".tabs");
+  var swipeX = null, swipeY = 0;
+  var scrollsSideways = function (el) {
+    for (; el && el !== tableView; el = el.parentElement) if (el.scrollWidth > el.clientWidth + 1 && /auto|scroll/.test(getComputedStyle(el).overflowX)) return true;
+    return false;
+  };
+  tableView.addEventListener("touchstart", function (e) {
+    swipeX = e.touches.length === 1 && !scrollsSideways(e.target) ? e.touches[0].clientX : null;
+    swipeY = e.touches[0].clientY;
+  }, { passive: true });
+  tableView.addEventListener("touchend", function (e) {
+    if (swipeX === null) return;
+    var t = e.changedTouches[0], dx = t.clientX - swipeX, dy = t.clientY - swipeY;
+    swipeX = null;
+    if (Math.abs(dx) < 60 || Math.abs(dx) < 2 * Math.abs(dy)) return;
+    var cur = tabs.findIndex(function (b) { return b.getAttribute("aria-selected") === "true"; });
+    var nb = tabs[cur + (dx < 0 ? 1 : -1)];
+    if (!nb) return;
+    showTab(nb.dataset.tab);
+    if (window.scrollY > 0) window.scrollTo(0, 0);
+    // Keep the chosen tab in view in the heading row on narrow phones
+    tabRow.scrollLeft = Math.max(0, nb.offsetLeft - (tabRow.clientWidth - nb.offsetWidth) / 2);
+    // Brief slide in from the side the swipe came from
+    var pane = document.getElementById(nb.getAttribute("aria-controls"));
+    pane.classList.remove("slide-l", "slide-r"); void pane.offsetWidth;
+    pane.classList.add(dx < 0 ? "slide-l" : "slide-r");
+  }, { passive: true });
 
   // News
   var dfmt = function (s) { if (s.length === 7) return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", year: "numeric" }).format(new Date(s + "-15T12:00:00Z")); return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(s + "T12:00:00Z")); };
