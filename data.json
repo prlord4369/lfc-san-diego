@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T00:03:40Z",
+  "updated": "2026-10-28T12:59:28Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -629,8 +629,8 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "tbc": false,
       "scope": "domestic",
+      "tbc": false,
       "us": "Paramount+",
       "usUrl": "https://worldsoccertalk.com/teams/liverpool-tv-schedule/"
     },
@@ -895,88 +895,109 @@
     {
       "player": "Dominik Szoboszlai",
       "pos": "MF",
-      "status": "out",
+      "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He re-aggravated the same hamstring at Brentford and missed the Brighton win. Hopes are for a return against Arsenal or Chelsea.",
-      "source": "This Is Anfield",
-      "url": "https://thisisanfield.com/2026/10/florian-wirtz-injury-update-iraola-brighton-liverpool-fc",
-      "reported": "2026-10-25"
+      "detail": "He re-aggravated the same hamstring at Brentford and missed the Brighton win. He is listed as a doubt for the Chelsea game.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
+      "reported": "2026-10-28"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle injury early in his Brentford cameo. Iraola says a return before the November international break will be difficult.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "detail": "He picked up a new muscle problem early in his Brentford cameo. He is listed as out for the Chelsea game.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
+      "reported": "2026-10-28"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is progressing well in his recovery from an Achilles problem, a little behind Bradley. December is the possible return date.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "detail": "He is still sidelined while recovering from an Achilles problem. He is listed as out for the Chelsea game.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
+      "reported": "2026-10-28"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He is recovering from a serious knee problem and is not far from joining in with teammates. November is the possible return date.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "detail": "He is still sidelined with a long-term knee problem. He is listed as out for the Chelsea game.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
+      "reported": "2026-10-28"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "His recovery has suffered a setback, with his return to training pushed back to the November break. A return to match action is possible in December.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "detail": "He is still sidelined while recovering from an ACL injury. He is listed as out for the Chelsea game.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
+      "reported": "2026-10-28"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "out",
-      "issue": "Knee",
-      "detail": "He picked up a knee knock at Brentford and has missed recent games. Iraola described the problem as minor, and no return date has been confirmed.",
-      "source": "This Is Anfield",
-      "url": "https://thisisanfield.com/2026/10/florian-wirtz-injury-update-iraola-brighton-liverpool-fc",
-      "reported": "2026-10-25"
+      "issue": "Knock",
+      "detail": "He is still out with a knock and is listed as out for the Chelsea game.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
+      "reported": "2026-10-28"
     },
     {
       "player": "Florian Wirtz",
       "pos": "MF",
       "status": "doubt",
       "issue": "Ankle knock",
-      "detail": "He twisted an ankle in the 2-0 Brighton win and was replaced after 65 minutes. Iraola says it does not look big, but he will undergo a medical assessment.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/florian-wirtz-injury-update-liverpool-brighton",
-      "reported": "2026-10-25"
+      "detail": "He twisted an ankle in the Brighton win and is listed as a doubt for the Chelsea game.",
+      "source": "ESPN",
+      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
+      "reported": "2026-10-28"
     }
   ],
   "news": [
     {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "Xabi Alonso 'following' Florian Wirtz and makes major claim about Liverpool £116m man",
-      "summary": "Chelsea head coach Xabi Alonso worked with Liverpool attacking midfielder Florian Wirtz at Bayer Leverkusen",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/xabi-alonso-following-florian-wirtz-34825160"
+      "title": "Liverpool line-ups for Chelsea Carabao Cup tie as James McConnell among several changes",
+      "summary": "Liverpool take on Chelsea in the Carabao Cup on Wednesday evening at Anfield, and our Reds writers have picked the team they would go for",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-chelsea-carabao-34828967"
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "Ryan Giggs was actually right with viral Liverpool collapse claim and Man Utd now know",
-      "summary": "As Manchester United's struggles continue, Ryan Giggs' infamous comments about the Red Devils 'never collapsing like Liverpool' have re-emerged once again",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ryan-giggs-actually-right-viral-34824809"
+      "title": "Liverpool icon slammed his former Reds team-mate for joining Chelsea – 'Unacceptable'",
+      "summary": "The £50million transfer didn't go down well with Liverpool players or fans, but proved to be a good deal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-chelsea-torres-agger-henderson-34828161"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "BBC Sport",
+      "title": "Liverpool fan believes Jacquet 'will win' young player award",
+      "summary": "Liverpool fan Nahyan Chowdhury tips Jeremy Jacquet for an end of season award.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckp8g5pj3jdlo"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "BBC Sport",
+      "title": "Liverpool gambled on Jacquet and it is paying off",
+      "summary": "Liverpool beat Chelsea to the signing of Jeremy Jacquet and the defender is thriving at Anfield. Things could have been very different...",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqgkv216dx2no"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "BBC Sport",
+      "title": "Alonso to celebrate Chelsea goals against Liverpool",
+      "summary": "Chelsea boss Xabi Alonso says he will celebrate if his side score against his former club Liverpool in their Carabao Cup tie.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm79p5518r25o"
     },
     {
       "date": "2026-10-25",
@@ -1007,20 +1028,6 @@
       "url": "https://www.skysports.com/football/liverpool-vs-brighton-and-hove-albion/report/559521"
     },
     {
-      "date": "2026-10-25",
-      "source": "BBC Sport",
-      "title": "Isak, Barcola and Wirtz turn up - player ratings for Liverpool v Brighton",
-      "summary": "How Liverpool and Brighton's players rated following their Premier League match.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/crwyd857p00yo"
-    },
-    {
-      "date": "2026-10-24",
-      "source": "BBC Sport",
-      "title": "Why are Liverpool struggling for Premier League goals?",
-      "summary": "Liverpool have scored 15 goals in four cup games this season, but have managed only nine goals in seven Premier League matches.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c94g1p32gyrro"
-    },
-    {
       "date": "2026-10-23",
       "source": "Sky Sports",
       "title": "Signs of life finally for Wirtz, but Liverpool still need more from playmaker",
@@ -1033,13 +1040,6 @@
       "title": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
       "summary": "The reigning champions must deal with the absence of Khvicha Kvaratskhelia for some time, while fans at Anfield were thrilled by Rio Ngumoha",
       "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "BBC Sport",
-      "title": "Mac Allister scores twice as Liverpool fight back to beat Villarreal",
-      "summary": "Rio Ngumoha provides the spark as Liverpool come from two goals down to beat Villarreal at Anfield in the Champions League.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmvg6qxp6lj7o"
     },
     {
       "date": "2026-10-21",
