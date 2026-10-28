@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T12:59:28Z",
+  "updated": "2026-10-28T16:16:23Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -629,8 +629,8 @@
       "opp": "Chelsea",
       "ha": "H",
       "comp": "Carabao Cup R4",
-      "scope": "domestic",
       "tbc": false,
+      "scope": "domestic",
       "us": "Paramount+",
       "usUrl": "https://worldsoccertalk.com/teams/liverpool-tv-schedule/"
     },
@@ -640,8 +640,8 @@
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
-      "us": "Peacock",
-      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released"
+      "us": "NBCSN / Peacock",
+      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/second-place-arsenal-visit-fourth-place-liverpool-this-sunday-nov-1-at-11-30-a-m-et-on-peacock-nbcsn-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend"
     },
     {
       "kickoff": "2026-11-04T17:45:00Z",
@@ -897,7 +897,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He re-aggravated the same hamstring at Brentford and missed the Brighton win. He is listed as a doubt for the Chelsea game.",
+      "detail": "A hamstring problem has him listed as a doubt for the Carabao Cup game against Chelsea. He has missed the last two games.",
       "source": "ESPN",
       "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
       "reported": "2026-10-28"
@@ -907,76 +907,66 @@
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle problem early in his Brentford cameo. He is listed as out for the Chelsea game.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
-      "reported": "2026-10-28"
+      "detail": "He is sidelined with a muscle problem picked up early in his Brentford cameo. He is likely to be out at least until the November international break.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/florian-wirtz-injury-szoboszlai-chelsea-34825242",
+      "reported": "2026-10-27"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is still sidelined while recovering from an Achilles problem. He is listed as out for the Chelsea game.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
-      "reported": "2026-10-28"
+      "detail": "He is a long-term absentee recovering from an Achilles problem. No return date has been given.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-team-news",
+      "reported": "2026-10-27"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He is still sidelined with a long-term knee problem. He is listed as out for the Chelsea game.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
-      "reported": "2026-10-28"
+      "detail": "He is a long-term absentee with a knee problem. No return date has been given.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-team-news",
+      "reported": "2026-10-27"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "He is still sidelined while recovering from an ACL injury. He is listed as out for the Chelsea game.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
-      "reported": "2026-10-28"
+      "detail": "He is recovering from an ACL injury. He could make a comeback during the November international break.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/florian-wirtz-injury-szoboszlai-chelsea-34825242",
+      "reported": "2026-10-27"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
-      "status": "out",
-      "issue": "Knock",
-      "detail": "He is still out with a knock and is listed as out for the Chelsea game.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
-      "reported": "2026-10-28"
-    },
-    {
-      "player": "Florian Wirtz",
-      "pos": "MF",
       "status": "doubt",
-      "issue": "Ankle knock",
-      "detail": "He twisted an ankle in the Brighton win and is listed as a doubt for the Chelsea game.",
-      "source": "ESPN",
-      "url": "https://www.espn.com/soccer/story/_/id/50285675/liverpool-vs-chelsea-tv-channel-how-watch-kickoff-live-stream-referee-injury-predicted-lineups-2026-27-efl-carabao-cup",
-      "reported": "2026-10-28"
+      "issue": "Injury",
+      "detail": "He is still recovering from an injury, and Iraola is not sure he will be available for the Chelsea game.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-chelsea-carabao-cup-team-news",
+      "reported": "2026-10-27"
     }
   ],
   "news": [
     {
       "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "Liverpool line-ups for Chelsea Carabao Cup tie as James McConnell among several changes",
-      "summary": "Liverpool take on Chelsea in the Carabao Cup on Wednesday evening at Anfield, and our Reds writers have picked the team they would go for",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-chelsea-carabao-34828967"
+      "title": "Virgil van Dijk and Andoni Iraola lift lid on Ronald Araujo impact at Liverpool - 'I love that'",
+      "summary": "Ronald Araujo has become a crowd favourite at Anfield since joining Liverpool on loan from Barcelona in the summer",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-andoni-iraola-34830329"
     },
     {
       "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "Liverpool icon slammed his former Reds team-mate for joining Chelsea – 'Unacceptable'",
-      "summary": "The £50million transfer didn't go down well with Liverpool players or fans, but proved to be a good deal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-chelsea-torres-agger-henderson-34828161"
+      "title": "Xabi Alonso risks wrath of Liverpool fans with Chelsea promise before cup clash",
+      "summary": "Xabi Alonso returns to Anfield on Wednesday evening as head coach of Chelsea, who will look to upset Liverpool's Carabao Cup apple cart",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-chelsea-carabao-cup-alonso-34829190"
     },
     {
       "date": "2026-10-28",
