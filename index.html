@@ -228,6 +228,9 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .scoreline .crest { display: block; width: 56px; height: 56px; object-fit: contain; padding: 7px; border-radius: 50%; background: #ffffff; box-shadow: 0 1px 4px rgba(0,0,0,.25); }
 .scoreline .sc {font: 800 3.6rem/1 var(--font-display); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .scoreline .sc i { font-style: normal; opacity: .5; padding-inline: .12em; }
+/* Shoot-out goals in brackets after the score, smaller and lighter so the match score still leads: 1 (6) – 1 (5) */
+.pens { font-size: .82em; opacity: .75; }
+.scoreline .sc .pens { font-size: .45em; opacity: .8; vertical-align: .5em; }
 .scoreline .st { grid-column: 1 / -1; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; opacity: .85; }
 /* Goals and cards under the live score: home events left, away events right */
 .scoreline .evs { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; margin-top: 8px; padding-top: 8px;
@@ -833,6 +836,12 @@ function render(data) {
   var TZ = "America/Los_Angeles";
   var fmt = function (d, o) { return new Intl.DateTimeFormat("en-US", Object.assign({ timeZone: TZ }, o)).format(d); };
   var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+  // A cup result decided on penalties: "1-1" with pens "6-5" -> "1 (6)-1 (5)" (Liverpool's goals first, as in the data)
+  var resultScore = function (r) {
+    var s = String(r.score || "").replace(/\s*\(pens?\)\s*$/i, ""), g = s.split("-"), p = String(r.pens || "").split("-");
+    if (g.length !== 2 || p.length !== 2) return esc(r.score);
+    return esc(g[0]) + " <span class=\"pens\">(" + esc(p[0]) + ")</span>-" + esc(g[1]) + " <span class=\"pens\">(" + esc(p[1]) + ")</span>";
+  };
   var teamLink = function (name) {
     var url = TEAM_LINKS[teamKey(name)];
     return url ? "<a href=\"" + esc(url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(name) + "</a>" : esc(name);
@@ -918,10 +927,13 @@ function render(data) {
         // Only trust an answer about this fixture (kick-off within 2 hours of ours)
         if (!s.home || Math.abs(new Date(s.kickoff) - next.d) > 2 * 3600e3) return;
         showingScore = true;
+        // Penalty shoot-out (cup games): each side's shoot-out goals in brackets after its score, "1 (6)–1 (5)"
+        var pens = s.pens && s.pens.home != null && s.pens.away != null ? s.pens : null;
+        var pk = function (n) { return pens ? " <span class=\"pens\">(" + esc(n) + ")</span>" : ""; };
         // Menu item follows the game: "● Live 1–2" during play, "Result 1–2" for the hour after full time
         var navMatch = document.getElementById("nav-match");
         if (navMatch) navMatch.innerHTML = (s.live ? "<span class=\"live-dot\" aria-hidden=\"true\"></span>Live "
-          : s.status === "FINISHED" ? "Result " : "") + esc(s.home.score) + "–" + esc(s.away.score);
+          : s.status === "FINISHED" ? "Result " : "") + esc(s.home.score) + pk(pens && pens.home) + "–" + esc(s.away.score) + pk(pens && pens.away);
         // Pinned chip in the title bar while the game is in play only (hidden at full time)
         var chip = document.getElementById("live-chip");
         if (chip) {
@@ -933,8 +945,11 @@ function render(data) {
           }
         }
         var state = s.status === "PAUSED" ? "Half-time"
-          // Full-time, plus "after extra time" or "pens 4-3" when a cup tie went that far
-          : s.status === "FINISHED" ? "Full-time" + (s.note ? " · " + s.note : "")
+          // Full-time, plus "after extra time" or "Liverpool win 6–5 on penalties" when a cup tie went that far
+          : s.status === "FINISHED" ? "Full-time" + (pens && pens.home !== pens.away
+              ? " · " + (pens.home > pens.away ? s.home.name : s.away.name) + " win " + Math.max(pens.home, pens.away) + "–" + Math.min(pens.home, pens.away) + " on penalties"
+              : s.note ? " · " + s.note : "")
+          : pens ? "Penalty shoot-out"
           : s.minute ? s.minute + (s.injuryTime ? "+" + s.injuryTime : "") + "′"
           // No minute (football-data.org fallback): name the half from the time since kick-off (first half + stoppage ends by ~50 min)
           : (Date.now() - new Date(s.kickoff) < 50 * 60e3 ? "1st half" : "2nd half");
@@ -950,7 +965,7 @@ function render(data) {
             : "<span class=\"tla\">" + abbr + "</span>";
         };
         cd.innerHTML = "<div class=\"scoreline\" role=\"status\">" + side(s.home) +
-          "<span class=\"sc\">" + esc(s.home.score) + "<i>–</i>" + esc(s.away.score) + "</span>" + side(s.away) +
+          "<span class=\"sc\">" + esc(s.home.score) + pk(pens && pens.home) + "<i>–</i>" + esc(s.away.score) + pk(pens && pens.away) + "</span>" + side(s.away) +
           "<span class=\"st\">" + esc(state) + "</span>" + matchEvents(s.events) + "</div>";
         cd.querySelectorAll("img.crest").forEach(function (img) {
           img.addEventListener("error", function () { img.replaceWith(document.createTextNode(img.dataset.abbr)); });
@@ -988,7 +1003,7 @@ function render(data) {
   document.getElementById("results").innerHTML = data.results.slice(-6).reverse().map(function (r) {
     return "<span class=\"res\" title=\"" + esc(r.comp + ", " + r.date) + "\"><i class=\"" + r.r + "\">" + r.r + "</i>" +
       "<small>" + esc(rdate(r.date)) + "</small>" +
-      (r.ha === "H" ? "v " : "@ ") + esc(r.opp) + " <span class=\"mono\">" + esc(r.score) + "</span></span>";
+      (r.ha === "H" ? "v " : "@ ") + esc(r.opp) + " <span class=\"mono\">" + resultScore(r) + "</span></span>";
   }).join("");
   if (data.standing) document.getElementById("standing").innerHTML =
     esc(data.standing.competition) + ": <b>" + esc(data.standing.position) + "</b> · " + esc(data.standing.record);
@@ -1107,7 +1122,7 @@ function render(data) {
     var rows = played.map(function (r) {
       return "<tr><td class=\"rd\">" + esc(round(r.comp)) + "</td><td class=\"dt\">" + esc(day(r.date)) + "</td>" +
         "<td class=\"tm\">" + (r.ha === "H" ? "v " : "@ ") + teamLink(r.opp) + "</td>" +
-        "<td class=\"res\">" + esc(r.score) + "<b class=\"" + r.r + "\">" + r.r + "</b></td></tr>";
+        "<td class=\"res\">" + resultScore(r) + "<b class=\"" + r.r + "\">" + r.r + "</b></td></tr>";
     }).concat(coming.map(function (f) {
       return "<tr><td class=\"rd\">" + esc(round(f.comp)) + "</td><td class=\"dt\">" + fmt(f.d, { month: "short", day: "numeric" }) + "</td>" +
         "<td class=\"tm\">" + (f.ha === "H" ? "v " : "@ ") + teamLink(f.opp) + "</td>" +
