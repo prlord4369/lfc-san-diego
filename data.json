@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T18:18:15Z",
+  "updated": "2026-10-28T20:38:12Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -956,17 +956,24 @@
   "news": [
     {
       "date": "2026-10-28",
+      "source": "The Guardian",
+      "title": "Liverpool v Chelsea: Carabao Cup fourth round – live",
+      "summary": "⚽ Latest updates from Anfield, 8pm (GMT) kick-off ⚽ Live scores | Football Daily | And email Scott here",
+      "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live"
+    },
+    {
+      "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "Liverpool vs Chelsea LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "title": "Liverpool vs Chelsea LIVE - score, goals, commentary stream",
       "summary": "Live coverage of the Carabao Cup fourth-round clash between Liverpool and Chelsea at Anfield as the Premier League look to book their spot in the last eight",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-chelsea-live-stream-score-34830827"
     },
     {
       "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "What time is the Carabao Cup quarter-final draw? Date and latest info",
-      "summary": "Details of the Carabao Cup quarter-final draw have been confirmed",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/carabao-cup-quarter-final-draw-34823264"
+      "title": "Carabao Cup quarter-final draw LIVE: Everton and Liverpool to learn final eight opponents",
+      "summary": "Carabao Cup quarter-final draw date, time, ball numbers and how to watch as Everton - and possibly Liverpool should they beat Chelsea - learn their fate",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/carabao-cup-draw-live-time-34830540"
     },
     {
       "date": "2026-10-28",
@@ -1030,13 +1037,6 @@
       "title": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
       "summary": "The reigning champions must deal with the absence of Khvicha Kvaratskhelia for some time, while fans at Anfield were thrilled by Rio Ngumoha",
       "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool"
-    },
-    {
-      "date": "2026-10-21",
-      "source": "The Guardian",
-      "title": "‘A complete threat’: Rio Ngumoha’s electric display excites Van Dijk and Liverpool",
-      "summary": "Teenager produced man-of-the-match performance against Villarreal and has learned from Salah, says Reds captain",
-      "url": "https://www.theguardian.com/football/2026/oct/21/rio-ngumoha-progress-liverpool-villarreal-champions-league"
     }
   ],
   "outlets": [
