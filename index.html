@@ -257,7 +257,8 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .form { border-bottom: 1px solid var(--line); background: var(--surface); }
 .form .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; padding-block: 14px; }
 .results { display: flex; gap: 8px; flex-wrap: wrap; }
-.res { display: flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border: 1px solid var(--line); border-radius: 4px; font-size: .82rem; }
+/* Recent form chips only (span); the cup tabs' Result column (td.res) stays a normal table cell */
+span.res { display: flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border: 1px solid var(--line); border-radius: 4px; font-size: .82rem; }
 .res i { font: normal 800 .95rem/1 var(--font-display); width: 22px; height: 22px; display: grid; place-items: center; border-radius: 3px; color: var(--on-red); }
 .res small { font: 500 .72rem/1 var(--font-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
 .res i.W { background: var(--ok); } .res i.D { background: var(--muted); } .res i.L { background: var(--bad); }
