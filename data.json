@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T20:39:53Z",
+  "updated": "2026-10-29T22:30:23Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -655,7 +655,9 @@
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "us": "NBCSN / Peacock",
+      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/"
     },
     {
       "kickoff": "2026-11-22T16:30:00Z",
@@ -723,14 +725,14 @@
     },
     {
       "opp": "Bournemouth",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "scope": "domestic",
       "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
-      "dateTbc": true
+      "dateTbc": true,
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-12-19T17:30:00Z",
@@ -969,63 +971,70 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-injured the hamstring at Brentford and has missed the last three games. He is back training on the grass but not yet with the squad, and a return against Arsenal on November 1 is possible.",
+      "detail": "He re-injured his hamstring at Brentford and lasted only about half an hour. Liverpool's latest team news still lists him as recovering, so no firm return date is confirmed.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He missed the Chelsea game with a knee problem but is close to a return, with Arsenal on November 1 the first target.",
+      "detail": "He missed the Villarreal win with a knee problem, and there is no official word on the severity or a return date. He was also reported as possibly missing the Chelsea game.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a muscle problem shortly after coming on at Brentford and is not expected back before the November international break.",
+      "detail": "He picked up a muscle problem minutes after coming on at Brentford. Iraola said a return before the November international break would be difficult.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is recovering from an Achilles problem, with training targeted for November and a match return possibly around Christmas.",
+      "detail": "He is recovering from an Achilles injury and is expected to start training next month. A competitive return is targeted for December.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He is recovering from knee surgery after an injury at Arsenal in January and is on course to rejoin group training next month, with a possible return before year end.",
+      "detail": "He is recovering from knee surgery after his January injury at Arsenal. He is on course to rejoin group training in November and could return before the end of the year.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "He has not played since September 2025 because of an ACL injury, and his target is to start training during the November international break, with a match return possibly in December.",
+      "detail": "He has not played since September 2025 because of an ACL injury. His return to training has been pushed back to the November international break, so a match return would come later.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
+      "reported": "2026-10-21"
     }
   ],
   "news": [
+    {
+      "date": "2026-10-29",
+      "source": "BBC Sport",
+      "title": "Fleetwood to face Everton in EFL Cup quarters",
+      "summary": "League Two Fleetwood Town will face Everton at Highbury in the quarter-finals of the EFL Cup.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo"
+    },
     {
       "date": "2026-10-29",
       "source": "Liverpool Echo",
@@ -1081,13 +1090,6 @@
       "title": "Papers: Liverpool make contact with Monaco midfielder Camara",
       "summary": "The top stories and transfer rumours from Thursday's newspapers...",
       "url": "https://www.skysports.com/football/news/11669/13605140/liverpool-transfer-news-reds-make-contact-with-lamine-camara-camp-ahead-of-proposed-january-move-for-monaco-midfielder-paper-talk"
-    },
-    {
-      "date": "2026-10-28",
-      "source": "BBC Sport",
-      "title": "Fleetwood to face Everton or Newcastle in last eight",
-      "summary": "League Two Fleetwood Town will face Everton or Newcastle United at Highbury in the quarter-finals of the EFL Cup.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo"
     },
     {
       "date": "2026-10-28",
@@ -1543,6 +1545,36 @@
   "gallery": {
     "archive": "https://drive.google.com/drive/folders/1gJ392T-aOMDwZ08oKOHL_-yAUcX2df6M",
     "photos": [
+      {
+        "caption": "WG Queue",
+        "added": "2026-10-29",
+        "img": "assets/club/gallery/1s6p6b10qFgYyI48-7ULp6GlYFhiF5ar9-800.jpg",
+        "big": "assets/club/gallery/1s6p6b10qFgYyI48-7ULp6GlYFhiF5ar9-1600.jpg"
+      },
+      {
+        "caption": "LFCSD Family",
+        "added": "2026-10-29",
+        "img": "assets/club/gallery/16IGj_jy185HSzATP9v9w9sEo8QtkCg-Q-800.jpg",
+        "big": "assets/club/gallery/16IGj_jy185HSzATP9v9w9sEo8QtkCg-Q-1600.jpg"
+      },
+      {
+        "caption": "Campiones",
+        "added": "2026-10-29",
+        "img": "assets/club/gallery/1WS3b4odyQhJAp9moJ36jIwQ4h_MnBHDv-800.jpg",
+        "big": "assets/club/gallery/1WS3b4odyQhJAp9moJ36jIwQ4h_MnBHDv-1600.jpg"
+      },
+      {
+        "caption": "LFCSD Sheyru",
+        "added": "2026-10-29",
+        "img": "assets/club/gallery/1fbShNYqkIQdMKUZYyW54w925R7brfelI-800.jpg",
+        "big": "assets/club/gallery/1fbShNYqkIQdMKUZYyW54w925R7brfelI-1600.jpg"
+      },
+      {
+        "caption": "LFCSD WG new home",
+        "added": "2026-10-29",
+        "img": "assets/club/gallery/1d8iOSbfTSUguYNNRKCsy-6RNjnP-Ccxi-800.jpg",
+        "big": "assets/club/gallery/1d8iOSbfTSUguYNNRKCsy-6RNjnP-Ccxi-1600.jpg"
+      },
       {
         "caption": "26/27 Season Opener",
         "added": "2026-10-26",
