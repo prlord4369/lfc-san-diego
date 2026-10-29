@@ -869,8 +869,11 @@ function render(data) {
     return "";
   };
 
-  // Hero
-  var next = fixtures[0];
+  // A cup tie drawn but not yet dated ("dateTbc": its kickoff is the round's Monday): "Wk of Dec 14", no time
+  var weekOf = function (f) { return "Wk of " + fmt(f.d, { month: "short", day: "numeric" }); };
+
+  // Hero: the next game with a real date (an undated cup tie can't count down)
+  var next = fixtures.filter(function (f) { return !f.dateTbc; })[0];
   if (next) {
     var home = next.ha === "H";
     document.getElementById("next-label").textContent = "Next match · " + next.comp;
@@ -1019,13 +1022,15 @@ function render(data) {
     shown.forEach(function (f) {
       var m = fmt(f.d, { month: "long", year: "numeric" });
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
-      var h = ptHour(f.d), early = h < 6 ? "<span class=\"early\">Pre-dawn</span>" : "";
+      var h = ptHour(f.d), early = h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "";
       html += "<div class=\"fx\">" +
-        "<div class=\"d\"><b>" + fmt(f.d, { day: "numeric" }) + "</b><small>" + fmt(f.d, { weekday: "short" }) + "</small></div>" +
+        (f.dateTbc ? "<div class=\"d\"><b>–</b><small>TBC</small></div>"
+          : "<div class=\"d\"><b>" + fmt(f.d, { day: "numeric" }) + "</b><small>" + fmt(f.d, { weekday: "short" }) + "</small></div>") +
         "<div><div class=\"opp\">" + teamLink(f.opp) + "</div><div class=\"sub\"><span class=\"ha " + f.ha + "\">" + (f.ha === "H" ? "HOME" : "AWAY") + "</span>" +
         "<span class=\"comp" + (f.scope === "international" ? " intl" : "") + "\">" + esc(f.comp) + "</span>" + early + "</div>" +
         (usTV(f) ? "<div class=\"tv\"><span class=\"label\">Watch on:</span> " + esc(usTV(f)) + "</div>" : "") + "</div>" +
-        "<div class=\"t\"><span class=\"mono\">" + fmt(f.d, { hour: "numeric", minute: "2-digit" }) + "</span><small>" + (f.tbc ? "PT · TBC" : "PT") + "</small></div>" +
+        (f.dateTbc ? "<div class=\"t\"><span class=\"mono\">" + weekOf(f) + "</span><small>Date TBC</small></div>"
+          : "<div class=\"t\"><span class=\"mono\">" + fmt(f.d, { hour: "numeric", minute: "2-digit" }) + "</span><small>" + (f.tbc ? "PT · TBC" : "PT") + "</small></div>") +
         "</div>";
     });
     list.innerHTML = html || "<p class=\"note\">No upcoming fixtures in this view.</p>";
@@ -1124,12 +1129,14 @@ function render(data) {
         "<td class=\"tm\">" + (r.ha === "H" ? "v " : "@ ") + teamLink(r.opp) + "</td>" +
         "<td class=\"res\">" + resultScore(r) + "<b class=\"" + r.r + "\">" + r.r + "</b></td></tr>";
     }).concat(coming.map(function (f) {
-      return "<tr><td class=\"rd\">" + esc(round(f.comp)) + "</td><td class=\"dt\">" + fmt(f.d, { month: "short", day: "numeric" }) + "</td>" +
+      return "<tr><td class=\"rd\">" + esc(round(f.comp)) + "</td><td class=\"dt\">" + (f.dateTbc ? weekOf(f) : fmt(f.d, { month: "short", day: "numeric" })) + "</td>" +
         "<td class=\"tm\">" + (f.ha === "H" ? "v " : "@ ") + teamLink(f.opp) + "</td>" +
-        "<td class=\"res\">" + fmt(f.d, { hour: "numeric", minute: "2-digit" }) + " PT" + (f.tbc ? " (TBC)" : "") + "</td></tr>";
+        "<td class=\"res\">" + (f.dateTbc ? "Date TBC" : fmt(f.d, { hour: "numeric", minute: "2-digit" }) + " PT" + (f.tbc ? " (TBC)" : "")) + "</td></tr>";
     })).reverse();  // newest first: the upcoming tie on top, then results from the latest round back
-    var last = played[played.length - 1];
-    var status = coming.length ? "<p class=\"cup-status alive\">Still in: next tie " + fmt(coming[0].d, { weekday: "short", month: "short", day: "numeric" }) + ".</p>"
+    var last = played[played.length - 1], tie = coming[0];
+    var status = tie ? "<p class=\"cup-status alive\">Still in: next tie " + (tie.ha === "H" ? "v " : "@ ") + esc(tie.opp) + ", " +
+        (tie.dateTbc ? "week of " + fmt(tie.d, { month: "short", day: "numeric" }) + " (date to be confirmed)"
+          : fmt(tie.d, { weekday: "short", month: "short", day: "numeric" })) + ".</p>"
       : last && last.r === "L" ? "<p class=\"cup-status out\">Knocked out by " + esc(last.opp) + ".</p>"
       : last ? "<p class=\"cup-status alive\">Through to the next round. Waiting for the draw.</p>"
       : "<p class=\"cup-status\">" + notStarted + "</p>";
