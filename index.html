@@ -1011,10 +1011,9 @@ function render(data) {
   // Watch venue
   var w = document.getElementById("watch");
   if (homeVenue) {
-    // In the 36 hours before kick-off the box swaps to the next game's own venue (e.g. Shakespeare's for an early
-    // kick-off); otherwise it's the club's usual home, Whiskey Girl
-    var soon = next && next.d > Date.now() && next.d - Date.now() < 36 * 3600e3;
-    var v = soon && awayFromHome(next) ? venueFor(next) : homeVenue;
+    // The box shows the next game's venue for as long as it's the next game (until the banner moves on, about an
+    // hour after full time): Shakespeare's for an early kick-off set to it, otherwise the usual home, Whiskey Girl
+    var v = next && awayFromHome(next) ? venueFor(next) : homeVenue;
     w.innerHTML = "<span class=\"label\">" + (v === homeVenue ? "Official Watch Headquarters"
         : "Watch venue for " + esc(next.opp) + " · " + fmt(next.d, { weekday: "short", hour: "numeric", minute: "2-digit" }) + " PT") +
       "</span><b>" + esc(v.name) + "</b>" +
@@ -1029,9 +1028,9 @@ function render(data) {
     var isIOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
     if (isIOS) { pl.href = PARK.ios; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
     else if (/Android/.test(ua)) { pl.href = PARK.android; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
-    // Not showing the next game anywhere ("venueClosed": true, set by hand in data.json): for the 36 hours before
-    // kick-off a red sash is pasted across the faded box
-    if (soon && next.venueClosed === true) {
+    // Not showing the next game anywhere ("venueClosed": true, set by hand in data.json): while it's the next game,
+    // a red sash is pasted across the faded box
+    if (next && next.venueClosed === true) {
       w.classList.add("closed");
       w.insertAdjacentHTML("beforeend",
         "<div class=\"sash\" role=\"note\"><strong>Not open for this one</strong><span>" + esc(next.opp) + " · " +
