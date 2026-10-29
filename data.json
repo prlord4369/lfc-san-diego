@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T17:13:12Z",
+  "updated": "2026-10-29T17:56:18Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -628,6 +628,8 @@
     {
       "kickoff": "2026-11-01T16:30:00Z",
       "opp": "Arsenal",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -637,16 +639,20 @@
     {
       "kickoff": "2026-11-04T17:45:00Z",
       "opp": "Fenerbahçe",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
       "venue": "Istanbul, Turkey",
       "us": "Paramount+",
-      "usUrl": "https://www.espn.com/soccer/team/fixtures/_/id/364/liverpool"
+      "usUrl": "https://www.cbssports.com/watch/champions-league/LET-211534983"
     },
     {
       "kickoff": "2026-11-08T14:00:00Z",
       "opp": "Crystal Palace",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -654,6 +660,8 @@
     {
       "kickoff": "2026-11-22T16:30:00Z",
       "opp": "Manchester United",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -661,6 +669,8 @@
     {
       "kickoff": "2026-11-25T20:00:00Z",
       "opp": "Club Brugge",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
@@ -669,6 +679,8 @@
     {
       "kickoff": "2026-11-29T12:00:00Z",
       "opp": "Everton",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -676,6 +688,8 @@
     {
       "kickoff": "2026-12-02T19:30:00Z",
       "opp": "Sunderland",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -683,6 +697,8 @@
     {
       "kickoff": "2026-12-05T12:30:00Z",
       "opp": "Chelsea",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -690,6 +706,8 @@
     {
       "kickoff": "2026-12-09T20:00:00Z",
       "opp": "FC Porto",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Champions League",
       "scope": "international"
@@ -697,22 +715,28 @@
     {
       "kickoff": "2026-12-12T15:00:00Z",
       "opp": "Leeds United",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
     },
     {
       "opp": "Bournemouth",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Carabao Cup QF",
+      "scope": "domestic",
       "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
-      "dateTbc": true,
-      "scope": "domestic"
+      "dateTbc": true
     },
     {
       "kickoff": "2026-12-19T17:30:00Z",
       "opp": "Tottenham Hotspur",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -720,6 +744,8 @@
     {
       "kickoff": "2026-12-26T17:30:00Z",
       "opp": "Hull City",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -727,6 +753,8 @@
     {
       "kickoff": "2026-12-30T20:15:00Z",
       "opp": "Aston Villa",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -734,6 +762,8 @@
     {
       "kickoff": "2027-01-02T15:00:00Z",
       "opp": "Coventry City",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -741,6 +771,8 @@
     {
       "kickoff": "2027-01-05T20:15:00Z",
       "opp": "Sunderland",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -748,6 +780,8 @@
     {
       "kickoff": "2027-01-16T15:00:00Z",
       "opp": "Crystal Palace",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -755,6 +789,8 @@
     {
       "kickoff": "2027-01-19T20:00:00Z",
       "opp": "Inter Milan",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
@@ -763,6 +799,8 @@
     {
       "kickoff": "2027-01-23T15:00:00Z",
       "opp": "Manchester United",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -770,6 +808,8 @@
     {
       "kickoff": "2027-01-27T20:00:00Z",
       "opp": "Lens",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Champions League",
       "scope": "international"
@@ -777,6 +817,8 @@
     {
       "kickoff": "2027-01-30T15:00:00Z",
       "opp": "Everton",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -784,6 +826,8 @@
     {
       "kickoff": "2027-02-06T15:00:00Z",
       "opp": "Arsenal",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -791,6 +835,8 @@
     {
       "kickoff": "2027-02-10T20:00:00Z",
       "opp": "Coventry City",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -798,6 +844,8 @@
     {
       "kickoff": "2027-02-20T15:00:00Z",
       "opp": "Hull City",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -805,6 +853,8 @@
     {
       "kickoff": "2027-02-27T15:00:00Z",
       "opp": "Tottenham Hotspur",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -812,6 +862,8 @@
     {
       "kickoff": "2027-03-03T20:00:00Z",
       "opp": "Aston Villa",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -819,6 +871,8 @@
     {
       "kickoff": "2027-03-13T15:00:00Z",
       "opp": "Ipswich Town",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -826,6 +880,8 @@
     {
       "kickoff": "2027-03-20T15:00:00Z",
       "opp": "Fulham",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -833,6 +889,8 @@
     {
       "kickoff": "2027-04-10T14:00:00Z",
       "opp": "Newcastle United",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -840,6 +898,8 @@
     {
       "kickoff": "2027-04-17T14:00:00Z",
       "opp": "Nottingham Forest",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -847,6 +907,8 @@
     {
       "kickoff": "2027-04-24T14:00:00Z",
       "opp": "Leeds United",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -854,6 +916,8 @@
     {
       "kickoff": "2027-05-01T14:00:00Z",
       "opp": "Chelsea",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -861,6 +925,8 @@
     {
       "kickoff": "2027-05-08T14:00:00Z",
       "opp": "Manchester City",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -868,6 +934,8 @@
     {
       "kickoff": "2027-05-15T14:00:00Z",
       "opp": "Brentford",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -875,6 +943,8 @@
     {
       "kickoff": "2027-05-23T14:00:00Z",
       "opp": "Brighton & Hove Albion",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic"
@@ -882,6 +952,8 @@
     {
       "kickoff": "2027-05-30T15:00:00Z",
       "opp": "AFC Bournemouth",
+      "watchAt": "whiskeygirl",
+      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic"
@@ -897,7 +969,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-injured his hamstring at Brentford and has missed the last three games. He is back on the grass but has not rejoined team training, with a return possible against Arsenal on 2026-11-01.",
+      "detail": "He re-injured the hamstring at Brentford and has missed the last three games. He is back training on the grass but not yet with the squad, and a return against Arsenal on November 1 is possible.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -907,7 +979,7 @@
       "pos": "FW",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He has been out since a knee problem and missed the Chelsea game. He is close to a return, with Arsenal on 2026-11-01 the first target.",
+      "detail": "He missed the Chelsea game with a knee problem but is close to a return, with Arsenal on November 1 the first target.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -917,7 +989,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a muscle problem soon after coming on at Brentford and remains sidelined. He is not expected back before the November international break.",
+      "detail": "He picked up a muscle problem shortly after coming on at Brentford and is not expected back before the November international break.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -927,7 +999,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Achilles injury",
-      "detail": "He is a long-term absentee recovering from an Achilles problem. A return to training is targeted for November, with a return to action possibly around Christmas.",
+      "detail": "He is recovering from an Achilles problem, with training targeted for November and a match return possibly around Christmas.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -937,7 +1009,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He is recovering from surgery on a serious knee injury suffered at Arsenal in January. He is on track to return to group training next month, with a possible return to action before the end of the year.",
+      "detail": "He is recovering from knee surgery after an injury at Arsenal in January and is on course to rejoin group training next month, with a possible return before year end.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -947,7 +1019,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "He is recovering from an ACL injury and has not played since September 2025. He is now targeting the November international break for his return to training, with a return to action possibly in December.",
+      "detail": "He has not played since September 2025 because of an ACL injury, and his target is to start training during the November international break, with a match return possibly in December.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -1527,5 +1599,21 @@
       }
     ],
     "checked": "2026-10-29"
+  },
+  "venues": {
+    "whiskeygirl": {
+      "name": "Whiskey Girl",
+      "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
+      "map": "https://www.google.com/maps/search/?api=1&query=Whiskey+Girl+702+Fifth+Ave+San+Diego+CA",
+      "short": "Whiskey Girl",
+      "blurb": "Gaslamp Quarter, downtown San Diego. Come watch the Reds with us."
+    },
+    "shakespeares": {
+      "name": "Shakespeare Pub & Grille",
+      "short": "Shakespeare's",
+      "address": "3701 India St, Mission Hills, San Diego, CA 92103",
+      "map": "https://www.google.com/maps/search/?api=1&query=Shakespeare+Pub+%26+Grille+3701+India+St+San+Diego+CA",
+      "blurb": "Mission Hills, at the bottom of India Street. Our home for the early kick-offs."
+    }
   }
 }
