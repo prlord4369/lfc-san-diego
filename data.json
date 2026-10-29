@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T18:18:57Z",
+  "updated": "2026-10-29T20:39:53Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1028,6 +1028,13 @@
   "news": [
     {
       "date": "2026-10-29",
+      "source": "Liverpool Echo",
+      "title": "Szoboszlai, Munoz, Frimpong - Liverpool injury news ahead of Arsenal",
+      "summary": "Liverpool will resume their Premier League campaign at home to title rivals Arsenal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-arsenal-injuries-premier-league-34836843"
+    },
+    {
+      "date": "2026-10-29",
       "source": "BBC Sport",
       "title": "Replacing injured Joao Pedro in FPL",
       "summary": "Fantasy Premier League: How to replace Joao Pedro in your FPL team",
@@ -1046,13 +1053,6 @@
       "title": "Liverpool beat Chelsea as three more join penalty hall of shame | Football Daily",
       "summary": "Sign up now! Sign up now! Sign up now? Sign up now!",
       "url": "https://www.theguardian.com/football/2026/oct/29/liverpool-chelsea-football-daily-newsletter"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "Liverpool Echo",
-      "title": "Virgil van Dijk says feel-good factor returning at Liverpool as captain explains bizarre shove incident",
-      "summary": "Virgil van Dijk on Anfield's feel-good factor, Liverpool's win over Chelsea and being shoved by Emmanuel Emegha",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-says-feel-34833538"
     },
     {
       "date": "2026-10-29",
