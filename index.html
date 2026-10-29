@@ -320,7 +320,8 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .lt { width: 100%; border-collapse: collapse; font-size: .88rem; font-variant-numeric: tabular-nums; }
 .lt th { font: 600 .68rem/1 var(--font-body); text-transform: uppercase; letter-spacing: .1em; color: var(--muted); text-align: right; padding: 12px 8px 8px; border-bottom: 1px solid var(--line); }
 .lt td { text-align: right; padding: 8px; border-bottom: 1px solid var(--line); font-family: var(--font-mono); font-size: .82rem; }
-.lt th.tm, .lt td.tm { text-align: left; font-family: var(--font-body); font-size: .9rem; width: 100%; }
+.lt th.tm, .lt td.tm { text-align: left; font-family: var(--font-body); width: 100%; }
+.lt td.tm { font-size: .9rem; }   /* club names only; the column heading stays the size of the others */
 .lt td.ps { color: var(--muted); width: 2.5em; }
 .lt td.pts { font-weight: 700; color: var(--fg); }
 .lt tr.lfc td { background: var(--chip-bad); }
@@ -1141,7 +1142,7 @@ function render(data) {
       : last && last.r === "L" ? "<p class=\"cup-status out\">Knocked out by " + esc(last.opp) + ".</p>"
       : last ? "<p class=\"cup-status alive\">Through to the next round. Waiting for the draw.</p>"
       : "<p class=\"cup-status\">" + notStarted + "</p>";
-    return status + (rows.length ? "<div class=\"lt-wrap\"><table class=\"lt\"><thead><tr><th class=\"tm\" style=\"text-align:left\">Round</th>" +
+    return status + (rows.length ? "<div class=\"lt-wrap\"><table class=\"lt\"><thead><tr><th style=\"text-align:left\">Round</th>" +
       "<th style=\"text-align:left\">Date</th><th class=\"tm\">Opponent</th><th>Result</th></tr></thead><tbody>" + rows.join("") + "</tbody></table></div>" : "") +
       "<p class=\"note\">" + intro + "</p>";
   };
