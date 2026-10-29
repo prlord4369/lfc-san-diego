@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T20:38:12Z",
+  "updated": "2026-10-29T00:08:00Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-28"
+    "checked": "2026-10-29"
   },
   "table": {
-    "asof": "2026-10-28",
+    "asof": "2026-10-29",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -543,14 +543,6 @@
   },
   "results": [
     {
-      "date": "2026-09-04",
-      "opp": "Ipswich Town",
-      "ha": "A",
-      "score": "2-0",
-      "r": "W",
-      "comp": "Premier League"
-    },
-    {
       "date": "2026-09-09",
       "opp": "Atlético Madrid",
       "ha": "H",
@@ -621,19 +613,18 @@
       "score": "2-0",
       "r": "W",
       "comp": "Premier League"
+    },
+    {
+      "date": "2026-10-28",
+      "opp": "Chelsea",
+      "ha": "H",
+      "score": "1-1",
+      "r": "W",
+      "pens": "6-5",
+      "comp": "Carabao Cup R4"
     }
   ],
   "fixtures": [
-    {
-      "kickoff": "2026-10-28T20:00:00Z",
-      "opp": "Chelsea",
-      "ha": "H",
-      "comp": "Carabao Cup R4",
-      "tbc": false,
-      "scope": "domestic",
-      "us": "Paramount+",
-      "usUrl": "https://worldsoccertalk.com/teams/liverpool-tv-schedule/"
-    },
     {
       "kickoff": "2026-11-01T16:30:00Z",
       "opp": "Arsenal",
@@ -956,24 +947,52 @@
   "news": [
     {
       "date": "2026-10-28",
-      "source": "The Guardian",
-      "title": "Liverpool v Chelsea: Carabao Cup fourth round – live",
-      "summary": "⚽ Latest updates from Anfield, 8pm (GMT) kick-off ⚽ Live scores | Football Daily | And email Scott here",
-      "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live"
-    },
-    {
-      "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "Liverpool vs Chelsea LIVE - score, goals, commentary stream",
+      "title": "Liverpool 1 Chelsea 1 LIVE - Reds win incredible shootout 6-5 to reach Carabao Cup quarters",
       "summary": "Live coverage of the Carabao Cup fourth-round clash between Liverpool and Chelsea at Anfield as the Premier League look to book their spot in the last eight",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-chelsea-live-stream-score-34830827"
     },
     {
       "date": "2026-10-28",
       "source": "Liverpool Echo",
-      "title": "Carabao Cup quarter-final draw LIVE: Everton and Liverpool to learn final eight opponents",
-      "summary": "Carabao Cup quarter-final draw date, time, ball numbers and how to watch as Everton - and possibly Liverpool should they beat Chelsea - learn their fate",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/carabao-cup-draw-live-time-34830540"
+      "title": "Impressive Andoni Iraola is restoring what Liverpool lost and it could take them to Wembley",
+      "summary": "The ECHO's verdict from Anfield as Liverpool beat Chelsea 6-5 on penalties to reach the Carabao Cup quarter-finals",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/impressive-andoni-iraola-restoring-what-34831329"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "Sky Sports",
+      "title": "Papers: Liverpool make contact with Monaco midfielder Camara",
+      "summary": "The top stories and transfer rumours from Thursday's newspapers...",
+      "url": "https://www.skysports.com/football/news/11669/13605140/liverpool-transfer-news-reds-make-contact-with-lamine-camara-camp-ahead-of-proposed-january-move-for-monaco-midfielder-paper-talk"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "BBC Sport",
+      "title": "Fleetwood to face Everton or Newcastle in last eight",
+      "summary": "League Two Fleetwood Town will face Everton or Newcastle United at Highbury in the quarter-finals of the EFL Cup.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "The Guardian",
+      "title": "Liverpool beat Chelsea 6-5 on penalties: Carabao Cup plus quarter-final draw – as it happened",
+      "summary": "Liverpool will face Bournemouth after prevailing on penalties while Fleetwood will welcome Everton or Newcastle next",
+      "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "Sky Sports",
+      "title": "Liverpool beat Chelsea on penalties to reach last eight",
+      "summary": "Wesley Fofana missed the decisive spot kick as Liverpool beat Chelsea on penalties to set up a Carabao Cup quarter-final against Andoni Iraola's former side Bournemouth.",
+      "url": "https://www.skysports.com/football/liverpool-vs-chelsea/report/578612"
+    },
+    {
+      "date": "2026-10-28",
+      "source": "Sky Sports",
+      "title": "Liverpool draw Bournemouth in Carabao Cup quarters",
+      "summary": "Liverpool will play Bournemouth in the Carabao Cup quarter-finals while League One Bradford City will host Manchester City.",
+      "url": "https://www.skysports.com/football/news/11669/13604920/carabao-cup-quarter-final-draw-liverpool-host-bournemouth-as-bradford-and-fleetwood-get-home-ties-against-premier-league-opposition"
     },
     {
       "date": "2026-10-28",
@@ -1005,38 +1024,10 @@
     },
     {
       "date": "2026-10-25",
-      "source": "BBC Sport",
-      "title": "Isak finally living up to price tag as Liverpool patience rewarded",
-      "summary": "Alexander Isak scores his sixth Premier League goal of the season as Liverpool make it four wins out of their last four under Andoni Iraola.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmj47lq7e5e7o"
-    },
-    {
-      "date": "2026-10-25",
       "source": "The Guardian",
       "title": "Isak applies finishing touch as Liverpool bring Brighton’s winning run to an end",
       "summary": "Brighton’s impressive run was blown off course at Anfield where Liverpool performed with an appetite and urgency at both ends of the pitch that showed Andoni Iraola’s methods…",
       "url": "https://www.theguardian.com/football/2026/oct/25/liverpool-brighton-premier-league-match-report"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "Sky Sports",
-      "title": "Isak on target again as Liverpool beat Brighton",
-      "summary": "Alexander Isak scored for a third straight Premier League game as Liverpool inflicted only Brighton's second loss of the season.",
-      "url": "https://www.skysports.com/football/liverpool-vs-brighton-and-hove-albion/report/559521"
-    },
-    {
-      "date": "2026-10-23",
-      "source": "Sky Sports",
-      "title": "Signs of life finally for Wirtz, but Liverpool still need more from playmaker",
-      "summary": "Florian Wirtz has produced some of his most impressive displays in a Liverpool shirt in the last three games, but Andoni Iraola needs his No 10 to keep sparkling with the Reds now…",
-      "url": "https://www.skysports.com/football/news/11669/13602355/florian-wirtz-is-finally-showing-signs-of-life-at-liverpool-but-andoni-iraola-still-needs-more-from-his-116m-playmaker"
-    },
-    {
-      "date": "2026-10-22",
-      "source": "The Guardian",
-      "title": "Champions League review: PSG take a hit, Man City’s empty seats and teenage hope for Liverpool",
-      "summary": "The reigning champions must deal with the absence of Khvicha Kvaratskhelia for some time, while fans at Anfield were thrilled by Rio Ngumoha",
-      "url": "https://www.theguardian.com/football/2026/oct/22/champions-league-review-psg-take-a-hit-man-citys-empty-seats-and-teenage-hope-for-liverpool"
     }
   ],
   "outlets": [
@@ -1066,7 +1057,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-28",
+    "asof": "2026-10-29",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1526,6 +1517,6 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-10-28"
+    "checked": "2026-10-29"
   }
 }
