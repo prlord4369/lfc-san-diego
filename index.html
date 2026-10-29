@@ -295,6 +295,8 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .early { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--warn); }
 /* "Not at Whiskey Girl": a game the bar isn't opening for ("venueClosed": true) */
 .novenue { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--bad); }
+/* "At Shakespeare's": a game watched at a venue other than the usual one ("watchAt") */
+.atvenue { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--pacific); }
 .hero .novenue { font-size: .72rem; color: #fff; background: rgba(0,0,0,.28); padding: 3px 8px; border-radius: 3px; align-self: center; }
 .note { font-size: .82rem; color: var(--muted); margin: 14px 0 0; max-width: 65ch; }
 .more { margin-top: 14px; font: 600 .85rem var(--font-body); background: none; border: 0; color: var(--red); cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 3px; }
@@ -885,6 +887,14 @@ function render(data) {
   // A cup tie drawn but not yet dated ("dateTbc": its kickoff is the round's Monday): "Wk of Dec 14", no time
   var weekOf = function (f) { return "Wk of " + fmt(f.d, { month: "short", day: "numeric" }); };
 
+  // Watch venues the club swaps between ("venues" in data.json, e.g. Whiskey Girl and Shakespeare's for early
+  // kick-offs); a game's "watchAt" names its venue, Whiskey Girl when unset. Falls back to the old single "venue".
+  var venues = data.venues || {};
+  var homeVenue = venues.whiskeygirl || data.venue;
+  var venueFor = function (f) { return (f && venues[f.watchAt]) || homeVenue; };
+  var venueShort = function (v) { return v.short || v.name; };
+  var awayFromHome = function (f) { return !!(f && venues[f.watchAt] && venues[f.watchAt] !== homeVenue); };
+
   // Hero: the next game with a real date (an undated cup tie can't count down)
   var next = fixtures.filter(function (f) { return !f.dateTbc; })[0];
   if (next) {
@@ -898,9 +908,9 @@ function render(data) {
       "<span><strong>" + fmt(next.d, { hour: "numeric", minute: "2-digit" }) + " PT</strong>" + (next.tbc ? " (TBC)" : "") + "</span>" +
       "<span>" + (home ? "Anfield" : esc(next.venue || "Away")) + "</span>" +
       // Only claim the venue is showing it when the fixture is marked "atVenue": true (screening confirmed with the bar)
-      (data.venue && next.atVenue && next.venueClosed !== true
-        ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(data.venue.name) + "</strong></a></span>" : "") +
-      (data.venue && next.venueClosed === true ? "<span class=\"novenue\">Not at " + esc(data.venue.name) + "</span>" : "");
+      (homeVenue && next.atVenue && next.venueClosed !== true
+        ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(venueFor(next).name) + "</strong></a></span>" : "") +
+      (homeVenue && next.venueClosed === true ? "<span class=\"novenue\">Not at " + esc(venueShort(venueFor(next))) + "</span>" : "");
     var tvLine = document.getElementById("next-tv");
     tvLine.innerHTML = usTV(next) ? "Watch on <strong>" + esc(usTV(next)) + "</strong>" : "";
     tvLine.hidden = !usTV(next);
@@ -1000,10 +1010,16 @@ function render(data) {
 
   // Watch venue
   var w = document.getElementById("watch");
-  if (data.venue) {
-    w.innerHTML = "<span class=\"label\">Official Watch Headquarters</span><b>" + esc(data.venue.name) + "</b>" +
-      "<p>" + esc(data.venue.address) + "</p><p>Gaslamp Quarter, downtown San Diego. Come watch the Reds with us.</p>" +
-      "<div class=\"watch-links\"><a href=\"" + esc(data.venue.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>" +
+  if (homeVenue) {
+    // In the 36 hours before kick-off the box swaps to the next game's own venue (e.g. Shakespeare's for an early
+    // kick-off); otherwise it's the club's usual home, Whiskey Girl
+    var soon = next && next.d > Date.now() && next.d - Date.now() < 36 * 3600e3;
+    var v = soon && awayFromHome(next) ? venueFor(next) : homeVenue;
+    w.innerHTML = "<span class=\"label\">" + (v === homeVenue ? "Official Watch Headquarters"
+        : "Watch venue for " + esc(next.opp) + " · " + fmt(next.d, { weekday: "short", hour: "numeric", minute: "2-digit" }) + " PT") +
+      "</span><b>" + esc(v.name) + "</b>" +
+      "<p>" + esc(v.address) + "</p><p>" + esc(v.blurb || "Gaslamp Quarter, downtown San Diego. Come watch the Reds with us.") + "</p>" +
+      "<div class=\"watch-links\"><a href=\"" + esc(v.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>" +
       // Park Smarter: the app for San Diego street meters with the blue Park Smarter sticker
       "<a id=\"park-link\" href=\"" + PARK.web + "\" target=\"_blank\" rel=\"noopener\">Pay for parking (Park Smarter)</a></div>";
     // Phones get the app's store page, which shows "Open" when it's already installed and "Get"/"Install"
@@ -1013,9 +1029,9 @@ function render(data) {
     var isIOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
     if (isIOS) { pl.href = PARK.ios; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
     else if (/Android/.test(ua)) { pl.href = PARK.android; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
-    // Not opening for the next game ("venueClosed": true, set by hand in data.json): for the 36 hours before
+    // Not showing the next game anywhere ("venueClosed": true, set by hand in data.json): for the 36 hours before
     // kick-off a red sash is pasted across the faded box
-    if (next && next.venueClosed === true && next.d > Date.now() && next.d - Date.now() < 36 * 3600e3) {
+    if (soon && next.venueClosed === true) {
       w.classList.add("closed");
       w.insertAdjacentHTML("beforeend",
         "<div class=\"sash\" role=\"note\"><strong>Not open for this one</strong><span>" + esc(next.opp) + " · " +
@@ -1045,7 +1061,8 @@ function render(data) {
       var m = fmt(f.d, { month: "long", year: "numeric" });
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
       var h = ptHour(f.d), early = (h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "") +
-        (f.venueClosed === true && data.venue ? "<span class=\"novenue\">Not at " + esc(data.venue.name) + "</span>" : "");
+        (!homeVenue ? "" : f.venueClosed === true ? "<span class=\"novenue\">Not at " + esc(venueShort(venueFor(f))) + "</span>"
+          : awayFromHome(f) ? "<span class=\"atvenue\">At " + esc(venueShort(venueFor(f))) + "</span>" : "");
       html += "<div class=\"fx\">" +
         (f.dateTbc ? "<div class=\"d\"><b>–</b><small>TBC</small></div>"
           : "<div class=\"d\"><b>" + fmt(f.d, { day: "numeric" }) + "</b><small>" + fmt(f.d, { weekday: "short" }) + "</small></div>") +
