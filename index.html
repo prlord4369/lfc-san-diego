@@ -538,11 +538,6 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 .soc:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
 .lightbox { position: fixed; inset: 0; background: rgba(0,0,0,.86); display: grid; place-items: center; z-index: 100; padding: 16px; }
 .lightbox img { max-width: min(1600px, 100%); max-height: 90vh; border-radius: 6px; }   /* the 1600 px copy */
-.lightbox .lb-video { width: min(1280px, 100%); aspect-ratio: 16 / 9; max-height: 90vh; border: 0; border-radius: 6px; background: #000; }
-/* Video slides: a play badge over the still frame */
-.vid-wrap { position: relative; display: block; }
-.vid-badge { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 56px; height: 56px; border-radius: 50%;
-  background: rgba(0,0,0,.6); color: #fff; display: grid; place-items: center; font-size: 1.3rem; line-height: 1; padding-left: 4px; pointer-events: none; }
 /* "Photo archive ↗": opens the club's shared Google Drive folder with every photo */
 .archive-btn { display: inline-flex; align-items: center; gap: 6px; padding: 7px 13px; border-radius: 999px; border: 1.5px solid var(--red);
   color: var(--red); font: 700 .8rem/1 var(--font-body); text-decoration: none; white-space: nowrap; }
@@ -1350,11 +1345,9 @@ function render(data) {
 
   var build = function (photos, archive) {
     track.innerHTML = photos.map(function (p) {
-      // A video shows a still frame from it with a play badge; the lightbox plays the video itself
-      var pic = "<img loading='lazy' alt='" + e(p.caption || "Club photo") + "' src='" + e(p.img) + "'>";
-      if (p.video) pic = "<span class='vid-wrap'>" + pic + "<span class='vid-badge' aria-hidden='true'>▶</span></span>";
       return "<button class='c-slide' type='button' data-big='" + e(p.big || p.img) + "'><figure style='margin:0'>" +
-        pic + "<figcaption>" + (p.caption ? e(p.caption) : "&nbsp;") + "</figcaption></figure></button>";
+        "<img loading='lazy' alt='" + e(p.caption || "Club photo") + "' src='" + e(p.img) + "'>" +
+        "<figcaption>" + (p.caption ? e(p.caption) : "&nbsp;") + "</figcaption></figure></button>";
     }).join("");
     dots.innerHTML = photos.map(function () { return "<span></span>"; }).join("");
     // Real photos: the heading's corner holds the Photo archive button instead of the "Sample photos" note
@@ -1373,21 +1366,14 @@ function render(data) {
     var openBig = function (start) {
       var cur = start, lb = document.createElement("div"); lb.className = "lightbox";
       lb.setAttribute("role", "dialog"); lb.setAttribute("aria-label", "Club photos, enlarged");
-      lb.innerHTML = "<img alt=''><iframe class='lb-video' title='Club video' allow='autoplay; fullscreen' allowfullscreen hidden></iframe>" +
-        "<button type='button' class='lb-close' aria-label='Close'>×</button>" +
+      lb.innerHTML = "<img alt=''><button type='button' class='lb-close' aria-label='Close'>×</button>" +
         (photos.length > 1 ? "<button type='button' class='lb-prev' aria-label='Previous photo'>‹</button><button type='button' class='lb-next' aria-label='Next photo'>›</button>" : "") +
         "<div class='lb-cap'></div>";
-      var img = lb.querySelector("img"), frame = lb.querySelector(".lb-video"), cap = lb.querySelector(".lb-cap");
+      var img = lb.querySelector("img"), cap = lb.querySelector(".lb-cap");
       var show = function (i) {
         cur = (i + photos.length) % photos.length;
         var p = photos[cur];
-        if (p.video) {   // the video plays in Google's player; clearing its src when stepping away stops it
-          img.hidden = true; frame.hidden = false; frame.src = p.video;
-        } else {
-          frame.hidden = true; frame.removeAttribute("src"); img.hidden = false;
-          img.src = p.big || p.img;
-        }
-        img.alt = p.caption || "Club photo";
+        img.src = p.big || p.img; img.alt = p.caption || "Club photo";
         cap.innerHTML = e(p.caption || "") + (photos.length > 1 ? "<span>" + (cur + 1) + " / " + photos.length + "</span>" : "");
         // Fetch the neighbours in the background so stepping through feels instant
         [cur - 1, cur + 1].forEach(function (j) { var q = photos[(j + photos.length) % photos.length]; new Image().src = q.big || q.img; });
