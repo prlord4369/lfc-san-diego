@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T16:27:26Z",
+  "updated": "2026-10-29T17:13:12Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -619,8 +619,8 @@
       "opp": "Chelsea",
       "ha": "H",
       "score": "1-1",
-      "r": "W",
       "pens": "6-5",
+      "r": "W",
       "comp": "Carabao Cup R4"
     }
   ],
@@ -699,6 +699,15 @@
       "opp": "Leeds United",
       "ha": "H",
       "comp": "Premier League",
+      "scope": "domestic"
+    },
+    {
+      "opp": "Bournemouth",
+      "ha": "H",
+      "comp": "Carabao Cup QF",
+      "tbc": true,
+      "kickoff": "2026-12-14T12:00:00Z",
+      "dateTbc": true,
       "scope": "domestic"
     },
     {
@@ -888,7 +897,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-injured his hamstring at Brentford and has missed the last three games. He had not yet rejoined full training, but a return is possible against Arsenal on 2026-11-01.",
+      "detail": "He re-injured his hamstring at Brentford and has missed the last three games. He is back on the grass but has not rejoined team training, with a return possible against Arsenal on 2026-11-01.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -898,7 +907,7 @@
       "pos": "FW",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He has been out since a knee problem and was not in the squad for the Chelsea game. He is not far from a return, with Arsenal on 2026-11-01 the first target.",
+      "detail": "He has been out since a knee problem and missed the Chelsea game. He is close to a return, with Arsenal on 2026-11-01 the first target.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -908,7 +917,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a muscle problem soon after coming on at Brentford and remains sidelined. He is not expected back before the upcoming international break.",
+      "detail": "He picked up a muscle problem soon after coming on at Brentford and remains sidelined. He is not expected back before the November international break.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -928,17 +937,17 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee injury",
-      "detail": "He is recovering from surgery on a serious knee injury suffered at Arsenal in January. He is a long-term absentee.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability",
-      "reported": "2026-10-27"
+      "detail": "He is recovering from surgery on a serious knee injury suffered at Arsenal in January. He is on track to return to group training next month, with a possible return to action before the end of the year.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
+      "reported": "2026-10-29"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL injury",
-      "detail": "He is recovering from an ACL injury and has not played since September 2025. A return is now possibly targeted for December.",
+      "detail": "He is recovering from an ACL injury and has not played since September 2025. He is now targeting the November international break for his return to training, with a return to action possibly in December.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -948,16 +957,23 @@
     {
       "date": "2026-10-29",
       "source": "Liverpool Echo",
-      "title": "Virgil van Dijk says feel-good factor returning at Liverpool as captain explains bizarre shove incident",
-      "summary": "Virgil van Dijk on Anfield's feel-good factor, Liverpool's win over Chelsea and being shoved by Emmanuel Emegha",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-says-feel-34833538"
+      "title": "Andoni Iraola is starting to feel same Liverpool benefits as Jurgen Klopp and Rafa Benitez",
+      "summary": "Liverpool have so far been resting and rotating for the League Cup - but can a strong run help this new-look squad in its long-term development?",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-starting-feel-same-34836029"
+    },
+    {
+      "date": "2026-10-29",
+      "source": "The Guardian",
+      "title": "Liverpool beat Chelsea as three more join penalty hall of shame | Football Daily",
+      "summary": "Sign up now! Sign up now! Sign up now? Sign up now!",
+      "url": "https://www.theguardian.com/football/2026/oct/29/liverpool-chelsea-football-daily-newsletter"
     },
     {
       "date": "2026-10-29",
       "source": "Liverpool Echo",
-      "title": "Cody Gakpo makes claim about Liverpool crowd after Chelsea victory - 'everybody in the stands knows'",
-      "summary": "Cody Gakpo scored from the spot in both normal time and the penalty shoot-out as Liverpool beat Chelsea in the Carabao Cup on Wednesday evening",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/cody-gakpo-makes-claim-liverpool-34832556"
+      "title": "Virgil van Dijk says feel-good factor returning at Liverpool as captain explains bizarre shove incident",
+      "summary": "Virgil van Dijk on Anfield's feel-good factor, Liverpool's win over Chelsea and being shoved by Emmanuel Emegha",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-says-feel-34833538"
     },
     {
       "date": "2026-10-29",
@@ -1021,13 +1037,6 @@
       "title": "Liverpool fan believes Jacquet 'will win' young player award",
       "summary": "Liverpool fan Nahyan Chowdhury tips Jeremy Jacquet for an end of season award.",
       "url": "https://www.bbc.co.uk/sport/football/videos/ckp8g5pj3jdlo"
-    },
-    {
-      "date": "2026-10-25",
-      "source": "The Guardian",
-      "title": "Isak applies finishing touch as Liverpool bring Brighton’s winning run to an end",
-      "summary": "Brighton’s impressive run was blown off course at Anfield where Liverpool performed with an appetite and urgency at both ends of the pitch that showed Andoni Iraola’s methods…",
-      "url": "https://www.theguardian.com/football/2026/oct/25/liverpool-brighton-premier-league-match-report"
     }
   ],
   "outlets": [
