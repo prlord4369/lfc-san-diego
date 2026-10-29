@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:30:23Z",
+  "updated": "2026-10-29T22:45:21Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -727,9 +727,9 @@
       "opp": "Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
+      "tbc": true,
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl"
@@ -971,60 +971,60 @@
       "pos": "MF",
       "status": "out",
       "issue": "Hamstring",
-      "detail": "He re-injured his hamstring at Brentford and lasted only about half an hour. Liverpool's latest team news still lists him as recovering, so no firm return date is confirmed.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "detail": "He has missed the last two games with a hamstring problem and was not in the Chelsea lineup. Iraola said before that match he was unsure about him, and no firm return date has been confirmed.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
+      "reported": "2026-10-28"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He missed the Villarreal win with a knee problem, and there is no official word on the severity or a return date. He was also reported as possibly missing the Chelsea game.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "detail": "Iraola said he was less likely than Florian Wirtz to be available for the Chelsea tie. No official return date or severity has been given.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
+      "reported": "2026-10-28"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
-      "issue": "Muscle injury",
-      "detail": "He picked up a muscle problem minutes after coming on at Brentford. Iraola said a return before the November international break would be difficult.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "issue": "Muscle",
+      "detail": "He is sidelined with a muscle problem and is not expected back until at least the November international break.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
+      "reported": "2026-10-28"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
-      "issue": "Achilles injury",
-      "detail": "He is recovering from an Achilles injury and is expected to start training next month. A competitive return is targeted for December.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "issue": "Achilles",
+      "detail": "He is still a long way from returning to full training after his Achilles injury. He is on course to rejoin the squad in early 2027.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
+      "reported": "2026-10-28"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
-      "issue": "Knee injury",
-      "detail": "He is recovering from knee surgery after his January injury at Arsenal. He is on course to rejoin group training in November and could return before the end of the year.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "issue": "Knee",
+      "detail": "He is recovering from knee surgery after his injury at Arsenal in January. He is on course to rejoin the setup in early 2027.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
+      "reported": "2026-10-28"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
-      "issue": "ACL injury",
-      "detail": "He has not played since September 2025 because of an ACL injury. His return to training has been pushed back to the November international break, so a match return would come later.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-munoz-34794232",
-      "reported": "2026-10-21"
+      "issue": "ACL",
+      "detail": "He has not played since September 2025 because of an ACL injury. He is not expected back until the November international break, so a match return will come later.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
+      "reported": "2026-10-28"
     }
   ],
   "news": [
@@ -1574,6 +1574,13 @@
         "added": "2026-10-29",
         "img": "assets/club/gallery/1d8iOSbfTSUguYNNRKCsy-6RNjnP-Ccxi-800.jpg",
         "big": "assets/club/gallery/1d8iOSbfTSUguYNNRKCsy-6RNjnP-Ccxi-1600.jpg"
+      },
+      {
+        "caption": "Boss Morning Diogo",
+        "added": "2026-10-29",
+        "img": "assets/club/gallery/15kQXaOYY9jzJMbiopk1J4ZLqM2HAb7DS-800.jpg",
+        "big": "assets/club/gallery/15kQXaOYY9jzJMbiopk1J4ZLqM2HAb7DS-1600.jpg",
+        "video": "https://drive.google.com/file/d/15kQXaOYY9jzJMbiopk1J4ZLqM2HAb7DS/preview"
       },
       {
         "caption": "26/27 Season Opener",
