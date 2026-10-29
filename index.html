@@ -293,6 +293,9 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .fx .t .mono { font-size: .95rem; color: var(--pacific); }
 .fx .t small { display: block; font-size: .7rem; color: var(--muted); }
 .early { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--warn); }
+/* "Not at Whiskey Girl": a game the bar isn't opening for ("venueClosed": true) */
+.novenue { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--bad); }
+.hero .novenue { font-size: .72rem; color: #fff; background: rgba(0,0,0,.28); padding: 3px 8px; border-radius: 3px; align-self: center; }
 .note { font-size: .82rem; color: var(--muted); margin: 14px 0 0; max-width: 65ch; }
 .more { margin-top: 14px; font: 600 .85rem var(--font-body); background: none; border: 0; color: var(--red); cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 3px; }
 
@@ -411,6 +414,14 @@ section { min-width: 0; scroll-margin-top: 16px; }
 @media (prefers-reduced-motion: reduce) {
   .watch.flash { animation: none; outline: 3px solid var(--red); outline-offset: 2px; }
 }
+/* Not opening for the next game: a red sash with gold edges pasted across the box, the box faded behind it */
+.watch.closed { position: relative; overflow: hidden; }
+.watch.closed > :not(.sash) { opacity: .35; filter: grayscale(1); }
+.watch .sash { position: absolute; left: -12%; right: -12%; top: 50%; transform: translateY(-50%) rotate(-8deg);
+  background: var(--red); color: var(--on-red); text-align: center; padding: 9px 12%; box-shadow: 0 6px 16px rgba(0,0,0,.25);
+  border-top: 2px solid #f5c84c; border-bottom: 2px solid #f5c84c; }
+.watch .sash strong { display: block; font: 800 1.55rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .04em; }
+.watch .sash span { display: block; font-size: .8rem; font-weight: 600; padding-top: 3px; }
 .watch-links { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-top: 4px; }
 .hero .meta a { color: inherit; }
 footer { border-top: 1px solid var(--line); background: var(--surface); }
@@ -887,8 +898,9 @@ function render(data) {
       "<span><strong>" + fmt(next.d, { hour: "numeric", minute: "2-digit" }) + " PT</strong>" + (next.tbc ? " (TBC)" : "") + "</span>" +
       "<span>" + (home ? "Anfield" : esc(next.venue || "Away")) + "</span>" +
       // Only claim the venue is showing it when the fixture is marked "atVenue": true (screening confirmed with the bar)
-      (data.venue && next.atVenue
-        ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(data.venue.name) + "</strong></a></span>" : "");
+      (data.venue && next.atVenue && next.venueClosed !== true
+        ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(data.venue.name) + "</strong></a></span>" : "") +
+      (data.venue && next.venueClosed === true ? "<span class=\"novenue\">Not at " + esc(data.venue.name) + "</span>" : "");
     var tvLine = document.getElementById("next-tv");
     tvLine.innerHTML = usTV(next) ? "Watch on <strong>" + esc(usTV(next)) + "</strong>" : "";
     tvLine.hidden = !usTV(next);
@@ -1001,6 +1013,14 @@ function render(data) {
     var isIOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
     if (isIOS) { pl.href = PARK.ios; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
     else if (/Android/.test(ua)) { pl.href = PARK.android; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
+    // Not opening for the next game ("venueClosed": true, set by hand in data.json): for the 36 hours before
+    // kick-off a red sash is pasted across the faded box
+    if (next && next.venueClosed === true && next.d > Date.now() && next.d - Date.now() < 36 * 3600e3) {
+      w.classList.add("closed");
+      w.insertAdjacentHTML("beforeend",
+        "<div class=\"sash\" role=\"note\"><strong>Not open for this one</strong><span>" + esc(next.opp) + " · " +
+          fmt(next.d, { weekday: "short", month: "short", day: "numeric" }) + ", " + fmt(next.d, { hour: "numeric", minute: "2-digit" }) + " PT</span></div>");
+    }
   } else { w.hidden = true; }
 
   // Form strip
@@ -1024,7 +1044,8 @@ function render(data) {
     shown.forEach(function (f) {
       var m = fmt(f.d, { month: "long", year: "numeric" });
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
-      var h = ptHour(f.d), early = h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "";
+      var h = ptHour(f.d), early = (h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "") +
+        (f.venueClosed === true && data.venue ? "<span class=\"novenue\">Not at " + esc(data.venue.name) + "</span>" : "");
       html += "<div class=\"fx\">" +
         (f.dateTbc ? "<div class=\"d\"><b>–</b><small>TBC</small></div>"
           : "<div class=\"d\"><b>" + fmt(f.d, { day: "numeric" }) + "</b><small>" + fmt(f.d, { weekday: "short" }) + "</small></div>") +
