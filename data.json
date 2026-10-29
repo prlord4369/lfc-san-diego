@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T17:56:18Z",
+  "updated": "2026-10-29T18:18:57Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -628,98 +628,98 @@
     {
       "kickoff": "2026-11-01T16:30:00Z",
       "opp": "Arsenal",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl",
       "us": "NBCSN / Peacock",
       "usUrl": "https://www.nbcsports.com/pressbox/press-releases/second-place-arsenal-visit-fourth-place-liverpool-this-sunday-nov-1-at-11-30-a-m-et-on-peacock-nbcsn-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend"
     },
     {
       "kickoff": "2026-11-04T17:45:00Z",
       "opp": "Fenerbahçe",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
       "venue": "Istanbul, Turkey",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl",
       "us": "Paramount+",
       "usUrl": "https://www.cbssports.com/watch/champions-league/LET-211534983"
     },
     {
       "kickoff": "2026-11-08T14:00:00Z",
       "opp": "Crystal Palace",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-11-22T16:30:00Z",
       "opp": "Manchester United",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-11-25T20:00:00Z",
       "opp": "Club Brugge",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
-      "venue": "Bruges, Belgium"
+      "venue": "Bruges, Belgium",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-11-29T12:00:00Z",
       "opp": "Everton",
-      "watchAt": "shakespeares",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "shakespeares"
     },
     {
       "kickoff": "2026-12-02T19:30:00Z",
       "opp": "Sunderland",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-12-05T12:30:00Z",
       "opp": "Chelsea",
-      "watchAt": "shakespeares",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "shakespeares"
     },
     {
       "kickoff": "2026-12-09T20:00:00Z",
       "opp": "FC Porto",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Champions League",
-      "scope": "international"
+      "scope": "international",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-12-12T15:00:00Z",
       "opp": "Leeds United",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "opp": "Bournemouth",
@@ -735,228 +735,228 @@
     {
       "kickoff": "2026-12-19T17:30:00Z",
       "opp": "Tottenham Hotspur",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-12-26T17:30:00Z",
       "opp": "Hull City",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-12-30T20:15:00Z",
       "opp": "Aston Villa",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-01-02T15:00:00Z",
       "opp": "Coventry City",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-01-05T20:15:00Z",
       "opp": "Sunderland",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-01-16T15:00:00Z",
       "opp": "Crystal Palace",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-01-19T20:00:00Z",
       "opp": "Inter Milan",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
-      "venue": "Milan, Italy"
+      "venue": "Milan, Italy",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-01-23T15:00:00Z",
       "opp": "Manchester United",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-01-27T20:00:00Z",
       "opp": "Lens",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Champions League",
-      "scope": "international"
+      "scope": "international",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-01-30T15:00:00Z",
       "opp": "Everton",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-02-06T15:00:00Z",
       "opp": "Arsenal",
-      "watchAt": "shakespeares",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "shakespeares"
     },
     {
       "kickoff": "2027-02-10T20:00:00Z",
       "opp": "Coventry City",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-02-20T15:00:00Z",
       "opp": "Hull City",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-02-27T15:00:00Z",
       "opp": "Tottenham Hotspur",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-03-03T20:00:00Z",
       "opp": "Aston Villa",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-03-13T15:00:00Z",
       "opp": "Ipswich Town",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-03-20T15:00:00Z",
       "opp": "Fulham",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-04-10T14:00:00Z",
       "opp": "Newcastle United",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-04-17T14:00:00Z",
       "opp": "Nottingham Forest",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-04-24T14:00:00Z",
       "opp": "Leeds United",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-05-01T14:00:00Z",
       "opp": "Chelsea",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-05-08T14:00:00Z",
       "opp": "Manchester City",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-05-15T14:00:00Z",
       "opp": "Brentford",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-05-23T14:00:00Z",
       "opp": "Brighton & Hove Albion",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "A",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2027-05-30T15:00:00Z",
       "opp": "AFC Bournemouth",
-      "watchAt": "whiskeygirl",
-      "venueClosed": false,
       "ha": "H",
       "comp": "Premier League",
-      "scope": "domestic"
+      "scope": "domestic",
+      "venueClosed": false,
+      "watchAt": "whiskeygirl"
     }
   ],
   "fixtureNotes": [
@@ -1026,6 +1026,13 @@
     }
   ],
   "news": [
+    {
+      "date": "2026-10-29",
+      "source": "BBC Sport",
+      "title": "Replacing injured Joao Pedro in FPL",
+      "summary": "Fantasy Premier League: How to replace Joao Pedro in your FPL team",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqly30m1lm3yo"
+    },
     {
       "date": "2026-10-29",
       "source": "Liverpool Echo",
@@ -1102,13 +1109,6 @@
       "title": "Liverpool draw Bournemouth in Carabao Cup quarters",
       "summary": "Liverpool will play Bournemouth in the Carabao Cup quarter-finals while League One Bradford City will host Manchester City.",
       "url": "https://www.skysports.com/football/news/11669/13604920/carabao-cup-quarter-final-draw-liverpool-host-bournemouth-as-bradford-and-fleetwood-learn-premier-league-opposition"
-    },
-    {
-      "date": "2026-10-28",
-      "source": "BBC Sport",
-      "title": "Liverpool fan believes Jacquet 'will win' young player award",
-      "summary": "Liverpool fan Nahyan Chowdhury tips Jeremy Jacquet for an end of season award.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ckp8g5pj3jdlo"
     }
   ],
   "outlets": [
