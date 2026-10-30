@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:45:21Z",
+  "updated": "2026-10-30T00:08:15Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
   },
   "table": {
-    "asof": "2026-10-29",
+    "asof": "2026-10-30",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1108,7 +1108,7 @@
     {
       "date": "2026-10-28",
       "source": "Sky Sports",
-      "title": "Liverpool draw Bournemouth in Carabao Cup quarters",
+      "title": "Liverpool draw Bournemouth & Fleetwood host Everton in Carabao Cup QFs",
       "summary": "Liverpool will play Bournemouth in the Carabao Cup quarter-finals while League One Bradford City will host Manchester City.",
       "url": "https://www.skysports.com/football/news/11669/13604920/carabao-cup-quarter-final-draw-liverpool-host-bournemouth-as-bradford-and-fleetwood-learn-premier-league-opposition"
     }
@@ -1140,7 +1140,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-29",
+    "asof": "2026-10-30",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1576,13 +1576,6 @@
         "big": "assets/club/gallery/1d8iOSbfTSUguYNNRKCsy-6RNjnP-Ccxi-1600.jpg"
       },
       {
-        "caption": "Boss Morning Diogo",
-        "added": "2026-10-29",
-        "img": "assets/club/gallery/15kQXaOYY9jzJMbiopk1J4ZLqM2HAb7DS-800.jpg",
-        "big": "assets/club/gallery/15kQXaOYY9jzJMbiopk1J4ZLqM2HAb7DS-1600.jpg",
-        "video": "https://drive.google.com/file/d/15kQXaOYY9jzJMbiopk1J4ZLqM2HAb7DS/preview"
-      },
-      {
         "caption": "26/27 Season Opener",
         "added": "2026-10-26",
         "img": "assets/club/gallery/1QV63ipPO9UH-ZoU-O5M1ZSK6VQ694-4p-800.jpg",
@@ -1637,7 +1630,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-10-29"
+    "checked": "2026-10-30"
   },
   "venues": {
     "whiskeygirl": {
