@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T00:08:15Z",
+  "updated": "2026-10-30T12:59:03Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -727,9 +727,9 @@
       "opp": "Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
+      "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
-      "tbc": true,
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl"
@@ -969,78 +969,92 @@
     {
       "player": "Dominik Szoboszlai",
       "pos": "MF",
-      "status": "out",
+      "status": "doubt",
       "issue": "Hamstring",
-      "detail": "He has missed the last two games with a hamstring problem and was not in the Chelsea lineup. Iraola said before that match he was unsure about him, and no firm return date has been confirmed.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
-      "reported": "2026-10-28"
+      "detail": "He has missed the last three games after being forced off against Brentford and was not in the Chelsea squad. Iraola has indicated he could return before the November international break, but he has not yet trained with the group.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
+      "reported": "2026-10-29"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "doubt",
-      "issue": "Knee",
-      "detail": "Iraola said he was less likely than Florian Wirtz to be available for the Chelsea tie. No official return date or severity has been given.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
-      "reported": "2026-10-28"
+      "issue": "Injury",
+      "detail": "He missed the Brighton and Chelsea games and there are doubts over whether he will be available for Arsenal, with a return expected soon.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-arsenal-max-dowman-appeal-34836506",
+      "reported": "2026-10-30"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
-      "issue": "Muscle",
-      "detail": "He is sidelined with a muscle problem and is not expected back until at least the November international break.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
-      "reported": "2026-10-28"
+      "issue": "Hamstring",
+      "detail": "He is set to be out until after the November international break and will not be available for Arsenal.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-arsenal-max-dowman-appeal-34836506",
+      "reported": "2026-10-30"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still a long way from returning to full training after his Achilles injury. He is on course to rejoin the squad in early 2027.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
-      "reported": "2026-10-28"
+      "detail": "He is still building up after his Achilles injury, with reports pointing to training in November and a return to action around Christmas.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
+      "reported": "2026-10-29"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is recovering from knee surgery after his injury at Arsenal in January. He is on course to rejoin the setup in early 2027.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
-      "reported": "2026-10-28"
+      "detail": "He is recovering from knee surgery after his January injury at Arsenal and is expected to start group training next month, with a possible return in December.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
+      "reported": "2026-10-29"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played since September 2025 because of an ACL injury. He is not expected back until the November international break, so a match return will come later.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/10/liverpool-fc-team-news-vs-chelsea-injuries-suspensions-available-squad/",
-      "reported": "2026-10-28"
+      "detail": "He has not played since his September 2025 ACL injury and has not yet returned to training; the November international break is his next target, with a possible match return in December.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
+      "reported": "2026-10-29"
     }
   ],
   "news": [
     {
-      "date": "2026-10-29",
-      "source": "BBC Sport",
-      "title": "Fleetwood to face Everton in EFL Cup quarters",
-      "summary": "League Two Fleetwood Town will face Everton at Highbury in the quarter-finals of the EFL Cup.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3glnle0wdo"
+      "date": "2026-10-30",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola Liverpool press conference LIVE - Arsenal, Dominik Szoboszlai, Victor Munoz injury news",
+      "summary": "Liverpool take on Arsenal in the Premier League on Sunday afternoon, and Reds head coach Andoni Iraola will preview the game from 1.30pm",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/iraola-liverpool-press-conference-live-34839503"
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "source": "Liverpool Echo",
-      "title": "Szoboszlai, Munoz, Frimpong - Liverpool injury news ahead of Arsenal",
-      "summary": "Liverpool will resume their Premier League campaign at home to title rivals Arsenal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-arsenal-injuries-premier-league-34836843"
+      "title": "Ronald Araujo 'surprise' explained as Liverpool urged to wait on defender transfer",
+      "summary": "Former Liverpool defender Glen Johnson has backed his old club to make a permanent move for on-loan Ronald Araujo",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-surprise-explained-liverpool-34838385"
+    },
+    {
+      "date": "2026-10-30",
+      "source": "Sky Sports",
+      "title": "Why keeping Isak fit and firing is key to Iraola's Liverpool revival",
+      "summary": "Liverpool's patience with Alexander Isak is starting to be rewarded, with the record-breaking £125m purchase finally resembling the most expensive striker in Premier League…",
+      "url": "https://www.skysports.com/football/news/11669/13605451/alexander-isak-why-keeping-sweden-striker-fit-and-firing-is-key-to-andoni-iraolas-liverpool-revival"
+    },
+    {
+      "date": "2026-10-30",
+      "source": "Sky Sports",
+      "title": "Merson: Liverpool must beat Arsenal to be in the title race",
+      "summary": "In his latest Sky Sports column, Paul Merson believes Liverpool have to beat Arsenal at Anfield on Sunday to be contenders for the Premier League title.",
+      "url": "https://www.skysports.com/football/news/11669/13604012/liverpool-vs-arsenal-andoni-iraolas-side-must-beat-the-premier-league-champions-to-be-in-the-title-race-says-paul-merson"
     },
     {
       "date": "2026-10-29",
@@ -1048,13 +1062,6 @@
       "title": "Replacing injured Joao Pedro in FPL",
       "summary": "Fantasy Premier League: How to replace Joao Pedro in your FPL team",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqly30m1lm3yo"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola is starting to feel same Liverpool benefits as Jurgen Klopp and Rafa Benitez",
-      "summary": "Liverpool have so far been resting and rotating for the League Cup - but can a strong run help this new-look squad in its long-term development?",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-starting-feel-same-34836029"
     },
     {
       "date": "2026-10-29",
@@ -1100,17 +1107,10 @@
     },
     {
       "date": "2026-10-28",
-      "source": "Sky Sports",
-      "title": "Liverpool beat Chelsea on penalties to reach last eight",
-      "summary": "Wesley Fofana missed the decisive spot kick as Liverpool beat Chelsea on penalties to set up a Carabao Cup quarter-final against Andoni Iraola's former side Bournemouth.",
-      "url": "https://www.skysports.com/football/liverpool-vs-chelsea/report/578612"
-    },
-    {
-      "date": "2026-10-28",
-      "source": "Sky Sports",
-      "title": "Liverpool draw Bournemouth & Fleetwood host Everton in Carabao Cup QFs",
-      "summary": "Liverpool will play Bournemouth in the Carabao Cup quarter-finals while League One Bradford City will host Manchester City.",
-      "url": "https://www.skysports.com/football/news/11669/13604920/carabao-cup-quarter-final-draw-liverpool-host-bournemouth-as-bradford-and-fleetwood-learn-premier-league-opposition"
+      "source": "BBC Sport",
+      "title": "Liverpool fan believes Jacquet 'will win' young player award",
+      "summary": "Liverpool fan Nahyan Chowdhury tips Jeremy Jacquet for an end of season award.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/ckp8g5pj3jdlo"
     }
   ],
   "outlets": [
