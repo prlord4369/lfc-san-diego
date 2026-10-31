@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:08:33Z",
+  "updated": "2026-10-31T12:52:11Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -366,13 +366,13 @@
       {
         "pos": 5,
         "team": "Chelsea",
-        "p": 8,
+        "p": 9,
         "w": 4,
-        "d": 1,
+        "d": 2,
         "l": 3,
         "gf": 17,
         "ga": 15,
-        "pts": 13
+        "pts": 14
       },
       {
         "pos": 6,
@@ -487,13 +487,13 @@
       {
         "pos": 16,
         "team": "Manchester United",
-        "p": 8,
+        "p": 9,
         "w": 1,
-        "d": 4,
+        "d": 5,
         "l": 3,
         "gf": 10,
         "ga": 13,
-        "pts": 7
+        "pts": 8
       },
       {
         "pos": 17,
@@ -633,8 +633,8 @@
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
-      "us": "NBCSN / Peacock",
-      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/second-place-arsenal-visit-fourth-place-liverpool-this-sunday-nov-1-at-11-30-a-m-et-on-peacock-nbcsn-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend"
+      "us": "NBC",
+      "usUrl": "https://www.nbcsports.com/soccer/news/how-to-watch-liverpool-vs-arsenal-live-stream-tv-team-news-prediction"
     },
     {
       "kickoff": "2026-11-04T17:45:00Z",
@@ -728,9 +728,9 @@
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": true,
+      "scope": "domestic",
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
-      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl"
     },
@@ -970,28 +970,28 @@
       "player": "Dominik Szoboszlai",
       "pos": "MF",
       "status": "doubt",
-      "issue": "Hamstring",
-      "detail": "He has missed the last three games after being forced off against Brentford and was not in the Chelsea squad. Iraola has indicated he could return before the November international break, but he has not yet trained with the group.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "issue": "Minor injury",
+      "detail": "Forced off at Brentford and absent since, he has been named as a doubt for Arsenal after Iraola said he has a chance. He had not yet rejoined full training as of the latest reports.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
+      "reported": "2026-10-30"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "doubt",
-      "issue": "Injury",
-      "detail": "He missed the Brighton and Chelsea games and there are doubts over whether he will be available for Arsenal, with a return expected soon.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-arsenal-max-dowman-appeal-34836506",
+      "issue": "Minor injury",
+      "detail": "He has missed the Brighton and Chelsea games, and Iraola says he has a chance to face Arsenal. His availability will be decided by a late fitness test.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
       "reported": "2026-10-30"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
-      "issue": "Hamstring",
-      "detail": "He is set to be out until after the November international break and will not be available for Arsenal.",
+      "issue": "Muscle injury",
+      "detail": "He picked up a new muscle problem at Brentford and will miss Arsenal. He is not expected back until after the November international break.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-arsenal-max-dowman-appeal-34836506",
       "reported": "2026-10-30"
@@ -1001,7 +1001,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still building up after his Achilles injury, with reports pointing to training in November and a return to action around Christmas.",
+      "detail": "He is still rehabilitating from his Achilles rupture. Reports point to a return to training in November and a possible comeback around Christmas.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -1011,7 +1011,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is recovering from knee surgery after his January injury at Arsenal and is expected to start group training next month, with a possible return in December.",
+      "detail": "He is recovering from knee surgery after his January injury at Arsenal. He is expected to begin group training next month, with a possible return in December.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
@@ -1021,13 +1021,34 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played since his September 2025 ACL injury and has not yet returned to training; the November international break is his next target, with a possible match return in December.",
+      "detail": "He has not played since his September 2025 ACL injury and is still not training with the squad. The November international break is his next target for training, with a possible match return in December.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
       "reported": "2026-10-29"
     }
   ],
   "news": [
+    {
+      "date": "2026-10-31",
+      "source": "Liverpool Echo",
+      "title": "Liverpool look certain to lose two players in 2027 as transfer strategy pays off despite 'mistake'",
+      "summary": "Federico Chiesa and Wataru Endo boast a combined total of just two minutes of action for Liverpool so far this season as exits next year look increasingly likely",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-look-certain-lose-two-34843959"
+    },
+    {
+      "date": "2026-10-31",
+      "source": "Liverpool Echo",
+      "title": "Liverpool handed big boost ahead of Manchester United and Everton double-header - 'We don't need'",
+      "summary": "Liverpool goalkeeper Alisson Becker has again been left out of the Brazil squad by former Everton manager Carlo Ancelotti",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-handed-big-boost-ahead-34843757"
+    },
+    {
+      "date": "2026-10-31",
+      "source": "The Guardian",
+      "title": "No big deal: how Mac Allister shook off contract doubts to fire Liverpool’s revival",
+      "summary": "Iraola’s midfield has rediscovered its aggression and intensity just in time for Sunday’s visit of Arsenal to Anfield",
+      "url": "https://www.theguardian.com/football/2026/oct/31/how-alexis-mac-allister-shook-off-contract-doubts-liverpool-revival"
+    },
     {
       "date": "2026-10-30",
       "source": "The Guardian",
@@ -1041,20 +1062,6 @@
       "title": "Are Liverpool in the title race? Their match against Arsenal will tell us a lot",
       "summary": "Andoni Iraola’s team have shot up the table after a slow start but they are still not scoring enough goals",
       "url": "https://www.theguardian.com/football/who-scored-blog/2026/oct/30/liverpool-matches-title-contenders-andoni-iraola-arsenal"
-    },
-    {
-      "date": "2026-10-30",
-      "source": "Liverpool Echo",
-      "title": "Virgil van Dijk makes Liverpool intensity point but stops short of Jurgen Klopp comparison",
-      "summary": "Virgil van Dijk on Andoni Iraola's emerging Liverpool side, the tactics and demands on the team and why Arsenal game is the perfect chance to showcase their development",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-makes-liverpool-34838643"
-    },
-    {
-      "date": "2026-10-30",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola responds to Jamie Carragher statement on Liverpool title challenge",
-      "summary": "Liverpool head coach Andoni Iraola has been speaking ahead of the Premier League clash against Arsenal at Anfield on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-responds-jamie-carragher-34839068"
     },
     {
       "date": "2026-10-30",
@@ -1104,13 +1111,6 @@
       "title": "'Stutter' penalty back in the spotlight after Barco miss costs Chelsea",
       "summary": "The stuttering run-up for penalties has been called 'naive' as players continue to try to deceive goalkeepers with a stop-start approach - but why?",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g8vxd258o"
-    },
-    {
-      "date": "2026-10-28",
-      "source": "Sky Sports",
-      "title": "Papers: Liverpool make contact with Monaco midfielder Camara",
-      "summary": "The top stories and transfer rumours from Thursday's newspapers...",
-      "url": "https://www.skysports.com/football/news/11669/13605140/liverpool-transfer-news-reds-make-contact-with-lamine-camara-camp-ahead-of-proposed-january-move-for-monaco-midfielder-paper-talk"
     }
   ],
   "outlets": [
