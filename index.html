@@ -1261,7 +1261,9 @@ function render(data) {
   var sq = data.squad, sqView = document.getElementById("squad-view");
   var mainParts = [document.getElementById("welcome"), document.getElementById("club"), document.querySelector(".hero"), document.querySelector(".form"), document.querySelector("main")];
   if (sq && sq.players && sq.players.length) {
-    var injBy = {}; data.injuries.forEach(function (i) { injBy[i.player] = i; });
+    // Names are matched without accents or capitals: the injury list may say "Victor Munoz" for the squad's "Víctor Muñoz"
+    var nameKey = function (s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim(); };
+    var injBy = {}; data.injuries.forEach(function (i) { injBy[nameKey(i.player)] = i; });
     var groups = [["GK", "Goalkeepers"], ["DF", "Defenders"], ["MF", "Midfielders"], ["FW", "Forwards"]];
     var html = "<thead><tr><th>No.</th><th class=\"tm\">Player</th><th>Nationality</th><th>Reg.</th><th>Status</th></tr></thead><tbody>";
     groups.forEach(function (g) {
@@ -1271,7 +1273,7 @@ function render(data) {
       if (!ps.length) return;
       html += "<tr class=\"grp\"><td colspan=\"5\">" + g[1] + "</td></tr>";
       ps.forEach(function (p) {
-        var inj = injBy[p.name];
+        var inj = injBy[nameKey(p.name)];
         var who = p.profile ? "<a class=\"pl\" href=\"" + esc(p.profile) + "\" target=\"_blank\" rel=\"noopener\">" + esc(p.name) + "</a>" : esc(p.name);
         html += "<tr><td class=\"ps\">" + (p.no == null ? "–" : esc(p.no)) + "</td><td class=\"tm\">" + who + (p.note ? " <span class=\"reg\">(" + esc(p.note) + ")</span>" : "") + "</td>" +
           "<td>" + esc(p.nat) + "</td><td class=\"reg\">" + esc(p.reg || "") + "</td>" +
