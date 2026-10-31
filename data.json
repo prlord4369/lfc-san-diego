@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T20:35:34Z",
+  "updated": "2026-10-31T00:08:33Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-10-30"
+    "checked": "2026-10-31"
   },
   "table": {
-    "asof": "2026-10-30",
+    "asof": "2026-10-31",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1031,6 +1031,13 @@
     {
       "date": "2026-10-30",
       "source": "The Guardian",
+      "title": "Araújo key factor in Liverpool’s improvement at set pieces, says Iraola",
+      "summary": "Reds yet to concede set-piece goal in Premier League",
+      "url": "https://www.theguardian.com/football/2026/oct/30/araujo-key-factor-in-liverpools-improvement-at-set-pieces-says-iraola"
+    },
+    {
+      "date": "2026-10-30",
+      "source": "The Guardian",
       "title": "Are Liverpool in the title race? Their match against Arsenal will tell us a lot",
       "summary": "Andoni Iraola’s team have shot up the table after a slow start but they are still not scoring enough goals",
       "url": "https://www.theguardian.com/football/who-scored-blog/2026/oct/30/liverpool-matches-title-contenders-andoni-iraola-arsenal"
@@ -1104,13 +1111,6 @@
       "title": "Papers: Liverpool make contact with Monaco midfielder Camara",
       "summary": "The top stories and transfer rumours from Thursday's newspapers...",
       "url": "https://www.skysports.com/football/news/11669/13605140/liverpool-transfer-news-reds-make-contact-with-lamine-camara-camp-ahead-of-proposed-january-move-for-monaco-midfielder-paper-talk"
-    },
-    {
-      "date": "2026-10-28",
-      "source": "The Guardian",
-      "title": "Liverpool beat Chelsea 6-5 on penalties: Carabao Cup plus quarter-final draw – as it happened",
-      "summary": "Liverpool will face Bournemouth after prevailing on penalties while Fleetwood will welcome Everton or Newcastle next",
-      "url": "https://www.theguardian.com/football/live/2026/oct/28/liverpool-v-chelsea-carabao-cup-fourth-round-live"
     }
   ],
   "outlets": [
@@ -1140,7 +1140,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-10-30",
+    "asof": "2026-10-31",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1630,7 +1630,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-10-30"
+    "checked": "2026-10-31"
   },
   "venues": {
     "whiskeygirl": {
