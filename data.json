@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T18:05:56Z",
+  "updated": "2026-10-31T19:12:32Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -403,7 +403,7 @@
         "w": 3,
         "d": 3,
         "l": 3,
-        "gf": 9,
+        "gf": 10,
         "ga": 10,
         "pts": 12
       },
@@ -514,7 +514,7 @@
         "d": 1,
         "l": 6,
         "gf": 9,
-        "ga": 20,
+        "ga": 21,
         "pts": 7
       },
       {
@@ -628,17 +628,19 @@
     {
       "kickoff": "2026-11-01T16:30:00Z",
       "opp": "Arsenal",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
-      "us": "NBC",
-      "usUrl": "https://www.nbcsports.com/soccer/news/how-to-watch-liverpool-vs-arsenal-live-stream-tv-team-news-prediction"
+      "us": "NBCSN / Peacock",
+      "usUrl": "https://www.nbcsports.com/pressbox/premier-league/press-releases/liverpool-visit-leicester-city-this-saturday-at-1230-pm-et-on-nbc-universo"
     },
     {
       "kickoff": "2026-11-04T17:45:00Z",
       "opp": "Fenerbahçe",
+      "usLocked": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
@@ -651,6 +653,7 @@
     {
       "kickoff": "2026-11-08T14:00:00Z",
       "opp": "Crystal Palace",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -662,6 +665,7 @@
     {
       "kickoff": "2026-11-22T16:30:00Z",
       "opp": "Manchester United",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -671,6 +675,7 @@
     {
       "kickoff": "2026-11-25T20:00:00Z",
       "opp": "Club Brugge",
+      "usLocked": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
@@ -681,6 +686,7 @@
     {
       "kickoff": "2026-11-29T12:00:00Z",
       "opp": "Everton",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -690,6 +696,7 @@
     {
       "kickoff": "2026-12-02T19:30:00Z",
       "opp": "Sunderland",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -699,6 +706,7 @@
     {
       "kickoff": "2026-12-05T12:30:00Z",
       "opp": "Chelsea",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -708,6 +716,7 @@
     {
       "kickoff": "2026-12-09T20:00:00Z",
       "opp": "FC Porto",
+      "usLocked": false,
       "ha": "H",
       "comp": "Champions League",
       "scope": "international",
@@ -717,6 +726,7 @@
     {
       "kickoff": "2026-12-12T15:00:00Z",
       "opp": "Leeds United",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -725,18 +735,20 @@
     },
     {
       "opp": "Bournemouth",
+      "usLocked": false,
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": true,
-      "scope": "domestic",
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl"
     },
     {
       "kickoff": "2026-12-19T17:30:00Z",
       "opp": "Tottenham Hotspur",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -746,6 +758,7 @@
     {
       "kickoff": "2026-12-26T17:30:00Z",
       "opp": "Hull City",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -755,6 +768,7 @@
     {
       "kickoff": "2026-12-30T20:15:00Z",
       "opp": "Aston Villa",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -764,6 +778,7 @@
     {
       "kickoff": "2027-01-02T15:00:00Z",
       "opp": "Coventry City",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -773,6 +788,7 @@
     {
       "kickoff": "2027-01-05T20:15:00Z",
       "opp": "Sunderland",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -782,6 +798,7 @@
     {
       "kickoff": "2027-01-16T15:00:00Z",
       "opp": "Crystal Palace",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -791,6 +808,7 @@
     {
       "kickoff": "2027-01-19T20:00:00Z",
       "opp": "Inter Milan",
+      "usLocked": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
@@ -801,6 +819,7 @@
     {
       "kickoff": "2027-01-23T15:00:00Z",
       "opp": "Manchester United",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -810,6 +829,7 @@
     {
       "kickoff": "2027-01-27T20:00:00Z",
       "opp": "Lens",
+      "usLocked": false,
       "ha": "H",
       "comp": "Champions League",
       "scope": "international",
@@ -819,6 +839,7 @@
     {
       "kickoff": "2027-01-30T15:00:00Z",
       "opp": "Everton",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -828,6 +849,7 @@
     {
       "kickoff": "2027-02-06T15:00:00Z",
       "opp": "Arsenal",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -837,6 +859,7 @@
     {
       "kickoff": "2027-02-10T20:00:00Z",
       "opp": "Coventry City",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -846,6 +869,7 @@
     {
       "kickoff": "2027-02-20T15:00:00Z",
       "opp": "Hull City",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -855,6 +879,7 @@
     {
       "kickoff": "2027-02-27T15:00:00Z",
       "opp": "Tottenham Hotspur",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -864,6 +889,7 @@
     {
       "kickoff": "2027-03-03T20:00:00Z",
       "opp": "Aston Villa",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -873,6 +899,7 @@
     {
       "kickoff": "2027-03-13T15:00:00Z",
       "opp": "Ipswich Town",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -882,6 +909,7 @@
     {
       "kickoff": "2027-03-20T15:00:00Z",
       "opp": "Fulham",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -891,6 +919,7 @@
     {
       "kickoff": "2027-04-10T14:00:00Z",
       "opp": "Newcastle United",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -900,6 +929,7 @@
     {
       "kickoff": "2027-04-17T14:00:00Z",
       "opp": "Nottingham Forest",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -909,6 +939,7 @@
     {
       "kickoff": "2027-04-24T14:00:00Z",
       "opp": "Leeds United",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -918,6 +949,7 @@
     {
       "kickoff": "2027-05-01T14:00:00Z",
       "opp": "Chelsea",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -927,6 +959,7 @@
     {
       "kickoff": "2027-05-08T14:00:00Z",
       "opp": "Manchester City",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -936,6 +969,7 @@
     {
       "kickoff": "2027-05-15T14:00:00Z",
       "opp": "Brentford",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -945,6 +979,7 @@
     {
       "kickoff": "2027-05-23T14:00:00Z",
       "opp": "Brighton & Hove Albion",
+      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
@@ -954,6 +989,7 @@
     {
       "kickoff": "2027-05-30T15:00:00Z",
       "opp": "AFC Bournemouth",
+      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
@@ -1002,9 +1038,9 @@
       "status": "out",
       "issue": "Achilles",
       "detail": "He is still rehabilitating from his Achilles rupture. Reports point to a return to training in November and a possible comeback around Christmas.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
+      "reported": "2026-10-30"
     },
     {
       "player": "Conor Bradley",
@@ -1012,9 +1048,9 @@
       "status": "out",
       "issue": "Knee",
       "detail": "He is recovering from knee surgery after his January injury at Arsenal. He is expected to begin group training next month, with a possible return in December.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
+      "reported": "2026-10-30"
     },
     {
       "player": "Giovanni Leoni",
@@ -1022,9 +1058,9 @@
       "status": "out",
       "issue": "ACL",
       "detail": "He has not played since his September 2025 ACL injury and is still not training with the squad. The November international break is his next target for training, with a possible match return in December.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-arsenal-szoboszlai-34832205",
-      "reported": "2026-10-29"
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
+      "reported": "2026-10-30"
     }
   ],
   "news": [
