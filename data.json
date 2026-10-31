@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T16:08:44Z",
+  "updated": "2026-10-31T18:05:56Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -381,45 +381,56 @@
         "w": 3,
         "d": 5,
         "l": 1,
-        "gf": 15,
+        "gf": 16,
         "ga": 9,
         "pts": 14
       },
       {
         "pos": 7,
-        "team": "Ipswich Town",
-        "p": 9,
-        "w": 4,
-        "d": 1,
-        "l": 4,
-        "gf": 13,
-        "ga": 16,
-        "pts": 13
-      },
-      {
-        "pos": 8,
         "team": "AFC Bournemouth",
         "p": 9,
         "w": 3,
         "d": 3,
         "l": 3,
-        "gf": 13,
+        "gf": 14,
         "ga": 13,
         "pts": 12
       },
       {
+        "pos": 8,
+        "team": "Tottenham Hotspur",
+        "p": 9,
+        "w": 3,
+        "d": 3,
+        "l": 3,
+        "gf": 9,
+        "ga": 10,
+        "pts": 12
+      },
+      {
         "pos": 9,
+        "team": "Hull City",
+        "p": 9,
+        "w": 2,
+        "d": 5,
+        "l": 2,
+        "gf": 11,
+        "ga": 10,
+        "pts": 11
+      },
+      {
+        "pos": 10,
         "team": "Leeds United",
         "p": 9,
         "w": 2,
         "d": 5,
         "l": 2,
         "gf": 9,
-        "ga": 7,
+        "ga": 8,
         "pts": 11
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Newcastle United",
         "p": 8,
         "w": 3,
@@ -430,7 +441,7 @@
         "pts": 11
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Aston Villa",
         "p": 8,
         "w": 3,
@@ -441,18 +452,18 @@
         "pts": 11
       },
       {
-        "pos": 12,
-        "team": "Hull City",
+        "pos": 13,
+        "team": "Ipswich Town",
         "p": 9,
-        "w": 2,
-        "d": 4,
-        "l": 3,
-        "gf": 9,
-        "ga": 9,
-        "pts": 10
+        "w": 3,
+        "d": 2,
+        "l": 4,
+        "gf": 14,
+        "ga": 18,
+        "pts": 11
       },
       {
-        "pos": 13,
+        "pos": 14,
         "team": "Everton",
         "p": 8,
         "w": 2,
@@ -463,25 +474,14 @@
         "pts": 10
       },
       {
-        "pos": 14,
-        "team": "Tottenham Hotspur",
-        "p": 8,
-        "w": 2,
-        "d": 3,
-        "l": 3,
-        "gf": 8,
-        "ga": 10,
-        "pts": 9
-      },
-      {
         "pos": 15,
         "team": "Coventry City",
         "p": 9,
         "w": 3,
         "d": 0,
         "l": 6,
-        "gf": 8,
-        "ga": 15,
+        "gf": 9,
+        "ga": 16,
         "pts": 9
       },
       {
@@ -509,12 +509,12 @@
       {
         "pos": 18,
         "team": "Crystal Palace",
-        "p": 8,
+        "p": 9,
         "w": 2,
         "d": 1,
-        "l": 5,
+        "l": 6,
         "gf": 9,
-        "ga": 19,
+        "ga": 20,
         "pts": 7
       },
       {
@@ -525,7 +525,7 @@
         "d": 3,
         "l": 5,
         "gf": 6,
-        "ga": 11,
+        "ga": 12,
         "pts": 6
       },
       {
@@ -535,8 +535,8 @@
         "w": 1,
         "d": 2,
         "l": 6,
-        "gf": 6,
-        "ga": 16,
+        "gf": 7,
+        "ga": 17,
         "pts": 5
       }
     ]
