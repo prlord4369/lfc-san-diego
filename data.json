@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T19:12:32Z",
+  "updated": "2026-10-31T20:30:13Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -409,6 +409,17 @@
       },
       {
         "pos": 9,
+        "team": "Aston Villa",
+        "p": 9,
+        "w": 3,
+        "d": 3,
+        "l": 3,
+        "gf": 9,
+        "ga": 12,
+        "pts": 12
+      },
+      {
+        "pos": 10,
         "team": "Hull City",
         "p": 9,
         "w": 2,
@@ -419,7 +430,7 @@
         "pts": 11
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Leeds United",
         "p": 9,
         "w": 2,
@@ -430,7 +441,7 @@
         "pts": 11
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Newcastle United",
         "p": 8,
         "w": 3,
@@ -438,17 +449,6 @@
         "l": 3,
         "gf": 12,
         "ga": 14,
-        "pts": 11
-      },
-      {
-        "pos": 12,
-        "team": "Aston Villa",
-        "p": 8,
-        "w": 3,
-        "d": 2,
-        "l": 3,
-        "gf": 9,
-        "ga": 12,
         "pts": 11
       },
       {
@@ -475,6 +475,17 @@
       },
       {
         "pos": 15,
+        "team": "Fulham",
+        "p": 9,
+        "w": 2,
+        "d": 3,
+        "l": 4,
+        "gf": 8,
+        "ga": 10,
+        "pts": 9
+      },
+      {
+        "pos": 16,
         "team": "Coventry City",
         "p": 9,
         "w": 3,
@@ -483,17 +494,6 @@
         "gf": 9,
         "ga": 16,
         "pts": 9
-      },
-      {
-        "pos": 16,
-        "team": "Fulham",
-        "p": 8,
-        "w": 2,
-        "d": 2,
-        "l": 4,
-        "gf": 8,
-        "ga": 10,
-        "pts": 8
       },
       {
         "pos": 17,
@@ -628,110 +628,110 @@
     {
       "kickoff": "2026-11-01T16:30:00Z",
       "opp": "Arsenal",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
+      "usLocked": false,
       "us": "NBCSN / Peacock",
       "usUrl": "https://www.nbcsports.com/pressbox/premier-league/press-releases/liverpool-visit-leicester-city-this-saturday-at-1230-pm-et-on-nbc-universo"
     },
     {
       "kickoff": "2026-11-04T17:45:00Z",
       "opp": "Fenerbahçe",
-      "usLocked": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
       "venue": "Istanbul, Turkey",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
+      "usLocked": false,
       "us": "Paramount+",
       "usUrl": "https://www.cbssports.com/watch/champions-league/LET-211534983"
     },
     {
       "kickoff": "2026-11-08T14:00:00Z",
       "opp": "Crystal Palace",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
+      "usLocked": false,
       "us": "NBCSN / Peacock",
       "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/"
     },
     {
       "kickoff": "2026-11-22T16:30:00Z",
       "opp": "Manchester United",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-11-25T20:00:00Z",
       "opp": "Club Brugge",
-      "usLocked": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
       "venue": "Bruges, Belgium",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-11-29T12:00:00Z",
       "opp": "Everton",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-12-02T19:30:00Z",
       "opp": "Sunderland",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-12-05T12:30:00Z",
       "opp": "Chelsea",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-12-09T20:00:00Z",
       "opp": "FC Porto",
-      "usLocked": false,
       "ha": "H",
       "comp": "Champions League",
       "scope": "international",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-12-12T15:00:00Z",
       "opp": "Leeds United",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "opp": "Bournemouth",
@@ -748,253 +748,253 @@
     {
       "kickoff": "2026-12-19T17:30:00Z",
       "opp": "Tottenham Hotspur",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-12-26T17:30:00Z",
       "opp": "Hull City",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-12-30T20:15:00Z",
       "opp": "Aston Villa",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-01-02T15:00:00Z",
       "opp": "Coventry City",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-01-05T20:15:00Z",
       "opp": "Sunderland",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-01-16T15:00:00Z",
       "opp": "Crystal Palace",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-01-19T20:00:00Z",
       "opp": "Inter Milan",
-      "usLocked": false,
       "ha": "A",
       "comp": "Champions League",
       "scope": "international",
       "venue": "Milan, Italy",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-01-23T15:00:00Z",
       "opp": "Manchester United",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-01-27T20:00:00Z",
       "opp": "Lens",
-      "usLocked": false,
       "ha": "H",
       "comp": "Champions League",
       "scope": "international",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-01-30T15:00:00Z",
       "opp": "Everton",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-02-06T15:00:00Z",
       "opp": "Arsenal",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-02-10T20:00:00Z",
       "opp": "Coventry City",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-02-20T15:00:00Z",
       "opp": "Hull City",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-02-27T15:00:00Z",
       "opp": "Tottenham Hotspur",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-03-03T20:00:00Z",
       "opp": "Aston Villa",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-03-13T15:00:00Z",
       "opp": "Ipswich Town",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-03-20T15:00:00Z",
       "opp": "Fulham",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-04-10T14:00:00Z",
       "opp": "Newcastle United",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-04-17T14:00:00Z",
       "opp": "Nottingham Forest",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-04-24T14:00:00Z",
       "opp": "Leeds United",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-05-01T14:00:00Z",
       "opp": "Chelsea",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-05-08T14:00:00Z",
       "opp": "Manchester City",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-05-15T14:00:00Z",
       "opp": "Brentford",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-05-23T14:00:00Z",
       "opp": "Brighton & Hove Albion",
-      "usLocked": false,
       "ha": "A",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2027-05-30T15:00:00Z",
       "opp": "AFC Bournemouth",
-      "usLocked": false,
       "ha": "H",
       "comp": "Premier League",
       "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     }
   ],
   "fixtureNotes": [
