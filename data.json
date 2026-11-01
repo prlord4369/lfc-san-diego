@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T16:10:10Z",
+  "updated": "2026-11-01T18:05:55Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -8,7 +8,7 @@
   "standing": {
     "position": "5th",
     "competition": "Premier League",
-    "record": "P8 W4 D3 L1 · 15 pts"
+    "record": "P9 W4 D3 L2 · 15 pts"
   },
   "squad": {
     "asof": "2026-10-15",
@@ -321,6 +321,17 @@
     "rows": [
       {
         "pos": 1,
+        "team": "Arsenal",
+        "p": 9,
+        "w": 8,
+        "d": 0,
+        "l": 1,
+        "gf": 14,
+        "ga": 5,
+        "pts": 24
+      },
+      {
+        "pos": 2,
         "team": "Manchester City",
         "p": 9,
         "w": 7,
@@ -328,17 +339,6 @@
         "l": 2,
         "gf": 20,
         "ga": 10,
-        "pts": 21
-      },
-      {
-        "pos": 2,
-        "team": "Arsenal",
-        "p": 8,
-        "w": 7,
-        "d": 0,
-        "l": 1,
-        "gf": 13,
-        "ga": 5,
         "pts": 21
       },
       {
@@ -366,12 +366,12 @@
       {
         "pos": 5,
         "team": "Liverpool",
-        "p": 8,
+        "p": 9,
         "w": 4,
         "d": 3,
-        "l": 1,
+        "l": 2,
         "gf": 11,
-        "ga": 8,
+        "ga": 9,
         "pts": 15
       },
       {
@@ -1074,16 +1074,16 @@
     {
       "date": "2026-11-01",
       "source": "Liverpool Echo",
-      "title": "Liverpool vs Arsenal LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "title": "Liverpool vs Arsenal LIVE - score, Kai Havertz goal, penalty controversy, commentary stream",
       "summary": "Live coverage of the huge Premier League clash at Anfield as the two past two champions Liverpool and Arsenal go head to head",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-arsenal-live-stream-score-34840526"
     },
     {
       "date": "2026-11-01",
       "source": "Liverpool Echo",
-      "title": "Trent Alexander-Arnold transfer update as 'hurt' Jose Mourinho reveals private talks",
-      "summary": "Real Madrid boss Jose Mourinho has shared his thoughts on former Liverpool star Trent Alexander-Arnold's lack of game time amid speculation of a transfer away",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-trent-alexander-arnold-transfer-34846946"
+      "title": "Liverpool star suffers 'mighty blow' vs Arsenal as Jamie Carragher left stunned",
+      "summary": "Jamie Carragher has shared his thoughts on a Liverpool star after Andoni Iraola's decision against Arsenal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-jamie-carragher-arsenal-decision-34847415"
     },
     {
       "date": "2026-11-01",
