@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T00:04:45Z",
+  "updated": "2026-11-01T12:53:35Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -634,7 +634,7 @@
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false,
-      "us": "NBCSN / Peacock",
+      "us": "NBC / NBCSN / Peacock",
       "usUrl": "https://www.nbcsports.com/pressbox/premier-league/press-releases/liverpool-visit-leicester-city-this-saturday-at-1230-pm-et-on-nbc-universo"
     },
     {
@@ -735,15 +735,15 @@
     },
     {
       "opp": "Bournemouth",
-      "usLocked": false,
       "ha": "H",
       "comp": "Carabao Cup QF",
+      "scope": "domestic",
       "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
-      "scope": "domestic",
       "venueClosed": false,
-      "watchAt": "whiskeygirl"
+      "watchAt": "whiskeygirl",
+      "usLocked": false
     },
     {
       "kickoff": "2026-12-19T17:30:00Z",
@@ -1007,7 +1007,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Minor injury",
-      "detail": "Forced off at Brentford and absent since, he has been named as a doubt for Arsenal after Iraola said he has a chance. He had not yet rejoined full training as of the latest reports.",
+      "detail": "He was hurt at Brentford and has been named as a doubt for Arsenal, with Iraola saying he has a chance. He had not yet rejoined full training as of the latest reports.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
       "reported": "2026-10-30"
@@ -1065,18 +1065,32 @@
   ],
   "news": [
     {
-      "date": "2026-10-31",
+      "date": "2026-11-01",
       "source": "Liverpool Echo",
-      "title": "Ronald Araujo makes Liverpool vow and shares 'brilliant' admission about viral head tackle",
-      "summary": "Ronald Araujo has spoken out about his viral sliding head tackle in Liverpool's 2-0 win over Brighton",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ronald-araujo-makes-liverpool-vow-34844627"
+      "title": "Dominik Szoboszlai and Victor Munoz arrive with Liverpool squad for Arsenal game in huge boost",
+      "summary": "Liverpool boss Andoni Iraola appears to have received a boost ahead of facing Arsenal in a huge Premier League clash at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/breaking-liverpool-arsenal-team-news-34846534"
+    },
+    {
+      "date": "2026-11-01",
+      "source": "BBC Sport",
+      "title": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
+      "summary": "Liverpool fans are finding joy at Anfield again with a feel-good factor around the club before the visit of reigning champions Arsenal on Sunday.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6217j7pgo"
+    },
+    {
+      "date": "2026-11-01",
+      "source": "Liverpool Echo",
+      "title": "Liverpool vs Arsenal predictions as six pundits disagree on huge Premier League clash",
+      "summary": "The Premier League heavyweight clash between Liverpool and Arsenal takes place today with numerous pundits providing vastly different predictions",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-vs-arsenal-predictions-six-34845804"
     },
     {
       "date": "2026-10-31",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola forced to copy Arsenal but long-term Liverpool plan unclear after agent claim",
-      "summary": "Ronald Araujo continues to impress playing at right-back for Liverpool but is such a selection really a long-term tactic for Andoni Iraola?",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-forced-copy-arsenal-34844434"
+      "source": "Sky Sports",
+      "title": "PL Predictions: Can Liverpool catapult into the title race?",
+      "summary": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight for a busy weekend of Premier League action.",
+      "url": "https://www.skysports.com/football/news/11669/13604412/premier-league-predictions-jones-knows-best-bets-liverpool-vs-arsenal-crystal-palace-vs-tottenham-and-much-more"
     },
     {
       "date": "2026-10-31",
@@ -1133,20 +1147,6 @@
       "title": "Iraola: 'The only team I don't want is Bournemouth'",
       "summary": "Liverpool head coach Andoni Iraola reacts to drawing his former club Bournemouth in the EFL Cup quarter-finals.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqr7y1pgydpjo"
-    },
-    {
-      "date": "2026-10-29",
-      "source": "BBC Sport",
-      "title": "Why Joe Gomez penalty means so much to this Liverpool fan",
-      "summary": "Why Joe Gomez penalty means to much to Liverpool fan Abigail Rudkin",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm5yn97p33dlo"
-    },
-    {
-      "date": "2026-10-28",
-      "source": "BBC Sport",
-      "title": "'Stutter' penalty back in the spotlight after Barco miss costs Chelsea",
-      "summary": "The stuttering run-up for penalties has been called 'naive' as players continue to try to deceive goalkeepers with a stop-start approach - but why?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g8vxd258o"
     }
   ],
   "outlets": [
