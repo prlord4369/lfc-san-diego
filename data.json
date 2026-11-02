@@ -632,7 +632,7 @@
       "comp": "Champions League",
       "scope": "international",
       "venue": "Istanbul, Turkey",
-      "venueClosed": false,
+      "venueClosed": true,
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "Paramount+",
