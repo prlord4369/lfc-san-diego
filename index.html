@@ -949,7 +949,7 @@ function render(data) {
       // Only claim the venue is showing it when the fixture is marked "atVenue": true (screening confirmed with the bar)
       (homeVenue && next.atVenue && next.venueClosed !== true
         ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(venueFor(next).name) + "</strong></a></span>" : "") +
-      (homeVenue && next.venueClosed === true ? "<span class=\"novenue\">Not at " + esc(venueShort(venueFor(next))) + "</span>" : "");
+      (homeVenue && next.venueClosed === true ? "<span class=\"novenue\">Venue will not be open</span>" : "");
     var tvLine = document.getElementById("next-tv");
     tvLine.innerHTML = usTV(next) ? "Watch on <strong>" + esc(usTV(next)) + "</strong>" : "";
     tvLine.hidden = !usTV(next);
@@ -1131,7 +1131,7 @@ function render(data) {
       var m = fmt(f.d, { month: "long", year: "numeric" });
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
       var h = ptHour(f.d), early = (h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "") +
-        (!homeVenue ? "" : f.venueClosed === true ? "<span class=\"novenue\">Not at " + esc(venueShort(venueFor(f))) + "</span>"
+        (!homeVenue ? "" : f.venueClosed === true ? "<span class=\"novenue\">Venue will not be open</span>"
           : awayFromHome(f) ? "<span class=\"atvenue\">At " + esc(venueShort(venueFor(f))) + "</span>" : "");
       html += "<div class=\"fx\">" +
         (f.dateTbc ? "<div class=\"d\"><b>–</b><small>TBC</small></div>"
