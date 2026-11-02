@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T18:26:40Z",
+  "updated": "2026-11-02T20:19:32Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -409,6 +409,17 @@
       },
       {
         "pos": 9,
+        "team": "Newcastle United",
+        "p": 9,
+        "w": 3,
+        "d": 3,
+        "l": 3,
+        "gf": 12,
+        "ga": 14,
+        "pts": 12
+      },
+      {
+        "pos": 10,
         "team": "Aston Villa",
         "p": 9,
         "w": 3,
@@ -419,7 +430,7 @@
         "pts": 12
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Hull City",
         "p": 9,
         "w": 2,
@@ -430,7 +441,7 @@
         "pts": 11
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Leeds United",
         "p": 9,
         "w": 2,
@@ -441,18 +452,18 @@
         "pts": 11
       },
       {
-        "pos": 12,
-        "team": "Newcastle United",
-        "p": 8,
-        "w": 3,
-        "d": 2,
-        "l": 3,
-        "gf": 12,
-        "ga": 14,
+        "pos": 13,
+        "team": "Everton",
+        "p": 9,
+        "w": 2,
+        "d": 5,
+        "l": 2,
+        "gf": 8,
+        "ga": 9,
         "pts": 11
       },
       {
-        "pos": 13,
+        "pos": 14,
         "team": "Ipswich Town",
         "p": 9,
         "w": 3,
@@ -461,17 +472,6 @@
         "gf": 14,
         "ga": 18,
         "pts": 11
-      },
-      {
-        "pos": 14,
-        "team": "Everton",
-        "p": 8,
-        "w": 2,
-        "d": 4,
-        "l": 2,
-        "gf": 8,
-        "ga": 9,
-        "pts": 10
       },
       {
         "pos": 15,
@@ -636,7 +636,8 @@
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "Paramount+",
-      "usUrl": "https://www.cbssports.com/watch/champions-league/LET-211534983"
+      "usUrl": "https://www.cbssports.com/watch/champions-league/LET-211534983",
+      "h2h": []
     },
     {
       "kickoff": "2026-11-08T14:00:00Z",
@@ -648,7 +649,46 @@
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "NBCSN / Peacock",
-      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/"
+      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/",
+      "h2h": [
+        {
+          "date": "2026-04-25",
+          "ha": "H",
+          "score": "3-1",
+          "r": "W",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-10-29",
+          "ha": "H",
+          "score": "0-3",
+          "r": "L",
+          "comp": "Carabao Cup",
+          "round": "Fourth Round"
+        },
+        {
+          "date": "2025-09-27",
+          "ha": "A",
+          "score": "1-2",
+          "r": "L",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-08-10",
+          "ha": "N",
+          "score": "2-2",
+          "r": "L",
+          "comp": "Community Shield",
+          "pens": true
+        },
+        {
+          "date": "2025-05-25",
+          "ha": "H",
+          "score": "1-1",
+          "r": "D",
+          "comp": "Premier League"
+        }
+      ]
     },
     {
       "kickoff": "2026-11-22T16:30:00Z",
@@ -1034,17 +1074,24 @@
   "news": [
     {
       "date": "2026-11-02",
-      "source": "Liverpool Echo",
-      "title": "Premier League told referee missed red card in Liverpool vs Arsenal for 'clear offence'",
-      "summary": "Liverpool vs Arsenal referee Andy Madley has been told that a 'clear offence' was missed during the Premier League match that should have resulted in a red card",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/premier-league-liverpool-var-arsenal-34852292"
+      "source": "The Guardian",
+      "title": "Stumbling block: Wirtz's and Liverpool’s costly struggles against tight defences | Andrew Beasley",
+      "summary": "Credit to Arsenal for restricting opportunities at Anfield but Iraola will need his side to learn to unpick low backlines",
+      "url": "https://www.theguardian.com/football/2026/nov/02/florian-wirtz-andoni-iraola-liverpool-tight-defences-arsenal-anfield"
     },
     {
       "date": "2026-11-02",
       "source": "Liverpool Echo",
-      "title": "Ryan Gravenberch future intrigue grows at Liverpool after Andoni Iraola decision",
-      "summary": "Liverpool midfielder Ryan Gravenberch failed to even get off the bench for the Premier League clash against Arsenal at Anfield on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ryan-gravenberch-future-intrigue-grows-34848655"
+      "title": "Trey Nyoni explains new Liverpool role after Andoni Iraola change - 'You'll get punished'",
+      "summary": "Trey Nyoni was handed his full Premier League debut in Liverpool's 1-0 defeat to Arsenal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/trey-nyoni-explains-new-liverpool-34852761"
+    },
+    {
+      "date": "2026-11-02",
+      "source": "Liverpool Echo",
+      "title": "Premier League told referee missed red card in Liverpool vs Arsenal for 'clear offence'",
+      "summary": "Liverpool vs Arsenal referee Andy Madley has been told that a 'clear offence' was missed during the Premier League match that should have resulted in a red card",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/premier-league-liverpool-var-arsenal-34852292"
     },
     {
       "date": "2026-11-02",
@@ -1094,13 +1141,6 @@
       "title": "Liverpool 0-1 Arsenal: Premier League – as it happened",
       "summary": "Kai Havertz’s goal was enough to give Arsenal their first win at Anfield since September 2012 and take them three points clear at the top of the table",
       "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "The Guardian",
-      "title": "Arsenal hold on for first league win at Liverpool since 2012 after Kai Havertz pounces early",
-      "summary": "It was a game when Arsenal showed their ruthless side and all of the champion knowhow that they accumulated over the course of last season.",
-      "url": "https://www.theguardian.com/football/2026/nov/01/liverpool-arsenal-premier-league-match-report"
     },
     {
       "date": "2026-11-01",
