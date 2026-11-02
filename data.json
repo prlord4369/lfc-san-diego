@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T20:19:32Z",
+  "updated": "2026-11-02T20:41:42Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1074,6 +1074,13 @@
   "news": [
     {
       "date": "2026-11-02",
+      "source": "Liverpool Echo",
+      "title": "Florian Wirtz shuts down Liverpool suggestion as Arsenal frustration boils over - 'I don't care'",
+      "summary": "Florian Wirtz was interviewed after Liverpool's narrow 1-0 defeat to Arsenal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-shuts-down-liverpool-34852071"
+    },
+    {
+      "date": "2026-11-02",
       "source": "The Guardian",
       "title": "Stumbling block: Wirtz's and Liverpool’s costly struggles against tight defences | Andrew Beasley",
       "summary": "Credit to Arsenal for restricting opportunities at Anfield but Iraola will need his side to learn to unpick low backlines",
@@ -1085,13 +1092,6 @@
       "title": "Trey Nyoni explains new Liverpool role after Andoni Iraola change - 'You'll get punished'",
       "summary": "Trey Nyoni was handed his full Premier League debut in Liverpool's 1-0 defeat to Arsenal",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/trey-nyoni-explains-new-liverpool-34852761"
-    },
-    {
-      "date": "2026-11-02",
-      "source": "Liverpool Echo",
-      "title": "Premier League told referee missed red card in Liverpool vs Arsenal for 'clear offence'",
-      "summary": "Liverpool vs Arsenal referee Andy Madley has been told that a 'clear offence' was missed during the Premier League match that should have resulted in a red card",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/premier-league-liverpool-var-arsenal-34852292"
     },
     {
       "date": "2026-11-02",
