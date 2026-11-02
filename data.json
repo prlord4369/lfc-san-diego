@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T00:06:26Z",
+  "updated": "2026-11-02T13:10:54Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -725,10 +725,10 @@
       "opp": "Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "scope": "domestic",
       "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -991,94 +991,60 @@
   ],
   "injuries": [
     {
-      "player": "Dominik Szoboszlai",
-      "pos": "MF",
-      "status": "doubt",
-      "issue": "Minor injury",
-      "detail": "He was hurt at Brentford and has been named as a doubt for Arsenal, with Iraola saying he has a chance. He had not yet rejoined full training as of the latest reports.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
-      "reported": "2026-10-30"
-    },
-    {
-      "player": "Victor Munoz",
-      "pos": "FW",
-      "status": "doubt",
-      "issue": "Minor injury",
-      "detail": "He has missed the Brighton and Chelsea games, and Iraola says he has a chance to face Arsenal. His availability will be decided by a late fitness test.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
-      "reported": "2026-10-30"
-    },
-    {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle injury",
-      "detail": "He picked up a new muscle problem at Brentford and will miss Arsenal. He is not expected back until after the November international break.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-arsenal-max-dowman-appeal-34836506",
-      "reported": "2026-10-30"
+      "detail": "He is still out with a muscle problem picked up at Brentford. He is expected to rejoin training during the international break.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
+      "reported": "2026-11-01"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still rehabilitating from his Achilles rupture. Reports point to a return to training in November and a possible comeback around Christmas.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
-      "reported": "2026-10-30"
+      "detail": "He remains in recovery from an Achilles injury and is still unavailable. No firm return date has been given in the latest team news.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
+      "reported": "2026-11-01"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is recovering from knee surgery after his January injury at Arsenal. He is expected to begin group training next month, with a possible return in December.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
-      "reported": "2026-10-30"
+      "detail": "He is still recovering from a knee injury and is unavailable. No firm return date has been given in the latest team news.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
+      "reported": "2026-11-01"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played since his September 2025 ACL injury and is still not training with the squad. The November international break is his next target for training, with a possible match return in December.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpool-v-arsenal-team-news-premier-league",
-      "reported": "2026-10-30"
+      "detail": "He is still unavailable after his ACL injury. He is expected to rejoin training during the international break, and at least two more weeks are needed before he returns to the squad.",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
+      "reported": "2026-11-01"
     }
   ],
   "news": [
     {
-      "date": "2026-11-01",
-      "source": "BBC Sport",
-      "title": "Rice is a rounded midfielder, but could be more selfish - Murphy",
-      "summary": "BBC Sport's Kelly Cates and Micah Richards discuss how rounded Declan Rice has become in Arsenal's midfield, while Danny Murphy argues that if he was more selfish he would score…",
-      "url": "https://www.bbc.co.uk/sport/football/videos/ck9dz227v751o"
+      "date": "2026-11-02",
+      "source": "Liverpool Echo",
+      "title": "Liverpool sent brutal reminder after Arsenal defeat as Jude Bellingham blown away",
+      "summary": "Yan Diomande, who was a transfer target for Liverpool in the summer, has been turning heads at Real Madrid with his outstanding form since joining from RB Leipzig",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/yan-diomande-liverpool-wirtz-barcola-34850058"
     },
     {
-      "date": "2026-11-01",
-      "source": "BBC Sport",
-      "title": "'He's been fantastic' - how Konsa has fitted in seamlessly at Arsenal",
-      "summary": "BBC Sport's Kelly Cates, Danny Murphy and Micah Richards analyse how good Ezri Konsa has been for Arsenal after signing from Aston Villa in the summer, especially in their 1-0…",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmwy4000q97ro"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "BBC Sport",
-      "title": "Were Arsenal 'lucky' not to concede penalty at Liverpool?",
-      "summary": "BBC Sport's Kelly Cates, Danny Murphy and Micah Richards discuss Liverpool's denied penalty claim for a pull on Alexander Isak's shirt by Arsenal defender Jurrien Timber and…",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cw7vpy99y606o"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "BBC Sport",
-      "title": "Rice relishing title race 'anxiety' after win at Liverpool",
-      "summary": "Declan Rice joins BBC Sport's Kelly Cates, Danny Murphy and Micah Richards to analyse how Arsenal earned their first Premier League victory at Liverpool in 14 years.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cxly47pyy8j6o"
+      "date": "2026-11-02",
+      "source": "Liverpool Echo",
+      "title": "Liverpool icon James Milner's New York Marathon time at 40 and how it compares to the pros",
+      "summary": "James Milner swapped his football boots for running shoes and finished the New York Marathon in an impressive three hours, nine minutes and four seconds",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/james-milner-marathon-time-liverpool-34849900"
     },
     {
       "date": "2026-11-01",
@@ -1103,17 +1069,10 @@
     },
     {
       "date": "2026-11-01",
-      "source": "Liverpool Echo",
-      "title": "Liverpool 0 Arsenal 1 LIVE - Virgil van Dijk and Andoni Iraola slam penalty decision",
-      "summary": "Live coverage of the huge Premier League clash at Anfield as the two past two champions Liverpool and Arsenal go head to head",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-arsenal-live-stream-score-34840526"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "Liverpool Echo",
-      "title": "VAR told 'do your job' as pundits flabbergasted by Liverpool decision against Arsenal",
-      "summary": "Jamie Carragher, Ian Wright and Daniel Sturridge joined Andoni Iraola and Virgil van Dijk in condemning the decision not to award Liverpool a penalty against Arsenal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/var-told-do-your-job-34847793"
+      "source": "BBC Sport",
+      "title": "I'll tell my players to dive in future - Iraola",
+      "summary": "Andoni Iraola says that he will tell his players to go down in future after Liverpool were denied a penalty in Sunday's defeat by Arsenal.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cvp8grpjk4leo"
     },
     {
       "date": "2026-11-01",
@@ -1135,6 +1094,27 @@
       "title": "Arsenal hold on for first league win at Liverpool since 2012 after Kai Havertz pounces early",
       "summary": "It was a game when Arsenal showed their ruthless side and all of the champion knowhow that they accumulated over the course of last season.",
       "url": "https://www.theguardian.com/football/2026/nov/01/liverpool-arsenal-premier-league-match-report"
+    },
+    {
+      "date": "2026-11-01",
+      "source": "BBC Sport",
+      "title": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
+      "summary": "How Liverpool and Arsenal's players rated in their Premier League match at Anfield, as the champions of the past two seasons went head to head.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o"
+    },
+    {
+      "date": "2026-11-01",
+      "source": "Sky Sports",
+      "title": "Arsenal win at Anfield for first time in 14 years to move top",
+      "summary": "Arsenal won at Anfield for the first time in 14 years after Kai Havertz's strike sealed a gritty 1-0 victory - but Liverpool were denied what looked to be a clear penalty.",
+      "url": "https://www.skysports.com/football/liverpool-vs-arsenal/report/559530"
+    },
+    {
+      "date": "2026-11-01",
+      "source": "BBC Sport",
+      "title": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
+      "summary": "Liverpool fans are finding joy at Anfield again with a feel-good factor around the club before the visit of reigning champions Arsenal on Sunday.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckzd6217j7pgo"
     }
   ],
   "outlets": [
