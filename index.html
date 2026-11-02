@@ -257,15 +257,45 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 
 /* Form strip */
 .form { border-bottom: 1px solid var(--line); background: var(--surface); }
-.form .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; padding-block: 14px; }
-.results { display: flex; gap: 8px; flex-wrap: wrap; }
-/* Recent form chips only (span); the cup tabs' Result column (td.res) stays a normal table cell */
-span.res { display: flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border: 1px solid var(--line); border-radius: 4px; font-size: .82rem; }
-.res i { font: normal 800 .95rem/1 var(--font-display); width: 22px; height: 22px; display: grid; place-items: center; border-radius: 3px; color: var(--on-red); }
-.res small { font: 500 .72rem/1 var(--font-mono); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
-.res i.W { background: var(--ok); } .res i.D { background: var(--muted); } .res i.L { background: var(--bad); }
-.standing { margin-left: auto; font-size: .85rem; color: var(--muted); }
-.standing b { color: var(--fg); }
+/* Computers: summary (squares, tally, league tiles) on the left, the results in columns on the right.
+   Phones (≤720 px): stacked, and the results fold away behind "Show results". */
+.form .wrap { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 36px; padding-block: 20px; }
+.fm-sum { display: grid; gap: 12px; align-content: start; }
+.fm-sqs { display: flex; gap: 6px; align-items: flex-end; }
+.fm-sq { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 4px; color: var(--on-red); font: 800 1.15rem/1 var(--font-display); }
+.fm-sq.latest { width: 40px; height: 40px; font-size: 1.35rem; box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--fg); }
+.fm-sq.W, .fm-b.W { background: var(--ok); } .fm-sq.D, .fm-b.D { background: var(--muted); } .fm-sq.L, .fm-b.L { background: var(--bad); }
+.fm-tally { font-size: .9rem; } .fm-tally b { font-weight: 700; }
+.fm-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.fm-tile { padding: 8px 10px; border-left: 1px solid var(--line); }
+.fm-tile:first-child { border-left: 0; }
+.fm-tile b { display: block; font: 800 1.6rem/1 var(--font-display); }
+.fm-tile b.mono { font: 500 1rem/1.6rem var(--font-mono); }
+.fm-tile small { display: block; font-size: .66rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-top: 3px; line-height: 1.2; }
+.fm-toggle { display: none; justify-self: start; background: none; border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px;
+  font: 600 .8rem/1 var(--font-body); color: var(--fg); cursor: pointer; }
+.fm-toggle::after { content: " ▾"; } .fm-toggle[aria-expanded="true"]::after { content: " ▴"; }
+.fm-head, .fm-row { display: grid; grid-template-columns: 24px 48px minmax(0, 1fr) auto 3.2em; gap: 10px; align-items: center; }
+.fm-head { padding-bottom: 6px; }
+.fm-head span:last-child { text-align: right; }
+.fm-row { padding: 8px 0; border-top: 1px solid var(--line); font-size: .9rem; }
+.fm-b { width: 24px; height: 24px; display: grid; place-items: center; border-radius: 3px; color: var(--on-red); font: 800 .95rem/1 var(--font-display); }
+.fm-row .dt { font: 500 .74rem/1 var(--font-mono); color: var(--muted); text-transform: uppercase; }
+.fm-row .opp { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fm-row .va { font-weight: 400; color: var(--muted); margin-right: 3px; }
+.fm-row .opp small { display: block; font: 600 .62rem/1 var(--font-body); color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin: 3px 0 0 14px; }
+.fm-c { font: 700 .62rem/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; padding: 3px 5px; border-radius: 3px;
+  border: 1px solid currentColor; white-space: nowrap; color: var(--muted); }
+.fm-c.ucl { color: var(--pacific); } .fm-c.cup { color: var(--warn); }
+.fm-row .sc { font: 500 .95rem/1 var(--font-mono); text-align: right; white-space: nowrap; }
+@media (max-width: 720px) {
+  .form .wrap { grid-template-columns: minmax(0, 1fr); gap: 16px; padding-block: 16px; }
+  .fm-head { display: none; }
+  .fm-toggle { display: inline-block; }
+  .fm-rows:not(.open) { display: none; }
+  .fm-row:first-child { border-top: 0; padding-top: 0; }
+}
+@media (max-width: 360px) { .fm-row { gap: 7px; grid-template-columns: 22px 44px minmax(0, 1fr) auto 3em; } }
 
 /* Main grid */
 main .wrap { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 40px; padding-block: 40px; }
@@ -434,7 +464,6 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 @media (max-width: 820px) {
   main .wrap { grid-template-columns: minmax(0, 1fr); }
   .hero .wrap { grid-template-columns: minmax(0, 1fr); }
-  .standing { margin-left: 0; }
 }
 @media (max-width: 460px) {
   .fx { grid-template-columns: 54px minmax(0, 1fr); }
@@ -641,9 +670,17 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 
 <div class="form">
   <div class="wrap">
-    <span class="label">Recent form</span>
-    <div class="results" id="results"></div>
-    <div class="standing" id="standing"></div>
+    <div class="fm-sum">
+      <span class="label" id="fm-label">Recent form</span>
+      <div class="fm-sqs" id="fm-sqs"></div>
+      <div class="fm-tally" id="fm-tally"></div>
+      <div class="fm-tiles" id="fm-tiles" hidden></div>
+      <button class="fm-toggle" id="fm-toggle" type="button" aria-expanded="false" aria-controls="fm-rows">Show results</button>
+    </div>
+    <div>
+      <div class="fm-head label"><span></span><span>Date</span><span>Opponent</span><span>Comp</span><span>Score</span></div>
+      <div class="fm-rows" id="fm-rows"></div>
+    </div>
   </div>
 </div>
 
@@ -1040,15 +1077,47 @@ function render(data) {
     }
   } else { w.hidden = true; }
 
-  // Form strip
+  // Recent form: squares (latest first, ringed), tally, Premier League tiles, and the results in columns
   var rdate = function (s) { return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(s + "T12:00:00Z")); };
-  document.getElementById("results").innerHTML = data.results.slice(-6).reverse().map(function (r) {
-    return "<span class=\"res\" title=\"" + esc(r.comp + ", " + r.date) + "\"><i class=\"" + r.r + "\">" + r.r + "</i>" +
-      "<small>" + esc(rdate(r.date)) + "</small>" +
-      (r.ha === "H" ? "v " : "@ ") + esc(r.opp) + " <span class=\"mono\">" + resultScore(r) + "</span></span>";
+  var SHORT_NAMES = { "Brighton & Hove Albion": "Brighton", "Tottenham Hotspur": "Spurs", "Wolverhampton Wanderers": "Wolves",
+    "Manchester United": "Man Utd", "Manchester City": "Man City", "Nottingham Forest": "Nott'm Forest", "West Ham United": "West Ham",
+    "Newcastle United": "Newcastle", "Leeds United": "Leeds", "West Bromwich Albion": "West Brom", "Sheffield United": "Sheffield Utd" };
+  var compTag = function (c) {
+    var t = /^Premier/.test(c) ? ["", "PL"] : /^Champions/.test(c) ? ["ucl", "UCL"] : /^(Carabao|League Cup)/.test(c) ? ["cup", "Carabao"]
+      : /^FA Cup/.test(c) ? ["cup", "FA Cup"] : ["", c];
+    return "<span class=\"fm-c " + t[0] + "\" title=\"" + esc(c) + "\">" + esc(t[1]) + "</span>";
+  };
+  var recent = data.results.slice(-6).reverse();
+  var dash = function (s) { return esc(String(s || "").replace(/\s*\(pens?\)\s*$/i, "").replace("-", "–")); };
+  document.getElementById("fm-label").textContent = "Recent form" + (recent.length ? " · last " + recent.length : "");
+  document.getElementById("fm-sqs").innerHTML = recent.map(function (r, i) {
+    return "<span class=\"fm-sq " + r.r + (i === 0 ? " latest" : "") + "\" title=\"" + esc(rdate(r.date) + ": " + (r.ha === "H" ? "v " : "@ ") + r.opp + " " + r.score) + "\">" + r.r + "</span>";
   }).join("");
-  if (data.standing) document.getElementById("standing").innerHTML =
-    esc(data.standing.competition) + ": <b>" + esc(data.standing.position) + "</b> · " + esc(data.standing.record);
+  var n = { W: 0, D: 0, L: 0 }; recent.forEach(function (r) { n[r.r] = (n[r.r] || 0) + 1; });
+  document.getElementById("fm-tally").innerHTML = [n.W && "<b>" + n.W + "</b> won", n.D && "<b>" + n.D + "</b> drawn", n.L && "<b>" + n.L + "</b> lost"].filter(Boolean).join(", ");
+  document.getElementById("fm-rows").innerHTML = recent.map(function (r) {
+    return "<div class=\"fm-row\"><span class=\"fm-b " + r.r + "\">" + r.r + "</span><span class=\"dt\">" + esc(rdate(r.date)) + "</span>" +
+      "<span class=\"opp\" title=\"" + esc(r.opp) + "\"><span class=\"va\">" + (r.ha === "H" ? "v" : "@") + "</span>" + esc(SHORT_NAMES[r.opp] || r.opp) +
+      (r.pens ? "<small>Pens " + dash(r.pens) + "</small>" : "") + "</span>" +
+      compTag(r.comp) + "<span class=\"sc\">" + dash(r.score) + "</span></div>";
+  }).join("");
+  var lfcRow = data.table && (data.table.rows || []).filter(function (r) { return r.team === "Liverpool"; })[0];
+  var tiles = document.getElementById("fm-tiles");
+  if (lfcRow && data.standing) {
+    tiles.innerHTML = "<div class=\"fm-tile\"><b>" + esc(data.standing.position) + "</b><small>Premier League</small></div>" +
+      "<div class=\"fm-tile\"><b>" + esc(lfcRow.pts) + "</b><small>Points</small></div>" +
+      "<div class=\"fm-tile\"><b class=\"mono\">" + esc(lfcRow.w + "-" + lfcRow.d + "-" + lfcRow.l) + "</b><small>W-D-L · " + esc(lfcRow.p) + " played</small></div>";
+    tiles.hidden = false;
+  }
+  // Phones: the results open and close under the summary; computers always show them (CSS)
+  var fmToggle = document.getElementById("fm-toggle"), fmRows = document.getElementById("fm-rows");
+  fmToggle.hidden = !recent.length;
+  fmToggle.onclick = function () {
+    var open = fmToggle.getAttribute("aria-expanded") !== "true";
+    fmToggle.setAttribute("aria-expanded", open);
+    fmToggle.textContent = open ? "Hide results" : "Show results";
+    fmRows.classList.toggle("open", open);
+  };
 
   // Fixtures
   var filter = "all", showAll = false;
