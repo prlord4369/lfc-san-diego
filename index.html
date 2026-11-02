@@ -267,6 +267,71 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .hero .tv { margin-top: 6px; font-size: .82rem; opacity: .8; }
 .hero .tv strong { font-weight: 700; }
 
+/* Line-ups band under the banner (from ~75 min before kick-off until the banner moves on; class "on" shows it).
+   Liverpool's XI on a half pitch, attacking upwards; Liverpool / opponent switch; subs beside it (folded on phones). */
+.lineups:not(.on) { display: none; }
+.lineups { border-bottom: 1px solid var(--line); background: var(--surface); }
+.lineups .wrap { padding-block: 18px 20px; }
+.lu-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; cursor: pointer; }
+.lu-src { margin: 10px 0 0; font-size: .78rem; color: var(--muted); }
+/* Fold: the header row (or its ▴ button) folds the pitch and subs away, leaving a slim bar under the banner */
+.lu-fold { margin-left: auto; width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 50%; background: none;
+  color: var(--fg); cursor: pointer; display: grid; place-items: center; flex: none; }
+.lu-fold::before { content: ""; width: 8px; height: 8px; border: solid currentColor; border-width: 2px 2px 0 0; transform: translateY(2px) rotate(-45deg); }
+.lineups.folded .lu-fold::before { transform: translateY(-2px) rotate(135deg); }
+.lu-panel { display: grid; grid-template-rows: 1fr; }
+.lu-panel > div { min-height: 0; overflow: hidden; padding-top: 14px; }
+.lineups.folded .lu-panel { grid-template-rows: 0fr; }
+.lineups.folded .lu-panel > div { visibility: hidden; padding-top: 0; }
+/* Team switch and its formation side by side, as one group; hidden while folded */
+.lu-pick { display: flex; align-items: center; gap: 22px; }
+.lineups.folded .lu-pick { display: none; }
+.lineups.folded .wrap { padding-block: 5px; }
+@media (prefers-reduced-motion: no-preference) {
+  .lu-panel { transition: grid-template-rows .28s ease; }
+  .lu-panel > div { transition: visibility 0s .28s, padding .28s ease; }
+  .lineups:not(.folded) .lu-panel > div { transition-delay: 0s, 0s; }
+  .lineups .wrap { transition: padding .28s ease; }
+}
+.lu-ok { font: 600 .68rem/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; padding: 4px 8px; border-radius: 999px; background: var(--ok); color: #fff; }
+.lu-tabs { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; gap: 2px; }
+.lu-tabs button { border: 0; background: none; padding: 5px 12px; border-radius: 999px; font: 600 .82rem/1.2 var(--font-body); color: var(--muted); cursor: pointer; }
+.lu-tabs button.on { background: var(--red); color: var(--on-red); }
+.lu-fm { font: 500 .8rem/1 var(--font-mono); color: var(--muted); }
+.lu-grid { display: grid; grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: 28px; align-items: start; }
+.lu-pitch { position: relative; aspect-ratio: 68 / 62; border-radius: 8px; overflow: hidden;
+  background: repeating-linear-gradient(180deg, #1f6b3a 0 10%, #237541 10% 20%); }
+.lu-pitch::before { content: ""; position: absolute; inset: 4%; border: 2px solid rgba(255,255,255,.35); border-top: 0; }
+.lu-pitch .bx { position: absolute; left: 22%; right: 22%; bottom: 4%; height: 24%; border: 2px solid rgba(255,255,255,.35); border-bottom: 0; }
+.lu-pitch .bx6 { position: absolute; left: 37%; right: 37%; bottom: 4%; height: 9%; border: 2px solid rgba(255,255,255,.35); border-bottom: 0; }
+.lu-pitch .arc { position: absolute; left: 50%; top: 4%; width: 26%; aspect-ratio: 1; transform: translate(-50%, -50%); border: 2px solid rgba(255,255,255,.35); border-radius: 50%; }
+.lu-pl { position: absolute; transform: translate(-50%, -50%); display: grid; justify-items: center; gap: 3px; width: 23%; text-align: center; }
+.lu-pl i { font: normal 800 1rem/1 var(--font-display); width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center;
+  background: #c8102e; color: #fff; box-shadow: 0 0 0 2px #fff; }
+.lu-pl.gk i { background: #f2c230; color: #1c1517; }
+.lu-pitch.opp .lu-pl i { background: #f3f3f3; color: #1c1517; box-shadow: 0 0 0 2px #1c1517; }
+.lu-pitch.opp .lu-pl.gk i { background: #3a3a3a; color: #fff; box-shadow: 0 0 0 2px #fff; }
+.lu-pl span { font-size: .74rem; font-weight: 600; color: #fff; line-height: 1.15; text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.lu-subs h3 { margin: 0 0 6px; }
+.lu-subs ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 16px; font-size: .85rem; }
+.lu-subs li { padding: 3px 0; break-inside: avoid; display: flex; gap: 8px; }
+.lu-subs li .mono { color: var(--muted); width: 2ch; text-align: right; flex: none; }
+.lu-subs-t { display: none; margin-top: 12px; border: 1px solid var(--line); background: none; color: var(--fg); border-radius: 999px;
+  padding: 6px 14px; font: 600 .82rem/1.2 var(--font-body); cursor: pointer; }
+.lu-subs-t::after { content: " ▾"; } .lu-subs-t[aria-expanded="true"]::after { content: " ▴"; }
+.lu-wait { display: flex; align-items: center; gap: 12px; font-size: .9rem; color: var(--muted); }
+.lu-wait i { width: 10px; height: 10px; border-radius: 50%; background: var(--warn); flex: none; }
+.lu-wait b { color: var(--fg); }
+@media (max-width: 720px) {
+  .lu-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .lu-subs-t { display: inline-block; }
+  .lu-subs:not(.open) { display: none; }
+  .lu-subs.open { margin-top: 12px; }
+  .lu-pick { order: 5; width: 100%; }   /* phones: switch + formation on their own line under the header */
+}
+@media (max-width: 380px) { .lu-pl i { width: 26px; height: 26px; font-size: .9rem; } .lu-pl span { font-size: .68rem; } }
+
 /* Form strip */
 .form { border-bottom: 1px solid var(--line); background: var(--surface); }
 /* Computers: summary (squares, tally, league tiles) on the left, the results in columns on the right.
@@ -680,6 +745,8 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
   </div>
 </div>
 
+<section class="lineups" id="lineups" aria-label="Line-ups"><div class="wrap" id="lu-body"></div></section>
+
 <div class="form">
   <div class="wrap">
     <div class="fm-sum">
@@ -979,8 +1046,8 @@ function render(data) {
     tick(); setInterval(function () { if (!showingScore) tick(); }, 30000);
 
     // Live score for every competition (the relay reads ESPN, with football-data.org as backup):
-    // from 15 minutes before kick-off until the banner moves on, ask the relay every 30 seconds
-    var inWindow = function () { var t = Date.now() - next.d; return t > -15 * 60e3 && t < holdMs(next); };
+    // from 75 minutes before kick-off (line-ups) until the banner moves on, ask the relay (see pollLive for how often)
+    var inWindow = function () { var t = Date.now() - next.d; return t > -75 * 60e3 && t < holdMs(next); };
     var covered = true;
     // Goals and cards under the score: each team's events in its own column, in match order.
     // (Option 1 was goals + red cards only; switch to it by filtering out kind "yellow" below.)
@@ -999,10 +1066,116 @@ function render(data) {
       };
       return "<div class=\"evs\"><ul>" + list("home") + "</ul><ul>" + list("away") + "</ul></div>";
     };
+    // Line-ups band (relay's `lineups`, from ESPN about an hour before kick-off): Liverpool's XI on a half pitch,
+    // attacking upwards, with a switch to the opponent's. Before ESPN publishes, a "usually out about an hour before"
+    // line; if nothing comes by kick-off the band goes. Names: ESPN's surname, a few known by another name.
+    var luBand = document.getElementById("lineups"), luBody = document.getElementById("lu-body");
+    var luShown = "", luSide = "liv", luSubsOpen = false;
+    var LU_NAMES = { "Alisson Becker": "Alisson", "Gabriel Magalhães": "Gabriel" };
+    var luName = function (p) { return LU_NAMES[p.full] || p.name || p.full; };
+    // Folded by this visitor for this match? (remembered in their browser by kick-off time; open again next match)
+    var luFoldNow = null;   // this visit's choice, so a refresh of the data keeps it even where storage is blocked
+    var luFolded = function () {
+      if (luFoldNow !== null) return luFoldNow;
+      try { return localStorage.getItem("lfc-lu-folded") === next.kickoff; } catch (e) { return false; }
+    };
+    // Lines from back to front by ESPN's position code; left to right by its side (team's own view)
+    var luDepth = function (pos) {
+      var p = String(pos).toUpperCase();
+      return p === "G" || p === "GK" ? 0 : /WB/.test(p) ? 1.5 : /^(LB|RB|CD|CB|SW)/.test(p) ? 1 : /^DM/.test(p) ? 2
+        : /^(CM|LM|RM)/.test(p) ? 3 : /^AM/.test(p) ? 4 : 5;
+    };
+    var luSideOf = function (pos) {
+      var p = String(pos).toUpperCase();
+      return /-L$/.test(p) ? 1 : /-R$/.test(p) ? 3 : /^L/.test(p) ? 0 : /^R/.test(p) ? 4 : 2;
+    };
+    var luPitch = function (t, opp) {
+      var keeper = t.xi.filter(function (p) { return luDepth(p.pos) === 0; })[0] || t.xi.filter(function (p) { return p.place === 1; })[0] || t.xi[0];
+      var out = t.xi.filter(function (p) { return p !== keeper; }).sort(function (a, b) { return luDepth(a.pos) - luDepth(b.pos) || a.place - b.place; });
+      // Line sizes from the formation ("4-2-3-1") when it adds up to 10; otherwise one line per position depth
+      var sizes = String(t.formation || "").split("-").map(Number), lines = [];
+      if (sizes.length > 1 && sizes.reduce(function (a, b) { return a + b; }, 0) === out.length) {
+        sizes.forEach(function (n) { lines.push(out.splice(0, n)); });
+      } else {
+        out.forEach(function (p) { var l = lines[lines.length - 1]; if (l && luDepth(l[0].pos) === luDepth(p.pos)) l.push(p); else lines.push([p]); });
+      }
+      var spot = function (p, x, y) {
+        return "<div class=\"lu-pl" + (p === keeper ? " gk" : "") + "\" style=\"left:" + x.toFixed(1) + "%;top:" + y.toFixed(1) + "%\" title=\"" + esc(p.full) + "\">" +
+          "<i>" + esc(p.no) + "</i><span>" + esc(luName(p)) + "</span></div>";
+      };
+      var html = spot(keeper, 50, 88);
+      lines.forEach(function (line, k) {
+        var y = lines.length > 1 ? 70 - k * 59 / (lines.length - 1) : 40;
+        line.sort(function (a, b) { return luSideOf(a.pos) - luSideOf(b.pos) || a.place - b.place; });
+        var gap = line.length > 1 ? Math.min(34, 76 / (line.length - 1)) : 0;
+        line.forEach(function (p, i) { html += spot(p, 50 + (i - (line.length - 1) / 2) * gap, y); });
+      });
+      return "<div class=\"lu-pitch" + (opp ? " opp" : "") + "\" role=\"img\" aria-label=\"" + esc(t.name) + " starting eleven: " +
+        esc(t.xi.map(luName).join(", ")) + "\"><div class=\"bx\"></div><div class=\"bx6\"></div><div class=\"arc\"></div>" + html + "</div>";
+    };
+    var showLineups = function (lu) {
+      var livKey = next.ha === "H" ? "home" : "away", oppKey = livKey === "home" ? "away" : "home";
+      var liv = lu && lu[livKey], opp = lu && lu[oppKey];
+      if (!liv && !opp) {
+        if (luShown && luShown !== "wait") return;   // keep line-ups already shown if one answer lacks them
+        var waiting = Date.now() < next.d.getTime();
+        luBand.classList.toggle("on", waiting);
+        luBand.classList.remove("folded");
+        if (waiting && luShown !== "wait") luBody.innerHTML = "<div class=\"lu-wait\"><i></i><span><b>Line-ups</b> usually out about an hour before kick-off. This updates on its own.</span></div>";
+        luShown = waiting ? "wait" : "";
+        return;
+      }
+      var key = JSON.stringify(lu) + luSide;
+      if (key === luShown) return;
+      luShown = key;
+      if (luSide === "opp" && !opp) luSide = "liv";
+      if (luSide === "liv" && !liv) luSide = "opp";
+      var t = luSide === "liv" ? liv : opp;
+      var tab = function (k, team, label) {
+        return team ? "<button type=\"button\" data-side=\"" + k + "\" class=\"" + (luSide === k ? "on" : "") + "\" aria-pressed=\"" + (luSide === k) + "\">" + esc(label) + "</button>" : "";
+      };
+      var folded = luFolded();
+      luBody.innerHTML = "<div class=\"lu-top\"><span class=\"label\">Line-ups</span><span class=\"lu-ok\">Confirmed</span>" +
+        "<span class=\"lu-pick\"><span class=\"lu-tabs\">" + tab("liv", liv, "Liverpool") + tab("opp", opp, next.opp) + "</span>" +
+        "<span class=\"lu-fm\">" + esc(t.formation) + "</span></span>" +
+        "<button type=\"button\" class=\"lu-fold\" aria-controls=\"lu-panel\" aria-expanded=\"" + !folded + "\" aria-label=\"" + (folded ? "Show line-ups" : "Hide line-ups") + "\"></button></div>" +
+        "<div class=\"lu-panel\" id=\"lu-panel\"><div><div class=\"lu-grid\">" + luPitch(t, luSide === "opp") +
+        "<div><button type=\"button\" class=\"lu-subs-t\" aria-expanded=\"" + luSubsOpen + "\" aria-controls=\"lu-subs\">" + (luSubsOpen ? "Hide subs" : "Subs") + "</button>" +
+        "<div class=\"lu-subs" + (luSubsOpen ? " open" : "") + "\" id=\"lu-subs\"><h3 class=\"label\">Substitutes</h3><ul>" +
+        t.subs.map(function (p) { return "<li title=\"" + esc(p.full) + "\"><span class=\"mono\">" + esc(p.no) + "</span>" + esc(luName(p)) + "</li>"; }).join("") +
+        "</ul></div></div></div><p class=\"lu-src\">From ESPN · updates on its own</p></div></div>";
+      luBand.classList.add("on");
+      luBand.classList.toggle("folded", folded);
+      luBody.querySelectorAll(".lu-tabs button").forEach(function (b) {
+        b.onclick = function () { luSide = b.dataset.side; showLineups(lu); };
+      });
+      // Fold / unfold: the ▴ button or anywhere else on the header row (not the team switch)
+      var fold = luBody.querySelector(".lu-fold");
+      luBody.querySelector(".lu-top").onclick = function (e) {
+        if (e.target.closest(".lu-pick")) return;
+        var f = luFoldNow = !luBand.classList.contains("folded");
+        luBand.classList.toggle("folded", f);
+        fold.setAttribute("aria-expanded", !f); fold.setAttribute("aria-label", f ? "Show line-ups" : "Hide line-ups");
+        try { if (f) localStorage.setItem("lfc-lu-folded", next.kickoff); else localStorage.removeItem("lfc-lu-folded"); } catch (err) { /* private mode */ }
+      };
+      var st = luBody.querySelector(".lu-subs-t");
+      st.onclick = function () {
+        luSubsOpen = !luSubsOpen;
+        luBody.querySelector(".lu-subs").classList.toggle("open", luSubsOpen);
+        st.setAttribute("aria-expanded", luSubsOpen); st.textContent = luSubsOpen ? "Hide subs" : "Subs";
+      };
+    };
+    // More than 15 minutes before kick-off only the line-ups can change, so ask every 2 minutes, then every 30 seconds
+    var lastAsk = 0;
     var pollLive = function () {
       if (!LIVE_URL || !covered || !inWindow() || document.hidden) return;
+      if (Date.now() < next.d - 15 * 60e3 && Date.now() - lastAsk < 115e3) return;
+      lastAsk = Date.now();
+      if (!luShown) showLineups(null);
       fetch(LIVE_URL, { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (s) {
         // Only trust an answer about this fixture (kick-off within 2 hours of ours)
+        if (s.kickoff && Math.abs(new Date(s.kickoff) - next.d) <= 2 * 3600e3) showLineups(s.lineups);
+        else showLineups(null);
         if (!s.home || Math.abs(new Date(s.kickoff) - next.d) > 2 * 3600e3) return;
         showingScore = true;
         // Penalty shoot-out (cup games): each side's shoot-out goals in brackets after its score, "1 (6)–1 (5)"
@@ -1342,7 +1515,7 @@ function render(data) {
 
   // Squad view: rendered from data.squad, shown only when the URL hash is #squad
   var sq = data.squad, sqView = document.getElementById("squad-view");
-  var mainParts = [document.getElementById("welcome"), document.getElementById("club"), document.querySelector(".hero"), document.querySelector(".form"), document.querySelector("main")];
+  var mainParts = [document.getElementById("welcome"), document.getElementById("club"), document.querySelector(".hero"), document.getElementById("lineups"), document.querySelector(".form"), document.querySelector("main")];
   if (sq && sq.players && sq.players.length) {
     // Names are matched without accents or capitals: the injury list may say "Victor Munoz" for the squad's "Víctor Muñoz"
     var nameKey = function (s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim(); };
