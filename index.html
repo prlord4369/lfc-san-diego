@@ -354,7 +354,10 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 /* Computers: summary (squares, tally, league tiles) on the left, the results in columns on the right.
    Phones (≤720 px): stacked, and the results fold away behind "Show results". */
 .form .wrap { display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 36px; padding-block: 20px; }
-.fm-sum { display: grid; gap: 12px; align-content: start; }
+.fm-sum { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.fm-tiles { align-self: stretch; }
+/* Computers: the summary column is as tall as the results, so the tiles drop to line up with the last result */
+@media (min-width: 721px) { .fm-tiles { margin-top: auto; } }
 .fm-sqs { display: flex; gap: 6px; align-items: flex-end; }
 .fm-sq { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 4px; color: var(--on-red); font: 800 1.15rem/1 var(--font-display); }
 .fm-sq.latest { width: 40px; height: 40px; font-size: 1.35rem; box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--fg); }
