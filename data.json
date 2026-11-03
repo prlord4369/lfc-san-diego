@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T20:41:42Z",
+  "updated": "2026-11-03T00:09:41Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-11-02"
+    "checked": "2026-11-03"
   },
   "table": {
-    "asof": "2026-11-02",
+    "asof": "2026-11-03",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -387,6 +387,17 @@
       },
       {
         "pos": 7,
+        "team": "Everton",
+        "p": 9,
+        "w": 3,
+        "d": 4,
+        "l": 2,
+        "gf": 9,
+        "ga": 9,
+        "pts": 13
+      },
+      {
+        "pos": 8,
         "team": "AFC Bournemouth",
         "p": 9,
         "w": 3,
@@ -397,7 +408,7 @@
         "pts": 12
       },
       {
-        "pos": 8,
+        "pos": 9,
         "team": "Tottenham Hotspur",
         "p": 9,
         "w": 3,
@@ -405,17 +416,6 @@
         "l": 3,
         "gf": 10,
         "ga": 10,
-        "pts": 12
-      },
-      {
-        "pos": 9,
-        "team": "Newcastle United",
-        "p": 9,
-        "w": 3,
-        "d": 3,
-        "l": 3,
-        "gf": 12,
-        "ga": 14,
         "pts": 12
       },
       {
@@ -453,13 +453,13 @@
       },
       {
         "pos": 13,
-        "team": "Everton",
+        "team": "Newcastle United",
         "p": 9,
-        "w": 2,
-        "d": 5,
-        "l": 2,
-        "gf": 8,
-        "ga": 9,
+        "w": 3,
+        "d": 2,
+        "l": 4,
+        "gf": 12,
+        "ga": 15,
         "pts": 11
       },
       {
@@ -1075,6 +1075,13 @@
     {
       "date": "2026-11-02",
       "source": "Liverpool Echo",
+      "title": "Three reasons Liverpool didn't do enough to beat Arsenal or get a shot on target",
+      "summary": "TACTICAL ANALYSIS: Liverpool failed to register a single shot on target at home in the Premier League for the first time on record in losing 0-1 to the champions - but how much…",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/three-reasons-liverpool-didnt-enough-34850929"
+    },
+    {
+      "date": "2026-11-02",
+      "source": "Liverpool Echo",
       "title": "Florian Wirtz shuts down Liverpool suggestion as Arsenal frustration boils over - 'I don't care'",
       "summary": "Florian Wirtz was interviewed after Liverpool's narrow 1-0 defeat to Arsenal",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-shuts-down-liverpool-34852071"
@@ -1085,13 +1092,6 @@
       "title": "Stumbling block: Wirtz's and Liverpool’s costly struggles against tight defences | Andrew Beasley",
       "summary": "Credit to Arsenal for restricting opportunities at Anfield but Iraola will need his side to learn to unpick low backlines",
       "url": "https://www.theguardian.com/football/2026/nov/02/florian-wirtz-andoni-iraola-liverpool-tight-defences-arsenal-anfield"
-    },
-    {
-      "date": "2026-11-02",
-      "source": "Liverpool Echo",
-      "title": "Trey Nyoni explains new Liverpool role after Andoni Iraola change - 'You'll get punished'",
-      "summary": "Trey Nyoni was handed his full Premier League debut in Liverpool's 1-0 defeat to Arsenal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/trey-nyoni-explains-new-liverpool-34852761"
     },
     {
       "date": "2026-11-02",
@@ -1184,7 +1184,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-11-02",
+    "asof": "2026-11-03",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1674,7 +1674,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-11-02"
+    "checked": "2026-11-03"
   },
   "venues": {
     "whiskeygirl": {
