@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T00:09:41Z",
+  "updated": "2026-11-03T13:05:23Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -765,10 +765,10 @@
       "opp": "Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
+      "scope": "domestic",
       "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
-      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1034,57 +1034,84 @@
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
-      "issue": "Muscle injury",
-      "detail": "He is still out with a muscle problem picked up at Brentford. He is expected to rejoin training during the international break.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
-      "reported": "2026-11-01"
+      "issue": "Muscle",
+      "detail": "He picked up a muscle problem early at Brentford and is out until after the international break. A possible return is the Manchester United game on 22 November.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
+      "reported": "2026-11-03"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He remains in recovery from an Achilles injury and is still unavailable. No firm return date has been given in the latest team news.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
-      "reported": "2026-11-01"
+      "detail": "He is still recovering from an Achilles injury picked up late last season. A possible return is around December 2026.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
+      "reported": "2026-11-03"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is still recovering from a knee injury and is unavailable. No firm return date has been given in the latest team news.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
-      "reported": "2026-11-01"
+      "detail": "He is stepping up his knee recovery and remains unavailable. A possible return is late November 2026.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
+      "reported": "2026-11-03"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is still unavailable after his ACL injury. He is expected to rejoin training during the international break, and at least two more weeks are needed before he returns to the squad.",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-arsenal-injuries-suspensions-available-squad/",
-      "reported": "2026-11-01"
+      "detail": "He is still building back up after an ACL injury, with a recent setback in his recovery. He is expected to be back over the international break, though a Manchester United return on 22 November is uncertain.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
+      "reported": "2026-11-03"
+    },
+    {
+      "player": "Ryan Gravenberch",
+      "pos": "MF",
+      "status": "out",
+      "issue": "Heel",
+      "detail": "He has a heel problem and will miss the Champions League trip to Fenerbahce while he stays in Liverpool for treatment. The club has not yet given a return date.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/ryan-gravenberch-injury-update",
+      "reported": "2026-11-03"
+    },
+    {
+      "player": "Dominik Szoboszlai",
+      "pos": "MF",
+      "status": "back",
+      "issue": "Hamstring",
+      "detail": "He is back fit after a hamstring injury and came on against Arsenal on 1 November. He is in contention to start at Fenerbahce.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-liverpool-ryan-gravenberch-injury-34854145",
+      "reported": "2026-11-03"
     }
   ],
   "news": [
     {
-      "date": "2026-11-02",
-      "source": "Liverpool Echo",
-      "title": "Three reasons Liverpool didn't do enough to beat Arsenal or get a shot on target",
-      "summary": "TACTICAL ANALYSIS: Liverpool failed to register a single shot on target at home in the Premier League for the first time on record in losing 0-1 to the champions - but how much…",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/three-reasons-liverpool-didnt-enough-34850929"
+      "date": "2026-11-03",
+      "source": "BBC Sport",
+      "title": "Are Liverpool players too meek?",
+      "summary": "The Anfield Wrap's John Gibbons says Liverpool forwards need to be a little 'gnarlier'",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c5398e2yz0p8o"
     },
     {
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "source": "Liverpool Echo",
-      "title": "Florian Wirtz shuts down Liverpool suggestion as Arsenal frustration boils over - 'I don't care'",
-      "summary": "Florian Wirtz was interviewed after Liverpool's narrow 1-0 defeat to Arsenal",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-shuts-down-liverpool-34852071"
+      "title": "12 players could miss Fenerbahce vs Liverpool after Ryan Gravenberch injury blow",
+      "summary": "Liverpool will be without a significant number of players for their Champions League trip to Fenerbahce",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/12-players-could-miss-fenerbahce-34854892"
+    },
+    {
+      "date": "2026-11-03",
+      "source": "Liverpool Echo",
+      "title": "Liverpool facing nightmare transfer blow after Trent Alexander-Arnold completion",
+      "summary": "Real Madrid are reportedly keeping tabs on Liverpool winger Victor Munoz as well as Alexis Mac Allister after signing Trent Alexander-Arnold last year",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-victor-munoz-real-madrid-34854782"
     },
     {
       "date": "2026-11-02",
@@ -1148,13 +1175,6 @@
       "title": "Rice rewarded, Wirtz must do more - Liverpool and Arsenal player ratings",
       "summary": "How Liverpool and Arsenal's players rated in their Premier League match at Anfield, as the champions of the past two seasons went head to head.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cqj9kgyww478o"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "Sky Sports",
-      "title": "Arsenal win at Anfield for first time in 14 years to move top",
-      "summary": "Arsenal won at Anfield for the first time in 14 years after Kai Havertz's strike sealed a gritty 1-0 victory - but Liverpool were denied what looked to be a clear penalty.",
-      "url": "https://www.skysports.com/football/liverpool-vs-arsenal/report/559530"
     }
   ],
   "outlets": [
