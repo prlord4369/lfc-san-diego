@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T16:28:29Z",
+  "updated": "2026-11-03T18:20:44Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1095,16 +1095,16 @@
     {
       "date": "2026-11-03",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola Liverpool press conference LIVE - Ryan Gravenberch injury, team news, Fenerbahce tie",
-      "summary": "Liverpool head coach Andoni Iraola and forward Cody Gakpo are facing the press in Istanbul ahead of Wednesday evening's Champions League clash with Fenerbahce",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/iraola-liverpool-press-conference-live-34856465"
+      "title": "Ryan Gravenberch 'not fully confident' as Andoni Iraola issues Liverpool injury update",
+      "summary": "Ryan Gravenberch didn't fly to Turkey with the rest of the Liverpool squad for Wednesday's Champions League tie with Fenerbahce",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ryan-gravenberch-not-fully-confident-34858349"
     },
     {
       "date": "2026-11-03",
       "source": "Liverpool Echo",
-      "title": "Curtis Jones row breaks out as Premier League icon comes to ex-Liverpool star's defence",
-      "summary": "Curtis Jones was unexpectably brought up following the Milan derby despite missing the game through injury",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-curtis-jones-inter-milan-34856681"
+      "title": "Gravenberch, Frimpong, Ekitike, Leoni - Liverpool injury news and return dates ahead of Fenerbahce",
+      "summary": "The latest Liverpool injury and team news ahead of the Champions League trip to Fenerbahce on Wednesday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/gravenberch-frimpong-ekitike-leoni-liverpool-34857782"
     },
     {
       "date": "2026-11-03",
@@ -1112,6 +1112,13 @@
       "title": "Are Liverpool players too meek?",
       "summary": "The Anfield Wrap's John Gibbons says Liverpool forwards need to be a little 'gnarlier'",
       "url": "https://www.bbc.co.uk/sport/football/videos/c5398e2yz0p8o"
+    },
+    {
+      "date": "2026-11-03",
+      "source": "Sky Sports",
+      "title": "Liverpool's unwanted record highlights creativity issue",
+      "summary": "Liverpool set an unwanted record against Arsenal as they failed to register a shot on target for the first time in 442 Premier League home games, dating back to when records began…",
+      "url": "https://www.skysports.com/football/news/11669/13607467/liverpools-unwanted-record-against-arsenal-shows-creativity-problem-under-andoni-iraola-between-the-lines"
     },
     {
       "date": "2026-11-02",
@@ -1168,13 +1175,6 @@
       "title": "Isak's non-penalty and Madueke-Mac Allister 'headbutt' - were big calls right?",
       "summary": "There were two big flashpoints during Arsenal's 1-0 win over Liverpool, demonstrating the good and bad sides of VAR.",
       "url": "https://www.skysports.com/football/news/11669/13606793/liverpool-0-1-arsenal-alexander-isak-jurrien-timber-shirt-pull-and-noni-madueke-alexis-mac-allister-headbutt-show-good-and-bad-sides-of-var"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "The Guardian",
-      "title": "Liverpool 0-1 Arsenal: Premier League – as it happened",
-      "summary": "Kai Havertz’s goal was enough to give Arsenal their first win at Anfield since September 2012 and take them three points clear at the top of the table",
-      "url": "https://www.theguardian.com/football/live/2026/nov/01/liverpool-v-arsenal-premier-league-live"
     }
   ],
   "outlets": [
@@ -1265,17 +1265,6 @@
       },
       {
         "pos": 6,
-        "team": "VfB Stuttgart",
-        "p": 3,
-        "w": 2,
-        "d": 1,
-        "l": 0,
-        "gf": 7,
-        "ga": 2,
-        "pts": 7
-      },
-      {
-        "pos": 7,
         "team": "Arsenal",
         "p": 3,
         "w": 2,
@@ -1286,7 +1275,29 @@
         "pts": 7
       },
       {
+        "pos": 7,
+        "team": "VfB Stuttgart",
+        "p": 4,
+        "w": 2,
+        "d": 1,
+        "l": 1,
+        "gf": 7,
+        "ga": 4,
+        "pts": 7
+      },
+      {
         "pos": 8,
+        "team": "Sporting CP",
+        "p": 4,
+        "w": 2,
+        "d": 1,
+        "l": 1,
+        "gf": 7,
+        "ga": 4,
+        "pts": 7
+      },
+      {
+        "pos": 9,
         "team": "Barcelona",
         "p": 3,
         "w": 2,
@@ -1297,7 +1308,7 @@
         "pts": 6
       },
       {
-        "pos": 9,
+        "pos": 10,
         "team": "Como 1907",
         "p": 3,
         "w": 2,
@@ -1308,7 +1319,7 @@
         "pts": 6
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Manchester City",
         "p": 3,
         "w": 2,
@@ -1319,7 +1330,7 @@
         "pts": 6
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Club Brugge",
         "p": 3,
         "w": 2,
@@ -1327,17 +1338,6 @@
         "l": 1,
         "gf": 9,
         "ga": 6,
-        "pts": 6
-      },
-      {
-        "pos": 12,
-        "team": "Sporting CP",
-        "p": 3,
-        "w": 2,
-        "d": 0,
-        "l": 1,
-        "gf": 7,
-        "ga": 4,
         "pts": 6
       },
       {
@@ -1353,6 +1353,17 @@
       },
       {
         "pos": 14,
+        "team": "Galatasaray",
+        "p": 4,
+        "w": 2,
+        "d": 0,
+        "l": 2,
+        "gf": 8,
+        "ga": 9,
+        "pts": 6
+      },
+      {
+        "pos": 15,
         "team": "Bayern Munich",
         "p": 3,
         "w": 1,
@@ -1363,7 +1374,18 @@
         "pts": 5
       },
       {
-        "pos": 15,
+        "pos": 16,
+        "team": "FK Shakhtar Donetsk",
+        "p": 4,
+        "w": 1,
+        "d": 2,
+        "l": 1,
+        "gf": 4,
+        "ga": 3,
+        "pts": 5
+      },
+      {
+        "pos": 17,
         "team": "AS Roma",
         "p": 3,
         "w": 1,
@@ -1374,7 +1396,7 @@
         "pts": 4
       },
       {
-        "pos": 16,
+        "pos": 18,
         "team": "Atlético Madrid",
         "p": 3,
         "w": 1,
@@ -1385,18 +1407,7 @@
         "pts": 4
       },
       {
-        "pos": 17,
-        "team": "FK Shakhtar Donetsk",
-        "p": 3,
-        "w": 1,
-        "d": 1,
-        "l": 1,
-        "gf": 4,
-        "ga": 3,
-        "pts": 4
-      },
-      {
-        "pos": 18,
+        "pos": 19,
         "team": "PSV",
         "p": 3,
         "w": 1,
@@ -1407,7 +1418,7 @@
         "pts": 4
       },
       {
-        "pos": 19,
+        "pos": 20,
         "team": "Villarreal",
         "p": 3,
         "w": 1,
@@ -1418,7 +1429,7 @@
         "pts": 3
       },
       {
-        "pos": 20,
+        "pos": 21,
         "team": "Inter Milan",
         "p": 3,
         "w": 1,
@@ -1429,7 +1440,7 @@
         "pts": 3
       },
       {
-        "pos": 20,
+        "pos": 21,
         "team": "Manchester United",
         "p": 3,
         "w": 1,
@@ -1440,7 +1451,7 @@
         "pts": 3
       },
       {
-        "pos": 22,
+        "pos": 23,
         "team": "SSC Napoli",
         "p": 3,
         "w": 1,
@@ -1448,17 +1459,6 @@
         "l": 2,
         "gf": 5,
         "ga": 7,
-        "pts": 3
-      },
-      {
-        "pos": 23,
-        "team": "Galatasaray",
-        "p": 3,
-        "w": 1,
-        "d": 0,
-        "l": 2,
-        "gf": 6,
-        "ga": 9,
         "pts": 3
       },
       {
