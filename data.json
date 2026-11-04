@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:27:55Z",
+  "updated": "2026-11-04T18:26:38Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1092,7 +1092,7 @@
     {
       "date": "2026-11-04",
       "source": "Liverpool Echo",
-      "title": "Fenerbahce vs Liverpool LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "title": "Fenerbahce vs Liverpool LIVE - score, Trey Nyoni, Mason Greenwood goals, commentary stream",
       "summary": "Live coverage of Liverpool's Champions League clash against Fenerbahce at the Chobani Stadium as they look to make it four league phase wins from four",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-live-team-34863318"
     },
@@ -1211,6 +1211,17 @@
       },
       {
         "pos": 2,
+        "team": "Liverpool",
+        "p": 4,
+        "w": 3,
+        "d": 1,
+        "l": 0,
+        "gf": 13,
+        "ga": 8,
+        "pts": 10
+      },
+      {
+        "pos": 3,
         "team": "Barcelona",
         "p": 4,
         "w": 3,
@@ -1221,7 +1232,7 @@
         "pts": 9
       },
       {
-        "pos": 3,
+        "pos": 4,
         "team": "Aston Villa",
         "p": 4,
         "w": 3,
@@ -1232,25 +1243,14 @@
         "pts": 9
       },
       {
-        "pos": 4,
-        "team": "Liverpool",
-        "p": 3,
-        "w": 3,
-        "d": 0,
-        "l": 0,
-        "gf": 12,
-        "ga": 7,
-        "pts": 9
-      },
-      {
         "pos": 5,
         "team": "Real Madrid",
-        "p": 3,
+        "p": 4,
         "w": 3,
         "d": 0,
-        "l": 0,
+        "l": 1,
         "gf": 10,
-        "ga": 5,
+        "ga": 6,
         "pts": 9
       },
       {
@@ -1398,6 +1398,17 @@
       },
       {
         "pos": 19,
+        "team": "PAE AEK",
+        "p": 4,
+        "w": 2,
+        "d": 0,
+        "l": 2,
+        "gf": 4,
+        "ga": 8,
+        "pts": 6
+      },
+      {
+        "pos": 20,
         "team": "AS Roma",
         "p": 4,
         "w": 1,
@@ -1408,7 +1419,7 @@
         "pts": 4
       },
       {
-        "pos": 20,
+        "pos": 21,
         "team": "FK Shakhtar Donetsk",
         "p": 4,
         "w": 1,
@@ -1419,7 +1430,7 @@
         "pts": 4
       },
       {
-        "pos": 21,
+        "pos": 22,
         "team": "PSV",
         "p": 3,
         "w": 1,
@@ -1430,7 +1441,7 @@
         "pts": 4
       },
       {
-        "pos": 22,
+        "pos": 23,
         "team": "Atlético Madrid",
         "p": 4,
         "w": 1,
@@ -1441,7 +1452,7 @@
         "pts": 4
       },
       {
-        "pos": 23,
+        "pos": 24,
         "team": "FK Bodø/Glimt",
         "p": 4,
         "w": 1,
@@ -1452,7 +1463,7 @@
         "pts": 4
       },
       {
-        "pos": 24,
+        "pos": 25,
         "team": "SSC Napoli",
         "p": 3,
         "w": 1,
@@ -1463,7 +1474,7 @@
         "pts": 3
       },
       {
-        "pos": 25,
+        "pos": 26,
         "team": "Sabah FK",
         "p": 3,
         "w": 1,
@@ -1474,7 +1485,7 @@
         "pts": 3
       },
       {
-        "pos": 26,
+        "pos": 27,
         "team": "Lens",
         "p": 3,
         "w": 1,
@@ -1485,18 +1496,7 @@
         "pts": 3
       },
       {
-        "pos": 27,
-        "team": "PAE AEK",
-        "p": 3,
-        "w": 1,
-        "d": 0,
-        "l": 2,
-        "gf": 3,
-        "ga": 8,
-        "pts": 3
-      },
-      {
-        "pos": 27,
+        "pos": 28,
         "team": "RB Leipzig",
         "p": 3,
         "w": 1,
@@ -1519,6 +1519,17 @@
       },
       {
         "pos": 30,
+        "team": "Fenerbahçe",
+        "p": 4,
+        "w": 0,
+        "d": 3,
+        "l": 1,
+        "gf": 4,
+        "ga": 10,
+        "pts": 3
+      },
+      {
+        "pos": 31,
         "team": "Feyenoord Rotterdam",
         "p": 4,
         "w": 1,
@@ -1527,17 +1538,6 @@
         "gf": 4,
         "ga": 11,
         "pts": 3
-      },
-      {
-        "pos": 31,
-        "team": "Fenerbahçe",
-        "p": 3,
-        "w": 0,
-        "d": 2,
-        "l": 1,
-        "gf": 3,
-        "ga": 9,
-        "pts": 2
       },
       {
         "pos": 32,
