@@ -1114,8 +1114,25 @@ function render(data) {
     // Lines from back to front by ESPN's position code; left to right by its side (team's own view)
     var luDepth = function (pos) {
       var p = String(pos).toUpperCase();
-      return p === "G" || p === "GK" ? 0 : /WB/.test(p) ? 1.5 : /^(LB|RB|CD|CB|SW)/.test(p) ? 1 : /^DM/.test(p) ? 2
-        : /^(CM|LM|RM)/.test(p) ? 3 : /^AM/.test(p) ? 4 : 5;
+      return p === "G" || p === "GK" ? 0 : /WB/.test(p) ? 1.5 : /^(D|LB|RB|CD|CB|SW)/.test(p) && !/^DM/.test(p) ? 1 : /^DM/.test(p) ? 2
+        : /^(M|CM|LM|RM)$|^(CM|LM|RM)-/.test(p) ? 3 : /^AM/.test(p) ? 4 : 5;
+    };
+    // ESPN's slot number (`place`) for each spot, back to front, left to right. Before and during some games it only
+    // gives G/D/M/F as positions, so the slots are what place the players; the codes above are the fallback.
+    var LU_SLOTS = {
+      "4-2-3-1": [[3, 6, 5, 2], [4, 8], [11, 10, 7], [9]],
+      "4-3-3": [[3, 6, 5, 2], [7, 4, 8], [11, 9, 10]],
+      "4-4-2": [[3, 6, 5, 2], [11, 8, 4, 7], [9, 10]],
+      "4-1-4-1": [[3, 6, 5, 2], [4], [11, 10, 8, 7], [9]],
+      "4-4-1-1": [[3, 6, 5, 2], [11, 8, 4, 7], [10], [9]]
+    };
+    var luSlotLines = function (t, out) {
+      var slots = LU_SLOTS[t.formation];
+      if (!slots) return null;
+      var at = {};
+      out.forEach(function (p) { at[+p.place] = p; });
+      var lines = slots.map(function (l) { return l.map(function (n) { return at[n]; }); });
+      return lines.every(function (l) { return l.every(Boolean); }) ? lines : null;
     };
     var luSideOf = function (pos) {
       var p = String(pos).toUpperCase();
@@ -1125,8 +1142,10 @@ function render(data) {
       var keeper = t.xi.filter(function (p) { return luDepth(p.pos) === 0; })[0] || t.xi.filter(function (p) { return p.place === 1; })[0] || t.xi[0];
       var out = t.xi.filter(function (p) { return p !== keeper; }).sort(function (a, b) { return luDepth(a.pos) - luDepth(b.pos) || a.place - b.place; });
       // Line sizes from the formation ("4-2-3-1") when it adds up to 10; otherwise one line per position depth
-      var sizes = String(t.formation || "").split("-").map(Number), lines = [];
-      if (sizes.length > 1 && sizes.reduce(function (a, b) { return a + b; }, 0) === out.length) {
+      var sizes = String(t.formation || "").split("-").map(Number), lines = [], slotted = luSlotLines(t, out);
+      if (slotted) {
+        lines = slotted;
+      } else if (sizes.length > 1 && sizes.reduce(function (a, b) { return a + b; }, 0) === out.length) {
         sizes.forEach(function (n) { lines.push(out.splice(0, n)); });
       } else {
         out.forEach(function (p) { var l = lines[lines.length - 1]; if (l && luDepth(l[0].pos) === luDepth(p.pos)) l.push(p); else lines.push([p]); });
@@ -1138,7 +1157,7 @@ function render(data) {
       var html = spot(keeper, 50, 88);
       lines.forEach(function (line, k) {
         var y = lines.length > 1 ? 70 - k * 59 / (lines.length - 1) : 40;
-        line.sort(function (a, b) { return luSideOf(a.pos) - luSideOf(b.pos) || a.place - b.place; });
+        if (!slotted) line.sort(function (a, b) { return luSideOf(a.pos) - luSideOf(b.pos) || a.place - b.place; });
         var gap = line.length > 1 ? Math.min(34, 76 / (line.length - 1)) : 0;
         line.forEach(function (p, i) { html += spot(p, 50 + (i - (line.length - 1) / 2) * gap, y); });
       });
