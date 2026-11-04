@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T13:08:38Z",
+  "updated": "2026-11-04T16:27:55Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1084,17 +1084,24 @@
   "news": [
     {
       "date": "2026-11-04",
-      "source": "Liverpool Echo",
-      "title": "Fenerbahce vs Liverpool U19 LIVE - UEFA Youth League updates from Istanbul",
-      "summary": "Liverpool U19 are in UEFA Youth League action against Fenerbahce at Pendik Stadium in Istanbul. Follow live updates.",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-u19-live-34860321"
+      "source": "The Guardian",
+      "title": "Fenerbahce v Liverpool: Champions League – live",
+      "summary": "Minute-by-minute updates on the early kick-off in Turkey",
+      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
     },
     {
       "date": "2026-11-04",
       "source": "Liverpool Echo",
-      "title": "Liverpool set to reward Trey Nyoni with new contract as talks advance for improved deal",
-      "summary": "The 19-year-old made his first Premier League start against Arsenal on Sunday and has impressed off the bench all season.",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-set-reward-trey-nyoni-34861446"
+      "title": "Fenerbahce vs Liverpool LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "summary": "Live coverage of Liverpool's Champions League clash against Fenerbahce at the Chobani Stadium as they look to make it four league phase wins from four",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-live-team-34863318"
+    },
+    {
+      "date": "2026-11-04",
+      "source": "Liverpool Echo",
+      "title": "Fenerbahce 3-5 Liverpool U19 - UEFA Youth League thriller as it happened",
+      "summary": "Liverpool U19 are in UEFA Youth League action against Fenerbahce at Pendik Stadium in Istanbul. Follow live updates.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-u19-live-34860321"
     },
     {
       "date": "2026-11-03",
@@ -1158,13 +1165,6 @@
       "title": "‘We have to tell them to go down’: Iraola responds to Isak penalty denial for Liverpool",
       "summary": "Manager rues two dismissed penalty claims by referee",
       "url": "https://www.theguardian.com/football/2026/nov/01/andoni-iraola-responds-liverpool-penalty-denial-arsenal-premier-league"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "The Guardian",
-      "title": "Liverpool’s work in progress fizzles out in the face of streetwise champions | Andy Hunter",
-      "summary": "Afternoon began with talk of a title bid, but Arsenal looked more and more comfortable as the second half wore on",
-      "url": "https://www.theguardian.com/football/2026/nov/01/liverpool-work-in-progress-fizzles-out-arsenal-premier-league"
     }
   ],
   "outlets": [
