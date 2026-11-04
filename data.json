@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T00:12:03Z",
+  "updated": "2026-11-04T13:08:38Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -636,7 +636,7 @@
       "watchAt": "shakespeares",
       "usLocked": false,
       "us": "Paramount+",
-      "usUrl": "https://www.cbssports.com/watch/champions-league/LET-211534983",
+      "usUrl": "https://www.cbssports.com/watch/champions-league",
       "h2h": []
     },
     {
@@ -762,13 +762,13 @@
       "usLocked": false
     },
     {
+      "comp": "Carabao Cup QF",
       "opp": "Bournemouth",
       "ha": "H",
-      "comp": "Carabao Cup QF",
-      "scope": "domestic",
       "tbc": true,
       "kickoff": "2026-12-14T12:00:00Z",
       "dateTbc": true,
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1035,76 +1035,66 @@
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He picked up a muscle problem early at Brentford and is out until after the international break. A possible return is the Manchester United game on 22 November.",
+      "detail": "He pulled a muscle minutes after coming on at Brentford and will be out until after the international break. A possible return is the Manchester United game on 22 November.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
-      "reported": "2026-11-03"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
+      "reported": "2026-11-04"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still recovering from an Achilles injury picked up late last season. A possible return is around December 2026.",
+      "detail": "He is still recovering from an Achilles rupture suffered late last season. He is aiming to play again before the turn of the year.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
-      "reported": "2026-11-03"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
+      "reported": "2026-11-04"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is stepping up his knee recovery and remains unavailable. A possible return is late November 2026.",
+      "detail": "He is stepping up his knee recovery and remains unavailable. He is aiming to feature again before the turn of the year.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
-      "reported": "2026-11-03"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
+      "reported": "2026-11-04"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is still building back up after an ACL injury, with a recent setback in his recovery. He is expected to be back over the international break, though a Manchester United return on 22 November is uncertain.",
+      "detail": "He is still building back up after an ACL injury and a setback in his recovery. He is expected to feature after the international break, though a Manchester United return on 22 November is uncertain.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-fenerbahce-34853093",
-      "reported": "2026-11-03"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
+      "reported": "2026-11-04"
     },
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "He has a heel problem and will miss the Champions League trip to Fenerbahce while he stays in Liverpool for treatment. The club has not yet given a return date.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/ryan-gravenberch-injury-update",
-      "reported": "2026-11-03"
-    },
-    {
-      "player": "Dominik Szoboszlai",
-      "pos": "MF",
-      "status": "back",
-      "issue": "Hamstring",
-      "detail": "He is back fit after a hamstring injury and came on against Arsenal on 1 November. He is in contention to start at Fenerbahce.",
+      "detail": "He has a heel problem, was left out of the Fenerbahce trip, and is being treated at Liverpool. The club has not given a return date.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-liverpool-ryan-gravenberch-injury-34854145",
-      "reported": "2026-11-03"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
+      "reported": "2026-11-04"
     }
   ],
   "news": [
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola wasting no more time on Arsenal as Liverpool aim to keep perfect record alive",
-      "summary": "Liverpool take on Fenerbache in Istanbul in the Champions League on Wednesday evening",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-wasting-no-more-34858771"
+      "title": "Fenerbahce vs Liverpool U19 LIVE - UEFA Youth League updates from Istanbul",
+      "summary": "Liverpool U19 are in UEFA Youth League action against Fenerbahce at Pendik Stadium in Istanbul. Follow live updates.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-u19-live-34860321"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "source": "Liverpool Echo",
-      "title": "Bradley Barcola sends instruction to Andoni Iraola as Liverpool star speaks mind - 'In my opinion'",
-      "summary": "Bradley Barcola has offered his advice to Liverpool boss Andoni Iraola about a potential change of tactic going forward and pulled no punches about his own start",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-liverpool-andoni-iraola-34858471"
+      "title": "Liverpool set to reward Trey Nyoni with new contract as talks advance for improved deal",
+      "summary": "The 19-year-old made his first Premier League start against Arsenal on Sunday and has impressed off the bench all season.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-set-reward-trey-nyoni-34861446"
     },
     {
       "date": "2026-11-03",
