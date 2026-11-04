@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T18:26:38Z",
+  "updated": "2026-11-04T20:50:20Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -543,14 +543,6 @@
   },
   "results": [
     {
-      "date": "2026-09-12",
-      "opp": "Fulham",
-      "ha": "H",
-      "score": "0-0",
-      "r": "D",
-      "comp": "Premier League"
-    },
-    {
       "date": "2026-09-15",
       "opp": "Tottenham Hotspur",
       "ha": "H",
@@ -622,23 +614,17 @@
       "score": "0-1",
       "r": "L",
       "comp": "Premier League"
+    },
+    {
+      "date": "2026-11-04",
+      "opp": "Fenerbahçe",
+      "ha": "A",
+      "score": "2-3",
+      "r": "L",
+      "comp": "Champions League"
     }
   ],
   "fixtures": [
-    {
-      "kickoff": "2026-11-04T17:45:00Z",
-      "opp": "Fenerbahçe",
-      "ha": "A",
-      "comp": "Champions League",
-      "scope": "international",
-      "venue": "Istanbul, Turkey",
-      "venueClosed": false,
-      "watchAt": "shakespeares",
-      "usLocked": false,
-      "us": "Paramount+",
-      "usUrl": "https://www.cbssports.com/watch/champions-league",
-      "h2h": []
-    },
     {
       "kickoff": "2026-11-08T14:00:00Z",
       "opp": "Crystal Palace",
@@ -1084,24 +1070,38 @@
   "news": [
     {
       "date": "2026-11-04",
-      "source": "The Guardian",
-      "title": "Fenerbahce v Liverpool: Champions League – live",
-      "summary": "Minute-by-minute updates on the early kick-off in Turkey",
-      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola points finger of blame for Liverpool loss to Fenerbahce - 'The main reason'",
+      "summary": "Liverpool boss Andoni Iraola has been speaking after the Champions League clash against Fenerbahce in Istanbul on Wednesday evening",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-points-finger-blame-34864136"
     },
     {
       "date": "2026-11-04",
       "source": "Liverpool Echo",
-      "title": "Fenerbahce vs Liverpool LIVE - score, Trey Nyoni, Mason Greenwood goals, commentary stream",
+      "title": "Fenerbahce 3 Liverpool 2 LIVE - Andoni Iraola and Kostas Tsimikas react as Reds suffer first Champions League loss",
       "summary": "Live coverage of Liverpool's Champions League clash against Fenerbahce at the Chobani Stadium as they look to make it four league phase wins from four",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-live-team-34863318"
     },
     {
       "date": "2026-11-04",
-      "source": "Liverpool Echo",
-      "title": "Fenerbahce 3-5 Liverpool U19 - UEFA Youth League thriller as it happened",
-      "summary": "Liverpool U19 are in UEFA Youth League action against Fenerbahce at Pendik Stadium in Istanbul. Follow live updates.",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-u19-live-34860321"
+      "source": "The Guardian",
+      "title": "Fenerbahce 3-2 Liverpool: Champions League – as it happened",
+      "summary": "Liverpool led twice and lost once against Dirk Kuyt’s Fenerbahce on a wet night in Istanbul",
+      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
+    },
+    {
+      "date": "2026-11-04",
+      "source": "The Guardian",
+      "title": "Muriqi caps Fenerbahce comeback to make Liverpool pay for defensive lapses",
+      "summary": "Andoni Iraola arrived in Istanbul hoping to plug Liverpool’s flaws in attack only for holes to appear at the opposite end of the pitch.",
+      "url": "https://www.theguardian.com/football/2026/nov/04/muriqi-caps-fenerbahce-comeback-to-make-liverpool-pay-for-defensive-lapses"
+    },
+    {
+      "date": "2026-11-04",
+      "source": "Sky Sports",
+      "title": "Liverpool suffer first CL defeat of season after stunning Fenerbahce comeback",
+      "summary": "Liverpool's perfect start to their Champions League campaign came to a sudden halt as they lost two leads in a 3-2 defeat to Fenerbahce in Istanbul.",
+      "url": "https://www.skysports.com/football/fenerbahce-vs-liverpool/report/577663"
     },
     {
       "date": "2026-11-03",
@@ -1151,20 +1151,6 @@
       "title": "Barcola: People are starting to understand me better - but I'm not Mo Salah",
       "summary": "Big money signings can take time to get going at their new club. There are plenty at Liverpool who can testify to that.",
       "url": "https://www.skysports.com/football/news/11669/13607009/bradley-barcola-interview-liverpool-winger-discusses-leaving-psg-settling-in-at-anfield-overcoming-the-price-tag-and-mohamed-salah-pressure"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "BBC Sport",
-      "title": "Should Alexander Isak have made more of shirt pull?",
-      "summary": "Liverpool fan Abigail Rudkin says there's no need to overreact after Arsenal defeat.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c3x2wkkpr2veo"
-    },
-    {
-      "date": "2026-11-01",
-      "source": "The Guardian",
-      "title": "‘We have to tell them to go down’: Iraola responds to Isak penalty denial for Liverpool",
-      "summary": "Manager rues two dismissed penalty claims by referee",
-      "url": "https://www.theguardian.com/football/2026/nov/01/andoni-iraola-responds-liverpool-penalty-denial-arsenal-premier-league"
     }
   ],
   "outlets": [
@@ -1211,17 +1197,39 @@
       },
       {
         "pos": 2,
-        "team": "Liverpool",
+        "team": "Real Madrid",
+        "p": 4,
+        "w": 4,
+        "d": 0,
+        "l": 0,
+        "gf": 13,
+        "ga": 7,
+        "pts": 12
+      },
+      {
+        "pos": 3,
+        "team": "Arsenal",
         "p": 4,
         "w": 3,
         "d": 1,
         "l": 0,
-        "gf": 13,
-        "ga": 8,
+        "gf": 8,
+        "ga": 2,
         "pts": 10
       },
       {
-        "pos": 3,
+        "pos": 4,
+        "team": "Real Betis Balompié",
+        "p": 4,
+        "w": 3,
+        "d": 1,
+        "l": 0,
+        "gf": 7,
+        "ga": 4,
+        "pts": 10
+      },
+      {
+        "pos": 5,
         "team": "Barcelona",
         "p": 4,
         "w": 3,
@@ -1232,7 +1240,18 @@
         "pts": 9
       },
       {
-        "pos": 4,
+        "pos": 6,
+        "team": "Como 1907",
+        "p": 4,
+        "w": 3,
+        "d": 0,
+        "l": 1,
+        "gf": 13,
+        "ga": 5,
+        "pts": 9
+      },
+      {
+        "pos": 7,
         "team": "Aston Villa",
         "p": 4,
         "w": 3,
@@ -1243,8 +1262,30 @@
         "pts": 9
       },
       {
-        "pos": 5,
-        "team": "Real Madrid",
+        "pos": 8,
+        "team": "Manchester City",
+        "p": 4,
+        "w": 3,
+        "d": 0,
+        "l": 1,
+        "gf": 10,
+        "ga": 5,
+        "pts": 9
+      },
+      {
+        "pos": 9,
+        "team": "Liverpool",
+        "p": 4,
+        "w": 3,
+        "d": 0,
+        "l": 1,
+        "gf": 14,
+        "ga": 10,
+        "pts": 9
+      },
+      {
+        "pos": 10,
+        "team": "Club Brugge",
         "p": 4,
         "w": 3,
         "d": 0,
@@ -1254,7 +1295,7 @@
         "pts": 9
       },
       {
-        "pos": 6,
+        "pos": 11,
         "team": "Sporting CP",
         "p": 4,
         "w": 3,
@@ -1265,18 +1306,7 @@
         "pts": 9
       },
       {
-        "pos": 7,
-        "team": "Real Betis Balompié",
-        "p": 3,
-        "w": 3,
-        "d": 0,
-        "l": 0,
-        "gf": 7,
-        "ga": 4,
-        "pts": 9
-      },
-      {
-        "pos": 8,
+        "pos": 12,
         "team": "Bayern Munich",
         "p": 4,
         "w": 2,
@@ -1287,18 +1317,7 @@
         "pts": 8
       },
       {
-        "pos": 9,
-        "team": "Arsenal",
-        "p": 3,
-        "w": 2,
-        "d": 1,
-        "l": 0,
-        "gf": 6,
-        "ga": 2,
-        "pts": 7
-      },
-      {
-        "pos": 10,
+        "pos": 13,
         "team": "VfB Stuttgart",
         "p": 4,
         "w": 2,
@@ -1309,40 +1328,18 @@
         "pts": 7
       },
       {
-        "pos": 11,
-        "team": "Como 1907",
-        "p": 3,
-        "w": 2,
-        "d": 0,
-        "l": 1,
-        "gf": 10,
-        "ga": 5,
-        "pts": 6
-      },
-      {
-        "pos": 12,
-        "team": "Manchester City",
-        "p": 3,
-        "w": 2,
-        "d": 0,
-        "l": 1,
-        "gf": 9,
-        "ga": 5,
-        "pts": 6
-      },
-      {
-        "pos": 13,
-        "team": "Club Brugge",
-        "p": 3,
-        "w": 2,
-        "d": 0,
-        "l": 1,
-        "gf": 9,
-        "ga": 6,
-        "pts": 6
-      },
-      {
         "pos": 14,
+        "team": "Borussia Dortmund",
+        "p": 4,
+        "w": 2,
+        "d": 1,
+        "l": 1,
+        "gf": 5,
+        "ga": 4,
+        "pts": 7
+      },
+      {
+        "pos": 15,
         "team": "Inter Milan",
         "p": 4,
         "w": 2,
@@ -1353,7 +1350,7 @@
         "pts": 6
       },
       {
-        "pos": 15,
+        "pos": 16,
         "team": "LASK Linz",
         "p": 4,
         "w": 2,
@@ -1361,17 +1358,6 @@
         "l": 2,
         "gf": 10,
         "ga": 9,
-        "pts": 6
-      },
-      {
-        "pos": 16,
-        "team": "Borussia Dortmund",
-        "p": 3,
-        "w": 2,
-        "d": 0,
-        "l": 1,
-        "gf": 5,
-        "ga": 4,
         "pts": 6
       },
       {
@@ -1398,14 +1384,14 @@
       },
       {
         "pos": 19,
-        "team": "PAE AEK",
+        "team": "Fenerbahçe",
         "p": 4,
-        "w": 2,
-        "d": 0,
-        "l": 2,
-        "gf": 4,
-        "ga": 8,
-        "pts": 6
+        "w": 1,
+        "d": 2,
+        "l": 1,
+        "gf": 6,
+        "ga": 11,
+        "pts": 5
       },
       {
         "pos": 20,
@@ -1431,17 +1417,6 @@
       },
       {
         "pos": 22,
-        "team": "PSV",
-        "p": 3,
-        "w": 1,
-        "d": 1,
-        "l": 1,
-        "gf": 2,
-        "ga": 2,
-        "pts": 4
-      },
-      {
-        "pos": 23,
         "team": "Atlético Madrid",
         "p": 4,
         "w": 1,
@@ -1452,7 +1427,40 @@
         "pts": 4
       },
       {
+        "pos": 23,
+        "team": "PSV",
+        "p": 4,
+        "w": 1,
+        "d": 1,
+        "l": 2,
+        "gf": 2,
+        "ga": 3,
+        "pts": 4
+      },
+      {
         "pos": 24,
+        "team": "SSC Napoli",
+        "p": 4,
+        "w": 1,
+        "d": 1,
+        "l": 2,
+        "gf": 6,
+        "ga": 8,
+        "pts": 4
+      },
+      {
+        "pos": 25,
+        "team": "Sabah FK",
+        "p": 4,
+        "w": 1,
+        "d": 1,
+        "l": 2,
+        "gf": 4,
+        "ga": 7,
+        "pts": 4
+      },
+      {
+        "pos": 26,
         "team": "FK Bodø/Glimt",
         "p": 4,
         "w": 1,
@@ -1463,51 +1471,7 @@
         "pts": 4
       },
       {
-        "pos": 25,
-        "team": "SSC Napoli",
-        "p": 3,
-        "w": 1,
-        "d": 0,
-        "l": 2,
-        "gf": 5,
-        "ga": 7,
-        "pts": 3
-      },
-      {
-        "pos": 26,
-        "team": "Sabah FK",
-        "p": 3,
-        "w": 1,
-        "d": 0,
-        "l": 2,
-        "gf": 3,
-        "ga": 6,
-        "pts": 3
-      },
-      {
         "pos": 27,
-        "team": "Lens",
-        "p": 3,
-        "w": 1,
-        "d": 0,
-        "l": 2,
-        "gf": 3,
-        "ga": 7,
-        "pts": 3
-      },
-      {
-        "pos": 28,
-        "team": "RB Leipzig",
-        "p": 3,
-        "w": 1,
-        "d": 0,
-        "l": 2,
-        "gf": 3,
-        "ga": 8,
-        "pts": 3
-      },
-      {
-        "pos": 29,
         "team": "Villarreal",
         "p": 4,
         "w": 1,
@@ -1518,18 +1482,29 @@
         "pts": 3
       },
       {
-        "pos": 30,
-        "team": "Fenerbahçe",
+        "pos": 28,
+        "team": "PAE AEK",
         "p": 4,
-        "w": 0,
-        "d": 3,
-        "l": 1,
-        "gf": 4,
-        "ga": 10,
+        "w": 1,
+        "d": 0,
+        "l": 3,
+        "gf": 5,
+        "ga": 11,
         "pts": 3
       },
       {
-        "pos": 31,
+        "pos": 29,
+        "team": "RB Leipzig",
+        "p": 4,
+        "w": 1,
+        "d": 0,
+        "l": 3,
+        "gf": 3,
+        "ga": 9,
+        "pts": 3
+      },
+      {
+        "pos": 30,
         "team": "Feyenoord Rotterdam",
         "p": 4,
         "w": 1,
@@ -1540,29 +1515,51 @@
         "pts": 3
       },
       {
+        "pos": 31,
+        "team": "Lens",
+        "p": 4,
+        "w": 1,
+        "d": 0,
+        "l": 3,
+        "gf": 3,
+        "ga": 10,
+        "pts": 3
+      },
+      {
         "pos": 32,
-        "team": "SK Slavia Praha",
-        "p": 3,
+        "team": "Viking FK",
+        "p": 4,
+        "w": 0,
+        "d": 2,
+        "l": 2,
+        "gf": 6,
+        "ga": 10,
+        "pts": 2
+      },
+      {
+        "pos": 33,
+        "team": "FC Porto",
+        "p": 4,
         "w": 0,
         "d": 1,
-        "l": 2,
-        "gf": 4,
+        "l": 3,
+        "gf": 3,
         "ga": 7,
         "pts": 1
       },
       {
-        "pos": 33,
-        "team": "Viking FK",
-        "p": 3,
+        "pos": 34,
+        "team": "SK Slavia Praha",
+        "p": 4,
         "w": 0,
         "d": 1,
-        "l": 2,
-        "gf": 5,
+        "l": 3,
+        "gf": 4,
         "ga": 9,
         "pts": 1
       },
       {
-        "pos": 34,
+        "pos": 35,
         "team": "Lille OSC",
         "p": 4,
         "w": 0,
@@ -1571,17 +1568,6 @@
         "gf": 4,
         "ga": 10,
         "pts": 1
-      },
-      {
-        "pos": 35,
-        "team": "FC Porto",
-        "p": 3,
-        "w": 0,
-        "d": 0,
-        "l": 3,
-        "gf": 2,
-        "ga": 6,
-        "pts": 0
       },
       {
         "pos": 36,
