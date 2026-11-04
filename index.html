@@ -326,6 +326,11 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .lu-pl i { font: normal 800 1rem/1 var(--font-display); width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center;
   background: #c8102e; color: #fff; box-shadow: 0 0 0 2px #fff; }
 .lu-pl.gk i { background: #f2c230; color: #1c1517; }
+/* A substitute now in this spot: small green arrow on the shirt number */
+.lu-pl.sub i { position: relative; }
+.lu-pl.sub i::after { content: "▲"; position: absolute; top: -4px; right: -5px; width: 13px; height: 13px; border-radius: 50%; display: grid; place-items: center;
+  background: #1f9d55; color: #fff; font: normal 400 7px/1 sans-serif; box-shadow: 0 0 0 1px #fff; }
+.lu-subs .lu-came { display: block; font-size: .74rem; color: var(--muted); }
 .lu-pitch.opp .lu-pl i { background: #f3f3f3; color: #1c1517; box-shadow: 0 0 0 2px #1c1517; }
 .lu-pitch.opp .lu-pl.gk i { background: #3a3a3a; color: #fff; box-shadow: 0 0 0 2px #fff; }
 .lu-pl span { font-size: .74rem; font-weight: 600; color: #fff; line-height: 1.15; text-shadow: 0 1px 2px rgba(0,0,0,.6);
@@ -1105,6 +1110,7 @@ function render(data) {
     var luShown = "", luSide = "liv", luSubsOpen = false;
     var LU_NAMES = { "Alisson Becker": "Alisson", "Gabriel Magalhães": "Gabriel" };
     var luName = function (p) { return LU_NAMES[p.full] || p.name || p.full; };
+    var luMin = function (m) { return String(m || "").replace(/'\+/, "+").replace(/'/g, "′"); };
     // Folded by this visitor for this match? (remembered in their browser by kick-off time; open again next match)
     var luFoldNow = null;   // this visit's choice, so a refresh of the data keeps it even where storage is blocked
     var luFolded = function () {
@@ -1160,8 +1166,11 @@ function render(data) {
         out.forEach(function (p) { var l = lines[lines.length - 1]; if (l && luDepth(l[0].pos) === luDepth(p.pos)) l.push(p); else lines.push([p]); });
       }
       var spot = function (p, x, y) {
-        return "<div class=\"lu-pl" + (p === keeper ? " gk" : "") + "\" style=\"left:" + x.toFixed(1) + "%;top:" + y.toFixed(1) + "%\" title=\"" + esc(p.full) + "\">" +
-          "<i>" + esc(p.no) + "</i><span>" + esc(luName(p)) + "</span></div>";
+        // A substitute takes the spot of the player he replaced
+        var c = p.on || p;
+        return "<div class=\"lu-pl" + (p === keeper ? " gk" : "") + (p.on ? " sub" : "") + "\" style=\"left:" + x.toFixed(1) + "%;top:" + y.toFixed(1) + "%\" title=\"" +
+          esc(c.full + (p.on ? " (on " + luMin(c.at) + " for " + p.full + ")" : "")) + "\">" +
+          "<i>" + esc(c.no) + "</i><span>" + esc(luName(c)) + "</span></div>";
       };
       var html = spot(keeper, 50, 88);
       lines.forEach(function (line, k) {
@@ -1170,8 +1179,8 @@ function render(data) {
         var gap = line.length > 1 ? Math.min(34, 76 / (line.length - 1)) : 0;
         line.forEach(function (p, i) { html += spot(p, 50 + (i - (line.length - 1) / 2) * gap, y); });
       });
-      return "<div class=\"lu-pitch" + (opp ? " opp" : "") + "\" role=\"img\" aria-label=\"" + esc(t.name) + " starting eleven: " +
-        esc(t.xi.map(luName).join(", ")) + "\"><div class=\"bx\"></div><div class=\"bx6\"></div><div class=\"arc\"></div>" + html + "</div>";
+      return "<div class=\"lu-pitch" + (opp ? " opp" : "") + "\" role=\"img\" aria-label=\"" + esc(t.name) + " line-up: " +
+        esc(t.xi.map(function (p) { return luName(p.on || p); }).join(", ")) + "\"><div class=\"bx\"></div><div class=\"bx6\"></div><div class=\"arc\"></div>" + html + "</div>";
     };
     var showLineups = function (lu) {
       var livKey = next.ha === "H" ? "home" : "away", oppKey = livKey === "home" ? "away" : "home";
@@ -1202,7 +1211,8 @@ function render(data) {
         "<div class=\"lu-panel\" id=\"lu-panel\"><div><div class=\"lu-grid\">" + luPitch(t, luSide === "opp") +
         "<div><button type=\"button\" class=\"lu-subs-t\" aria-expanded=\"" + luSubsOpen + "\" aria-controls=\"lu-subs\">" + (luSubsOpen ? "Hide subs" : "Subs") + "</button>" +
         "<div class=\"lu-subs" + (luSubsOpen ? " open" : "") + "\" id=\"lu-subs\"><h3 class=\"label\">Substitutes</h3><ul>" +
-        t.subs.map(function (p) { return "<li title=\"" + esc(p.full) + "\"><span class=\"mono\">" + esc(p.no) + "</span>" + esc(luName(p)) + "</li>"; }).join("") +
+        t.subs.map(function (p) { return "<li title=\"" + esc(p.full) + "\"><span class=\"mono\">" + esc(p.no) + "</span><span>" + esc(luName(p)) +
+          (p.came ? "<span class=\"lu-came\">On " + esc(luMin(p.came.at)) + (p.came.for ? " for " + esc(p.came.for) : "") + "</span>" : "") + "</span></li>"; }).join("") +
         "</ul></div></div></div><p class=\"lu-src\">From ESPN · updates on its own</p></div></div>";
       luBand.classList.add("on");
       luBand.classList.toggle("folded", folded);
