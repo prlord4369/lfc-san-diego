@@ -1093,7 +1093,7 @@ function render(data) {
         return events.filter(function (e) { return e.side === sideName && mark[e.kind]; }).map(function (e) {
           var extra = e.kind === "pen" ? " (pen)" : e.kind === "og" ? " (og)" : "";
           return "<li title=\"" + spoken[e.kind] + "\">" + mark[e.kind] + "<span class=\"sr\">" + spoken[e.kind] + ": </span>" +
-            esc(e.player) + extra + " <span class=\"min\">" + esc(e.minute.replace(/'\+/, "+").replace(/'/g, "′")) + "</span></li>";
+            esc(e.player || (e.kind === "yellow" || e.kind === "red" ? "Team staff" : "")) + extra + " <span class=\"min\">" + esc(e.minute.replace(/'\+/, "+").replace(/'/g, "′")) + "</span></li>";
         }).join("");
       };
       return "<div class=\"evs\"><ul>" + list("home") + "</ul><ul>" + list("away") + "</ul></div>";
