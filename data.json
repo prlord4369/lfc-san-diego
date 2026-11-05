@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T16:38:33Z",
+  "updated": "2026-11-05T18:15:34Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1070,20 +1070,6 @@
   "news": [
     {
       "date": "2026-11-05",
-      "source": "Liverpool Echo",
-      "title": "Alisson and Virgil van Dijk concerns cannot be ignored as Liverpool face transfer decision",
-      "summary": "Liverpool duo Alisson Becker and Virgil van Dijk are both out of contract at the end of the season and Andoni Iraola will have a decision to make",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alisson-virgil-van-dijk-concerns-34866811"
-    },
-    {
-      "date": "2026-11-05",
-      "source": "Liverpool Echo",
-      "title": "Liverpool handed massive Ronald Araujo transfer boost after new agent meets with club chief",
-      "summary": "Liverpool have an option to sign Ronald Araujo permanently from Barcelona for £47m but the player still has to agree to such a move",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-araujo-transfer-barcelona-latest-34867582"
-    },
-    {
-      "date": "2026-11-05",
       "source": "Sky Sports",
       "title": "Carra: Young guns starring shows Liverpool haven't spent money well enough",
       "summary": "Jamie Carragher called Liverpool's recruitment into question after their 3-2 defeat to Fenerbahce in the Champions League.",
@@ -1151,6 +1137,20 @@
       "title": "Maybe we should dive more - Gakpo",
       "summary": "Cody Gakpo responded after Liverpool manager Andoni Iraola suggested that his players need to dive more after being denied a penalty against Arsenal.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmx23kzw4k65o"
+    },
+    {
+      "date": "2026-11-03",
+      "source": "Sky Sports",
+      "title": "Liverpool's unwanted record highlights creativity issue",
+      "summary": "Liverpool set an unwanted record against Arsenal as they failed to register a shot on target for the first time in 442 Premier League home games, dating back to when records began…",
+      "url": "https://www.skysports.com/football/news/11669/13607467/liverpools-unwanted-record-against-arsenal-shows-creativity-problem-under-andoni-iraola-between-the-lines"
+    },
+    {
+      "date": "2026-11-02",
+      "source": "The Guardian",
+      "title": "Stumbling block: Wirtz's and Liverpool’s costly struggles against tight defences | Andrew Beasley",
+      "summary": "Credit to Arsenal for restricting opportunities at Anfield but Iraola will need his side to learn to unpick low backlines",
+      "url": "https://www.theguardian.com/football/2026/nov/02/florian-wirtz-andoni-iraola-liverpool-tight-defences-arsenal-anfield"
     }
   ],
   "outlets": [
