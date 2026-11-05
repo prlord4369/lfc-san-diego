@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T00:16:09Z",
+  "updated": "2026-11-05T13:14:31Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -635,7 +635,7 @@
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "NBCSN / Peacock",
-      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/",
+      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/second-place-manchester-city-visit-nottingham-forest-this-saturday-nov-7-at-12-30-p-m-et-on-nbc-peacock-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend",
       "h2h": [
         {
           "date": "2026-04-25",
@@ -1020,54 +1020,89 @@
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
-      "issue": "Muscle",
-      "detail": "He pulled a muscle minutes after coming on at Brentford and will be out until after the international break. A possible return is the Manchester United game on 22 November.",
+      "issue": "Hamstring",
+      "detail": "He pulled up minutes after coming on at Brentford and the manager says a return before the international break is unlikely. Manchester United on 22 November is the likeliest return.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
-      "reported": "2026-11-04"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
+      "reported": "2026-11-05"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still recovering from an Achilles rupture suffered late last season. He is aiming to play again before the turn of the year.",
+      "detail": "He is still working his way back from an Achilles injury picked up late last season. He is aiming to return before the turn of the year.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
-      "reported": "2026-11-04"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
+      "reported": "2026-11-05"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is stepping up his knee recovery and remains unavailable. He is aiming to feature again before the turn of the year.",
+      "detail": "He has been out since a serious knee injury in January and is still stepping up his recovery. A return is hoped for later in the season, with Liverpool expected to be cautious.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
-      "reported": "2026-11-04"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
+      "reported": "2026-11-05"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is still building back up after an ACL injury and a setback in his recovery. He is expected to feature after the international break, though a Manchester United return on 22 November is uncertain.",
+      "detail": "He is still building back up after an ACL injury and a recovery setback. He is expected to feature after the international break, though a Manchester United return on 22 November is uncertain.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
-      "reported": "2026-11-04"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
+      "reported": "2026-11-05"
     },
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
-      "status": "out",
+      "status": "doubt",
       "issue": "Heel",
-      "detail": "He has a heel problem, was left out of the Fenerbahce trip, and is being treated at Liverpool. The club has not given a return date.",
+      "detail": "A heel problem kept him out of the Fenerbahce trip, and he is being monitored day to day. He could feature against Crystal Palace on 8 November, but would otherwise aim to return after the international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-fenerbahce-gravenberch-34859028",
-      "reported": "2026-11-04"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
+      "reported": "2026-11-05"
     }
   ],
   "news": [
+    {
+      "date": "2026-11-05",
+      "source": "Liverpool Echo",
+      "title": "'A little worry' - Jamie Carragher says two Liverpool players highlight transfer spend problems",
+      "summary": "Jamie Carragher questions Liverpool's transfer decisions after Wednesday's 3-2 defeat to Fenerbahce in the Champions League",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/a-little-worry-jamie-carragher-34866373"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Liverpool Echo",
+      "title": "Liverpool fans race to get 50% off 26/27 home and away shirts as flash sale ends soon",
+      "summary": "Liverpool's 2026/27 home and away jerseys are half price at one retailer ahead of Black Friday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-2027-shirt-deal-offer-34804057"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "Sky Sports",
+      "title": "Carra: Young guns starring shows Liverpool haven't spent money well enough",
+      "summary": "Jamie Carragher called Liverpool's recruitment into question after their 3-2 defeat to Fenerbahce in the Champions League.",
+      "url": "https://www.skysports.com/football/news/11669/13608280/liverpool-trey-nyoni-and-rio-ngumoha-starring-shows-reds-havent-spent-money-well-enough-says-jamie-carragher"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "BBC Sport",
+      "title": "Another 'miracle' in Istanbul - but this one hurt Liverpool",
+      "summary": "Liverpool conceded \"cheap\" and \"messy\" goals in their defeat by Fenerbahce, says boss Andoni Iraola, as former Reds hero Dirk Kuyt celebrates a \"miracle\" in Istanbul.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwx28z712rd8o"
+    },
+    {
+      "date": "2026-11-05",
+      "source": "BBC Sport",
+      "title": "Liverpool fan critical of Jeremy Jacquet performance",
+      "summary": "Liverpool fan Nahyan Chowdhury believes Jeremy Jacquet is at fault for two of Fenerbahce's goals during their 3-2 win over Liverpool.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr20w9y2en63o"
+    },
     {
       "date": "2026-11-04",
       "source": "BBC Sport",
@@ -1078,30 +1113,9 @@
     {
       "date": "2026-11-04",
       "source": "BBC Sport",
-      "title": "Another 'miracle' in Istanbul - but this one hurt Liverpool",
-      "summary": "Liverpool conceded \"cheap\" and \"messy\" goals in their defeat by Fenerbahce, says boss Andoni Iraola, as former Reds hero Dirk Kuyt celebrates a \"miracle\" in Istanbul.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx28z712rd8o"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "BBC Sport",
       "title": "Squad rotation not the 'main reason' for Liverpool's defeat",
       "summary": "Liverpool head coach Andoni Iraola refuses to blame squad rotation for defeat to Fenerbahce in the Champions League.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cjn5vd10v9g3o"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Liverpool Echo",
-      "title": "Fenerbahce 3 Liverpool 2 LIVE - Andoni Iraola and Kostas Tsimikas react as Reds suffer first Champions League loss",
-      "summary": "Live coverage of Liverpool's Champions League clash against Fenerbahce at the Chobani Stadium as they look to make it four league phase wins from four",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-vs-liverpool-live-team-34863318"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "Liverpool Echo",
-      "title": "Alexander Isak makes blunt admission after Liverpool loss to Fenerbahce - 'We were lacking'",
-      "summary": "Alexander Isak has reacted after Liverpool slumped to Champions League defeat at Fenerbahce on Wednesday evening",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-makes-blunt-admission-34864662"
     },
     {
       "date": "2026-11-04",
@@ -1120,7 +1134,7 @@
     {
       "date": "2026-11-04",
       "source": "Sky Sports",
-      "title": "Liverpool suffer first CL defeat of season after stunning Fenerbahce comeback",
+      "title": "Liverpool suffer first CL defeat of season as Kuyt savours 'miracle' in Istanbul",
       "summary": "Liverpool's perfect start to their Champions League campaign came to a sudden halt as they lost two leads in a 3-2 defeat to Fenerbahce in Istanbul.",
       "url": "https://www.skysports.com/football/fenerbahce-vs-liverpool/report/577663"
     },
@@ -1137,20 +1151,6 @@
       "title": "Maybe we should dive more - Gakpo",
       "summary": "Cody Gakpo responded after Liverpool manager Andoni Iraola suggested that his players need to dive more after being denied a penalty against Arsenal.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cmx23kzw4k65o"
-    },
-    {
-      "date": "2026-11-03",
-      "source": "BBC Sport",
-      "title": "Are Liverpool players too meek?",
-      "summary": "The Anfield Wrap's John Gibbons says Liverpool forwards need to be a little 'gnarlier'",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c5398e2yz0p8o"
-    },
-    {
-      "date": "2026-11-03",
-      "source": "Sky Sports",
-      "title": "Liverpool's unwanted record highlights creativity issue",
-      "summary": "Liverpool set an unwanted record against Arsenal as they failed to register a shot on target for the first time in 442 Premier League home games, dating back to when records began…",
-      "url": "https://www.skysports.com/football/news/11669/13607467/liverpools-unwanted-record-against-arsenal-shows-creativity-problem-under-andoni-iraola-between-the-lines"
     }
   ],
   "outlets": [
