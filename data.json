@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T18:22:58Z",
+  "updated": "2026-11-06T20:43:20Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -388,13 +388,13 @@
       {
         "pos": 7,
         "team": "Everton",
-        "p": 9,
+        "p": 10,
         "w": 3,
-        "d": 4,
+        "d": 5,
         "l": 2,
         "gf": 9,
         "ga": 9,
-        "pts": 13
+        "pts": 14
       },
       {
         "pos": 8,
@@ -475,6 +475,17 @@
       },
       {
         "pos": 15,
+        "team": "Coventry City",
+        "p": 10,
+        "w": 3,
+        "d": 1,
+        "l": 6,
+        "gf": 9,
+        "ga": 16,
+        "pts": 10
+      },
+      {
+        "pos": 16,
         "team": "Fulham",
         "p": 9,
         "w": 2,
@@ -482,17 +493,6 @@
         "l": 4,
         "gf": 9,
         "ga": 11,
-        "pts": 9
-      },
-      {
-        "pos": 16,
-        "team": "Coventry City",
-        "p": 9,
-        "w": 3,
-        "d": 0,
-        "l": 6,
-        "gf": 9,
-        "ga": 16,
         "pts": 9
       },
       {
@@ -1070,24 +1070,24 @@
   "news": [
     {
       "date": "2026-11-06",
+      "source": "Liverpool Echo",
+      "title": "Jurgen Klopp copies Liverpool ritual he once changed as Germany footage emerges",
+      "summary": "Jurgen Klopp has revived a ritual from his time as Liverpool manager with the Germany national team",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-liverpool-germany-manager-34876703"
+    },
+    {
+      "date": "2026-11-06",
+      "source": "Liverpool Echo",
+      "title": "Gravenberch, Leoni, Ekitike - Liverpool injury news and return dates ahead of Crystal Palace",
+      "summary": "The latest Liverpool injury and team news ahead of the Premier League match away to Crystal Palace on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/gravenberch-leoni-ekitike-liverpool-injury-34874684"
+    },
+    {
+      "date": "2026-11-06",
       "source": "BBC Sport",
       "title": "Sometimes we're too honest - Liverpool's Iraola",
       "summary": "Liverpool Head Coach Andoni Iraola says his team are sometimes 'too honest' as they prepare to play Crystal Palace at Selhurst Park on Sunday.",
       "url": "https://www.bbc.co.uk/sport/football/videos/c6n8ddjjj935o"
-    },
-    {
-      "date": "2026-11-06",
-      "source": "Liverpool Echo",
-      "title": "Fenerbahce showed Andoni Iraola that Liverpool they haven't yet purged defensive problems",
-      "summary": "TACTICAL ANALYSIS: Familiar concerns reared their heads again for Liverpool in Turkiye as the Reds conceded three preventable goals",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/fenerbahce-showed-andoni-iraola-liverpool-34867934"
-    },
-    {
-      "date": "2026-11-06",
-      "source": "Liverpool Echo",
-      "title": "Trey Nyoni on his Liverpool role and Andoni Iraola's faith - 'I don’t get nervous, never'",
-      "summary": "Interview with Liverpool midfielder Trey Nyoni on a potential new contract, adapting to being a first-team star and mixing it with the good and great of the Premier League",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/trey-nyoni-liverpool-role-andoni-34875485"
     },
     {
       "date": "2026-11-06",
