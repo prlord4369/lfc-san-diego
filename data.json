@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-06T20:43:20Z",
+  "updated": "2026-11-07T00:10:31Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
     "map": "https://www.google.com/maps/search/?api=1&query=Whiskey+Girl+702+Fifth+Ave+San+Diego+CA"
   },
   "standing": {
-    "position": "5th",
+    "position": "6th",
     "competition": "Premier League",
     "record": "P9 W4 D3 L2 · 15 pts"
   },
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
   },
   "table": {
-    "asof": "2026-11-06",
+    "asof": "2026-11-07",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -365,6 +365,17 @@
       },
       {
         "pos": 5,
+        "team": "Everton",
+        "p": 10,
+        "w": 4,
+        "d": 4,
+        "l": 2,
+        "gf": 12,
+        "ga": 10,
+        "pts": 16
+      },
+      {
+        "pos": 6,
         "team": "Liverpool",
         "p": 9,
         "w": 4,
@@ -375,24 +386,13 @@
         "pts": 15
       },
       {
-        "pos": 6,
+        "pos": 7,
         "team": "Brentford",
         "p": 9,
         "w": 3,
         "d": 5,
         "l": 1,
         "gf": 16,
-        "ga": 9,
-        "pts": 14
-      },
-      {
-        "pos": 7,
-        "team": "Everton",
-        "p": 10,
-        "w": 3,
-        "d": 5,
-        "l": 2,
-        "gf": 9,
         "ga": 9,
         "pts": 14
       },
@@ -475,17 +475,6 @@
       },
       {
         "pos": 15,
-        "team": "Coventry City",
-        "p": 10,
-        "w": 3,
-        "d": 1,
-        "l": 6,
-        "gf": 9,
-        "ga": 16,
-        "pts": 10
-      },
-      {
-        "pos": 16,
         "team": "Fulham",
         "p": 9,
         "w": 2,
@@ -493,6 +482,17 @@
         "l": 4,
         "gf": 9,
         "ga": 11,
+        "pts": 9
+      },
+      {
+        "pos": 16,
+        "team": "Coventry City",
+        "p": 10,
+        "w": 3,
+        "d": 0,
+        "l": 7,
+        "gf": 10,
+        "ga": 19,
         "pts": 9
       },
       {
@@ -1071,16 +1071,16 @@
     {
       "date": "2026-11-06",
       "source": "Liverpool Echo",
-      "title": "Jurgen Klopp copies Liverpool ritual he once changed as Germany footage emerges",
-      "summary": "Jurgen Klopp has revived a ritual from his time as Liverpool manager with the Germany national team",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-liverpool-germany-manager-34876703"
+      "title": "Andoni Iraola addresses Alisson Becker's Liverpool future after conceding 'messy' goals",
+      "summary": "Andoni Iraola says discussions have taken place over Alisson Becker's future at Liverpool",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-addresses-alisson-beckers-34874770"
     },
     {
       "date": "2026-11-06",
       "source": "Liverpool Echo",
-      "title": "Gravenberch, Leoni, Ekitike - Liverpool injury news and return dates ahead of Crystal Palace",
-      "summary": "The latest Liverpool injury and team news ahead of the Premier League match away to Crystal Palace on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/gravenberch-leoni-ekitike-liverpool-injury-34874684"
+      "title": "Jurgen Klopp copies Liverpool ritual he once changed as Germany footage emerges",
+      "summary": "Jurgen Klopp has revived a ritual from his time as Liverpool manager with the Germany national team",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-liverpool-germany-manager-34876703"
     },
     {
       "date": "2026-11-06",
@@ -1095,13 +1095,6 @@
       "title": "Iraola: We must sacrifice control for creativity to fix scoring woes",
       "summary": "Liverpool must sacrifice control in games in order to fix their creativity problems, Andoni Iraola has demanded ahead of their weekend trip to Crystal Palace, live on Sky Sports.",
       "url": "https://www.skysports.com/football/news/11669/13608882/liverpool-andoni-iraola-demands-creativity-over-control-to-solve-premier-league-scoring-problems"
-    },
-    {
-      "date": "2026-11-05",
-      "source": "Sky Sports",
-      "title": "PL Predictions: How will your team fare this weekend?",
-      "summary": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight across the Premier League weekend.",
-      "url": "https://www.skysports.com/football/news/11669/13607998/premier-league-predictions-jones-knows-best-bets-nottingham-forest-vs-man-city-man-utd-vs-aston-villa-and-more"
     },
     {
       "date": "2026-11-05",
@@ -1151,6 +1144,13 @@
       "title": "Andoni Iraola calls on Liverpool to sharpen up in attack before Fenerbahce test",
       "summary": "Reds target fourth straight Champions League win",
       "url": "https://www.theguardian.com/football/2026/nov/03/andoni-iraola-calls-on-liverpool-to-sharpen-up-in-attack-before-fenerbahce-test"
+    },
+    {
+      "date": "2026-11-03",
+      "source": "Sky Sports",
+      "title": "Liverpool's unwanted record highlights creativity issue",
+      "summary": "Liverpool set an unwanted record against Arsenal as they failed to register a shot on target for the first time in 442 Premier League home games, dating back to when records began…",
+      "url": "https://www.skysports.com/football/news/11669/13607467/liverpools-unwanted-record-against-arsenal-shows-creativity-problem-under-andoni-iraola-between-the-lines"
     }
   ],
   "outlets": [
@@ -1180,7 +1180,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-11-06",
+    "asof": "2026-11-07",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1670,7 +1670,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
   },
   "venues": {
     "whiskeygirl": {
