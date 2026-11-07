@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<script>
+// The Cloudflare Pages production copy isn't the live site: send its visitors to the domain, keeping any #section.
+// Only that exact host; staging.lfc-san-diego.pages.dev and local previews are left alone.
+if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://www.lfcsandiego.com/" + location.hash);
+</script>
 <style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}
 /* ===== History page (#history): Liverpool Legends by decade + Trophy cabinet ===== */
 .hist-intro { margin: 14px 0 0; color: var(--muted); max-width: 70ch; }

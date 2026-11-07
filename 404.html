@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page not found · LFC Supporters Club San Diego</title>
+<!-- Shown by GitHub Pages (and Cloudflare Pages) for any address that doesn't exist, e.g. the club's old site's
+     pages. Paths are absolute because this page can be served at any depth. It keeps the 404 status, so search
+     engines drop the old addresses, while people are sent on to the home page. -->
+<link rel="icon" href="/assets/icons/favicon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="/assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800&family=Public+Sans:wght@400;700&display=swap">
+<style>
+:root {
+  --bg: #f5f3f3; --surface: #ffffff; --fg: #1c1517; --muted: #6c6064; --line: #e3dcdd;
+  --red: #c8102e; --on-red: #ffffff;
+  --font-display: "Saira Extra Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+  --font-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #131012; --surface: #1d181a; --fg: #f3eded; --muted: #a99ea1; --line: #342c2f; --red: #e3354d; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--bg); color: var(--fg); font: 16px/1.5 var(--font-body); }
+.top { background: var(--red); padding: 12px 16px; }
+.top a { display: inline-block; max-width: 1100px; }
+.top img { display: block; height: 56px; width: auto; }
+main { flex: 1; display: grid; place-items: center; padding: 32px 16px 48px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 28px 24px; max-width: 460px; width: 100%; text-align: center; }
+h1 { font: 800 2.2rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .01em; margin: 0 0 12px; }
+p { margin: 0 0 18px; color: var(--muted); }
+.btn { display: inline-block; background: var(--red); color: var(--on-red); text-decoration: none; font-weight: 700; padding: 11px 22px; border-radius: 999px; }
+.btn:hover, .btn:focus-visible { filter: brightness(1.08); }
+.btn:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+.small { font-size: .85rem; margin: 16px 0 0; }
+@media (max-width: 720px) { .top img { height: 46px; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <a href="/" class="home-link"><img src="/assets/crest-osc-san-diego.webp" width="533" height="180"
+     alt="Liverpool FC Official Supporters Club San Diego"></a>
+</header>
+<main>
+  <div class="card">
+    <h1>Page not found</h1>
+    <p>This page isn't here any more. Fixtures, results, news and everything about the club are now on our home page.</p>
+    <a class="btn home-link" href="/">Go to the home page</a>
+    <p class="small" id="wait">Taking you there in <span id="secs">5 seconds</span>…</p>
+  </div>
+</main>
+<script>
+// The Cloudflare production copy's home redirects to the domain anyway; go straight there.
+var home = location.hostname === "lfc-san-diego.pages.dev" ? "https://www.lfcsandiego.com/" : "/";
+document.querySelectorAll(".home-link").forEach(function (a) { a.href = home; });
+var left = 5;
+var tick = setInterval(function () {
+  left -= 1;
+  document.getElementById("secs").textContent = left + (left === 1 ? " second" : " seconds");
+  if (left <= 0) { clearInterval(tick); location.replace(home); }
+}, 1000);
+</script>
+</body>
+</html>
