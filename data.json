@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T12:54:34Z",
+  "updated": "2026-11-07T16:13:38Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -322,13 +322,13 @@
       {
         "pos": 1,
         "team": "Arsenal",
-        "p": 9,
+        "p": 10,
         "w": 8,
-        "d": 0,
+        "d": 1,
         "l": 1,
         "gf": 14,
         "ga": 5,
-        "pts": 24
+        "pts": 25
       },
       {
         "pos": 2,
@@ -398,14 +398,14 @@
       },
       {
         "pos": 8,
-        "team": "Tottenham Hotspur",
+        "team": "Leeds United",
         "p": 10,
         "w": 3,
-        "d": 4,
-        "l": 3,
+        "d": 5,
+        "l": 2,
         "gf": 10,
-        "ga": 10,
-        "pts": 13
+        "ga": 8,
+        "pts": 14
       },
       {
         "pos": 9,
@@ -420,17 +420,39 @@
       },
       {
         "pos": 10,
-        "team": "Leeds United",
+        "team": "Hull City",
         "p": 10,
         "w": 2,
         "d": 6,
         "l": 2,
-        "gf": 9,
-        "ga": 8,
+        "gf": 11,
+        "ga": 10,
         "pts": 12
       },
       {
         "pos": 11,
+        "team": "Tottenham Hotspur",
+        "p": 10,
+        "w": 3,
+        "d": 3,
+        "l": 4,
+        "gf": 10,
+        "ga": 11,
+        "pts": 12
+      },
+      {
+        "pos": 12,
+        "team": "Newcastle United",
+        "p": 10,
+        "w": 3,
+        "d": 3,
+        "l": 4,
+        "gf": 12,
+        "ga": 15,
+        "pts": 12
+      },
+      {
+        "pos": 13,
         "team": "Aston Villa",
         "p": 9,
         "w": 3,
@@ -439,28 +461,6 @@
         "gf": 10,
         "ga": 13,
         "pts": 12
-      },
-      {
-        "pos": 12,
-        "team": "Hull City",
-        "p": 9,
-        "w": 2,
-        "d": 5,
-        "l": 2,
-        "gf": 11,
-        "ga": 10,
-        "pts": 11
-      },
-      {
-        "pos": 13,
-        "team": "Newcastle United",
-        "p": 9,
-        "w": 3,
-        "d": 2,
-        "l": 4,
-        "gf": 12,
-        "ga": 15,
-        "pts": 11
       },
       {
         "pos": 14,
@@ -476,13 +476,13 @@
       {
         "pos": 15,
         "team": "Fulham",
-        "p": 9,
+        "p": 10,
         "w": 2,
-        "d": 3,
+        "d": 4,
         "l": 4,
         "gf": 9,
         "ga": 11,
-        "pts": 9
+        "pts": 10
       },
       {
         "pos": 16,
@@ -1070,16 +1070,16 @@
     {
       "date": "2026-11-07",
       "source": "Liverpool Echo",
+      "title": "Liverpool transfer targets speak out on failed £75.5m moves - 'Do I regret it'",
+      "summary": "Timo Werner and Andre Trindade have both opened up about just how close they came to signing for Liverpool under Jurgen Klopp",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-targets-speak-out-34878430"
+    },
+    {
+      "date": "2026-11-07",
+      "source": "Liverpool Echo",
       "title": "What Bradley Barcola said about Liverpool form after coming under fire following £123m transfer",
       "summary": "Bradley Barcola has opened up about the start to his Liverpool career following his £123m move from Paris Saint-Germain",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-bradley-barcola-said-liverpool-34877949"
-    },
-    {
-      "date": "2026-11-06",
-      "source": "Liverpool Echo",
-      "title": "I was devastated before joining Liverpool - It was the right decision but I had no choice",
-      "summary": "Xherdan Shaqiri has opened up on his move to Liverpool from Stoke City in the summer of 2018",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/devastated-before-joining-liverpool-right-34869605"
     },
     {
       "date": "2026-11-06",
