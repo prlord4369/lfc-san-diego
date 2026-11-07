@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T00:10:31Z",
+  "updated": "2026-11-07T12:54:34Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -398,6 +398,17 @@
       },
       {
         "pos": 8,
+        "team": "Tottenham Hotspur",
+        "p": 10,
+        "w": 3,
+        "d": 4,
+        "l": 3,
+        "gf": 10,
+        "ga": 10,
+        "pts": 13
+      },
+      {
+        "pos": 9,
         "team": "AFC Bournemouth",
         "p": 9,
         "w": 3,
@@ -408,18 +419,18 @@
         "pts": 12
       },
       {
-        "pos": 9,
-        "team": "Tottenham Hotspur",
-        "p": 9,
-        "w": 3,
-        "d": 3,
-        "l": 3,
-        "gf": 10,
-        "ga": 10,
+        "pos": 10,
+        "team": "Leeds United",
+        "p": 10,
+        "w": 2,
+        "d": 6,
+        "l": 2,
+        "gf": 9,
+        "ga": 8,
         "pts": 12
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Aston Villa",
         "p": 9,
         "w": 3,
@@ -430,7 +441,7 @@
         "pts": 12
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Hull City",
         "p": 9,
         "w": 2,
@@ -438,17 +449,6 @@
         "l": 2,
         "gf": 11,
         "ga": 10,
-        "pts": 11
-      },
-      {
-        "pos": 12,
-        "team": "Leeds United",
-        "p": 9,
-        "w": 2,
-        "d": 5,
-        "l": 2,
-        "gf": 9,
-        "ga": 8,
         "pts": 11
       },
       {
@@ -635,7 +635,7 @@
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "NBCSN / Peacock",
-      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/second-place-manchester-city-visit-nottingham-forest-this-saturday-nov-7-at-12-30-p-m-et-on-nbc-peacock-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend",
+      "usUrl": "https://www.nbcsports.com/soccer/news/how-to-watch-crystal-palace-vs-liverpool-live-stream-tv-team-news-prediction",
       "h2h": [
         {
           "date": "2026-04-25",
@@ -748,13 +748,12 @@
       "usLocked": false
     },
     {
-      "comp": "Carabao Cup QF",
       "opp": "Bournemouth",
       "ha": "H",
-      "tbc": true,
-      "kickoff": "2026-12-14T12:00:00Z",
-      "dateTbc": true,
+      "comp": "Carabao Cup QF",
       "scope": "domestic",
+      "tbc": false,
+      "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1017,70 +1016,70 @@
   ],
   "injuries": [
     {
+      "player": "Ryan Gravenberch",
+      "pos": "MF",
+      "status": "doubt",
+      "issue": "Heel",
+      "detail": "He missed the Fenerbahce trip and was also left out against Arsenal with a heel problem. Iraola says he is being assessed day to day and has not ruled him out for Crystal Palace on Sunday.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/ryan-gravenberch-fitness-latest-crystal-palace-iraola",
+      "reported": "2026-11-06"
+    },
+    {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
-      "issue": "Hamstring",
-      "detail": "He pulled up minutes after coming on at Brentford and the manager says a return before the international break is unlikely. Manchester United on 22 November is the likeliest return.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
-      "reported": "2026-11-05"
+      "issue": "Muscle",
+      "detail": "He has missed the last five games with a muscle issue and is too soon for the Crystal Palace game. Manchester United on 22 November is the likeliest return.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
+      "reported": "2026-11-06"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still working his way back from an Achilles injury picked up late last season. He is aiming to return before the turn of the year.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
-      "reported": "2026-11-05"
+      "detail": "He is a long-term absentee still working back from an Achilles injury and is not in the Palace squad. No firm return date has been given in the latest team news.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
+      "reported": "2026-11-06"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has been out since a serious knee injury in January and is still stepping up his recovery. A return is hoped for later in the season, with Liverpool expected to be cautious.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
-      "reported": "2026-11-05"
+      "detail": "He is a long-term absentee recovering from a serious knee injury suffered in January. No return date has been set in the latest team news.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
+      "reported": "2026-11-06"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is still building back up after an ACL injury and a recovery setback. He is expected to feature after the international break, though a Manchester United return on 22 November is uncertain.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
-      "reported": "2026-11-05"
-    },
-    {
-      "player": "Ryan Gravenberch",
-      "pos": "MF",
-      "status": "doubt",
-      "issue": "Heel",
-      "detail": "A heel problem kept him out of the Fenerbahce trip, and he is being monitored day to day. He could feature against Crystal Palace on 8 November, but would otherwise aim to return after the international break.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
-      "reported": "2026-11-05"
+      "detail": "He is a long-term absentee still recovering from an ACL injury and has not played this season. No return date has been set in the latest team news.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
+      "reported": "2026-11-06"
     }
   ],
   "news": [
     {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola addresses Alisson Becker's Liverpool future after conceding 'messy' goals",
-      "summary": "Andoni Iraola says discussions have taken place over Alisson Becker's future at Liverpool",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-addresses-alisson-beckers-34874770"
+      "title": "What Bradley Barcola said about Liverpool form after coming under fire following £123m transfer",
+      "summary": "Bradley Barcola has opened up about the start to his Liverpool career following his £123m move from Paris Saint-Germain",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-bradley-barcola-said-liverpool-34877949"
     },
     {
       "date": "2026-11-06",
       "source": "Liverpool Echo",
-      "title": "Jurgen Klopp copies Liverpool ritual he once changed as Germany footage emerges",
-      "summary": "Jurgen Klopp has revived a ritual from his time as Liverpool manager with the Germany national team",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-liverpool-germany-manager-34876703"
+      "title": "I was devastated before joining Liverpool - It was the right decision but I had no choice",
+      "summary": "Xherdan Shaqiri has opened up on his move to Liverpool from Stoke City in the summer of 2018",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/devastated-before-joining-liverpool-right-34869605"
     },
     {
       "date": "2026-11-06",
