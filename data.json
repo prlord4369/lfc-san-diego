@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T18:08:09Z",
+  "updated": "2026-11-08T20:33:25Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -398,17 +398,6 @@
       },
       {
         "pos": 8,
-        "team": "Aston Villa",
-        "p": 10,
-        "w": 4,
-        "d": 3,
-        "l": 3,
-        "gf": 14,
-        "ga": 15,
-        "pts": 15
-      },
-      {
-        "pos": 9,
         "team": "Brentford",
         "p": 10,
         "w": 3,
@@ -419,7 +408,7 @@
         "pts": 14
       },
       {
-        "pos": 10,
+        "pos": 9,
         "team": "Leeds United",
         "p": 10,
         "w": 3,
@@ -428,6 +417,17 @@
         "gf": 10,
         "ga": 8,
         "pts": 14
+      },
+      {
+        "pos": 10,
+        "team": "Aston Villa",
+        "p": 10,
+        "w": 3,
+        "d": 4,
+        "l": 3,
+        "gf": 14,
+        "ga": 17,
+        "pts": 13
       },
       {
         "pos": 11,
@@ -508,6 +508,17 @@
       },
       {
         "pos": 18,
+        "team": "Manchester United",
+        "p": 10,
+        "w": 1,
+        "d": 5,
+        "l": 4,
+        "gf": 14,
+        "ga": 19,
+        "pts": 8
+      },
+      {
+        "pos": 19,
         "team": "Sunderland",
         "p": 10,
         "w": 2,
@@ -516,17 +527,6 @@
         "gf": 8,
         "ga": 17,
         "pts": 8
-      },
-      {
-        "pos": 19,
-        "team": "Manchester United",
-        "p": 10,
-        "w": 1,
-        "d": 4,
-        "l": 5,
-        "gf": 12,
-        "ga": 19,
-        "pts": 7
       },
       {
         "pos": 20,
@@ -542,6 +542,54 @@
     ]
   },
   "results": [
+    {
+      "date": "2026-08-23",
+      "opp": "Newcastle United",
+      "ha": "A",
+      "score": "2-2",
+      "r": "D",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-08-29",
+      "opp": "Nottingham Forest",
+      "ha": "H",
+      "score": "2-2",
+      "r": "D",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-09-04",
+      "opp": "Ipswich Town",
+      "ha": "A",
+      "score": "2-0",
+      "r": "W",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-09-09",
+      "opp": "Atlético Madrid",
+      "ha": "H",
+      "score": "2-1",
+      "r": "W",
+      "comp": "Champions League"
+    },
+    {
+      "date": "2026-09-12",
+      "opp": "Fulham",
+      "ha": "H",
+      "score": "0-0",
+      "r": "D",
+      "comp": "Premier League"
+    },
+    {
+      "date": "2026-09-15",
+      "opp": "Tottenham Hotspur",
+      "ha": "H",
+      "score": "3-1",
+      "r": "W",
+      "comp": "Carabao Cup R3"
+    },
     {
       "date": "2026-09-20",
       "opp": "AFC Bournemouth",
@@ -634,11 +682,6 @@
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false,
-      "ground": {
-        "name": "Anfield",
-        "city": "Liverpool",
-        "country": "England"
-      },
       "h2h": [
         {
           "date": "2026-05-03",
@@ -675,7 +718,12 @@
           "r": "W",
           "comp": "Club Friendly"
         }
-      ]
+      ],
+      "ground": {
+        "name": "Anfield",
+        "city": "Liverpool",
+        "country": "England"
+      }
     },
     {
       "kickoff": "2026-11-25T20:00:00Z",
@@ -687,12 +735,12 @@
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false,
+      "h2h": [],
       "ground": {
         "name": "Jan Breydel Stadium",
         "city": "Brugge",
         "country": "Belgium"
-      },
-      "h2h": []
+      }
     },
     {
       "kickoff": "2026-11-29T12:00:00Z",
@@ -1066,10 +1114,10 @@
   "news": [
     {
       "date": "2026-11-08",
-      "source": "Liverpool Echo",
-      "title": "Liverpool have rediscovered their character under Andoni Iraola - but horror stat needs addressing",
-      "summary": "The Paul Gorst verdict from Selhurst Park as Liverpool beat Crystal Palace 3-1 in Andoni Iraola's 10th Premier League game in charge to move up to fourth in the table",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/liverpool-rediscovered-character-under-andoni-34880330"
+      "source": "BBC Sport",
+      "title": "'I liked what I saw today'",
+      "summary": "Liverpool fan Abigail Rudkin on an impressive display from the Reds in south London as they go into the international break in the Premier League top four.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1n37912go"
     },
     {
       "date": "2026-11-08",
@@ -1080,9 +1128,16 @@
     },
     {
       "date": "2026-11-08",
+      "source": "Liverpool Echo",
+      "title": "Liverpool have rediscovered their character under Andoni Iraola - but horror stat needs addressing",
+      "summary": "The Paul Gorst verdict from Selhurst Park as Liverpool beat Crystal Palace 3-1 in Andoni Iraola's 10th Premier League game in charge to move up to fourth in the table",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/liverpool-rediscovered-character-under-andoni-34880330"
+    },
+    {
+      "date": "2026-11-08",
       "source": "The Guardian",
-      "title": "Wirtz provides quality to seal Liverpool win over lacklustre Crystal Palace",
-      "summary": "It was the moment when Liverpool knew they would win here in south London and so move on from the Premier League loss to Arsenal at Anfield last Sunday and the one in midweek at…",
+      "title": "Wirtz provides quality as Liverpool leave Crystal Palace propping up table",
+      "summary": "It was the moment when ­Liverpool knew they would win here in south London and so move on from the ­Premier League defeat against ­Arsenal at Anfield last Sunday and the one in…",
       "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report"
     },
     {
@@ -1126,13 +1181,6 @@
       "title": "Another 'miracle' in Istanbul - but this one hurt Liverpool",
       "summary": "Liverpool conceded \"cheap\" and \"messy\" goals in their defeat by Fenerbahce, says boss Andoni Iraola, as former Reds hero Dirk Kuyt celebrates a \"miracle\" in Istanbul.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cwx28z712rd8o"
-    },
-    {
-      "date": "2026-11-05",
-      "source": "BBC Sport",
-      "title": "Liverpool fan critical of Jeremy Jacquet performance",
-      "summary": "Liverpool fan Nahyan Chowdhury believes Jeremy Jacquet is at fault for two of Fenerbahce's goals during their 3-2 win over Liverpool.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cr20w9y2en63o"
     },
     {
       "date": "2026-11-04",
