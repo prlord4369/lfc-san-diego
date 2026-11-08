@@ -445,6 +445,9 @@ section { min-width: 0; scroll-margin-top: 16px; }
 
 /* Fixtures */
 .month { font: 800 1.1rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .04em; color: var(--red); padding: 22px 0 6px; }
+.fx-break { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; margin: 10px 0; padding: 9px 14px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); font-size: .85rem; }
+.fx-break strong { color: var(--fg); font: 800 1rem/1.2 var(--font-display); text-transform: uppercase; letter-spacing: .04em; }
+.fx-break small { flex-basis: 100%; font-size: inherit; }
 .fx { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--line); }
 .fx .d { line-height: 1.1; }
 .fx .d b { font: 800 1.6rem/1 var(--font-display); display: block; }
@@ -1449,6 +1452,26 @@ function render(data) {
     };
   }
 
+  // FIFA's international windows (no club games). Add next season's each summer: FIFA's match calendar, 2030 at least.
+  var INTL_BREAKS = [["2026-09-21", "2026-10-06"], ["2026-11-09", "2026-11-17"], ["2027-03-22", "2027-03-30"]];
+  var ptDay = function (d) { return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(d); };
+  var dayDate = function (s) { return new Date(s + "T12:00:00Z"); };
+  var shortDay = function (s) { return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(dayDate(s)); };
+  // Liverpool's game days (results and fixtures, any competition) and domestic fixture days, to count round a break
+  var gameDays = data.results.map(function (r) { return r.date; })
+    .concat(fixtures.filter(function (f) { return !f.dateTbc; }).map(function (f) { return ptDay(f.d); })).sort();
+  var domesticDays = fixtures.filter(function (f) { return !f.dateTbc && f.scope === "domestic"; }).map(function (f) { return ptDay(f.d); });
+  // Days until the first domestic match after the break: from today when the break is the next thing on the list,
+  // otherwise from Liverpool's last game before it
+  function breakRow(b, fromToday) {
+    var from = fromToday ? ptDay(new Date()) : gameDays.filter(function (s) { return s < b[0]; }).pop();
+    var after = domesticDays.filter(function (s) { return s > b[1]; })[0];
+    var n = from && after ? Math.round((dayDate(after) - dayDate(from)) / 864e5) : 0;
+    var span = b[0].slice(5, 7) === b[1].slice(5, 7) ? shortDay(b[0]) + "–" + Number(b[1].slice(8)) : shortDay(b[0]) + " – " + shortDay(b[1]);
+    return "<div class=\"fx-break\"><strong>International break</strong><span>" + span + "</span>" +
+      (n > 0 ? "<small>" + n + (n === 1 ? " day" : " days") + " until the next domestic match</small>" : "") + "</div>";
+  }
+
   // Fixtures
   var filter = "all", showAll = false;
   try { filter = localStorage.getItem("lfcsd-filter") || "all"; } catch (e) {}
@@ -1456,10 +1479,18 @@ function render(data) {
   function renderFixtures() {
     var rows = fixtures.filter(function (f) { return filter === "all" || f.scope === filter; });
     var shown = showAll ? rows : rows.slice(0, 10);
-    var html = "", month = "";
+    var html = "", month = "", prevDay = "";
+    var today = ptDay(new Date()), lastPlayed = data.results.length ? data.results[data.results.length - 1].date : "";
     shown.forEach(function (f) {
       var m = fmt(f.d, { month: "long", year: "numeric" });
+      // A break that falls between the previous row (or, at the top, the last result) and this game
+      var day = f.dateTbc ? "" : ptDay(f.d), from = prevDay || lastPlayed;
+      var brk = day ? INTL_BREAKS.filter(function (b) { return b[1] >= today && b[0] > from && b[1] < day; })
+        .map(function (b) { return breakRow(b, !html); }).join("") : "";
+      if (brk && html) html += brk;   // between games: before the new month's heading
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
+      if (brk && html.indexOf("fx-break") < 0) html += brk;   // at the top of the list: under the first heading
+      if (day) prevDay = day;
       var h = ptHour(f.d), early = (h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "") +
         (!homeVenue ? "" : f.venueClosed === true ? "<span class=\"novenue\">Bar will not be open</span>"
           : awayFromHome(f) ? "<span class=\"atvenue\">At " + esc(venueShort(venueFor(f))) + "</span>" : "");
