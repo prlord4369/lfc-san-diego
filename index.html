@@ -1086,6 +1086,15 @@ function render(data) {
   var venueShort = function (v) { return v.short || v.name; };
   var awayFromHome = function (f) { return !!(f && venues[f.watchAt] && venues[f.watchAt] !== homeVenue); };
 
+  // The stadium from ESPN (saved by the update): "Selhurst Park" in England, "Jan Breydel Stadium, Brugge, Belgium"
+  // abroad. Until ESPN has it: a hand-set fixture "venue" (e.g. "Milan, Italy"), else Anfield at home, else "Away".
+  var groundText = function (f, home) {
+    var g = f.ground;
+    if (!g || !g.name) return esc(f.venue || (home ? "Anfield" : "Away"));
+    var abroad = g.country && g.country !== "England";
+    return esc(g.name + (abroad ? [g.city, g.country].filter(Boolean).map(function (s) { return ", " + s; }).join("") : ""));
+  };
+
   // Hero: the next game with a real date (an undated cup tie can't count down)
   var next = fixtures.filter(function (f) { return !f.dateTbc; })[0];
   if (next) {
@@ -1097,7 +1106,7 @@ function render(data) {
     document.getElementById("next-meta").innerHTML =
       "<span><strong>" + fmt(next.d, { weekday: "long", month: "long", day: "numeric" }) + "</strong></span>" +
       "<span><strong>" + fmt(next.d, { hour: "numeric", minute: "2-digit" }) + " PT</strong>" + (next.tbc ? " (TBC)" : "") + "</span>" +
-      "<span>" + (home ? "Anfield" : esc(next.venue || "Away")) + "</span>" +
+      "<span>" + groundText(next, home) + "</span>" +
       // Only claim the venue is showing it when the fixture is marked "atVenue": true (screening confirmed with the bar)
       (homeVenue && next.atVenue && next.venueClosed !== true
         ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(venueFor(next).name) + "</strong></a></span>" : "") +
