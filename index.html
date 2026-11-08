@@ -445,9 +445,23 @@ section { min-width: 0; scroll-margin-top: 16px; }
 
 /* Fixtures */
 .month { font: 800 1.1rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .04em; color: var(--red); padding: 22px 0 6px; }
-.fx-break { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; margin: 10px 0; padding: 9px 14px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); font-size: .85rem; }
-.fx-break strong { color: var(--fg); font: 800 1rem/1.2 var(--font-display); text-transform: uppercase; letter-spacing: .04em; }
-.fx-break small { flex-basis: 100%; font-size: inherit; }
+/* International break card (option C, mockups/intl-break-mockup.html); the timeline only while the break is on */
+.fx-break { margin: 10px 0; padding: 12px 14px; border: 1px solid var(--line); border-top: 4px solid var(--red); border-radius: 12px; background: var(--bg); font-size: .85rem; color: var(--muted); }
+.brk-top { display: flex; align-items: center; gap: 10px; }
+.brk-top svg { width: 26px; height: 26px; flex: none; color: var(--red); }
+.brk-top strong { flex: 1; color: var(--fg); font: 800 1.2rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .04em; }
+.brk-dates { font: 800 1.05rem/1 var(--font-display); color: var(--red); white-space: nowrap; }
+.fx-break small { display: block; font-size: inherit; margin: 8px 0 0 36px; }
+.brk-labels + small { margin-left: 0; }
+.brk-bar { position: relative; height: 8px; border-radius: 4px; background: var(--line); margin: 30px 4px 6px; }
+.brk-win { position: absolute; top: 0; bottom: 0; border-radius: 4px; background: repeating-linear-gradient(45deg, var(--pacific) 0 5px, color-mix(in srgb, var(--pacific) 70%, transparent) 5px 10px); }
+.brk-dot { position: absolute; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--surface); border: 3px solid var(--fg); }
+.brk-today { position: absolute; top: -9px; bottom: -9px; width: 2px; margin-left: -1px; background: var(--red); }
+.brk-today::before { content: "Today"; position: absolute; top: -16px; left: 50%; transform: translateX(-50%); font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--red); }
+.brk-labels { display: flex; justify-content: space-between; gap: 6px; font-size: .72rem; }
+.brk-labels b { display: block; color: var(--fg); }
+.brk-labels span:nth-child(2) { color: var(--pacific); font-weight: 700; text-align: center; }
+.brk-labels span:last-child { text-align: right; }
 .fx { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--line); }
 .fx .d { line-height: 1.1; }
 .fx .d b { font: 800 1.6rem/1 var(--font-display); display: block; }
@@ -1457,19 +1471,38 @@ function render(data) {
   var ptDay = function (d) { return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(d); };
   var dayDate = function (s) { return new Date(s + "T12:00:00Z"); };
   var shortDay = function (s) { return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(dayDate(s)); };
-  // Liverpool's game days (results and fixtures, any competition) and domestic fixture days, to count round a break
-  var gameDays = data.results.map(function (r) { return r.date; })
-    .concat(fixtures.filter(function (f) { return !f.dateTbc; }).map(function (f) { return ptDay(f.d); })).sort();
-  var domesticDays = fixtures.filter(function (f) { return !f.dateTbc && f.scope === "domestic"; }).map(function (f) { return ptDay(f.d); });
-  // Days until the first domestic match after the break: from today when the break is the next thing on the list,
-  // otherwise from Liverpool's last game before it
+  // Liverpool's games (results and fixtures, any competition) and domestic fixtures, as {day, opp}, to count round a break
+  var games = data.results.map(function (r) { return { day: r.date, opp: r.opp }; })
+    .concat(fixtures.filter(function (f) { return !f.dateTbc; }).map(function (f) { return { day: ptDay(f.d), opp: f.opp }; }))
+    .sort(function (a, b) { return a.day < b.day ? -1 : 1; });
+  var domestic = fixtures.filter(function (f) { return !f.dateTbc && f.scope === "domestic"; })
+    .map(function (f) { return { day: ptDay(f.d), opp: f.opp }; });
+  var daysBetween = function (a, b) { return Math.round((dayDate(b) - dayDate(a)) / 864e5); };
+  var globe = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\">" +
+    "<circle cx=\"12\" cy=\"12\" r=\"9.2\"/><ellipse cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9.2\"/><path d=\"M3 12h18M4.5 7.3h15M4.5 16.7h15\"/></svg>";
+  // Option C (owner's choice 2026-11-08): the dates and the days until the first domestic match after the break (from
+  // today when the break is the next thing on the list, otherwise from Liverpool's last game before it). While the
+  // break is on, also a timeline of the window itself (first day to last, "Today" marker); the match rows below give
+  // the next game's date.
   function breakRow(b, fromToday) {
-    var from = fromToday ? ptDay(new Date()) : gameDays.filter(function (s) { return s < b[0]; }).pop();
-    var after = domesticDays.filter(function (s) { return s > b[1]; })[0];
-    var n = from && after ? Math.round((dayDate(after) - dayDate(from)) / 864e5) : 0;
+    var today = ptDay(new Date()), active = b[0] <= today && today <= b[1];
+    var before = games.filter(function (g) { return g.day < b[0]; }).pop();
+    var after = domestic.filter(function (g) { return g.day > b[1]; })[0];
+    var from = fromToday ? today : before && before.day;
+    var n = from && after ? daysBetween(from, after.day) : 0;
     var span = b[0].slice(5, 7) === b[1].slice(5, 7) ? shortDay(b[0]) + "–" + Number(b[1].slice(8)) : shortDay(b[0]) + " – " + shortDay(b[1]);
-    return "<div class=\"fx-break\"><strong>International break</strong><span>" + span + "</span>" +
-      (n > 0 ? "<small>" + n + (n === 1 ? " day" : " days") + " until the next domestic match</small>" : "") + "</div>";
+    var html = "<div class=\"fx-break\"><div class=\"brk-top\">" + globe + "<strong>International break</strong>" +
+      "<span class=\"brk-dates\">" + span + "</span></div>";
+    if (active) {
+      var len = daysBetween(b[0], b[1]) + 1, day = daysBetween(b[0], today) + 1;
+      html += "<div class=\"brk-bar\"><div class=\"brk-win\" style=\"width:" + (day - .5) / len * 100 + "%\"></div>" +
+        "<div class=\"brk-dot\" style=\"left:0\"></div><div class=\"brk-dot\" style=\"left:100%\"></div>" +
+        "<div class=\"brk-today\" style=\"left:" + (day - .5) / len * 100 + "%\"></div></div>" +
+        "<div class=\"brk-labels\"><span><b>" + shortDay(b[0]) + "</b>Starts</span><span>Day " + day + " of " + len + "</span>" +
+        "<span><b>" + shortDay(b[1]) + "</b>Ends</span></div>";
+    }
+    if (n > 0) html += "<small>" + n + (n === 1 ? " day" : " days") + " until the next domestic match</small>";
+    return html + "</div>";
   }
 
   // Fixtures
