@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T00:08:51Z",
+  "updated": "2026-11-08T12:55:05Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -751,9 +751,9 @@
       "opp": "Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "scope": "domestic",
       "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1018,19 +1018,19 @@
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
-      "status": "doubt",
+      "status": "out",
       "issue": "Heel",
-      "detail": "He missed the Fenerbahce trip and was also left out against Arsenal with a heel problem. Iraola says he is being assessed day to day and has not ruled him out for Crystal Palace on Sunday.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/ryan-gravenberch-fitness-latest-crystal-palace-iraola",
-      "reported": "2026-11-06"
+      "detail": "He has missed the Arsenal and Fenerbahce games with a heel problem and was left out of the matchday squad for Crystal Palace. No return date has been given.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/team-confirmed-crystal-palace-barcola-34880623",
+      "reported": "2026-11-08"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has missed the last five games with a muscle issue and is too soon for the Crystal Palace game. Manchester United on 22 November is the likeliest return.",
+      "detail": "He has missed the last five games with a muscle problem and is considered too soon to return for the Crystal Palace game.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
       "reported": "2026-11-06"
@@ -1040,7 +1040,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is a long-term absentee still working back from an Achilles injury and is not in the Palace squad. No firm return date has been given in the latest team news.",
+      "detail": "He is a long-term absentee still working back from an Achilles injury and is not in the Palace squad. No firm return date has been given.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
       "reported": "2026-11-06"
@@ -1050,7 +1050,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is a long-term absentee recovering from a serious knee injury suffered in January. No return date has been set in the latest team news.",
+      "detail": "He is a long-term absentee recovering from a serious knee injury suffered in January. No return date has been set.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
       "reported": "2026-11-06"
@@ -1060,7 +1060,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is a long-term absentee still recovering from an ACL injury and has not played this season. No return date has been set in the latest team news.",
+      "detail": "He is a long-term absentee still recovering from an ACL injury and has not played this season. No return date has been set.",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
       "reported": "2026-11-06"
@@ -1068,18 +1068,25 @@
   ],
   "news": [
     {
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "source": "Liverpool Echo",
-      "title": "Jeremie Frimpong handed poisoned chalice and is running out of lives as Liverpool exit talk heats up",
-      "summary": "Jeremie Frimpong has again been linked with a Liverpool exit as the injured star's Anfield struggles continue",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jeremie-frimpong-handed-poisoned-chalice-34879033"
+      "title": "Crystal Palace vs Liverpool LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "summary": "Live coverage of Liverpool's final match before the international break as they take on Crystal Palace at Selhurst Park in the Premier League",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/crystal-palace-liverpool-live-stream-34867217"
+    },
+    {
+      "date": "2026-11-08",
+      "source": "Liverpool Echo",
+      "title": "Liverpool could save £100m and solve two problems with one unexpected midfield move",
+      "summary": "Former Liverpool striker Emile Heskey believes his old club could save more than £100m in the transfer market with Trey Nyoni's rapid development",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-could-save-100m-solve-34880076"
     },
     {
       "date": "2026-11-07",
-      "source": "Liverpool Echo",
-      "title": "Nine players could miss Crystal Palace vs Liverpool as Andoni Iraola sweats over injured star",
-      "summary": "Liverpool will be without a number of players because of injury when they take on Crystal Palace on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/nine-players-could-miss-crystal-34878785"
+      "source": "BBC Sport",
+      "title": "'I can't believe he is one of us' - inside Salah's life in Trabzon",
+      "summary": "BBC Sport travels to Turkey to watch Mohamed Salah play for Trabzonspor and discover how the 'Egyptian King' is settling into life by the Black Sea.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqzy934lxo"
     },
     {
       "date": "2026-11-06",
@@ -1115,13 +1122,6 @@
       "title": "Why Iraola's Liverpool are still a work in progress",
       "summary": "Champions League analyst Stephen Warnock and Guillem Balague believe Liverpool's defensive weaknesses combined with the experimentation of playing Bradley Barcola up front…",
       "url": "https://www.bbc.co.uk/sport/football/videos/c9rky37kx37lo"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "BBC Sport",
-      "title": "Squad rotation not the 'main reason' for Liverpool's defeat",
-      "summary": "Liverpool head coach Andoni Iraola refuses to blame squad rotation for defeat to Fenerbahce in the Champions League.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cjn5vd10v9g3o"
     },
     {
       "date": "2026-11-04",
