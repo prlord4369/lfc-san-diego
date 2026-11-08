@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T16:12:07Z",
+  "updated": "2026-11-08T18:08:09Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -398,6 +398,17 @@
       },
       {
         "pos": 8,
+        "team": "Aston Villa",
+        "p": 10,
+        "w": 4,
+        "d": 3,
+        "l": 3,
+        "gf": 14,
+        "ga": 15,
+        "pts": 15
+      },
+      {
+        "pos": 9,
         "team": "Brentford",
         "p": 10,
         "w": 3,
@@ -408,7 +419,7 @@
         "pts": 14
       },
       {
-        "pos": 9,
+        "pos": 10,
         "team": "Leeds United",
         "p": 10,
         "w": 3,
@@ -419,7 +430,7 @@
         "pts": 14
       },
       {
-        "pos": 10,
+        "pos": 11,
         "team": "Tottenham Hotspur",
         "p": 10,
         "w": 3,
@@ -430,7 +441,7 @@
         "pts": 12
       },
       {
-        "pos": 11,
+        "pos": 12,
         "team": "Newcastle United",
         "p": 10,
         "w": 3,
@@ -438,17 +449,6 @@
         "l": 4,
         "gf": 13,
         "ga": 16,
-        "pts": 12
-      },
-      {
-        "pos": 12,
-        "team": "Aston Villa",
-        "p": 9,
-        "w": 3,
-        "d": 3,
-        "l": 3,
-        "gf": 10,
-        "ga": 13,
         "pts": 12
       },
       {
@@ -520,12 +520,12 @@
       {
         "pos": 19,
         "team": "Manchester United",
-        "p": 9,
+        "p": 10,
         "w": 1,
         "d": 4,
-        "l": 4,
-        "gf": 10,
-        "ga": 15,
+        "l": 5,
+        "gf": 12,
+        "ga": 19,
         "pts": 7
       },
       {
@@ -633,7 +633,49 @@
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
-      "usLocked": false
+      "usLocked": false,
+      "ground": {
+        "name": "Anfield",
+        "city": "Liverpool",
+        "country": "England"
+      },
+      "h2h": [
+        {
+          "date": "2026-05-03",
+          "ha": "A",
+          "score": "2-3",
+          "r": "L",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-10-19",
+          "ha": "H",
+          "score": "1-2",
+          "r": "L",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-01-05",
+          "ha": "H",
+          "score": "2-2",
+          "r": "D",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2024-09-01",
+          "ha": "A",
+          "score": "3-0",
+          "r": "W",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2024-08-03",
+          "ha": "A",
+          "score": "3-0",
+          "r": "W",
+          "comp": "Club Friendly"
+        }
+      ]
     },
     {
       "kickoff": "2026-11-25T20:00:00Z",
@@ -644,7 +686,13 @@
       "venue": "Bruges, Belgium",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
-      "usLocked": false
+      "usLocked": false,
+      "ground": {
+        "name": "Jan Breydel Stadium",
+        "city": "Brugge",
+        "country": "Belgium"
+      },
+      "h2h": []
     },
     {
       "kickoff": "2026-11-29T12:00:00Z",
@@ -1018,6 +1066,27 @@
   "news": [
     {
       "date": "2026-11-08",
+      "source": "Liverpool Echo",
+      "title": "Liverpool have rediscovered their character under Andoni Iraola - but horror stat needs addressing",
+      "summary": "The Paul Gorst verdict from Selhurst Park as Liverpool beat Crystal Palace 3-1 in Andoni Iraola's 10th Premier League game in charge to move up to fourth in the table",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/liverpool-rediscovered-character-under-andoni-34880330"
+    },
+    {
+      "date": "2026-11-08",
+      "source": "Liverpool Echo",
+      "title": "Crystal Palace 1 Liverpool 3 LIVE - Andoni Iraola and Florian Wirtz react to hard-fought win",
+      "summary": "Live coverage of Liverpool's final match before the international break as they take on Crystal Palace at Selhurst Park in the Premier League",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/crystal-palace-liverpool-live-stream-34867217"
+    },
+    {
+      "date": "2026-11-08",
+      "source": "The Guardian",
+      "title": "Wirtz provides quality to seal Liverpool win over lacklustre Crystal Palace",
+      "summary": "It was the moment when Liverpool knew they would win here in south London and so move on from the Premier League loss to Arsenal at Anfield last Sunday and the one in midweek at…",
+      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report"
+    },
+    {
+      "date": "2026-11-08",
       "source": "BBC Sport",
       "title": "Who was back to his best? Player ratings for Crystal Palace v Liverpool",
       "summary": "How Crystal Palace and Liverpool's players rated following their Premier League match.",
@@ -1025,17 +1094,10 @@
     },
     {
       "date": "2026-11-08",
-      "source": "Liverpool Echo",
-      "title": "Crystal Palace vs Liverpool LIVE - score, Mac Allister, Wirtz, Isak, Nketiah goals, commentary stream",
-      "summary": "Live coverage of Liverpool's final match before the international break as they take on Crystal Palace at Selhurst Park in the Premier League",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/crystal-palace-liverpool-live-stream-34867217"
-    },
-    {
-      "date": "2026-11-08",
-      "source": "Liverpool Echo",
-      "title": "Liverpool could save £100m and solve two problems with one unexpected midfield move",
-      "summary": "Former Liverpool striker Emile Heskey believes his old club could save more than £100m in the transfer market with Trey Nyoni's rapid development",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-could-save-100m-solve-34880076"
+      "source": "Sky Sports",
+      "title": "Sage in big trouble as Palace hit rock-bottom after defeat to Liverpool",
+      "summary": "Liverpool beat Crystal Palace 3-1 at Selhurst Park to inflict a fourth consecutive Premier League defeat on the hosts and leave Pierre Sage in a perilous position with his side…",
+      "url": "https://www.skysports.com/football/crystal-palace-vs-liverpool/report/559536"
     },
     {
       "date": "2026-11-07",
@@ -1085,20 +1147,6 @@
       "title": "Muriqi caps Fenerbahce comeback to make Liverpool pay for defensive lapses",
       "summary": "Andoni Iraola arrived in Istanbul seeking improvement from Liverpool’s attack but departed with sudden cause for concern at the opposite end of the pitch.",
       "url": "https://www.theguardian.com/football/2026/nov/04/muriqi-caps-fenerbahce-comeback-to-make-liverpool-pay-for-defensive-lapses"
-    },
-    {
-      "date": "2026-11-03",
-      "source": "The Guardian",
-      "title": "Andoni Iraola calls on Liverpool to sharpen up in attack before Fenerbahce test",
-      "summary": "Reds target fourth straight Champions League win",
-      "url": "https://www.theguardian.com/football/2026/nov/03/andoni-iraola-calls-on-liverpool-to-sharpen-up-in-attack-before-fenerbahce-test"
-    },
-    {
-      "date": "2026-11-03",
-      "source": "Sky Sports",
-      "title": "Liverpool's unwanted record highlights creativity issue",
-      "summary": "Liverpool set an unwanted record against Arsenal as they failed to register a shot on target for the first time in 442 Premier League home games, dating back to when records began…",
-      "url": "https://www.skysports.com/football/news/11669/13607467/liverpools-unwanted-record-against-arsenal-shows-creativity-problem-under-andoni-iraola-between-the-lines"
     }
   ],
   "outlets": [
