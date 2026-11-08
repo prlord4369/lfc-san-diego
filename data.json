@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-08T12:55:05Z",
+  "updated": "2026-11-08T16:12:07Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
     "map": "https://www.google.com/maps/search/?api=1&query=Whiskey+Girl+702+Fifth+Ave+San+Diego+CA"
   },
   "standing": {
-    "position": "6th",
+    "position": "4th",
     "competition": "Premier League",
-    "record": "P9 W4 D3 L2 · 15 pts"
+    "record": "P10 W5 D3 L2 · 18 pts"
   },
   "squad": {
     "asof": "2026-10-15",
@@ -332,6 +332,17 @@
       },
       {
         "pos": 2,
+        "team": "Brighton & Hove Albion",
+        "p": 10,
+        "w": 7,
+        "d": 1,
+        "l": 2,
+        "gf": 26,
+        "ga": 7,
+        "pts": 22
+      },
+      {
+        "pos": 3,
         "team": "Manchester City",
         "p": 10,
         "w": 7,
@@ -342,29 +353,29 @@
         "pts": 21
       },
       {
-        "pos": 3,
-        "team": "Brighton & Hove Albion",
-        "p": 9,
-        "w": 6,
-        "d": 1,
-        "l": 2,
-        "gf": 24,
-        "ga": 7,
-        "pts": 19
-      },
-      {
         "pos": 4,
-        "team": "Chelsea",
-        "p": 9,
+        "team": "Liverpool",
+        "p": 10,
         "w": 5,
-        "d": 1,
-        "l": 3,
-        "gf": 19,
-        "ga": 15,
-        "pts": 16
+        "d": 3,
+        "l": 2,
+        "gf": 14,
+        "ga": 10,
+        "pts": 18
       },
       {
         "pos": 5,
+        "team": "Chelsea",
+        "p": 10,
+        "w": 5,
+        "d": 1,
+        "l": 4,
+        "gf": 19,
+        "ga": 16,
+        "pts": 16
+      },
+      {
+        "pos": 6,
         "team": "Everton",
         "p": 10,
         "w": 4,
@@ -375,29 +386,29 @@
         "pts": 16
       },
       {
-        "pos": 6,
-        "team": "Liverpool",
-        "p": 9,
+        "pos": 7,
+        "team": "AFC Bournemouth",
+        "p": 10,
         "w": 4,
         "d": 3,
-        "l": 2,
-        "gf": 11,
-        "ga": 9,
+        "l": 3,
+        "gf": 16,
+        "ga": 14,
         "pts": 15
       },
       {
-        "pos": 7,
+        "pos": 8,
         "team": "Brentford",
-        "p": 9,
+        "p": 10,
         "w": 3,
         "d": 5,
-        "l": 1,
+        "l": 2,
         "gf": 16,
-        "ga": 9,
+        "ga": 11,
         "pts": 14
       },
       {
-        "pos": 8,
+        "pos": 9,
         "team": "Leeds United",
         "p": 10,
         "w": 3,
@@ -406,17 +417,6 @@
         "gf": 10,
         "ga": 8,
         "pts": 14
-      },
-      {
-        "pos": 9,
-        "team": "AFC Bournemouth",
-        "p": 9,
-        "w": 3,
-        "d": 3,
-        "l": 3,
-        "gf": 14,
-        "ga": 13,
-        "pts": 12
       },
       {
         "pos": 10,
@@ -465,12 +465,12 @@
       {
         "pos": 14,
         "team": "Ipswich Town",
-        "p": 9,
+        "p": 10,
         "w": 3,
         "d": 2,
-        "l": 4,
-        "gf": 14,
-        "ga": 18,
+        "l": 5,
+        "gf": 15,
+        "ga": 20,
         "pts": 11
       },
       {
@@ -508,6 +508,17 @@
       },
       {
         "pos": 18,
+        "team": "Sunderland",
+        "p": 10,
+        "w": 2,
+        "d": 2,
+        "l": 6,
+        "gf": 8,
+        "ga": 17,
+        "pts": 8
+      },
+      {
+        "pos": 19,
         "team": "Manchester United",
         "p": 9,
         "w": 1,
@@ -518,38 +529,19 @@
         "pts": 7
       },
       {
-        "pos": 19,
+        "pos": 20,
         "team": "Crystal Palace",
-        "p": 9,
+        "p": 10,
         "w": 2,
         "d": 1,
-        "l": 6,
-        "gf": 9,
-        "ga": 21,
+        "l": 7,
+        "gf": 10,
+        "ga": 24,
         "pts": 7
-      },
-      {
-        "pos": 20,
-        "team": "Sunderland",
-        "p": 9,
-        "w": 1,
-        "d": 2,
-        "l": 6,
-        "gf": 7,
-        "ga": 17,
-        "pts": 5
       }
     ]
   },
   "results": [
-    {
-      "date": "2026-09-15",
-      "opp": "Tottenham Hotspur",
-      "ha": "H",
-      "score": "3-1",
-      "r": "W",
-      "comp": "Carabao Cup R3"
-    },
     {
       "date": "2026-09-20",
       "opp": "AFC Bournemouth",
@@ -622,60 +614,17 @@
       "score": "2-3",
       "r": "L",
       "comp": "Champions League"
+    },
+    {
+      "date": "2026-11-08",
+      "opp": "Crystal Palace",
+      "ha": "A",
+      "score": "3-1",
+      "r": "W",
+      "comp": "Premier League"
     }
   ],
   "fixtures": [
-    {
-      "kickoff": "2026-11-08T14:00:00Z",
-      "opp": "Crystal Palace",
-      "ha": "A",
-      "comp": "Premier League",
-      "scope": "domestic",
-      "venueClosed": false,
-      "watchAt": "whiskeygirl",
-      "usLocked": false,
-      "us": "NBCSN / Peacock",
-      "usUrl": "https://www.nbcsports.com/soccer/news/how-to-watch-crystal-palace-vs-liverpool-live-stream-tv-team-news-prediction",
-      "h2h": [
-        {
-          "date": "2026-04-25",
-          "ha": "H",
-          "score": "3-1",
-          "r": "W",
-          "comp": "Premier League"
-        },
-        {
-          "date": "2025-10-29",
-          "ha": "H",
-          "score": "0-3",
-          "r": "L",
-          "comp": "Carabao Cup",
-          "round": "Fourth Round"
-        },
-        {
-          "date": "2025-09-27",
-          "ha": "A",
-          "score": "1-2",
-          "r": "L",
-          "comp": "Premier League"
-        },
-        {
-          "date": "2025-08-10",
-          "ha": "N",
-          "score": "2-2",
-          "r": "L",
-          "comp": "Community Shield",
-          "pens": true
-        },
-        {
-          "date": "2025-05-25",
-          "ha": "H",
-          "score": "1-1",
-          "r": "D",
-          "comp": "Premier League"
-        }
-      ]
-    },
     {
       "kickoff": "2026-11-22T16:30:00Z",
       "opp": "Manchester United",
@@ -1069,8 +1018,15 @@
   "news": [
     {
       "date": "2026-11-08",
+      "source": "BBC Sport",
+      "title": "Who was back to his best? Player ratings for Crystal Palace v Liverpool",
+      "summary": "How Crystal Palace and Liverpool's players rated following their Premier League match.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqkgjm2dlpv6o"
+    },
+    {
+      "date": "2026-11-08",
       "source": "Liverpool Echo",
-      "title": "Crystal Palace vs Liverpool LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "title": "Crystal Palace vs Liverpool LIVE - score, Mac Allister, Wirtz, Isak, Nketiah goals, commentary stream",
       "summary": "Live coverage of Liverpool's final match before the international break as they take on Crystal Palace at Selhurst Park in the Premier League",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/crystal-palace-liverpool-live-stream-34867217"
     },
@@ -1115,13 +1071,6 @@
       "title": "Liverpool fan critical of Jeremy Jacquet performance",
       "summary": "Liverpool fan Nahyan Chowdhury believes Jeremy Jacquet is at fault for two of Fenerbahce's goals during their 3-2 win over Liverpool.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cr20w9y2en63o"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "BBC Sport",
-      "title": "Why Iraola's Liverpool are still a work in progress",
-      "summary": "Champions League analyst Stephen Warnock and Guillem Balague believe Liverpool's defensive weaknesses combined with the experimentation of playing Bradley Barcola up front…",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c9rky37kx37lo"
     },
     {
       "date": "2026-11-04",
