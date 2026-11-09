@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T00:10:31Z",
+  "updated": "2026-11-09T13:17:35Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -793,7 +793,7 @@
       "usLocked": false
     },
     {
-      "opp": "Bournemouth",
+      "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": false,
@@ -1065,7 +1065,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "He has missed the Arsenal and Fenerbahce games with a heel problem and was left out of the matchday squad for Crystal Palace. No return date has been given.",
+      "detail": "He missed the Fenerbahce game and was not in the Crystal Palace squad because of a heel problem. No return date has been given.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/team-confirmed-crystal-palace-barcola-34880623",
       "reported": "2026-11-08"
@@ -1075,43 +1075,81 @@
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has missed the last five games with a muscle problem and is considered too soon to return for the Crystal Palace game.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
-      "reported": "2026-11-06"
+      "detail": "He has been out since limping off at Brentford with a muscle problem. Iraola said a return before the international break was unlikely, so Manchester United on November 22 is the likeliest comeback.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is a long-term absentee still working back from an Achilles injury and is not in the Palace squad. No firm return date has been given.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
-      "reported": "2026-11-06"
+      "detail": "He is a long-term absentee still working back from an Achilles rupture and is not yet back in training. No firm return date has been set.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is a long-term absentee recovering from a serious knee injury suffered in January. No return date has been set.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
-      "reported": "2026-11-06"
+      "detail": "He is recovering from a serious knee injury suffered in January and is not yet back training with the squad. No return date has been set.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is a long-term absentee still recovering from an ACL injury and has not played this season. No return date has been set.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/crystal-palace-liverpool-team-news-premier-league",
-      "reported": "2026-11-06"
+      "detail": "He has not played this season because of an ACL injury and a setback in his recovery. He may return to team training during the international break.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
+    },
+    {
+      "player": "Dominik Szoboszlai",
+      "pos": "MF",
+      "status": "doubt",
+      "issue": "Knee",
+      "detail": "He was not 100 percent after playing against Crystal Palace with a knee issue and is a doubt for Hungary during the international break. Iraola said he will not want to take unnecessary risks.",
+      "source": "Liverpool.com",
+      "url": "https://liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-andoni-iraola-34880661",
+      "reported": "2026-11-08"
     }
   ],
   "news": [
+    {
+      "date": "2026-11-09",
+      "source": "Liverpool Echo",
+      "title": "Alexis Mac Allister reveals what Crystal Palace couldn't believe about Liverpool goalkeeper Alisson Becker",
+      "summary": "Alexis Mac Allister has reacted after Liverpool beat Crystal Palace in the Premier League on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexis-mac-allister-reveals-what-34883052"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "Sky Sports",
+      "title": "'My will is to stay' - Alisson wants new Liverpool contract",
+      "summary": "Liverpool goalkeeper Alisson says he wants to stay at Anfield beyond the end of the season when his contract expires.",
+      "url": "https://www.skysports.com/football/news/11669/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "BBC Sport",
+      "title": "Alisson wants to sign new Liverpool contract",
+      "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "Liverpool Echo",
+      "title": "Alisson Becker makes Liverpool future clear as agent opens contract talks - 'My will is to stay'",
+      "summary": "Alisson Becker's Liverpool contract expires next summer - but the goalkeeper has now revealed he wants to extend his stay at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alisson-becker-makes-liverpool-future-34883631"
+    },
     {
       "date": "2026-11-08",
       "source": "The Guardian",
@@ -1125,20 +1163,6 @@
       "title": "'I liked what I saw today'",
       "summary": "Liverpool fan Abigail Rudkin on an impressive display from the Reds in south London as they go into the international break in the Premier League top four.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1n37912go"
-    },
-    {
-      "date": "2026-11-08",
-      "source": "Liverpool Echo",
-      "title": "Crystal Palace 1 Liverpool 3 LIVE - Andoni Iraola and Florian Wirtz react to hard-fought win",
-      "summary": "Live coverage of Liverpool's final match before the international break as they take on Crystal Palace at Selhurst Park in the Premier League",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/crystal-palace-liverpool-live-stream-34867217"
-    },
-    {
-      "date": "2026-11-08",
-      "source": "Liverpool Echo",
-      "title": "Liverpool have rediscovered their character under Andoni Iraola - but horror stat needs addressing",
-      "summary": "The Paul Gorst verdict from Selhurst Park as Liverpool beat Crystal Palace 3-1 in Andoni Iraola's 10th Premier League game in charge to move up to fourth in the table",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/liverpool-rediscovered-character-under-andoni-34880330"
     },
     {
       "date": "2026-11-08",
@@ -1181,20 +1205,6 @@
       "title": "Iraola: We must sacrifice control for creativity to fix scoring woes",
       "summary": "Liverpool must sacrifice control in games in order to fix their creativity problems, Andoni Iraola has demanded ahead of their weekend trip to Crystal Palace, live on Sky Sports.",
       "url": "https://www.skysports.com/football/news/11669/13608882/liverpool-andoni-iraola-demands-creativity-over-control-to-solve-premier-league-scoring-problems"
-    },
-    {
-      "date": "2026-11-05",
-      "source": "BBC Sport",
-      "title": "Another 'miracle' in Istanbul - but this one hurt Liverpool",
-      "summary": "Liverpool conceded \"cheap\" and \"messy\" goals in their defeat by Fenerbahce, says boss Andoni Iraola, as former Reds hero Dirk Kuyt celebrates a \"miracle\" in Istanbul.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cwx28z712rd8o"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "The Guardian",
-      "title": "Fenerbahce 3-2 Liverpool: Champions League – as it happened",
-      "summary": "Liverpool led twice and lost once against Dirk Kuyt’s Fenerbahce on a wet night in Istanbul",
-      "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
     }
   ],
   "outlets": [
