@@ -1494,10 +1494,11 @@ function render(data) {
     var html = "<div class=\"fx-break\"><div class=\"brk-top\">" + globe + "<strong>International break</strong>" +
       "<span class=\"brk-dates\">" + span + "</span></div>";
     if (active) {
-      var len = daysBetween(b[0], b[1]) + 1, day = daysBetween(b[0], today) + 1;
-      html += "<div class=\"brk-bar\"><div class=\"brk-win\" style=\"width:" + (day - .5) / len * 100 + "%\"></div>" +
+      // One equal segment per day; today counts as done, so the bar is full on the last day
+      var len = daysBetween(b[0], b[1]) + 1, day = daysBetween(b[0], today) + 1, pct = day / len * 100;
+      html += "<div class=\"brk-bar\"><div class=\"brk-win\" style=\"width:" + pct + "%\"></div>" +
         "<div class=\"brk-dot\" style=\"left:0\"></div><div class=\"brk-dot\" style=\"left:100%\"></div>" +
-        "<div class=\"brk-today\" style=\"left:" + (day - .5) / len * 100 + "%\"></div></div>" +
+        "<div class=\"brk-today\" style=\"left:" + pct + "%\"></div></div>" +
         "<div class=\"brk-labels\"><span><b>" + shortDay(b[0]) + "</b>Starts</span><span>Day " + day + " of " + len + "</span>" +
         "<span><b>" + shortDay(b[1]) + "</b>Ends</span></div>";
     }
