@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T20:33:25Z",
+  "updated": "2026-11-09T00:10:31Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-11-08"
+    "checked": "2026-11-09"
   },
   "table": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1114,6 +1114,13 @@
   "news": [
     {
       "date": "2026-11-08",
+      "source": "The Guardian",
+      "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
+      "summary": "Frenchman under pressure after four successive defeats",
+      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park"
+    },
+    {
+      "date": "2026-11-08",
       "source": "BBC Sport",
       "title": "'I liked what I saw today'",
       "summary": "Liverpool fan Abigail Rudkin on an impressive display from the Reds in south London as they go into the international break in the Premier League top four.",
@@ -1188,13 +1195,6 @@
       "title": "Fenerbahce 3-2 Liverpool: Champions League – as it happened",
       "summary": "Liverpool led twice and lost once against Dirk Kuyt’s Fenerbahce on a wet night in Istanbul",
       "url": "https://www.theguardian.com/football/live/2026/nov/04/fenerbahce-v-liverpool-champions-league-live"
-    },
-    {
-      "date": "2026-11-04",
-      "source": "The Guardian",
-      "title": "Muriqi caps Fenerbahce comeback to make Liverpool pay for defensive lapses",
-      "summary": "Andoni Iraola arrived in Istanbul seeking improvement from Liverpool’s attack but departed with sudden cause for concern at the opposite end of the pitch.",
-      "url": "https://www.theguardian.com/football/2026/nov/04/muriqi-caps-fenerbahce-comeback-to-make-liverpool-pay-for-defensive-lapses"
     }
   ],
   "outlets": [
@@ -1224,7 +1224,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-11-08",
+    "asof": "2026-11-09",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1714,7 +1714,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-11-08"
+    "checked": "2026-11-09"
   },
   "venues": {
     "whiskeygirl": {
