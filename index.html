@@ -1538,7 +1538,7 @@ function render(data) {
     var html = "<div class=\"fx-break" + (cupOnly ? " cup" : "") + "\"><div class=\"brk-top\">" + (cupOnly ? cupIcon : globe) +
       "<strong>" + (cupOnly ? "FA Cup weekend" : b.cup ? "Break" : "International break") + "</strong>" +
       "<span class=\"brk-dates\">" + (cupOnly ? shortDay(b[0]) : spanOf(b[0], b[1])) + "</span></div>";
-    if (cupOnly) html += "<p class=\"brk-why\">No Premier League: it's the FA Cup " + b.cup[2] + ", and Liverpool are out.</p>";
+    if (cupOnly) html += "<p class=\"brk-why\">No Premier League: it's the FA Cup " + b.cup[2] + ".</p>";
     else if (b.cup) html += "<div class=\"brk-parts\"><span>International break · " + spanOf(b[0], b.intlEnd) + "</span>" +
       "<span class=\"c\">FA Cup weekend · " + shortDay(b.cup[0]) + "</span></div>";
     if (active) {
