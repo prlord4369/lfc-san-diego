@@ -302,7 +302,7 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .hero .tv { margin-top: 6px; font-size: .82rem; opacity: .8; }
 .hero .tv strong { font-weight: 700; }
 /* Past meetings with the next opponent (fixture "h2h" from the daily update): last 5 as squares, newest first, a tally,
-   and "All 5" opening the games inside the banner. Nothing shows when ESPN lists no meetings. */
+   and "Details" opening the games inside the banner. Nothing shows when ESPN lists no meetings. */
 .h2h { margin-top: 12px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,.22); max-width: 560px; }
 .h2h-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; font-size: .84rem; }
 .h2h-row b { font-weight: 700; }
@@ -1436,7 +1436,7 @@ function render(data) {
   };
 
   // Past meetings with the next opponent, in the banner: "Last 5 v Palace", squares (newest first), tally, and
-  // "All 5" opening the games (date, v / @ / at Wembley-type neutral, competition, score with Liverpool's goals first)
+  // "Details" opening the games (date, v / @ / at Wembley-type neutral, competition, score with Liverpool's goals first)
   var h2hBox = document.getElementById("next-h2h"), h2h = next && next.h2h || [];
   h2hBox.hidden = !h2h.length;
   if (h2h.length) {
@@ -1451,7 +1451,7 @@ function render(data) {
         return "<span class=\"h2h-sq " + m.r + "\" title=\"" + esc(mdate(m, { month: "short", day: "numeric", year: "numeric" }) + ": " + where(m) + next.opp + " " +
           m.score.replace("-", "–") + " · " + what(m)) + "\">" + m.r + "</span>"; }).join("") + "</span>" +
       "<span>" + [hn.W && "<b>" + hn.W + "</b> won", hn.D && "<b>" + hn.D + "</b> drawn", hn.L && "<b>" + hn.L + "</b> lost"].filter(Boolean).join(", ") + "</span>" +
-      "<button type=\"button\" class=\"h2h-more\" aria-expanded=\"false\" aria-controls=\"h2h-list\">All " + h2h.length + " ▾</button></div>" +
+      "<button type=\"button\" class=\"h2h-more\" aria-expanded=\"false\" aria-controls=\"h2h-list\">Details ▾</button></div>" +
       "<ul class=\"h2h-list\" id=\"h2h-list\">" + h2h.map(function (m) {
         return "<li><span class=\"h2h-sq " + m.r + "\">" + m.r + "</span><span class=\"dt\">" + esc(mdate(m, { month: "short" }) + " '" + m.date.slice(2, 4)) + "</span>" +
           "<span class=\"who\">" + where(m) + esc(oppShort) + "<small>" + esc(what(m)) + "</small></span><span class=\"sc\">" + esc(m.score.replace("-", "–")) + "</span></li>";
@@ -1460,7 +1460,7 @@ function render(data) {
     h2hBtn.onclick = function () {
       var open = !h2hList.classList.contains("open");
       h2hList.classList.toggle("open", open);
-      h2hBtn.setAttribute("aria-expanded", open); h2hBtn.textContent = open ? "Hide ▴" : "All " + h2h.length + " ▾";
+      h2hBtn.setAttribute("aria-expanded", open); h2hBtn.textContent = open ? "Hide ▴" : "Details ▾";
     };
   }
 
