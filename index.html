@@ -1528,7 +1528,7 @@ function render(data) {
       html += "<div class=\"fx\">" +
         (f.dateTbc ? "<div class=\"d\"><b>–</b><small>TBC</small></div>"
           : "<div class=\"d\"><b>" + fmt(f.d, { day: "numeric" }) + "</b><small>" + fmt(f.d, { weekday: "short" }) + "</small></div>") +
-        "<div><div class=\"opp\">" + teamLink(f.opp) + "</div><div class=\"sub\"><span class=\"ha " + f.ha + "\">" + (f.ha === "H" ? "HOME" : "AWAY") + "</span>" +
+        "<div><div class=\"opp\">" + teamLink(f.opp) + "</div><div class=\"sub\"><span class=\"ha " + esc(f.ha) + "\">" + (f.ha === "H" ? "HOME" : "AWAY") + "</span>" +
         "<span class=\"comp" + (f.scope === "international" ? " intl" : "") + "\">" + esc(f.comp) + "</span>" + early + "</div>" +
         (usTV(f) ? "<div class=\"tv\"><span class=\"label\">Watch on:</span> " + esc(usTV(f)) + "</div>" : "") + "</div>" +
         (f.dateTbc ? "<div class=\"t\"><span class=\"mono\">" + weekOf(f) + "</span><small>Date TBC</small></div>"
@@ -1589,10 +1589,10 @@ function render(data) {
     return "<thead><tr><th>#</th><th class=\"tm\">Team</th><th>P</th><th class=\"xs\">W</th><th class=\"xs\">D</th><th class=\"xs\">L</th>" +
       "<th class=\"xs\">GF</th><th class=\"xs\">GA</th><th>GD</th><th>Pts</th></tr></thead><tbody>" +
       t.rows.map(function (r) {
-        return "<tr" + (r.team === "Liverpool" ? " class=\"lfc\"" : "") + "><td class=\"ps" + (zone ? " " + zone(r.pos) : "") + "\">" + r.pos + "</td>" +
+        return "<tr" + (r.team === "Liverpool" ? " class=\"lfc\"" : "") + "><td class=\"ps" + (zone ? " " + zone(r.pos) : "") + "\">" + esc(r.pos) + "</td>" +
           "<td class=\"tm\">" + (link || teamLink)(r.team) + "</td>" +
-          "<td>" + r.p + "</td><td class=\"xs\">" + r.w + "</td><td class=\"xs\">" + r.d + "</td><td class=\"xs\">" + r.l + "</td>" +
-          "<td class=\"xs\">" + r.gf + "</td><td class=\"xs\">" + r.ga + "</td><td>" + gd(r) + "</td><td class=\"pts\">" + r.pts + "</td></tr>";
+          "<td>" + esc(r.p) + "</td><td class=\"xs\">" + esc(r.w) + "</td><td class=\"xs\">" + esc(r.d) + "</td><td class=\"xs\">" + esc(r.l) + "</td>" +
+          "<td class=\"xs\">" + esc(r.gf) + "</td><td class=\"xs\">" + esc(r.ga) + "</td><td>" + esc(gd(r)) + "</td><td class=\"pts\">" + esc(r.pts) + "</td></tr>";
       }).join("") + "</tbody>";
   };
   var asOf = function (t) {
