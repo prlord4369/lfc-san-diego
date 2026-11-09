@@ -140,6 +140,7 @@ if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://w
   --ok: #2c7a3f;
   --warn: #a8650a;
   --bad: #b3152c;
+  --gold: #946b00;     /* FA Cup weekend card in the fixtures list */
   --chip-ok: #e3f1e6;
   --chip-warn: #f8ecd8;
   --chip-bad: #f9e1e4;
@@ -151,7 +152,7 @@ if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://w
   :root:not([data-theme="light"]) {
     --bg: #131012; --surface: #1d181a; --fg: #f3eded; --muted: #a99ea1; --line: #342c2f;
     --red: #e3354d; --red-deep: #5c0915; --on-red: #ffffff; --pacific: #4fc0ca; --europa: #7d9bff; --uel: #ff9a3c;
-    --ok: #6cc983; --warn: #e3a64a; --bad: #ff6b7f;
+    --ok: #6cc983; --warn: #e3a64a; --bad: #ff6b7f; --gold: #e8b23a;
     --chip-ok: #18301e; --chip-warn: #33250f; --chip-bad: #3a1219;
     color-scheme: dark;
   }
@@ -159,7 +160,7 @@ if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://w
 :root[data-theme="dark"] {
   --bg: #131012; --surface: #1d181a; --fg: #f3eded; --muted: #a99ea1; --line: #342c2f;
   --red: #e3354d; --red-deep: #5c0915; --on-red: #ffffff; --pacific: #4fc0ca; --europa: #7d9bff; --uel: #ff9a3c;
-  --ok: #6cc983; --warn: #e3a64a; --bad: #ff6b7f;
+  --ok: #6cc983; --warn: #e3a64a; --bad: #ff6b7f; --gold: #e8b23a;
   --chip-ok: #18301e; --chip-warn: #33250f; --chip-bad: #3a1219;
   color-scheme: dark;
 }
@@ -454,12 +455,28 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .fx-break small { display: block; font-size: inherit; margin: 8px 0 0 36px; }
 .brk-labels + small { margin-left: 0; }
 .brk-bar { position: relative; height: 8px; border-radius: 4px; background: var(--line); margin: 16px 4px 6px; }
-.brk-win { position: absolute; top: 0; bottom: 0; border-radius: 4px; background: repeating-linear-gradient(45deg, var(--pacific) 0 5px, color-mix(in srgb, var(--pacific) 70%, transparent) 5px 10px); }
+.brk-win { position: absolute; top: 0; bottom: 0; }
 .brk-dot { position: absolute; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--surface); border: 3px solid var(--fg); }
 .brk-labels { display: flex; justify-content: space-between; gap: 6px; font-size: .72rem; }
 .brk-labels b { display: block; color: var(--fg); }
-.brk-labels span:nth-child(2) { color: var(--pacific); font-weight: 700; text-align: center; }
+.brk-labels span:nth-child(2) { color: var(--fg); font-weight: 700; text-align: center; }
 .brk-labels span:last-child { text-align: right; }
+/* FA Cup weekend with no Premier League while Liverpool are out of the cup: same card, gold edge and cup icon */
+.fx-break.cup { border-top-color: var(--gold); }
+.fx-break.cup .brk-top svg, .fx-break.cup .brk-dates { color: var(--gold); }
+.brk-why { margin: 6px 0 0 36px; color: var(--fg); }
+.brk-why + small { margin-top: 2px; }
+/* An international break running into an FA Cup weekend: one card, a tag for each */
+.brk-parts { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0 36px; }
+.brk-parts span { font-size: .75rem; font-weight: 700; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--red); }
+.brk-parts .c { color: var(--gold); }
+/* Every timeline: red for an international window, gold for an FA Cup weekend, grey for free days between; faint until reached */
+.brk-zone { position: absolute; top: 0; bottom: 0; }
+.brk-zone.i { background: color-mix(in srgb, var(--red) 22%, transparent); }
+.brk-zone.c { background: color-mix(in srgb, var(--gold) 28%, transparent); }
+.brk-win.i { background: repeating-linear-gradient(45deg, var(--red) 0 5px, color-mix(in srgb, var(--red) 70%, transparent) 5px 10px); }
+.brk-win.g { background: repeating-linear-gradient(45deg, var(--muted) 0 5px, color-mix(in srgb, var(--muted) 70%, transparent) 5px 10px); }
+.brk-win.c { background: repeating-linear-gradient(45deg, var(--gold) 0 5px, color-mix(in srgb, var(--gold) 70%, transparent) 5px 10px); }
 .fx { display: grid; grid-template-columns: 74px minmax(0, 1fr) auto; gap: 4px 14px; align-items: center; padding: 11px 0; border-bottom: 1px solid var(--line); }
 .fx .d { line-height: 1.1; }
 .fx .d b { font: 800 1.6rem/1 var(--font-display); display: block; }
@@ -1476,30 +1493,72 @@ function render(data) {
   var domestic = fixtures.filter(function (f) { return !f.dateTbc && f.scope === "domestic"; })
     .map(function (f) { return { day: ptDay(f.d), opp: f.opp }; });
   var daysBetween = function (a, b) { return Math.round((dayDate(b) - dayDate(a)) / 864e5); };
-  var globe = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\">" +
+  // FA Cup weekends the Premier League leaves clear (The FA's round dates, Saturday and Sunday). Add next season's each
+  // summer with INTL_BREAKS. The semi-final weekend and the Carabao Cup final aren't listed: the league plays on.
+  var FA_CUP_WEEKENDS = [["2027-01-09", "2027-01-10", "3rd round"], ["2027-02-13", "2027-02-14", "4th round"],
+    ["2027-03-06", "2027-03-07", "5th round"], ["2027-04-03", "2027-04-04", "quarter-finals"]];
+  // Breaks as [first day, last day] with .intl and/or .cup. A cup weekend counts only once Liverpool are out of the FA
+  // Cup (owner's choice 2026-11-09, "option A"): no Liverpool game on it (the league may move one there) and 8 days or
+  // more from the game before to the next game. Straight after an international break with no game in between, it
+  // joins that break's card ("option C1"), e.g. Mar 22 – Apr 4.
+  var BREAKS = INTL_BREAKS.map(function (b) { var x = [b[0], b[1]]; x.intl = true; x.intlEnd = b[1]; return x; });
+  var faLast = data.results.filter(function (r) { return r.comp.indexOf("FA Cup") === 0; })
+    .sort(function (a, b) { return a.date < b.date ? -1 : 1; }).pop();
+  var faOut = faLast && faLast.r === "L" && !fixtures.some(function (f) { return f.comp.indexOf("FA Cup") === 0; });
+  if (faOut) FA_CUP_WEEKENDS.forEach(function (w) {
+    if (w[0] <= faLast.date) return;   // Liverpool were still in when this round was played
+    if (games.some(function (g) { return g.day >= w[0] && g.day <= w[1]; })) return;
+    var before = games.filter(function (g) { return g.day < w[0]; }).pop(), after = games.filter(function (g) { return g.day > w[1]; })[0];
+    if (!before || !after || daysBetween(before.day, after.day) < 8) return;
+    var join = BREAKS.filter(function (b) {
+      return b.intl && b[1] < w[0] && !games.some(function (g) { return g.day > b[1] && g.day < w[0]; });
+    })[0];
+    if (join) { join[1] = w[1]; join.cup = w; }
+    else { var x = [w[0], w[1]]; x.cup = w; BREAKS.push(x); }
+  });
+  BREAKS.sort(function (a, b) { return a[0] < b[0] ? -1 : 1; });
+  var cupIcon = "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\">" +
+    "<path d=\"M7 3.5h10v5a5 5 0 0 1-10 0z\"/><path d=\"M7 5.5H4.2a3 3 0 0 0 3.2 4.4M17 5.5h2.8a3 3 0 0 1-3.2 4.4\"/><path d=\"M12 13.5v4M8.5 20.5h7l-.8-3h-5.4z\"/></svg>";
+  var globe ="<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\">" +
     "<circle cx=\"12\" cy=\"12\" r=\"9.2\"/><ellipse cx=\"12\" cy=\"12\" rx=\"4\" ry=\"9.2\"/><path d=\"M3 12h18M4.5 7.3h15M4.5 16.7h15\"/></svg>";
   // Option C (owner's choice 2026-11-08): the dates and the days until the first domestic match after the break (from
   // today when the break is the next thing on the list, otherwise from Liverpool's last game before it). While the
   // break is on, also a timeline of the window itself (first day to last, "Today" marker); the match rows below give
   // the next game's date.
+  // A cup weekend (alone or joined to an international break) counts to the next match in any competition: a Champions
+  // League game can follow it. An international break alone counts to the next domestic match, as before.
   function breakRow(b, fromToday) {
     var today = ptDay(new Date()), active = b[0] <= today && today <= b[1];
     var before = games.filter(function (g) { return g.day < b[0]; }).pop();
-    var after = domestic.filter(function (g) { return g.day > b[1]; })[0];
+    var after = (b.cup ? games : domestic).filter(function (g) { return g.day > b[1]; })[0];
     var from = fromToday ? today : before && before.day;
     var n = from && after ? daysBetween(from, after.day) : 0;
-    var span = b[0].slice(5, 7) === b[1].slice(5, 7) ? shortDay(b[0]) + "–" + Number(b[1].slice(8)) : shortDay(b[0]) + " – " + shortDay(b[1]);
-    var html = "<div class=\"fx-break\"><div class=\"brk-top\">" + globe + "<strong>International break</strong>" +
-      "<span class=\"brk-dates\">" + span + "</span></div>";
+    var spanOf = function (a, z) { return a.slice(5, 7) === z.slice(5, 7) ? shortDay(a) + "–" + Number(z.slice(8)) : shortDay(a) + " – " + shortDay(z); };
+    var cupOnly = b.cup && !b.intl;
+    var html = "<div class=\"fx-break" + (cupOnly ? " cup" : "") + "\"><div class=\"brk-top\">" + (cupOnly ? cupIcon : globe) +
+      "<strong>" + (cupOnly ? "FA Cup weekend" : b.cup ? "Break" : "International break") + "</strong>" +
+      "<span class=\"brk-dates\">" + (cupOnly ? shortDay(b[0]) : spanOf(b[0], b[1])) + "</span></div>";
+    if (cupOnly) html += "<p class=\"brk-why\">No Premier League: it's the FA Cup " + b.cup[2] + ", and Liverpool are out.</p>";
+    else if (b.cup) html += "<div class=\"brk-parts\"><span>International break · " + spanOf(b[0], b.intlEnd) + "</span>" +
+      "<span class=\"c\">FA Cup weekend · " + shortDay(b.cup[0]) + "</span></div>";
     if (active) {
       // One equal segment per day; today counts as done, so the bar is full on the last day
-      var len = daysBetween(b[0], b[1]) + 1, day = daysBetween(b[0], today) + 1, pct = day / len * 100;
-      html += "<div class=\"brk-bar\"><div class=\"brk-win\" style=\"width:" + pct + "%\"></div>" +
+      var len = daysBetween(b[0], b[1]) + 1, day = daysBetween(b[0], today) + 1;
+      // The same colours on every timeline (owner, 2026-11-09): red for an international window, gold for an FA Cup
+      // weekend, grey for free days between the two when they share a card; the part still to come shows faintly
+      var part = function (cls, from, to) {   // days from..to (0-based, end exclusive)
+        var a = from / len * 100, z = to / len * 100, f = Math.min(day, to) - from;
+        return (to > from ? "<div class=\"brk-zone " + cls + "\" style=\"left:" + a + "%;width:" + (z - a) + "%\"></div>" : "") +
+          (f > 0 ? "<div class=\"brk-win " + cls + "\" style=\"left:" + a + "%;width:" + f / len * 100 + "%\"></div>" : "");
+      };
+      var intlDays = b.intl ? daysBetween(b[0], b.intlEnd) + 1 : 0, cupFrom = b.cup ? daysBetween(b[0], b.cup[0]) : len;
+      var fill = part("i", 0, intlDays) + part("g", intlDays, cupFrom) + part("c", cupFrom, len);
+      html += "<div class=\"brk-bar\">" + fill +
         "<div class=\"brk-dot\" style=\"left:0\"></div><div class=\"brk-dot\" style=\"left:100%\"></div></div>" +
         "<div class=\"brk-labels\"><span><b>" + shortDay(b[0]) + "</b>Starts</span><span>Day " + day + " of " + len + "</span>" +
         "<span><b>" + shortDay(b[1]) + "</b>Ends</span></div>";
     }
-    if (n > 0) html += "<small>" + n + (n === 1 ? " day" : " days") + " until the next domestic match</small>";
+    if (n > 0) html += "<small>" + n + (n === 1 ? " day" : " days") + " until the next " + (b.cup ? "match" : "domestic match") + "</small>";
     return html + "</div>";
   }
 
@@ -1516,7 +1575,7 @@ function render(data) {
       var m = fmt(f.d, { month: "long", year: "numeric" });
       // A break that falls between the previous row (or, at the top, the last result) and this game
       var day = f.dateTbc ? "" : ptDay(f.d), from = prevDay || lastPlayed;
-      var brk = day ? INTL_BREAKS.filter(function (b) { return b[1] >= today && b[0] > from && b[1] < day; })
+      var brk = day ? BREAKS.filter(function (b) { return b[1] >= today && b[0] > from && b[1] < day; })
         .map(function (b) { return breakRow(b, !html); }).join("") : "";
       if (brk && html) html += brk;   // between games: before the new month's heading
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
