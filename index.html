@@ -453,11 +453,9 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .brk-dates { font: 800 1.05rem/1 var(--font-display); color: var(--red); white-space: nowrap; }
 .fx-break small { display: block; font-size: inherit; margin: 8px 0 0 36px; }
 .brk-labels + small { margin-left: 0; }
-.brk-bar { position: relative; height: 8px; border-radius: 4px; background: var(--line); margin: 30px 4px 6px; }
+.brk-bar { position: relative; height: 8px; border-radius: 4px; background: var(--line); margin: 16px 4px 6px; }
 .brk-win { position: absolute; top: 0; bottom: 0; border-radius: 4px; background: repeating-linear-gradient(45deg, var(--pacific) 0 5px, color-mix(in srgb, var(--pacific) 70%, transparent) 5px 10px); }
 .brk-dot { position: absolute; top: 50%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--surface); border: 3px solid var(--fg); }
-.brk-today { position: absolute; top: -9px; bottom: -9px; width: 2px; margin-left: -1px; background: var(--red); }
-.brk-today::before { content: "Today"; position: absolute; top: -16px; left: 50%; transform: translateX(-50%); font-size: .62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--red); }
 .brk-labels { display: flex; justify-content: space-between; gap: 6px; font-size: .72rem; }
 .brk-labels b { display: block; color: var(--fg); }
 .brk-labels span:nth-child(2) { color: var(--pacific); font-weight: 700; text-align: center; }
@@ -1497,8 +1495,7 @@ function render(data) {
       // One equal segment per day; today counts as done, so the bar is full on the last day
       var len = daysBetween(b[0], b[1]) + 1, day = daysBetween(b[0], today) + 1, pct = day / len * 100;
       html += "<div class=\"brk-bar\"><div class=\"brk-win\" style=\"width:" + pct + "%\"></div>" +
-        "<div class=\"brk-dot\" style=\"left:0\"></div><div class=\"brk-dot\" style=\"left:100%\"></div>" +
-        "<div class=\"brk-today\" style=\"left:" + pct + "%\"></div></div>" +
+        "<div class=\"brk-dot\" style=\"left:0\"></div><div class=\"brk-dot\" style=\"left:100%\"></div></div>" +
         "<div class=\"brk-labels\"><span><b>" + shortDay(b[0]) + "</b>Starts</span><span>Day " + day + " of " + len + "</span>" +
         "<span><b>" + shortDay(b[1]) + "</b>Ends</span></div>";
     }
