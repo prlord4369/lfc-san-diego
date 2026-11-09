@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T13:17:35Z",
+  "updated": "2026-11-09T16:40:14Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1124,10 +1124,31 @@
   "news": [
     {
       "date": "2026-11-09",
+      "source": "BBC Sport",
+      "title": "Szoboszlai a doubt for Nations League conclusion",
+      "summary": "Liverpool midfielder Dominik Szoboszlai will undergo tests on a knee injury to ascertain his readiness to join up with the Hungarian national side for Nations League fixtures…",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo"
+    },
+    {
+      "date": "2026-11-09",
       "source": "Liverpool Echo",
-      "title": "Alexis Mac Allister reveals what Crystal Palace couldn't believe about Liverpool goalkeeper Alisson Becker",
-      "summary": "Alexis Mac Allister has reacted after Liverpool beat Crystal Palace in the Premier League on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexis-mac-allister-reveals-what-34883052"
+      "title": "Alexander Isak is becoming the striker Liverpool want him to be and numbers prove it",
+      "summary": "Alexander Isak scored his eighth goal of the season at Crystal Palace and Liverpool man is the most efficient leading striker in the Premier League",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-becoming-striker-liverpool-34883566"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "BBC Sport",
+      "title": "Incident-by-incident: Was it a bad weekend for VAR?",
+      "summary": "Almost every game had a controversial VAR decision in the Premier League this weekend. But how many might go down as errors?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r93dnr9do"
+    },
+    {
+      "date": "2026-11-09",
+      "source": "Liverpool Echo",
+      "title": "Michael Carrick makes Man United quit vow in spiky interview with Liverpool next up",
+      "summary": "Michael Carrick has insisted he will not resign as Manchester United manager ahead of their next game against Liverpool on November 22",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/michael-carrick-makes-man-united-34884950"
     },
     {
       "date": "2026-11-09",
@@ -1142,13 +1163,6 @@
       "title": "Alisson wants to sign new Liverpool contract",
       "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "Liverpool Echo",
-      "title": "Alisson Becker makes Liverpool future clear as agent opens contract talks - 'My will is to stay'",
-      "summary": "Alisson Becker's Liverpool contract expires next summer - but the goalkeeper has now revealed he wants to extend his stay at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alisson-becker-makes-liverpool-future-34883631"
     },
     {
       "date": "2026-11-08",
@@ -1184,20 +1198,6 @@
       "title": "Sage in big trouble as Palace hit rock-bottom after defeat to Liverpool",
       "summary": "Liverpool beat Crystal Palace 3-1 at Selhurst Park to inflict a fourth consecutive Premier League defeat on the hosts and leave Pierre Sage in a perilous position with his side…",
       "url": "https://www.skysports.com/football/crystal-palace-vs-liverpool/report/559536"
-    },
-    {
-      "date": "2026-11-07",
-      "source": "BBC Sport",
-      "title": "'I can't believe he is one of us' - inside Salah's life in Trabzon",
-      "summary": "BBC Sport travels to Turkey to watch Mohamed Salah play for Trabzonspor and discover how the 'Egyptian King' is settling into life by the Black Sea.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmwyqzy934lxo"
-    },
-    {
-      "date": "2026-11-06",
-      "source": "BBC Sport",
-      "title": "Sometimes we're too honest - Liverpool's Iraola",
-      "summary": "Liverpool Head Coach Andoni Iraola says his team are sometimes 'too honest' as they prepare to play Crystal Palace at Selhurst Park on Sunday.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6n8ddjjj935o"
     },
     {
       "date": "2026-11-06",
