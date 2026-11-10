@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T00:10:10Z",
+  "updated": "2026-11-10T13:06:08Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -797,8 +797,8 @@
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": false,
-      "kickoff": "2026-12-16T20:00:00Z",
       "scope": "domestic",
+      "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1065,83 +1065,83 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "He missed the Fenerbahce game and was not in the Crystal Palace squad because of a heel problem. No return date has been given.",
+      "detail": "He has missed the last two matches, Fenerbahce and Crystal Palace, with a heel problem that Iraola is managing day to day. No return date has been set.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/team-confirmed-crystal-palace-barcola-34880623",
-      "reported": "2026-11-08"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has been out since limping off at Brentford with a muscle problem. Iraola said a return before the international break was unlikely, so Manchester United on November 22 is the likeliest comeback.",
+      "detail": "He has been sidelined since he went off early at Brentford and is still missing. He is considered a likely returnee for the Manchester United game on November 22.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is a long-term absentee still working back from an Achilles rupture and is not yet back in training. No firm return date has been set.",
+      "detail": "He is still recovering from an Achilles rupture and is building up his rehab. No firm return date has been given.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is recovering from a serious knee injury suffered in January and is not yet back training with the squad. No return date has been set.",
+      "detail": "He is nearing the end of his rehab from the knee injury he suffered in January. He is pencilled in for a late-November return at the earliest.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played this season because of an ACL injury and a setback in his recovery. He may return to team training during the international break.",
+      "detail": "He has not played this season after his ACL injury and a recovery setback. He is expected to start back in team training during the international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
     },
     {
       "player": "Dominik Szoboszlai",
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He was not 100 percent after playing against Crystal Palace with a knee issue and is a doubt for Hungary during the international break. Iraola said he will not want to take unnecessary risks.",
+      "detail": "He was not fully right after a knee knock and did not finish the 90 minutes against Crystal Palace. His fitness for Hungary during the international break is in doubt.",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-andoni-iraola-34880661",
-      "reported": "2026-11-08"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
     }
   ],
   "news": [
     {
-      "date": "2026-11-09",
-      "source": "Liverpool Echo",
-      "title": "Liverpool and Ronald Araujo 'reach agreement on transfer decision' as defender shines again",
-      "summary": "Ronald Araujo has proven to be somewhat of a revelation for Liverpool this season, but there is still the question about his long-term future hanging over Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-ronald-araujo-transfer-decision-34887422"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "Liverpool Echo",
-      "title": "Daniel Sturridge and Jamie Carragher fear Liverpool star isn't suited to role under Andoni Iraola",
-      "summary": "Jamie Carragher and Daniel Sturridge aren't convinced about Dominik Szoboszlai's current role in the Liverpool side",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/daniel-sturridge-jamie-carragher-fear-34885970"
-    },
-    {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "source": "BBC Sport",
-      "title": "Szoboszlai a doubt for Nations League conclusion",
-      "summary": "Liverpool midfielder Dominik Szoboszlai will undergo tests on a knee injury to ascertain his readiness to join up with the Hungarian national side for Nations League fixtures…",
+      "title": "Szoboszlai fitness call to come at 'last minute'",
+      "summary": "Hungary say they will do \"everything possible\" for Liverpool midfielder Dominik Szoboszlai to feature in Nations League fixtures against Georgia and Northern Ireland across the…",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo"
+    },
+    {
+      "date": "2026-11-10",
+      "source": "Liverpool Echo",
+      "title": "Virgil van Dijk drops Liverpool future hint after contract update - 'Let's see'",
+      "summary": "Liverpool captain Virgil van Dijk is inside the final year of his Anfield deal but is relaxed about the situation",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-drops-liverpool-34884211"
+    },
+    {
+      "date": "2026-11-10",
+      "source": "Liverpool Echo",
+      "title": "Alisson Becker's agent offers update on Liverpool future as contract talks opened",
+      "summary": "Alisson Becker's agent has confirmed he is in talks with Liverpool over a new contract for the Brazilian",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alisson-beckers-agent-offers-update-34888412"
     },
     {
       "date": "2026-11-09",
