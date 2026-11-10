@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T13:06:08Z",
+  "updated": "2026-11-10T16:26:49Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1124,24 +1124,24 @@
   "news": [
     {
       "date": "2026-11-10",
+      "source": "Liverpool Echo",
+      "title": "Liverpool star could miss Merseyside derby - but has been handed UEFA reprieve after rule change",
+      "summary": "Alexis Mac Allister is a yellow card away from having to serve a one-match ban in the Premier League for Liverpool",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-star-could-miss-merseyside-34889753"
+    },
+    {
+      "date": "2026-11-10",
+      "source": "Liverpool Echo",
+      "title": "Poll: Should Liverpool hand Virgil van Dijk and Alisson Becker new contracts?",
+      "summary": "Two Liverpool modern-day greats see their contracts come to an end at the end of the 2026-27 season",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/should-liverpool-hand-virgil-van-34891245"
+    },
+    {
+      "date": "2026-11-10",
       "source": "BBC Sport",
       "title": "Szoboszlai fitness call to come at 'last minute'",
       "summary": "Hungary say they will do \"everything possible\" for Liverpool midfielder Dominik Szoboszlai to feature in Nations League fixtures against Georgia and Northern Ireland across the…",
       "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "Liverpool Echo",
-      "title": "Virgil van Dijk drops Liverpool future hint after contract update - 'Let's see'",
-      "summary": "Liverpool captain Virgil van Dijk is inside the final year of his Anfield deal but is relaxed about the situation",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-drops-liverpool-34884211"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "Liverpool Echo",
-      "title": "Alisson Becker's agent offers update on Liverpool future as contract talks opened",
-      "summary": "Alisson Becker's agent has confirmed he is in talks with Liverpool over a new contract for the Brazilian",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alisson-beckers-agent-offers-update-34888412"
     },
     {
       "date": "2026-11-09",
@@ -1174,7 +1174,7 @@
     {
       "date": "2026-11-08",
       "source": "BBC Sport",
-      "title": "'I liked what I saw today'",
+      "title": "Liverpool fan left impressed by two players",
       "summary": "Liverpool fan Abigail Rudkin on an impressive display from the Reds in south London as they go into the international break in the Premier League top four.",
       "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1n37912go"
     },
