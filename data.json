@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T05:15:13Z",
+  "updated": "2026-11-11T13:13:31Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -796,8 +796,8 @@
       "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "tbc": false,
       "scope": "domestic",
+      "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
@@ -1065,76 +1065,104 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "He has missed the last two matches, Fenerbahce and Crystal Palace, with a heel problem that Iraola is managing day to day. No return date has been set.",
+      "detail": "A heel problem has kept him out since Fenerbahce, and he missed Crystal Palace too. He is also not in the Netherlands squad, and no return date has been set.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
+      "reported": "2026-11-10"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has been sidelined since he went off early at Brentford and is still missing. He is considered a likely returnee for the Manchester United game on November 22.",
+      "detail": "He has been missing since he limped off early at Brentford and is not in the Netherlands squad. Liverpool expect him back within the next couple of weeks.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still recovering from an Achilles rupture and is building up his rehab. No firm return date has been given.",
+      "detail": "He is still recovering from an Achilles rupture and is not yet back in training. He is expected to be sidelined for a while longer.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is nearing the end of his rehab from the knee injury he suffered in January. He is pencilled in for a late-November return at the earliest.",
+      "detail": "He is a long-term absentee after his knee injury from January and is not yet back in training. He is expected to be sidelined a little longer.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played this season after his ACL injury and a recovery setback. He is expected to start back in team training during the international break.",
+      "detail": "He has not played this season after his ACL injury and a setback. Iraola said he was targeting the November international break for a return to team training.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
+      "reported": "2026-11-07"
     },
     {
       "player": "Dominik Szoboszlai",
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He was not fully right after a knee knock and did not finish the 90 minutes against Crystal Palace. His fitness for Hungary during the international break is in doubt.",
+      "detail": "He sprained his knee during the Crystal Palace win and was substituted in the 69th minute. He has joined the Hungary squad, but his availability will be decided at the last minute.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-update-liverpool-34888863",
+      "reported": "2026-11-10"
     }
   ],
   "news": [
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Liverpool Echo",
-      "title": "I don't agree with Dominik Szoboszlai decision - but his Liverpool team-mate has proved me wrong",
-      "summary": "John Aldridge has his say on Alexis Mac Allister's future and Dominik Szoboszlai's latest injury in the second half of his weekly column",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/dont-agree-dominik-szoboszlai-decision-34891259"
+      "title": "Ryan Giggs was right with viral Liverpool collapse claim - Man Utd sacking Michael Carrick proves it",
+      "summary": "With Manchester United set to sack Michael Carrick as manager with the Red Devils currently in the Premier League relegation zone, Ryan Giggs' infamous comments about the Red…",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ryan-giggs-right-viral-liverpool-34894194"
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-11",
       "source": "Liverpool Echo",
-      "title": "Liverpool make enquiry for Brazilian teenager as transfer fee set amid PSG interest",
-      "summary": "Liverpool have enjoyed a respectable start to the new season, but it appears that Anfield top brass are looking to bolster Andoni Iraola's first team further in the coming months",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/transfer-news/liverpool-transfer-news-psg-bele-34892982"
+      "title": "Harvey Elliott apology revealed as on-loan Liverpool winger makes important step",
+      "summary": "On-loan Liverpool midfielder Harvey Elliott scored his first goal for Valencia on his first start for the club in the Copa del Rey on Tuesday night",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/harvey-elliott-apology-revealed-loan-34894346"
+    },
+    {
+      "date": "2026-11-11",
+      "source": "BBC Sport",
+      "title": "Wales boss Bellamy praises Liverpool's handling of Koumas",
+      "summary": "Wales manager Craig Bellamy has praised Liverpool for their handling of forward Lewis Koumas ahead of their Nations League trip to Norway.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm752n34wek9o"
+    },
+    {
+      "date": "2026-11-11",
+      "source": "Sky Sports",
+      "title": "Liverpool incorrectly denied pen vs Arsenal says independent panel",
+      "summary": "Liverpool should have been awarded a penalty when Jurrien Timber pulled Alexander Isak's shirt in Arsenal's victory at Anfield, an independent panel has ruled.",
+      "url": "https://www.skysports.com/football/news/11669/13610916/liverpool-incorrectly-denied-penalty-for-jurrien-timber-pull-on-alexander-isak-vs-arsenal-rules-independent-panel"
+    },
+    {
+      "date": "2026-11-11",
+      "source": "BBC Sport",
+      "title": "Shirt pull on Isak should have been penalty - panel",
+      "summary": "Liverpool should have been awarded a penalty against Arsenal for Jurrien Timber's shirt pull on Alexander Isak, says a Premier League panel.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6n8d8kl125vo"
+    },
+    {
+      "date": "2026-11-11",
+      "source": "Sky Sports",
+      "title": "From the sack in Cyprus to Liverpool: Iraola's first job explained",
+      "summary": "Not every successful career starts spectacularly well but Andoni Iraola's journey to Liverpool will take some beating.",
+      "url": "https://www.skysports.com/football/news/11669/13576948/andoni-iraola-was-sacked-from-his-first-job-at-aek-larnaca-in-cyprus-liverpool-managers-difficult-career-start-explained"
     },
     {
       "date": "2026-11-10",
@@ -1177,34 +1205,6 @@
       "title": "Premier League: 10 talking points from the weekend’s action",
       "summary": "Delap’s talents resurface in style, Gómez delights Brighton with more fireworks, and hair-pulling confusion at Everton",
       "url": "https://www.theguardian.com/football/2026/nov/09/premier-league-10-talking-points-weekend-action"
-    },
-    {
-      "date": "2026-11-08",
-      "source": "The Guardian",
-      "title": "Crystal Palace poised to sack Pierre Sage and target Frank after Liverpool defeat",
-      "summary": "Frenchman under pressure after four successive defeats",
-      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-pierre-sage-thomas-frank-main-candidate-manager-selhurst-park"
-    },
-    {
-      "date": "2026-11-08",
-      "source": "BBC Sport",
-      "title": "Liverpool fan left impressed by two players",
-      "summary": "Liverpool fan Abigail Rudkin on an impressive display from the Reds in south London as they go into the international break in the Premier League top four.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm4g1n37912go"
-    },
-    {
-      "date": "2026-11-08",
-      "source": "The Guardian",
-      "title": "Wirtz provides quality as Liverpool leave Crystal Palace propping up table",
-      "summary": "It was the moment when ­Liverpool knew they would win here in south London and so move on from the ­Premier League defeat against ­Arsenal at Anfield last Sunday and the one in…",
-      "url": "https://www.theguardian.com/football/2026/nov/08/crystal-palace-liverpool-premier-league-match-report"
-    },
-    {
-      "date": "2026-11-08",
-      "source": "BBC Sport",
-      "title": "Who was back to his best? Player ratings for Crystal Palace v Liverpool",
-      "summary": "How Crystal Palace and Liverpool's players rated following their Premier League match.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqkgjm2dlpv6o"
     }
   ],
   "outlets": [
