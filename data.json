@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T22:42:26Z",
+  "updated": "2026-11-11T00:09:19Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -312,10 +312,10 @@
         "fd": true
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-11"
   },
   "table": {
-    "asof": "2026-11-10",
+    "asof": "2026-11-11",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1125,7 +1125,7 @@
     {
       "date": "2026-11-10",
       "source": "BBC Sport",
-      "title": "Leicester and Brentford U21 into Trophy knockout stage",
+      "title": "Leicester and Brentford U21 into EFL Trophy knockout stages",
       "summary": "Brentford U21 and League One side Leicester City move into the knockout stages of the Jersey Mike's Trophy with vital victories.",
       "url": "https://www.bbc.co.uk/sport/football/articles/cjqlnllkyzd5o"
     },
@@ -1234,7 +1234,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-11-10",
+    "asof": "2026-11-11",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1724,7 +1724,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-11-10"
+    "checked": "2026-11-11"
   },
   "venues": {
     "whiskeygirl": {
