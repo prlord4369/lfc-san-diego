@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T00:25:20Z",
+  "updated": "2026-11-12T13:16:24Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -723,7 +723,9 @@
         "name": "Anfield",
         "city": "Liverpool",
         "country": "England"
-      }
+      },
+      "us": "USA Network",
+      "usUrl": "https://worldsoccertalk.com/teams/manchester-united-tv-schedule/"
     },
     {
       "kickoff": "2026-11-25T20:00:00Z",
@@ -740,7 +742,9 @@
         "name": "Jan Breydel Stadium",
         "city": "Brugge",
         "country": "Belgium"
-      }
+      },
+      "us": "Paramount+",
+      "usUrl": "https://worldsoccertalk.com/champions-league-tv-schedule/"
     },
     {
       "kickoff": "2026-11-29T12:00:00Z",
@@ -796,9 +800,9 @@
       "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "scope": "domestic",
       "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1065,76 +1069,96 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "A heel problem has kept him out since Fenerbahce, and he missed Crystal Palace too. He is also not in the Netherlands squad, and no return date has been set.",
+      "detail": "A heel problem has kept him out since Fenerbahce, and he missed Crystal Palace too. Iraola called it a day-to-day matter of pain, and he is hoping for a return after the international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gravenberch-34866069",
-      "reported": "2026-11-10"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has been missing since he limped off early at Brentford and is not in the Netherlands squad. Liverpool expect him back within the next couple of weeks.",
+      "detail": "He has been missing since limping off at Brentford. He is awaiting medical clearance to resume, and he is expected back within the next couple of weeks.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
+      "reported": "2026-11-12"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still recovering from an Achilles rupture and is not yet back in training. He is expected to be sidelined for a while longer.",
+      "detail": "He is still in rehab from his Achilles rupture and remains unavailable. He is continuing his recovery work through the international break, with no firm return date given.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
+      "reported": "2026-11-12"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is a long-term absentee after his knee injury from January and is not yet back in training. He is expected to be sidelined a little longer.",
+      "detail": "He is recovering from a serious knee injury suffered in January and remains unavailable. He may rejoin group training after the November international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
+      "reported": "2026-11-12"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played this season after his ACL injury and a setback. Iraola said he was targeting the November international break for a return to team training.",
+      "detail": "He has not played this season after his ACL injury. He may rejoin group training after the November international break.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136",
-      "reported": "2026-11-07"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
+      "reported": "2026-11-12"
+    },
+    {
+      "player": "Vitezslav Jaros",
+      "pos": "GK",
+      "status": "out",
+      "issue": "Long-term injury",
+      "detail": "He remains unavailable due to a long-term injury and is continuing his recovery work through the international break.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
+      "reported": "2026-11-12"
     },
     {
       "player": "Dominik Szoboszlai",
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He sprained his knee during the Crystal Palace win and was substituted in the 69th minute. He has joined the Hungary squad, but his availability will be decided at the last minute.",
+      "detail": "He sprained his knee in the Crystal Palace win and was not 100 per cent before being substituted. His availability for the next match is still uncertain.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-update-liverpool-34888863",
-      "reported": "2026-11-10"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
+      "reported": "2026-11-09"
+    },
+    {
+      "player": "Virgil van Dijk",
+      "pos": "DF",
+      "status": "doubt",
+      "issue": "Niggle",
+      "detail": "He pulled out of the Netherlands squad with a minor knock and has been managing discomfort for weeks. Iraola is hopeful the break will let him recover before Manchester United.",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
+      "reported": "2026-11-12"
     }
   ],
   "news": [
     {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "source": "Liverpool Echo",
-      "title": "Luis Diaz behaviour behind the scenes at Liverpool and five players singled out by ex-coach",
-      "summary": "Liverpool sold Luis Diaz to Bayern Munich just over a year ago - and one of their former coaches has now spoken about his behaviour behind the scenes on Merseyside",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-fc-lfc-luis-diaz-34898890"
+      "title": "Former Hungary boss points finger at Liverpool for risking Dominik Szoboszlai injury - 'Just don’t get it'",
+      "summary": "A former Hungary manager has pointed the finger of blame at Liverpool for Dominik Szoboszlai's knee injury",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/former-hungary-boss-points-finger-34901102"
     },
     {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "source": "Liverpool Echo",
-      "title": "Brighton star responds to Liverpool transfer rumours amid Alisson uncertainty - 'A real shame'",
-      "summary": "Bart Verbruggen has spoken out on transfer speculation linking him with a move away from Brighton & Hove Albion after reportedly attracting interest from Liverpool",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bart-verbruggen-responds-liverpool-transfer-34894976"
+      "title": "Crystal Palace sack manager Pierre Sage after Liverpool defeat as two former Everton bosses eyed up",
+      "summary": "Crystal Palace have sacked their manager, Pierre Sage, after losing 3-1 to Liverpool on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/crystal-palace-sack-manager-pierre-34883199"
     },
     {
       "date": "2026-11-11",
