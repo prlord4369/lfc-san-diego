@@ -13,7 +13,7 @@ if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://w
 .hist-intro { margin: 14px 0 0; color: var(--muted); max-width: 70ch; }
 /* The story: readable chapters with a red year tag and display-font title */
 .story { max-width: 72ch; }
-.chapter { padding-top: 26px; scroll-margin-top: calc(var(--htabs-h, 0px) + 56px); }   /* clears the sticky tabs + chapter buttons */
+.chapter { padding-top: 26px; scroll-margin-top: calc(var(--bar-h, 0px) + 56px); }   /* clears the sticky tabs + chapter buttons */
 .chapter + .chapter { border-top: 1px solid var(--line); margin-top: 22px; }
 .chapter .yrs { display: inline-block; font: 700 .72rem/1 var(--font-body); letter-spacing: .1em; text-transform: uppercase;
   color: var(--on-red); background: var(--red); padding: 5px 9px; border-radius: 999px; }
@@ -21,10 +21,8 @@ if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://w
 #story .chapter p { margin: 14px 0 0; font-size: 1rem; line-height: 1.7; color: var(--fg); }
 /* Chapter / decade buttons stay pinned under the title bar while you read; one row that scrolls sideways when it
    doesn't fit, with the button for the section on screen highlighted (class "on", set by the history script) */
-/* History tabs stay pinned under the title bar too, slimmed down, with the section buttons pinned just below them.
-   --htabs-h is the slim tab row's height (one row: it scrolls sideways rather than wrapping). */
-#history-view { --htabs-h: 35px; }
-#table-view { --stabs-h: 41px; }
+/* History heading + slim tabs stay pinned under the title bar (.pin-bar), with the section buttons pinned just below
+   them (--bar-h is the pinned bar's height, set by script). */
 /* Standings swipe: the new tab slides in from the side the swipe came from */
 @media (prefers-reduced-motion: no-preference) {
   #table-view .slide-l { animation: tab-in-l .22s ease-out; }
@@ -32,11 +30,9 @@ if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://w
 }
 @keyframes tab-in-l { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
 @keyframes tab-in-r { from { opacity: 0; transform: translateX(-28px); } to { opacity: 1; transform: none; } }
-/* Standings tabs stay pinned under the title bar too (owner, 2026-10-24) */
-#table-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--stabs-h); box-sizing: border-box; }
-#history-view .tabs { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); height: var(--htabs-h); box-sizing: border-box; }
+/* Standings and History headings + tabs stay pinned under the title bar (.pin-bar; owner, 2026-10-24 / 2026-11-12) */
 #history-view .tabs button { padding: 9px 12px 8px; }
-.dec-chips { position: sticky; top: calc(var(--header-h, 64px) + var(--htabs-h, 0px)); z-index: 5; display: flex; flex-wrap: nowrap; gap: 6px;
+.dec-chips { position: sticky; top: calc(var(--header-h, 64px) + var(--bar-h, 0px)); z-index: 5; display: flex; flex-wrap: nowrap; gap: 6px;
   overflow-x: auto; scrollbar-width: none; padding: 7px 0; margin-top: 8px; background: var(--bg);
   border-bottom: 1px solid var(--line); }
 .dec-chips::-webkit-scrollbar { display: none; }
@@ -44,7 +40,7 @@ if (location.hostname === "lfc-san-diego.pages.dev") location.replace("https://w
   color: var(--fg); text-decoration: none; background: var(--surface); }
 .dec-chips a:hover { border-color: var(--red); color: var(--red); }
 .dec-chips a.on { background: var(--red); border-color: var(--red); color: var(--on-red); }
-.decade { padding-top: 22px; scroll-margin-top: calc(var(--htabs-h, 0px) + 56px); }
+.decade { padding-top: 22px; scroll-margin-top: calc(var(--bar-h, 0px) + 56px); }
 .decade h3 { font: 800 1.6rem/1 var(--font-display); text-transform: none; letter-spacing: .02em; color: var(--red);
   display: flex; align-items: baseline; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
 .decade h3 small { font: 600 .72rem/1 var(--font-body); letter-spacing: .1em; color: var(--muted); }
@@ -405,6 +401,10 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 .fm-sq.W, .fm-b.W { background: var(--ok); } .fm-sq.D, .fm-b.D { background: var(--muted); } .fm-sq.L, .fm-b.L { background: var(--bad); }
 .fm-tally { font-size: .9rem; } .fm-tally b { font-weight: 700; }
 .fm-tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+/* The tiles link to the Standings page (opens on the Premier League tab) */
+a.fm-tiles { color: inherit; text-decoration: none; transition: border-color .15s; }
+a.fm-tiles:hover, a.fm-tiles:focus-visible { border-color: var(--red); }
+a.fm-tiles:hover .fm-tile b, a.fm-tiles:focus-visible .fm-tile b { color: var(--red); }
 .fm-tile { padding: 8px 10px; border-left: 1px solid var(--line); }
 .fm-tile:first-child { border-left: 0; }
 .fm-tile b { display: block; font: 800 1.6rem/1 var(--font-display); }
@@ -573,11 +573,11 @@ section { min-width: 0; scroll-margin-top: 16px; }
 /* Squad column titles stay pinned under the title bar while scrolling. That needs the table to sit directly in the
    page (no sideways-scroll box around it), so on narrow phones the columns are tightened to fit instead. */
 #squad-view .lt-wrap { overflow-x: visible; }
-#sq thead th { position: sticky; top: var(--header-h, 64px); z-index: 2; background: var(--bg); }
+#sq thead th { position: sticky; top: calc(var(--header-h, 64px) + var(--bar-h, 0px)); z-index: 2; background: var(--bg); }
 /* Same for the Premier League and Champions League tables, pinned under the title bar and the competition tabs
-   (fixed height --stabs-h, so the titles know where the tabs end). Below 560 px the W/D/L/GF/GA columns hide, so they fit without a scroll box. */
+   (--bar-h, measured by script, so the titles know where the pinned bar ends). Below 560 px the W/D/L/GF/GA columns hide, so they fit without a scroll box. */
 #pane-pl .lt-wrap, #pane-cl .lt-wrap { overflow-x: visible; }
-#lt thead th, #clt thead th { position: sticky; top: calc(var(--header-h, 64px) + var(--stabs-h, 0px)); z-index: 2; background: var(--bg); }
+#lt thead th, #clt thead th { position: sticky; top: calc(var(--header-h, 64px) + var(--bar-h, 0px)); z-index: 2; background: var(--bg); }
 @media (max-width: 420px) {
   #sq td, #sq th { padding-inline: 4px; }
   #sq th { letter-spacing: .04em; }
@@ -718,7 +718,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
    below the first screen). Only while empty, so a banner without past meetings isn't left with spare room. */
 @media (min-width: 821px) {
   .hero:has(#next-meta:empty) { min-height: 266px; }
-  .form:has(#fm-sqs:empty) { min-height: 316px; }
+  .form:has(#fm-sqs:empty) { min-height: 348px; }
 }
 /* 1. Hover lift: computers only (phones have no hover), and not for people who ask for less motion */
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
@@ -763,6 +763,116 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 .lightbox .lb-prev:hover, .lightbox .lb-next:hover { background: rgba(200,16,46,.85); }
 .lightbox .lb-cap { position: absolute; left: 16px; right: 16px; bottom: 14px; text-align: center; color: #fff; font-size: .9rem; text-shadow: 0 1px 3px rgba(0,0,0,.8); }
 .lightbox .lb-cap span { opacity: .7; margin-left: 8px; }
+
+/* ===== Home page restructure (2026-11-12, from mockups/restructure/): match-day band, home previews,
+   Fixtures & results page ===== */
+/* Match-day band under the banner: watch box + team updates, side by side on computers, stacked on phones */
+.matchday { border-bottom: 1px solid var(--line); }
+.matchday .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px 36px; padding-block: 24px; align-items: start; }
+.matchday .watch { margin: 0; }
+.teamnews .sec-head { margin: 0; }
+.teamnews .inj-sum { padding-top: 8px; }
+.tn-toggle { margin-top: 12px; background: none; border: 1.5px solid var(--line); color: var(--fg); border-radius: 999px;
+  padding: 8px 16px; font: 700 .82rem/1 var(--font-body); cursor: pointer; }
+.tn-toggle:hover { border-color: var(--red); color: var(--red); }
+#inj-list { display: none; margin-top: 8px; }
+#inj-list.open { display: block; }
+/* Home previews: "Upcoming games" (next 3 games) and "News headlines" (3 headlines), each linking to its own page.
+   "All … →" in the heading on computers, a full-width button underneath on phones. */
+.preview .sec-head { align-items: baseline; }
+.all-link { color: var(--red); font-weight: 700; font-size: .88rem; text-decoration: none; white-space: nowrap; }
+.all-link:hover { text-decoration: underline; }
+.all-btn { display: none; margin-top: 16px; text-align: center; padding: 12px; border: 1.5px solid var(--red); border-radius: 999px;
+  color: var(--red); font-weight: 700; text-decoration: none; }
+/* Fixtures & results page: Upcoming / Results tabs; result rows reuse .fx with score + W/D/L badge */
+.fr-tabs { margin: 4px 0 0; }
+/* Subpage heading + tabs/filters pinned under the title bar (Fixtures & results, Standings, Squad, History);
+   --bar-h (set by script) is its height, for anything pinned below it */
+.pin-bar { position: sticky; top: var(--header-h, 64px); z-index: 6; background: var(--bg); padding-top: 10px; }
+.rs-sum { font-size: .85rem; color: var(--muted); padding-top: 14px; }
+.rs-sum b { color: var(--fg); font-family: var(--font-mono); }
+.fx .rs-t { display: flex; align-items: center; gap: 10px; }
+.rs-score { font: 800 1.35rem/1 var(--font-display); }
+@media (max-width: 720px) { .fx .rs-t { grid-column: 3; grid-row: 1; justify-content: flex-end; } }
+/* ===== Transfers (Squad page's Transfers tab + the home card while a window is open) ===== */
+.tw-sum { display: grid; gap: 8px; margin-top: 16px; padding: 12px 14px; border: 1px solid var(--line); border-left: 4px solid var(--red);
+  border-radius: 6px; color: inherit; text-decoration: none; background: var(--surface); }
+.tw-sum:hover { border-color: var(--red); }
+.tw-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; align-items: baseline; }
+.tw-live { display: inline-flex; align-items: center; gap: 7px; font: 700 .78rem/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--red); }
+.tw-live i { width: 8px; height: 8px; border-radius: 50%; background: var(--red); box-shadow: 0 0 0 3px rgba(200,16,46,.18); }
+.tw-close { font-size: .8rem; color: var(--muted); }
+.tw-counts { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .85rem; color: var(--muted); }
+.tw-counts b { color: var(--fg); font-family: var(--font-mono); }
+.tw-go { color: var(--red); font-weight: 700; font-size: .85rem; }
+.tab-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--red); vertical-align: 2px; margin-left: 3px; }
+.new-tag { display: inline-block; font: 700 .62rem/1 var(--font-body); letter-spacing: .06em; text-transform: uppercase; color: var(--on-red);
+  background: var(--ok); padding: 3px 5px; border-radius: 3px; vertical-align: 2px; }
+.tr-chips { display: flex; flex-wrap: nowrap; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.tr-chips::-webkit-scrollbar { display: none; }
+.tr-chips button { flex: none; font: 600 .8rem/1 var(--font-body); padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--fg); cursor: pointer; }
+.tr-chips button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.tw-win { margin-top: 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.tw-win.cur { border-left: 4px solid var(--red); }
+.tw-win > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) 30px; gap: 4px 10px;
+  align-items: center; padding: 12px 14px; }
+.tw-win > summary::-webkit-details-marker { display: none; }
+.tw-win > summary::after { content: "▾"; grid-column: 2; grid-row: 1 / span 3; justify-self: end; width: 28px; height: 28px; border-radius: 50%;
+  border: 1px solid var(--line); display: grid; place-items: center; font-size: .8rem; color: var(--muted); transition: transform .2s; }
+.tw-win[open] > summary::after { transform: rotate(180deg); }
+.tw-win > summary:hover::after { border-color: var(--red); color: var(--red); }
+.tw-name { font: 800 1.2rem/1 var(--font-display); text-transform: uppercase; }
+.tw-mini { font-size: .82rem; color: var(--muted); }
+.tw-mini b { color: var(--fg); font-family: var(--font-mono); }
+.tw-body { padding: 0 14px 14px; border-top: 1px solid var(--line); }
+.tw-tiles { display: grid; grid-template-columns: repeat(3, minmax(64px, 1fr)); border: 1px solid var(--line); border-radius: 6px; overflow: hidden; margin-top: 14px; }
+.tw-tiles div { padding: 8px 12px; border-left: 1px solid var(--line); }
+.tw-tiles div:first-child { border-left: 0; }
+.tw-tiles b { display: block; font: 800 1.6rem/1 var(--font-display); }
+.tw-tiles small { font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.tw-earlier { margin: 26px 0 0; font: 700 .72rem/1 var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.tw-empty { margin-top: 16px; padding: 16px; border: 1px dashed var(--line); border-radius: 8px; }
+.tw-empty b { display: block; font: 800 1.2rem/1.1 var(--font-display); text-transform: uppercase; margin-bottom: 6px; }
+.tw-empty p { margin: 0; color: var(--muted); font-size: .9rem; }
+.tr-h { font: 800 1.15rem/1.1 var(--font-display); text-transform: uppercase; margin: 18px 0 4px; display: flex; align-items: center; gap: 8px; }
+.tr-n { font: 700 .75rem/1 var(--font-mono); background: var(--line); color: var(--fg); padding: 3px 6px; border-radius: 999px; }
+.tr-none { margin: 4px 0 0; font-size: .85rem; color: var(--muted); }
+.tr-rows { border-top: 1px solid var(--line); }
+.tr-row { display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 4px 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); }
+.tr-d { font: 600 .8rem/1 var(--font-mono); color: var(--muted); white-space: nowrap; }
+.tr-who b { display: block; font-size: .95rem; }
+.tr-who small { color: var(--muted); font-size: .8rem; }
+.tr-st { font: 700 .68rem/1 var(--font-body); letter-spacing: .05em; text-transform: uppercase; padding: 4px 7px; border-radius: 3px; white-space: nowrap; }
+.tr-st.in { background: rgba(0,135,90,.12); color: var(--ok); }
+.tr-st.out { background: rgba(200,16,46,.10); color: var(--red); }
+.tr-st.loan { background: var(--line); color: var(--fg); }
+.tr-news .hn h3 { font: 700 1rem/1.3 var(--font-body); text-transform: none; letter-spacing: 0; }
+/* A filter that leaves a window with nothing (e.g. News on a finished window) says so */
+.tw-body:not(:has(.tr-sec:not([hidden])))::after { content: "Nothing of this type in this window."; display: block; padding-top: 12px; font-size: .85rem; color: var(--muted); }
+.tw-body:not(:has(.tr-sec:not([hidden]))) .tw-tiles { display: none; }
+@media (max-width: 480px) {
+  .tr-chips { gap: 4px; }
+  .tr-chips button { padding: 7px 9px; font-size: .78rem; }
+  .tr-row { grid-template-columns: 52px minmax(0, 1fr); gap: 6px 10px; }
+  .tr-st { grid-column: 2; justify-self: start; }
+  .tw-body { padding: 0 12px 12px; }
+}
+@media (prefers-reduced-motion: reduce) { .tw-win > summary::after { transition: none; } }
+.hn { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.hn .src { display: flex; justify-content: space-between; }
+.hn h3 { margin: 4px 0 0; font-size: 1rem; line-height: 1.3; }
+.hn h3 a { color: inherit; text-decoration: none; }
+.hn h3 a:hover { color: var(--red); }
+/* Recent form's "All results →" (opens #results): under the rows; on phones only once "Show results" is open */
+.all-link.fm-all { display: block; text-align: right; margin-top: 10px; }
+@media (max-width: 720px) {
+  .all-link.fm-all { display: none; text-align: left; padding: 4px 0; }
+  .fm-rows.open + .all-link.fm-all { display: block; }
+  .matchday .wrap { grid-template-columns: minmax(0, 1fr); padding-block: 20px; }
+  .all-link { display: none; }
+  .all-btn { display: block; }
+}
 </style>
 
 </head>
@@ -777,7 +887,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <a href="#top">Home</a>
       <a href="#match" id="nav-match">Next match</a>
       <a href="https://drive.google.com/file/d/1MtXIr2ChQsB0JzQUgdSPDNQ3ZKRH-Z6G/view" target="_blank" rel="noopener">Song Book ↗</a>
-      <a href="#fixtures">Fixtures</a>
+      <a href="#fixtures">Fixtures &amp; results</a>
       <a href="#injury-list">Injuries</a>
       <a href="#news">News</a>
       <a href="#standings">Standings</a>
@@ -852,64 +962,110 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 
 <section class="lineups" id="lineups" aria-label="Line-ups"><div class="wrap" id="lu-body"></div></section>
 
+<!-- Match-day band: where we watch + team updates, straight under the next match (injury list folded on phones) -->
+<section class="matchday" id="matchday" aria-label="Match day">
+  <div class="wrap">
+    <div class="watch" id="watch"></div>
+    <div class="teamnews" id="injuries">
+      <div class="sec-head" id="injury-list"><h2 id="inj-h">Team updates</h2><span class="label">Injuries &amp; suspensions</span></div>
+      <div class="inj-sum" id="inj-sum"></div>
+      <button type="button" class="tn-toggle" id="tn-toggle" aria-expanded="false" aria-controls="inj-list">Show injury list</button>
+      <ul class="inj" id="inj-list"></ul>
+      <!-- Transfer window summary: shown only while a window is open; opens the Squad page's Transfers tab -->
+      <a class="tw-sum" id="tw-sum" href="#transfers" hidden></a>
+    </div>
+  </div>
+</section>
+
 <div class="form">
   <div class="wrap">
     <div class="fm-sum">
       <span class="label" id="fm-label">Recent form</span>
       <div class="fm-sqs" id="fm-sqs"></div>
       <div class="fm-tally" id="fm-tally"></div>
-      <div class="fm-tiles" id="fm-tiles" hidden></div>
+      <a class="fm-tiles" id="fm-tiles" href="#standings" title="See the Premier League table" hidden></a>
       <button class="fm-toggle" id="fm-toggle" type="button" aria-expanded="false" aria-controls="fm-rows">Show results</button>
     </div>
     <div>
       <div class="fm-head label"><span></span><span>Date</span><span>Opponent</span><span>Comp</span><span>Score</span></div>
       <div class="fm-rows" id="fm-rows"></div>
+      <a class="all-link fm-all" href="#results">All results →</a>
     </div>
   </div>
 </div>
 
 <main>
   <div class="wrap">
+    <!-- Short previews on the home page; the full lists are their own pages (#fixtures / #results, #news) -->
+    <section class="preview" id="home-fixtures" aria-labelledby="hf-h">
+      <div class="sec-head"><h2 id="hf-h">Upcoming games</h2><a class="all-link" href="#fixtures">All fixtures &amp; results →</a></div>
+      <div id="hf-list"></div>
+      <a class="all-btn" href="#fixtures">See all fixtures &amp; results</a>
+    </section>
+    <section class="preview" id="home-news" aria-labelledby="hn-h">
+      <div class="sec-head"><h2 id="hn-h">News headlines</h2><a class="all-link" href="#news">All news →</a></div>
+      <div id="hn-list"></div>
+      <a class="all-btn" href="#news">See all news</a>
+    </section>
+  </div>
+</main>
+
+<div class="squad-view" id="fixtures-view" hidden>
+  <div class="wrap">
     <section id="fixtures" aria-labelledby="fx-h">
+      <!-- Heading, filters and tabs stay pinned under the title bar while the list scrolls -->
+      <div class="pin-bar">
       <div class="sec-head">
-        <h2 id="fx-h">Fixtures</h2>
+        <h2 id="fx-h">Fixtures &amp; results</h2>
         <div class="filters" role="group" aria-label="Filter fixtures">
           <button type="button" id="f-all" data-f="all" aria-pressed="true">All</button>
           <button type="button" id="f-dom" data-f="domestic" aria-pressed="false">Domestic</button>
           <button type="button" id="f-int" data-f="international" aria-pressed="false">Europe</button>
         </div>
       </div>
-      <div id="fx-list"></div>
-      <button type="button" class="more" id="fx-more">Show full season</button>
-      <div id="fx-notes"></div>
-      <p class="note">Times are Pacific (San Diego). <b>TBC</b> means UK broadcasters haven't picked the slot yet, so the date or time may still move. US listings show the rights holder for each competition; the exact NBC / USA / NBCSN / Peacock or CBS / Paramount+ channel is set closer to the game.</p>
+      <!-- Upcoming / Results tabs (#fixtures opens Upcoming, #results opens Results) -->
+      <div class="tabs fr-tabs" role="tablist" aria-label="Fixtures or results">
+        <button type="button" role="tab" id="frt-up" aria-controls="fr-up" aria-selected="true" data-fr="up">Upcoming</button>
+        <button type="button" role="tab" id="frt-res" aria-controls="fr-res" aria-selected="false" data-fr="res">Results</button>
+      </div>
+      </div>
+      <div role="tabpanel" id="fr-up" aria-labelledby="frt-up">
+        <div id="fx-list"></div>
+        <button type="button" class="more" id="fx-more">Show full season</button>
+        <div id="fx-notes"></div>
+        <p class="note">Times are Pacific (San Diego). <b>TBC</b> means UK broadcasters haven't picked the slot yet, so the date or time may still move. US listings show the rights holder for each competition; the exact NBC / USA / NBCSN / Peacock or CBS / Paramount+ channel is set closer to the game.</p>
+      </div>
+      <div role="tabpanel" id="fr-res" aria-labelledby="frt-res" hidden>
+        <div class="rs-sum" id="rs-sum"></div>
+        <div id="rs-list"></div>
+        <p class="note">This season's results, newest first. Scores are Liverpool's goals first.</p>
+      </div>
     </section>
+  </div>
+</div>
 
-    <section id="injuries" aria-labelledby="inj-h">
-      <div class="watch" id="watch"></div>
-      <div class="sec-head" id="injury-list"><h2 id="inj-h">Injury list</h2></div>
-      <div class="inj-sum" id="inj-sum"></div>
-      <ul class="inj" id="inj-list"></ul>
-    </section>
-
+<div class="squad-view" id="news-view" hidden>
+  <div class="wrap">
     <section id="news" class="news-sec" aria-labelledby="news-h">
       <div class="sec-head"><h2 id="news-h">News</h2><span class="label" id="news-upd"></span></div>
       <div class="news" id="news-list"></div>
       <div class="outlets" id="outlets"><span class="label" style="align-self:center">Read more at</span></div>
     </section>
   </div>
-</main>
+</div>
 
 
 <div class="squad-view" id="table-view" hidden>
   <div class="wrap">
     <section id="standings" aria-labelledby="st-h">
+      <div class="pin-bar">
       <div class="sec-head"><h2 id="st-h">Standings</h2><span class="label" id="lt-asof"></span></div>
       <div class="tabs" role="tablist" aria-label="Competitions">
         <button type="button" role="tab" id="tab-pl" aria-controls="pane-pl" data-tab="pl">Premier League</button>
         <button type="button" role="tab" id="tab-cl" aria-controls="pane-cl" data-tab="cl">Champions League</button>
         <button type="button" role="tab" id="tab-lc" aria-controls="pane-lc" data-tab="lc">Carabao Cup</button>
         <button type="button" role="tab" id="tab-fa" aria-controls="pane-fa" data-tab="fa">FA Cup</button>
+      </div>
       </div>
       <div role="tabpanel" id="pane-pl" aria-labelledby="tab-pl">
         <div class="lt-wrap"><table class="lt" id="lt"></table></div>
@@ -934,9 +1090,30 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 <div class="squad-view" id="squad-view" hidden>
   <div class="wrap">
     <section aria-labelledby="sq-h">
-      <div class="sec-head"><h2 id="sq-h">First-team squad 2026/27</h2><span class="label" id="sq-asof"></span></div>
-      <div class="lt-wrap"><table class="lt sq" id="sq"></table></div>
-      <p class="note"><b>HG</b> = homegrown on the Premier League 25-man list. <b>U21</b> = under-21, eligible without being on the list. Availability comes from the injury list on the main page.</p>
+      <div class="pin-bar">
+        <div class="sec-head"><h2 id="sq-h">Squad</h2><span class="label" id="sq-asof"></span></div>
+        <!-- First team / Transfers tabs (#squad opens First team, #transfers opens Transfers) -->
+        <div class="tabs sq-tabs" role="tablist" aria-label="Squad or transfers">
+          <button type="button" role="tab" id="sqt-team" aria-controls="sqp-team" aria-selected="true" data-sq="team">First team</button>
+          <button type="button" role="tab" id="sqt-tr" aria-controls="sqp-tr" aria-selected="false" data-sq="tr">Transfers <span class="tab-dot" id="tr-dot" title="Transfer window open" hidden></span></button>
+        </div>
+        <!-- Transfer type filter, Transfers tab only (not class "filters": the fixtures filter script takes every .filters button) -->
+        <div class="tr-chips" id="tr-chips" role="group" aria-label="Show transfer type" hidden>
+          <button type="button" data-k="all" aria-pressed="true">All</button>
+          <button type="button" data-k="in" aria-pressed="false">In</button>
+          <button type="button" data-k="out" aria-pressed="false">Out</button>
+          <button type="button" data-k="loan" aria-pressed="false">Loans</button>
+          <button type="button" data-k="news" aria-pressed="false" id="tr-chip-news" hidden>News</button>
+        </div>
+      </div>
+      <div role="tabpanel" id="sqp-team" aria-labelledby="sqt-team">
+        <div class="lt-wrap"><table class="lt sq" id="sq"></table></div>
+        <p class="note"><b>HG</b> = homegrown on the Premier League 25-man list. <b>U21</b> = under-21, eligible without being on the list. Availability comes from the injury list on the main page. <span class="new-tag">New</span> = joined in the latest transfer window.</p>
+      </div>
+      <div role="tabpanel" id="sqp-tr" aria-labelledby="sqt-tr" hidden>
+        <div id="tr-wins"></div>
+        <p class="note">Confirmed moves come from ESPN's transfer list and from changes to the squad list, so a deal can take a day or two to appear. Fees are shown only when a club publishes one (in euros, before add-ons); Liverpool's are usually undisclosed. Headlines come from the site's usual news feeds. <a href="https://en.wikipedia.org/wiki/List_of_Liverpool_F.C._seasons" target="_blank" rel="noopener">Earlier seasons on Wikipedia ↗</a></p>
+      </div>
     </section>
   </div>
 </div>
@@ -944,11 +1121,13 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 <div class="squad-view" id="history-view" hidden>
   <div class="wrap">
     <section aria-labelledby="hist-h">
+      <div class="pin-bar">
       <div class="sec-head"><h2 id="hist-h">History of Liverpool</h2></div>
       <div class="tabs" role="tablist" aria-label="History">
         <button type="button" role="tab" id="tab-story" aria-controls="pane-story" data-tab="story">The story</button>
         <button type="button" role="tab" id="tab-legends" aria-controls="pane-legends" data-tab="legends">Liverpool Legends</button>
         <button type="button" role="tab" id="tab-trophies" aria-controls="pane-trophies" data-tab="trophies">Trophy cabinet</button>
+      </div>
       </div>
       <div role="tabpanel" id="pane-story" aria-labelledby="tab-story">
         <p class="hist-intro">How a row over rent in 1892 became one of the most famous football clubs in the world.</p>
@@ -989,6 +1168,17 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
   set();
   if (window.ResizeObserver) new ResizeObserver(set).observe(top); else window.addEventListener("resize", set);
 })();
+// Subpages pin their heading + tabs (.pin-bar) under the title bar; --bar-h on each page is that bar's height, so
+// whatever is pinned below it (league table / squad column titles, history chapter buttons) sits just underneath.
+// Measured when a page is shown, on resize and once the fonts load (its height changes with the screen width).
+window.lfcPinBars = function () {
+  document.querySelectorAll(".squad-view").forEach(function (v) {
+    var b = v.querySelector(".pin-bar");
+    if (b && !v.hidden && b.offsetHeight) v.style.setProperty("--bar-h", b.offsetHeight + "px");
+  });
+};
+window.addEventListener("resize", window.lfcPinBars);
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(window.lfcPinBars);
 
 // The page decides where a refresh lands (see the end of render), so the browser shouldn't restore the old position
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
@@ -1437,9 +1627,11 @@ function render(data) {
   var lfcRow = data.table && (data.table.rows || []).filter(function (r) { return r.team === "Liverpool"; })[0];
   var tiles = document.getElementById("fm-tiles");
   if (lfcRow && data.standing) {
+    tiles.setAttribute("aria-label", "Premier League: " + data.standing.position + ", " + lfcRow.pts + " points, " +
+      lfcRow.w + " won, " + lfcRow.d + " drawn, " + lfcRow.l + " lost. See the table");
     tiles.innerHTML = "<div class=\"fm-tile\"><b>" + esc(data.standing.position) + "</b><small>Premier League</small></div>" +
       "<div class=\"fm-tile\"><b>" + esc(lfcRow.pts) + "</b><small>Points</small></div>" +
-      "<div class=\"fm-tile\"><b class=\"mono\">" + esc(lfcRow.w + "-" + lfcRow.d + "-" + lfcRow.l) + "</b><small>W-D-L · " + esc(lfcRow.p) + " played</small></div>";
+      "<div class=\"fm-tile\"><b class=\"mono\">" + esc(lfcRow.w + "-" + lfcRow.d + "-" + lfcRow.l) + "</b><small>W-D-L · <span style=\"white-space:nowrap\">" + esc(lfcRow.p) + " PL games</span></small></div>";   // "PL games": league only, unlike the Results tab's counts
     tiles.hidden = false;
   }
   // Phones: the results open and close under the summary; computers always show them (CSS)
@@ -1563,8 +1755,10 @@ function render(data) {
   }
 
   // Fixtures
+  // The filter is NOT remembered: every visit to Fixtures & results starts on All (owner, 2026-11-12; see openFr).
+  // It used to be saved in localStorage "lfcsd-filter"; clear that old value.
   var filter = "all", showAll = false;
-  try { filter = localStorage.getItem("lfcsd-filter") || "all"; } catch (e) {}
+  try { localStorage.removeItem("lfcsd-filter"); } catch (e) {}
   var list = document.getElementById("fx-list"), more = document.getElementById("fx-more");
   function renderFixtures() {
     var rows = fixtures.filter(function (f) { return filter === "all" || f.scope === filter; });
@@ -1601,11 +1795,64 @@ function render(data) {
   }
   document.querySelectorAll(".filters button").forEach(function (b) {
     b.addEventListener("click", function () {
-      filter = b.dataset.f; try { localStorage.setItem("lfcsd-filter", filter); } catch (e) {}
-      renderFixtures();
+      filter = b.dataset.f;
+      renderFixtures(); renderResults();
+      if (window.scrollY > 0) window.scrollTo(0, 0);   // the bar stays pinned, so start the new list from its top
     });
   });
+  // Results tab: this season's results, newest first, same All / Domestic / Europe filter as the fixtures
+  function renderResults() {
+    var rows = data.results.slice().reverse().filter(function (r) {
+      var scope = /champions|europa|conference|uefa/i.test(r.comp) ? "international" : "domestic";
+      return filter === "all" || scope === filter;
+    });
+    var html = "", month = "", w = 0, d = 0, l = 0;
+    rows.forEach(function (r) {
+      var dt = new Date(r.date + "T12:00:00Z");
+      var m = new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "long", year: "numeric" }).format(dt);
+      if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
+      if (r.r === "W") w++; else if (r.r === "D") d++; else l++;
+      var res = r.r === "W" ? "W" : r.r === "D" ? "D" : "L";
+      html += "<div class=\"fx rs\">" +
+        "<div class=\"d\"><b>" + new Intl.DateTimeFormat("en-US", { timeZone: "UTC", day: "numeric" }).format(dt) + "</b><small>" +
+          new Intl.DateTimeFormat("en-US", { timeZone: "UTC", weekday: "short" }).format(dt) + "</small></div>" +
+        "<div><div class=\"opp\">" + teamLink(r.opp) + "</div><div class=\"sub\"><span class=\"ha " + esc(r.ha) + "\">" + (r.ha === "H" ? "HOME" : r.ha === "A" ? "AWAY" : "NEUTRAL") + "</span>" +
+          "<span class=\"comp" + (/champions/i.test(r.comp) ? " intl" : "") + "\">" + esc(r.comp + (r.round ? " · " + r.round : "")) + "</span>" +
+          (r.pens ? "<span>" + (res === "W" ? "Won" : "Lost") + " on penalties</span>" : "") + "</div></div>" +
+        "<div class=\"t rs-t\"><span class=\"rs-score\">" + (r.pens ? resultScore(r) : esc(String(r.score).replace("-", "–"))) + "</span>" +
+          "<span class=\"fm-b " + res + "\">" + res + "</span></div>" +
+        "</div>";
+    });
+    document.getElementById("rs-list").innerHTML = html || "<p class=\"note\">No results in this view yet.</p>";
+    document.getElementById("rs-sum").innerHTML = rows.length ? "<b>" + rows.length + "</b> played · <b>" + w + "</b> won · <b>" + d + "</b> drawn · <b>" + l + "</b> lost" : "";
+  }
+  renderResults();
+  var setFr = function (k) {
+    document.querySelectorAll(".fr-tabs button").forEach(function (x) { x.setAttribute("aria-selected", String(x.dataset.fr === k)); });
+    document.getElementById("fr-up").hidden = k !== "up";
+    document.getElementById("fr-res").hidden = k !== "res";
+  };
+  document.querySelectorAll(".fr-tabs button").forEach(function (b) {
+    b.addEventListener("click", function () { setFr(b.dataset.fr); if (window.scrollY > 0) window.scrollTo(0, 0); });
+  });
+  // Each visit to the page (menu, buttons, links, shared address) starts fresh: All, next 10 only, the given tab.
+  // Switching tabs or filters while on the page keeps the choice until the visitor leaves.
+  var openFr = function (k) {
+    filter = "all"; showAll = false;
+    renderFixtures(); renderResults(); setFr(k);
+  };
   more.addEventListener("click", function () { showAll = !showAll; renderFixtures(); });
+  // Home "Upcoming games" = the first 3 games of the "All" list (incl. the banner's game and any break card above them)
+  (function () {
+    var keep = filter; filter = "all"; renderFixtures();
+    var out = "", n = 0;
+    Array.prototype.some.call(list.children, function (el) {
+      if (el.classList.contains("fx")) n++;
+      out += el.outerHTML; return n >= 3;
+    });
+    document.getElementById("hf-list").innerHTML = out;
+    filter = keep;
+  })();
   renderFixtures();
   document.getElementById("fx-notes").innerHTML = (data.fixtureNotes || []).map(function (n) { return "<p class=\"note\">" + esc(n) + "</p>"; }).join("");
 
@@ -1631,6 +1878,16 @@ function render(data) {
       (/^\d{4}-\d{2}-\d{2}$/.test(i.reported || "") ? " <span class=\"rep\">· Reported " + esc(new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(i.reported + "T12:00:00Z"))) + "</span>" : "") +
       "</span></li>";
   }).join("");
+  // The injury list folds behind a button; the menu's "Injuries" (#injury-list) opens it
+  var tnBtn = document.getElementById("tn-toggle"), tnList = document.getElementById("inj-list");
+  var tnSet = function (open) {
+    tnList.classList.toggle("open", open); tnBtn.setAttribute("aria-expanded", String(open));
+    tnBtn.textContent = open ? "Hide injury list" : "Show injury list (" + inj.length + ")";
+  };
+  // Starts folded on every screen size (owner's choice 2026-11-12; it used to start open on computers)
+  tnSet(false);
+  tnBtn.addEventListener("click", function () { tnSet(!tnList.classList.contains("open")); });
+  window.lfcOpenInjuries = function () { tnSet(true); };
 
   // Standings: league tables for the Premier League and Champions League, Liverpool's run for the two cups
   var gd = function (r) { var g = r.gf - r.ga; return g > 0 ? "+" + g : String(g); };
@@ -1721,6 +1978,7 @@ function render(data) {
       document.getElementById(b.getAttribute("aria-controls")).hidden = !on;
     });
     document.getElementById("lt-asof").innerHTML = key === "pl" ? asOf(lt) : key === "cl" ? asOf(clt) : "";
+    window.lfcPinBars();   // the "as of" line can change the pinned bar's height
   };
   tabs.forEach(function (b, i) {
     // The tabs stay pinned, so a switch made further down starts the new table from the top
@@ -1775,13 +2033,119 @@ function render(data) {
       "<h3><a href=\"" + esc(n.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(n.title) + "</a></h3><p>" + esc(n.summary) +
       " <a class=\"read-on\" href=\"" + esc(n.url) + "\" target=\"_blank\" rel=\"noopener\" tabindex=\"-1\">Continue reading…</a></p></article>";
   }).join("");
+  // Home "News headlines" = the 3 newest headlines, no summaries
+  document.getElementById("hn-list").innerHTML = newsShown.slice(0, 3).map(function (n) {
+    return "<article class=\"hn\"><div class=\"src\"><span class=\"label\">" + esc(n.source) + "</span><span class=\"label\">" + dfmt(n.date) + "</span></div>" +
+      "<h3><a href=\"" + esc(n.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(n.title) + "</a></h3></article>";
+  }).join("");
   document.getElementById("outlets").insertAdjacentHTML("beforeend", data.outlets.map(function (o) {
     return "<a href=\"" + esc(o.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(o.name) + "</a>";
   }).join(""));
 
+  // ===== Transfers: Squad page's Transfers tab, the home card while a window is open, "New" tags in the squad list.
+  // data.transfers comes from update.py: windows (UK dates, oldest first), moves {window, date, name, dir in|out,
+  // type fee|undisclosed|free|loan|joined|left, club, src espn|squad, eur?, usd?}, headlines (for headlinesFor).
+  var trData = data.transfers || {}, trWins = trData.windows || [], trMoves = trData.moves || [];
+  var trToday = ptDay(new Date());
+  var trKey = function (s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim(); };
+  var trOpen = trWins.filter(function (w) { return w.open <= trToday && trToday <= w.close; })[0];
+  // Windows on the page: the last 6 that have opened (or already have moves: deals done just before one opens)
+  var trShown = trWins.filter(function (w) {
+    return w.open <= trToday || trMoves.some(function (m) { return m.window === w.key; });
+  }).slice(-6).reverse();
+  var trNext = trWins.filter(function (w) { return w.open > trToday; })[0];
+  var trSplit = function (w) {
+    var ms = trMoves.filter(function (m) { return m.window === w.key; });
+    return { ins: ms.filter(function (m) { return m.dir === "in"; }),
+             outs: ms.filter(function (m) { return m.dir === "out" && m.type !== "loan"; }),
+             loans: ms.filter(function (m) { return m.dir === "out" && m.type === "loan"; }) };
+  };
+  var money = function (n) { return n >= 1e6 ? (Math.round(n / 1e5) / 10).toString().replace(/\.0$/, "") + "m" : Math.round(n / 1e3) + "k"; };
+  var trType = function (m) {
+    if (m.type === "fee" && m.usd) return "<span class=\"tr-st " + m.dir + "\" title=\"€" + esc(money(m.eur)) + " fixed fee before add-ons, as published (dollars at that day's rate)\">$" + esc(money(m.usd)) + " fee</span>";
+    if (m.type === "fee" && m.eur) return "<span class=\"tr-st " + m.dir + "\" title=\"Fixed fee before add-ons, as published\">€" + esc(money(m.eur)) + " fee</span>";
+    var label = { fee: "Fee", undisclosed: "Undisclosed fee", free: "Free transfer", loan: "Loan", joined: "Joined", left: "Left" }[m.type] || "Transfer";
+    return "<span class=\"tr-st " + (m.type === "loan" ? "loan" : m.dir) + "\">" + label + "</span>";
+  };
+  var trBlock = function (title, rows, k) {
+    var head = "<h3 class=\"tr-h\">" + title + " <span class=\"tr-n\">" + rows.length + "</span></h3>";
+    if (!rows.length) return "<div class=\"tr-sec\" data-k=\"" + k + "\">" + head + "<p class=\"tr-none\">None in this window.</p></div>";
+    return "<div class=\"tr-sec\" data-k=\"" + k + "\">" + head + "<div class=\"tr-rows\">" +
+      rows.slice().sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; }).map(function (m) {
+        var where = m.club ? (m.dir === "in" ? "from " : "to ") + esc(m.club)
+          : m.dir === "in" ? "Joined the squad list" : "Left the squad list";
+        return "<div class=\"tr-row\"><span class=\"tr-d\">" + shortDay(m.date) + "</span>" +
+          "<span class=\"tr-who\"><b>" + esc(m.name) + "</b><small>" + where + "</small></span>" + trType(m) + "</div>";
+      }).join("") + "</div></div>";
+  };
+  var trDaysLeft = function (w) { return Math.round((dayDate(w.close) - dayDate(trToday)) / 864e5); };
+  var trLeftText = function (w) { var d = trDaysLeft(w); return d === 0 ? "closes today" : d === 1 ? "1 day left" : d + " days left"; };
+  var trCounts = function (s) { return "<b>" + s.ins.length + "</b> in · <b>" + s.outs.length + "</b> out · <b>" + s.loans.length + "</b> loans"; };
+  var trNews = trOpen && trData.headlinesFor === trOpen.key && (trData.headlines || []).length ? trData.headlines : [];
+  var trHtml = trShown.map(function (w, i) {
+    var s = trSplit(w), cur = trOpen && w.key === trOpen.key;
+    var news = cur && trNews.length ? "<div class=\"tr-sec\" data-k=\"news\"><h3 class=\"tr-h\">Transfer headlines</h3>" +
+      "<div class=\"tr-news\">" + trNews.map(function (h) {
+        return "<article class=\"hn\"><div class=\"src\"><span class=\"label\">" + esc(h.source) + "</span><span class=\"label\">" +
+          fmt(new Date(h.date), { month: "short", day: "numeric" }) + "</span></div><h3><a href=\"" + esc(h.url) +
+          "\" target=\"_blank\" rel=\"noopener\">" + esc(h.title) + "</a></h3></article>";
+      }).join("") + "</div></div>" : "";
+    return (i === 1 ? "<div class=\"tw-earlier\">Earlier windows</div>" : "") +
+      "<details class=\"tw-win" + (cur ? " cur" : "") + "\"" + (i === 0 ? " open" : "") + "><summary>" +
+      "<span class=\"tw-name\">" + esc(w.name) + "</span>" +
+      (cur ? "<span class=\"tw-live\"><i></i>Open · closes " + shortDay(w.close) + " (" + trLeftText(w) + ")</span>"
+           : i === 0 && trNext ? "<span class=\"tw-close\">Closed · next window opens " + shortDay(trNext.open) + "</span>" : "") +
+      "<span class=\"tw-mini\">" + shortDay(w.open) + " – " + shortDay(w.close) + " · " + trCounts(s) + "</span></summary>" +
+      "<div class=\"tw-body\"><div class=\"tw-tiles\"><div><b>" + s.ins.length + "</b><small>In</small></div><div><b>" + s.outs.length +
+      "</b><small>Out</small></div><div><b>" + s.loans.length + "</b><small>Loans out</small></div></div>" +
+      trBlock("Arrivals", s.ins, "in") + trBlock("Departures", s.outs, "out") + trBlock("Loans out", s.loans, "loan") + news +
+      "</div></details>";
+  }).join("");
+  if (!trShown.length) {
+    trHtml = "<div class=\"tw-empty\"><b>" + (trNext ? esc(trNext.name) + " window" : "Transfer window") + "</b><p>" +
+      (trNext ? "Opens " + shortDay(trNext.open) + " and closes " + shortDay(trNext.close) + ". " : "") +
+      "Liverpool's signings, departures and loans will show here once it opens.</p></div>";
+  }
+  document.getElementById("tr-wins").innerHTML = trHtml;
+  document.getElementById("tr-chip-news").hidden = !trNews.length;
+  document.getElementById("tr-dot").hidden = !trOpen;
+  // Home card under Team updates, only while a window is open
+  if (trOpen) {
+    var trS = trSplit(trOpen), twSum = document.getElementById("tw-sum");
+    twSum.innerHTML = "<span class=\"tw-top\"><span class=\"tw-live\"><i></i>Transfer window open</span><span class=\"tw-close\">Closes " +
+      shortDay(trOpen.close) + " · " + trLeftText(trOpen) + "</span></span><span class=\"tw-counts\"><span><b>" + trS.ins.length +
+      "</b> in</span><span><b>" + trS.outs.length + "</b> out</span><span><b>" + trS.loans.length + "</b> loans out</span></span>" +
+      "<span class=\"tw-go\">Transfers →</span>";
+    twSum.hidden = false;
+  }
+  // "New" in the squad list: arrivals in the newest window, while it's open and for 30 days after it closes
+  var trNew = {};
+  if (trShown[0] && daysBetween(trShown[0].close, trToday) <= 30) {
+    trSplit(trShown[0]).ins.forEach(function (m) { trNew[trKey(m.name)] = 1; });
+  }
+  // Type filter: All shows every section; any other button just that type, in every window. Each visit starts on All.
+  var setTrK = function (k) {
+    document.querySelectorAll("#tr-chips button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.k === k)); });
+    document.querySelectorAll("#tr-wins .tr-sec").forEach(function (s) { s.hidden = k !== "all" && s.dataset.k !== k; });
+  };
+  document.querySelectorAll("#tr-chips button").forEach(function (b) {
+    b.addEventListener("click", function () { setTrK(b.dataset.k); if (window.scrollY > 0) window.scrollTo(0, 0); });
+  });
+  var setSq = function (k) {
+    document.querySelectorAll(".sq-tabs button").forEach(function (b) { b.setAttribute("aria-selected", String(b.dataset.sq === k)); });
+    document.getElementById("sqp-team").hidden = k !== "team";
+    document.getElementById("sqp-tr").hidden = k !== "tr";
+    document.getElementById("tr-chips").hidden = k !== "tr" || !trShown.length;
+    setTrK("all");
+    window.lfcPinBars();   // the filter row changes the pinned bar's height
+  };
+  document.querySelectorAll(".sq-tabs button").forEach(function (b) {
+    b.addEventListener("click", function () { setSq(b.dataset.sq); if (window.scrollY > 0) window.scrollTo(0, 0); });
+  });
+
   // Squad view: rendered from data.squad, shown only when the URL hash is #squad
   var sq = data.squad, sqView = document.getElementById("squad-view");
-  var mainParts = [document.getElementById("welcome"), document.getElementById("club"), document.querySelector(".hero"), document.getElementById("lineups"), document.querySelector(".form"), document.querySelector("main")];
+  var mainParts = [document.getElementById("welcome"), document.getElementById("club"), document.querySelector(".hero"), document.getElementById("lineups"), document.getElementById("matchday"), document.querySelector(".form"), document.querySelector("main")];
   if (sq && sq.players && sq.players.length) {
     // Names are matched without accents or capitals: the injury list may say "Victor Munoz" for the squad's "Víctor Muñoz"
     var nameKey = function (s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim(); };
@@ -1797,7 +2161,7 @@ function render(data) {
       ps.forEach(function (p) {
         var inj = injBy[nameKey(p.name)];
         var who = p.profile ? "<a class=\"pl\" href=\"" + esc(p.profile) + "\" target=\"_blank\" rel=\"noopener\">" + esc(p.name) + "</a>" : esc(p.name);
-        html += "<tr><td class=\"ps\">" + (p.no == null ? "–" : esc(p.no)) + "</td><td class=\"tm\">" + who + (p.note ? " <span class=\"reg\">(" + esc(p.note) + ")</span>" : "") + "</td>" +
+        html += "<tr><td class=\"ps\">" + (p.no == null ? "–" : esc(p.no)) + "</td><td class=\"tm\">" + who + (trNew[nameKey(p.name)] ? " <span class=\"new-tag\">New</span>" : "") + (p.note ? " <span class=\"reg\">(" + esc(p.note) + ")</span>" : "") + "</td>" +
           "<td>" + esc(p.nat) + "</td><td class=\"reg\">" + esc(p.reg || "") + "</td>" +
           "<td>" + (inj ? "<span class=\"chip " + inj.status + "\" title=\"" + esc(inj.issue) + "\">" + names[inj.status] + "</span>" : "") + "</td></tr>";
       });
@@ -1811,14 +2175,24 @@ function render(data) {
   // Subpages: #squad, #standings and #history replace the main content; any other hash shows the main page.
   // #table is the old address for #standings, kept so existing links still work.
   var views = { "#squad": { el: sqView, ok: !!(sq && sq.players && sq.players.length) },
+                "#transfers": { el: sqView, ok: !!(sq && sq.players && sq.players.length) },   // same page, Transfers tab
                 "#standings": { el: document.getElementById("table-view"), ok: true },
-                "#history": { el: document.getElementById("history-view"), ok: true } };
+                "#history": { el: document.getElementById("history-view"), ok: true },
+                "#fixtures": { el: document.getElementById("fixtures-view"), ok: true },
+                "#results": { el: document.getElementById("fixtures-view"), ok: true },   // same page, Results tab
+                "#news": { el: document.getElementById("news-view"), ok: true } };
   var route = function () {
     if (location.hash === "#table") { history.replaceState(null, "", "#standings"); }
+    if (location.hash === "#fixtures") openFr("up");
+    if (location.hash === "#results") openFr("res");
+    if (location.hash === "#injury-list" && window.lfcOpenInjuries) window.lfcOpenInjuries();
     var cur = views[location.hash] && views[location.hash].ok ? location.hash : "";
-    Object.keys(views).forEach(function (k) { views[k].el.hidden = k !== cur; });
+    // Two addresses (#fixtures, #results) share one page, so compare the page, not the address
+    Object.keys(views).forEach(function (k) { views[k].el.hidden = !cur || views[k].el !== views[cur].el; });
     mainParts.forEach(function (el) { if (el) el.hidden = !!cur; });
     if (cur === "#standings") showTab("pl");   // every visit to Standings opens on the Premier League
+    if (cur === "#squad" || cur === "#transfers") setSq(cur === "#transfers" ? "tr" : "team");   // menu: First team
+    window.lfcPinBars();
     // A subpage, or "#top" (the site name), starts at the very top so the header bar shows.
     // (#top is on the next-match banner, so scrolling to the element itself would hide the header above it.)
     if (cur || location.hash === "#top") { window.scrollTo(0, 0); return; }
