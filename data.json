@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T00:19:20Z",
+  "updated": "2026-11-13T13:12:57Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -676,7 +676,7 @@
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "USA Network",
-      "usUrl": "https://worldsoccertalk.com/teams/manchester-united-tv-schedule/",
+      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released",
       "h2h": [
         {
           "date": "2026-05-03",
@@ -794,8 +794,8 @@
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": false,
-      "kickoff": "2026-12-16T20:00:00Z",
       "scope": "domestic",
+      "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1062,17 +1062,17 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "A heel problem has kept him out since Fenerbahce, and he missed Crystal Palace too. Iraola called it a day-to-day matter of pain, and he is hoping for a return after the international break.",
+      "detail": "He has not featured since the Arsenal game because of a heel problem, and he was left out of the Fenerbahce trip. Iraola described it as a day-to-day matter of pain, and the Netherlands have omitted him, so Manchester United is the hoped-for return.",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
+      "reported": "2026-11-12"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has been missing since limping off at Brentford. He is awaiting medical clearance to resume, and he is expected back within the next couple of weeks.",
+      "detail": "His muscle problem has kept him sidelined for several games, and he is still waiting for medical clearance to resume training. A return before Manchester United is possible but not confirmed.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
       "reported": "2026-11-12"
@@ -1082,7 +1082,7 @@
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still in rehab from his Achilles rupture and remains unavailable. He is continuing his recovery work through the international break, with no firm return date given.",
+      "detail": "He is listed among the long-term absentees and is still working through his Achilles rehabilitation during the international break. No firm return date has been set.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
       "reported": "2026-11-12"
@@ -1092,7 +1092,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is recovering from a serious knee injury suffered in January and remains unavailable. He may rejoin group training after the November international break.",
+      "detail": "He is still recovering from a serious knee injury picked up in January. He may rejoin group training after the international break, pending medical clearance.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
       "reported": "2026-11-12"
@@ -1102,7 +1102,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played this season after his ACL injury. He may rejoin group training after the November international break.",
+      "detail": "He has not played this season while recovering from an ACL injury. He is expected to start training with the group during the international break.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
       "reported": "2026-11-12"
@@ -1112,7 +1112,7 @@
       "pos": "GK",
       "status": "out",
       "issue": "Long-term injury",
-      "detail": "He remains unavailable due to a long-term injury and is continuing his recovery work through the international break.",
+      "detail": "He remains unavailable with a long-term injury and is continuing his rehabilitation during the international break. No return date has been given.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
       "reported": "2026-11-12"
@@ -1122,17 +1122,17 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He sprained his knee in the Crystal Palace win and was not 100 per cent before being substituted. His availability for the next match is still uncertain.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641",
-      "reported": "2026-11-09"
+      "detail": "He tweaked the knee again late in the Crystal Palace win and was not fully fit when he came off. Iraola said he will need to be assessed by the medical staff before any national team call-up.",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/andoni-iraola-press-conference-or-every-word-after-crystal-palace-1-3-liverpool",
+      "reported": "2026-11-08"
     },
     {
       "player": "Virgil van Dijk",
       "pos": "DF",
       "status": "doubt",
       "issue": "Niggle",
-      "detail": "He pulled out of the Netherlands squad with a minor knock and has been managing discomfort for weeks. Iraola is hopeful the break will let him recover before Manchester United.",
+      "detail": "He withdrew from the Netherlands squad with a minor knock and has been dealing with discomfort for weeks. Iraola hopes the break allows him to recover in time for Manchester United.",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
       "reported": "2026-11-12"
@@ -1140,18 +1140,32 @@
   ],
   "news": [
     {
-      "date": "2026-11-12",
+      "date": "2026-11-13",
       "source": "Liverpool Echo",
-      "title": "Bradley Barcola is mirroring Andoni Iraola's Liverpool start - what comes next is exciting",
-      "summary": "The ECHO takes a closer look at Bradley Barcola's start at Liverpool after his huge £123m summer move from European champions Paris Saint-Germain",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-mirroring-andoni-iraolas-34903757"
+      "title": "Zinedine Zidane makes Bradley Barcola vow after unpopular Liverpool decision - 'Must not panic'",
+      "summary": "Zinedine Zidane has defended Bradley Barcola after playing the Liverpool forward as a striker in France's 3-1 loss to Italy",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/zinedine-zidane-makes-bradley-barcola-34906200"
+    },
+    {
+      "date": "2026-11-13",
+      "source": "Liverpool Echo",
+      "title": "Dominik Szoboszlai injury latest as Hungary make decision after Liverpool injury blow",
+      "summary": "Liverpool midfielder Dominik Szoboszlai took part in open training with Hungary on Friday as he continues to manage a knee injury",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-injury-latest-hungary-34906750"
+    },
+    {
+      "date": "2026-11-13",
+      "source": "BBC Sport",
+      "title": "Liverpool fan on importance of Van Dijk contract situation",
+      "summary": "Liverpool fan Abigail Rudkin explains why she would like to see her captain extend his current deal beyond this summer",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqevrjvvj410o"
     },
     {
       "date": "2026-11-12",
-      "source": "Liverpool Echo",
-      "title": "Liverpool star explains motivation for exit as he opens up on 'truly crazy' signing day",
-      "summary": "Curtis Jones has admitted a desire to win trophies fuelled his decision to leave Liverpool for Internazionale",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-star-explains-motivation-exit-34902896"
+      "source": "BBC Sport",
+      "title": "Liverpool and Van Dijk have a decision to make",
+      "summary": "Virgil van Dijk says he is in no panic about his contract situation at Liverpool - BBC Sport takes a look at what could happen with his future.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o"
     },
     {
       "date": "2026-11-11",
@@ -1197,24 +1211,10 @@
     },
     {
       "date": "2026-11-09",
-      "source": "BBC Sport",
-      "title": "Incident-by-incident: Was it a bad weekend for VAR?",
-      "summary": "Almost every game had a controversial VAR decision in the Premier League this weekend. But how many might go down as errors?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6n9r93dnr9do"
-    },
-    {
-      "date": "2026-11-09",
       "source": "Sky Sports",
       "title": "'My will is to stay' - Alisson wants new Liverpool contract",
       "summary": "Liverpool goalkeeper Alisson says he wants to stay at Anfield beyond the end of the season when his contract expires.",
       "url": "https://www.skysports.com/football/news/11669/13610181/alisson-liverpool-goalkeeper-wants-to-stay-at-anfield-beyond-contract-expiry-at-the-end-of-this-season"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "BBC Sport",
-      "title": "Alisson wants to sign new Liverpool contract",
-      "summary": "Liverpool goalkeeper Alisson Becker wants to stay at the club beyond the end of the season, when his current contract is set to expire.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cw62ypepq2m7o"
     },
     {
       "date": "2026-11-09",
