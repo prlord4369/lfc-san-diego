@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T13:12:57Z",
+  "updated": "2026-11-13T17:55:32Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -23,7 +23,8 @@
         "nat": "Brazil",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/alisson-becker",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 25,
@@ -32,7 +33,8 @@
         "nat": "Georgia",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/giorgi-mamardashvili",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 28,
@@ -41,7 +43,8 @@
         "nat": "England",
         "reg": "HG",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/freddie-woodman",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 56,
@@ -50,7 +53,8 @@
         "nat": "Czechia",
         "reg": "HG",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/vitezslav-jaros",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 95,
@@ -59,7 +63,8 @@
         "nat": "England",
         "reg": "U21",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/harvey-davies",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 2,
@@ -68,7 +73,8 @@
         "nat": "England",
         "reg": "HG",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/joe-gomez",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 4,
@@ -77,7 +83,8 @@
         "nat": "Netherlands",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/virgil-van-dijk",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 5,
@@ -86,7 +93,8 @@
         "nat": "France",
         "reg": "U21",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremy-jacquet",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 6,
@@ -95,7 +103,8 @@
         "nat": "Hungary",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/milos-kerkez",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 12,
@@ -104,7 +113,8 @@
         "nat": "Northern Ireland",
         "reg": "HG",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/conor-bradley",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 15,
@@ -113,7 +123,8 @@
         "nat": "Italy",
         "reg": "U21",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/giovanni-leoni",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 21,
@@ -122,7 +133,8 @@
         "nat": "Greece",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/kostas-tsimikas",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 30,
@@ -131,7 +143,8 @@
         "nat": "Netherlands",
         "reg": "HG",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/jeremie-frimpong",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 33,
@@ -140,7 +153,8 @@
         "nat": "Uruguay",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/ronald-araujo",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 44,
@@ -148,7 +162,8 @@
         "pos": "DF",
         "nat": "England",
         "reg": "HG",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/luke-chambers"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/luke-chambers",
+        "espn": true
       },
       {
         "no": 3,
@@ -157,7 +172,8 @@
         "nat": "Japan",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/wataru-endo",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 7,
@@ -166,7 +182,8 @@
         "nat": "Germany",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/florian-wirtz",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 8,
@@ -175,7 +192,8 @@
         "nat": "Hungary",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/dominik-szoboszlai",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 10,
@@ -184,7 +202,8 @@
         "nat": "Argentina",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/alexis-mac-allister",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 38,
@@ -193,7 +212,8 @@
         "nat": "Netherlands",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/ryan-gravenberch",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 42,
@@ -202,7 +222,8 @@
         "nat": "England",
         "reg": "U21",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/trey-nyoni",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 53,
@@ -211,7 +232,8 @@
         "nat": "England",
         "reg": "HG",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/james-mcconnell",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 9,
@@ -220,7 +242,8 @@
         "nat": "Sweden",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/alexander-isak",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 14,
@@ -229,7 +252,8 @@
         "nat": "Italy",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/federico-chiesa",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 18,
@@ -238,7 +262,8 @@
         "nat": "Netherlands",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/cody-gakpo",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 22,
@@ -247,7 +272,8 @@
         "nat": "France",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/hugo-ekitike",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 23,
@@ -256,7 +282,8 @@
         "nat": "Spain",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/victor-munoz",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 29,
@@ -265,7 +292,8 @@
         "nat": "France",
         "reg": "",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/bradley-barcola",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 67,
@@ -274,7 +302,8 @@
         "nat": "Wales",
         "reg": "U21",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/lewis-koumas",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 73,
@@ -283,7 +312,8 @@
         "nat": "England",
         "reg": "U21",
         "profile": "https://www.liverpoolfc.com/teams/mens-team/rio-ngumoha",
-        "fd": true
+        "fd": true,
+        "espn": true
       },
       {
         "no": 76,
@@ -291,7 +321,8 @@
         "pos": "FW",
         "nat": "England",
         "reg": "U21",
-        "profile": "https://www.liverpoolfc.com/teams/mens-team/jayden-danns"
+        "profile": "https://www.liverpoolfc.com/teams/mens-team/jayden-danns",
+        "espn": true
       },
       {
         "no": 82,
@@ -302,7 +333,8 @@
         "profile": "https://www.liverpoolfc.com/teams/academy/josh-sonni-lambie",
         "note": "Academy",
         "added": "2026-10-15",
-        "fd": true
+        "fd": true,
+        "espn": true
       }
     ],
     "checked": "2026-11-13"
@@ -793,8 +825,8 @@
       "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "tbc": false,
       "scope": "domestic",
+      "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
@@ -1142,16 +1174,16 @@
     {
       "date": "2026-11-13",
       "source": "Liverpool Echo",
-      "title": "Zinedine Zidane makes Bradley Barcola vow after unpopular Liverpool decision - 'Must not panic'",
-      "summary": "Zinedine Zidane has defended Bradley Barcola after playing the Liverpool forward as a striker in France's 3-1 loss to Italy",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/zinedine-zidane-makes-bradley-barcola-34906200"
+      "title": "Jarell Quansah makes 'outstanding' Rio Ngumoha prediction after what he saw in Liverpool training",
+      "summary": "Former Liverpool defender Jarell Quansah has backed Rio Ngumoha to win the Ballon d'Or one day",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jarell-quansah-makes-outstanding-rio-34909390"
     },
     {
       "date": "2026-11-13",
       "source": "Liverpool Echo",
-      "title": "Dominik Szoboszlai injury latest as Hungary make decision after Liverpool injury blow",
-      "summary": "Liverpool midfielder Dominik Szoboszlai took part in open training with Hungary on Friday as he continues to manage a knee injury",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-injury-latest-hungary-34906750"
+      "title": "Mauricio Pochettino dealt further blow ahead of Liverpool debut as Man United start date confirmed",
+      "summary": "Mauricio Pochettino will officially start as Manchester United manager on November 18, with his first game coming away at Liverpool",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/mauricio-pochettino-dealt-further-blow-34908089"
     },
     {
       "date": "2026-11-13",
@@ -1758,5 +1790,19 @@
       "map": "https://www.google.com/maps/search/?api=1&query=Shakespeare+Pub+%26+Grille+3701+India+St+San+Diego+CA",
       "blurb": "Mission Hills, at the bottom of India Street. Our home for the early kick-offs."
     }
+  },
+  "transfers": {
+    "windows": [
+      {
+        "key": "2027-01",
+        "name": "January 2027",
+        "open": "2027-01-01",
+        "close": "2027-02-01"
+      }
+    ],
+    "moves": [],
+    "headlines": [],
+    "headlinesFor": null,
+    "checked": "2026-11-13"
   }
 }
