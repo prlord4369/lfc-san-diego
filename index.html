@@ -1102,7 +1102,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
           <button type="button" data-k="all" aria-pressed="true">All</button>
           <button type="button" data-k="in" aria-pressed="false">In</button>
           <button type="button" data-k="out" aria-pressed="false">Out</button>
-          <button type="button" data-k="loan" aria-pressed="false">Loans</button>
+          <button type="button" data-k="loan" aria-pressed="false">On loan</button>
           <button type="button" data-k="news" aria-pressed="false" id="tr-chip-news" hidden>News</button>
         </div>
       </div>
@@ -2086,7 +2086,7 @@ function render(data) {
   };
   var trDaysLeft = function (w) { return Math.round((dayDate(w.close) - dayDate(trToday)) / 864e5); };
   var trLeftText = function (w) { var d = trDaysLeft(w); return d === 0 ? "closes today" : d === 1 ? "1 day left" : d + " days left"; };
-  var trCounts = function (s) { return "<b>" + s.ins.length + "</b> in · <b>" + s.outs.length + "</b> out · <b>" + s.loans.length + "</b> loans"; };
+  var trCounts = function (s) { return "<b>" + s.ins.length + "</b> in · <b>" + s.outs.length + "</b> out · <b>" + s.loans.length + "</b> out on loan"; };
   var trNews = trOpen && trData.headlinesFor === trOpen.key && (trData.headlines || []).length ? trData.headlines : [];
   var trHtml = trShown.map(function (w, i) {
     var s = trSplit(w), cur = trOpen && w.key === trOpen.key;
@@ -2105,8 +2105,8 @@ function render(data) {
            : i === 0 && trNext ? "<span class=\"tw-close\">Closed · next window opens " + shortDay(trNext.open) + "</span>" : "") +
       "<span class=\"tw-mini\">" + shortDay(w.open) + " – " + shortDay(w.close) + " · " + trCounts(s) + "</span></summary>" +
       "<div class=\"tw-body\"><div class=\"tw-tiles\"><div><b>" + s.ins.length + "</b><small>In</small></div><div><b>" + s.outs.length +
-      "</b><small>Out</small></div><div><b>" + s.loans.length + "</b><small>Loans out</small></div></div>" +
-      trBlock("Arrivals", s.ins, "in") + trBlock("Departures", s.outs, "out") + trBlock("Loans out", s.loans, "loan") + news +
+      "</b><small>Out</small></div><div><b>" + s.loans.length + "</b><small>Out on loan</small></div></div>" +
+      trBlock("Arrivals", s.ins, "in") + trBlock("Departures", s.outs, "out") + trBlock("Out on loan", s.loans, "loan") + news +
       "</div></details>";
   }).join("");
   if (!trShown.length) {
@@ -2122,7 +2122,7 @@ function render(data) {
     var trS = trSplit(trOpen), twSum = document.getElementById("tw-sum");
     twSum.innerHTML = "<span class=\"tw-top\"><span class=\"tw-live\"><i></i>Transfer window open</span><span class=\"tw-close\">Closes " +
       shortDay(trOpen.close) + " · " + trLeftText(trOpen) + "</span></span><span class=\"tw-counts\"><span><b>" + trS.ins.length +
-      "</b> in</span><span><b>" + trS.outs.length + "</b> out</span><span><b>" + trS.loans.length + "</b> loans out</span></span>" +
+      "</b> in</span><span><b>" + trS.outs.length + "</b> out</span><span><b>" + trS.loans.length + "</b> out on loan</span></span>" +
       "<span class=\"tw-go\">Transfers →</span>";
     twSum.hidden = false;
   }
