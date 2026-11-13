@@ -2097,7 +2097,8 @@ function render(data) {
           "\" target=\"_blank\" rel=\"noopener\">" + esc(h.title) + "</a></h3></article>";
       }).join("") + "</div></div>" : "";
     return (i === 1 ? "<div class=\"tw-earlier\">Earlier windows</div>" : "") +
-      "<details class=\"tw-win" + (cur ? " cur" : "") + "\"" + (i === 0 ? " open" : "") + "><summary>" +
+      // Only a window that's open for business right now starts expanded; every other one starts folded (owner)
+      "<details class=\"tw-win" + (cur ? " cur" : "") + "\"" + (cur ? " open" : "") + "><summary>" +
       "<span class=\"tw-name\">" + esc(w.name) + "</span>" +
       (cur ? "<span class=\"tw-live\"><i></i>Open · closes " + shortDay(w.close) + " (" + trLeftText(w) + ")</span>"
            : w.open > trToday ? "<span class=\"tw-close\">Opens " + shortDay(w.open) + "</span>"
