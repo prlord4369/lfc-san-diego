@@ -1112,7 +1112,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       </div>
       <div role="tabpanel" id="sqp-tr" aria-labelledby="sqt-tr" hidden>
         <div id="tr-wins"></div>
-        <p class="note">Confirmed moves come from ESPN's transfer list and from changes to the squad list, so a deal can take a day or two to appear. Fees are shown only when a club publishes one (in euros, before add-ons); Liverpool's are usually undisclosed. Headlines come from the site's usual news feeds. <a href="https://en.wikipedia.org/wiki/List_of_Liverpool_F.C._seasons" target="_blank" rel="noopener">Earlier seasons on Wikipedia ↗</a></p>
+        <p class="note">Confirmed moves come from ESPN's transfer list and from changes to the squad list, so a deal can take a day or two to appear. Fees are shown in dollars only when there's a figure: one a club published (in euros, before add-ons) or, for 2026, the fee reported in the UK press (hover or tap it for the original); Liverpool's are usually undisclosed. Headlines come from the site's usual news feeds. <a href="https://en.wikipedia.org/wiki/List_of_Liverpool_F.C._seasons" target="_blank" rel="noopener">Earlier seasons on Wikipedia ↗</a></p>
       </div>
     </section>
   </div>
@@ -2049,9 +2049,11 @@ function render(data) {
   var trToday = ptDay(new Date());
   var trKey = function (s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim(); };
   var trOpen = trWins.filter(function (w) { return w.open <= trToday && trToday <= w.close; })[0];
-  // Windows on the page: the last 6 that have opened (or already have moves: deals done just before one opens)
+  // Windows on the page: the last 6 that have started, counting from 21 days before a window opens, as update.py
+  // does (TRANSFER_EARLY): so the newest window's box appears ("Opens Jan 1") the day the oldest one rolls off
+  var trLead = function (w) { return new Date(dayDate(w.open) - 21 * 864e5).toISOString().slice(0, 10); };
   var trShown = trWins.filter(function (w) {
-    return w.open <= trToday || trMoves.some(function (m) { return m.window === w.key; });
+    return trLead(w) <= trToday || trMoves.some(function (m) { return m.window === w.key; });
   }).slice(-6).reverse();
   var trNext = trWins.filter(function (w) { return w.open > trToday; })[0];
   var trSplit = function (w) {
@@ -2062,9 +2064,13 @@ function render(data) {
   };
   var money = function (n) { return n >= 1e6 ? (Math.round(n / 1e5) / 10).toString().replace(/\.0$/, "") + "m" : Math.round(n / 1e3) + "k"; };
   var trType = function (m) {
-    if (m.type === "fee" && m.usd) return "<span class=\"tr-st " + m.dir + "\" title=\"€" + esc(money(m.eur)) + " fixed fee before add-ons, as published (dollars at that day's rate)\">$" + esc(money(m.usd)) + " fee</span>";
+    // Fees: "eur" = published by a stock-market club (fixed fee before add-ons); "gbp" = reported in the UK press
+    if (m.type === "fee" && m.usd) return "<span class=\"tr-st " + m.dir + "\" title=\"" +
+      (m.eur ? "€" + esc(money(m.eur)) + " fixed fee before add-ons, as published" : "£" + esc(money(m.gbp)) + " reported fee") +
+      " (dollars at that day's rate)\">$" + esc(money(m.usd)) + " fee</span>";
     if (m.type === "fee" && m.eur) return "<span class=\"tr-st " + m.dir + "\" title=\"Fixed fee before add-ons, as published\">€" + esc(money(m.eur)) + " fee</span>";
-    var label = { fee: "Fee", undisclosed: "Undisclosed fee", free: "Free transfer", loan: "Loan", joined: "Joined", left: "Left" }[m.type] || "Transfer";
+    if (m.type === "fee" && m.gbp) return "<span class=\"tr-st " + m.dir + "\" title=\"Reported fee\">£" + esc(money(m.gbp)) + " fee</span>";
+    var label = { fee: "Fee", undisclosed: "Undisclosed fee", free: "Free transfer", loan: "Loan", joined: "Joined", left: "Left", released: "Released" }[m.type] || "Transfer";
     return "<span class=\"tr-st " + (m.type === "loan" ? "loan" : m.dir) + "\">" + label + "</span>";
   };
   var trBlock = function (title, rows, k) {
@@ -2073,7 +2079,7 @@ function render(data) {
     return "<div class=\"tr-sec\" data-k=\"" + k + "\">" + head + "<div class=\"tr-rows\">" +
       rows.slice().sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; }).map(function (m) {
         var where = m.club ? (m.dir === "in" ? "from " : "to ") + esc(m.club)
-          : m.dir === "in" ? "Joined the squad list" : "Left the squad list";
+          : m.type === "released" ? "Contract ended" : m.dir === "in" ? "Joined the squad list" : "Left the squad list";
         return "<div class=\"tr-row\"><span class=\"tr-d\">" + shortDay(m.date) + "</span>" +
           "<span class=\"tr-who\"><b>" + esc(m.name) + "</b><small>" + where + "</small></span>" + trType(m) + "</div>";
       }).join("") + "</div></div>";
@@ -2094,6 +2100,7 @@ function render(data) {
       "<details class=\"tw-win" + (cur ? " cur" : "") + "\"" + (i === 0 ? " open" : "") + "><summary>" +
       "<span class=\"tw-name\">" + esc(w.name) + "</span>" +
       (cur ? "<span class=\"tw-live\"><i></i>Open · closes " + shortDay(w.close) + " (" + trLeftText(w) + ")</span>"
+           : w.open > trToday ? "<span class=\"tw-close\">Opens " + shortDay(w.open) + "</span>"
            : i === 0 && trNext ? "<span class=\"tw-close\">Closed · next window opens " + shortDay(trNext.open) + "</span>" : "") +
       "<span class=\"tw-mini\">" + shortDay(w.open) + " – " + shortDay(w.close) + " · " + trCounts(s) + "</span></summary>" +
       "<div class=\"tw-body\"><div class=\"tw-tiles\"><div><b>" + s.ins.length + "</b><small>In</small></div><div><b>" + s.outs.length +
