@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T17:55:32Z",
+  "updated": "2026-11-13T18:11:20Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1794,13 +1794,871 @@
   "transfers": {
     "windows": [
       {
+        "key": "2024-01",
+        "name": "January 2024",
+        "open": "2024-01-01",
+        "close": "2024-02-01"
+      },
+      {
+        "key": "2024-06",
+        "name": "Summer 2024",
+        "open": "2024-06-14",
+        "close": "2024-08-30"
+      },
+      {
+        "key": "2025-01",
+        "name": "January 2025",
+        "open": "2025-01-01",
+        "close": "2025-02-03"
+      },
+      {
+        "key": "2025-06",
+        "name": "Summer 2025",
+        "open": "2025-06-01",
+        "close": "2025-09-01"
+      },
+      {
+        "key": "2026-01",
+        "name": "January 2026",
+        "open": "2026-01-01",
+        "close": "2026-02-02"
+      },
+      {
+        "key": "2026-06",
+        "name": "Summer 2026",
+        "open": "2026-06-15",
+        "close": "2026-09-01"
+      },
+      {
         "key": "2027-01",
         "name": "January 2027",
         "open": "2027-01-01",
         "close": "2027-02-01"
       }
     ],
-    "moves": [],
+    "moves": [
+      {
+        "window": "2024-01",
+        "date": "2024-01-05",
+        "name": "Marcelo Pitaluga",
+        "dir": "out",
+        "type": "loan",
+        "club": "St Patrick's Athletic",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-01-10",
+        "name": "Fábio Carvalho",
+        "dir": "out",
+        "type": "loan",
+        "club": "Hull City",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-01-12",
+        "name": "Luke Chambers",
+        "dir": "out",
+        "type": "loan",
+        "club": "Wigan Athletic",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-01-12",
+        "name": "Paul Glatzel",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Swindon Town",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-01-16",
+        "name": "Rhys Williams",
+        "dir": "out",
+        "type": "loan",
+        "club": "Port Vale",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-01-29",
+        "name": "Calvin Ramsay",
+        "dir": "out",
+        "type": "loan",
+        "club": "Bolton Wanderers",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-01-30",
+        "name": "Nathaniel Phillips",
+        "dir": "out",
+        "type": "loan",
+        "club": "Cardiff City",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-01-30",
+        "name": "Owen Beck",
+        "dir": "out",
+        "type": "loan",
+        "club": "Dundee",
+        "src": "espn"
+      },
+      {
+        "window": "2024-01",
+        "date": "2024-02-01",
+        "name": "Billy Koumetio",
+        "dir": "out",
+        "type": "loan",
+        "club": "Blackburn Rovers",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-07-01",
+        "name": "Calvin Ramsay",
+        "dir": "out",
+        "type": "loan",
+        "club": "Wigan Athletic",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-07-09",
+        "name": "Adrián",
+        "dir": "out",
+        "type": "free",
+        "club": "Real Betis",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-06",
+        "name": "Luke Chambers",
+        "dir": "out",
+        "type": "loan",
+        "club": "Wigan Athletic",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-10",
+        "name": "Lewis Koumas",
+        "dir": "out",
+        "type": "loan",
+        "club": "Stoke City",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-12",
+        "name": "Fábio Carvalho",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Brentford",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-20",
+        "name": "Rhys Williams",
+        "dir": "out",
+        "type": "loan",
+        "club": "Morecambe",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-22",
+        "name": "Bobby Clark",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "RB Salzburg",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-22",
+        "name": "Sepp van den Berg",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Brentford",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-23",
+        "name": "Harvey Blair",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Portsmouth",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-29",
+        "name": "Calum Scanlon",
+        "dir": "out",
+        "type": "loan",
+        "club": "Millwall",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-29",
+        "name": "Federico Chiesa",
+        "dir": "in",
+        "type": "fee",
+        "club": "Juventus",
+        "src": "espn",
+        "eur": 12000000,
+        "usd": 13305600
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-30",
+        "name": "Ben Gannon-Doak",
+        "dir": "out",
+        "type": "loan",
+        "club": "Middlesbrough",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-30",
+        "name": "Kaide Gordon",
+        "dir": "out",
+        "type": "loan",
+        "club": "Norwich City",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-30",
+        "name": "Nathaniel Phillips",
+        "dir": "out",
+        "type": "loan",
+        "club": "Derby County",
+        "src": "espn"
+      },
+      {
+        "window": "2024-06",
+        "date": "2024-08-30",
+        "name": "Stefan Bajcetic",
+        "dir": "out",
+        "type": "loan",
+        "club": "RB Salzburg",
+        "src": "espn"
+      },
+      {
+        "window": "2025-01",
+        "date": "2025-01-03",
+        "name": "Jayden Danns",
+        "dir": "out",
+        "type": "loan",
+        "club": "Sunderland",
+        "src": "espn"
+      },
+      {
+        "window": "2025-01",
+        "date": "2025-01-06",
+        "name": "Marcelo Pitaluga",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Fluminense",
+        "src": "espn"
+      },
+      {
+        "window": "2025-01",
+        "date": "2025-01-13",
+        "name": "Calvin Ramsay",
+        "dir": "out",
+        "type": "loan",
+        "club": "Kilmarnock",
+        "src": "espn"
+      },
+      {
+        "window": "2025-01",
+        "date": "2025-01-22",
+        "name": "Thomas Hill",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Harrogate Town",
+        "src": "espn"
+      },
+      {
+        "window": "2025-01",
+        "date": "2025-01-31",
+        "name": "Stefan Bajcetic",
+        "dir": "out",
+        "type": "loan",
+        "club": "Las Palmas",
+        "src": "espn"
+      },
+      {
+        "window": "2025-01",
+        "date": "2025-02-03",
+        "name": "Dominic Corness",
+        "dir": "out",
+        "type": "loan",
+        "club": "Gillingham",
+        "src": "espn"
+      },
+      {
+        "window": "2025-01",
+        "date": "2025-02-03",
+        "name": "Kaide Gordon",
+        "dir": "out",
+        "type": "loan",
+        "club": "Portsmouth",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-06-01",
+        "name": "Jeremie Frimpong",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Bayer Leverkusen",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-06-01",
+        "name": "Trent Alexander-Arnold",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Real Madrid",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-06-03",
+        "name": "Caoimhín Kelleher",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Brentford",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-06-23",
+        "name": "Nathaniel Phillips",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "West Bromwich Albion",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-06-26",
+        "name": "Milos Kerkez",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "AFC Bournemouth",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-06-27",
+        "name": "Freddie Woodman",
+        "dir": "in",
+        "type": "free",
+        "club": "Preston North End",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-01",
+        "name": "Florian Wirtz",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Bayer Leverkusen",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-01",
+        "name": "Giorgi Mamardashvili",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Valencia",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-01",
+        "name": "Harvey Davies",
+        "dir": "out",
+        "type": "loan",
+        "club": "Crawley Town",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-01",
+        "name": "Vitezslav Jaros",
+        "dir": "out",
+        "type": "loan",
+        "club": "Ajax Amsterdam",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-01",
+        "name": "Ármin Pécsi",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Puskas Akademia",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-02",
+        "name": "Jarell Quansah",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Bayer Leverkusen",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-23",
+        "name": "Hugo Ekitike",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Eintracht Frankfurt",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-25",
+        "name": "Owen Beck",
+        "dir": "out",
+        "type": "loan",
+        "club": "Derby County",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-07-30",
+        "name": "Luis Díaz",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Bayern Munich",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-01",
+        "name": "Isaac Mabaya",
+        "dir": "out",
+        "type": "loan",
+        "club": "Wigan Athletic",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-04",
+        "name": "Will Wright",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Salford City",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-05",
+        "name": "Tyler Morton",
+        "dir": "out",
+        "type": "fee",
+        "club": "Lyon",
+        "src": "espn",
+        "eur": 10000000,
+        "usd": 11546000
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-09",
+        "name": "Darwin Núñez",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Al Hilal",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-15",
+        "name": "Giovanni Leoni",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Parma",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-18",
+        "name": "Ben Gannon-Doak",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "AFC Bournemouth",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-19",
+        "name": "Jayden Joseph",
+        "dir": "out",
+        "type": "loan",
+        "club": "Tranmere Rovers",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-22",
+        "name": "Lewis Koumas",
+        "dir": "out",
+        "type": "loan",
+        "club": "Birmingham City",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-29",
+        "name": "James McConnell",
+        "dir": "out",
+        "type": "loan",
+        "club": "Ajax Amsterdam",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-08-31",
+        "name": "Kostas Tsimikas",
+        "dir": "out",
+        "type": "loan",
+        "club": "AS Roma",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-09-01",
+        "name": "Alexander Isak",
+        "dir": "in",
+        "type": "undisclosed",
+        "club": "Newcastle United",
+        "src": "espn"
+      },
+      {
+        "window": "2025-06",
+        "date": "2025-09-01",
+        "name": "Harvey Elliott",
+        "dir": "out",
+        "type": "loan",
+        "club": "Aston Villa",
+        "src": "espn"
+      },
+      {
+        "window": "2026-01",
+        "date": "2026-01-01",
+        "name": "James Norris",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Shelbourne",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-01",
+        "date": "2026-01-09",
+        "name": "Mor Talla Ndiaye",
+        "dir": "in",
+        "type": "fee",
+        "club": "Amitié",
+        "src": "wiki",
+        "gbp": 1000000,
+        "usd": 1341700
+      },
+      {
+        "window": "2026-01",
+        "date": "2026-01-21",
+        "name": "Luke Chambers",
+        "dir": "out",
+        "type": "loan",
+        "club": "Charlton Athletic",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-01",
+        "date": "2026-01-30",
+        "name": "Lewis Koumas",
+        "dir": "out",
+        "type": "loan",
+        "club": "Hull City",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-01",
+        "date": "2026-02-01",
+        "name": "Calum Scanlon",
+        "dir": "out",
+        "type": "loan",
+        "club": "Cardiff City",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Andy Robertson",
+        "dir": "out",
+        "type": "free",
+        "club": "Tottenham Hotspur",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Carter Pinnington",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "West Bromwich Albion",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "DJ Bernard",
+        "dir": "out",
+        "type": "free",
+        "club": "Middlesbrough",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Emmanuel Airoboma",
+        "dir": "out",
+        "type": "free",
+        "club": "Burnley",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Ibrahima Konaté",
+        "dir": "out",
+        "type": "free",
+        "club": "Real Madrid",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Ifeanyi Ndukwe",
+        "dir": "in",
+        "type": "fee",
+        "club": "Austria Wien",
+        "src": "wiki",
+        "gbp": 2600000,
+        "usd": 3442400
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Jérémy Jacquet",
+        "dir": "in",
+        "type": "fee",
+        "club": "Rennes",
+        "src": "wiki",
+        "gbp": 55000000,
+        "usd": 72820000
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Mohamed Salah",
+        "dir": "out",
+        "type": "free",
+        "club": "Trabzonspor",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Oakley Cannonier",
+        "dir": "out",
+        "type": "free",
+        "club": "Hougang United",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Rhys Williams",
+        "dir": "out",
+        "type": "released",
+        "club": null,
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-01",
+        "name": "Víctor Muñoz",
+        "dir": "in",
+        "type": "fee",
+        "club": "Osasuna",
+        "src": "wiki",
+        "gbp": 34500000,
+        "usd": 45678000
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-02",
+        "name": "Luca Stephenson",
+        "dir": "out",
+        "type": "fee",
+        "club": "Bolton Wanderers",
+        "src": "wiki",
+        "gbp": 700000,
+        "usd": 931420
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-22",
+        "name": "Kyle Kelly",
+        "dir": "out",
+        "type": "loan",
+        "club": "Forest Green Rovers",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-23",
+        "name": "Ármin Pécsi",
+        "dir": "out",
+        "type": "loan",
+        "club": "TSV Hartberg",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-24",
+        "name": "Amara Nallo",
+        "dir": "out",
+        "type": "loan",
+        "club": "HJK",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-07-29",
+        "name": "Tommy Pilling",
+        "dir": "out",
+        "type": "undisclosed",
+        "club": "Zemplín Michalovce",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-10",
+        "name": "Ronald Araújo",
+        "dir": "in",
+        "type": "loan",
+        "club": "Barcelona",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-15",
+        "name": "Calum Scanlon",
+        "dir": "out",
+        "type": "loan",
+        "club": "Cardiff City",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-20",
+        "name": "Kieran Morrison",
+        "dir": "out",
+        "type": "loan",
+        "club": "Sheffield Wednesday",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-21",
+        "name": "Curtis Jones",
+        "dir": "out",
+        "type": "fee",
+        "club": "Inter Milan",
+        "src": "wiki",
+        "gbp": 25700000,
+        "usd": 35095920
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-22",
+        "name": "Ifeanyi Ndukwe",
+        "dir": "out",
+        "type": "loan",
+        "club": "Levante",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-25",
+        "name": "Calvin Ramsay",
+        "dir": "out",
+        "type": "loan",
+        "club": "St Mirren",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-31",
+        "name": "Bradley Barcola",
+        "dir": "in",
+        "type": "fee",
+        "club": "Paris Saint-Germain",
+        "src": "wiki",
+        "gbp": 106000000,
+        "usd": 143513400
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-08-31",
+        "name": "Stefan Bajcetic",
+        "dir": "out",
+        "type": "fee",
+        "club": "Celta Fortuna",
+        "src": "wiki",
+        "gbp": 1000000,
+        "usd": 1353900
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-09-01",
+        "name": "Harvey Elliott",
+        "dir": "out",
+        "type": "loan",
+        "club": "Valencia",
+        "src": "wiki"
+      },
+      {
+        "window": "2026-06",
+        "date": "2026-09-01",
+        "name": "Keyrol Figueroa",
+        "dir": "out",
+        "type": "loan",
+        "club": "Port Vale",
+        "src": "wiki"
+      }
+    ],
     "headlines": [],
     "headlinesFor": null,
     "checked": "2026-11-13"
