@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T03:31:28Z",
+  "updated": "2026-11-14T17:58:57Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1094,96 +1094,93 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "He has not featured since the Arsenal game because of a heel problem, and he was left out of the Fenerbahce trip. Iraola described it as a day-to-day matter of pain, and the Netherlands have omitted him, so Manchester United is the hoped-for return.",
+      "detail": "He missed the Fenerbahce trip with a heel problem and has since been left out of the Netherlands squad. Iraola is hoping he can be available against Manchester United.",
+      "reported": "2026-11-12",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
-      "reported": "2026-11-12"
+      "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "His muscle problem has kept him sidelined for several games, and he is still waiting for medical clearance to resume training. A return before Manchester United is possible but not confirmed.",
+      "detail": "He has been sidelined since a muscle injury at Brentford and was also dropped from the Dutch squad. A return against Manchester United is hoped for but not confirmed.",
+      "reported": "2026-11-12",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
-      "reported": "2026-11-12"
+      "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is listed among the long-term absentees and is still working through his Achilles rehabilitation during the international break. No firm return date has been set.",
+      "detail": "He is still working through Achilles rehabilitation with no firm return date set. Reports point to a competitive comeback around December.",
+      "reported": "2026-11-09",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
-      "reported": "2026-11-12"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is still recovering from a serious knee injury picked up in January. He may rejoin group training after the international break, pending medical clearance.",
+      "detail": "He is returning from a serious knee injury picked up in January, and the end of his recovery is said to be in sight. Liverpool are expected to take a cautious approach to his comeback.",
+      "reported": "2026-11-09",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
-      "reported": "2026-11-12"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has not played this season while recovering from an ACL injury. He is expected to start training with the group during the international break.",
+      "detail": "He has not played this season after an ACL injury and a setback in his recovery. He was expected to start training with the group during the international break.",
+      "reported": "2026-11-06",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
-      "reported": "2026-11-12"
-    },
-    {
-      "player": "Vitezslav Jaros",
-      "pos": "GK",
-      "status": "out",
-      "issue": "Long-term injury",
-      "detail": "He remains unavailable with a long-term injury and is continuing his rehabilitation during the international break. No return date has been given.",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
-      "reported": "2026-11-12"
-    },
-    {
-      "player": "Dominik Szoboszlai",
-      "pos": "MF",
-      "status": "doubt",
-      "issue": "Knee",
-      "detail": "He tweaked the knee again late in the Crystal Palace win and was not fully fit when he came off. Iraola said he will need to be assessed by the medical staff before any national team call-up.",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/andoni-iraola-press-conference-or-every-word-after-crystal-palace-1-3-liverpool",
-      "reported": "2026-11-08"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-returns-gravenberch-frimpong-34875136"
     },
     {
       "player": "Virgil van Dijk",
       "pos": "DF",
       "status": "doubt",
       "issue": "Niggle",
-      "detail": "He withdrew from the Netherlands squad with a minor knock and has been dealing with discomfort for weeks. Iraola hopes the break allows him to recover in time for Manchester United.",
+      "detail": "He pulled out of the Netherlands squad with a minor knock and says he has been managing discomfort for weeks. Iraola hopes the break will get him ready for Manchester United.",
+      "reported": "2026-11-12",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268",
-      "reported": "2026-11-12"
+      "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
+    },
+    {
+      "player": "Dominik Szoboszlai",
+      "pos": "MF",
+      "status": "doubt",
+      "issue": "Knee",
+      "detail": "He was diagnosed with a knee sprain after being substituted in the Crystal Palace win. He was still named in Hungary's starting lineup for the Georgia game despite ongoing concerns.",
+      "reported": "2026-11-14",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/dominik-szoboszlai-starts-hungary-georgia-knee-injury/"
     }
   ],
   "news": [
     {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Liverpool Echo",
-      "title": "Jarell Quansah makes 'outstanding' Rio Ngumoha prediction after what he saw in Liverpool training",
-      "summary": "Former Liverpool defender Jarell Quansah has backed Rio Ngumoha to win the Ballon d'Or one day",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jarell-quansah-makes-outstanding-rio-34909390"
+      "title": "Liverpool are already different under Andoni Iraola and one remarkable change proves it",
+      "summary": "Liverpool are now 10 Premier League games into Andoni Iraola's reign and a number of patterns are starting to emerge",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-already-different-under-andoni-34912395"
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "source": "Liverpool Echo",
-      "title": "Mauricio Pochettino dealt further blow ahead of Liverpool debut as Man United start date confirmed",
-      "summary": "Mauricio Pochettino will officially start as Manchester United manager on November 18, with his first game coming away at Liverpool",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/mauricio-pochettino-dealt-further-blow-34908089"
+      "title": "Truth behind Bradley Barcola claim after 'bust-up' with France team-mate Rayan Cherki",
+      "summary": "Barcola and Cherki were part of a France team beaten for the first time since Zinedine Zidane took over as manager",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/barcola-cherki-france-nations-league-34912153"
+    },
+    {
+      "date": "2026-11-14",
+      "source": "BBC Sport",
+      "title": "Liverpool's Koumas can be special for Wales - Rush",
+      "summary": "Liverpool legend Ian Rush believes Lewis Koumas could help ease Wales' forward concerns, and says the Reds must target a top-four finish plus a trophy this season.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmy974jw1xgeo"
     },
     {
       "date": "2026-11-13",
@@ -1233,13 +1230,6 @@
       "title": "Rio Ngumoha ready to make England splash as he spells out Ballon d’Or ambition",
       "summary": "Fearless winger has forced his way into Thomas Tuchel’s plans and believes he can become best player in the world",
       "url": "https://www.theguardian.com/football/2026/nov/10/rio-ngumoha-ready-to-make-england-splash-as-he-spells-out-ballon-dor-ambition"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "BBC Sport",
-      "title": "Szoboszlai fitness call to come at 'last minute'",
-      "summary": "Hungary say they will do \"everything possible\" for Liverpool midfielder Dominik Szoboszlai to feature in Nations League fixtures against Georgia and Northern Ireland across the…",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmp3g31gvxkgo"
     },
     {
       "date": "2026-11-09",
