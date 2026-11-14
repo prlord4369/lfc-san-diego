@@ -440,7 +440,9 @@ main .wrap { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1f
 section { min-width: 0; scroll-margin-top: 16px; }
 #injury-list { scroll-margin-top: 16px; }   /* menu "Injuries" lands on the list itself, below the Whiskey Girl box */
 .sec-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; padding-bottom: 12px; border-bottom: 3px solid var(--fg); margin-bottom: 4px; }
-.filters { display: flex; gap: 6px; flex-wrap: wrap; }
+.filters { display: flex; gap: 6px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }   /* one row; scrolls sideways if ever too wide */
+.filters::-webkit-scrollbar { display: none; }
+@media (max-width: 480px) { .filters button { padding: 7px 10px; } }
 .filters button { font: 600 .8rem/1 var(--font-body); padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
 .filters button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 
@@ -1019,8 +1021,10 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
         <h2 id="fx-h">Fixtures &amp; results</h2>
         <div class="filters" role="group" aria-label="Filter fixtures">
           <button type="button" id="f-all" data-f="all" aria-pressed="true">All</button>
-          <button type="button" id="f-dom" data-f="domestic" aria-pressed="false">Domestic</button>
-          <button type="button" id="f-int" data-f="international" aria-pressed="false">Europe</button>
+          <button type="button" data-f="pl" aria-pressed="false" title="Premier League">PL</button>
+          <button type="button" data-f="ucl" aria-pressed="false" title="Champions League">UCL</button>
+          <button type="button" data-f="lc" aria-pressed="false" title="Carabao Cup">Carabao</button>
+          <button type="button" data-f="fa" aria-pressed="false" title="FA Cup">FA Cup</button>
         </div>
       </div>
       <!-- Upcoming / Results tabs (#fixtures opens Upcoming, #results opens Results) -->
@@ -1757,11 +1761,27 @@ function render(data) {
   // Fixtures
   // The filter is NOT remembered: every visit to Fixtures & results starts on All (owner, 2026-11-12; see openFr).
   // It used to be saved in localStorage "lfcsd-filter"; clear that old value.
+  // Filter by competition (owner, 2026-11-14; was All / Domestic / Europe): Premier League, Champions League,
+  // Carabao Cup, FA Cup. "other" (e.g. a Community Shield) only shows under All.
+  var compKey = function (c) {
+    c = String(c || "");
+    return /^premier/i.test(c) ? "pl" : /champions/i.test(c) ? "ucl" : /carabao|league cup|efl cup/i.test(c) ? "lc"
+      : /fa cup/i.test(c) ? "fa" : "other";
+  };
+  var COMP_NAMES = { pl: "Premier League", ucl: "Champions League", lc: "Carabao Cup", fa: "FA Cup" };
+  // A button whose competition has no games in either tab is hidden (the FA Cup until the draw adds our tie)
+  document.querySelectorAll(".filters button").forEach(function (b) {
+    var k = b.dataset.f;
+    if (k !== "all") b.hidden = !fixtures.some(function (f) { return compKey(f.comp) === k; }) &&
+                                !data.results.some(function (r) { return compKey(r.comp) === k; });
+  });
   var filter = "all", showAll = false;
   try { localStorage.removeItem("lfcsd-filter"); } catch (e) {}
   var list = document.getElementById("fx-list"), more = document.getElementById("fx-more");
   function renderFixtures() {
-    var rows = fixtures.filter(function (f) { return filter === "all" || f.scope === filter; });
+    var rows = fixtures.filter(function (f) { return filter === "all" || compKey(f.comp) === filter; });
+    // Break cards (international breaks, FA Cup weekends) are about the league schedule: All and PL only (owner)
+    var showBreaks = filter === "all" || filter === "pl";
     var shown = showAll ? rows : rows.slice(0, 10);
     var html = "", month = "", prevDay = "";
     var today = ptDay(new Date()), lastPlayed = data.results.length ? data.results[data.results.length - 1].date : "";
@@ -1769,7 +1789,7 @@ function render(data) {
       var m = fmt(f.d, { month: "long", year: "numeric" });
       // A break that falls between the previous row (or, at the top, the last result) and this game
       var day = f.dateTbc ? "" : ptDay(f.d), from = prevDay || lastPlayed;
-      var brk = day ? BREAKS.filter(function (b) { return b[1] >= today && b[0] > from && b[1] < day; })
+      var brk = day && showBreaks ? BREAKS.filter(function (b) { return b[1] >= today && b[0] > from && b[1] < day; })
         .map(function (b) { return breakRow(b, !html); }).join("") : "";
       if (brk && html) html += brk;   // between games: before the new month's heading
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
@@ -1788,7 +1808,7 @@ function render(data) {
           : "<div class=\"t\"><span class=\"mono\">" + fmt(f.d, { hour: "numeric", minute: "2-digit" }) + "</span><small>" + (f.tbc ? "PT · TBC" : "PT") + "</small></div>") +
         "</div>";
     });
-    list.innerHTML = html || "<p class=\"note\">No upcoming fixtures in this view.</p>";
+    list.innerHTML = html || "<p class=\"note\">No upcoming " + (COMP_NAMES[filter] ? esc(COMP_NAMES[filter]) + " games" : "fixtures") + " right now.</p>";
     more.hidden = rows.length <= 10;
     more.textContent = showAll ? "Show next 10 only" : "Show all " + rows.length + " fixtures";
     document.querySelectorAll(".filters button").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.f === filter)); });
@@ -1800,12 +1820,9 @@ function render(data) {
       if (window.scrollY > 0) window.scrollTo(0, 0);   // the bar stays pinned, so start the new list from its top
     });
   });
-  // Results tab: this season's results, newest first, same All / Domestic / Europe filter as the fixtures
+  // Results tab: this season's results, newest first, same competition filter as the fixtures
   function renderResults() {
-    var rows = data.results.slice().reverse().filter(function (r) {
-      var scope = /champions|europa|conference|uefa/i.test(r.comp) ? "international" : "domestic";
-      return filter === "all" || scope === filter;
-    });
+    var rows = data.results.slice().reverse().filter(function (r) { return filter === "all" || compKey(r.comp) === filter; });
     var html = "", month = "", w = 0, d = 0, l = 0;
     rows.forEach(function (r) {
       var dt = new Date(r.date + "T12:00:00Z");
@@ -1823,8 +1840,9 @@ function render(data) {
           "<span class=\"fm-b " + res + "\">" + res + "</span></div>" +
         "</div>";
     });
-    document.getElementById("rs-list").innerHTML = html || "<p class=\"note\">No results in this view yet.</p>";
-    document.getElementById("rs-sum").innerHTML = rows.length ? "<b>" + rows.length + "</b> played · <b>" + w + "</b> won · <b>" + d + "</b> drawn · <b>" + l + "</b> lost" : "";
+    document.getElementById("rs-list").innerHTML = html || "<p class=\"note\">No " + (COMP_NAMES[filter] ? esc(COMP_NAMES[filter]) + " " : "") + "results yet this season.</p>";
+    // Names the competition when one is chosen: "Carabao Cup · 2 played · 2 won ..."
+    document.getElementById("rs-sum").innerHTML = rows.length ? (COMP_NAMES[filter] ? esc(COMP_NAMES[filter]) + " · " : "") + "<b>" + rows.length + "</b> played · <b>" + w + "</b> won · <b>" + d + "</b> drawn · <b>" + l + "</b> lost" : "";
   }
   renderResults();
   var setFr = function (k) {
