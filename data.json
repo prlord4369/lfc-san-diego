@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T18:48:12Z",
+  "updated": "2026-11-15T20:32:13Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -780,11 +780,6 @@
       "venueClosed": false,
       "watchAt": "shakespeares",
       "usLocked": false,
-      "ground": {
-        "name": "Hill Dickinson Stadium",
-        "city": "Liverpool",
-        "country": "England"
-      },
       "h2h": [
         {
           "date": "2026-04-19",
@@ -821,7 +816,12 @@
           "r": "L",
           "comp": "Premier League"
         }
-      ]
+      ],
+      "ground": {
+        "name": "Hill Dickinson Stadium",
+        "city": "Liverpool",
+        "country": "England"
+      }
     },
     {
       "kickoff": "2026-12-02T19:30:00Z",
