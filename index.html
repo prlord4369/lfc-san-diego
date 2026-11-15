@@ -2416,9 +2416,19 @@ window.lfcCarouselMotion = function () {
   // (mouse only, so a tap on a phone doesn't count as hovering; a tap to open a photo doesn't stop it either)
   car.addEventListener("pointerenter", function (e) { if (e.pointerType === "mouse") hover = true; });
   car.addEventListener("pointerleave", function (e) { if (e.pointerType === "mouse") hover = false; });
-  track.addEventListener("focusin", function () { hover = true; });
+  // Keyboard focus only: a tap on a phone also focuses the photo, which used to pause it until you tapped elsewhere
+  track.addEventListener("focusin", function (e) {
+    var kb = true; try { kb = e.target.matches(":focus-visible"); } catch (x) {}
+    if (kb) hover = true;
+  });
   track.addEventListener("focusout", function () { hover = false; });
-  track.addEventListener("touchmove", stop, { passive: true });
+  // A real sideways swipe stops it; a finger that lands on a photo while scrolling the page up or down doesn't
+  var tx = 0, ty = 0;
+  track.addEventListener("touchstart", function (e) { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });
+  track.addEventListener("touchmove", function (e) {
+    var dx = Math.abs(e.touches[0].clientX - tx), dy = Math.abs(e.touches[0].clientY - ty);
+    if (dx > 12 && dx > dy * 1.5) stop();
+  }, { passive: true });
   track.addEventListener("wheel", function (e) { if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) stop(); }, { passive: true });
   [].forEach.call(document.querySelectorAll(".c-nav"), function (b) { b.addEventListener("click", stop); });
   // Only move while the carousel is on screen, and not while a photo is open large
