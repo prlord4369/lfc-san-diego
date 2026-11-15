@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T03:01:41Z",
+  "updated": "2026-11-15T18:48:12Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -779,7 +779,49 @@
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "shakespeares",
-      "usLocked": false
+      "usLocked": false,
+      "ground": {
+        "name": "Hill Dickinson Stadium",
+        "city": "Liverpool",
+        "country": "England"
+      },
+      "h2h": [
+        {
+          "date": "2026-04-19",
+          "ha": "A",
+          "score": "2-1",
+          "r": "W",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-09-20",
+          "ha": "H",
+          "score": "2-1",
+          "r": "W",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-04-02",
+          "ha": "H",
+          "score": "1-0",
+          "r": "W",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-02-12",
+          "ha": "A",
+          "score": "2-2",
+          "r": "D",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2024-04-24",
+          "ha": "A",
+          "score": "0-2",
+          "r": "L",
+          "comp": "Premier League"
+        }
+      ]
     },
     {
       "kickoff": "2026-12-02T19:30:00Z",
@@ -1148,32 +1190,22 @@
       "reported": "2026-11-12",
       "source": "Liverpool.com",
       "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
-    },
-    {
-      "player": "Dominik Szoboszlai",
-      "pos": "MF",
-      "status": "doubt",
-      "issue": "Knee",
-      "detail": "He was diagnosed with a knee sprain after being substituted in the Crystal Palace win. He was still named in Hungary's starting lineup for the Georgia game despite ongoing concerns.",
-      "reported": "2026-11-14",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/11/dominik-szoboszlai-starts-hungary-georgia-knee-injury/"
     }
   ],
   "news": [
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "source": "Liverpool Echo",
-      "title": "Liverpool are already different under Andoni Iraola and one remarkable change proves it",
-      "summary": "Liverpool are now 10 Premier League games into Andoni Iraola's reign and a number of patterns are starting to emerge",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-already-different-under-andoni-34912395"
+      "title": "Arsenal midfielder Declan Rice hits back at 'cheating' claim from former Liverpool manager",
+      "summary": "Liverpool legend Graeme Souness has been demanding more from Declan Rice in his midfield role for Arsenal",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/arsenal-midfielder-declan-rice-hits-34915184"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "source": "Liverpool Echo",
-      "title": "Truth behind Bradley Barcola claim after 'bust-up' with France team-mate Rayan Cherki",
-      "summary": "Barcola and Cherki were part of a France team beaten for the first time since Zinedine Zidane took over as manager",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/barcola-cherki-france-nations-league-34912153"
+      "title": "Barcelona defender Pau Cubarsi reveals Virgil van Dijk influence and 'would like to play at Anfield'",
+      "summary": "Barcelona defender and Spain World Cup winner Pau Cubarsi has explained why he wants to play at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/barcelona-defender-pau-cubarsi-reveals-34914452"
     },
     {
       "date": "2026-11-14",
