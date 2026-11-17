@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T17:44:48Z",
+  "updated": "2026-11-17T20:00:43Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1195,21 +1195,30 @@
   "news": [
     {
       "date": "2026-11-17",
+      "source": "BBC Sport",
+      "title": "Youngsters 'made up' to see Iraola watching grassroots game",
+      "summary": "Liverpool head coach Andoni Iraola was spotted watching a local grassroots football game during the international break.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c8p3vz3ge07qo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Liverpool Echo",
+      "title": "Liverpool have big-money transfer issue that new investors must soon address",
+      "summary": "Liverpool gained an enviable reputation in the transfer market - but now are having to cope with a change in business",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-big-money-transfer-issue-34925543",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34926740.ece/ALTERNATES/s615/0_premium-canvas-1794936945460.png",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34926740.ece/ALTERNATES/s1200/0_premium-canvas-1794936945460.png"
+    },
+    {
+      "date": "2026-11-17",
       "source": "Liverpool Echo",
       "title": "Mauricio Pochettino sends message to Liverpool as Manchester United work starts early",
       "summary": "Mauricio Pochettino will go straight from his final match in charge of the United States at midnight on Tuesday into preparing to face Liverpool, with his staff already putting…",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/mauricio-pochettino-sends-message-liverpool-34924102",
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34924131.ece/ALTERNATES/s615/0_GettyImages-2305156390.jpg",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34924131.ece/ALTERNATES/s1200/0_GettyImages-2305156390.jpg"
-    },
-    {
-      "date": "2026-11-17",
-      "source": "Liverpool Echo",
-      "title": "Jamie Carragher makes Liverpool transfer point about Andoni Iraola as two positions identified",
-      "summary": "Liverpool have been urged to back head coach Andoni Iraola in the transfer market this January window",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-makes-liverpool-transfer-34922854",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34923064.ece/ALTERNATES/s615/0_GettyImages-2274289452.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34923064.ece/ALTERNATES/s1200/0_GettyImages-2274289452.jpg"
     },
     {
       "date": "2026-11-14",
@@ -1255,15 +1264,6 @@
       "url": "https://www.skysports.com/football/news/11669/13610916/liverpool-incorrectly-denied-penalty-for-jurrien-timber-pull-on-alexander-isak-vs-arsenal-rules-independent-panel",
       "img": "https://e0.365dm.com/26/11/768x432/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128",
       "big": "https://e0.365dm.com/26/11/1600x900/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "BBC Sport",
-      "title": "Shirt pull on Isak should have been penalty - panel",
-      "summary": "Liverpool should have been awarded a penalty against Arsenal for Jurrien Timber's shirt pull on Alexander Isak, says a Premier League panel.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6n8d8kl125vo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/92ad/live/0f801aa0-d6be-11f1-aacc-5b5f23abff4b.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/92ad/live/0f801aa0-d6be-11f1-aacc-5b5f23abff4b.jpg"
     },
     {
       "date": "2026-11-11",
