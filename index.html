@@ -2094,9 +2094,11 @@ function render(data) {
   // Story pictures ("design C"): the newest story is the lead (big picture) when it has one, the rest are rows with a
   // thumbnail. A story without a picture is a plain row. "sizes" = how wide the lead shows (phone: full width).
   // Liverpool Echo stories open as the Echo's own AMP page (address + ".amp", 2026-11-17, owner): no full-screen
-  // privacy pop-up over the story, only ordinary ads. Only article addresses (ending in the story number) change.
-  var storyUrl = function (u) {
-    return /^https:\/\/www\.liverpoolecho\.co\.uk\/[^?#]*-\d+$/.test(u || "") ? u + ".amp" : u;
+  // privacy pop-up over the story, only ordinary ads. Only stories the update found an AMP page for ("amp": true;
+  // not every Echo story has one, a blind ".amp" was a 404 for some) and only article addresses change.
+  var storyUrl = function (s) {
+    var u = s && s.url;
+    return s && s.amp === true && /^https:\/\/www\.liverpoolecho\.co\.uk\/[^?#]*-\d+$/.test(u || "") ? u + ".amp" : u;
   };
   var nSrc = function (n) { return "<div class=\"src\"><span class=\"label\">" + esc(n.source) + "</span><span class=\"label\">" + dfmt(n.date) + "</span></div>"; };
   var nPic = function (n, big, sizes) {
@@ -2106,13 +2108,13 @@ function render(data) {
       " alt=\"\" loading=\"lazy\" decoding=\"async\" referrerpolicy=\"no-referrer\"></span>";
   };
   var nLead = function (n, sizes, withSummary) {
-    return "<a class=\"nl-lead\" href=\"" + esc(storyUrl(n.url)) + "\" target=\"_blank\" rel=\"noopener\">" + nPic(n, true, sizes) +
+    return "<a class=\"nl-lead\" href=\"" + esc(storyUrl(n)) + "\" target=\"_blank\" rel=\"noopener\">" + nPic(n, true, sizes) +
       "<div class=\"txt\">" + nSrc(n) + "<h3>" + esc(n.title) + "</h3>" + (withSummary ? "<p>" + esc(n.summary) + "</p>" : "") + "</div></a>";
   };
   var nRow = function (n, cls, withSummary) {
     return "<article class=\"" + cls + " nl-row" + (n.img ? "" : " nopic") + "\">" + nPic(n) + "<div class=\"txt\">" + nSrc(n) +
-      "<h3><a href=\"" + esc(storyUrl(n.url)) + "\" target=\"_blank\" rel=\"noopener\">" + esc(n.title) + "</a></h3>" +
-      (withSummary ? "<p>" + esc(n.summary) + " <a class=\"read-on\" href=\"" + esc(storyUrl(n.url)) + "\" target=\"_blank\" rel=\"noopener\" tabindex=\"-1\">Continue reading…</a></p>" : "") +
+      "<h3><a href=\"" + esc(storyUrl(n)) + "\" target=\"_blank\" rel=\"noopener\">" + esc(n.title) + "</a></h3>" +
+      (withSummary ? "<p>" + esc(n.summary) + " <a class=\"read-on\" href=\"" + esc(storyUrl(n)) + "\" target=\"_blank\" rel=\"noopener\" tabindex=\"-1\">Continue reading…</a></p>" : "") +
       "</div></article>";
   };
   document.getElementById("news-list").innerHTML = newsShown.map(function (n, i) {
@@ -2191,7 +2193,7 @@ function render(data) {
     var news = cur && trNews.length ? "<div class=\"tr-sec\" data-k=\"news\"><h3 class=\"tr-h\">Transfer headlines</h3>" +
       "<div class=\"tr-news\">" + trNews.map(function (h) {
         return "<article class=\"hn\"><div class=\"src\"><span class=\"label\">" + esc(h.source) + "</span><span class=\"label\">" +
-          fmt(new Date(h.date), { month: "short", day: "numeric" }) + "</span></div><h3><a href=\"" + esc(storyUrl(h.url)) +
+          fmt(new Date(h.date), { month: "short", day: "numeric" }) + "</span></div><h3><a href=\"" + esc(storyUrl(h)) +
           "\" target=\"_blank\" rel=\"noopener\">" + esc(h.title) + "</a></h3></article>";
       }).join("") + "</div></div>" : "";
     return (i === 1 ? "<div class=\"tw-earlier\">Earlier windows</div>" : "") +
