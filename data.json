@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T02:52:01Z",
+  "updated": "2026-11-17T12:16:10Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -867,9 +867,9 @@
       "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "scope": "domestic",
       "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1136,7 +1136,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "He missed the Fenerbahce trip with a heel problem and has since been left out of the Netherlands squad. Iraola is hoping he can be available against Manchester United.",
+      "detail": "He missed the Fenerbahce and Crystal Palace games with a heel problem and has been left out of the Netherlands squad. Iraola is hoping he can be available against Manchester United.",
       "reported": "2026-11-12",
       "source": "Liverpool.com",
       "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
@@ -1186,26 +1186,26 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He was not 100 per cent after the Crystal Palace win and was due to be assessed after joining Hungary's international break. Liverpool will hope he is not overworked before the Manchester United game.",
-      "reported": "2026-11-14",
+      "detail": "He played on after a knee knock at Crystal Palace but was not 100 per cent and was substituted late. He has since joined Hungary's squad, with Liverpool hoping he is not overworked before the Manchester United game.",
+      "reported": "2026-11-17",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-boost-liverpool-34913187"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-mystery-liverpool-34922294"
     }
   ],
   "news": [
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "Liverpool Echo",
-      "title": "Liverpool can make Manchester United their perfect visitors and restore Fortress Anfield",
-      "summary": "The first part of John Aldridge's ECHO column assesses Sunday's visit from Manchester United and why Fortress Anfield needs restoring",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-can-make-manchester-united-34919403"
+      "title": "Jamie Carragher makes Liverpool transfer point about Andoni Iraola as two positions identified",
+      "summary": "Liverpool have been urged to back head coach Andoni Iraola in the transfer market this January window",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-makes-liverpool-transfer-34922854"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "source": "Liverpool Echo",
-      "title": "Last chance Liverpool vs Man United tickets running low for Premier League clash",
-      "summary": "Andoni Iraola will face Mauricio Pochettino for the first time as Reds boss this weekend",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-tickets-premier-34917488"
+      "title": "Jurgen Klopp issues emphatic response to Liverpool question on Florian Wirtz - 'genuinely shocked'",
+      "summary": "A round-up of the latest international appearances from Liverpool players including Cody Gakpo and Kostas Tsimikas",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-issues-emphatic-response-34922355"
     },
     {
       "date": "2026-11-14",
@@ -2685,5 +2685,5 @@
     "headlinesFor": null,
     "checked": "2026-11-17"
   },
-  "fullUpdated": "2026-11-16T18:16:33Z"
+  "fullUpdated": "2026-11-17T12:16:10Z"
 }
