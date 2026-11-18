@@ -604,13 +604,15 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .story .read-on:hover { text-decoration: underline; text-underline-offset: 3px; }
 /* Story pictures ("design C", 2026-11-17, mockups/news-images/): the newest story is the lead, a big picture with the
    headline over its lower part on computers and under it on phones; the rest are rows with a wide thumbnail on a red
-   underline. Boxes match the photos' own 16:9 shape (any crop keeps the upper part, where faces are); a tall picture
-   (a BBC video still) is shown whole over a blurred copy (.tall). Space is held before a picture loads (no layout
-   shift); a picture that fails to load is dropped (.nopic). Pictures load from the outlets' own servers. */
+   underline. Boxes match the photos' own 16:9 shape (any crop keeps the upper part, where faces are). Tall (portrait)
+   pictures, BBC's vertical-video stills (owner, 2026-11-17, mockups/portrait-pics/): in a row the picture fills the
+   box keeping its top ("B", .np.tall); a tall lead becomes a split card, picture left in its own tall shape, text
+   right ("D", .nl-lead.split). update.py marks them ("tall": true) so the split is drawn at once; the page also
+   checks once a picture loads. Space is held before a picture loads (no layout shift); a picture that fails to
+   load is dropped (.nopic). Pictures load from the outlets' own servers. */
 .np { display: block; position: relative; overflow: hidden; background: var(--line); }
 .np img { position: relative; display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
-.np img.np-bg { position: absolute; inset: -16px; width: calc(100% + 32px); height: calc(100% + 32px); filter: blur(14px) brightness(.75); }
-.np.tall img:not(.np-bg) { object-fit: contain; }
+.np.tall img { object-position: 50% 14%; }
 .nl-lead { position: relative; display: block; border-radius: 12px; overflow: hidden; margin: 14px 0 4px; color: #fff; text-decoration: none; background: #140a0d; }
 .nl-lead .np { aspect-ratio: 16 / 9; background: #2a1d21; }
 .nl-lead::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(10,4,6,.92) 0%, rgba(10,4,6,.55) 35%, rgba(10,4,6,0) 60%); pointer-events: none; }
@@ -638,6 +640,23 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .nl-row.nopic .np, .nl-lead.nopic .np { display: none; }
 #news-list .nl-lead { grid-column: 1 / -1; }
 #hn-list .nl-row { padding: 12px 0; }
+/* Tall lead: split card. Narrow home column and phones: 42% picture, smaller headline */
+.nl-lead.split { display: grid; grid-template-columns: minmax(0, 34%) minmax(0, 1fr); background: #1b1215; }
+.nl-lead.split::after { display: none; }
+:is(#news-list, #hn-list) .nl-lead.split .np { aspect-ratio: auto; height: 100%; min-height: 300px; max-height: 430px; }
+.nl-lead.split .np img { object-position: 50% 20%; }
+:is(#news-list, #hn-list) .nl-lead.split .txt { position: static; padding: 28px; justify-content: flex-end; border-left: 4px solid var(--red); }
+#hn-list .nl-lead.split { grid-template-columns: minmax(0, 42%) minmax(0, 1fr); }
+#hn-list .nl-lead.split .np { min-height: 240px; }
+#hn-list .nl-lead.split .txt { padding: 16px; }
+#hn-list .nl-lead.split h3 { font-size: 1.4rem; }
+@media (max-width: 720px) {
+  .nl-lead.split { grid-template-columns: minmax(0, 42%) minmax(0, 1fr); }
+  :is(#news-list, #hn-list) .nl-lead.split .np { min-height: 230px; }
+  :is(#news-list, #hn-list) .nl-lead.split .txt { padding: 14px; }
+  .nl-lead.split h3, #hn-list .nl-lead.split h3 { font-size: 1.25rem; }
+  .nl-lead.split p { display: none; }
+}
 @media (max-width: 720px) {
   .nl-lead::after { display: none; }
   .nl-lead .txt { position: static; padding: 14px 16px 16px; }
@@ -2103,12 +2122,12 @@ function render(data) {
   var nSrc = function (n) { return "<div class=\"src\"><span class=\"label\">" + esc(n.source) + "</span><span class=\"label\">" + dfmt(n.date) + "</span></div>"; };
   var nPic = function (n, big, sizes) {
     if (!n.img) return "";
-    return "<span class=\"np\"><img src=\"" + esc(big && n.big ? n.big : n.img) + "\"" +
+    return "<span class=\"np" + (n.tall ? " tall" : "") + "\"><img src=\"" + esc(big && n.big ? n.big : n.img) + "\"" +
       (big && n.big ? " srcset=\"" + esc(n.img) + " 600w, " + esc(n.big) + " 1200w\" sizes=\"" + sizes + "\"" : "") +
       " alt=\"\" loading=\"lazy\" decoding=\"async\" referrerpolicy=\"no-referrer\"></span>";
   };
   var nLead = function (n, sizes, withSummary) {
-    return "<a class=\"nl-lead\" href=\"" + esc(storyUrl(n)) + "\" target=\"_blank\" rel=\"noopener\">" + nPic(n, true, sizes) +
+    return "<a class=\"nl-lead" + (n.tall ? " split" : "") + "\" href=\"" + esc(storyUrl(n)) + "\" target=\"_blank\" rel=\"noopener\">" + nPic(n, true, sizes) +
       "<div class=\"txt\">" + nSrc(n) + "<h3>" + esc(n.title) + "</h3>" + (withSummary ? "<p>" + esc(n.summary) + "</p>" : "") + "</div></a>";
   };
   var nRow = function (n, cls, withSummary) {
@@ -2124,13 +2143,14 @@ function render(data) {
   document.getElementById("hn-list").innerHTML = newsShown.slice(0, 3).map(function (n, i) {
     return i === 0 && hasLead ? nLead(n, "(max-width: 720px) 100vw, 540px", false) : nRow(n, "hn", false);
   }).join("");
-  // A tall picture is shown whole over a blurred copy of itself; one that fails to load is dropped
+  // A tall picture the update didn't mark (e.g. its size check failed) is found once it loads: the row keeps the top,
+  // the lead turns into the split card. One that fails to load is dropped.
   document.querySelectorAll("#news-list .np img, #hn-list .np img").forEach(function (im) {
     var box = im.parentNode, holder = box.parentNode;
     var fit = function () {
       if (im.naturalHeight > im.naturalWidth * 0.9 && !box.classList.contains("tall")) {
-        var bg = im.cloneNode(); bg.className = "np-bg"; bg.removeAttribute("srcset"); bg.setAttribute("aria-hidden", "true");
-        box.insertBefore(bg, im); box.classList.add("tall");
+        box.classList.add("tall");
+        if (holder.classList.contains("nl-lead")) holder.classList.add("split");
       }
     };
     var fail = function () { holder.classList.add("nopic"); };
