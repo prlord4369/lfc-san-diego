@@ -721,6 +721,21 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .watch .sash strong { display: block; font: 800 1.55rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .04em; }
 .watch .sash span { display: block; font-size: .8rem; font-weight: 600; padding-top: 3px; }
 .watch-links { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-top: 4px; }
+/* Venue street map (2026-11-18, "soft" style): greyed OpenStreetMap picture, the venue under a red pin in the middle,
+   the whole map a link to directions. Fixed 190 px on phones; on computers it fills the watch box, which stretches to
+   the Team updates card's height (see .matchday). */
+.vmap-w { position: relative; margin: 10px 0 4px; min-height: 190px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #ecebe8; }
+.vmap { position: absolute; inset: 0; display: block; }
+.vmap img { position: absolute; width: 1024px; height: 768px; max-width: none; filter: grayscale(1) contrast(.9) brightness(1.05); }
+.vmap::after { content: ""; position: absolute; inset: 0; background: rgba(200, 16, 46, .05); pointer-events: none; }
+.vmap-pin { position: absolute; left: 50%; top: 50%; width: 30px; height: 40px; transform: translate(-50%, -100%); z-index: 1; filter: drop-shadow(0 2px 2px rgba(0,0,0,.35)); }
+.vmap-pin svg { display: block; width: 100%; height: 100%; }
+.watch .vmap-go { position: absolute; right: 10px; bottom: 10px; z-index: 1; background: var(--red); color: #fff; font: 700 .78rem/1 var(--font-body); padding: 8px 12px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,0,0,.25); }
+.vmap:hover .vmap-go, .vmap:focus-visible .vmap-go { background: #a50d25; }
+.watch .vmap-osm { position: absolute; left: 0; bottom: 0; z-index: 2; background: rgba(255,255,255,.85); color: #333; font: 400 .62rem/1.4 var(--font-body); padding: 2px 6px; border-top-right-radius: 6px; text-decoration: none; }
+.watch .vmap-osm:hover { text-decoration: underline; }
+/* Not open for the next game: the faded map can't be tapped for directions to a closed bar */
+.watch.closed .vmap { pointer-events: none; }
 .hero .meta a { color: inherit; }
 footer { border-top: 1px solid var(--line); background: var(--surface); }
 footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
@@ -865,6 +880,20 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 .matchday { border-bottom: 1px solid var(--line); }
 .matchday .wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px 36px; padding-block: 24px; align-items: start; }
 .matchday .watch { margin: 0; }
+/* Computers: the watch box stretches to the Team updates card's height and its map takes the spare room, so the two
+   columns end level (2026-11-18); wide screens get the player tiles three across */
+@media (min-width: 721px) {
+  .matchday .wrap { align-items: stretch; }
+  .matchday .watch { display: flex; flex-direction: column; }
+  .matchday .vmap-w { flex: 1 1 auto; }
+}
+@media (min-width: 1000px) {
+  .it-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .it { gap: 9px; padding: 8px 9px; }
+  .it-no { width: 32px; height: 32px; font-size: .85rem; }
+  .it-nm { font-size: .88rem; }
+  .it-is { font-size: .76rem; }
+}
 .teamnews .sec-head { margin: 0; }
 .teamnews .inj-sum { padding-top: 8px; }
 .tn-toggle { margin-top: 12px; background: none; border: 1.5px solid var(--line); color: var(--fg); border-radius: 999px;
@@ -1669,6 +1698,27 @@ function render(data) {
   }
 
   // Watch venue
+  // Street map in the box (2026-11-18, owner chose the "soft" style from mockups/watch-map/): OpenStreetMap tiles
+  // (zoom 17, 4 x 3, stitched once and saved in assets/maps/, credit shown on the map), the venue at x / y in the
+  // 1024 x 768 picture, kept under the pin in the middle whatever the box size. The whole map links to the venue's
+  // directions (its "map" address). A venue without an entry here keeps the plain "Open in Maps" link.
+  var VENUE_MAPS = {
+    whiskeygirl: { img: "assets/maps/whiskeygirl.jpg", x: 303, y: 319 },
+    shakespeares: { img: "assets/maps/shakespeares.jpg", x: 492, y: 341 }
+  };  var venueMapFor = function (v) {
+    var vs = data.venues || {}, k = Object.keys(vs).filter(function (key) { return vs[key] === v; })[0];
+    if (!k && v && /whiskey girl/i.test(v.name || "")) k = "whiskeygirl";   // the old single data.venue
+    return VENUE_MAPS[k] || null;
+  };
+  var venueMap = function (v) {
+    var m = venueMapFor(v);
+    if (!m || !v.map) return "";
+    return "<div class=\"vmap-w\"><a class=\"vmap\" href=\"" + esc(v.map) + "\" target=\"_blank\" rel=\"noopener\" aria-label=\"Directions to " + esc(v.name) + " (opens maps)\">" +
+      "<img src=\"" + m.img + "\" alt=\"\" width=\"1024\" height=\"768\" loading=\"lazy\" decoding=\"async\" style=\"left:calc(50% - " + m.x + "px);top:calc(50% - " + m.y + "px)\">" +
+      "<span class=\"vmap-pin\" aria-hidden=\"true\"><svg viewBox=\"0 0 30 40\"><path d=\"M15 0C6.7 0 0 6.6 0 14.8 0 25.9 15 40 15 40s15-14.1 15-25.2C30 6.6 23.3 0 15 0z\" fill=\"#c8102e\"/><circle cx=\"15\" cy=\"14.5\" r=\"5.5\" fill=\"#fff\"/></svg></span>" +
+      "<span class=\"vmap-go\">Get directions ↗</span></a>" +
+      "<a class=\"vmap-osm\" href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">© OpenStreetMap contributors</a></div>";
+  };
   var w = document.getElementById("watch");
   if (homeVenue) {
     // The box shows the next game's venue for as long as it's the next game (until the banner moves on, about an
@@ -1678,7 +1728,8 @@ function render(data) {
         : "Watch venue for " + esc(next.opp) + " · " + fmt(next.d, { weekday: "short", hour: "numeric", minute: "2-digit" }) + " PT") +
       "</span><b>" + esc(v.name) + "</b>" +
       "<p>" + esc(v.address) + "</p><p>" + esc(v.blurb || "Gaslamp Quarter, downtown San Diego. Come watch the Reds with us.") + "</p>" +
-      "<div class=\"watch-links\"><a href=\"" + esc(v.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>" +
+      venueMap(v) +
+      "<div class=\"watch-links\">" + (venueMapFor(v) ? "" : "<a href=\"" + esc(v.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>") +
       // Park Smarter: the app for San Diego street meters with the blue Park Smarter sticker
       "<a id=\"park-link\" href=\"" + PARK.web + "\" target=\"_blank\" rel=\"noopener\">Pay for parking (Park Smarter)</a></div>";
     // Phones get the app's store page, which shows "Open" when it's already installed and "Get"/"Install"
@@ -1692,6 +1743,7 @@ function render(data) {
     // a red sash is pasted across the faded box
     if (next && next.venueClosed === true) {
       w.classList.add("closed");
+      w.querySelectorAll(".vmap").forEach(function (el) { el.setAttribute("tabindex", "-1"); el.setAttribute("aria-hidden", "true"); });   // no directions to a closed bar
       w.insertAdjacentHTML("beforeend",
         "<div class=\"sash\" role=\"note\"><strong>Not open for this one</strong><span>" + esc(next.opp) + " · " +
           fmt(next.d, { weekday: "short", month: "short", day: "numeric" }) + ", " + fmt(next.d, { hour: "numeric", minute: "2-digit" }) + " PT</span></div>");
