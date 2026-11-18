@@ -721,19 +721,18 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .watch .sash strong { display: block; font: 800 1.55rem/1 var(--font-display); text-transform: uppercase; letter-spacing: .04em; }
 .watch .sash span { display: block; font-size: .8rem; font-weight: 600; padding-top: 3px; }
 .watch-links { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-top: 4px; }
-/* Venue street map (2026-11-18, "soft" style): greyed OpenStreetMap picture, the venue under a red pin in the middle,
-   the whole map a link to directions. Fixed 190 px on phones; on computers it fills the watch box, which stretches to
-   the Team updates card's height (see .matchday). */
-.vmap-w { position: relative; margin: 10px 0 4px; min-height: 190px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #ecebe8; }
+/* Venue street map (2026-11-18, OpenFreeMap "Bright" with icons off): the venue under a red pin in the middle, the
+   whole map a link to directions, the credit in a small line underneath. Fixed 190 px on phones; on computers it fills
+   the watch box, which stretches to the Team updates card's height (see .matchday). */
+.vmap-w { position: relative; margin: 10px 0 0; min-height: 190px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #f2ede6; }
 .vmap { position: absolute; inset: 0; display: block; }
-.vmap img { position: absolute; width: 1024px; height: 768px; max-width: none; filter: grayscale(1) contrast(.9) brightness(1.05); }
-.vmap::after { content: ""; position: absolute; inset: 0; background: rgba(200, 16, 46, .05); pointer-events: none; }
+.vmap img { position: absolute; max-width: none; }
+.watch .vmap-credit { margin: 3px 0 2px; font-size: .62rem; line-height: 1.4; color: var(--muted); text-align: right; }
+.watch .vmap-credit a { color: inherit; font: inherit; font-weight: 400; }
 .vmap-pin { position: absolute; left: 50%; top: 50%; width: 30px; height: 40px; transform: translate(-50%, -100%); z-index: 1; filter: drop-shadow(0 2px 2px rgba(0,0,0,.35)); }
 .vmap-pin svg { display: block; width: 100%; height: 100%; }
 .watch .vmap-go { position: absolute; right: 10px; bottom: 10px; z-index: 1; background: var(--red); color: #fff; font: 700 .78rem/1 var(--font-body); padding: 8px 12px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,0,0,.25); }
 .vmap:hover .vmap-go, .vmap:focus-visible .vmap-go { background: #a50d25; }
-.watch .vmap-osm { position: absolute; left: 0; bottom: 0; z-index: 2; background: rgba(255,255,255,.85); color: #333; font: 400 .62rem/1.4 var(--font-body); padding: 2px 6px; border-top-right-radius: 6px; text-decoration: none; }
-.watch .vmap-osm:hover { text-decoration: underline; }
 /* Not open for the next game: the faded map can't be tapped for directions to a closed bar */
 .watch.closed .vmap { pointer-events: none; }
 .hero .meta a { color: inherit; }
@@ -1698,14 +1697,16 @@ function render(data) {
   }
 
   // Watch venue
-  // Street map in the box (2026-11-18, owner chose the "soft" style from mockups/watch-map/): OpenStreetMap tiles
-  // (zoom 17, 4 x 3, stitched once and saved in assets/maps/, credit shown on the map), the venue at x / y in the
-  // 1024 x 768 picture, kept under the pin in the middle whatever the box size. The whole map links to the venue's
-  // directions (its "map" address). A venue without an entry here keeps the plain "Open in Maps" link.
+  // Street map in the box (2026-11-18): OpenFreeMap's "Bright" style with its shop, place and bus-stop layers off
+  // (owner: MapQuest-like, fewer icons), drawn once at 2x and saved in assets/maps/ as 1520 x 1120 pictures shown at
+  // 760 x 560 with the venue in the exact middle, under the pin, whatever the box size. The whole map links to the
+  // venue's directions (its "map" address); the required credit sits in a line under the map. A venue without an
+  // entry here keeps the plain "Open in Maps" link.
   var VENUE_MAPS = {
-    whiskeygirl: { img: "assets/maps/whiskeygirl.jpg", x: 303, y: 319 },
-    shakespeares: { img: "assets/maps/shakespeares.jpg", x: 492, y: 341 }
-  };  var venueMapFor = function (v) {
+    whiskeygirl: { img: "assets/maps/whiskeygirl.jpg", w: 760, h: 560 },
+    shakespeares: { img: "assets/maps/shakespeares.jpg", w: 760, h: 560 }
+  };
+  var venueMapFor = function (v) {
     var vs = data.venues || {}, k = Object.keys(vs).filter(function (key) { return vs[key] === v; })[0];
     if (!k && v && /whiskey girl/i.test(v.name || "")) k = "whiskeygirl";   // the old single data.venue
     return VENUE_MAPS[k] || null;
@@ -1714,10 +1715,12 @@ function render(data) {
     var m = venueMapFor(v);
     if (!m || !v.map) return "";
     return "<div class=\"vmap-w\"><a class=\"vmap\" href=\"" + esc(v.map) + "\" target=\"_blank\" rel=\"noopener\" aria-label=\"Directions to " + esc(v.name) + " (opens maps)\">" +
-      "<img src=\"" + m.img + "\" alt=\"\" width=\"1024\" height=\"768\" loading=\"lazy\" decoding=\"async\" style=\"left:calc(50% - " + m.x + "px);top:calc(50% - " + m.y + "px)\">" +
+      "<img src=\"" + m.img + "\" alt=\"\" width=\"" + m.w + "\" height=\"" + m.h + "\" loading=\"lazy\" decoding=\"async\" style=\"width:" + m.w + "px;height:" + m.h + "px;left:calc(50% - " + m.w / 2 + "px);top:calc(50% - " + m.h / 2 + "px)\">" +
       "<span class=\"vmap-pin\" aria-hidden=\"true\"><svg viewBox=\"0 0 30 40\"><path d=\"M15 0C6.7 0 0 6.6 0 14.8 0 25.9 15 40 15 40s15-14.1 15-25.2C30 6.6 23.3 0 15 0z\" fill=\"#c8102e\"/><circle cx=\"15\" cy=\"14.5\" r=\"5.5\" fill=\"#fff\"/></svg></span>" +
-      "<span class=\"vmap-go\">Get directions ↗</span></a>" +
-      "<a class=\"vmap-osm\" href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">© OpenStreetMap contributors</a></div>";
+      "<span class=\"vmap-go\">Get directions ↗</span></a></div>" +
+      "<div class=\"vmap-credit\">Map © <a href=\"https://openfreemap.org/\" target=\"_blank\" rel=\"noopener\">OpenFreeMap</a> " +
+      "© <a href=\"https://www.openmaptiles.org/\" target=\"_blank\" rel=\"noopener\">OpenMapTiles</a> " +
+      "© <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap contributors</a></div>";
   };
   var w = document.getElementById("watch");
   if (homeVenue) {
