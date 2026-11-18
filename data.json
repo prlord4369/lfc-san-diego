@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T17:30:43Z",
+  "updated": "2026-11-18T18:14:35Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1195,6 +1195,16 @@
   "news": [
     {
       "date": "2026-11-18",
+      "source": "Liverpool Echo",
+      "title": "Liverpool signed the best young player in the world in a club-record deal",
+      "summary": "A number of Liverpool players were named in FourFourTwo’s Top 100 Young Players of 2001. However, 25 years on, the list has not aged well...",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-signed-best-young-player-34932240",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article27663211.ece/ALTERNATES/s615/2_GettyImages-1490778796jpgst-yo.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article27663211.ece/ALTERNATES/s1200/2_GettyImages-1490778796jpgst-yo.jpg"
+    },
+    {
+      "date": "2026-11-18",
       "source": "Sky Sports",
       "title": "Fernandes tumbles as new No 1 is crowned: Sky Sports' top 25 Premier League players",
       "summary": "Bruno Fernandes has been dethroned as the king of the Premier League in a major shake-up to the top 25 Premier League players.",
@@ -1208,17 +1218,9 @@
       "title": "Liverpool vs Man Utd referee appointment questioned after Alisson FA sanction and big error",
       "summary": "Liverpool take on Manchester United at Anfield at the weekend, and a familiar face takes charge of the clash with some people questioning that decision",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-vs-manchester-united-referee-34931676",
-      "amp": true
-    },
-    {
-      "date": "2026-11-18",
-      "source": "Liverpool Echo",
-      "title": "Ex-Everton star claims Bradley Barcola has one thing stopping him from winning Ballon d’Or",
-      "summary": "Morgan Schneiderlin, the former Manchester United, Everton and France midfielder, has been speaking about two of his compatriots at Liverpool, Bradley Barcola and Hugo Ekitike",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ex-everton-star-claims-bradley-34930863",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34765957.ece/ALTERNATES/s615/0_GettyImages-2300209232-1.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34765957.ece/ALTERNATES/s1200/0_GettyImages-2300209232-1.jpg"
+      "img": "https://i2-prod.football.london/incoming/article34931820.ece/ALTERNATES/s615/0_GettyImages-2292001877.jpg",
+      "big": "https://i2-prod.football.london/incoming/article34931820.ece/ALTERNATES/s1200/0_GettyImages-2292001877.jpg"
     },
     {
       "date": "2026-11-18",
