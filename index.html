@@ -522,6 +522,34 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .chip.back { background: var(--chip-ok); color: var(--ok); }
 .inj-sum { display: flex; gap: 14px; font-size: .82rem; color: var(--muted); padding-top: 12px; }
 .inj-sum b { color: var(--fg); font-family: var(--font-mono); }
+/* Team updates card ("design A", 2026-11-18, mockups/injuries/): a "Latest" line with the newest entry, then the players
+   as tiles grouped Out / Doubtful / Returning: shirt-number badge in the status colour, surname, position · injury, a
+   green "New" tag when reported in the last two days. The full write-ups (#inj-list) stay behind the button. */
+.inj-latest { margin-top: 12px; padding: 10px 12px; border-left: 3px solid var(--ok); background: var(--chip-ok); border-radius: 0 8px 8px 0; font-size: .86rem; line-height: 1.45; }
+.inj-latest b { color: var(--ok); }
+.inj-latest .when { color: var(--muted); font-size: .76rem; white-space: nowrap; }
+.inj-latest a { color: inherit; }
+.it-grp { margin-top: 14px; }
+.it-h { display: flex; align-items: center; gap: 8px; font: 700 .7rem/1 var(--font-body); letter-spacing: .1em; text-transform: uppercase; }
+.it-h .n { font: 700 .78rem/1 var(--font-mono); padding: 3px 7px; border-radius: 999px; }
+.it-h.out { color: var(--bad); } .it-h.out .n { background: var(--chip-bad); }
+.it-h.doubt { color: var(--warn); } .it-h.doubt .n { background: var(--chip-warn); }
+.it-h.back { color: var(--ok); } .it-h.back .n { background: var(--chip-ok); }
+.it-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
+.it { display: flex; align-items: center; gap: 10px; min-width: 0; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.it-no { flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font: 700 .9rem/1 var(--font-mono); color: #fff; }
+.it.out .it-no { background: var(--bad); } .it.doubt .it-no { background: var(--warn); } .it.back .it-no { background: var(--ok); }
+.it-tx { min-width: 0; }
+.it-nm { font-weight: 700; font-size: .92rem; line-height: 1.2; overflow-wrap: break-word; }
+.it-is { font-size: .78rem; color: var(--muted); }
+.it-new { display: inline-block; white-space: nowrap; font: 700 .58rem/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--ok); background: var(--chip-ok); padding: 3px 5px; border-radius: 3px; margin-left: 5px; vertical-align: 2px; }
+.it .card { display: inline-block; width: 8px; height: 11px; border-radius: 1.5px; margin: 0 4px 0 2px; vertical-align: -1px; box-shadow: 0 0 0 .5px rgba(0,0,0,.25); }
+.it .card.red { background: #d71a28; } .it .card.yellow { background: #f5c518; }
+@media (max-width: 720px) {
+  .it { padding: 7px 8px; gap: 8px; }
+  .it-no { width: 30px; height: 30px; font-size: .8rem; }
+  .it-nm { font-size: .86rem; }
+}
 
 /* League table */
 .lt-wrap { overflow-x: auto; }
@@ -1034,9 +1062,11 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
   <div class="wrap">
     <div class="watch" id="watch"></div>
     <div class="teamnews" id="injuries">
-      <div class="sec-head" id="injury-list"><h2 id="inj-h">Team updates</h2><span class="label">Injuries &amp; suspensions</span></div>
+      <div class="sec-head" id="injury-list"><h2 id="inj-h">Team updates</h2><span class="label">Who's in, who's out</span></div>
       <div class="inj-sum" id="inj-sum"></div>
-      <button type="button" class="tn-toggle" id="tn-toggle" aria-expanded="false" aria-controls="inj-list">Show injury list</button>
+      <div class="inj-latest" id="inj-latest" hidden></div>
+      <div id="inj-tiles"></div>
+      <button type="button" class="tn-toggle" id="tn-toggle" aria-expanded="false" aria-controls="inj-list">Show full write-ups</button>
       <ul class="inj" id="inj-list"></ul>
       <!-- Transfer window summary: shown only while a window is open; opens the Squad page's Transfers tab -->
       <a class="tw-sum" id="tw-sum" href="#transfers" hidden></a>
@@ -1941,7 +1971,47 @@ function render(data) {
   var order = { out: 0, doubt: 1, back: 2 }, names = { out: "Out", doubt: "Doubtful", back: "Returning" };
   var inj = data.injuries.slice().sort(function (a, b) { return order[a.status] - order[b.status]; });
   var counts = { out: 0, doubt: 0, back: 0 }; inj.forEach(function (i) { counts[i.status]++; });
-  document.getElementById("inj-sum").innerHTML = ["out", "doubt", "back"].map(function (k) { return "<span><b>" + counts[k] + "</b> " + names[k].toLowerCase() + "</span>"; }).join("");
+  // The counts line only when nobody is listed; otherwise the tile groups below carry the counts
+  document.getElementById("inj-sum").innerHTML = inj.length ? "" : "<span>No injuries or suspensions reported.</span>";
+  (function () {
+    var key = function (s) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim(); };
+    var shirt = {}; ((data.squad || {}).players || []).forEach(function (p) { shirt[key(p.name)] = p.no; });
+    var surname = function (n) { var w = String(n).split(" "); return w.length > 1 ? w.slice(1).join(" ") : n; };
+    var day = function (s) { return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(s + "T12:00:00Z")); };
+    var dated = function (i) { return /^\d{4}-\d{2}-\d{2}$/.test(i.reported || ""); };
+    // "New" = reported today or yesterday (Pacific dates)
+    var ptDay = function (d) { return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(d); };
+    var recent = [ptDay(new Date()), ptDay(new Date(Date.now() - 864e5))];
+    var cardIcon = function (i) {
+      return i.suspension === "red" ? "Suspended <span class=\"card red\" role=\"img\" aria-label=\"red card\"></span>"
+        : i.suspension === "yellows" ? "Suspended <span class=\"card yellow\" role=\"img\" aria-label=\"yellow cards\"></span>×" + (Number(i.yellows) || 5)
+        : null;
+    };
+    // Latest: the most recently reported entry, its write-up's first sentence ("He has rejoined…" → "Has rejoined…")
+    var newest = inj.filter(dated).sort(function (a, b) { return a.reported < b.reported ? 1 : a.reported > b.reported ? -1 : 0; })[0];
+    var latest = document.getElementById("inj-latest");
+    if (newest && newest.detail) {
+      var m = String(newest.detail).match(/^[\s\S]*?[.!?](?=\s|$)/);   // first sentence (no look-behind: older iPhones)
+      var s = (m ? m[0] : String(newest.detail)).replace(/^(He|She)\s+/, "");
+      s = s.charAt(0).toUpperCase() + s.slice(1);
+      latest.innerHTML = "<b>Latest · " + esc(surname(newest.player)) + ":</b> " + esc(s) + " <span class=\"when\">" + day(newest.reported) +
+        (newest.url ? " · <a href=\"" + esc(newest.url) + "\" target=\"_blank\" rel=\"noopener\">" + esc(newest.source || "Source") + "</a>" : "") + "</span>";
+      latest.hidden = false;
+    }
+    document.getElementById("inj-tiles").innerHTML = ["out", "doubt", "back"].map(function (st) {
+      // Newest reports first within a group, so the "New" ones lead
+      var g = inj.filter(function (i) { return i.status === st; })
+        .sort(function (a, b) { var x = a.reported || "", y = b.reported || ""; return x < y ? 1 : x > y ? -1 : 0; });
+      if (!g.length) return "";
+      return "<div class=\"it-grp\"><div class=\"it-h " + st + "\">" + names[st] + " <span class=\"n\">" + g.length + "</span></div><div class=\"it-list\">" +
+        g.map(function (i) {
+          var no = shirt[key(i.player)];
+          return "<div class=\"it " + st + "\" title=\"" + esc(i.player) + "\"><span class=\"it-no\">" + (no != null ? esc(no) : esc(i.pos || "")) + "</span>" +
+            "<div class=\"it-tx\"><div class=\"it-nm\">" + esc(surname(i.player)) + (dated(i) && recent.indexOf(i.reported) >= 0 ? "<span class=\"it-new\">New</span>" : "") + "</div>" +
+            "<div class=\"it-is\">" + esc(i.pos || "") + " · " + (cardIcon(i) || esc(i.issue || "")) + "</div></div></div>";
+        }).join("") + "</div></div>";
+    }).join("");
+  })();
   document.getElementById("inj-list").innerHTML = inj.map(function (i) {
     // Suspensions say why: a red card, or yellow cards built up over several matches
     // "Suspension" plus the card(s) that caused it: a red card, or a yellow card × the number of bookings (5 in the Premier League)
@@ -1963,8 +2033,9 @@ function render(data) {
   var tnBtn = document.getElementById("tn-toggle"), tnList = document.getElementById("inj-list");
   var tnSet = function (open) {
     tnList.classList.toggle("open", open); tnBtn.setAttribute("aria-expanded", String(open));
-    tnBtn.textContent = open ? "Hide injury list" : "Show injury list (" + inj.length + ")";
+    tnBtn.textContent = open ? "Hide full write-ups" : "Show full write-ups (" + inj.length + ")";
   };
+  tnBtn.hidden = !inj.length;
   // Starts folded on every screen size (owner's choice 2026-11-12; it used to start open on computers)
   tnSet(false);
   tnBtn.addEventListener("click", function () { tnSet(!tnList.classList.contains("open")); });
