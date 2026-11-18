@@ -722,9 +722,9 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .watch .sash span { display: block; font-size: .8rem; font-weight: 600; padding-top: 3px; }
 .watch-links { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-top: 4px; }
 /* Venue street map (2026-11-18, OpenFreeMap "Bright" with icons off): the venue under a red pin in the middle, the
-   whole map a link to directions, the credit in a small line underneath. Fixed 190 px on phones; on computers it fills
-   the watch box, which stretches to the Team updates card's height (see .matchday). */
-.vmap-w { position: relative; margin: 10px 0 0; min-height: 190px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #f2ede6; }
+   whole map a link to directions, the credit in a small line underneath. A fixed size: 190 px tall on phones, 270 px
+   on computers (see .matchday), never stretched by the Team updates card. */
+.vmap-w { position: relative; margin: 10px 0 0; height: 190px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: #f2ede6; }
 .vmap { position: absolute; inset: 0; display: block; }
 .vmap img { position: absolute; max-width: none; }
 .watch .vmap-credit { margin: 3px 0 2px; font-size: .62rem; line-height: 1.4; color: var(--muted); text-align: right; }
@@ -881,14 +881,10 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 .matchday .watch { margin: 0; }
 /* Computers: the watch box stretches to the Team updates card's height and its map takes the spare room, so the two
    columns end level (2026-11-18); wide screens get the player tiles three across */
+/* The venue map is one fixed size: 270 px tall on computers, 190 px on phones, never stretched by the card beside it
+   (owner, 2026-11-18); the watch box ends where its content ends */
 @media (min-width: 721px) {
-  .matchday .wrap { align-items: stretch; }
-  .matchday .watch { display: flex; flex-direction: column; }
-  /* never taller than the map picture can fill (560 px shown) */
-  .matchday .vmap-w { flex: 1 1 auto; max-height: 520px; }
-  /* Full write-ups open: the card gets very tall, so the box stops stretching and keeps a normal-sized map */
-  .matchday.inj-open .wrap { align-items: start; }
-  .matchday.inj-open .vmap-w { flex: none; height: 270px; }
+  .matchday .vmap-w { height: 270px; }
 }
 @media (min-width: 1000px) {
   .it-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -2091,9 +2087,7 @@ function render(data) {
   // The injury list folds behind a button; the menu's "Injuries" (#injury-list) opens it
   var tnBtn = document.getElementById("tn-toggle"), tnList = document.getElementById("inj-list");
   var tnSet = function (open) {
-    tnList.classList.toggle("open", open); tnBtn.setAttribute("aria-expanded", String(open));
-    document.getElementById("matchday").classList.toggle("inj-open", open);   // the watch box stops stretching (map keeps its shape)
-    tnBtn.textContent = open ? "Hide full write-ups" : "Show full write-ups (" + inj.length + ")";
+    tnList.classList.toggle("open", open); tnBtn.setAttribute("aria-expanded", String(open));    tnBtn.textContent = open ? "Hide full write-ups" : "Show full write-ups (" + inj.length + ")";
   };
   tnBtn.hidden = !inj.length;
   // Starts folded on every screen size (owner's choice 2026-11-12; it used to start open on computers)
