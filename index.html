@@ -884,7 +884,11 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
 @media (min-width: 721px) {
   .matchday .wrap { align-items: stretch; }
   .matchday .watch { display: flex; flex-direction: column; }
-  .matchday .vmap-w { flex: 1 1 auto; }
+  /* never taller than the map picture can fill (560 px shown) */
+  .matchday .vmap-w { flex: 1 1 auto; max-height: 520px; }
+  /* Full write-ups open: the card gets very tall, so the box stops stretching and keeps a normal-sized map */
+  .matchday.inj-open .wrap { align-items: start; }
+  .matchday.inj-open .vmap-w { flex: none; height: 270px; }
 }
 @media (min-width: 1000px) {
   .it-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -2088,6 +2092,7 @@ function render(data) {
   var tnBtn = document.getElementById("tn-toggle"), tnList = document.getElementById("inj-list");
   var tnSet = function (open) {
     tnList.classList.toggle("open", open); tnBtn.setAttribute("aria-expanded", String(open));
+    document.getElementById("matchday").classList.toggle("inj-open", open);   // the watch box stops stretching (map keeps its shape)
     tnBtn.textContent = open ? "Hide full write-ups" : "Show full write-ups (" + inj.length + ")";
   };
   tnBtn.hidden = !inj.length;
