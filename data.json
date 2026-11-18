@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T15:30:47Z",
+  "updated": "2026-11-18T17:30:43Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1196,31 +1196,38 @@
     {
       "date": "2026-11-18",
       "source": "Sky Sports",
+      "title": "Fernandes tumbles as new No 1 is crowned: Sky Sports' top 25 Premier League players",
+      "summary": "Bruno Fernandes has been dethroned as the king of the Premier League in a major shake-up to the top 25 Premier League players.",
+      "url": "https://www.skysports.com/football/news/11669/13613154/bruno-fernandes-tumbles-as-new-no-1-is-crowned-sky-sports-ranks-the-premier-leagues-top-25-players-right-now",
+      "img": "https://e1.365dm.com/26/11/768x432/skysports-graphic-erling-haaland_7408870.jpg?20261117153443",
+      "big": "https://e1.365dm.com/26/11/1600x900/skysports-graphic-erling-haaland_7408870.jpg?20261117153443"
+    },
+    {
+      "date": "2026-11-18",
+      "source": "Liverpool Echo",
+      "title": "Liverpool vs Man Utd referee appointment questioned after Alisson FA sanction and big error",
+      "summary": "Liverpool take on Manchester United at Anfield at the weekend, and a familiar face takes charge of the clash with some people questioning that decision",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-vs-manchester-united-referee-34931676",
+      "amp": true
+    },
+    {
+      "date": "2026-11-18",
+      "source": "Liverpool Echo",
+      "title": "Ex-Everton star claims Bradley Barcola has one thing stopping him from winning Ballon d’Or",
+      "summary": "Morgan Schneiderlin, the former Manchester United, Everton and France midfielder, has been speaking about two of his compatriots at Liverpool, Bradley Barcola and Hugo Ekitike",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ex-everton-star-claims-bradley-34930863",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34765957.ece/ALTERNATES/s615/0_GettyImages-2300209232-1.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34765957.ece/ALTERNATES/s1200/0_GettyImages-2300209232-1.jpg"
+    },
+    {
+      "date": "2026-11-18",
+      "source": "Sky Sports",
       "title": "Arsenal willing to make sales to beat Chelsea and Liverpool to Scott signing",
       "summary": "Arsenal are one of three top Premier League clubs interested in signing Bournemouth and England midfielder Alex Scott.",
       "url": "https://www.skysports.com/football/news/11669/13613285/alex-scott-arsenal-keen-on-chelsea-and-liverpool-target-with-bournemouth-softening-stance-over-potential-sale",
       "img": "https://e0.365dm.com/26/11/768x432/skysports-premier-league-tranfser_7408820.jpg?20261117150121",
       "big": "https://e0.365dm.com/26/11/1600x900/skysports-premier-league-tranfser_7408820.jpg?20261117150121"
-    },
-    {
-      "date": "2026-11-18",
-      "source": "Liverpool Echo",
-      "title": "Liverpool legends team up with city-based Legacie as £250,000 is raised for LFC Foundation",
-      "summary": "Three Liverpool legends team up with city-based Legacie to help raise £250,000 for the LFC Foundation",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-legends-team-up-city-34928959",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34928891.ece/ALTERNATES/s615/0_LEGACIE-FOUNDATION-GALA-BALL-NOVEMBER-2026-7JPG.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34928891.ece/ALTERNATES/s1200/0_LEGACIE-FOUNDATION-GALA-BALL-NOVEMBER-2026-7JPG.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "source": "Liverpool Echo",
-      "title": "Liverpool handed unanimous penalty referee verdict as 'very upset' Andoni Iraola vindicated",
-      "summary": "A penalty should not have been awarded against Liverpool in their 3-1 Premier League win at Crystal Palace, the Key Match Incident panel has found",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-handed-unanimous-penalty-referee-34929978",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34881977.ece/ALTERNATES/s615/0_GettyImages-2304136602.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34881977.ece/ALTERNATES/s1200/0_GettyImages-2304136602.jpg"
     },
     {
       "date": "2026-11-17",
@@ -1277,15 +1284,6 @@
       "url": "https://www.skysports.com/football/news/11669/13610916/liverpool-incorrectly-denied-penalty-for-jurrien-timber-pull-on-alexander-isak-vs-arsenal-rules-independent-panel",
       "img": "https://e0.365dm.com/26/11/768x432/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128",
       "big": "https://e0.365dm.com/26/11/1600x900/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "Sky Sports",
-      "title": "From the sack in Cyprus to Liverpool: Iraola's first job explained",
-      "summary": "Not every successful career starts spectacularly well but Andoni Iraola's journey to Liverpool will take some beating.",
-      "url": "https://www.skysports.com/football/news/11669/13576948/andoni-iraola-was-sacked-from-his-first-job-at-aek-larnaca-in-cyprus-liverpool-managers-difficult-career-start-explained",
-      "img": "https://e1.365dm.com/26/08/768x432/skysports-andoni-iraola-aek-larnaca_7331744.jpg?20260826123654",
-      "big": "https://e1.365dm.com/26/08/1600x900/skysports-andoni-iraola-aek-larnaca_7331744.jpg?20260826123654"
     },
     {
       "date": "2026-11-10",
