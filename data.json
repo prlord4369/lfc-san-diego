@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:37:52Z",
+  "updated": "2026-11-18T01:43:05Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1200,7 +1200,8 @@
       "summary": "Liverpool head coach Andoni Iraola was spotted watching a local grassroots football game during the international break.",
       "url": "https://www.bbc.co.uk/sport/football/videos/c8p3vz3ge07qo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg"
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg",
+      "tall": true
     },
     {
       "date": "2026-11-17",
@@ -1238,7 +1239,8 @@
       "summary": "Liverpool fan Abigail Rudkin explains why she would like to see her captain extend his current deal beyond this summer",
       "url": "https://www.bbc.co.uk/sport/football/videos/cqevrjvvj410o",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7a43/live/418f1b20-de9f-11f1-b441-2b33b063138f.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7a43/live/418f1b20-de9f-11f1-b441-2b33b063138f.jpg"
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7a43/live/418f1b20-de9f-11f1-b441-2b33b063138f.jpg",
+      "tall": true
     },
     {
       "date": "2026-11-12",
