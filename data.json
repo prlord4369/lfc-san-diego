@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T19:04:44Z",
+  "updated": "2026-11-18T20:00:46Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -831,7 +831,49 @@
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
-      "usLocked": false
+      "usLocked": false,
+      "ground": {
+        "name": "Anfield",
+        "city": "Liverpool",
+        "country": "England"
+      },
+      "h2h": [
+        {
+          "date": "2026-07-25",
+          "ha": "H",
+          "score": "4-2",
+          "r": "W",
+          "comp": "Club Friendly"
+        },
+        {
+          "date": "2026-02-11",
+          "ha": "A",
+          "score": "1-0",
+          "r": "W",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-12-03",
+          "ha": "H",
+          "score": "1-1",
+          "r": "D",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2017-01-02",
+          "ha": "A",
+          "score": "2-2",
+          "r": "D",
+          "comp": "2016/2017 English Premier League"
+        },
+        {
+          "date": "2016-11-26",
+          "ha": "H",
+          "score": "2-0",
+          "r": "W",
+          "comp": "2016/2017 English Premier League"
+        }
+      ]
     },
     {
       "kickoff": "2026-12-05T12:30:00Z",
