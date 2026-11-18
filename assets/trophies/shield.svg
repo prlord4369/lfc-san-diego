@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 72"><!-- FA Community Shield, silhouette drawn for LFC San Diego from a photo of the trophy: an octagonal plate with a border of eight engraved panels, a large raised round centre with bosses round its edge, a ring of lettering and The FA's crest (a shield with three lions, shown as stripes) in the middle. Used as a CSS mask: only the shape counts, cut-outs show the tile behind. -->
+<defs><mask id="m" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="72"><rect width="56" height="72" fill="#fff"/>
+<g fill="none" stroke="#000">
+<circle cx="28" cy="36" r="20.6" stroke-width="1.5"/>
+<path stroke-width="1.1" d="M16.8 9 L20.1 17 M39.2 9 L35.9 17 M55 24.8 L47 28.1 M55 47.2 L47 43.9 M39.2 63 L35.9 55 M16.8 63 L20.1 55 M1 47.2 L9 43.9 M1 24.8 L9 28.1"/>
+<circle cx="28" cy="36" r="14.6" stroke-width="1.2"/>
+<circle cx="28" cy="36" r="11.9" stroke-width="1.5" stroke-dasharray="1.5 1.1"/>
+<circle cx="28" cy="36" r="9.2" stroke-width="1.2"/>
+<path stroke-width="1.2" d="M23.6 31.4 H32.4 V36.2 C32.4 39 30.4 40.6 28 41.6 C25.6 40.6 23.6 39 23.6 36.2 Z"/>
+<path stroke-width="1" d="M25.4 33.6 H30.6 M25.4 35.8 H30.6 M26 38 H30"/>
+</g>
+<g fill="#000">
+<circle cx="28" cy="18.4" r="1.25"/><circle cx="40.4" cy="23.6" r="1.25"/><circle cx="45.6" cy="36" r="1.25"/><circle cx="40.4" cy="48.4" r="1.25"/>
+<circle cx="28" cy="53.6" r="1.25"/><circle cx="15.6" cy="48.4" r="1.25"/><circle cx="10.4" cy="36" r="1.25"/><circle cx="15.6" cy="23.6" r="1.25"/>
+</g></mask></defs>
+<g mask="url(#m)"><polygon fill="#000" points="16.8,9 39.2,9 55,24.8 55,47.2 39.2,63 16.8,63 1,47.2 1,24.8"/></g>
+</svg>
