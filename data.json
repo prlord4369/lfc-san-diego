@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T04:41:16Z",
+  "updated": "2026-11-18T12:16:28Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1194,6 +1194,26 @@
   ],
   "news": [
     {
+      "date": "2026-11-18",
+      "source": "Liverpool Echo",
+      "title": "Liverpool get major injury boosts as long-term absentees return to training",
+      "summary": "Conor Bradley and Giovanni Leoni have returned to first-team training after long injury lay-offs while Dominik Szoboszlai has once again proved his fitness ahead of Liverpool's…",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-major-injury-boosts-long-34928622",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34773742.ece/ALTERNATES/s615/1_GettyImages-2241649953.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34773742.ece/ALTERNATES/s1200/1_GettyImages-2241649953.jpg"
+    },
+    {
+      "date": "2026-11-17",
+      "source": "Liverpool Echo",
+      "title": "Liverpool need 'grown-up conversation' with Alisson Becker as goalkeeper decision nears",
+      "summary": "Alisson Becker is in the final year of his Liverpool contract with the Reds having already signed teenage goalkeeper Lucca Brughmans for next season",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-need-grown-up-conversation-34924469",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34924530.ece/ALTERNATES/s615/0_GettyImages-2304475499.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34924530.ece/ALTERNATES/s1200/0_GettyImages-2304475499.jpg"
+    },
+    {
       "date": "2026-11-17",
       "source": "BBC Sport",
       "title": "Youngsters 'made up' to see Iraola watching grassroots game",
@@ -1202,26 +1222,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-17",
-      "source": "Liverpool Echo",
-      "title": "Mauricio Pochettino sends message to Liverpool as Manchester United work starts early",
-      "summary": "Mauricio Pochettino will go straight from his final match in charge of the United States at midnight on Tuesday into preparing to face Liverpool, with his staff already putting…",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/mauricio-pochettino-sends-message-liverpool-34924102",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34924131.ece/ALTERNATES/s615/0_GettyImages-2305156390.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34924131.ece/ALTERNATES/s1200/0_GettyImages-2305156390.jpg"
-    },
-    {
-      "date": "2026-11-17",
-      "source": "Liverpool Echo",
-      "title": "Jamie Carragher makes Liverpool transfer point about Andoni Iraola as two positions identified",
-      "summary": "Liverpool have been urged to back head coach Andoni Iraola in the transfer market this January window",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-makes-liverpool-transfer-34922854",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34923064.ece/ALTERNATES/s615/0_GettyImages-2274289452.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34923064.ece/ALTERNATES/s1200/0_GettyImages-2274289452.jpg"
     },
     {
       "date": "2026-11-14",
