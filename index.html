@@ -663,6 +663,7 @@ section { min-width: 0; scroll-margin-top: 16px; }
   .nl-lead h3, #hn-list .nl-lead h3 { font-size: 1.6rem; }
   #news-list .nl-lead .np { aspect-ratio: 16 / 9; }
   .story.nl-row, .hn.nl-row { grid-template-columns: 104px minmax(0, 1fr); }
+  .story.nl-row.nopic, .hn.nl-row.nopic { grid-template-columns: minmax(0, 1fr); }   /* no picture: full width */
   .nl-row .np { width: 104px; }
   .nl-row p { display: none; }
 }
