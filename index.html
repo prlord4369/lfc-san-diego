@@ -2743,7 +2743,9 @@ window.lfcCarouselMotion = function () {
       else if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) cur = links[links.length - 1];
       links.forEach(function (a) { a.classList.toggle("on", a === cur); });
       if (cur) {
-        var l = cur.offsetLeft - bar.offsetLeft, r = l + cur.offsetWidth;
+        // Position inside the row's scroll area, from on-screen positions (offsetLeft minus the row's own offset was
+        // 20 px out on phones and left the last buttons cut off; 2026-11-18)
+        var l = cur.getBoundingClientRect().left - bar.getBoundingClientRect().left + bar.scrollLeft, r = l + cur.offsetWidth;
         if (l < bar.scrollLeft) bar.scrollLeft = l - 8; else if (r > bar.scrollLeft + bar.clientWidth) bar.scrollLeft = r - bar.clientWidth + 8;
       }
     };
