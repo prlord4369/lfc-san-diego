@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T18:14:35Z",
+  "updated": "2026-11-18T19:04:44Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -867,9 +867,9 @@
       "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
+      "scope": "domestic",
       "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
-      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1136,7 +1136,7 @@
       "pos": "MF",
       "status": "out",
       "issue": "Heel",
-      "detail": "He missed the Fenerbahce and Crystal Palace games with a heel problem and has been left out of the Netherlands squad. Iraola is hoping he can be available against Manchester United.",
+      "detail": "He missed the Fenerbahce and Crystal Palace games with a heel problem and was left out of the Netherlands squad. Iraola is hoping he can be available against Manchester United.",
       "reported": "2026-11-12",
       "source": "Liverpool.com",
       "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
@@ -1146,7 +1146,7 @@
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has been sidelined since a muscle injury at Brentford and was also dropped from the Dutch squad. A return against Manchester United is hoped for but not confirmed.",
+      "detail": "He has been sidelined since a muscle injury at Brentford and was also left out of the Dutch squad. A return against Manchester United is hoped for but not confirmed.",
       "reported": "2026-11-12",
       "source": "Liverpool.com",
       "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
@@ -1166,10 +1166,20 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is returning from a serious knee injury picked up in January, and the end of his recovery is said to be in sight. Liverpool are expected to take a cautious approach to his comeback.",
-      "reported": "2026-11-09",
+      "detail": "He has rejoined team training over the November break after a serious knee injury, but no matchday return date has been set and the club will not rush him.",
+      "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-boost-bradley-leoni-34928090"
+    },
+    {
+      "player": "Giovanni Leoni",
+      "pos": "DF",
+      "status": "out",
+      "issue": "ACL",
+      "detail": "He has rejoined team training over the November break after a long knee layoff, but no matchday return date has been set.",
+      "reported": "2026-11-18",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-boost-bradley-leoni-34928090"
     },
     {
       "player": "Virgil van Dijk",
@@ -1186,7 +1196,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He played on after a knee knock at Crystal Palace but was not 100 per cent and was substituted late. He has since joined Hungary's squad, with Liverpool hoping he is not overworked before the Manchester United game.",
+      "detail": "He played on after a knee knock at Crystal Palace but was not 100 per cent and was substituted late. He has joined Hungary's squad, and Liverpool hope he is not overworked before the Manchester United game.",
       "reported": "2026-11-17",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-mystery-liverpool-34922294"
@@ -2713,5 +2723,5 @@
     "headlinesFor": null,
     "checked": "2026-11-18"
   },
-  "fullUpdated": "2026-11-17T12:16:10Z"
+  "fullUpdated": "2026-11-18T19:04:43Z"
 }
