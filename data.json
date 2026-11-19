@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T04:28:06Z",
+  "updated": "2026-11-19T12:16:13Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -708,7 +708,7 @@
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "USA Network",
-      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released",
+      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/liverpool-host-manchester-united-this-sunday-nov-22-on-usa-network-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend",
       "h2h": [
         {
           "date": "2026-05-03",
@@ -1176,32 +1176,32 @@
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
-      "status": "out",
+      "status": "doubt",
       "issue": "Heel",
-      "detail": "He missed the Fenerbahce and Crystal Palace games with a heel problem and was left out of the Netherlands squad. Iraola is hoping he can be available against Manchester United.",
-      "reported": "2026-11-12",
+      "detail": "He missed the Fenerbahce and Crystal Palace games with a heel problem that Iraola is managing day to day. Liverpool hope he can be available against Manchester United on November 22.",
+      "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-szoboszlai-gravenberch-34930076"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
       "status": "out",
       "issue": "Muscle",
-      "detail": "He has been sidelined since a muscle injury at Brentford and was also left out of the Dutch squad. A return against Manchester United is hoped for but not confirmed.",
-      "reported": "2026-11-12",
+      "detail": "He has been sidelined since a muscle injury at Brentford and was left out of the Dutch squad. He is hoped to be back for Manchester United, but that is not confirmed.",
+      "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still working through Achilles rehabilitation with no firm return date set. Reports point to a competitive comeback around December.",
-      "reported": "2026-11-09",
+      "detail": "He is still working back from Achilles rehabilitation after being unavailable since April. A competitive return in December is on the cards.",
+      "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-return-dates-szoboszlai-34882641"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-szoboszlai-gravenberch-34930076"
     },
     {
       "player": "Conor Bradley",
@@ -1218,42 +1218,67 @@
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has rejoined team training over the November break after a long knee layoff, but no matchday return date has been set.",
+      "detail": "He is back in team training after more than a year out with a serious knee injury, but he is still some way off returning to matches.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-boost-bradley-leoni-34928090"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
     },
     {
       "player": "Virgil van Dijk",
       "pos": "DF",
       "status": "doubt",
       "issue": "Niggle",
-      "detail": "He pulled out of the Netherlands squad with a minor knock and says he has been managing discomfort for weeks. Iraola hopes the break will get him ready for Manchester United.",
-      "reported": "2026-11-12",
+      "detail": "He pulled out of the Netherlands squad with a minor knock and has been managing discomfort for weeks. Liverpool hope the break has eased it, and he is expected to play Manchester United.",
+      "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/andoni-iraola-waits-liverpool-trio-34899268"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
     },
     {
       "player": "Dominik Szoboszlai",
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He played on after a knee knock at Crystal Palace but was not 100 per cent and was substituted late. He has joined Hungary's squad, and Liverpool hope he is not overworked before the Manchester United game.",
-      "reported": "2026-11-17",
+      "detail": "He played on with a knee knock at Crystal Palace and was substituted late. He joined Hungary's squad, and Liverpool will check him before the Manchester United game.",
+      "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/dominik-szoboszlai-injury-mystery-liverpool-34922294"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-szoboszlai-gravenberch-34930076"
     }
   ],
   "news": [
     {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source": "Liverpool Echo",
-      "title": "Liverpool signed the best young player in the world in a club-record deal",
-      "summary": "A number of Liverpool players were named in FourFourTwo’s Top 100 Young Players of 2001. However, 25 years on, the list has not aged well...",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-signed-best-young-player-34932240",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article27663211.ece/ALTERNATES/s615/2_GettyImages-1490778796jpgst-yo.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article27663211.ece/ALTERNATES/s1200/2_GettyImages-1490778796jpgst-yo.jpg"
+      "title": "Liverpool chief Julian Ward risks breaking FSG's golden rule again after hitting the jackpot",
+      "summary": "Julian Ward has a tough decision to make in the January transfer window, with Liverpool currently set to lose some big names – just 18 months after hitting the jackpot.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-julian-ward-fsg-rule-34935012",
+      "amp": true
+    },
+    {
+      "date": "2026-11-19",
+      "source": "Liverpool Echo",
+      "title": "Jurgen Klopp has shown Liverpool what Florian Wirtz needs as key numbers expose next step",
+      "summary": "An analytical look at Florian Wirtz's recent performances for Germany and Liverpool under Jurgen Klopp and Andoni Iraola, with the numbers suggesting the £116m signing is ready to…",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-shown-liverpool-what-34933667",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933708.ece/ALTERNATES/s615/0_GettyImages-2304980487.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933708.ece/ALTERNATES/s1200/0_GettyImages-2304980487.jpg"
+    },
+    {
+      "date": "2026-11-19",
+      "source": "Sky Sports",
+      "title": "Premier League talking points: Trial by Anfield as Poch begins Man Utd tenure",
+      "summary": "The Premier League is back after the recent international break and the Sky Sports football writers dissect all the major talking points ahead of another busy weekend's action.",
+      "url": "https://www.skysports.com/football/news/11669/13613208/mauricio-pochettino-begins-man-utd-tenure-with-testing-trip-to-liverpool-premier-league-talking-points",
+      "img": "https://e2.365dm.com/26/11/768x432/skysports-premier-league_7408877.jpg?20261117153906",
+      "big": "https://e2.365dm.com/26/11/1600x900/skysports-premier-league_7408877.jpg?20261117153906"
+    },
+    {
+      "date": "2026-11-18",
+      "source": "BBC Sport",
+      "title": "How Premier League's big six keep getting richer",
+      "summary": "Ten games into the Premier League season, and the top five places are dominated by big six clubs.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg"
     },
     {
       "date": "2026-11-18",
@@ -1263,16 +1288,6 @@
       "url": "https://www.skysports.com/football/news/11669/13613154/bruno-fernandes-tumbles-as-new-no-1-is-crowned-sky-sports-ranks-the-premier-leagues-top-25-players-right-now",
       "img": "https://e1.365dm.com/26/11/768x432/skysports-graphic-erling-haaland_7408870.jpg?20261117153443",
       "big": "https://e1.365dm.com/26/11/1600x900/skysports-graphic-erling-haaland_7408870.jpg?20261117153443"
-    },
-    {
-      "date": "2026-11-18",
-      "source": "Liverpool Echo",
-      "title": "Liverpool vs Man Utd referee appointment questioned after Alisson FA sanction and big error",
-      "summary": "Liverpool take on Manchester United at Anfield at the weekend, and a familiar face takes charge of the clash with some people questioning that decision",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-vs-manchester-united-referee-34931676",
-      "amp": true,
-      "img": "https://i2-prod.football.london/incoming/article34931820.ece/ALTERNATES/s615/0_GettyImages-2292001877.jpg",
-      "big": "https://i2-prod.football.london/incoming/article34931820.ece/ALTERNATES/s1200/0_GettyImages-2292001877.jpg"
     },
     {
       "date": "2026-11-18",
@@ -1320,24 +1335,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87f4/live/e4ed5c50-ddeb-11f1-9204-cdcddf7d901c.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/87f4/live/e4ed5c50-ddeb-11f1-9204-cdcddf7d901c.jpg"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "BBC Sport",
-      "title": "Wales boss Bellamy praises Liverpool's handling of Koumas",
-      "summary": "Wales manager Craig Bellamy has praised Liverpool for their handling of forward Lewis Koumas ahead of their Nations League trip to Norway.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm752n34wek9o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/afc8/live/93a223f0-ddb2-11f1-b14d-71af1d9abfa4.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/afc8/live/93a223f0-ddb2-11f1-b14d-71af1d9abfa4.jpg"
-    },
-    {
-      "date": "2026-11-11",
-      "source": "Sky Sports",
-      "title": "Liverpool incorrectly denied pen vs Arsenal says independent panel",
-      "summary": "Liverpool should have been awarded a penalty when Jurrien Timber pulled Alexander Isak's shirt in Arsenal's victory at Anfield, an independent panel has ruled.",
-      "url": "https://www.skysports.com/football/news/11669/13610916/liverpool-incorrectly-denied-penalty-for-jurrien-timber-pull-on-alexander-isak-vs-arsenal-rules-independent-panel",
-      "img": "https://e0.365dm.com/26/11/768x432/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128",
-      "big": "https://e0.365dm.com/26/11/1600x900/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128"
     },
     {
       "date": "2026-11-10",
@@ -2765,5 +2762,5 @@
     "headlinesFor": null,
     "checked": "2026-11-19"
   },
-  "fullUpdated": "2026-11-18T19:04:43Z"
+  "fullUpdated": "2026-11-19T12:16:13Z"
 }
