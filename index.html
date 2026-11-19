@@ -524,7 +524,7 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .inj-sum b { color: var(--fg); font-family: var(--font-mono); }
 /* Team updates card ("design A", 2026-11-18, mockups/injuries/): a "Latest" line with the newest entry, then the players
    as tiles grouped Out / Doubtful / Returning: shirt-number badge in the status colour, surname, position · injury, a
-   green "New" tag when reported in the last two days. The full write-ups (#inj-list) stay behind the button. */
+   green "Update" tag when reported in the last two days (was "New", which read as a new injury). The full write-ups (#inj-list) stay behind the button. */
 .inj-latest { margin-top: 12px; padding: 10px 12px; border-left: 3px solid var(--ok); background: var(--chip-ok); border-radius: 0 8px 8px 0; font-size: .86rem; line-height: 1.45; }
 .inj-latest b { color: var(--ok); }
 .inj-latest .when { color: var(--muted); font-size: .76rem; white-space: nowrap; }
@@ -2034,7 +2034,7 @@ function render(data) {
     var surname = function (n) { var w = String(n).split(" "); return w.length > 1 ? w.slice(1).join(" ") : n; };
     var day = function (s) { return new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(s + "T12:00:00Z")); };
     var dated = function (i) { return /^\d{4}-\d{2}-\d{2}$/.test(i.reported || ""); };
-    // "New" = reported today or yesterday (Pacific dates)
+    // "Update" = reported today or yesterday (Pacific dates)
     var ptDay = function (d) { return new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(d); };
     var recent = [ptDay(new Date()), ptDay(new Date(Date.now() - 864e5))];
     var cardIcon = function (i) {
@@ -2054,7 +2054,7 @@ function render(data) {
       latest.hidden = false;
     }
     document.getElementById("inj-tiles").innerHTML = ["out", "doubt", "back"].map(function (st) {
-      // Newest reports first within a group, so the "New" ones lead
+      // Newest reports first within a group, so the "Update" ones lead
       var g = inj.filter(function (i) { return i.status === st; })
         .sort(function (a, b) { var x = a.reported || "", y = b.reported || ""; return x < y ? 1 : x > y ? -1 : 0; });
       if (!g.length) return "";
@@ -2062,7 +2062,7 @@ function render(data) {
         g.map(function (i) {
           var no = shirt[key(i.player)];
           return "<div class=\"it " + st + "\" title=\"" + esc(i.player) + "\"><span class=\"it-no\">" + (no != null ? esc(no) : esc(i.pos || "")) + "</span>" +
-            "<div class=\"it-tx\"><div class=\"it-nm\">" + esc(surname(i.player)) + (dated(i) && recent.indexOf(i.reported) >= 0 ? "<span class=\"it-new\">New</span>" : "") + "</div>" +
+            "<div class=\"it-tx\"><div class=\"it-nm\">" + esc(surname(i.player)) + (dated(i) && recent.indexOf(i.reported) >= 0 ? "<span class=\"it-new\" title=\"Reported today or yesterday\">Update</span>" : "") + "</div>" +
             "<div class=\"it-is\">" + esc(i.pos || "") + " · " + (cardIcon(i) || esc(i.issue || "")) + "</div></div></div>";
         }).join("") + "</div></div>";
     }).join("");
