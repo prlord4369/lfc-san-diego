@@ -1,0 +1,573 @@
+{
+ "id": "2026-09-20-afc-bournemouth",
+ "espn": "401879276",
+ "league": "eng.1",
+ "comp": "Premier League",
+ "kickoff": "2026-09-20T13:00:00Z",
+ "ha": "A",
+ "opp": "AFC Bournemouth",
+ "oppAbbr": "BOU",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+ "ground": {
+  "name": "Vitality Stadium",
+  "city": "Bournemouth",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 1,
+  "opp": 0
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 0,
+  "opp": 0
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "46'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Dominik Szoboszlai"
+  },
+  {
+   "min": "57'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak"
+  },
+  {
+   "min": "58'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Alexander Isak"
+  },
+  {
+   "min": "71'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Trey Nyoni",
+   "off": "Florian Wirtz"
+  },
+  {
+   "min": "72'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Víctor Muñoz",
+   "off": "Bradley Barcola"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Lewis Cook",
+   "off": "Adam Smith"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Daniel Jebbison",
+   "off": "Ryan Christie"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "David Brooks",
+   "off": "Marcus Tavernier"
+  },
+  {
+   "min": "81'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Alexander Isak"
+  },
+  {
+   "min": "81'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Ryan Gravenberch",
+   "off": "Dominik Szoboszlai"
+  },
+  {
+   "min": "81'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "António Silva"
+  },
+  {
+   "min": "88'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Ben Gannon-Doak",
+   "off": "Tyler Adams"
+  },
+  {
+   "min": "88'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Alex Tóth",
+   "off": "Rayan"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 53.8,
+   "opp": 46.2,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 12,
+   "opp": 9,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 3,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 3,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 81,
+   "opp": 78,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 2,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 13,
+   "opp": 11,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 2,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 2,
+   "opp": 1,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "AFC Bournemouth",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Petrovic",
+     "full": "Djordje Petrovic",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "14",
+     "name": "Silva",
+     "full": "António Silva",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Hill",
+     "full": "James Hill",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "3",
+     "name": "Truffert",
+     "full": "Adrien Truffert",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "15",
+     "name": "Smith",
+     "full": "Adam Smith",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "4",
+      "name": "Cook",
+      "full": "Lewis Cook",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Christie",
+     "full": "Ryan Christie",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "29",
+      "name": "Jebbison",
+      "full": "Daniel Jebbison",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "8",
+     "name": "Scott",
+     "full": "Alex Scott",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "12",
+     "name": "Adams",
+     "full": "Tyler Adams",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "11",
+      "name": "Gannon-Doak",
+      "full": "Ben Gannon-Doak",
+      "at": "88'"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Evanilson",
+     "full": "Evanilson",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "16",
+     "name": "Tavernier",
+     "full": "Marcus Tavernier",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "7",
+      "name": "Brooks",
+      "full": "David Brooks",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "37",
+     "name": "Rayan",
+     "full": "Rayan",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "27",
+      "name": "Tóth",
+      "full": "Alex Tóth",
+      "at": "88'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "4",
+     "name": "Cook",
+     "full": "Lewis Cook",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Smith"
+     }
+    },
+    {
+     "no": "11",
+     "name": "Gannon-Doak",
+     "full": "Ben Gannon-Doak",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "88'",
+      "for": "Adams"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Brooks",
+     "full": "David Brooks",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Tavernier"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Jebbison",
+     "full": "Daniel Jebbison",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Christie"
+     }
+    },
+    {
+     "no": "6",
+     "name": "Soler",
+     "full": "Julio Soler",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "20",
+     "name": "Di Gregorio",
+     "full": "Michele Di Gregorio",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "27",
+     "name": "Tóth",
+     "full": "Alex Tóth",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "88'",
+      "for": "Rayan"
+     }
+    },
+    {
+     "no": "24",
+     "name": "Sánchez",
+     "full": "Juanlu Sanchez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "18",
+     "name": "Diakité",
+     "full": "Bafodé Diakité",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "42",
+      "name": "Nyoni",
+      "full": "Trey Nyoni",
+      "at": "71'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "38",
+      "name": "Gravenberch",
+      "full": "Ryan Gravenberch",
+      "at": "81'"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "81'"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "23",
+      "name": "Muñoz",
+      "full": "Víctor Muñoz",
+      "at": "72'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "AM-R",
+     "place": 7
+    }
+   ],
+   "subs": [
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "81'",
+      "for": "Isak"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "81'",
+      "for": "Szoboszlai"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "72'",
+      "for": "Barcola"
+     }
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "71'",
+      "for": "Wirtz"
+     }
+    }
+   ]
+  }
+ },
+ "attendance": 11316,
+ "table": {
+  "comp": "Premier League",
+  "pos": 6,
+  "of": 20,
+  "pts": 9,
+  "played": 5,
+  "w": 2,
+  "d": 3,
+  "l": 0,
+  "before": 10
+ },
+ "story": "Liverpool won 1-0 away at AFC Bournemouth in the Premier League at the Vitality Stadium. The only goal came from Alexander Isak in the 57th minute, after a goalless first half. Liverpool had 12 shots, three of them on target, against Bournemouth's nine, two of which were on target, and held 53.8% of possession. Liverpool finished the day sixth in the Premier League table on nine points, having won two, drawn three and lost none of their five matches.",
+ "storyV": 2
+}

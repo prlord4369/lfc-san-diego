@@ -1,0 +1,633 @@
+{
+ "id": "2026-09-09-atletico-madrid",
+ "espn": "401915446",
+ "league": "uefa.champions",
+ "comp": "Champions League",
+ "kickoff": "2026-09-09T19:00:00Z",
+ "ha": "H",
+ "opp": "Atlético Madrid",
+ "oppAbbr": "ATM",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+ "ground": {
+  "name": "Anfield",
+  "city": "Liverpool",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 2,
+  "opp": 1
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 1,
+  "opp": 1
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "17'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Marcos Llorente",
+   "assist": "Julián Álvarez"
+  },
+  {
+   "min": "28'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Alexis Mac Allister"
+  },
+  {
+   "min": "40'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Dominik Szoboszlai",
+   "assist": "Ronald Araujo"
+  },
+  {
+   "min": "50'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexis Mac Allister",
+   "assist": "Alexander Isak"
+  },
+  {
+   "min": "51'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Marc Pubill"
+  },
+  {
+   "min": "59'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Alejandro Grimaldo",
+   "off": "Lee Kang-In"
+  },
+  {
+   "min": "59'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Ademola Lookman",
+   "off": "Koke"
+  },
+  {
+   "min": "60'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Jeremie Frimpong",
+   "off": "Rio Ngumoha"
+  },
+  {
+   "min": "60'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Víctor Muñoz",
+   "off": "Bradley Barcola"
+  },
+  {
+   "min": "69'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Ryan Gravenberch",
+   "off": "Alexis Mac Allister"
+  },
+  {
+   "min": "73'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Jonathan David",
+   "off": "Álex Baena"
+  },
+  {
+   "min": "77'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Robin Le Normand",
+   "off": "Cristian Romero"
+  },
+  {
+   "min": "77'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Morten Hjulmand",
+   "off": "Pablo Barrios"
+  },
+  {
+   "min": "88'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Alexander Isak"
+  },
+  {
+   "min": "88'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Kostas Tsimikas",
+   "off": "Milos Kerkez"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 45.3,
+   "opp": 54.7,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 14,
+   "opp": 9,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 5,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 7,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 84,
+   "opp": 85,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 3,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 11,
+   "opp": 10,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 3,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 1,
+   "opp": 1,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "21",
+      "name": "Tsimikas",
+      "full": "Kostas Tsimikas",
+      "at": "88'"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "38",
+      "name": "Gravenberch",
+      "full": "Ryan Gravenberch",
+      "at": "69'"
+     }
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "88'"
+     }
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "30",
+      "name": "Frimpong",
+      "full": "Jeremie Frimpong",
+      "at": "60'"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "23",
+      "name": "Muñoz",
+      "full": "Víctor Muñoz",
+      "at": "60'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "88'",
+      "for": "Isak"
+     }
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "88'",
+      "for": "Kerkez"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "60'",
+      "for": "Barcola"
+     }
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "60'",
+      "for": "Ngumoha"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "69'",
+      "for": "Mac Allister"
+     }
+    },
+    {
+     "no": "28",
+     "name": "Woodman",
+     "full": "Freddie Woodman",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "76",
+     "name": "Danns",
+     "full": "Jayden Danns",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "44",
+     "name": "Chambers",
+     "full": "Luke Chambers",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "opp": {
+   "name": "Atlético Madrid",
+   "formation": "3-5-2",
+   "xi": [
+    {
+     "no": "13",
+     "name": "Oblak",
+     "full": "Jan Oblak",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "21",
+     "name": "Romero",
+     "full": "Cristian Romero",
+     "pos": "CD",
+     "place": 5,
+     "on": {
+      "no": "24",
+      "name": "Le Normand",
+      "full": "Robin Le Normand",
+      "at": "77'"
+     }
+    },
+    {
+     "no": "17",
+     "name": "Hancko",
+     "full": "Dávid Hancko",
+     "pos": "CD-L",
+     "place": 4
+    },
+    {
+     "no": "18",
+     "name": "Pubill",
+     "full": "Marc Pubill",
+     "pos": "CD-R",
+     "place": 6
+    },
+    {
+     "no": "10",
+     "name": "Baena",
+     "full": "Álex Baena",
+     "pos": "CM-L",
+     "place": 8,
+     "on": {
+      "no": "15",
+      "name": "David",
+      "full": "Jonathan David",
+      "at": "73'"
+     }
+    },
+    {
+     "no": "8",
+     "name": "Barrios",
+     "full": "Pablo Barrios",
+     "pos": "CM-R",
+     "place": 7,
+     "on": {
+      "no": "23",
+      "name": "Hjulmand",
+      "full": "Morten Hjulmand",
+      "at": "77'"
+     }
+    },
+    {
+     "no": "6",
+     "name": "Koke",
+     "full": "Koke",
+     "pos": "AM",
+     "place": 11,
+     "on": {
+      "no": "11",
+      "name": "Lookman",
+      "full": "Ademola Lookman",
+      "at": "59'"
+     }
+    },
+    {
+     "no": "20",
+     "name": "Simeone",
+     "full": "Giuliano Simeone",
+     "pos": "LM",
+     "place": 3
+    },
+    {
+     "no": "14",
+     "name": "Llorente",
+     "full": "Marcos Llorente",
+     "pos": "RM",
+     "place": 2
+    },
+    {
+     "no": "19",
+     "name": "Álvarez",
+     "full": "Julián Álvarez",
+     "pos": "CF-L",
+     "place": 9
+    },
+    {
+     "no": "7",
+     "name": "Kang-In",
+     "full": "Lee Kang-In",
+     "pos": "CF-R",
+     "place": 10,
+     "on": {
+      "no": "22",
+      "name": "Grimaldo",
+      "full": "Alejandro Grimaldo",
+      "at": "59'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "3",
+     "name": "Vargas",
+     "full": "Obed Vargas",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "22",
+     "name": "Grimaldo",
+     "full": "Alejandro Grimaldo",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "59'",
+      "for": "Kang-In"
+     }
+    },
+    {
+     "no": "27",
+     "name": "Domínguez",
+     "full": "Jorge Domínguez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "4",
+     "name": "Mendoza",
+     "full": "Rodrigo Mendoza",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "23",
+     "name": "Hjulmand",
+     "full": "Morten Hjulmand",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "77'",
+      "for": "Barrios"
+     }
+    },
+    {
+     "no": "24",
+     "name": "Le Normand",
+     "full": "Robin Le Normand",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "77'",
+      "for": "Romero"
+     }
+    },
+    {
+     "no": "5",
+     "name": "Cardoso",
+     "full": "Johnny Cardoso",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "15",
+     "name": "David",
+     "full": "Jonathan David",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "73'",
+      "for": "Baena"
+     }
+    },
+    {
+     "no": "30",
+     "name": "Martinez",
+     "full": "Daniel Martinez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "11",
+     "name": "Lookman",
+     "full": "Ademola Lookman",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "59'",
+      "for": "Koke"
+     }
+    },
+    {
+     "no": "46",
+     "name": "Castillo",
+     "full": "Jorge Castillo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "1",
+     "name": "Musso",
+     "full": "Juan Musso",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "attendance": 59870,
+ "table": {
+  "comp": "Champions League",
+  "pos": 9,
+  "of": 24,
+  "pts": 3,
+  "played": 1,
+  "w": 1,
+  "d": 0,
+  "l": 0
+ },
+ "story": "Liverpool beat Atlético Madrid 2-1 at Anfield in the Champions League. Marcos Llorente gave the visitors the lead in the 17th minute, assisted by Julián Álvarez, but Dominik Szoboszlai equalised in the 40th minute, set up by Ronald Araujo. Alexis Mac Allister then put Liverpool ahead in the 50th minute, with Alexander Isak providing the assist, and the hosts held on to take all three points. The win moves Liverpool to ninth of 24 teams in the Champions League table after one game.",
+ "storyV": 2
+}

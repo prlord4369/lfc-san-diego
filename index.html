@@ -996,6 +996,174 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
   .all-link { display: none; }
   .all-btn { display: block; }
 }
+
+/* ===== Match reports (2026-11-19): own page per game (#report-<date>-<opponent>, files in reports/), from the Results
+   tab, Recent form, the cup tabs, past meetings, the banner after full time, a home card for the rest of match day
+   and the menu ===== */
+.rp-bar { display: flex; align-items: baseline; justify-content: flex-start; gap: 8px 14px; flex-wrap: wrap; }
+.rp-back { color: var(--red); font-weight: 700; font-size: .88rem; text-decoration: none; }
+.rp-back:hover { text-decoration: underline; }
+.rp-pager { margin-left: auto; display: flex; gap: 6px; }
+.rp-share { position: relative; align-self: center; width: 34px; height: 34px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface);
+  color: var(--red); display: grid; place-items: center; cursor: pointer; padding: 0; flex: none; }
+.rp-share:hover { border-color: var(--red); }
+.rp-share:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+.rp-share svg { width: 18px; height: 18px; }
+.rp-share .sh-apple, .rp-share.apple .sh-dots { display: none; }
+.rp-share.apple .sh-apple { display: block; }
+.rp-copied { position: absolute; top: calc(100% + 6px); left: 50%; transform: translateX(-50%); white-space: nowrap; font: 600 .72rem/1 var(--font-body);
+  background: var(--fg); color: var(--bg); padding: 5px 8px; border-radius: 4px; pointer-events: none; opacity: 0; transition: opacity .2s; }
+.rp-copied.on { opacity: 1; }
+.rp-pager a, .rp-pager span { font: 600 .78rem/1 var(--font-body); padding: 7px 11px; border: 1px solid var(--line); border-radius: 999px;
+  text-decoration: none; color: var(--fg); background: var(--surface); white-space: nowrap; }
+.rp-pager a:hover { border-color: var(--red); color: var(--red); }
+.rp-pager span { color: var(--muted); opacity: .5; }
+#report-view .pin-bar .sec-head { border-bottom: 0; margin: 0; padding-bottom: 10px; }
+#report-view .pin-bar { border-bottom: 3px solid var(--fg); }
+.rp-msg { color: var(--muted); padding: 30px 0; }
+#rp-body { display: grid; gap: 18px; }
+#rp-body > div { min-width: 0; }
+.rp-hero { background: linear-gradient(135deg, var(--red) 0%, var(--red-deep) 100%); color: var(--on-red); border-radius: 12px; padding: 18px 22px 20px; }
+.rp-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .82rem; opacity: .92; align-items: center; }
+.rp-tag { background: rgba(255,255,255,.18); padding: 3px 8px; border-radius: 4px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: .7rem; }
+.rp-sc { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: start; gap: 10px; margin-top: 14px; }
+.rp-tm { display: grid; justify-items: center; text-align: center; gap: 6px; min-width: 0; }
+.rp-bdg { width: 58px; height: 58px; border-radius: 50%; background: #fff; display: grid; place-items: center; font: 800 1.05rem/1 var(--font-display); color: #c8102e; overflow: hidden; }
+.rp-bdg img { width: 42px; height: 42px; object-fit: contain; }
+.rp-bdg.opp { color: #1c1517; }
+.rp-tm > b { font: 800 1.35rem/1.05 var(--font-display); text-transform: uppercase; justify-self: stretch; overflow-wrap: anywhere; }
+.rp-tm > .rp-gl { justify-self: stretch; min-width: 0; }
+.rp-num { font: 800 4.2rem/1 var(--font-display); display: flex; gap: 12px; align-items: center; justify-content: center; padding-top: 4px; white-space: nowrap; }
+.rp-num i { font-style: normal; opacity: .6; font-size: 2.6rem; }
+.rp-num small { font-size: 1.6rem; opacity: .8; }
+.rp-mid { max-width: 260px; }
+.rp-ft { text-align: center; font-size: .78rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; opacity: .9; margin-top: 2px; }
+.rp-res { display: table; margin: 8px auto 0; background: #fff; font: 800 .76rem/1 var(--font-body); padding: 4px 8px; border-radius: 4px; letter-spacing: .06em; }
+.rp-res.W { color: #2c7a3f; } .rp-res.D { color: #6c6064; } .rp-res.L { color: #b3152c; }
+.rp-gl { list-style: none; margin: 4px 0 0; padding: 0; font-size: .84rem; line-height: 1.45; }
+.rp-gl small { opacity: .75; font-size: .76rem; display: block; }
+.rp-gl .rc { display: inline-block; width: 8px; height: 11px; border-radius: 1px; background: #ff5a6e; vertical-align: -1px; margin-right: 4px; }
+.rp-means { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.rp-tile { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; color: inherit; text-decoration: none; display: block; }
+.rp-tile small { display: block; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.rp-tile b { font: 800 1.9rem/1.05 var(--font-display); }
+.rp-tile em { font-style: normal; font-size: .9rem; color: var(--muted); font-weight: 600; }
+.rp-tile.nx { border-top: 3px solid var(--red); }
+.rp-tile.nx b { font-size: 1.35rem; display: block; }
+.rp-tile.nx span { font-size: .8rem; color: var(--red); font-weight: 600; }
+a.rp-tile:hover { border-color: var(--red); }
+.rp-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; min-width: 0; }
+.rp-h { font: 800 1.35rem/1 var(--font-display); text-transform: uppercase; margin: 0 0 12px; letter-spacing: .01em; }
+.rp-story p { margin: 0; line-height: 1.65; }
+.rp-story .by { margin-top: 10px; font-size: .74rem; color: var(--muted); }
+.rp-cols { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.rp-tl { position: relative; height: 46px; margin: 4px 8px 22px; }
+.rp-tl::before { content: ""; position: absolute; left: 0; right: 0; top: 22px; height: 4px; border-radius: 2px; background: var(--line); }
+.rp-tl .htm { position: absolute; top: 12px; height: 24px; width: 2px; background: var(--muted); opacity: .5; }
+.rp-tl .lab { position: absolute; top: 34px; font: 500 .68rem var(--font-mono); color: var(--muted); transform: translateX(-50%); }
+.rp-m { position: absolute; transform: translateX(-50%); width: 18px; height: 18px; border-radius: 50%; display: grid; place-items: center; font-size: 10px; }
+.rp-m.lfc { top: 0; } .rp-m.opp { top: 30px; }
+.rp-m.g { background: var(--red); color: #fff; box-shadow: 0 0 0 2px var(--surface); }
+.rp-m.g.opp { background: #8a8287; }
+.rp-m.bk { width: 10px; height: 14px; border-radius: 2px; background: #f2c230; }
+.rp-m.bk.lfc { top: 3px; } .rp-m.bk.red { background: var(--bad); }
+.rp-ev { list-style: none; margin: 0; padding: 0; }
+.rp-ev li { display: grid; grid-template-columns: minmax(0, 1fr) 60px minmax(0, 1fr); align-items: center; padding: 7px 0; border-top: 1px solid var(--line); font-size: .9rem; }
+.rp-ev li:first-child { border-top: 0; }
+.rp-ev .mn { text-align: center; font: 500 .8rem var(--font-mono); color: var(--muted); }
+.rp-ev .h { text-align: right; } .rp-ev .a { text-align: left; }
+.rp-ev .ic { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; font-size: 11px; vertical-align: -4px; margin: 0 6px; font-style: normal; }
+.rp-ev .ic.g { background: var(--red); color: #fff; }
+.rp-ev .ic.yellow, .rp-ev .ic.red { width: 11px; height: 15px; border-radius: 2px; background: #f2c230; margin: 0 8px; }
+.rp-ev .ic.red { background: var(--bad); }
+.rp-ev .ic.sub { color: var(--ok); font-size: 12px; }
+.rp-ev small { color: var(--muted); font-size: .78rem; }
+.rp-ev li.sub { font-size: .82rem; color: var(--muted); }
+.rp-ev li.sub b { color: var(--fg); font-weight: 600; }
+.rp-ev li.sub:not(.show) { display: none; }
+.rp-ev .htl { grid-column: 1 / -1; text-align: center; font: 700 .7rem var(--font-body); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); background: var(--bg); border-radius: 4px; padding: 3px; }
+.rp-subs-t { margin-top: 10px; border: 1px solid var(--line); background: none; color: var(--fg); border-radius: 999px; padding: 6px 14px; font: 600 .82rem/1.2 var(--font-body); cursor: pointer; }
+.rp-subs-t:hover { border-color: var(--red); color: var(--red); }
+.rp-st { display: grid; gap: 12px; }
+.rp-sk { display: flex; justify-content: space-between; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.rp-sk span:first-child { color: var(--red); }
+.rp-sr .lb { display: grid; grid-template-columns: auto 1fr auto; font-size: .85rem; margin-bottom: 4px; }
+.rp-sr .lb span { text-align: center; color: var(--muted); }
+.rp-sr .lb b { font-weight: 700; }
+.rp-sr.lead-l .lb b:first-child { color: var(--red); }
+.rp-sr .bars { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.rp-sr .bars i { height: 8px; border-radius: 4px; background: var(--line); position: relative; overflow: hidden; display: block; }
+.rp-sr .bars i::after { content: ""; position: absolute; top: 0; bottom: 0; width: var(--w); border-radius: 4px; }
+.rp-sr .bars i.l::after { right: 0; background: var(--red); }
+.rp-sr .bars i.r::after { left: 0; background: #8a8287; }
+.rp-lu-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.rp-lu-head .rp-h { margin: 0; }
+.rp-lu .lu-grid { gap: 16px 28px; }
+.rp-lu .lu-subs ul { columns: 1; }
+.rp-lu .lu-subs li { border-top: 1px solid var(--line); padding: 4px 0; }
+.rp-lu .lu-subs li:first-child { border-top: 0; }
+.rp-lu .lu-subs li.unused { color: var(--muted); }
+.rp-lu .lu-subs .lu-came { color: var(--ok); }
+.rp-lu .lu-pl i { position: relative; }
+.lu-pl .gs { position: absolute; top: -5px; left: -6px; min-width: 14px; height: 14px; border-radius: 7px; background: #fff; color: #1c1517; font: normal 700 8px/14px sans-serif; text-align: center; box-shadow: 0 0 0 1px #1c1517; padding: 0 2px; }
+.rp-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.rp-links a { display: block; text-decoration: none; color: inherit; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--red); border-radius: 8px; padding: 12px 14px; }
+.rp-links a:hover { border-color: var(--red); }
+.rp-links small { display: block; font-size: .7rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); }
+.rp-links b { display: block; font-weight: 600; line-height: 1.35; margin-top: 3px; }
+.rp-links span { display: block; margin-top: 6px; color: var(--red); font-size: .82rem; font-weight: 600; }
+.rp-src { font-size: .74rem; color: var(--muted); margin: 0; }
+@media (max-width: 860px) { .rp-cols { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 720px) {
+  .rp-hero { padding: 14px 12px 16px; border-radius: 10px; }
+  .rp-num { font-size: 3.2rem; gap: 8px; } .rp-num i { font-size: 2rem; }
+  .rp-num small { display: none; }   /* phones: the shoot-out score is in the line underneath instead */
+  .rp-mid { max-width: 130px; }
+  .rp-ft { font-size: .7rem; }
+  .rp-bdg { width: 46px; height: 46px; } .rp-bdg img { width: 32px; height: 32px; }
+  .rp-tm > b { font-size: 1.05rem; }
+  .rp-gl { font-size: .78rem; max-width: 100%; }
+  .rp-gl li { line-height: 1.3; margin-bottom: 3px; }
+  .rp-gl small { display: none; }   /* phones: assists only in Key moments */
+  .rp-means { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .rp-card { padding: 14px; }
+  .rp-ev li { grid-template-columns: minmax(0, 1fr) 46px minmax(0, 1fr); font-size: .84rem; }
+  .rp-pager { margin-left: 0; width: 100%; }
+}
+@media (max-width: 360px) { .rp-gl .b { display: none; } .rp-mid { max-width: 112px; } .rp-num { font-size: 2.8rem; } .rp-tm > b { font-size: .95rem; } }
+/* Ways in: a button on the banner after full time, a card above the banner for the rest of match day, a
+   two-line menu item, links on Recent form / Results / cup tabs / past meetings */
+.rp-go { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; background: #fff; color: #c8102e; font: 700 .85rem/1 var(--font-body);
+  padding: 9px 14px; border-radius: 999px; text-decoration: none; grid-column: 1 / -1; justify-self: center; }
+.rp-go:hover { box-shadow: 0 0 0 3px rgba(255,255,255,.35); }
+.rp-go.wait { background: rgba(255,255,255,.18); color: #fff; font-weight: 600; cursor: default; box-shadow: none; }
+.rc-band .wrap { padding-block: 16px 0; }
+.rc-card { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px 14px; align-items: center; background: var(--surface);
+  border: 1px solid var(--line); border-left: 4px solid var(--ok); border-radius: 8px; padding: 12px 16px; color: inherit; text-decoration: none; }
+.rc-card.D { border-left-color: var(--muted); } .rc-card.L { border-left-color: var(--bad); }
+.rc-card:hover { border-color: var(--red); }
+.rc-card .fm-b { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 4px; color: var(--on-red); font: 800 1rem/1 var(--font-display); }
+.rc-card .label { color: var(--red); }
+.rc-card b { display: block; font: 800 1.3rem/1.1 var(--font-display); text-transform: uppercase; margin-top: 4px; }
+.rc-card small { color: var(--muted); font-size: .8rem; }
+.rc-card .go { color: var(--red); font-weight: 700; font-size: .88rem; white-space: nowrap; }
+@media (max-width: 520px) { .rc-card { grid-template-columns: auto minmax(0, 1fr); } .rc-card .go { grid-column: 2; } }
+.top .nav a.two { flex-direction: column; align-items: flex-start; justify-content: center; line-height: 1.2; }
+.top .nav a.two small { display: block; font-size: .76rem; font-weight: 400; opacity: .8; margin-top: 2px; }
+a.fm-row { color: inherit; text-decoration: none; }
+a.fm-row:hover .opp { color: var(--red); }
+.fm-head, .fm-row { grid-template-columns: 24px 48px minmax(0, 1fr) auto 3.2em 10px; }
+.fm-row .go { color: var(--red); font-weight: 700; }
+@media (max-width: 360px) { .fm-row, .fm-head { grid-template-columns: 22px 44px minmax(0, 1fr) auto 3em 8px; } }
+a.fm-sq { text-decoration: none; }
+a.fm-sq:hover { outline: 2px solid var(--fg); outline-offset: 1px; }
+.rs-rep { font: 600 .74rem/1 var(--font-body); color: var(--red); border: 1px solid var(--red); border-radius: 999px; padding: 6px 10px; text-decoration: none; white-space: nowrap; }
+.rs-rep:hover { background: var(--red); color: var(--on-red); }
+.cup .lt td.res .cup-rep { display: block; margin-top: 4px; color: var(--red); font: 700 .74rem/1.2 var(--font-body); text-decoration: none; }
+.cup .lt td.res .cup-rep:hover { text-decoration: underline; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.h2h-list a.sc { color: inherit; text-decoration: none; }
+.h2h-list a.sc:hover { text-decoration: underline; }
 </style>
 
 </head>
@@ -1007,14 +1175,19 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
     <a class="live-chip" id="live-chip" href="#match" hidden aria-live="polite"></a>
     <button class="menu-btn" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
     <nav class="nav" id="site-nav" aria-label="Sections">
+      <!-- Order (owner, 2026-11-19, "match day + club"): match day first (the first four fit a phone's pop-up), the
+           club's own things next, then the season pages, then reading -->
       <a href="#top">Home</a>
+      <a href="#results" id="nav-report" class="two" hidden>Last match report<small id="nav-report-sub"></small></a>
       <a href="#match" id="nav-match">Next match</a>
+      <a href="#watch">Where we watch</a>
       <a href="https://drive.google.com/file/d/1MtXIr2ChQsB0JzQUgdSPDNQ3ZKRH-Z6G/view" target="_blank" rel="noopener">Song Book ↗</a>
+      <a href="#club">Club photos</a>
+      <a href="#injury-list">Team updates</a>
       <a href="#fixtures">Fixtures &amp; results</a>
-      <a href="#injury-list">Injuries</a>
-      <a href="#news">News</a>
       <a href="#standings">Standings</a>
       <a href="#squad">Squad (and Transfers)</a>
+      <a href="#news">News</a>
       <a href="#history">History</a>
       <a href="#top" id="nav-install" role="button" hidden>Install the app</a>
     </nav>
@@ -1068,6 +1241,9 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
   </div>
 </section>
 
+<!-- Today's result, for the rest of match day once the banner has moved on: opens the match report -->
+<div class="rc-band" id="rc-band" hidden><div class="wrap"><a class="rc-card" id="rc-card" href="#results"></a></div></div>
+
 <div id="match" aria-hidden="true"></div>
 <div class="hero" id="top">
   <div class="wrap">
@@ -1112,7 +1288,7 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
       <button class="fm-toggle" id="fm-toggle" type="button" aria-expanded="false" aria-controls="fm-rows">Show results</button>
     </div>
     <div>
-      <div class="fm-head label"><span></span><span>Date</span><span>Opponent</span><span>Comp</span><span>Score</span></div>
+      <div class="fm-head label"><span></span><span>Date</span><span>Opponent</span><span>Comp</span><span>Score</span><span></span></div>
       <div class="fm-rows" id="fm-rows"></div>
       <a class="all-link fm-all" href="#results">All results →</a>
     </div>
@@ -1280,6 +1456,29 @@ footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); displ
   </div>
 </div>
 
+<!-- Match report: one game, from reports/<id>.json (address #report-<date>-<opponent>) -->
+<div class="squad-view" id="report-view" hidden>
+  <div class="wrap">
+    <section aria-labelledby="rp-h">
+      <div class="pin-bar">
+        <div class="sec-head rp-bar">
+          <h2 id="rp-h">Match report</h2>
+          <a class="rp-back" href="#results">‹ All results</a>
+          <!-- Share: the phone's own share menu (link + "Palace 1–3 Liverpool · Match report"); computers copy the link -->
+          <button type="button" class="rp-share" id="rp-share" aria-label="Share this match report" title="Share this match report" hidden>
+            <!-- Two symbols; the script shows the one people know on their device (Apple: box + arrow; others: joined dots) -->
+            <svg class="sh-dots" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3" fill="currentColor"/><circle cx="6" cy="12" r="3" fill="currentColor"/><circle cx="18" cy="19" r="3" fill="currentColor"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>
+            <svg class="sh-apple" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7.5 7.5 12 3l4.5 4.5"/><path d="M8 11H6.5A1.5 1.5 0 0 0 5 12.5v7A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5v-7a1.5 1.5 0 0 0-1.5-1.5H16"/></svg>
+            <span class="rp-copied" aria-live="polite"></span>
+          </button>
+          <span class="rp-pager" id="rp-pager"></span>
+        </div>
+      </div>
+      <div id="rp-body"></div>
+    </section>
+  </div>
+</div>
+
 <footer>
   <div class="wrap">
     <span>LFC Official Supporters Club San Diego · You'll Never Walk Alone</span>
@@ -1311,13 +1510,49 @@ if (document.fonts && document.fonts.ready) document.fonts.ready.then(window.lfc
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 
 // Page data lives in data.json, which the daily GitHub Action rewrites.
-fetch("data.json", { cache: "no-cache" })
-  .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(render)
+// The match reports' index (reports/index.json, its own file; none yet = no report links) comes in alongside.
+Promise.all([
+  fetch("data.json", { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }),
+  fetch("reports/index.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; })
+]).then(function (x) { x[0].reports = Array.isArray(x[1]) ? x[1] : []; render(x[0]); })
   .catch(function () { document.getElementById("next-title").textContent = "Couldn't load match data. Refresh to try again."; });
 
 // Live-score relay (Cloudflare Worker, see worker/live-score.js). Empty = no live score.
 var LIVE_URL = "https://lfc-live.pr-lord.workers.dev/";
+
+// Line-up diagrams (live banner and match reports). Lines from back to front by ESPN's position code; left to right
+// by its side (team's own view)
+var luDepth = function (pos) {
+  var p = String(pos).toUpperCase();
+  return p === "G" || p === "GK" ? 0 : /WB/.test(p) ? 1.5 : /^(D|LB|RB|CD|CB|SW)/.test(p) && !/^DM/.test(p) ? 1 : /^DM/.test(p) ? 2
+    : /^(M|CM|LM|RM)$|^(CM|LM|RM)-/.test(p) ? 3 : /^AM/.test(p) ? 4 : 5;
+};
+// ESPN's slot number (`place`) for each spot, back to front, left to right. Before and during some games it only
+// gives G/D/M/F as positions, so the slots are what place the players; the codes above are the fallback.
+var LU_SLOTS = {
+  "4-2-3-1": [[3, 6, 5, 2], [4, 8], [11, 10, 7], [9]],
+  "4-3-3": [[3, 6, 5, 2], [8, 4, 7], [11, 9, 10]],
+  "4-4-2": [[3, 6, 5, 2], [11, 8, 4, 7], [9, 10]],
+  "4-1-4-1": [[3, 6, 5, 2], [4], [11, 10, 8, 7], [9]],
+  "4-4-1-1": [[3, 6, 5, 2], [11, 8, 4, 7], [10], [9]],
+  "4-5-1": [[3, 6, 5, 2], [11, 8, 10, 4, 7], [9]],
+  "4-3-2-1": [[3, 6, 5, 2], [7, 4, 8], [11, 10], [9]],
+  "4-1-3-2": [[3, 6, 5, 2], [4], [11, 8, 7], [10, 9]],
+  "3-4-2-1": [[4, 5, 6], [3, 8, 7, 2], [11, 10], [9]],
+  "3-4-3": [[4, 5, 6], [3, 8, 7, 2], [11, 9, 10]],
+  "3-5-2": [[4, 5, 6], [3, 8, 11, 7, 2], [9, 10]],
+  "3-1-4-2": [[6, 4, 5], [8], [3, 11, 7, 2], [10, 9]],
+  "5-3-2": [[3, 4, 5, 6, 2], [11, 8, 7], [9, 10]],
+  "5-4-1": [[3, 4, 5, 6, 2], [11, 10, 8, 7], [9]]
+};
+var luSideOf = function (pos) {
+  var p = String(pos).toUpperCase();
+  return /-L$/.test(p) ? 1 : /-R$/.test(p) ? 3 : /^L/.test(p) ? 0 : /^R/.test(p) ? 4 : 2;
+};
+// Match report address for a game: "#report-2026-11-08-crystal-palace" (same rule as update.py's report_id)
+var reportId = function (date, opp) {
+  return date + "-" + (String(opp || "").normalize("NFD").replace(/[^\x00-\x7f]/g, "").toLowerCase().match(/[a-z0-9]+/g) || []).join("-");
+};
 
 // Opponent profile pages: premierleague.com for English clubs, uefa.com (English) for European clubs.
 // Keys are normalised names (see teamKey), so "Brighton & Hove Albion" and "Brighton and Hove Albion" both match.
@@ -1403,6 +1638,12 @@ function render(data) {
   };
   var ptHour = function (d) { return Number(fmt(d, { hour: "numeric", hour12: false })) % 24; };
   var now = Date.now();
+  // Match reports (data.reports, saved by the update after each game), found by the game's date: Liverpool play
+  // once a day at most. repHref gives the report's address, or "" when there's none (yet).
+  var reports = data.reports || [], repByDate = {};
+  reports.forEach(function (r) { repByDate[r.date] = r; });
+  var repHref = function (date) { return repByDate[date] ? "#report-" + repByDate[date].id : ""; };
+  window.lfcData = data;
   // How long a game stays in the banner after kick-off: about an hour after full time, so the final
   // score shows for that hour. A league game ends ~115 min after kick-off (+60 = 175 min); a cup tie can go
   // to extra time and penalties (~150 min, +60 = 210 min).
@@ -1511,30 +1752,7 @@ function render(data) {
       if (luFoldNow !== null) return luFoldNow;
       try { return localStorage.getItem("lfc-lu-folded") === next.kickoff; } catch (e) { return false; }
     };
-    // Lines from back to front by ESPN's position code; left to right by its side (team's own view)
-    var luDepth = function (pos) {
-      var p = String(pos).toUpperCase();
-      return p === "G" || p === "GK" ? 0 : /WB/.test(p) ? 1.5 : /^(D|LB|RB|CD|CB|SW)/.test(p) && !/^DM/.test(p) ? 1 : /^DM/.test(p) ? 2
-        : /^(M|CM|LM|RM)$|^(CM|LM|RM)-/.test(p) ? 3 : /^AM/.test(p) ? 4 : 5;
-    };
-    // ESPN's slot number (`place`) for each spot, back to front, left to right. Before and during some games it only
-    // gives G/D/M/F as positions, so the slots are what place the players; the codes above are the fallback.
-    var LU_SLOTS = {
-      "4-2-3-1": [[3, 6, 5, 2], [4, 8], [11, 10, 7], [9]],
-      "4-3-3": [[3, 6, 5, 2], [8, 4, 7], [11, 9, 10]],
-      "4-4-2": [[3, 6, 5, 2], [11, 8, 4, 7], [9, 10]],
-      "4-1-4-1": [[3, 6, 5, 2], [4], [11, 10, 8, 7], [9]],
-      "4-4-1-1": [[3, 6, 5, 2], [11, 8, 4, 7], [10], [9]],
-      "4-5-1": [[3, 6, 5, 2], [11, 8, 10, 4, 7], [9]],
-      "4-3-2-1": [[3, 6, 5, 2], [7, 4, 8], [11, 10], [9]],
-      "4-1-3-2": [[3, 6, 5, 2], [4], [11, 8, 7], [10, 9]],
-      "3-4-2-1": [[4, 5, 6], [3, 8, 7, 2], [11, 10], [9]],
-      "3-4-3": [[4, 5, 6], [3, 8, 7, 2], [11, 9, 10]],
-      "3-5-2": [[4, 5, 6], [3, 8, 11, 7, 2], [9, 10]],
-      "3-1-4-2": [[6, 4, 5], [8], [3, 11, 7, 2], [10, 9]],
-      "5-3-2": [[3, 4, 5, 6, 2], [11, 8, 7], [9, 10]],
-      "5-4-1": [[3, 4, 5, 6, 2], [11, 10, 8, 7], [9]]
-    };
+    // luDepth, LU_SLOTS and luSideOf are at the top of the script (the match report pages use them too)
     var luSlotLines = function (t, out) {
       var slots = LU_SLOTS[t.formation];
       if (!slots) return null;
@@ -1542,10 +1760,6 @@ function render(data) {
       out.forEach(function (p) { at[+p.place] = p; });
       var lines = slots.map(function (l) { return l.map(function (n) { return at[n]; }); });
       return lines.every(function (l) { return l.every(Boolean); }) ? lines : null;
-    };
-    var luSideOf = function (pos) {
-      var p = String(pos).toUpperCase();
-      return /-L$/.test(p) ? 1 : /-R$/.test(p) ? 3 : /^L/.test(p) ? 0 : /^R/.test(p) ? 4 : 2;
     };
     var luPitch = function (t, opp) {
       var keeper = t.xi.filter(function (p) { return luDepth(p.pos) === 0; })[0] || t.xi.filter(function (p) { return p.place === 1; })[0] || t.xi[0];
@@ -1629,6 +1843,24 @@ function render(data) {
         st.setAttribute("aria-expanded", luSubsOpen); st.textContent = luSubsOpen ? "Hide subs" : "Subs";
       };
     };
+    // After full time, a "Match report →" button under the score. The update saves the report ~15 minutes after the
+    // final whistle, so until its file exists the button says "coming soon" (the file is checked every 2 minutes).
+    var repId = reportId(next.kickoff.slice(0, 10), next.opp), repSeen = !!repByDate[next.kickoff.slice(0, 10)], repAsked = 0;
+    var repButtonHtml = function () {
+      return repSeen ? "<a class=\"rp-go\" href=\"#report-" + repId + "\">Match report →</a>" : "<span class=\"rp-go wait\">Match report coming soon</span>";
+    };
+    var repButton = function () {
+      if (!repSeen && Date.now() - repAsked > 115e3) {
+        repAsked = Date.now();
+        fetch("reports/" + repId + ".json", { method: "HEAD", cache: "no-store" }).then(function (r) {
+          if (!r.ok) return;
+          repSeen = true;
+          var b = document.querySelector(".scoreline .rp-go");
+          if (b) b.outerHTML = repButtonHtml();
+        }).catch(function () { /* try again on the next poll */ });
+      }
+      return repButtonHtml();
+    };
     // More than 15 minutes before kick-off only the line-ups can change, so ask every 2 minutes, then every 30 seconds
     var lastAsk = 0;
     var pollLive = function () {
@@ -1681,7 +1913,7 @@ function render(data) {
         };
         cd.innerHTML = "<div class=\"scoreline\" role=\"status\">" + side(s.home) +
           "<span class=\"sc\">" + esc(s.home.score) + pk(pens && pens.home) + "<i>–</i>" + esc(s.away.score) + pk(pens && pens.away) + "</span>" + side(s.away) +
-          "<span class=\"st\">" + esc(state) + "</span>" + matchEvents(s.events) + "</div>";
+          "<span class=\"st\">" + esc(state) + "</span>" + matchEvents(s.events) + (s.status === "FINISHED" ? repButton() : "") + "</div>";
         cd.querySelectorAll("img.crest").forEach(function (img) {
           img.addEventListener("error", function () { img.replaceWith(document.createTextNode(img.dataset.abbr)); });
         });
@@ -1759,6 +1991,7 @@ function render(data) {
     "Manchester United": "Man Utd", "Manchester City": "Man City", "Nottingham Forest": "Nott'm Forest", "West Ham United": "West Ham",
     "Newcastle United": "Newcastle", "Leeds United": "Leeds", "West Bromwich Albion": "West Brom", "Sheffield United": "Sheffield Utd",
     "Crystal Palace": "Palace" };
+  window.lfcShort = SHORT_NAMES;   // the match report pages use the same short names
   var compTag = function (c) {
     var t = /^Premier/.test(c) ? ["", "PL"] : /^Champions/.test(c) ? ["ucl", "UCL"] : /^(Carabao|League Cup)/.test(c) ? ["cup", "Carabao"]
       : /^FA Cup/.test(c) ? ["cup", "FA Cup"] : ["", c];
@@ -1768,15 +2001,19 @@ function render(data) {
   var dash = function (s) { return esc(String(s || "").replace(/\s*\(pens?\)\s*$/i, "").replace("-", "–")); };
   document.getElementById("fm-label").textContent = "Recent form" + (recent.length ? " · last " + recent.length : "");
   document.getElementById("fm-sqs").innerHTML = recent.map(function (r, i) {
-    return "<span class=\"fm-sq " + r.r + (i === 0 ? " latest" : "") + "\" title=\"" + esc(rdate(r.date) + ": " + (r.ha === "H" ? "v " : "@ ") + r.opp + " " + r.score) + "\">" + r.r + "</span>";
+    var h = repHref(r.date), tag = h ? "a" : "span";
+    return "<" + tag + (h ? " href=\"" + h + "\"" : "") + " class=\"fm-sq " + r.r + (i === 0 ? " latest" : "") + "\" title=\"" + esc(rdate(r.date) + ": " + (r.ha === "H" ? "v " : "@ ") + r.opp + " " + r.score + (h ? " · match report" : "")) + "\">" + r.r + "</" + tag + ">";
   }).join("");
   var n = { W: 0, D: 0, L: 0 }; recent.forEach(function (r) { n[r.r] = (n[r.r] || 0) + 1; });
   document.getElementById("fm-tally").innerHTML = [n.W && "<b>" + n.W + "</b> won", n.D && "<b>" + n.D + "</b> drawn", n.L && "<b>" + n.L + "</b> lost"].filter(Boolean).join(", ");
+  // Each row opens its match report (a small › at the end) once there is one
   document.getElementById("fm-rows").innerHTML = recent.map(function (r) {
-    return "<div class=\"fm-row\"><span class=\"fm-b " + r.r + "\">" + r.r + "</span><span class=\"dt\">" + esc(rdate(r.date)) + "</span>" +
+    var h = repHref(r.date);
+    return (h ? "<a class=\"fm-row\" href=\"" + h + "\" title=\"Match report\">" : "<div class=\"fm-row\">") +
+      "<span class=\"fm-b " + r.r + "\">" + r.r + "</span><span class=\"dt\">" + esc(rdate(r.date)) + "</span>" +
       "<span class=\"opp\" title=\"" + esc(r.opp) + "\"><span class=\"va\">" + (r.ha === "H" ? "v" : "@") + "</span>" + esc(SHORT_NAMES[r.opp] || r.opp) +
       (r.pens ? "<small>Pens " + dash(r.pens) + "</small>" : "") + "</span>" +
-      compTag(r.comp) + "<span class=\"sc\">" + dash(r.score) + "</span></div>";
+      compTag(r.comp) + "<span class=\"sc\">" + dash(r.score) + "</span><span class=\"go\" aria-hidden=\"true\">" + (h ? "›" : "") + "</span>" + (h ? "</a>" : "</div>");
   }).join("");
   var lfcRow = data.table && (data.table.rows || []).filter(function (r) { return r.team === "Liverpool"; })[0];
   var tiles = document.getElementById("fm-tiles");
@@ -1798,6 +2035,31 @@ function render(data) {
     fmRows.classList.toggle("open", open);
   };
 
+  // Latest match report: the menu item "Last match report" (always), and a card above the banner for the rest of match
+  // day (Pacific) once the banner has moved on (~1 hour after full time)
+  var lastRep = reports[reports.length - 1];
+  if (lastRep) {
+    var pk2 = function (a, b) { return a + (lastRep.pens ? " (" + b + ")" : ""); };
+    var rs = lastRep.score.split("-"), rp = (lastRep.pens || "-").split("-");
+    var us = pk2(rs[0], rp[0]), them = pk2(rs[1], rp[1]), oppS = SHORT_NAMES[lastRep.opp] || lastRep.opp;
+    var line = lastRep.ha === "H" ? "Liverpool " + us + "–" + them + " " + oppS : oppS + " " + them + "–" + us + " Liverpool";
+    var navRep = document.getElementById("nav-report");
+    navRep.href = "#report-" + lastRep.id;
+    navRep.hidden = false;
+    document.getElementById("nav-report-sub").textContent = line;
+    var lk = new Date(lastRep.kickoff);
+    if (fmt(lk, { year: "numeric", month: "2-digit", day: "2-digit" }) === fmt(new Date(), { year: "numeric", month: "2-digit", day: "2-digit" }) &&
+        Date.now() > lk.getTime() + holdMs(lastRep)) {
+      var card = document.getElementById("rc-card");
+      var who = lastRep.scorers.map(function (s) { return s === "og" ? "own goal" : s; }).join(", ");
+      card.href = "#report-" + lastRep.id;
+      card.className = "rc-card " + lastRep.r;
+      card.innerHTML = "<span class=\"fm-b " + lastRep.r + "\">" + lastRep.r + "</span><span><span class=\"label\">Today's result · " + esc(lastRep.comp) + "</span>" +
+        "<b>" + esc(line) + "</b><small>" + esc([who, lastRep.pos].filter(Boolean).join(" · ")) + "</small></span><span class=\"go\">Match report →</span>";
+      document.getElementById("rc-band").dataset.on = "1";   // shown by route (home page only)
+    }
+  }
+
   // Past meetings with the next opponent, in the banner: "Last 5 v Palace", squares (newest first), tally, and
   // "Details" opening the games (date, v / @ / at Wembley-type neutral, competition, score with Liverpool's goals first)
   var h2hBox = document.getElementById("next-h2h"), h2h = next && next.h2h || [];
@@ -1817,7 +2079,10 @@ function render(data) {
       "<button type=\"button\" class=\"h2h-more\" aria-expanded=\"false\" aria-controls=\"h2h-list\">Details ▾</button></div>" +
       "<ul class=\"h2h-list\" id=\"h2h-list\">" + h2h.map(function (m) {
         return "<li><span class=\"h2h-sq " + m.r + "\">" + m.r + "</span><span class=\"dt\">" + esc(mdate(m, { month: "short" }) + " '" + m.date.slice(2, 4)) + "</span>" +
-          "<span class=\"who\">" + where(m) + esc(oppShort) + "<small>" + esc(what(m)) + "</small></span><span class=\"sc\">" + esc(m.score.replace("-", "–")) + "</span></li>";
+          "<span class=\"who\">" + where(m) + esc(oppShort) + "<small>" + esc(what(m)) + "</small></span>" +
+          // A meeting this season links to its match report
+          (repHref(m.date) ? "<a class=\"sc\" href=\"" + repHref(m.date) + "\" title=\"Match report\">" + esc(m.score.replace("-", "–")) + " ›</a>"
+            : "<span class=\"sc\">" + esc(m.score.replace("-", "–")) + "</span>") + "</li>";
       }).join("") + "</ul>";
     var h2hBtn = h2hBox.querySelector(".h2h-more"), h2hList = h2hBox.querySelector(".h2h-list");
     h2hBtn.onclick = function () {
@@ -1985,7 +2250,8 @@ function render(data) {
           "<span class=\"comp" + (/champions/i.test(r.comp) ? " intl" : "") + "\">" + esc(r.comp + (r.round ? " · " + r.round : "")) + "</span>" +
           (r.pens ? "<span>" + (res === "W" ? "Won" : "Lost") + " on penalties</span>" : "") + "</div></div>" +
         "<div class=\"t rs-t\"><span class=\"rs-score\">" + (r.pens ? resultScore(r) : esc(String(r.score).replace("-", "–"))) + "</span>" +
-          "<span class=\"fm-b " + res + "\">" + res + "</span></div>" +
+          "<span class=\"fm-b " + res + "\">" + res + "</span>" +
+          (repHref(r.date) ? "<a class=\"rs-rep\" href=\"" + repHref(r.date) + "\" aria-label=\"Match report: " + esc((r.ha === "H" ? "v " : "@ ") + r.opp) + "\">Report</a>" : "") + "</div>" +
         "</div>";
     });
     document.getElementById("rs-list").innerHTML = html || "<p class=\"note\">No " + (COMP_NAMES[filter] ? esc(COMP_NAMES[filter]) + " " : "") + "results yet this season.</p>";
@@ -2151,7 +2417,8 @@ function render(data) {
     var rows = played.map(function (r) {
       return "<tr><td class=\"rd\">" + esc(round(r.comp)) + "</td><td class=\"dt\">" + esc(day(r.date)) + "</td>" +
         "<td class=\"tm\">" + (r.ha === "H" ? "v " : "@ ") + teamLink(r.opp) + "</td>" +
-        "<td class=\"res\">" + resultScore(r) + "<b class=\"" + r.r + "\">" + r.r + "</b></td></tr>";
+        "<td class=\"res\">" + resultScore(r) + "<b class=\"" + r.r + "\">" + r.r + "</b>" +
+        (repHref(r.date) ? "<a class=\"cup-rep\" href=\"" + repHref(r.date) + "\">Match report ›</a>" : "") + "</td></tr>";
     }).concat(coming.map(function (f) {
       return "<tr><td class=\"rd\">" + esc(round(f.comp)) + "</td><td class=\"dt\">" + (f.dateTbc ? weekOf(f) : fmt(f.d, { month: "short", day: "numeric" })) + "</td>" +
         "<td class=\"tm\">" + (f.ha === "H" ? "v " : "@ ") + teamLink(f.opp) + "</td>" +
@@ -2436,13 +2703,18 @@ function render(data) {
                 "#history": { el: document.getElementById("history-view"), ok: true },
                 "#fixtures": { el: document.getElementById("fixtures-view"), ok: true },
                 "#results": { el: document.getElementById("fixtures-view"), ok: true },   // same page, Results tab
-                "#news": { el: document.getElementById("news-view"), ok: true } };
+                "#news": { el: document.getElementById("news-view"), ok: true },
+                "#report": { el: document.getElementById("report-view"), ok: true } };   // #report-<date>-<opponent>
   var route = function () {
     if (location.hash === "#table") { history.replaceState(null, "", "#standings"); }
     if (location.hash === "#fixtures") openFr("up");
     if (location.hash === "#results") openFr("res");
     if (location.hash === "#injury-list" && window.lfcOpenInjuries) window.lfcOpenInjuries();
-    var cur = views[location.hash] && views[location.hash].ok ? location.hash : "";
+    var rep = /^#report-(\d{4}-\d{2}-\d{2}-[a-z0-9-]+)$/.exec(location.hash);
+    var cur = rep ? "#report" : views[location.hash] && views[location.hash].ok ? location.hash : "";
+    if (rep) window.lfcReport(rep[1], data);
+    var rc = document.getElementById("rc-band");
+    rc.hidden = !!cur || !rc.dataset.on;
     // Two addresses (#fixtures, #results) share one page, so compare the page, not the address
     Object.keys(views).forEach(function (k) { views[k].el.hidden = !cur || views[k].el !== views[cur].el; });
     mainParts.forEach(function (el) { if (el) el.hidden = !!cur; });
@@ -2478,6 +2750,268 @@ function render(data) {
   document.getElementById("updated").textContent = updText;
   document.getElementById("news-upd").textContent = updText;
 }
+</script>
+
+<script>
+// Match report page (#report-<date>-<opponent>): reports/<id>.json, saved by the update after each game (score,
+// half-time, goals / cards / subs, team stats and line-ups from ESPN; league position after the game; a short
+// automatic write-up; links to the BBC / Guardian / Echo / Sky reports). Opened by route() in the main script.
+(function () {
+  var TZ = "America/Los_Angeles";
+  var fmt = function (d, o) { return new Intl.DateTimeFormat("en-US", Object.assign({ timeZone: TZ }, o)).format(d); };
+  var esc = function (s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); };
+  var body = document.getElementById("rp-body"), pager = document.getElementById("rp-pager");
+  var NAMES = { "Alisson Becker": "Alisson", "Gabriel Magalhães": "Gabriel" };
+  var mins = function (m) { return String(m || "").replace(/'\+/, "+").replace(/'/g, "′"); };
+  var minN = function (m) { var p = String(m).replace(/'/g, "").split("+"); return (+p[0] || 0) + (+p[1] || 0) / 100; };
+  var ord = function (n) { var s = ["th", "st", "nd", "rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); };
+  var short = function (opp) { return (window.lfcShort || {})[opp] || opp; };
+  var cache = {}, cur = "", hasCard = false;
+
+  // Share icon: phones and tablets open their own share menu (WhatsApp, Messages, Instagram, Facebook, X...) with the
+  // report's link; computers copy the link and say so. Nothing is posted by the site itself.
+  var shareBtn = document.getElementById("rp-share"), shareTip = shareBtn.querySelector(".rp-copied"), share = null, tipT = 0;
+  // The symbol people know on their device: Apple's box + arrow on iPhone, iPad (which can report itself as a Mac)
+  // and Mac; the joined dots on Android, Windows and the rest
+  var ua = navigator.userAgent || "";
+  if (/iPhone|iPad|iPod|Macintosh|Mac OS X/.test(ua)) shareBtn.classList.add("apple");
+  var tip = function (s) {
+    shareTip.textContent = s; shareTip.classList.add("on");
+    clearTimeout(tipT); tipT = setTimeout(function () { shareTip.classList.remove("on"); }, 1800);
+  };
+  var copy = function (text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(text);
+    return new Promise(function (ok, no) {   // older browsers
+      var t = document.createElement("textarea"); t.value = text; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+      document.body.appendChild(t); t.select();
+      try { document.execCommand("copy") ? ok() : no(); } catch (e) { no(e); } document.body.removeChild(t);
+    });
+  };
+  shareBtn.addEventListener("click", function () {
+    if (!share) return;
+    var touch = window.matchMedia && matchMedia("(pointer: coarse)").matches;
+    if (touch && navigator.share) { navigator.share({ title: share.title, text: share.title, url: share.url }).catch(function () { /* closed */ }); return; }
+    copy(share.url).then(function () { tip("Link copied"); }, function () { tip("Copy the address from the address bar"); });
+  });
+
+  window.lfcReport = function (id, data) {
+    cur = id;
+    share = null; shareBtn.hidden = true;   // shown once the report has loaded
+    var list = data.reports || [], i = -1;
+    list.forEach(function (r, k) { if (r.id === id) i = k; });
+    var step = function (r, lab) {
+      return r ? "<a href=\"#report-" + esc(r.id) + "\" title=\"" + esc(r.comp) + "\">" + lab + "</a>" : "";
+    };
+    var p = list[i - 1], n = list[i + 1];
+    hasCard = !!(list[i] && list[i].card);
+    pager.innerHTML = i < 0 ? "" : (p ? step(p, "‹ " + (p.ha === "H" ? "v " : "@ ") + esc(short(p.opp))) : "<span>‹ First game</span>") +
+      (n ? step(n, (n.ha === "H" ? "v " : "@ ") + esc(short(n.opp)) + " ›") : "<span>Latest ›</span>");
+    if (window.lfcPinBars) window.lfcPinBars();
+    if (cache[id]) { draw(cache[id], data); return; }
+    body.innerHTML = "<p class=\"rp-msg\">Loading the match report…</p>";
+    fetch("reports/" + id + ".json", { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (R) { cache[id] = R; if (cur === id) draw(R, data); })
+      .catch(function () {
+        if (cur === id) body.innerHTML = "<p class=\"rp-msg\">This match report isn't available yet. <a href=\"#results\">See all results</a>.</p>";
+      });
+  };
+
+  function draw(R, data) {
+    var home = R.ha === "H";
+    var side = function (s) { return (s === "lfc") === home ? "h" : "a"; };   // left (home) or right (away)
+    var nm = {};
+    ["lfc", "opp"].forEach(function (s) {
+      var t = (R.lineups || {})[s];
+      if (t) t.xi.concat(t.subs).forEach(function (p) { nm[p.full] = NAMES[p.full] || p.name || p.full; });
+    });
+    var sname = function (full) { return nm[full] || String(full || "").split(" ").slice(-1)[0]; };
+    var ko = new Date(R.kickoff);
+    var hs = home ? "lfc" : "opp", as = home ? "opp" : "lfc";
+    var pk = function (s) { return R.pens ? " <small>(" + R.pens[s] + ")</small>" : ""; };
+    var isGoal = function (e) { return e.kind === "goal" || e.kind === "pen" || e.kind === "og"; };
+    // What the share icon hands over: "Crystal Palace 1–3 Liverpool · Match report" (home team first) and this page's link
+    var sp = function (s) { return R.score[s] + (R.pens ? " (" + R.pens[s] + ")" : ""); };
+    share = { title: (home ? "Liverpool " + sp("lfc") + "–" + sp("opp") + " " + R.opp : R.opp + " " + sp("opp") + "–" + sp("lfc") + " Liverpool") + " · Match report",
+              // r/<id> carries this game's link preview (picture, score, first line) and opens the report; without
+              // a share card yet, the report's own address
+              url: location.origin + location.pathname.replace(/[^/]*$/, "") + (hasCard ? "r/" + R.id : "#report-" + R.id) };
+    shareBtn.hidden = false;
+
+    // Score banner: home team on the left, scorers (and red cards) under each team
+    var team = function (s) {
+      var lfc = s === "lfc";
+      // Crests from ESPN, as in the live banner (Liverpool = ESPN team 364); the abbreviation if a picture fails
+      var badge = lfc ? "<span class=\"rp-bdg\"><img src=\"https://a.espncdn.com/i/teamlogos/soccer/500/364.png\" alt=\"\" data-abbr=\"LFC\"></span>"
+        : "<span class=\"rp-bdg opp\">" + (R.oppLogo ? "<img src=\"" + esc(R.oppLogo) + "\" alt=\"\" data-abbr=\"" + esc(R.oppAbbr) + "\">" : esc(R.oppAbbr || "")) + "</span>";
+      var lines = R.events.filter(function (e) { return e.side === s && (isGoal(e) || e.kind === "red"); }).map(function (e) {
+        return "<li>" + (e.kind === "red" ? "<i class=\"rc\" aria-label=\"Red card\"></i>" : "<span class=\"b\" aria-hidden=\"true\">⚽ </span>") + esc(sname(e.player)) + " " + mins(e.min) +
+          (e.kind === "pen" ? " (pen)" : e.kind === "og" ? " (og)" : "") + (e.assist ? "<small>assist " + esc(sname(e.assist)) + "</small>" : "") + "</li>";
+      }).join("");
+      return "<div class=\"rp-tm\">" + badge + "<b>" + esc(lfc ? "Liverpool" : R.opp) + "</b><ul class=\"rp-gl\">" + lines + "</ul></div>";
+    };
+    var g = R.ground || {}, abroad = g.country && g.country !== "England";
+    var won = R.pens && (R.pens.lfc > R.pens.opp ? "Liverpool" : R.opp);
+    var ft = "Full-time" + (R.aet && !R.pens ? " · after extra time" : "") +
+      (R.pens ? " · " + won + " win " + Math.max(R.pens.lfc, R.pens.opp) + "–" + Math.min(R.pens.lfc, R.pens.opp) + " on penalties" : "") +
+      " · HT " + R.ht[hs] + "–" + R.ht[as];
+    var html = "<div class=\"rp-hero\"><div class=\"rp-meta\"><span class=\"rp-tag\">" + esc(R.comp) + "</span><span>" +
+      fmt(ko, { weekday: "short", month: "short", day: "numeric", year: "numeric" }) + " · " + fmt(ko, { hour: "numeric", minute: "2-digit" }) + " PT</span>" +
+      (g.name ? "<span>" + esc(g.name + (abroad ? ", " + [g.city, g.country].filter(Boolean).join(", ") : "")) + "</span>" : "") +
+      (R.attendance ? "<span>Attendance " + Number(R.attendance).toLocaleString("en-US") + "</span>" : "") + "</div>" +
+      "<div class=\"rp-sc\">" + team(hs) + "<div class=\"rp-mid\"><div class=\"rp-num\" aria-label=\"Score\">" + R.score[hs] + pk(hs) + "<i>–</i>" + R.score[as] + pk(as) + "</div>" +
+      "<div class=\"rp-ft\">" + esc(ft) + "</div><span class=\"rp-res " + R.r + "\">" + ({ W: "WIN", D: "DRAW", L: "LOSS" }[R.r] || "") + "</span></div>" +
+      team(as) + "</div></div>";
+
+    // What it means: league position / points / record, or the cup outcome; and the next game
+    var tiles = "", T = R.table;
+    if (T) {
+      var move = T.before == null || T.before === T.pos ? (T.before == null ? "after " + T.played + " games" : "no change")
+        : (T.before > T.pos ? "up from " : "down from ") + ord(T.before);
+      var got = R.r === "W" ? "+3 today" : R.r === "D" ? "+1 today" : "no points today";
+      tiles += "<a class=\"rp-tile\" href=\"#standings\"><small>" + esc(T.comp) + (T.comp === "Champions League" ? " · league phase" : "") + "</small><b>" + ord(T.pos) + "</b> <em>" + move + "</em></a>" +
+        "<div class=\"rp-tile\"><small>Points</small><b>" + T.pts + "</b> <em>" + got + "</em></div>" +
+        "<div class=\"rp-tile\"><small>Record</small><b>" + T.w + "-" + T.d + "-" + T.l + "</b> <em>W-D-L · " + T.played + " games</em></div>";
+    } else if (!/^(Premier|Champions)/.test(R.comp)) {
+      var final = /final$/i.test(R.comp) && !/(quarter|semi)/i.test(R.comp);
+      var out = R.r === "W" ? (final ? "Winners" : "Through") : "Knocked out";
+      tiles += "<div class=\"rp-tile\"><small>" + esc(R.comp) + "</small><b>" + out + "</b>" + (R.pens ? " <em>on penalties</em>" : !final && R.r === "W" ? " <em>to the next round</em>" : "") + "</div>";
+    }
+    var later = (data.results || []).filter(function (r) { return r.date > R.id.slice(0, 10); }).sort(function (a, b) { return a.date < b.date ? -1 : 1; })[0];
+    var nextFx = (data.fixtures || []).filter(function (f) { return !f.dateTbc && f.kickoff > R.kickoff; })[0];
+    if (later) {
+      var lr = (data.reports || []).filter(function (r) { return r.date === later.date; })[0];
+      tiles += "<a class=\"rp-tile nx\" href=\"" + (lr ? "#report-" + esc(lr.id) : "#results") + "\"><small>Next game</small><b>" + (later.ha === "H" ? "v " : "@ ") + esc(short(later.opp)) + "</b>" +
+        "<span>" + esc(new Intl.DateTimeFormat("en-US", { timeZone: "UTC", month: "short", day: "numeric" }).format(new Date(later.date + "T12:00:00Z"))) + " · " +
+        ({ W: "Won", D: "Drew", L: "Lost" }[later.r] || "") + " " + esc(String(later.score).replace("-", "–")) + (lr ? " · Report →" : "") + "</span></a>";
+    } else if (nextFx) {
+      var nd = new Date(nextFx.kickoff);
+      tiles += "<a class=\"rp-tile nx\" href=\"#fixtures\"><small>Next up</small><b>" + (nextFx.ha === "H" ? "v " : "@ ") + esc(short(nextFx.opp)) + "</b>" +
+        "<span>" + fmt(nd, { weekday: "short", month: "short", day: "numeric" }) + " · " + fmt(nd, { hour: "numeric", minute: "2-digit" }) + " PT →</span></a>";
+    }
+    if (tiles) html += "<div class=\"rp-means\">" + tiles + "</div>";
+
+    if (R.story) html += "<div class=\"rp-card rp-story\"><h3 class=\"rp-h\">The game</h3><p>" + esc(R.story) + "</p>" +
+      "<div class=\"by\">Summary written automatically from the match data.</div></div>";
+
+    // Key moments: a strip from kick-off to full time, then every event by minute (substitutions folded)
+    var end = R.aet ? 125 : 95, pct = function (m) { return Math.min(100, minN(m) / end * 100); };
+    var marks = R.events.filter(function (e) { return e.kind !== "sub"; }).map(function (e) {
+      var card = e.kind === "yellow" || e.kind === "red";
+      return "<span class=\"rp-m " + e.side + (card ? " bk" + (e.kind === "red" ? " red" : "") : " g") + "\" style=\"left:" + pct(e.min).toFixed(1) + "%\" title=\"" +
+        esc(mins(e.min) + " " + sname(e.player)) + "\">" + (card ? "" : "⚽") + "</span>";
+    }).join("");
+    var tl = "<div class=\"rp-tl\" aria-hidden=\"true\">" + marks + "<span class=\"htm\" style=\"left:" + (45 / end * 100).toFixed(1) + "%\"></span>" +
+      (R.aet ? "<span class=\"htm\" style=\"left:" + (90 / end * 100).toFixed(1) + "%\"></span>" : "") +
+      "<span class=\"lab\" style=\"left:0\">0′</span><span class=\"lab\" style=\"left:" + (45 / end * 100).toFixed(1) + "%\">HT</span>" +
+      "<span class=\"lab\" style=\"left:" + (90 / end * 100).toFixed(1) + "%\">90′</span>" + (R.aet ? "<span class=\"lab\" style=\"left:" + (120 / end * 100).toFixed(1) + "%\">120′</span>" : "") + "</div>";
+    var rows = "", htDone = false, etDone = false, nSubs = 0;
+    R.events.forEach(function (e) {
+      var n = minN(e.min);
+      if (!htDone && n >= 46 && !/^45'\+/.test(e.min)) { rows += "<li><span class=\"htl\">Half-time " + R.ht[hs] + "–" + R.ht[as] + "</span></li>"; htDone = true; }
+      if (R.aet && !etDone && n >= 91 && !/^90'\+/.test(e.min)) { rows += "<li><span class=\"htl\">Extra time</span></li>"; etDone = true; }
+      var ic = isGoal(e) ? "<i class=\"ic g\" aria-label=\"Goal\">⚽</i>" : e.kind === "sub" ? "<i class=\"ic sub\" aria-label=\"Substitution\">⇄</i>"
+        : "<i class=\"ic " + e.kind + "\" aria-label=\"" + (e.kind === "red" ? "Red card" : "Yellow card") + "\"></i>";
+      var txt = e.kind === "sub" ? "<b>" + esc(sname(e.player)) + "</b> on for " + esc(sname(e.off))
+        : "<b>" + esc(sname(e.player) || "Team staff") + "</b>" + (e.kind === "pen" ? " (pen)" : e.kind === "og" ? " (og)" : "") +
+          (e.assist ? " <small>assist " + esc(sname(e.assist)) + "</small>" : "");
+      if (e.kind === "sub") nSubs++;
+      rows += "<li" + (e.kind === "sub" ? " class=\"sub\"" : "") + ">" + (side(e.side) === "h"
+        ? "<span class=\"h\">" + txt + ic + "</span><span class=\"mn\">" + mins(e.min) + "</span><span></span>"
+        : "<span></span><span class=\"mn\">" + mins(e.min) + "</span><span class=\"a\">" + ic + txt + "</span>") + "</li>";
+    });
+    html += "<div class=\"rp-cols\"><div class=\"rp-card\"><h3 class=\"rp-h\">Key moments</h3>" + tl + "<ul class=\"rp-ev\">" + rows + "</ul>" +
+      (nSubs ? "<button type=\"button\" class=\"rp-subs-t\" aria-expanded=\"false\">Show substitutions (" + nSubs + ")</button>" : "") + "</div>";
+
+    // Team stats: Liverpool always on the left
+    if (R.stats && R.stats.length) {
+      html += "<div class=\"rp-card\"><h3 class=\"rp-h\">Match stats</h3><div class=\"rp-sk\"><span>Liverpool</span><span>" + esc(R.opp) + "</span></div><div class=\"rp-st\">" +
+        R.stats.map(function (s) {
+          var a = +s.lfc, b = +s.opp, tot = a + b || 1, u = s.unit === "%" ? "%" : "";
+          var wa = u ? a : a / tot * 100, wb = u ? b : b / tot * 100;
+          var lowGood = /Fouls|Yellow|Red|Offsides/.test(s.label);
+          var lead = a !== b && (a > b) !== lowGood ? " lead-l" : "";
+          return "<div class=\"rp-sr" + lead + "\"><div class=\"lb\"><b>" + (Math.round(a * 10) / 10) + u + "</b><span>" + esc(s.label) + "</span><b>" + (Math.round(b * 10) / 10) + u + "</b></div>" +
+            "<div class=\"bars\" aria-hidden=\"true\"><i class=\"l\" style=\"--w:" + wa.toFixed(1) + "%\"></i><i class=\"r\" style=\"--w:" + wb.toFixed(1) + "%\"></i></div></div>";
+        }).join("") + "</div></div>";
+    }
+    html += "</div>";
+
+    // Line-ups at full time (the live banner's pitch): who finished in each spot, goals marked on the shirt
+    if (R.lineups && R.lineups.lfc) {
+      html += "<div class=\"rp-card rp-lu\"><div class=\"rp-lu-head\"><h3 class=\"rp-h\">Line-ups</h3><span class=\"lu-tabs\">" +
+        "<button type=\"button\" data-s=\"lfc\" class=\"on\" aria-pressed=\"true\">Liverpool</button>" +
+        (R.lineups.opp ? "<button type=\"button\" data-s=\"opp\" aria-pressed=\"false\">" + esc(R.opp) + "</button>" : "") +
+        "</span><span class=\"lu-fm\" id=\"rp-fm\"></span></div><div class=\"lu-grid\"><div id=\"rp-pitch\"></div><div class=\"lu-subs\" id=\"rp-subs\" style=\"display:block\"></div></div></div>";
+    }
+
+    if (R.links && R.links.length) {
+      html += "<div><h3 class=\"rp-h\">Match reports</h3><div class=\"rp-links\">" + R.links.map(function (l) {
+        var u = l.amp === true && /^https:\/\/www\.liverpoolecho\.co\.uk\/[^?#]*-\d+$/.test(l.url) ? l.url + ".amp" : l.url;
+        return /^https?:\/\//.test(u) ? "<a href=\"" + esc(u) + "\" target=\"_blank\" rel=\"noopener\"><small>" + esc(l.source) + "</small><b>" + esc(l.title) + "</b><span>Read it ↗</span></a>" : "";
+      }).join("") + "</div></div>";
+    }
+    html += "<p class=\"rp-src\">Match data from ESPN" + (T ? "; league position worked out from football-data.org's results" : "") + ". Times are Pacific.</p>";
+    body.innerHTML = html;
+
+    body.querySelectorAll(".rp-bdg img").forEach(function (img) {
+      img.addEventListener("error", function () { img.replaceWith(document.createTextNode(img.dataset.abbr || "")); });
+    });
+    var st = body.querySelector(".rp-subs-t");
+    if (st) st.onclick = function () {
+      var on = st.getAttribute("aria-expanded") !== "true";
+      st.setAttribute("aria-expanded", on);
+      body.querySelectorAll(".rp-ev li.sub").forEach(function (li) { li.classList.toggle("show", on); });
+      st.textContent = (on ? "Hide" : "Show") + " substitutions (" + nSubs + ")";
+    };
+
+    // Pitch
+    var scored = {};
+    R.events.forEach(function (e) { if (e.kind === "goal" || e.kind === "pen") scored[e.player] = (scored[e.player] || 0) + 1; });
+    var pitch = function (t, opp) {
+      var keeper = t.xi.filter(function (p) { return +p.place === 1; })[0] || t.xi.filter(function (p) { return luDepth(p.pos) === 0; })[0] || t.xi[0];
+      var outf = t.xi.filter(function (p) { return p !== keeper; });
+      var at = {}; outf.forEach(function (p) { at[+p.place] = p; });
+      var lines = (LU_SLOTS[t.formation] || []).map(function (l) { return l.map(function (n) { return at[n]; }); });
+      var slotted = lines.length && lines.every(function (l) { return l.every(Boolean); });
+      if (!slotted) {
+        lines = [];
+        outf.sort(function (a, b) { return luDepth(a.pos) - luDepth(b.pos) || luSideOf(a.pos) - luSideOf(b.pos); })
+          .forEach(function (p) { var l = lines[lines.length - 1]; if (l && luDepth(l[0].pos) === luDepth(p.pos)) l.push(p); else lines.push([p]); });
+      }
+      var spot = function (p, x, y) {
+        var c = p.on || p, n = (scored[p.full] || 0) + (p.on ? scored[p.on.full] || 0 : 0);
+        return "<div class=\"lu-pl" + (p === keeper ? " gk" : "") + (p.on ? " sub" : "") + "\" style=\"left:" + x.toFixed(1) + "%;top:" + y.toFixed(1) + "%\" title=\"" +
+          esc(c.full + (p.on ? " (on " + mins(c.at) + " for " + p.full + ")" : "")) + "\"><i>" + esc(c.no) +
+          (n ? "<span class=\"gs\" aria-label=\"" + n + " goal" + (n > 1 ? "s" : "") + "\">" + (n > 1 ? n : "⚽") + "</span>" : "") + "</i><span>" + esc(NAMES[c.full] || c.name) + "</span></div>";
+      };
+      var h = "<div class=\"lu-pitch" + (opp ? " opp" : "") + "\"><span class=\"bx\"></span><span class=\"bx6\"></span><span class=\"arc\"></span>" + spot(keeper, 50, 88);
+      lines.forEach(function (line, k) {
+        var y = lines.length > 1 ? 70 - k * 59 / (lines.length - 1) : 40, gap = line.length > 1 ? Math.min(34, 76 / (line.length - 1)) : 0;
+        line.forEach(function (p, i) { h += spot(p, 50 + (i - (line.length - 1) / 2) * gap, y); });
+      });
+      return h + "</div>";
+    };
+    var showSide = function (s) {
+      var t = R.lineups[s];
+      if (!t) return;
+      body.querySelector("#rp-pitch").innerHTML = pitch(t, s === "opp");
+      body.querySelector("#rp-fm").textContent = t.formation || "";
+      var used = t.subs.filter(function (x) { return x.came; }), unused = t.subs.filter(function (x) { return !x.came; });
+      var li = function (x, came) {
+        return "<li" + (came ? "" : " class=\"unused\"") + "><span class=\"mono\">" + esc(x.no) + "</span><span>" + esc(x.full) +
+          (came ? "<span class=\"lu-came\">On " + esc(mins(x.came.at)) + " for " + esc(x.came.for) + "</span>" : "") + "</span></li>";
+      };
+      body.querySelector("#rp-subs").innerHTML = (used.length ? "<h3 class=\"label\">Came on</h3><ul>" + used.map(function (x) { return li(x, true); }).join("") + "</ul>" : "") +
+        (unused.length ? "<h3 class=\"label\" style=\"margin-top:14px\">Unused</h3><ul>" + unused.map(function (x) { return li(x, false); }).join("") + "</ul>" : "");
+      body.querySelectorAll(".rp-lu .lu-tabs button").forEach(function (b) { b.classList.toggle("on", b.dataset.s === s); b.setAttribute("aria-pressed", String(b.dataset.s === s)); });
+    };
+    if (R.lineups && R.lineups.lfc) {
+      body.querySelectorAll(".rp-lu .lu-tabs button").forEach(function (b) { b.onclick = function () { showSide(b.dataset.s); }; });
+      showSide("lfc");
+    }
+  }
+})();
 </script>
 
 <script>
@@ -2695,6 +3229,14 @@ window.lfcCarouselMotion = function () {
     e.preventDefault(); set(false);
     var href = a.getAttribute("href");
     requestAnimationFrame(function () { requestAnimationFrame(function () {
+      // "Where we watch": centre the watch box and make it glow, as the welcome button does. From a subpage the home
+      // page is shown first (the hash change runs route), then the box is centred.
+      if (href === "#watch" && window.lfcWatch) {
+        var w = document.getElementById("watch");
+        if (w && !w.offsetParent) { location.hash = "#watch"; setTimeout(window.lfcWatch, 60); }
+        else { if (location.hash !== "#watch") history.pushState(null, "", "#watch"); window.lfcWatch(); }
+        return;
+      }
       if (location.hash === href) { var el = document.getElementById(href.slice(1)); if (href === "#top") window.scrollTo(0, 0); else if (el) el.scrollIntoView(); }
       else location.hash = href;
     }); });
@@ -2777,8 +3319,10 @@ window.lfcCarouselMotion = function () {
     var gap = r.height < room ? (room - r.height) / 2 : 12;
     window.scrollTo(0, Math.max(0, window.scrollY + r.top - bar - gap));
   };
+  // The menu's "Where we watch" closes the menu first and then calls this (see the menu script)
+  window.lfcWatch = function () { centre(); setTimeout(flash, 150); };
   document.addEventListener("click", function (e) {
-    var a = e.target.closest && e.target.closest('a[href="#watch"]'); if (!a) return;
+    var a = e.target.closest && e.target.closest('a[href="#watch"]'); if (!a || a.closest("#site-nav")) return;
     e.preventDefault();
     if (location.hash !== "#watch") history.pushState(null, "", "#watch");   // keep #watch in the address bar
     centre();

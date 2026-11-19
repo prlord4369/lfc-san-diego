@@ -1,0 +1,611 @@
+{
+ "id": "2026-11-08-crystal-palace",
+ "espn": "401879243",
+ "league": "eng.1",
+ "comp": "Premier League",
+ "kickoff": "2026-11-08T14:00:00Z",
+ "ha": "A",
+ "opp": "Crystal Palace",
+ "oppAbbr": "CRY",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+ "ground": {
+  "name": "Selhurst Park",
+  "city": "London",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 3,
+  "opp": 1
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 1,
+  "opp": 0
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "24'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Ronald Araujo"
+  },
+  {
+   "min": "40'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexis Mac Allister",
+   "assist": "Dominik Szoboszlai"
+  },
+  {
+   "min": "54'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Florian Wirtz",
+   "assist": "Bradley Barcola"
+  },
+  {
+   "min": "59'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Bradley Barcola"
+  },
+  {
+   "min": "60'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Darío Osorio",
+   "off": "Quinten Timber"
+  },
+  {
+   "min": "69'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Víctor Muñoz",
+   "off": "Bradley Barcola"
+  },
+  {
+   "min": "69'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Trey Nyoni",
+   "off": "Dominik Szoboszlai"
+  },
+  {
+   "min": "71'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Yéremy Pino"
+  },
+  {
+   "min": "72'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Eddie Nketiah",
+   "off": "Jørgen Strand Larsen"
+  },
+  {
+   "min": "76'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Rio Ngumoha",
+   "off": "Cody Gakpo"
+  },
+  {
+   "min": "82'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Víctor Muñoz"
+  },
+  {
+   "min": "82'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Jefferson Lerma"
+  },
+  {
+   "min": "83'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Alexis Mac Allister"
+  },
+  {
+   "min": "87'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Anan Khalaili",
+   "off": "Óscar Mingueza"
+  },
+  {
+   "min": "87'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Dwight McNeil",
+   "off": "Yéremy Pino"
+  },
+  {
+   "min": "89'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak",
+   "assist": "Florian Wirtz"
+  },
+  {
+   "min": "90'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Alexander Isak"
+  },
+  {
+   "min": "90'+1'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Joe Gomez",
+   "off": "Ronald Araujo"
+  },
+  {
+   "min": "90'+5'",
+   "side": "opp",
+   "kind": "pen",
+   "player": "Eddie Nketiah"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 46.9,
+   "opp": 53.1,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 20,
+   "opp": 19,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 8,
+   "opp": 7,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 7,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 78,
+   "opp": 80,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 6,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 18,
+   "opp": 10,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 0,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 4,
+   "opp": 2,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "Crystal Palace",
+   "formation": "3-4-2-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Henderson",
+     "full": "Dean Henderson",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "5",
+     "name": "Disasi",
+     "full": "Axel Disasi",
+     "pos": "CD",
+     "place": 5
+    },
+    {
+     "no": "8",
+     "name": "Lerma",
+     "full": "Jefferson Lerma",
+     "pos": "CD-L",
+     "place": 4
+    },
+    {
+     "no": "26",
+     "name": "Richards",
+     "full": "Chris Richards",
+     "pos": "CD-R",
+     "place": 6
+    },
+    {
+     "no": "23",
+     "name": "Timber",
+     "full": "Quinten Timber",
+     "pos": "CM-L",
+     "place": 8,
+     "on": {
+      "no": "24",
+      "name": "Osorio",
+      "full": "Darío Osorio",
+      "at": "60'"
+     }
+    },
+    {
+     "no": "20",
+     "name": "Wharton",
+     "full": "Adam Wharton",
+     "pos": "CM-R",
+     "place": 7
+    },
+    {
+     "no": "3",
+     "name": "Mitchell",
+     "full": "Tyrick Mitchell",
+     "pos": "LM",
+     "place": 3
+    },
+    {
+     "no": "30",
+     "name": "Mingueza",
+     "full": "Óscar Mingueza",
+     "pos": "RM",
+     "place": 2,
+     "on": {
+      "no": "25",
+      "name": "Khalaili",
+      "full": "Anan Khalaili",
+      "at": "87'"
+     }
+    },
+    {
+     "no": "22",
+     "name": "Larsen",
+     "full": "Jørgen Strand Larsen",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "9",
+      "name": "Nketiah",
+      "full": "Eddie Nketiah",
+      "at": "72'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Pino",
+     "full": "Yéremy Pino",
+     "pos": "CF-L",
+     "place": 11,
+     "on": {
+      "no": "11",
+      "name": "McNeil",
+      "full": "Dwight McNeil",
+      "at": "87'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Kamada",
+     "full": "Daichi Kamada",
+     "pos": "CF-R",
+     "place": 10
+    }
+   ],
+   "subs": [
+    {
+     "no": "44",
+     "name": "Benítez",
+     "full": "Walter Benítez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "6",
+     "name": "Canvot",
+     "full": "Jaydee Canvot",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "28",
+     "name": "Doucouré",
+     "full": "Cheick Doucouré",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "25",
+     "name": "Khalaili",
+     "full": "Anan Khalaili",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "87'",
+      "for": "Mingueza"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Nketiah",
+     "full": "Eddie Nketiah",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "72'",
+      "for": "Larsen"
+     }
+    },
+    {
+     "no": "19",
+     "name": "Hughes",
+     "full": "Will Hughes",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "24",
+     "name": "Osorio",
+     "full": "Darío Osorio",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "60'",
+      "for": "Timber"
+     }
+    },
+    {
+     "no": "11",
+     "name": "McNeil",
+     "full": "Dwight McNeil",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "87'",
+      "for": "Pino"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Chilwell",
+     "full": "Ben Chilwell",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "2",
+      "name": "Gomez",
+      "full": "Joe Gomez",
+      "at": "90'+1'"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "42",
+      "name": "Nyoni",
+      "full": "Trey Nyoni",
+      "at": "69'"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "90'"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "23",
+      "name": "Muñoz",
+      "full": "Víctor Muñoz",
+      "at": "69'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "73",
+      "name": "Ngumoha",
+      "full": "Rio Ngumoha",
+      "at": "76'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "69'",
+      "for": "Szoboszlai"
+     }
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "90'+1'",
+      "for": "Araujo"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "69'",
+      "for": "Barcola"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "90'",
+      "for": "Isak"
+     }
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "76'",
+      "for": "Gakpo"
+     }
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "table": {
+  "comp": "Premier League",
+  "pos": 4,
+  "of": 20,
+  "pts": 18,
+  "played": 10,
+  "w": 5,
+  "d": 3,
+  "l": 2,
+  "before": 6
+ },
+ "story": "Liverpool won 3-1 away at Selhurst Park against Crystal Palace in the Premier League. Alexis Mac Allister opened the scoring in the 40th minute, assisted by Dominik Szoboszlai, and Florian Wirtz doubled the lead in the 54th minute, set up by Bradley Barcola. Alexander Isak added a third in the 89th minute, assisted by Wirtz, and Eddie Nketiah scored a penalty for Palace in the fifth minute of stoppage time. The win lifts Liverpool from sixth to fourth in the table, with 18 points from 10 matches.",
+ "storyV": 2
+}

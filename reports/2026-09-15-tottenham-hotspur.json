@@ -1,0 +1,611 @@
+{
+ "id": "2026-09-15-tottenham-hotspur",
+ "espn": "401914257",
+ "league": "eng.league_cup",
+ "comp": "Carabao Cup R3",
+ "kickoff": "2026-09-15T19:00:00Z",
+ "ha": "H",
+ "opp": "Tottenham Hotspur",
+ "oppAbbr": "TOT",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+ "ground": {
+  "name": "Anfield",
+  "city": "Liverpool",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 3,
+  "opp": 1
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 1,
+  "opp": 0
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "21'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexis Mac Allister"
+  },
+  {
+   "min": "36'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Ronald Araujo"
+  },
+  {
+   "min": "40'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Jeremie Frimpong"
+  },
+  {
+   "min": "41'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Omar Marmoush"
+  },
+  {
+   "min": "45'+3'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Rodrigo Bentancur"
+  },
+  {
+   "min": "45'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Jérémy Jacquet",
+   "off": "Joe Gomez"
+  },
+  {
+   "min": "54'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Cody Gakpo",
+   "assist": "Alexis Mac Allister"
+  },
+  {
+   "min": "57'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Mateus Fernandes",
+   "off": "Rodrigo Bentancur"
+  },
+  {
+   "min": "57'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Andy Robertson",
+   "off": "Destiny Udogie"
+  },
+  {
+   "min": "62'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Ryan Gravenberch",
+   "off": "Trey Nyoni"
+  },
+  {
+   "min": "62'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Dominik Szoboszlai",
+   "off": "James McConnell"
+  },
+  {
+   "min": "69'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Conor Gallagher",
+   "assist": "Mateus Fernandes"
+  },
+  {
+   "min": "72'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Bradley Barcola",
+   "off": "Rio Ngumoha"
+  },
+  {
+   "min": "75'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Milos Kerkez"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Sávio",
+   "off": "Mohammed Kudus"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "James Maddison",
+   "off": "Conor Gallagher"
+  },
+  {
+   "min": "85'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Dominic Solanke",
+   "off": "Mathys Tel"
+  },
+  {
+   "min": "86'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexander Isak",
+   "off": "Lewis Koumas"
+  },
+  {
+   "min": "90'+1'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Dominik Szoboszlai",
+   "assist": "Cody Gakpo"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 43.6,
+   "opp": 56.4,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 12,
+   "opp": 17,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 5,
+   "opp": 6,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 5,
+   "opp": 9,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 82,
+   "opp": 87,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 5,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 15,
+   "opp": 11,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 1,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 3,
+   "opp": 2,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "CD-L",
+     "place": 6,
+     "on": {
+      "no": "5",
+      "name": "Jacquet",
+      "full": "Jérémy Jacquet",
+      "at": "45'"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "8",
+      "name": "Szoboszlai",
+      "full": "Dominik Szoboszlai",
+      "at": "62'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "38",
+      "name": "Gravenberch",
+      "full": "Ryan Gravenberch",
+      "at": "62'"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "9",
+      "name": "Isak",
+      "full": "Alexander Isak",
+      "at": "86'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "29",
+      "name": "Barcola",
+      "full": "Bradley Barcola",
+      "at": "72'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'",
+      "for": "Gomez"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "62'",
+      "for": "Nyoni"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "72'",
+      "for": "Ngumoha"
+     }
+    },
+    {
+     "no": "44",
+     "name": "Chambers",
+     "full": "Luke Chambers",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "62'",
+      "for": "McConnell"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "86'",
+      "for": "Koumas"
+     }
+    },
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "opp": {
+   "name": "Tottenham Hotspur",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "39",
+     "name": "Dúbravka",
+     "full": "Martin Dúbravka",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "5",
+     "name": "Senesi",
+     "full": "Marcos Senesi",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "4",
+     "name": "Adarabioyo",
+     "full": "Tosin Adarabioyo",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "13",
+     "name": "Udogie",
+     "full": "Destiny Udogie",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "3",
+      "name": "Robertson",
+      "full": "Andy Robertson",
+      "at": "57'"
+     }
+    },
+    {
+     "no": "14",
+     "name": "Gray",
+     "full": "Archie Gray",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "8",
+     "name": "Gallagher",
+     "full": "Conor Gallagher",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "10",
+      "name": "Maddison",
+      "full": "James Maddison",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "15",
+     "name": "Bergvall",
+     "full": "Lucas Bergvall",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "30",
+     "name": "Bentancur",
+     "full": "Rodrigo Bentancur",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "18",
+      "name": "Fernandes",
+      "full": "Mateus Fernandes",
+      "at": "57'"
+     }
+    },
+    {
+     "no": "22",
+     "name": "Marmoush",
+     "full": "Omar Marmoush",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "11",
+     "name": "Tel",
+     "full": "Mathys Tel",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "19",
+      "name": "Solanke",
+      "full": "Dominic Solanke",
+      "at": "85'"
+     }
+    },
+    {
+     "no": "20",
+     "name": "Kudus",
+     "full": "Mohammed Kudus",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "17",
+      "name": "Sávio",
+      "full": "Sávio",
+      "at": "75'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "37",
+     "name": "van de Ven",
+     "full": "Micky van de Ven",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "33",
+     "name": "Davies",
+     "full": "Ben Davies",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "31",
+     "name": "Kinsky",
+     "full": "Antonín Kinsky",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "18",
+     "name": "Fernandes",
+     "full": "Mateus Fernandes",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "57'",
+      "for": "Bentancur"
+     }
+    },
+    {
+     "no": "17",
+     "name": "Sávio",
+     "full": "Sávio",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Kudus"
+     }
+    },
+    {
+     "no": "6",
+     "name": "van Hecke",
+     "full": "Jan Paul van Hecke",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "19",
+     "name": "Solanke",
+     "full": "Dominic Solanke",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "85'",
+      "for": "Tel"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Maddison",
+     "full": "James Maddison",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Gallagher"
+     }
+    },
+    {
+     "no": "3",
+     "name": "Robertson",
+     "full": "Andy Robertson",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "57'",
+      "for": "Udogie"
+     }
+    }
+   ]
+  }
+ },
+ "story": "Liverpool beat Tottenham Hotspur 3-1 in the Carabao Cup third round at Anfield. Alexis Mac Allister opened the scoring in the 21st minute, and the hosts led 1-0 at half-time. Cody Gakpo doubled the lead in the 54th minute, finishing from Mac Allister's assist, before Conor Gallagher pulled one back for Tottenham in the 69th minute. Dominik Szoboszlai struck in the first minute of added time, set up by Gakpo, to seal the win.",
+ "storyV": 2
+}

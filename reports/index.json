@@ -1,0 +1,250 @@
+[
+ {
+  "id": "2026-08-23-newcastle-united",
+  "date": "2026-08-23",
+  "kickoff": "2026-08-23T15:30:00Z",
+  "comp": "Premier League",
+  "opp": "Newcastle United",
+  "ha": "A",
+  "score": "2-2",
+  "r": "D",
+  "scorers": [
+   "Gakpo",
+   "Szoboszlai"
+  ],
+  "card": true,
+  "pos": "9th in the PL"
+ },
+ {
+  "id": "2026-08-29-nottingham-forest",
+  "date": "2026-08-29",
+  "kickoff": "2026-08-29T11:30:00Z",
+  "comp": "Premier League",
+  "opp": "Nottingham Forest",
+  "ha": "H",
+  "score": "2-2",
+  "r": "D",
+  "scorers": [
+   "Isak",
+   "Muñoz"
+  ],
+  "card": true,
+  "pos": "10th in the PL"
+ },
+ {
+  "id": "2026-09-04-ipswich-town",
+  "date": "2026-09-04",
+  "kickoff": "2026-09-04T19:00:00Z",
+  "comp": "Premier League",
+  "opp": "Ipswich Town",
+  "ha": "A",
+  "score": "2-0",
+  "r": "W",
+  "scorers": [
+   "Isak"
+  ],
+  "card": true,
+  "pos": "5th in the PL"
+ },
+ {
+  "id": "2026-09-09-atletico-madrid",
+  "date": "2026-09-09",
+  "kickoff": "2026-09-09T19:00:00Z",
+  "comp": "Champions League",
+  "opp": "Atlético Madrid",
+  "ha": "H",
+  "score": "2-1",
+  "r": "W",
+  "scorers": [
+   "Szoboszlai",
+   "Mac Allister"
+  ],
+  "card": true,
+  "pos": "9th in the UCL"
+ },
+ {
+  "id": "2026-09-12-fulham",
+  "date": "2026-09-12",
+  "kickoff": "2026-09-12T14:00:00Z",
+  "comp": "Premier League",
+  "opp": "Fulham",
+  "ha": "H",
+  "score": "0-0",
+  "r": "D",
+  "scorers": [],
+  "card": true,
+  "pos": "6th in the PL"
+ },
+ {
+  "id": "2026-09-15-tottenham-hotspur",
+  "date": "2026-09-15",
+  "kickoff": "2026-09-15T19:00:00Z",
+  "comp": "Carabao Cup R3",
+  "opp": "Tottenham Hotspur",
+  "ha": "H",
+  "score": "3-1",
+  "r": "W",
+  "scorers": [
+   "Mac Allister",
+   "Gakpo",
+   "Szoboszlai"
+  ],
+  "card": true
+ },
+ {
+  "id": "2026-09-20-afc-bournemouth",
+  "date": "2026-09-20",
+  "kickoff": "2026-09-20T13:00:00Z",
+  "comp": "Premier League",
+  "opp": "AFC Bournemouth",
+  "ha": "A",
+  "score": "1-0",
+  "r": "W",
+  "scorers": [
+   "Isak"
+  ],
+  "card": true,
+  "pos": "6th in the PL"
+ },
+ {
+  "id": "2026-10-11-manchester-city",
+  "date": "2026-10-11",
+  "kickoff": "2026-10-11T15:30:00Z",
+  "comp": "Premier League",
+  "opp": "Manchester City",
+  "ha": "H",
+  "score": "0-3",
+  "r": "L",
+  "scorers": [],
+  "card": true,
+  "pos": "9th in the PL"
+ },
+ {
+  "id": "2026-10-14-lask-linz",
+  "date": "2026-10-14",
+  "kickoff": "2026-10-14T16:45:00Z",
+  "comp": "Champions League",
+  "opp": "LASK Linz",
+  "ha": "A",
+  "score": "6-3",
+  "r": "W",
+  "scorers": [
+   "Araujo",
+   "Barcola",
+   "Frimpong",
+   "Koumas"
+  ],
+  "card": true,
+  "pos": "5th in the UCL"
+ },
+ {
+  "id": "2026-10-17-brentford",
+  "date": "2026-10-17",
+  "kickoff": "2026-10-17T14:00:00Z",
+  "comp": "Premier League",
+  "opp": "Brentford",
+  "ha": "A",
+  "score": "2-1",
+  "r": "W",
+  "scorers": [
+   "Muñoz",
+   "Isak"
+  ],
+  "card": true,
+  "pos": "5th in the PL"
+ },
+ {
+  "id": "2026-10-20-villarreal",
+  "date": "2026-10-20",
+  "kickoff": "2026-10-20T19:00:00Z",
+  "comp": "Champions League",
+  "opp": "Villarreal",
+  "ha": "H",
+  "score": "4-3",
+  "r": "W",
+  "scorers": [
+   "Mac Allister",
+   "Araujo",
+   "Wirtz"
+  ],
+  "card": true,
+  "pos": "2nd in the UCL"
+ },
+ {
+  "id": "2026-10-25-brighton-hove-albion",
+  "date": "2026-10-25",
+  "kickoff": "2026-10-25T14:00:00Z",
+  "comp": "Premier League",
+  "opp": "Brighton & Hove Albion",
+  "ha": "H",
+  "score": "2-0",
+  "r": "W",
+  "scorers": [
+   "Isak",
+   "og"
+  ],
+  "card": true,
+  "pos": "4th in the PL"
+ },
+ {
+  "id": "2026-10-28-chelsea",
+  "date": "2026-10-28",
+  "kickoff": "2026-10-28T20:00:00Z",
+  "comp": "Carabao Cup R4",
+  "opp": "Chelsea",
+  "ha": "H",
+  "score": "1-1",
+  "r": "W",
+  "scorers": [
+   "Gakpo"
+  ],
+  "pens": "6-5",
+  "card": true
+ },
+ {
+  "id": "2026-11-01-arsenal",
+  "date": "2026-11-01",
+  "kickoff": "2026-11-01T16:30:00Z",
+  "comp": "Premier League",
+  "opp": "Arsenal",
+  "ha": "H",
+  "score": "0-1",
+  "r": "L",
+  "scorers": [],
+  "card": true,
+  "pos": "5th in the PL"
+ },
+ {
+  "id": "2026-11-04-fenerbahce",
+  "date": "2026-11-04",
+  "kickoff": "2026-11-04T17:45:00Z",
+  "comp": "Champions League",
+  "opp": "Fenerbahçe",
+  "ha": "A",
+  "score": "2-3",
+  "r": "L",
+  "scorers": [
+   "Nyoni",
+   "Isak"
+  ],
+  "card": true,
+  "pos": "8th in the UCL"
+ },
+ {
+  "id": "2026-11-08-crystal-palace",
+  "date": "2026-11-08",
+  "kickoff": "2026-11-08T14:00:00Z",
+  "comp": "Premier League",
+  "opp": "Crystal Palace",
+  "ha": "A",
+  "score": "3-1",
+  "r": "W",
+  "scorers": [
+   "Mac Allister",
+   "Wirtz",
+   "Isak"
+  ],
+  "card": true,
+  "pos": "4th in the PL"
+ }
+]

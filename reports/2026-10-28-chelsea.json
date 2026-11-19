@@ -1,0 +1,578 @@
+{
+ "id": "2026-10-28-chelsea",
+ "espn": "401921842",
+ "league": "eng.league_cup",
+ "comp": "Carabao Cup R4",
+ "kickoff": "2026-10-28T20:00:00Z",
+ "ha": "H",
+ "opp": "Chelsea",
+ "oppAbbr": "CHE",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+ "ground": {
+  "name": "Anfield",
+  "city": "Liverpool",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 1,
+  "opp": 1
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 1,
+  "opp": 1
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "11'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Lewis Koumas"
+  },
+  {
+   "min": "21'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "James McConnell"
+  },
+  {
+   "min": "40'",
+   "side": "opp",
+   "kind": "pen",
+   "player": "Morgan Rogers"
+  },
+  {
+   "min": "43'",
+   "side": "lfc",
+   "kind": "pen",
+   "player": "Cody Gakpo"
+  },
+  {
+   "min": "45'+1'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Levi Colwill",
+   "off": "Maxence Lacroix"
+  },
+  {
+   "min": "50'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Josh Acheampong"
+  },
+  {
+   "min": "59'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Bradley Barcola",
+   "off": "Lewis Koumas"
+  },
+  {
+   "min": "59'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Florian Wirtz",
+   "off": "James McConnell"
+  },
+  {
+   "min": "68'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Emmanuel Emegha",
+   "off": "Danny Welbeck"
+  },
+  {
+   "min": "68'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Marco Palestra",
+   "off": "Malo Gusto"
+  },
+  {
+   "min": "68'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Valentín Barco",
+   "off": "Moisés Caicedo"
+  },
+  {
+   "min": "72'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Jérémy Jacquet",
+   "off": "Virgil van Dijk"
+  },
+  {
+   "min": "73'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Romeo Lavia"
+  },
+  {
+   "min": "81'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexis Mac Allister",
+   "off": "Trey Nyoni"
+  },
+  {
+   "min": "82'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexander Isak",
+   "off": "Rio Ngumoha"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 51.7,
+   "opp": 48.3,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 10,
+   "opp": 11,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 4,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 7,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 79,
+   "opp": 79,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 3,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 12,
+   "opp": 9,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 1,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 2,
+   "opp": 2,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6,
+     "on": {
+      "no": "5",
+      "name": "Jacquet",
+      "full": "Jérémy Jacquet",
+      "at": "72'"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "7",
+      "name": "Wirtz",
+      "full": "Florian Wirtz",
+      "at": "59'"
+     }
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "10",
+      "name": "Mac Allister",
+      "full": "Alexis Mac Allister",
+      "at": "81'"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "9",
+      "name": "Isak",
+      "full": "Alexander Isak",
+      "at": "82'"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "29",
+      "name": "Barcola",
+      "full": "Bradley Barcola",
+      "at": "59'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "72'",
+      "for": "van Dijk"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "59'",
+      "for": "McConnell"
+     }
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "59'",
+      "for": "Koumas"
+     }
+    },
+    {
+     "no": "44",
+     "name": "Chambers",
+     "full": "Luke Chambers",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "82'",
+      "for": "Ngumoha"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "81'",
+      "for": "Nyoni"
+     }
+    },
+    {
+     "no": "14",
+     "name": "Chiesa",
+     "full": "Federico Chiesa",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "opp": {
+   "name": "Chelsea",
+   "formation": "4-3-3",
+   "xi": [
+    {
+     "no": "39",
+     "name": "Penders",
+     "full": "Mike Penders",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "3",
+     "name": "Fofana",
+     "full": "Wesley Fofana",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Lacroix",
+     "full": "Maxence Lacroix",
+     "pos": "CD-R",
+     "place": 5,
+     "on": {
+      "no": "6",
+      "name": "Colwill",
+      "full": "Levi Colwill",
+      "at": "45'+1'"
+     }
+    },
+    {
+     "no": "27",
+     "name": "Gusto",
+     "full": "Malo Gusto",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "2",
+      "name": "Palestra",
+      "full": "Marco Palestra",
+      "at": "68'"
+     }
+    },
+    {
+     "no": "34",
+     "name": "Acheampong",
+     "full": "Josh Acheampong",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "45",
+     "name": "Lavia",
+     "full": "Romeo Lavia",
+     "pos": "CM",
+     "place": 4
+    },
+    {
+     "no": "14",
+     "name": "Henderson",
+     "full": "Jordan Henderson",
+     "pos": "LM",
+     "place": 8
+    },
+    {
+     "no": "25",
+     "name": "Caicedo",
+     "full": "Moisés Caicedo",
+     "pos": "RM",
+     "place": 7,
+     "on": {
+      "no": "4",
+      "name": "Barco",
+      "full": "Valentín Barco",
+      "at": "68'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Welbeck",
+     "full": "Danny Welbeck",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "22",
+      "name": "Emegha",
+      "full": "Emmanuel Emegha",
+      "at": "68'"
+     }
+    },
+    {
+     "no": "17",
+     "name": "Rogers",
+     "full": "Morgan Rogers",
+     "pos": "LF",
+     "place": 11
+    },
+    {
+     "no": "7",
+     "name": "Neto",
+     "full": "Pedro Neto",
+     "pos": "RF",
+     "place": 10
+    }
+   ],
+   "subs": [
+    {
+     "no": "32",
+     "name": "Nicoll-Jazuli",
+     "full": "Mahdi Nicoll-Jazuli",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "23",
+     "name": "Quenda",
+     "full": "Geovany Quenda",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "4",
+     "name": "Barco",
+     "full": "Valentín Barco",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "68'",
+      "for": "Caicedo"
+     }
+    },
+    {
+     "no": "2",
+     "name": "Palestra",
+     "full": "Marco Palestra",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "68'",
+      "for": "Gusto"
+     }
+    },
+    {
+     "no": "6",
+     "name": "Colwill",
+     "full": "Levi Colwill",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'+1'",
+      "for": "Lacroix"
+     }
+    },
+    {
+     "no": "37",
+     "name": "Subuloye",
+     "full": "Olutayo Subuloye",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "22",
+     "name": "Emegha",
+     "full": "Emmanuel Emegha",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "68'",
+      "for": "Welbeck"
+     }
+    },
+    {
+     "no": "28",
+     "name": "Sharman-Lowe",
+     "full": "Teddy Sharman-Lowe",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "41",
+     "name": "Estêvão",
+     "full": "Estêvão",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "attendance": 60214,
+ "pens": {
+  "lfc": 6,
+  "opp": 5
+ },
+ "story": "Liverpool hosted Chelsea at Anfield in the Carabao Cup fourth round. Chelsea took the lead when Morgan Rogers scored from the penalty spot in the 40th minute, but Liverpool equalised three minutes later as Cody Gakpo converted a penalty of his own in the 43rd minute. The score stayed 1-1, and the tie went to a penalty shootout, which Liverpool won 6-5.",
+ "storyV": 2
+}

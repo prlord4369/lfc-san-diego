@@ -1,0 +1,570 @@
+{
+ "id": "2026-09-04-ipswich-town",
+ "espn": "401879288",
+ "league": "eng.1",
+ "comp": "Premier League",
+ "kickoff": "2026-09-04T19:00:00Z",
+ "ha": "A",
+ "opp": "Ipswich Town",
+ "oppAbbr": "IPS",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+ "ground": {
+  "name": "Portman Road",
+  "city": "Ipswich",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 2,
+  "opp": 0
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 2,
+  "opp": 0
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "6'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak",
+   "assist": "Cody Gakpo"
+  },
+  {
+   "min": "9'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak",
+   "assist": "Cody Gakpo"
+  },
+  {
+   "min": "10'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Alexis Mac Allister"
+  },
+  {
+   "min": "41'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Julio Enciso"
+  },
+  {
+   "min": "52'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Jérémy Jacquet"
+  },
+  {
+   "min": "57'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Milos Kerkez"
+  },
+  {
+   "min": "64'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Ryan Gravenberch",
+   "off": "Alexander Isak"
+  },
+  {
+   "min": "64'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Bradley Barcola",
+   "off": "Víctor Muñoz"
+  },
+  {
+   "min": "66'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Jack Clarke",
+   "off": "Daizen Maeda"
+  },
+  {
+   "min": "66'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Zian Flemming",
+   "off": "Emersonn"
+  },
+  {
+   "min": "78'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Abdoul Ouattara",
+   "off": "Exequiel Palacios"
+  },
+  {
+   "min": "79'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Kasey McAteer",
+   "off": "Fatawu Issahaku"
+  },
+  {
+   "min": "84'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Trey Nyoni",
+   "off": "Alexis Mac Allister"
+  },
+  {
+   "min": "90'+1'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Florian Wirtz"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 54.9,
+   "opp": 45.1,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 10,
+   "opp": 14,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 7,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 3,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 88,
+   "opp": 83,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 5,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 13,
+   "opp": 6,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 4,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 3,
+   "opp": 1,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "Ipswich Town",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "37",
+     "name": "Scherpen",
+     "full": "Kjell Scherpen",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "24",
+     "name": "Greaves",
+     "full": "Jacob Greaves",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "6",
+     "name": "Diop",
+     "full": "Issa Diop",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "3",
+     "name": "Davis",
+     "full": "Leif Davis",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "26",
+     "name": "O'Shea",
+     "full": "Dara O'Shea",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "10",
+     "name": "Enciso",
+     "full": "Julio Enciso",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "25",
+     "name": "Palacios",
+     "full": "Exequiel Palacios",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "42",
+      "name": "Ouattara",
+      "full": "Abdoul Ouattara",
+      "at": "78'"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Lukic",
+     "full": "Sasa Lukic",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "19",
+     "name": "Emersonn",
+     "full": "Emersonn",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "9",
+      "name": "Flemming",
+      "full": "Zian Flemming",
+      "at": "66'"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Maeda",
+     "full": "Daizen Maeda",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "47",
+      "name": "Clarke",
+      "full": "Jack Clarke",
+      "at": "66'"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Issahaku",
+     "full": "Fatawu Issahaku",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "20",
+      "name": "McAteer",
+      "full": "Kasey McAteer",
+      "at": "79'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "47",
+     "name": "Clarke",
+     "full": "Jack Clarke",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "Maeda"
+     }
+    },
+    {
+     "no": "42",
+     "name": "Ouattara",
+     "full": "Abdoul Ouattara",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "78'",
+      "for": "Palacios"
+     }
+    },
+    {
+     "no": "12",
+     "name": "Florentino",
+     "full": "Florentino",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "20",
+     "name": "McAteer",
+     "full": "Kasey McAteer",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "79'",
+      "for": "Issahaku"
+     }
+    },
+    {
+     "no": "2",
+     "name": "Furlong",
+     "full": "Darnell Furlong",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "4",
+     "name": "Kipre",
+     "full": "Cedric Kipre",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "9",
+     "name": "Flemming",
+     "full": "Zian Flemming",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "Emersonn"
+     }
+    },
+    {
+     "no": "32",
+     "name": "Núñez",
+     "full": "Marcelino Núñez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "28",
+     "name": "Walton",
+     "full": "Christian Walton",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "90'+1'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "42",
+      "name": "Nyoni",
+      "full": "Trey Nyoni",
+      "at": "84'"
+     }
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "38",
+      "name": "Gravenberch",
+      "full": "Ryan Gravenberch",
+      "at": "64'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "29",
+      "name": "Barcola",
+      "full": "Bradley Barcola",
+      "at": "64'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "90'+1'",
+      "for": "Wirtz"
+     }
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "84'",
+      "for": "Mac Allister"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "64'",
+      "for": "Muñoz"
+     }
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "64'",
+      "for": "Isak"
+     }
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "attendance": 30019,
+ "table": {
+  "comp": "Premier League",
+  "pos": 5,
+  "of": 20,
+  "pts": 5,
+  "played": 3,
+  "w": 1,
+  "d": 2,
+  "l": 0,
+  "before": 13
+ },
+ "story": "Liverpool won 2-0 away to Ipswich Town at Portman Road in the Premier League. Alexander Isak opened the scoring in the 6th minute, then doubled the lead in the 9th minute, with Cody Gakpo providing the assist on both goals. The score was already 2-0 at half-time, and it stayed that way to full time. After the win, Liverpool stood fifth of 20 teams in the Premier League table, with five points from three matches.",
+ "storyV": 2
+}

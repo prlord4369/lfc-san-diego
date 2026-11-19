@@ -1,0 +1,623 @@
+{
+ "id": "2026-08-23-newcastle-united",
+ "espn": "401879319",
+ "league": "eng.1",
+ "comp": "Premier League",
+ "kickoff": "2026-08-23T15:30:00Z",
+ "ha": "A",
+ "opp": "Newcastle United",
+ "oppAbbr": "NEW",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+ "ground": {
+  "name": "St. James' Park",
+  "city": "Newcastle-upon-Tyne",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 2,
+  "opp": 2
+ },
+ "r": "D",
+ "ht": {
+  "lfc": 0,
+  "opp": 1
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "5'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Anthony Elanga",
+   "assist": "William Osula"
+  },
+  {
+   "min": "25'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Yoane Wissa"
+  },
+  {
+   "min": "30'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Milos Kerkez"
+  },
+  {
+   "min": "30'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Jeremie Frimpong"
+  },
+  {
+   "min": "34'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Lewis Miley"
+  },
+  {
+   "min": "55'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Cody Gakpo",
+   "assist": "Ryan Gravenberch"
+  },
+  {
+   "min": "56'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Jacob Ramsey",
+   "off": "Sean Steur"
+  },
+  {
+   "min": "56'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Joe Willock",
+   "off": "William Osula"
+  },
+  {
+   "min": "57'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Joe Willock",
+   "assist": "Yoane Wissa"
+  },
+  {
+   "min": "63'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Víctor Muñoz",
+   "off": "Rio Ngumoha"
+  },
+  {
+   "min": "63'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexis Mac Allister",
+   "off": "Florian Wirtz"
+  },
+  {
+   "min": "65'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Jacob Ramsey"
+  },
+  {
+   "min": "70'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Ronald Araujo",
+   "off": "Jérémy Jacquet"
+  },
+  {
+   "min": "76'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Jacob Murphy",
+   "off": "Anthony Elanga"
+  },
+  {
+   "min": "76'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Aladji Bamba",
+   "off": "Lewis Miley"
+  },
+  {
+   "min": "78'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Ryan Gravenberch"
+  },
+  {
+   "min": "79'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Jacob Murphy"
+  },
+  {
+   "min": "90'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Virgil van Dijk"
+  },
+  {
+   "min": "90'+3'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Lukás Hornícek"
+  },
+  {
+   "min": "90'+5'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Fabian Schär",
+   "off": "Yoane Wissa"
+  },
+  {
+   "min": "90'+9'",
+   "side": "lfc",
+   "kind": "pen",
+   "player": "Dominik Szoboszlai"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 60.8,
+   "opp": 39.2,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 27,
+   "opp": 13,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 7,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 6,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 84,
+   "opp": 76,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 3,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 15,
+   "opp": 16,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 1,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 3,
+   "opp": 5,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "Newcastle United",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "21",
+     "name": "Hornícek",
+     "full": "Lukás Hornícek",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "Botman",
+     "full": "Sven Botman",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "12",
+     "name": "Thiaw",
+     "full": "Malick Thiaw",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "3",
+     "name": "Hall",
+     "full": "Lewis Hall",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "37",
+     "name": "Dedic",
+     "full": "Amar Dedic",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "9",
+     "name": "Wissa",
+     "full": "Yoane Wissa",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "5",
+      "name": "Schär",
+      "full": "Fabian Schär",
+      "at": "90'+5'"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Miley",
+     "full": "Lewis Miley",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "8",
+      "name": "Bamba",
+      "full": "Aladji Bamba",
+      "at": "76'"
+     }
+    },
+    {
+     "no": "14",
+     "name": "Steur",
+     "full": "Sean Steur",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "41",
+      "name": "Ramsey",
+      "full": "Jacob Ramsey",
+      "at": "56'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Osula",
+     "full": "William Osula",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "28",
+      "name": "Willock",
+      "full": "Joe Willock",
+      "at": "56'"
+     }
+    },
+    {
+     "no": "11",
+     "name": "Barnes",
+     "full": "Harvey Barnes",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "19",
+     "name": "Elanga",
+     "full": "Anthony Elanga",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "23",
+      "name": "Murphy",
+      "full": "Jacob Murphy",
+      "at": "76'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "23",
+     "name": "Murphy",
+     "full": "Jacob Murphy",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "76'",
+      "for": "Elanga"
+     }
+    },
+    {
+     "no": "51",
+     "name": "Shahar",
+     "full": "Leo Shahar",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "8",
+     "name": "Bamba",
+     "full": "Aladji Bamba",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "76'",
+      "for": "Miley"
+     }
+    },
+    {
+     "no": "17",
+     "name": "Touré",
+     "full": "Bazoumana Touré",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "5",
+     "name": "Schär",
+     "full": "Fabian Schär",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "90'+5'",
+      "for": "Wissa"
+     }
+    },
+    {
+     "no": "41",
+     "name": "Ramsey",
+     "full": "Jacob Ramsey",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "56'",
+      "for": "Steur"
+     }
+    },
+    {
+     "no": "28",
+     "name": "Willock",
+     "full": "Joe Willock",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "56'",
+      "for": "Osula"
+     }
+    },
+    {
+     "no": "24",
+     "name": "Jaouen",
+     "full": "Ewen Jaouen",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "27",
+     "name": "Woltemade",
+     "full": "Nick Woltemade",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5,
+     "on": {
+      "no": "33",
+      "name": "Araujo",
+      "full": "Ronald Araujo",
+      "at": "70'"
+     }
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "10",
+      "name": "Mac Allister",
+      "full": "Alexis Mac Allister",
+      "at": "63'"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "78'"
+     }
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "23",
+      "name": "Muñoz",
+      "full": "Víctor Muñoz",
+      "at": "63'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "63'",
+      "for": "Ngumoha"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "78'",
+      "for": "Gravenberch"
+     }
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "63'",
+      "for": "Wirtz"
+     }
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "70'",
+      "for": "Jacquet"
+     }
+    }
+   ]
+  }
+ },
+ "attendance": 52630,
+ "table": {
+  "comp": "Premier League",
+  "pos": 9,
+  "of": 18,
+  "pts": 1,
+  "played": 1,
+  "w": 0,
+  "d": 1,
+  "l": 0
+ },
+ "story": "Liverpool came from behind to draw 2-2 with Newcastle United at St. James' Park in the Premier League. Anthony Elanga gave the hosts a fifth-minute lead, assisted by William Osula, before Cody Gakpo levelled in the 55th minute, set up by Ryan Gravenberch. Joe Willock restored Newcastle's advantage two minutes later, but Dominik Szoboszlai converted a penalty in the ninth minute of added time to earn a point. The draw leaves Liverpool ninth of 18 in the Premier League table with one point from one game.",
+ "storyV": 2
+}

@@ -1,0 +1,661 @@
+{
+ "id": "2026-10-20-villarreal",
+ "espn": "401915397",
+ "league": "uefa.champions",
+ "comp": "Champions League",
+ "kickoff": "2026-10-20T19:00:00Z",
+ "ha": "H",
+ "opp": "Villarreal",
+ "oppAbbr": "VIL",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+ "ground": {
+  "name": "Anfield",
+  "city": "Liverpool",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 4,
+  "opp": 3
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 2,
+  "opp": 2
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "4'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Georges Mikautadze"
+  },
+  {
+   "min": "27'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Alberto Moleiro"
+  },
+  {
+   "min": "29'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Sergi Cardona",
+   "assist": "Nathan Saliba"
+  },
+  {
+   "min": "36'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexis Mac Allister",
+   "assist": "Kostas Tsimikas"
+  },
+  {
+   "min": "41'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Santiago Mouriño"
+  },
+  {
+   "min": "45'+2'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Ronald Araujo",
+   "assist": "Rio Ngumoha"
+  },
+  {
+   "min": "45'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Florian Wirtz",
+   "off": "Ronald Araujo"
+  },
+  {
+   "min": "45'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Tani Oluwaseyi",
+   "off": "Nathan Saliba"
+  },
+  {
+   "min": "54'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Juan Foyth",
+   "off": "Alberto Moleiro"
+  },
+  {
+   "min": "60'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Alex Freeman",
+   "off": "Tajon Buchanan"
+  },
+  {
+   "min": "60'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Ayoze Pérez",
+   "off": "Georges Mikautadze"
+  },
+  {
+   "min": "65'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexis Mac Allister",
+   "assist": "Rio Ngumoha"
+  },
+  {
+   "min": "66'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexander Isak",
+   "off": "Lewis Koumas"
+  },
+  {
+   "min": "68'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Florian Wirtz",
+   "assist": "Cody Gakpo"
+  },
+  {
+   "min": "74'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Bradley Barcola",
+   "off": "Rio Ngumoha"
+  },
+  {
+   "min": "74'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Joe Gomez",
+   "off": "Jérémy Jacquet"
+  },
+  {
+   "min": "78'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Gerard Moreno",
+   "off": "Santi Comesaña"
+  },
+  {
+   "min": "81'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "James McConnell",
+   "off": "Trey Nyoni"
+  },
+  {
+   "min": "87'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Tani Oluwaseyi",
+   "assist": "Ayoze Pérez"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 52.5,
+   "opp": 47.5,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 22,
+   "opp": 14,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 7,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 8,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 86,
+   "opp": 84,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 2,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 12,
+   "opp": 10,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 2,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 0,
+   "opp": 2,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5,
+     "on": {
+      "no": "2",
+      "name": "Gomez",
+      "full": "Joe Gomez",
+      "at": "74'"
+     }
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "7",
+      "name": "Wirtz",
+      "full": "Florian Wirtz",
+      "at": "45'"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "53",
+      "name": "McConnell",
+      "full": "James McConnell",
+      "at": "81'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "9",
+      "name": "Isak",
+      "full": "Alexander Isak",
+      "at": "66'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "29",
+      "name": "Barcola",
+      "full": "Bradley Barcola",
+      "at": "74'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "44",
+     "name": "Chambers",
+     "full": "Luke Chambers",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'",
+      "for": "Araujo"
+     }
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "Koumas"
+     }
+    },
+    {
+     "no": "76",
+     "name": "Danns",
+     "full": "Jayden Danns",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "74'",
+      "for": "Jacquet"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "74'",
+      "for": "Ngumoha"
+     }
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "81'",
+      "for": "Nyoni"
+     }
+    },
+    {
+     "no": "28",
+     "name": "Woodman",
+     "full": "Freddie Woodman",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "94",
+     "name": "Laffey",
+     "full": "Michael Laffey",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "opp": {
+   "name": "Villarreal",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "25",
+     "name": "Gulácsi",
+     "full": "Péter Gulácsi",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "12",
+     "name": "Veiga",
+     "full": "Renato Veiga",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "6",
+     "name": "Navarro",
+     "full": "Pau Navarro",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "23",
+     "name": "Cardona",
+     "full": "Sergi Cardona",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "15",
+     "name": "Mouriño",
+     "full": "Santiago Mouriño",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "24",
+     "name": "Saliba",
+     "full": "Nathan Saliba",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "21",
+      "name": "Oluwaseyi",
+      "full": "Tani Oluwaseyi",
+      "at": "45'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Gueye",
+     "full": "Pape Gueye",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "14",
+     "name": "Comesaña",
+     "full": "Santi Comesaña",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "7",
+      "name": "Moreno",
+      "full": "Gerard Moreno",
+      "at": "78'"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Mikautadze",
+     "full": "Georges Mikautadze",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "22",
+      "name": "Pérez",
+      "full": "Ayoze Pérez",
+      "at": "60'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Moleiro",
+     "full": "Alberto Moleiro",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "8",
+      "name": "Foyth",
+      "full": "Juan Foyth",
+      "at": "54'"
+     }
+    },
+    {
+     "no": "17",
+     "name": "Buchanan",
+     "full": "Tajon Buchanan",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "3",
+      "name": "Freeman",
+      "full": "Alex Freeman",
+      "at": "60'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "7",
+     "name": "Moreno",
+     "full": "Gerard Moreno",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "78'",
+      "for": "Comesaña"
+     }
+    },
+    {
+     "no": "16",
+     "name": "Macià",
+     "full": "Carlos Macià",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Oluwaseyi",
+     "full": "Tani Oluwaseyi",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'",
+      "for": "Saliba"
+     }
+    },
+    {
+     "no": "28",
+     "name": "Gaitán Diaz",
+     "full": "Joselillo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "8",
+     "name": "Foyth",
+     "full": "Juan Foyth",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "54'",
+      "for": "Moleiro"
+     }
+    },
+    {
+     "no": "1",
+     "name": "Júnior",
+     "full": "Luiz Júnior",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Costa",
+     "full": "Logan Costa",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "27",
+     "name": "El Jmili Ben Hamou",
+     "full": "Nizar El Jmili Ben Hamou",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "11",
+     "name": "Akhomach",
+     "full": "Ilias Akhomach",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "3",
+     "name": "Freeman",
+     "full": "Alex Freeman",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "60'",
+      "for": "Buchanan"
+     }
+    },
+    {
+     "no": "22",
+     "name": "Pérez",
+     "full": "Ayoze Pérez",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "60'",
+      "for": "Mikautadze"
+     }
+    },
+    {
+     "no": "5",
+     "name": "Diatta",
+     "full": "Alassane Diatta",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "attendance": 59610,
+ "table": {
+  "comp": "Champions League",
+  "pos": 2,
+  "of": 36,
+  "pts": 9,
+  "played": 3,
+  "w": 3,
+  "d": 0,
+  "l": 0,
+  "before": 5
+ },
+ "story": "Liverpool beat Villarreal 4-3 at Anfield in the Champions League. Georges Mikautadze and Sergi Cardona gave Villarreal a 2-0 lead, but Alexis Mac Allister levelled in the 36th minute and Ronald Araujo struck in the second minute of stoppage time before half-time. Mac Allister scored again in the 65th minute, Florian Wirtz made it 4-2 in the 68th, and Tani Oluwaseyi pulled one back for Villarreal in the 87th. The win lifted Liverpool to second place in the Champions League table on nine points from three games.",
+ "storyV": 2
+}

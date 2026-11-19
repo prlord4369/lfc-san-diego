@@ -1,0 +1,620 @@
+{
+ "id": "2026-11-04-fenerbahce",
+ "espn": "401915382",
+ "league": "uefa.champions",
+ "comp": "Champions League",
+ "kickoff": "2026-11-04T17:45:00Z",
+ "ha": "A",
+ "opp": "Fenerbahçe",
+ "oppAbbr": "FEN",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+ "ground": {
+  "name": "Şükrü Saracoğlu Stadium",
+  "city": "Istanbul",
+  "country": "Türkiye"
+ },
+ "score": {
+  "lfc": 2,
+  "opp": 3
+ },
+ "r": "L",
+ "ht": {
+  "lfc": 1,
+  "opp": 1
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "25'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Trey Nyoni"
+  },
+  {
+   "min": "25'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Archie Brown"
+  },
+  {
+   "min": "29'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Mason Greenwood"
+  },
+  {
+   "min": "63'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Vedat Muriqi",
+   "off": "Romelu Lukaku"
+  },
+  {
+   "min": "66'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Florian Wirtz",
+   "off": "Joe Gomez"
+  },
+  {
+   "min": "66'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexander Isak",
+   "off": "Víctor Muñoz"
+  },
+  {
+   "min": "66'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Cody Gakpo",
+   "off": "Rio Ngumoha"
+  },
+  {
+   "min": "69'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak",
+   "assist": "Cody Gakpo"
+  },
+  {
+   "min": "73'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Archie Brown"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Kerem Aktürkoglu",
+   "off": "Irfan Can Kahveci"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Mert Müldür",
+   "off": "Nélson Semedo"
+  },
+  {
+   "min": "76'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Milos Kerkez",
+   "off": "Kostas Tsimikas"
+  },
+  {
+   "min": "79'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Vedat Muriqi",
+   "assist": "Archie Brown"
+  },
+  {
+   "min": "85'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Trey Nyoni"
+  },
+  {
+   "min": "85'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Alexis Mac Allister"
+  },
+  {
+   "min": "89'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Oguz Aydin",
+   "off": "Mason Greenwood"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 67.6,
+   "opp": 32.4,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 22,
+   "opp": 17,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 6,
+   "opp": 6,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 12,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 90,
+   "opp": 72,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 3,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 12,
+   "opp": 13,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 2,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 1,
+   "opp": 1,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "Fenerbahce",
+   "formation": "4-3-3",
+   "xi": [
+    {
+     "no": "31",
+     "name": "Ederson",
+     "full": "Ederson",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "21",
+     "name": "Oppong",
+     "full": "Kojo Peprah Oppong",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "37",
+     "name": "Skriniar",
+     "full": "Milan Skriniar",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "3",
+     "name": "Brown",
+     "full": "Archie Brown",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "27",
+     "name": "Semedo",
+     "full": "Nélson Semedo",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "18",
+      "name": "Müldür",
+      "full": "Mert Müldür",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "5",
+     "name": "Yüksek",
+     "full": "Ismail Yüksek",
+     "pos": "CM",
+     "place": 4
+    },
+    {
+     "no": "91",
+     "name": "Kanté",
+     "full": "N'Golo Kanté",
+     "pos": "LM",
+     "place": 8
+    },
+    {
+     "no": "6",
+     "name": "Guendouzi",
+     "full": "Matteo Guendouzi",
+     "pos": "RM",
+     "place": 7
+    },
+    {
+     "no": "9",
+     "name": "Lukaku",
+     "full": "Romelu Lukaku",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "19",
+      "name": "Muriqi",
+      "full": "Vedat Muriqi",
+      "at": "63'"
+     }
+    },
+    {
+     "no": "17",
+     "name": "Kahveci",
+     "full": "Irfan Can Kahveci",
+     "pos": "LF",
+     "place": 11,
+     "on": {
+      "no": "7",
+      "name": "Aktürkoglu",
+      "full": "Kerem Aktürkoglu",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "11",
+     "name": "Greenwood",
+     "full": "Mason Greenwood",
+     "pos": "RF",
+     "place": 10,
+     "on": {
+      "no": "70",
+      "name": "Aydin",
+      "full": "Oguz Aydin",
+      "at": "89'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "14",
+     "name": "Demir",
+     "full": "Yigit Demir",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "45",
+     "name": "Dorgeles",
+     "full": "Nene Dorgeles",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "70",
+     "name": "Aydin",
+     "full": "Oguz Aydin",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "89'",
+      "for": "Greenwood"
+     }
+    },
+    {
+     "no": "28",
+     "name": "Elmaz",
+     "full": "Bartug Elmaz",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "13",
+     "name": "Cetin",
+     "full": "Tarik Cetin",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "7",
+     "name": "Aktürkoglu",
+     "full": "Kerem Aktürkoglu",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Kahveci"
+     }
+    },
+    {
+     "no": "22",
+     "name": "Mercan",
+     "full": "Munir Mercan",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "19",
+     "name": "Muriqi",
+     "full": "Vedat Muriqi",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "63'",
+      "for": "Lukaku"
+     }
+    },
+    {
+     "no": "34",
+     "name": "Günok",
+     "full": "Mert Günok",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "77",
+     "name": "Mimovic",
+     "full": "Ognjen Mimovic",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "18",
+     "name": "Müldür",
+     "full": "Mert Müldür",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Semedo"
+     }
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "6",
+      "name": "Kerkez",
+      "full": "Milos Kerkez",
+      "at": "76'"
+     }
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "7",
+      "name": "Wirtz",
+      "full": "Florian Wirtz",
+      "at": "66'"
+     }
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "85'"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "18",
+      "name": "Gakpo",
+      "full": "Cody Gakpo",
+      "at": "66'"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "9",
+      "name": "Isak",
+      "full": "Alexander Isak",
+      "at": "66'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "44",
+     "name": "Chambers",
+     "full": "Luke Chambers",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "28",
+     "name": "Woodman",
+     "full": "Freddie Woodman",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "76",
+     "name": "Danns",
+     "full": "Jayden Danns",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "76'",
+      "for": "Tsimikas"
+     }
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "Ngumoha"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "85'",
+      "for": "Nyoni"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "Muñoz"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "Gomez"
+     }
+    }
+   ]
+  }
+ },
+ "table": {
+  "comp": "Champions League",
+  "pos": 8,
+  "of": 36,
+  "pts": 9,
+  "played": 4,
+  "w": 3,
+  "d": 0,
+  "l": 1,
+  "before": 4
+ },
+ "story": "Liverpool lost 2-3 to Fenerbahçe in the Champions League at Şükrü Saracoğlu Stadium. Trey Nyoni gave Liverpool the lead in the 25th minute, but Mason Greenwood equalised four minutes later. Alexander Isak restored Liverpool's advantage in the 69th minute, assisted by Cody Gakpo, before Archie Brown and Vedat Muriqi scored for Fenerbahçe in the 73rd and 79th minutes. The defeat leaves Liverpool eighth of 36 teams in the Champions League table with nine points from four matches.",
+ "storyV": 2
+}

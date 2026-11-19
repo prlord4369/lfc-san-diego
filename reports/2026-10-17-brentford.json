@@ -1,0 +1,634 @@
+{
+ "id": "2026-10-17-brentford",
+ "espn": "401879262",
+ "league": "eng.1",
+ "comp": "Premier League",
+ "kickoff": "2026-10-17T14:00:00Z",
+ "ha": "A",
+ "opp": "Brentford",
+ "oppAbbr": "BRE",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+ "ground": {
+  "name": "Gtech Community Stadium",
+  "city": "Brentford",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 2,
+  "opp": 1
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 0,
+  "opp": 1
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "31'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Bradley Barcola"
+  },
+  {
+   "min": "32'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Trey Nyoni",
+   "off": "Dominik Szoboszlai"
+  },
+  {
+   "min": "44'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Keane Lewis-Potter",
+   "assist": "Igor Thiago"
+  },
+  {
+   "min": "45'+8'",
+   "side": "opp",
+   "kind": "red",
+   "player": "Yehor Yarmoliuk"
+  },
+  {
+   "min": "45'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Jeremie Frimpong",
+   "off": "Ronald Araujo"
+  },
+  {
+   "min": "45'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Kevin Schade",
+   "off": "Dango Ouattara"
+  },
+  {
+   "min": "45'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Mamadou Sangare",
+   "off": "Mathias Jensen"
+  },
+  {
+   "min": "46'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Igor Thiago"
+  },
+  {
+   "min": "49'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Jérémy Jacquet"
+  },
+  {
+   "min": "52'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Rio Ngumoha",
+   "off": "Jeremie Frimpong"
+  },
+  {
+   "min": "53'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Alexis Mac Allister"
+  },
+  {
+   "min": "60'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Kevin Schade"
+  },
+  {
+   "min": "62'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Víctor Muñoz",
+   "assist": "Florian Wirtz"
+  },
+  {
+   "min": "63'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Vitaly Janelt"
+  },
+  {
+   "min": "70'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak",
+   "assist": "Bradley Barcola"
+  },
+  {
+   "min": "71'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Aaron Hickey",
+   "off": "Sepp van den Berg"
+  },
+  {
+   "min": "77'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "El Hadji Malick Diouf",
+   "off": "Keane Lewis-Potter"
+  },
+  {
+   "min": "77'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Mikkel Damsgaard",
+   "off": "Jaidon Anthony"
+  },
+  {
+   "min": "79'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Alexander Isak"
+  },
+  {
+   "min": "79'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Joe Gomez",
+   "off": "Víctor Muñoz"
+  },
+  {
+   "min": "90'+2'",
+   "side": "opp",
+   "kind": "red",
+   "player": "Vitaly Janelt"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 59.9,
+   "opp": 40.1,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 21,
+   "opp": 10,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 5,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 9,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 83,
+   "opp": 74,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 1,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 13,
+   "opp": 7,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 2,
+   "opp": 1,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 3,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Red cards",
+   "lfc": 0,
+   "opp": 2,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "Brentford",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Kelleher",
+     "full": "Caoimhín Kelleher",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "20",
+     "name": "Ajer",
+     "full": "Kristoffer Ajer",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "4",
+     "name": "van den Berg",
+     "full": "Sepp van den Berg",
+     "pos": "CD-R",
+     "place": 5,
+     "on": {
+      "no": "2",
+      "name": "Hickey",
+      "full": "Aaron Hickey",
+      "at": "71'"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Lewis-Potter",
+     "full": "Keane Lewis-Potter",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "25",
+      "name": "Diouf",
+      "full": "El Hadji Malick Diouf",
+      "at": "77'"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Kayode",
+     "full": "Michael Kayode",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "8",
+     "name": "Jensen",
+     "full": "Mathias Jensen",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "18",
+      "name": "Sangare",
+      "full": "Mamadou Sangare",
+      "at": "45'"
+     }
+    },
+    {
+     "no": "27",
+     "name": "Janelt",
+     "full": "Vitaly Janelt",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "6",
+     "name": "Yarmoliuk",
+     "full": "Yehor Yarmoliuk",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Thiago",
+     "full": "Igor Thiago",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "19",
+     "name": "Anthony",
+     "full": "Jaidon Anthony",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "24",
+      "name": "Damsgaard",
+      "full": "Mikkel Damsgaard",
+      "at": "77'"
+     }
+    },
+    {
+     "no": "11",
+     "name": "Ouattara",
+     "full": "Dango Ouattara",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "7",
+      "name": "Schade",
+      "full": "Kevin Schade",
+      "at": "45'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "14",
+     "name": "Carvalho",
+     "full": "Fábio Carvalho",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "22",
+     "name": "Collins",
+     "full": "Nathan Collins",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "24",
+     "name": "Damsgaard",
+     "full": "Mikkel Damsgaard",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "77'",
+      "for": "Anthony"
+     }
+    },
+    {
+     "no": "12",
+     "name": "Valdimarsson",
+     "full": "Hákon Valdimarsson",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Hickey",
+     "full": "Aaron Hickey",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "71'",
+      "for": "van den Berg"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Sangare",
+     "full": "Mamadou Sangare",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'",
+      "for": "Jensen"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Schade",
+     "full": "Kevin Schade",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'",
+      "for": "Ouattara"
+     }
+    },
+    {
+     "no": "13",
+     "name": "Wilson",
+     "full": "Callum Wilson",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "25",
+     "name": "Diouf",
+     "full": "El Hadji Malick Diouf",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "77'",
+      "for": "Lewis-Potter"
+     }
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "73",
+      "name": "Ngumoha",
+      "full": "Rio Ngumoha",
+      "at": "52'"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "42",
+      "name": "Nyoni",
+      "full": "Trey Nyoni",
+      "at": "32'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "79'"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "2",
+      "name": "Gomez",
+      "full": "Joe Gomez",
+      "at": "79'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "52'",
+      "for": "Frimpong"
+     }
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'",
+      "for": "Araujo"
+     }
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "79'",
+      "for": "Muñoz"
+     }
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "32'",
+      "for": "Szoboszlai"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "79'",
+      "for": "Isak"
+     }
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "table": {
+  "comp": "Premier League",
+  "pos": 5,
+  "of": 20,
+  "pts": 12,
+  "played": 7,
+  "w": 3,
+  "d": 3,
+  "l": 1,
+  "before": 9
+ },
+ "story": "Liverpool came from behind to beat Brentford 2-1 at the Gtech Community Stadium in the Premier League. Keane Lewis-Potter gave Brentford the lead in the 44th minute, assisted by Igor Thiago, before Víctor Muñoz equalised in the 62nd minute from a Florian Wirtz assist. Alexander Isak scored the winner in the 70th minute, set up by Bradley Barcola. The result leaves Liverpool fifth in the table with 12 points from seven games.",
+ "storyV": 2
+}

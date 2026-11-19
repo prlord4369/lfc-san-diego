@@ -1,0 +1,610 @@
+{
+ "id": "2026-10-11-manchester-city",
+ "espn": "401879264",
+ "league": "eng.1",
+ "comp": "Premier League",
+ "kickoff": "2026-10-11T15:30:00Z",
+ "ha": "H",
+ "opp": "Manchester City",
+ "oppAbbr": "MNC",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+ "ground": {
+  "name": "Anfield",
+  "city": "Liverpool",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 0,
+  "opp": 3
+ },
+ "r": "L",
+ "ht": {
+  "lfc": 0,
+  "opp": 0
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "8'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Ronald Araujo"
+  },
+  {
+   "min": "47'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Ryan Gravenberch"
+  },
+  {
+   "min": "56'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Jérémy Doku",
+   "off": "Iliman Ndiaye"
+  },
+  {
+   "min": "58'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Nico O'Reilly"
+  },
+  {
+   "min": "62'",
+   "side": "lfc",
+   "kind": "red",
+   "player": "Ryan Gravenberch"
+  },
+  {
+   "min": "65'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Erling Haaland"
+  },
+  {
+   "min": "66'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Trey Nyoni",
+   "off": "Florian Wirtz"
+  },
+  {
+   "min": "66'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Josko Gvardiol",
+   "off": "Nico O'Reilly"
+  },
+  {
+   "min": "68'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Jérémy Doku",
+   "assist": "Elliot Anderson"
+  },
+  {
+   "min": "75'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Jeremie Frimpong",
+   "off": "Ronald Araujo"
+  },
+  {
+   "min": "75'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Rio Ngumoha",
+   "off": "Lewis Koumas"
+  },
+  {
+   "min": "78'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Rayan Cherki",
+   "assist": "Josko Gvardiol"
+  },
+  {
+   "min": "80'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Allan Elias",
+   "off": "Erling Haaland"
+  },
+  {
+   "min": "80'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Ayyoub Bouaddi",
+   "off": "Enzo Fernández"
+  },
+  {
+   "min": "86'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Ayyoub Bouaddi"
+  },
+  {
+   "min": "88'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Joe Gomez",
+   "off": "Jérémy Jacquet"
+  },
+  {
+   "min": "88'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Federico Chiesa",
+   "off": "Bradley Barcola"
+  },
+  {
+   "min": "90'+1'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Virgil van Dijk"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 35.4,
+   "opp": 64.6,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 13,
+   "opp": 15,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 6,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 5,
+   "opp": 6,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 80,
+   "opp": 89,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 1,
+   "opp": 6,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 19,
+   "opp": 14,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 2,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 2,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Red cards",
+   "lfc": 1,
+   "opp": 0,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5,
+     "on": {
+      "no": "2",
+      "name": "Gomez",
+      "full": "Joe Gomez",
+      "at": "88'"
+     }
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "30",
+      "name": "Frimpong",
+      "full": "Jeremie Frimpong",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "42",
+      "name": "Nyoni",
+      "full": "Trey Nyoni",
+      "at": "66'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "73",
+      "name": "Ngumoha",
+      "full": "Rio Ngumoha",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "14",
+      "name": "Chiesa",
+      "full": "Federico Chiesa",
+      "at": "88'"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "AM-R",
+     "place": 7
+    }
+   ],
+   "subs": [
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Koumas"
+     }
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "Wirtz"
+     }
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Araujo"
+     }
+    },
+    {
+     "no": "14",
+     "name": "Chiesa",
+     "full": "Federico Chiesa",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "88'",
+      "for": "Barcola"
+     }
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "88'",
+      "for": "Jacquet"
+     }
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  },
+  "opp": {
+   "name": "Manchester City",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Donnarumma",
+     "full": "Gianluigi Donnarumma",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "6",
+     "name": "Guéhi",
+     "full": "Marc Guéhi",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "3",
+     "name": "Dias",
+     "full": "Rúben Dias",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "33",
+     "name": "O'Reilly",
+     "full": "Nico O'Reilly",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "24",
+      "name": "Gvardiol",
+      "full": "Josko Gvardiol",
+      "at": "66'"
+     }
+    },
+    {
+     "no": "27",
+     "name": "Nunes",
+     "full": "Matheus Nunes",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "10",
+     "name": "Cherki",
+     "full": "Rayan Cherki",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "17",
+     "name": "Fernández",
+     "full": "Enzo Fernández",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "32",
+      "name": "Bouaddi",
+      "full": "Ayyoub Bouaddi",
+      "at": "80'"
+     }
+    },
+    {
+     "no": "5",
+     "name": "Anderson",
+     "full": "Elliot Anderson",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Haaland",
+     "full": "Erling Haaland",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "37",
+      "name": "Elias",
+      "full": "Allan Elias",
+      "at": "80'"
+     }
+    },
+    {
+     "no": "42",
+     "name": "Semenyo",
+     "full": "Antoine Semenyo",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "7",
+     "name": "Ndiaye",
+     "full": "Iliman Ndiaye",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "11",
+      "name": "Doku",
+      "full": "Jérémy Doku",
+      "at": "56'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "8",
+     "name": "Kovacic",
+     "full": "Mateo Kovacic",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "32",
+     "name": "Bouaddi",
+     "full": "Ayyoub Bouaddi",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "80'",
+      "for": "Fernández"
+     }
+    },
+    {
+     "no": "22",
+     "name": "Reis",
+     "full": "Vitor Reis",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "45",
+     "name": "Khusanov",
+     "full": "Abdukodir Khusanov",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "11",
+     "name": "Doku",
+     "full": "Jérémy Doku",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "56'",
+      "for": "Ndiaye"
+     }
+    },
+    {
+     "no": "24",
+     "name": "Gvardiol",
+     "full": "Josko Gvardiol",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "66'",
+      "for": "O'Reilly"
+     }
+    },
+    {
+     "no": "37",
+     "name": "Elias",
+     "full": "Allan Elias",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "80'",
+      "for": "Haaland"
+     }
+    },
+    {
+     "no": "82",
+     "name": "Lewis",
+     "full": "Rico Lewis",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "28",
+     "name": "Rulli",
+     "full": "Gerónimo Rulli",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "table": {
+  "comp": "Premier League",
+  "pos": 9,
+  "of": 20,
+  "pts": 9,
+  "played": 6,
+  "w": 2,
+  "d": 3,
+  "l": 1,
+  "before": 8
+ },
+ "story": "Manchester City beat Liverpool 3-0 at Anfield in the Premier League. Erling Haaland opened the scoring in the 65th minute, and Jérémy Doku doubled the lead three minutes later, assisted by Elliot Anderson. Rayan Cherki added a third in the 78th minute, set up by Josko Gvardiol, after Ryan Gravenberch had been shown a red card in the 62nd minute. The defeat left Liverpool ninth in the Premier League with nine points from six matches.",
+ "storyV": 2
+}

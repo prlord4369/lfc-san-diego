@@ -1,0 +1,656 @@
+{
+ "id": "2026-10-14-lask-linz",
+ "espn": "401915415",
+ "league": "uefa.champions",
+ "comp": "Champions League",
+ "kickoff": "2026-10-14T16:45:00Z",
+ "ha": "A",
+ "opp": "LASK Linz",
+ "oppAbbr": "LAS",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+ "ground": {
+  "name": "Raiffeisen Arena (Linz)",
+  "city": "Linz",
+  "country": "Austria"
+ },
+ "score": {
+  "lfc": 6,
+  "opp": 3
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 3,
+  "opp": 0
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "22'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Ronald Araujo",
+   "assist": "Kostas Tsimikas"
+  },
+  {
+   "min": "24'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Bradley Barcola",
+   "assist": "Lewis Koumas"
+  },
+  {
+   "min": "37'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Bradley Barcola",
+   "assist": "Florian Wirtz"
+  },
+  {
+   "min": "45'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Florian Flecker",
+   "off": "Kasper Jørgensen"
+  },
+  {
+   "min": "51'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Jeremie Frimpong",
+   "assist": "Kostas Tsimikas"
+  },
+  {
+   "min": "62'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Virgil van Dijk",
+   "off": "Jérémy Jacquet"
+  },
+  {
+   "min": "62'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Joe Gomez",
+   "off": "Ronald Araujo"
+  },
+  {
+   "min": "62'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Robert Ljubicic",
+   "off": "Melayro Bogarde"
+  },
+  {
+   "min": "63'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Robert Ljubicic",
+   "assist": "Yvan Dibango"
+  },
+  {
+   "min": "66'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Bradley Barcola",
+   "assist": "Jeremie Frimpong"
+  },
+  {
+   "min": "71'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Sasa Kalajdzic",
+   "off": "Samuel Adeniran"
+  },
+  {
+   "min": "71'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Daniel Elfadli",
+   "off": "Alessandro Schöpf"
+  },
+  {
+   "min": "72'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Lewis Koumas",
+   "assist": "Jeremie Frimpong"
+  },
+  {
+   "min": "73'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Víctor Muñoz",
+   "off": "Bradley Barcola"
+  },
+  {
+   "min": "74'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Florian Flecker",
+   "assist": "Yvan Dibango"
+  },
+  {
+   "min": "77'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Florian Flecker",
+   "assist": "Yvan Dibango"
+  },
+  {
+   "min": "80'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Daniel Elfadli"
+  },
+  {
+   "min": "82'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Nael Kane",
+   "off": "Christoph Lang"
+  },
+  {
+   "min": "85'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexis Mac Allister",
+   "off": "Trey Nyoni"
+  },
+  {
+   "min": "85'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Luke Chambers",
+   "off": "Rio Ngumoha"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 64.2,
+   "opp": 35.8,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 26,
+   "opp": 12,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 9,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 11,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 91,
+   "opp": 81,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 1,
+   "opp": 2,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 4,
+   "opp": 7,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 6,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 0,
+   "opp": 1,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "LASK Linz",
+   "formation": "5-4-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Jungwirth",
+     "full": "Lukas Jungwirth",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "43",
+     "name": "Victor Tornich",
+     "full": "Alemão",
+     "pos": "CD",
+     "place": 5
+    },
+    {
+     "no": "16",
+     "name": "Andrade",
+     "full": "Andrés Andrade",
+     "pos": "CD-L",
+     "place": 4
+    },
+    {
+     "no": "4",
+     "name": "Mbuyamba",
+     "full": "Xavier Mbuyamba",
+     "pos": "CD-R",
+     "place": 6
+    },
+    {
+     "no": "25",
+     "name": "Dibango",
+     "full": "Yvan Dibango",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "20",
+     "name": "Jørgensen",
+     "full": "Kasper Jørgensen",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "29",
+      "name": "Flecker",
+      "full": "Florian Flecker",
+      "at": "45'"
+     }
+    },
+    {
+     "no": "18",
+     "name": "Schöpf",
+     "full": "Alessandro Schöpf",
+     "pos": "CM-L",
+     "place": 10,
+     "on": {
+      "no": "23",
+      "name": "Elfadli",
+      "full": "Daniel Elfadli",
+      "at": "71'"
+     }
+    },
+    {
+     "no": "6",
+     "name": "Bogarde",
+     "full": "Melayro Bogarde",
+     "pos": "CM-R",
+     "place": 8,
+     "on": {
+      "no": "10",
+      "name": "Ljubicic",
+      "full": "Robert Ljubicic",
+      "at": "62'"
+     }
+    },
+    {
+     "no": "27",
+     "name": "Lang",
+     "full": "Christoph Lang",
+     "pos": "LM",
+     "place": 11,
+     "on": {
+      "no": "45",
+      "name": "Kane",
+      "full": "Nael Kane",
+      "at": "82'"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Danek",
+     "full": "Krystof Danek",
+     "pos": "RM",
+     "place": 7
+    },
+    {
+     "no": "7",
+     "name": "Adeniran",
+     "full": "Samuel Adeniran",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "11",
+      "name": "Kalajdzic",
+      "full": "Sasa Kalajdzic",
+      "at": "71'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "11",
+     "name": "Kalajdzic",
+     "full": "Sasa Kalajdzic",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "71'",
+      "for": "Adeniran"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Schützenauer",
+     "full": "Tobias Schützenauer",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Verhaeghe",
+     "full": "Manoël Louis-Philippe Verhaeghe",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "45",
+     "name": "Kane",
+     "full": "Nael Kane",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "82'",
+      "for": "Lang"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Flecker",
+     "full": "Florian Flecker",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "45'",
+      "for": "Jørgensen"
+     }
+    },
+    {
+     "no": "50",
+     "name": "Schillinger",
+     "full": "Fabian Schillinger",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "3",
+     "name": "Freckleton",
+     "full": "Miguel Freckleton",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "23",
+     "name": "Elfadli",
+     "full": "Daniel Elfadli",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "71'",
+      "for": "Schöpf"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Ljubicic",
+     "full": "Robert Ljubicic",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "62'",
+      "for": "Bogarde"
+     }
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-L",
+     "place": 6,
+     "on": {
+      "no": "4",
+      "name": "van Dijk",
+      "full": "Virgil van Dijk",
+      "at": "62'"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "CD-R",
+     "place": 5,
+     "on": {
+      "no": "2",
+      "name": "Gomez",
+      "full": "Joe Gomez",
+      "at": "62'"
+     }
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "10",
+      "name": "Mac Allister",
+      "full": "Alexis Mac Allister",
+      "at": "85'"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "23",
+      "name": "Muñoz",
+      "full": "Víctor Muñoz",
+      "at": "73'"
+     }
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "44",
+      "name": "Chambers",
+      "full": "Luke Chambers",
+      "at": "85'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "44",
+     "name": "Chambers",
+     "full": "Luke Chambers",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "85'",
+      "for": "Ngumoha"
+     }
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "92",
+     "name": "Lucky",
+     "full": "Wellity Lucky",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "73'",
+      "for": "Barcola"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "85'",
+      "for": "Nyoni"
+     }
+    },
+    {
+     "no": "76",
+     "name": "Danns",
+     "full": "Jayden Danns",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "62'",
+      "for": "Jacquet"
+     }
+    },
+    {
+     "no": "28",
+     "name": "Woodman",
+     "full": "Freddie Woodman",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "62'",
+      "for": "Araujo"
+     }
+    },
+    {
+     "no": "82",
+     "name": "Lambie",
+     "full": "Joshua Lambie",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "attendance": 18910,
+ "table": {
+  "comp": "Champions League",
+  "pos": 5,
+  "of": 36,
+  "pts": 6,
+  "played": 2,
+  "w": 2,
+  "d": 0,
+  "l": 0,
+  "before": 15
+ },
+ "story": "Liverpool beat LASK Linz 6-3 away in the Champions League. Ronald Araujo opened the scoring in the 22nd minute, Bradley Barcola struck in the 24th and 37th minutes, and Jeremie Frimpong made it 4-0 in the 51st. LASK Linz replied through Robert Ljubicic in the 63rd minute and Florian Flecker in the 74th and 77th, but Barcola completed his hat-trick in the 66th and Lewis Koumas scored in the 72nd. The win lifts Liverpool to fifth of 36 in the Champions League table, with six points from two games.",
+ "storyV": 2
+}

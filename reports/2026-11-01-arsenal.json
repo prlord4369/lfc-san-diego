@@ -1,0 +1,603 @@
+{
+ "id": "2026-11-01-arsenal",
+ "espn": "401879246",
+ "league": "eng.1",
+ "comp": "Premier League",
+ "kickoff": "2026-11-01T16:30:00Z",
+ "ha": "H",
+ "opp": "Arsenal",
+ "oppAbbr": "ARS",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+ "ground": {
+  "name": "Anfield",
+  "city": "Liverpool",
+  "country": "England"
+ },
+ "score": {
+  "lfc": 0,
+  "opp": 1
+ },
+ "r": "L",
+ "ht": {
+  "lfc": 0,
+  "opp": 1
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "16'",
+   "side": "opp",
+   "kind": "goal",
+   "player": "Kai Havertz",
+   "assist": "Declan Rice"
+  },
+  {
+   "min": "45'+2'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Bradley Barcola"
+  },
+  {
+   "min": "55'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Noni Madueke"
+  },
+  {
+   "min": "59'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Dominik Szoboszlai",
+   "off": "Trey Nyoni"
+  },
+  {
+   "min": "62'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Myles Lewis-Skelly",
+   "off": "Bruno Guimarães"
+  },
+  {
+   "min": "67'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Milos Kerkez"
+  },
+  {
+   "min": "67'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Rio Ngumoha",
+   "off": "Cody Gakpo"
+  },
+  {
+   "min": "72'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Myles Lewis-Skelly"
+  },
+  {
+   "min": "80'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "Jurriën Timber"
+  },
+  {
+   "min": "80'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Alexis Mac Allister"
+  },
+  {
+   "min": "81'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Kostas Tsimikas",
+   "off": "Milos Kerkez"
+  },
+  {
+   "min": "81'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Víctor Muñoz",
+   "off": "Ronald Araujo"
+  },
+  {
+   "min": "81'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Florian Wirtz"
+  },
+  {
+   "min": "84'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Piero Hincapié",
+   "off": "Christos Tzolis"
+  },
+  {
+   "min": "84'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Viktor Gyökeres",
+   "off": "Kai Havertz"
+  },
+  {
+   "min": "88'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Mikel Merino",
+   "off": "Martin Ødegaard"
+  },
+  {
+   "min": "90'+3'",
+   "side": "opp",
+   "kind": "yellow",
+   "player": "David Raya"
+  },
+  {
+   "min": "90'+7'",
+   "side": "lfc",
+   "kind": "yellow",
+   "player": "Virgil van Dijk"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 56.4,
+   "opp": 43.6,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 17,
+   "opp": 10,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 0,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 7,
+   "opp": 4,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 82,
+   "opp": 73,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 2,
+   "opp": 0,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 18,
+   "opp": 10,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 2,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 4,
+   "opp": 4,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "21",
+      "name": "Tsimikas",
+      "full": "Kostas Tsimikas",
+      "at": "81'"
+     }
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "23",
+      "name": "Muñoz",
+      "full": "Víctor Muñoz",
+      "at": "81'"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "81'"
+     }
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "8",
+      "name": "Szoboszlai",
+      "full": "Dominik Szoboszlai",
+      "at": "59'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-L",
+     "place": 11
+    },
+    {
+     "no": "18",
+     "name": "Gakpo",
+     "full": "Cody Gakpo",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "73",
+      "name": "Ngumoha",
+      "full": "Rio Ngumoha",
+      "at": "67'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "81'",
+      "for": "Kerkez"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "81'",
+      "for": "Araujo"
+     }
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "81'",
+      "for": "Wirtz"
+     }
+    },
+    {
+     "no": "38",
+     "name": "Gravenberch",
+     "full": "Ryan Gravenberch",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "67'",
+      "for": "Gakpo"
+     }
+    },
+    {
+     "no": "3",
+     "name": "Endo",
+     "full": "Wataru Endo",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "59'",
+      "for": "Nyoni"
+     }
+    }
+   ]
+  },
+  "opp": {
+   "name": "Arsenal",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Raya",
+     "full": "David Raya",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "6",
+     "name": "Magalhães",
+     "full": "Gabriel Magalhães",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "15",
+     "name": "Konsa",
+     "full": "Ezri Konsa",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "33",
+     "name": "Calafiori",
+     "full": "Riccardo Calafiori",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "12",
+     "name": "Timber",
+     "full": "Jurriën Timber",
+     "pos": "RB",
+     "place": 2
+    },
+    {
+     "no": "8",
+     "name": "Ødegaard",
+     "full": "Martin Ødegaard",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "23",
+      "name": "Merino",
+      "full": "Mikel Merino",
+      "at": "88'"
+     }
+    },
+    {
+     "no": "39",
+     "name": "Guimarães",
+     "full": "Bruno Guimarães",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "49",
+      "name": "Lewis-Skelly",
+      "full": "Myles Lewis-Skelly",
+      "at": "62'"
+     }
+    },
+    {
+     "no": "41",
+     "name": "Rice",
+     "full": "Declan Rice",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "29",
+     "name": "Havertz",
+     "full": "Kai Havertz",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "14",
+      "name": "Gyökeres",
+      "full": "Viktor Gyökeres",
+      "at": "84'"
+     }
+    },
+    {
+     "no": "17",
+     "name": "Tzolis",
+     "full": "Christos Tzolis",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "5",
+      "name": "Hincapié",
+      "full": "Piero Hincapié",
+      "at": "84'"
+     }
+    },
+    {
+     "no": "20",
+     "name": "Madueke",
+     "full": "Noni Madueke",
+     "pos": "AM-R",
+     "place": 7
+    }
+   ],
+   "subs": [
+    {
+     "no": "13",
+     "name": "Arrizabalaga",
+     "full": "Kepa Arrizabalaga",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "5",
+     "name": "Hincapié",
+     "full": "Piero Hincapié",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "84'",
+      "for": "Tzolis"
+     }
+    },
+    {
+     "no": "14",
+     "name": "Gyökeres",
+     "full": "Viktor Gyökeres",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "84'",
+      "for": "Havertz"
+     }
+    },
+    {
+     "no": "4",
+     "name": "White",
+     "full": "Ben White",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "36",
+     "name": "Zubimendi",
+     "full": "Martín Zubimendi",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "49",
+     "name": "Lewis-Skelly",
+     "full": "Myles Lewis-Skelly",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "62'",
+      "for": "Guimarães"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Merino",
+     "full": "Mikel Merino",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "88'",
+      "for": "Ødegaard"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Eze",
+     "full": "Eberechi Eze",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "3",
+     "name": "Mosquera",
+     "full": "Cristhian Mosquera",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "table": {
+  "comp": "Premier League",
+  "pos": 5,
+  "of": 20,
+  "pts": 15,
+  "played": 9,
+  "w": 4,
+  "d": 3,
+  "l": 2,
+  "before": 5
+ },
+ "story": "Liverpool lost 0-1 to Arsenal at Anfield in the Premier League, as Kai Havertz scored in the 16th minute from a pass by Declan Rice. Liverpool had 17 shots and 56.4 percent possession, but none were on target, and Arsenal also led 1-0 at half-time. The defeat leaves Liverpool fifth in the table with 15 points from nine matches, the same position they held before the game.",
+ "storyV": 2
+}
