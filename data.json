@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T12:16:13Z",
+  "updated": "2026-11-19T15:30:56Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -988,7 +988,7 @@
       "usLocked": false
     },
     {
-      "kickoff": "2027-01-23T15:00:00Z",
+      "kickoff": "2027-01-24T16:30:00Z",
       "opp": "Manchester United",
       "ha": "A",
       "comp": "Premier League",
@@ -1008,7 +1008,7 @@
       "usLocked": false
     },
     {
-      "kickoff": "2027-01-30T15:00:00Z",
+      "kickoff": "2027-01-30T12:30:00Z",
       "opp": "Everton",
       "ha": "H",
       "comp": "Premier League",
@@ -1248,28 +1248,46 @@
     {
       "date": "2026-11-19",
       "source": "Liverpool Echo",
-      "title": "Liverpool chief Julian Ward risks breaking FSG's golden rule again after hitting the jackpot",
-      "summary": "Julian Ward has a tough decision to make in the January transfer window, with Liverpool currently set to lose some big names – just 18 months after hitting the jackpot.",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-julian-ward-fsg-rule-34935012",
-      "amp": true
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Liverpool Echo",
-      "title": "Jurgen Klopp has shown Liverpool what Florian Wirtz needs as key numbers expose next step",
-      "summary": "An analytical look at Florian Wirtz's recent performances for Germany and Liverpool under Jurgen Klopp and Andoni Iraola, with the numbers suggesting the £116m signing is ready to…",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jurgen-klopp-shown-liverpool-what-34933667",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933708.ece/ALTERNATES/s615/0_GettyImages-2304980487.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933708.ece/ALTERNATES/s1200/0_GettyImages-2304980487.jpg"
+      "title": "Liverpool transfers, Jarrad Branthwaite - Our best Premium stories this week and how to get 50% off",
+      "summary": "A round up of the best of our Premium offering this week, and why you should take advantage of our Black Friday offer",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfers-jarrad-branthwaite-best-34936224",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34936472.ece/ALTERNATES/s615/0_imagemaker-2026-11-19T134900487.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34936472.ece/ALTERNATES/s1200/0_imagemaker-2026-11-19T134900487.jpg"
     },
     {
       "date": "2026-11-19",
       "source": "Sky Sports",
-      "title": "Premier League talking points: Trial by Anfield as Poch begins Man Utd tenure",
-      "summary": "The Premier League is back after the recent international break and the Sky Sports football writers dissect all the major talking points ahead of another busy weekend's action.",
-      "url": "https://www.skysports.com/football/news/11669/13613208/mauricio-pochettino-begins-man-utd-tenure-with-testing-trip-to-liverpool-premier-league-talking-points",
-      "img": "https://e2.365dm.com/26/11/768x432/skysports-premier-league_7408877.jpg?20261117153906",
-      "big": "https://e2.365dm.com/26/11/1600x900/skysports-premier-league_7408877.jpg?20261117153906"
+      "title": "Assessing Iraola's Liverpool start",
+      "summary": "Liverpool head coach Andoni Iraola asked for judgements on his tenure to wait until after the November international break - we assess how the Basque is faring so far in his new…",
+      "url": "https://www.skysports.com/football/news/11669/13613875/andoni-iraolas-liverpool-start-assessed-creating-chaos-going-direct-and-fixing-leaky-defence",
+      "img": "https://e1.365dm.com/26/11/768x432/skysports-premier-league-liverpool_7410291.jpg?20261119104807",
+      "big": "https://e1.365dm.com/26/11/1600x900/skysports-premier-league-liverpool_7410291.jpg?20261119104807"
+    },
+    {
+      "date": "2026-11-19",
+      "source": "Sky Sports",
+      "title": "Man City vs Arsenal and Man Utd vs Liverpool live on Sky in January",
+      "summary": "Arsenal's trip to Man City and Man Utd hosting Liverpool at Old Trafford are two of the standout fixtures live on Sky Sports in January.",
+      "url": "https://www.skysports.com/football/news/11669/13613937/premier-league-fixtures-on-sky-sports-man-city-vs-arsenal-and-man-utd-vs-liverpool-live-in-january",
+      "img": "https://e1.365dm.com/26/10/768x432/skysports-premier-league-badges_7380864.jpg?20261019161220",
+      "big": "https://e1.365dm.com/26/10/1600x900/skysports-premier-league-badges_7380864.jpg?20261019161220"
+    },
+    {
+      "date": "2026-11-19",
+      "source": "Liverpool Echo",
+      "title": "Liverpool get triple injury boost as Virgil van Dijk returns but duo absence explained",
+      "summary": "Conor Bradley and Giovanni Leoni continue their recoveries from long-term injuries after taking part in Liverpool training",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-triple-injury-boost-virgil-34935552",
+      "amp": true
+    },
+    {
+      "date": "2026-11-19",
+      "source": "The Guardian",
+      "title": "Mauricio Pochettino calls for Manchester United to show no fear against Liverpool",
+      "summary": "New head coach’s first game is at Anfield on Sunday",
+      "url": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
+      "img": "https://i.guim.co.uk/img/media/81d893bb0fe58708ee77594e5d12ed2e91325998/223_0_2697_2157/master/2697.jpg?width=460&quality=85&auto=format&fit=max&s=ba2a47c90a27607547d2b0b9bf2f301c",
+      "big": "https://i.guim.co.uk/img/media/81d893bb0fe58708ee77594e5d12ed2e91325998/223_0_2697_2157/master/2697.jpg?width=700&quality=85&auto=format&fit=max&s=dc7caf2329b5d2201b3ce4719f692fbf"
     },
     {
       "date": "2026-11-18",
@@ -1279,15 +1297,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg"
-    },
-    {
-      "date": "2026-11-18",
-      "source": "Sky Sports",
-      "title": "Fernandes tumbles as new No 1 is crowned: Sky Sports' top 25 Premier League players",
-      "summary": "Bruno Fernandes has been dethroned as the king of the Premier League in a major shake-up to the top 25 Premier League players.",
-      "url": "https://www.skysports.com/football/news/11669/13613154/bruno-fernandes-tumbles-as-new-no-1-is-crowned-sky-sports-ranks-the-premier-leagues-top-25-players-right-now",
-      "img": "https://e1.365dm.com/26/11/768x432/skysports-graphic-erling-haaland_7408870.jpg?20261117153443",
-      "big": "https://e1.365dm.com/26/11/1600x900/skysports-graphic-erling-haaland_7408870.jpg?20261117153443"
     },
     {
       "date": "2026-11-18",
@@ -1344,15 +1353,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/10/rio-ngumoha-ready-to-make-england-splash-as-he-spells-out-ballon-dor-ambition",
       "img": "https://i.guim.co.uk/img/media/674bd01f3b2b9ae7552b22d6ae6c80ca18aa9673/408_0_4410_3528/master/4410.jpg?width=460&quality=85&auto=format&fit=max&s=081f15ce518f40de16ef1c79de8d42c0",
       "big": "https://i.guim.co.uk/img/media/674bd01f3b2b9ae7552b22d6ae6c80ca18aa9673/408_0_4410_3528/master/4410.jpg?width=700&quality=85&auto=format&fit=max&s=273d38e06ba87d811fc9405c0fb28df1"
-    },
-    {
-      "date": "2026-11-09",
-      "source": "The Guardian",
-      "title": "Premier League: 10 talking points from the weekend’s action",
-      "summary": "Delap’s talents resurface in style, Gómez delights Brighton with more fireworks, and hair-pulling confusion at Everton",
-      "url": "https://www.theguardian.com/football/2026/nov/09/premier-league-10-talking-points-weekend-action",
-      "img": "https://i.guim.co.uk/img/media/57cfc5f46ac89a85759f5f4c1495da03a497df06/0_1_5000_3998/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=2138da7b1fbf376cb7a0c4232ab271e7",
-      "big": "https://i.guim.co.uk/img/media/57cfc5f46ac89a85759f5f4c1495da03a497df06/0_1_5000_3998/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=8362c3ffcd095be8dd2cd61c08721927"
     }
   ],
   "outlets": [
