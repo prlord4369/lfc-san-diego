@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T22:20:12Z",
+  "updated": "2026-11-20T23:30:50Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1247,6 +1247,25 @@
   "news": [
     {
       "date": "2026-11-20",
+      "source": "The Guardian",
+      "title": "Premier League news: Moyes demands more from Grealish, Iraola wary of United threat",
+      "summary": "Everton’s playmaker returns after being stood down, while Liverpool’s head coach keeps focus for Anfield showdown",
+      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
+      "img": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=460&quality=85&auto=format&fit=max&s=27d6140dab96b722b303c123d2ef2675",
+      "big": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=700&quality=85&auto=format&fit=max&s=5c218b7633e51726c91f4ee5936430d0"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola sets Hugo Ekitike return date as Liverpool star closes in on injury comeback",
+      "summary": "Hugo Ekitike has been out of action since April, but he is getting closer to a return to action",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sets-hugo-ekitike-34943460",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943489.ece/ALTERNATES/s615/0_GettyImages-2289723521.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943489.ece/ALTERNATES/s1200/0_GettyImages-2289723521.jpg"
+    },
+    {
+      "date": "2026-11-20",
       "source": "Sky Sports",
       "title": "Van Dijk uncertain on Liverpool future",
       "summary": "Liverpool captain Virgil van Dijk believes he can keeping playing for \"many more years\" - but says he does not yet know whether that will be at Anfield next season.",
@@ -1272,25 +1291,6 @@
       "amp": true,
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34945357.ece/ALTERNATES/s615/0_GettyImages-2299031273.jpg",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34945357.ece/ALTERNATES/s1200/0_GettyImages-2299031273.jpg"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Liverpool Echo",
-      "title": "Mauricio Pochettino makes Bruno Fernandes decision ahead of Man United match at Liverpool",
-      "summary": "Mauricio Pochettino will take charge of Manchester United for the first time on Sunday when they travel to bitter rivals Liverpool",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/mauricio-pochettino-makes-bruno-fernandes-34945098",
-      "amp": true,
-      "img": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34943024.ece/ALTERNATES/s615/1_poch.jpg",
-      "big": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34943024.ece/ALTERNATES/s1200/1_poch.jpg"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "The Guardian",
-      "title": "Premier League news: Grealish available again for Everton, Maresca hints at City tweaks",
-      "summary": "Playmaker returns from suspension, while Enzo Maresca acknowledges his midfield needs balance",
-      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
-      "img": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=460&quality=85&auto=format&fit=max&s=27d6140dab96b722b303c123d2ef2675",
-      "big": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=700&quality=85&auto=format&fit=max&s=5c218b7633e51726c91f4ee5936430d0"
     },
     {
       "date": "2026-11-20",
