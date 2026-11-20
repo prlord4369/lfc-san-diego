@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T15:30:49Z",
+  "updated": "2026-11-20T17:30:48Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1247,6 +1247,34 @@
   "news": [
     {
       "date": "2026-11-20",
+      "source": "Liverpool Echo",
+      "title": "Mauricio Pochettino makes Bruno Fernandes decision ahead of Man United match at Liverpool",
+      "summary": "Mauricio Pochettino will take charge of Manchester United for the first time on Sunday when they travel to bitter rivals Liverpool",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/mauricio-pochettino-makes-bruno-fernandes-34945098",
+      "amp": true,
+      "img": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34943024.ece/ALTERNATES/s615/1_poch.jpg",
+      "big": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34943024.ece/ALTERNATES/s1200/1_poch.jpg"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "The Guardian",
+      "title": "Premier League news: Grealish available again for Everton, Maresca hints at City tweaks",
+      "summary": "Playmaker returns from suspension, while Enzo Maresca acknowledges his midfield needs balance",
+      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
+      "img": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=460&quality=85&auto=format&fit=max&s=27d6140dab96b722b303c123d2ef2675",
+      "big": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=700&quality=85&auto=format&fit=max&s=5c218b7633e51726c91f4ee5936430d0"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola Liverpool press conference - Virgil van Dijk, Dominik Szoboszlai injury news",
+      "summary": "Andoni Iraola will be facing the press ahead of Liverpool's match with Manchester United this Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-liverpool-press-conference-34942105",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34942113.ece/ALTERNATES/s615/0_GettyImages-2291419071.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34942113.ece/ALTERNATES/s1200/0_GettyImages-2291419071.jpg"
+    },
+    {
+      "date": "2026-11-20",
       "source": "BBC Sport",
       "title": "Iraola on being spotted at grassoots game",
       "summary": "Liverpool boss Andoni Iraola on being spotted at his son's grassoots football game.",
@@ -1273,26 +1301,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ac0d/live/52684620-e4f2-11f1-99b6-a35a62fa4264.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ac0d/live/52684620-e4f2-11f1-99b6-a35a62fa4264.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Liverpool Echo",
-      "title": "Van Dijk, Bradley, Frimpong, Leoni - Liverpool injury latest and return dates ahead of Man United",
-      "summary": "Liverpool manager Andoni Iraola has provided injury updates on several key players ahead of Sunday's match against Manchester United",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-injury-iraola-van-dijk-34943236",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943262.ece/ALTERNATES/s615/0_Screenshot-2026-11-20-142548.png",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943262.ece/ALTERNATES/s1200/0_Screenshot-2026-11-20-142548.png"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola explains Conor Bradley and Giovanni Leoni latest and gives update on four Liverpool stars",
-      "summary": "Liverpool head coach Andoni Iraola has provided an injury update ahead of the Premier League clash against Manchester United on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-explains-conor-bradley-34940850",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943168.ece/ALTERNATES/s615/0_iraola.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943168.ece/ALTERNATES/s1200/0_iraola.jpg"
     },
     {
       "date": "2026-11-20",
@@ -1348,15 +1356,6 @@
       "url": "https://www.skysports.com/football/news/11669/13611640/premier-league-predictions-jones-knows-best-bets-newcastle-vs-arsenal-liverpool-vs-manchester-united-and-much-more",
       "img": "https://e0.365dm.com/26/10/768x432/skysports-premier-league-predictions_7385438.jpg?20261024123906",
       "big": "https://e0.365dm.com/26/10/1600x900/skysports-premier-league-predictions_7385438.jpg?20261024123906"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Sky Sports",
-      "title": "Assessing Iraola's Liverpool start",
-      "summary": "Liverpool head coach Andoni Iraola asked for judgements on his tenure to wait until after the November international break - we assess how the Basque is faring so far in his new…",
-      "url": "https://www.skysports.com/football/news/11669/13613875/andoni-iraolas-liverpool-start-assessed-creating-chaos-going-direct-and-fixing-leaky-defence",
-      "img": "https://e1.365dm.com/26/11/768x432/skysports-premier-league-liverpool_7410291.jpg?20261119104807",
-      "big": "https://e1.365dm.com/26/11/1600x900/skysports-premier-league-liverpool_7410291.jpg?20261119104807"
     }
   ],
   "outlets": [
