@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T04:14:26Z",
+  "updated": "2026-11-20T12:16:21Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1178,7 +1178,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Heel",
-      "detail": "He missed the Fenerbahce and Crystal Palace games with a heel problem that Iraola is managing day to day. Liverpool hope he can be available against Manchester United on November 22.",
+      "detail": "The heel problem has kept him out of the last two matches, and Iraola is judging it day to day. He could be ready for Manchester United on November 22.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-szoboszlai-gravenberch-34930076"
@@ -1186,49 +1186,49 @@
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
-      "status": "out",
-      "issue": "Muscle",
-      "detail": "He has been sidelined since a muscle injury at Brentford and was left out of the Dutch squad. He is hoped to be back for Manchester United, but that is not confirmed.",
+      "status": "doubt",
+      "issue": "Hamstring",
+      "detail": "He has returned to training after the hamstring injury he picked up at Brentford. Liverpool have not confirmed he will be available for Manchester United.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still working back from Achilles rehabilitation after being unavailable since April. A competitive return in December is on the cards.",
+      "detail": "He is still working back from an Achilles problem and is not expected to play again until 2027.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-szoboszlai-gravenberch-34930076"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has rejoined team training over the November break after a serious knee injury, but no matchday return date has been set and the club will not rush him.",
+      "detail": "He has rejoined team training after a long knee recovery following surgery. Liverpool will manage him carefully and will not rush him back.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-boost-bradley-leoni-34928090"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is back in team training after more than a year out with a serious knee injury, but he is still some way off returning to matches.",
+      "detail": "He is back in team training after more than a year out with a serious knee injury. He still needs more time before he can return to matches.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
     },
     {
       "player": "Virgil van Dijk",
       "pos": "DF",
       "status": "doubt",
       "issue": "Niggle",
-      "detail": "He pulled out of the Netherlands squad with a minor knock and has been managing discomfort for weeks. Liverpool hope the break has eased it, and he is expected to play Manchester United.",
+      "detail": "He pulled out of the Netherlands squad with a minor knock that he has been managing for weeks. He is expected to be available for Manchester United, with Iraola due to confirm at his press conference.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
@@ -1238,13 +1238,61 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He played on with a knee knock at Crystal Palace and was substituted late. He joined Hungary's squad, and Liverpool will check him before the Manchester United game.",
+      "detail": "He left the Crystal Palace game early with a knee knock and then played two full matches for Hungary. Liverpool still need to check his fitness before the Manchester United game.",
       "reported": "2026-11-18",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-szoboszlai-gravenberch-34930076"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
     }
   ],
   "news": [
+    {
+      "date": "2026-11-20",
+      "source": "Liverpool Echo",
+      "title": "Milos Kerkez told to copy Jack Grealish after Liverpool January transfer claim",
+      "summary": "Liverpool have been urged to sign a new left-back in the New Year transfer window to challenge Milos Kerkez in the position",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/milos-kerkez-told-copy-jack-34940620",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941640.ece/ALTERNATES/s615/0_imagemaker-2026-11-20T115916431.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941640.ece/ALTERNATES/s1200/0_imagemaker-2026-11-20T115916431.jpg"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "Sky Sports",
+      "title": "Semenyo withdraws support for prosecution of Liverpool fan in racial abuse case",
+      "summary": "A Liverpool fan accused of racially abusing Antoine Semenyo has been found not guilty after the Manchester City forward withdrew his support for the prosecution.",
+      "url": "https://www.skysports.com/football/news/11669/13614319/antoine-semenyo-manchester-city-forward-withdraws-support-for-prosecution-of-liverpool-fan-in-racial-abuse-case",
+      "img": "https://e0.365dm.com/26/10/768x432/skysports-semenyo-manchester-city_7376976.jpg?20261014223334",
+      "big": "https://e0.365dm.com/26/10/1600x900/skysports-semenyo-manchester-city_7376976.jpg?20261014223334"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "Liverpool Echo",
+      "title": "Hear the Scouse poet at a new Liverpool FC book at event at Waterstones",
+      "summary": "This coming Monday (November 23) at Waterstones Liverpool, hear the Scouse poet Joseph Roberts, hosted by Humans Of Liverpool founder Adam Thompson",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/hear-scouse-poet-new-liverpool-34941283",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941260.ece/ALTERNATES/s615/0_JS397730354-1.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941260.ece/ALTERNATES/s1200/0_JS397730354-1.jpg"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "BBC Sport",
+      "title": "Liverpool and Man Utd fans give very 'ambitious' predictions",
+      "summary": "Liverpool fan Abi Rudkin and Man Utd fan Jay Motty have very differing views on how their clubs' showdown may go on Sunday",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6rrgd9lx0zpo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-19",
+      "source": "BBC Sport",
+      "title": "Inside the rise of 'humble' Nyoni and why Iraola trusts him",
+      "summary": "Teenage midfielder Trey Nyoni backed himself in the summer to play regular football for Liverpool. He is doing exactly that and thriving under Andoni Iraola.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ck24enjqvlyeo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a7f5/live/610e5c60-e361-11f1-a898-e7da1c1ebbf0.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a7f5/live/610e5c60-e361-11f1-a898-e7da1c1ebbf0.jpg"
+    },
     {
       "date": "2026-11-19",
       "source": "The Guardian",
@@ -1256,41 +1304,12 @@
     },
     {
       "date": "2026-11-19",
-      "source": "Liverpool Echo",
-      "title": "Fernando Torres reveals why he really left Liverpool with 'everything changed' admission",
-      "summary": "Fernando Torres was an icon at Liverpool before his controversial January transfer deadline day move to Premier League rivals Chelsea",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-transfer-news-fernando-torres-34938916",
-      "amp": true,
-      "img": "https://i2-prod.football.london/incoming/article34938914.ece/ALTERNATES/s615/0_Aldo-meets.jpg",
-      "big": "https://i2-prod.football.london/incoming/article34938914.ece/ALTERNATES/s1200/0_Aldo-meets.jpg"
-    },
-    {
-      "date": "2026-11-19",
       "source": "Sky Sports",
       "title": "PL Predictions: How will your club fare this weekend?",
       "summary": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight as the Premier League returns from the international break.",
       "url": "https://www.skysports.com/football/news/11669/13611640/premier-league-predictions-jones-knows-best-bets-newcastle-vs-arsenal-liverpool-vs-manchester-united-and-much-more",
       "img": "https://e0.365dm.com/26/10/768x432/skysports-premier-league-predictions_7385438.jpg?20261024123906",
       "big": "https://e0.365dm.com/26/10/1600x900/skysports-premier-league-predictions_7385438.jpg?20261024123906"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Liverpool Echo",
-      "title": "Ex-Liverpool star explains why Trey Nyoni and Rio Ngumoha are so special - 'It's not arrogance'",
-      "summary": "Former Liverpool midfielder Lucas Leiva outlines the huge potential of both Trey Nyoni and Rio Ngumoha",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ex-liverpool-star-explains-trey-34935230",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34448357.ece/ALTERNATES/s615/0_GettyImages-2269571968.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34448357.ece/ALTERNATES/s1200/0_GettyImages-2269571968.jpg"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Sky Sports",
-      "title": "PL clubs vote to cover legal costs of board members if Man City sponsors sue",
-      "summary": "Premier League clubs have voted to cover the legal costs of their five board members if they are sued individually by Manchester City's sponsors.",
-      "url": "https://www.skysports.com/football/news/11669/13614031/premier-league-clubs-vote-to-cover-legal-costs-if-man-city-sponsors-sue-competitions-board-members",
-      "img": "https://e2.365dm.com/26/09/768x432/skysports-premier-league-trophy_7361300.jpg?20260925172954",
-      "big": "https://e2.365dm.com/26/09/1600x900/skysports-premier-league-trophy_7361300.jpg?20260925172954"
     },
     {
       "date": "2026-11-19",
@@ -1337,25 +1356,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmy974jw1xgeo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/09b5/live/abd793d0-decd-11f1-86d5-71a9f29d1c99.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/09b5/live/abd793d0-decd-11f1-86d5-71a9f29d1c99.jpg"
-    },
-    {
-      "date": "2026-11-13",
-      "source": "BBC Sport",
-      "title": "Liverpool fan on importance of Van Dijk contract situation",
-      "summary": "Liverpool fan Abigail Rudkin explains why she would like to see her captain extend his current deal beyond this summer",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqevrjvvj410o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/7a43/live/418f1b20-de9f-11f1-b441-2b33b063138f.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/7a43/live/418f1b20-de9f-11f1-b441-2b33b063138f.jpg",
-      "tall": true
-    },
-    {
-      "date": "2026-11-12",
-      "source": "BBC Sport",
-      "title": "Liverpool and Van Dijk have a decision to make",
-      "summary": "Virgil van Dijk says he is in no panic about his contract situation at Liverpool - BBC Sport takes a look at what could happen with his future.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87f4/live/e4ed5c50-ddeb-11f1-9204-cdcddf7d901c.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/87f4/live/e4ed5c50-ddeb-11f1-9204-cdcddf7d901c.jpg"
     }
   ],
   "outlets": [
@@ -2765,5 +2765,5 @@
     "headlinesFor": null,
     "checked": "2026-11-20"
   },
-  "fullUpdated": "2026-11-19T12:16:13Z"
+  "fullUpdated": "2026-11-20T12:16:21Z"
 }
