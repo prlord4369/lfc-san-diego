@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T23:30:57Z",
+  "updated": "2026-11-20T01:44:03Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -337,10 +337,10 @@
         "espn": true
       }
     ],
-    "checked": "2026-11-19"
+    "checked": "2026-11-20"
   },
   "table": {
-    "asof": "2026-11-19",
+    "asof": "2026-11-20",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1247,6 +1247,15 @@
   "news": [
     {
       "date": "2026-11-19",
+      "source": "The Guardian",
+      "title": "Premier League: 10 things to look out for this weekend",
+      "summary": "Bruno Guimarães to feel the heat on Tyneside, Alex Scott’s return further cheers Cherries and Manchester City face favourite whipping boys",
+      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend",
+      "img": "https://i.guim.co.uk/img/media/697a5b5e6adf5ec4ae93d2b6aa2ddcbf11b935ce/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=5d7f868237d7a060726f2032e70751a7",
+      "big": "https://i.guim.co.uk/img/media/697a5b5e6adf5ec4ae93d2b6aa2ddcbf11b935ce/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=0f0e85e4c79ef217859a0543f8056d8c"
+    },
+    {
+      "date": "2026-11-19",
       "source": "Liverpool Echo",
       "title": "Fernando Torres reveals why he really left Liverpool with 'everything changed' admission",
       "summary": "Fernando Torres was an icon at Liverpool before his controversial January transfer deadline day move to Premier League rivals Chelsea",
@@ -1347,15 +1356,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/ck4gnd2pgd06o",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/87f4/live/e4ed5c50-ddeb-11f1-9204-cdcddf7d901c.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/87f4/live/e4ed5c50-ddeb-11f1-9204-cdcddf7d901c.jpg"
-    },
-    {
-      "date": "2026-11-10",
-      "source": "The Guardian",
-      "title": "Rio Ngumoha ready to make England splash as he spells out Ballon d’Or ambition",
-      "summary": "Fearless winger has forced his way into Thomas Tuchel’s plans and believes he can become best player in the world",
-      "url": "https://www.theguardian.com/football/2026/nov/10/rio-ngumoha-ready-to-make-england-splash-as-he-spells-out-ballon-dor-ambition",
-      "img": "https://i.guim.co.uk/img/media/674bd01f3b2b9ae7552b22d6ae6c80ca18aa9673/408_0_4410_3528/master/4410.jpg?width=460&quality=85&auto=format&fit=max&s=081f15ce518f40de16ef1c79de8d42c0",
-      "big": "https://i.guim.co.uk/img/media/674bd01f3b2b9ae7552b22d6ae6c80ca18aa9673/408_0_4410_3528/master/4410.jpg?width=700&quality=85&auto=format&fit=max&s=273d38e06ba87d811fc9405c0fb28df1"
     }
   ],
   "outlets": [
@@ -1385,7 +1385,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-11-19",
+    "asof": "2026-11-20",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1875,7 +1875,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-11-19"
+    "checked": "2026-11-20"
   },
   "venues": {
     "whiskeygirl": {
@@ -2763,7 +2763,7 @@
     ],
     "headlines": [],
     "headlinesFor": null,
-    "checked": "2026-11-19"
+    "checked": "2026-11-20"
   },
   "fullUpdated": "2026-11-19T12:16:13Z"
 }
