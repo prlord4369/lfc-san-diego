@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T12:16:21Z",
+  "updated": "2026-11-20T15:30:49Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1247,13 +1247,61 @@
   "news": [
     {
       "date": "2026-11-20",
+      "source": "BBC Sport",
+      "title": "Iraola on being spotted at grassoots game",
+      "summary": "Liverpool boss Andoni Iraola on being spotted at his son's grassoots football game.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cqy7rx28mpy5o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/526c/live/ef5fd650-e4f2-11f1-a094-5fdc692f3e33.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/526c/live/ef5fd650-e4f2-11f1-a094-5fdc692f3e33.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-20",
+      "source": "BBC Sport",
+      "title": "Filming training by drones should be illegal - Iraola",
+      "summary": "Liverpool head coach Andoni Iraola says filming with drones around training grounds should be illegal.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr1xmekmg5o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fcc/live/7922cff0-e4ee-11f1-8781-bf15c9202663.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4fcc/live/7922cff0-e4ee-11f1-8781-bf15c9202663.jpg"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "BBC Sport",
+      "title": "Filming training on a drone 'shouldn't be legal' - Iraola",
+      "summary": "Liverpool boss Andoni Iraola says that Man Utd's training session being filmed by a drone \"shouldn't be legal.\"",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq143j2ze04mo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ac0d/live/52684620-e4f2-11f1-99b6-a35a62fa4264.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ac0d/live/52684620-e4f2-11f1-99b6-a35a62fa4264.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-20",
       "source": "Liverpool Echo",
-      "title": "Milos Kerkez told to copy Jack Grealish after Liverpool January transfer claim",
-      "summary": "Liverpool have been urged to sign a new left-back in the New Year transfer window to challenge Milos Kerkez in the position",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/milos-kerkez-told-copy-jack-34940620",
+      "title": "Van Dijk, Bradley, Frimpong, Leoni - Liverpool injury latest and return dates ahead of Man United",
+      "summary": "Liverpool manager Andoni Iraola has provided injury updates on several key players ahead of Sunday's match against Manchester United",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-injury-iraola-van-dijk-34943236",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941640.ece/ALTERNATES/s615/0_imagemaker-2026-11-20T115916431.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941640.ece/ALTERNATES/s1200/0_imagemaker-2026-11-20T115916431.jpg"
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943262.ece/ALTERNATES/s615/0_Screenshot-2026-11-20-142548.png",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943262.ece/ALTERNATES/s1200/0_Screenshot-2026-11-20-142548.png"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola explains Conor Bradley and Giovanni Leoni latest and gives update on four Liverpool stars",
+      "summary": "Liverpool head coach Andoni Iraola has provided an injury update ahead of the Premier League clash against Manchester United on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-explains-conor-bradley-34940850",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943168.ece/ALTERNATES/s615/0_iraola.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943168.ece/ALTERNATES/s1200/0_iraola.jpg"
+    },
+    {
+      "date": "2026-11-20",
+      "source": "The Guardian",
+      "title": "Liverpool fan found not guilty of racial abuse after Antoine Semenyo withdraws from case",
+      "summary": "Man accused of abusing former Bournemouth winger",
+      "url": "https://www.theguardian.com/football/2026/nov/20/liverpool-fan-not-guilty-racial-abuse-antoine-semenyo-withdraws-from-case-bournemouth-liverpool",
+      "img": "https://i.guim.co.uk/img/media/863ba790bc229db549ef08b443c6190e8fd1b893/294_0_2942_2353/master/2942.jpg?width=460&quality=85&auto=format&fit=max&s=36eb80d44ecd2744291a8b93e1db79de",
+      "big": "https://i.guim.co.uk/img/media/863ba790bc229db549ef08b443c6190e8fd1b893/294_0_2942_2353/master/2942.jpg?width=700&quality=85&auto=format&fit=max&s=0184cfd3917cd420250e1fffd89d7a28"
     },
     {
       "date": "2026-11-20",
@@ -1263,16 +1311,6 @@
       "url": "https://www.skysports.com/football/news/11669/13614319/antoine-semenyo-manchester-city-forward-withdraws-support-for-prosecution-of-liverpool-fan-in-racial-abuse-case",
       "img": "https://e0.365dm.com/26/10/768x432/skysports-semenyo-manchester-city_7376976.jpg?20261014223334",
       "big": "https://e0.365dm.com/26/10/1600x900/skysports-semenyo-manchester-city_7376976.jpg?20261014223334"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Liverpool Echo",
-      "title": "Hear the Scouse poet at a new Liverpool FC book at event at Waterstones",
-      "summary": "This coming Monday (November 23) at Waterstones Liverpool, hear the Scouse poet Joseph Roberts, hosted by Humans Of Liverpool founder Adam Thompson",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/hear-scouse-poet-new-liverpool-34941283",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941260.ece/ALTERNATES/s615/0_JS397730354-1.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34941260.ece/ALTERNATES/s1200/0_JS397730354-1.jpg"
     },
     {
       "date": "2026-11-20",
@@ -1319,43 +1357,6 @@
       "url": "https://www.skysports.com/football/news/11669/13613875/andoni-iraolas-liverpool-start-assessed-creating-chaos-going-direct-and-fixing-leaky-defence",
       "img": "https://e1.365dm.com/26/11/768x432/skysports-premier-league-liverpool_7410291.jpg?20261119104807",
       "big": "https://e1.365dm.com/26/11/1600x900/skysports-premier-league-liverpool_7410291.jpg?20261119104807"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "The Guardian",
-      "title": "Mauricio Pochettino calls for Manchester United to show no fear against Liverpool",
-      "summary": "New head coach’s first game is at Anfield on Sunday",
-      "url": "https://www.theguardian.com/football/2026/nov/19/manchester-united-mauricio-pochettino-liverpool-anfield-no-fear",
-      "img": "https://i.guim.co.uk/img/media/c5203c99e841c7aca8232d3432cb8fee79ad4677/1214_243_4352_3483/master/4352.jpg?width=460&quality=85&auto=format&fit=max&s=0c969b1931055d3e3c4472a7380143a1",
-      "big": "https://i.guim.co.uk/img/media/c5203c99e841c7aca8232d3432cb8fee79ad4677/1214_243_4352_3483/master/4352.jpg?width=700&quality=85&auto=format&fit=max&s=12ceb5da521b50b1508d08494227dd7b"
-    },
-    {
-      "date": "2026-11-18",
-      "source": "BBC Sport",
-      "title": "How Premier League's big six keep getting richer",
-      "summary": "Ten games into the Premier League season, and the top five places are dominated by big six clubs.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c6x28e93zv3jo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c612/live/1f6a6e00-e291-11f1-b166-176de21e2352.jpg"
-    },
-    {
-      "date": "2026-11-17",
-      "source": "BBC Sport",
-      "title": "Youngsters 'made up' to see Iraola watching grassroots game",
-      "summary": "Liverpool head coach Andoni Iraola was spotted watching a local grassroots football game during the international break.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c8p3vz3ge07qo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d1a5/live/4dc3cf10-e2a7-11f1-8226-87dfa5049e9a.jpg",
-      "tall": true
-    },
-    {
-      "date": "2026-11-14",
-      "source": "BBC Sport",
-      "title": "Liverpool's Koumas can be special for Wales - Rush",
-      "summary": "Liverpool legend Ian Rush believes Lewis Koumas could help ease Wales' forward concerns, and says the Reds must target a top-four finish plus a trophy this season.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmy974jw1xgeo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/09b5/live/abd793d0-decd-11f1-86d5-71a9f29d1c99.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/09b5/live/abd793d0-decd-11f1-86d5-71a9f29d1c99.jpg"
     }
   ],
   "outlets": [
