@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T12:16:20Z",
+  "updated": "2026-11-21T15:30:55Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -369,13 +369,13 @@
       {
         "pos": 3,
         "team": "Manchester City",
-        "p": 10,
+        "p": 11,
         "w": 7,
-        "d": 0,
+        "d": 1,
         "l": 3,
-        "gf": 21,
-        "ga": 13,
-        "pts": 21
+        "gf": 22,
+        "ga": 14,
+        "pts": 22
       },
       {
         "pos": 4,
@@ -390,17 +390,28 @@
       },
       {
         "pos": 5,
-        "team": "Chelsea",
-        "p": 10,
+        "team": "AFC Bournemouth",
+        "p": 11,
         "w": 5,
-        "d": 1,
-        "l": 4,
-        "gf": 19,
-        "ga": 16,
-        "pts": 16
+        "d": 3,
+        "l": 3,
+        "gf": 17,
+        "ga": 14,
+        "pts": 18
       },
       {
         "pos": 6,
+        "team": "Chelsea",
+        "p": 11,
+        "w": 5,
+        "d": 2,
+        "l": 4,
+        "gf": 20,
+        "ga": 17,
+        "pts": 17
+      },
+      {
+        "pos": 7,
         "team": "Everton",
         "p": 10,
         "w": 4,
@@ -411,18 +422,29 @@
         "pts": 16
       },
       {
-        "pos": 7,
-        "team": "AFC Bournemouth",
-        "p": 10,
-        "w": 4,
-        "d": 3,
-        "l": 3,
-        "gf": 16,
-        "ga": 14,
+        "pos": 8,
+        "team": "Leeds United",
+        "p": 11,
+        "w": 3,
+        "d": 6,
+        "l": 2,
+        "gf": 11,
+        "ga": 9,
         "pts": 15
       },
       {
-        "pos": 8,
+        "pos": 9,
+        "team": "Tottenham Hotspur",
+        "p": 11,
+        "w": 4,
+        "d": 3,
+        "l": 4,
+        "gf": 11,
+        "ga": 11,
+        "pts": 15
+      },
+      {
+        "pos": 10,
         "team": "Brentford",
         "p": 10,
         "w": 3,
@@ -433,37 +455,15 @@
         "pts": 14
       },
       {
-        "pos": 9,
-        "team": "Leeds United",
-        "p": 10,
+        "pos": 11,
+        "team": "Aston Villa",
+        "p": 11,
         "w": 3,
         "d": 5,
-        "l": 2,
-        "gf": 10,
-        "ga": 8,
-        "pts": 14
-      },
-      {
-        "pos": 10,
-        "team": "Aston Villa",
-        "p": 10,
-        "w": 3,
-        "d": 4,
         "l": 3,
         "gf": 14,
         "ga": 17,
-        "pts": 13
-      },
-      {
-        "pos": 11,
-        "team": "Tottenham Hotspur",
-        "p": 10,
-        "w": 3,
-        "d": 3,
-        "l": 4,
-        "gf": 10,
-        "ga": 11,
-        "pts": 12
+        "pts": 14
       },
       {
         "pos": 12,
@@ -489,50 +489,61 @@
       },
       {
         "pos": 14,
-        "team": "Ipswich Town",
-        "p": 10,
-        "w": 3,
-        "d": 2,
-        "l": 5,
-        "gf": 15,
-        "ga": 20,
+        "team": "Fulham",
+        "p": 11,
+        "w": 2,
+        "d": 5,
+        "l": 4,
+        "gf": 11,
+        "ga": 13,
         "pts": 11
       },
       {
         "pos": 15,
-        "team": "Fulham",
-        "p": 10,
-        "w": 2,
-        "d": 4,
-        "l": 4,
-        "gf": 10,
-        "ga": 12,
-        "pts": 10
+        "team": "Ipswich Town",
+        "p": 11,
+        "w": 3,
+        "d": 2,
+        "l": 6,
+        "gf": 15,
+        "ga": 21,
+        "pts": 11
       },
       {
         "pos": 16,
-        "team": "Nottingham Forest",
-        "p": 10,
-        "w": 2,
-        "d": 3,
-        "l": 5,
-        "gf": 9,
-        "ga": 13,
-        "pts": 9
+        "team": "Coventry City",
+        "p": 11,
+        "w": 3,
+        "d": 1,
+        "l": 7,
+        "gf": 11,
+        "ga": 20,
+        "pts": 10
       },
       {
         "pos": 17,
-        "team": "Coventry City",
-        "p": 10,
-        "w": 3,
-        "d": 0,
-        "l": 7,
-        "gf": 10,
-        "ga": 19,
+        "team": "Nottingham Forest",
+        "p": 11,
+        "w": 2,
+        "d": 3,
+        "l": 6,
+        "gf": 9,
+        "ga": 14,
         "pts": 9
       },
       {
         "pos": 18,
+        "team": "Sunderland",
+        "p": 11,
+        "w": 2,
+        "d": 3,
+        "l": 6,
+        "gf": 8,
+        "ga": 17,
+        "pts": 9
+      },
+      {
+        "pos": 19,
         "team": "Manchester United",
         "p": 10,
         "w": 1,
@@ -543,26 +554,15 @@
         "pts": 8
       },
       {
-        "pos": 19,
-        "team": "Sunderland",
-        "p": 10,
-        "w": 2,
-        "d": 2,
-        "l": 6,
-        "gf": 8,
-        "ga": 17,
-        "pts": 8
-      },
-      {
         "pos": 20,
         "team": "Crystal Palace",
-        "p": 10,
+        "p": 11,
         "w": 2,
-        "d": 1,
+        "d": 2,
         "l": 7,
-        "gf": 10,
-        "ga": 24,
-        "pts": 7
+        "gf": 11,
+        "ga": 25,
+        "pts": 8
       }
     ]
   },
@@ -883,7 +883,51 @@
       "scope": "domestic",
       "venueClosed": false,
       "watchAt": "shakespeares",
-      "usLocked": false
+      "usLocked": false,
+      "ground": {
+        "name": "Stamford Bridge",
+        "city": "London",
+        "country": "England"
+      },
+      "h2h": [
+        {
+          "date": "2026-10-28",
+          "ha": "H",
+          "score": "1-1",
+          "r": "W",
+          "comp": "Carabao Cup",
+          "pens": true,
+          "round": "Fourth Round"
+        },
+        {
+          "date": "2026-05-09",
+          "ha": "H",
+          "score": "1-1",
+          "r": "D",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-10-04",
+          "ha": "A",
+          "score": "1-2",
+          "r": "L",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2025-05-04",
+          "ha": "A",
+          "score": "1-3",
+          "r": "L",
+          "comp": "Premier League"
+        },
+        {
+          "date": "2024-10-20",
+          "ha": "H",
+          "score": "2-1",
+          "r": "W",
+          "comp": "Premier League"
+        }
+      ]
     },
     {
       "kickoff": "2026-12-09T20:00:00Z",
@@ -1227,21 +1271,31 @@
   "news": [
     {
       "date": "2026-11-21",
+      "source": "BBC Sport",
+      "title": "Rio Ferdinand: Anfield is a cauldron for United",
+      "summary": "Rio Ferdinand: Anfield is a cauldron for United",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cwp80vv6y23mo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a6e6/live/40176ce0-e5be-11f1-a094-5fdc692f3e33.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a6e6/live/40176ce0-e5be-11f1-a094-5fdc692f3e33.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-21",
+      "source": "Liverpool Echo",
+      "title": "Virgil van Dijk issues Jeremy Jacquet warning and reveals secret of Liverpool partnership",
+      "summary": "Liverpool captain Virgil van Dijk has been hugely impressed by the impact of fellow centre-back Jeremy Jacquet since his £60m transfer",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-issues-jeremy-34946959",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946947.ece/ALTERNATES/s615/0_GettyImages-2303757627.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946947.ece/ALTERNATES/s1200/0_GettyImages-2303757627.jpg"
+    },
+    {
+      "date": "2026-11-21",
       "source": "Liverpool Echo",
       "title": "Virgil van Dijk makes emotional Liverpool exit admission - 'It will be hard on me'",
       "summary": "The Dutch defender is out of contract in the summer and doesn't know if Liverpool will retain his services",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-makes-emotional-34947075",
       "amp": true
-    },
-    {
-      "date": "2026-11-21",
-      "source": "Liverpool Echo",
-      "title": "Milos Kerkez explains Liverpool 'hurt' and lifts lid on dressing room atmosphere",
-      "summary": "Milos Kerkez has been talking ahead of Liverpool's Premier League clash with Manchester United on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/milos-kerkez-explains-liverpool-hurt-34946930",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946931.ece/ALTERNATES/s615/0_GettyImages-2303850910.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946931.ece/ALTERNATES/s1200/0_GettyImages-2303850910.jpg"
     },
     {
       "date": "2026-11-20",
@@ -1307,15 +1361,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-19",
-      "source": "BBC Sport",
-      "title": "Inside the rise of 'humble' Nyoni and why Iraola trusts him",
-      "summary": "Teenage midfielder Trey Nyoni backed himself in the summer to play regular football for Liverpool. He is doing exactly that and thriving under Andoni Iraola.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/ck24enjqvlyeo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a7f5/live/610e5c60-e361-11f1-a898-e7da1c1ebbf0.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a7f5/live/610e5c60-e361-11f1-a898-e7da1c1ebbf0.jpg"
     },
     {
       "date": "2026-11-19",
