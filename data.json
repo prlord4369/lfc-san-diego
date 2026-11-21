@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-21T15:30:55Z",
+  "updated": "2026-11-21T17:30:46Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
     "map": "https://www.google.com/maps/search/?api=1&query=Whiskey+Girl+702+Fifth+Ave+San+Diego+CA"
   },
   "standing": {
-    "position": "4th",
+    "position": "5th",
     "competition": "Premier League",
     "record": "P10 W5 D3 L2 · 18 pts"
   },
@@ -379,6 +379,17 @@
       },
       {
         "pos": 4,
+        "team": "AFC Bournemouth",
+        "p": 11,
+        "w": 5,
+        "d": 3,
+        "l": 3,
+        "gf": 18,
+        "ga": 14,
+        "pts": 18
+      },
+      {
+        "pos": 5,
         "team": "Liverpool",
         "p": 10,
         "w": 5,
@@ -389,25 +400,14 @@
         "pts": 18
       },
       {
-        "pos": 5,
-        "team": "AFC Bournemouth",
-        "p": 11,
-        "w": 5,
-        "d": 3,
-        "l": 3,
-        "gf": 17,
-        "ga": 14,
-        "pts": 18
-      },
-      {
         "pos": 6,
-        "team": "Chelsea",
+        "team": "Leeds United",
         "p": 11,
-        "w": 5,
-        "d": 2,
-        "l": 4,
-        "gf": 20,
-        "ga": 17,
+        "w": 4,
+        "d": 5,
+        "l": 2,
+        "gf": 14,
+        "ga": 9,
         "pts": 17
       },
       {
@@ -423,14 +423,14 @@
       },
       {
         "pos": 8,
-        "team": "Leeds United",
+        "team": "Chelsea",
         "p": 11,
-        "w": 3,
-        "d": 6,
-        "l": 2,
-        "gf": 11,
-        "ga": 9,
-        "pts": 15
+        "w": 5,
+        "d": 1,
+        "l": 5,
+        "gf": 20,
+        "ga": 20,
+        "pts": 16
       },
       {
         "pos": 9,
@@ -439,7 +439,7 @@
         "w": 4,
         "d": 3,
         "l": 4,
-        "gf": 11,
+        "gf": 12,
         "ga": 11,
         "pts": 15
       },
@@ -478,6 +478,17 @@
       },
       {
         "pos": 13,
+        "team": "Coventry City",
+        "p": 11,
+        "w": 4,
+        "d": 0,
+        "l": 7,
+        "gf": 13,
+        "ga": 21,
+        "pts": 12
+      },
+      {
+        "pos": 14,
         "team": "Hull City",
         "p": 10,
         "w": 2,
@@ -488,7 +499,7 @@
         "pts": 11
       },
       {
-        "pos": 14,
+        "pos": 15,
         "team": "Fulham",
         "p": 11,
         "w": 2,
@@ -499,26 +510,15 @@
         "pts": 11
       },
       {
-        "pos": 15,
+        "pos": 16,
         "team": "Ipswich Town",
         "p": 11,
         "w": 3,
         "d": 2,
         "l": 6,
         "gf": 15,
-        "ga": 21,
+        "ga": 22,
         "pts": 11
-      },
-      {
-        "pos": 16,
-        "team": "Coventry City",
-        "p": 11,
-        "w": 3,
-        "d": 1,
-        "l": 7,
-        "gf": 11,
-        "ga": 20,
-        "pts": 10
       },
       {
         "pos": 17,
@@ -528,7 +528,7 @@
         "d": 3,
         "l": 6,
         "gf": 9,
-        "ga": 14,
+        "ga": 15,
         "pts": 9
       },
       {
@@ -558,11 +558,11 @@
         "team": "Crystal Palace",
         "p": 11,
         "w": 2,
-        "d": 2,
-        "l": 7,
-        "gf": 11,
-        "ga": 25,
-        "pts": 8
+        "d": 1,
+        "l": 8,
+        "gf": 12,
+        "ga": 27,
+        "pts": 7
       }
     ]
   },
@@ -884,11 +884,6 @@
       "venueClosed": false,
       "watchAt": "shakespeares",
       "usLocked": false,
-      "ground": {
-        "name": "Stamford Bridge",
-        "city": "London",
-        "country": "England"
-      },
       "h2h": [
         {
           "date": "2026-10-28",
@@ -927,7 +922,12 @@
           "r": "W",
           "comp": "Premier League"
         }
-      ]
+      ],
+      "ground": {
+        "name": "Stamford Bridge",
+        "city": "London",
+        "country": "England"
+      }
     },
     {
       "kickoff": "2026-12-09T20:00:00Z",
