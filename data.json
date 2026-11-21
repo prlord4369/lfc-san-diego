@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T17:30:46Z",
+  "updated": "2026-11-21T20:00:48Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -347,13 +347,13 @@
       {
         "pos": 1,
         "team": "Arsenal",
-        "p": 10,
+        "p": 11,
         "w": 9,
-        "d": 0,
+        "d": 1,
         "l": 1,
-        "gf": 15,
-        "ga": 5,
-        "pts": 27
+        "gf": 17,
+        "ga": 7,
+        "pts": 28
       },
       {
         "pos": 2,
@@ -468,13 +468,13 @@
       {
         "pos": 12,
         "team": "Newcastle United",
-        "p": 10,
+        "p": 11,
         "w": 3,
-        "d": 3,
+        "d": 4,
         "l": 4,
-        "gf": 13,
-        "ga": 16,
-        "pts": 12
+        "gf": 15,
+        "ga": 18,
+        "pts": 13
       },
       {
         "pos": 13,
@@ -1271,6 +1271,26 @@
   "news": [
     {
       "date": "2026-11-21",
+      "source": "Liverpool Echo",
+      "title": "Man United sent me an offer - I rejected them in one second due to Liverpool",
+      "summary": "Liverpool have failed to beat Manchester United in each of their last three attempts, losing twice and drawing once, so they’ll be keen to set the record straight.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-offer-rejected-34933430",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933434.ece/ALTERNATES/s615/0_GettyImages-483493938.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933434.ece/ALTERNATES/s1200/0_GettyImages-483493938.jpg"
+    },
+    {
+      "date": "2026-11-21",
+      "source": "Liverpool Echo",
+      "title": "Ismaila Sarr opens up on failing to complete Liverpool transfer - 'One of the biggest'",
+      "summary": "Ismaila Sarr has confirmed he is in talks over a new Crystal Palace contract after putting Liverpool's transfer interest 'behind him'.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ismaila-sarr-opens-up-failing-34948417",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34948415.ece/ALTERNATES/s615/0_GettyImages-2295809766.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34948415.ece/ALTERNATES/s1200/0_GettyImages-2295809766.jpg"
+    },
+    {
+      "date": "2026-11-21",
       "source": "BBC Sport",
       "title": "Rio Ferdinand: Anfield is a cauldron for United",
       "summary": "Rio Ferdinand: Anfield is a cauldron for United",
@@ -1278,24 +1298,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a6e6/live/40176ce0-e5be-11f1-a094-5fdc692f3e33.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a6e6/live/40176ce0-e5be-11f1-a094-5fdc692f3e33.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-21",
-      "source": "Liverpool Echo",
-      "title": "Virgil van Dijk issues Jeremy Jacquet warning and reveals secret of Liverpool partnership",
-      "summary": "Liverpool captain Virgil van Dijk has been hugely impressed by the impact of fellow centre-back Jeremy Jacquet since his £60m transfer",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-issues-jeremy-34946959",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946947.ece/ALTERNATES/s615/0_GettyImages-2303757627.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946947.ece/ALTERNATES/s1200/0_GettyImages-2303757627.jpg"
-    },
-    {
-      "date": "2026-11-21",
-      "source": "Liverpool Echo",
-      "title": "Virgil van Dijk makes emotional Liverpool exit admission - 'It will be hard on me'",
-      "summary": "The Dutch defender is out of contract in the summer and doesn't know if Liverpool will retain his services",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-makes-emotional-34947075",
-      "amp": true
     },
     {
       "date": "2026-11-20",
