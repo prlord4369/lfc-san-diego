@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T04:14:29Z",
+  "updated": "2026-11-21T12:16:20Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -763,7 +763,7 @@
       "watchAt": "whiskeygirl",
       "usLocked": false,
       "us": "Paramount+",
-      "usUrl": "https://worldsoccertalk.com/champions-league-tv-schedule/",
+      "usUrl": "https://www.cbssports.com/watch/champions-league/LET-211535230",
       "h2h": [],
       "ground": {
         "name": "Jan Breydel Stadium",
@@ -1177,74 +1177,72 @@
       "player": "Ryan Gravenberch",
       "pos": "MF",
       "status": "doubt",
-      "issue": "Heel",
-      "detail": "The heel problem has kept him out of the last two matches, and Iraola is judging it day to day. He could be ready for Manchester United on November 22.",
-      "reported": "2026-11-18",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-szoboszlai-gravenberch-34930076"
+      "issue": "Heel pain",
+      "detail": "Iraola says the problem is pain he is managing, and he has trained with the squad for two days. He is in contention to face Manchester United on November 22.",
+      "reported": "2026-11-20",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-frimpong-gravenberch-szoboszlai-van-dijk-and-more"
     },
     {
       "player": "Jeremie Frimpong",
       "pos": "DF",
-      "status": "doubt",
+      "status": "back",
       "issue": "Hamstring",
-      "detail": "He has returned to training after the hamstring injury he picked up at Brentford. Liverpool have not confirmed he will be available for Manchester United.",
-      "reported": "2026-11-18",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
+      "detail": "He is back in group training after his hamstring injury, and Iraola expects him to be available for Manchester United on November 22.",
+      "reported": "2026-11-20",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-frimpong-gravenberch-szoboszlai-van-dijk-and-more"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still working back from an Achilles problem and is not expected to play again until 2027.",
-      "reported": "2026-11-18",
+      "detail": "He remains sidelined with an Achilles problem and could return early in 2027.",
+      "reported": "2026-11-20",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-manutd-injuries-34942192"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has rejoined team training after a long knee recovery following surgery. Liverpool will manage him carefully and will not rush him back.",
-      "reported": "2026-11-18",
+      "detail": "He has rejoined team training after knee surgery and recovery, but is not in contention for Manchester United. Liverpool will manage his return carefully, with a late-November return date mooted.",
+      "reported": "2026-11-20",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-man-united-injury-news-34944076"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is back in team training after more than a year out with a serious knee injury. He still needs more time before he can return to matches.",
-      "reported": "2026-11-18",
+      "detail": "He has returned to team training after an ACL tear and is in the final stages of rehab. A late-November return is possible, but Liverpool will not rush him back.",
+      "reported": "2026-11-20",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
-    },
-    {
-      "player": "Virgil van Dijk",
-      "pos": "DF",
-      "status": "doubt",
-      "issue": "Niggle",
-      "detail": "He pulled out of the Netherlands squad with a minor knock that he has been managing for weeks. He is expected to be available for Manchester United, with Iraola due to confirm at his press conference.",
-      "reported": "2026-11-18",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
-    },
-    {
-      "player": "Dominik Szoboszlai",
-      "pos": "MF",
-      "status": "doubt",
-      "issue": "Knee",
-      "detail": "He left the Crystal Palace game early with a knee knock and then played two full matches for Hungary. Liverpool still need to check his fitness before the Manchester United game.",
-      "reported": "2026-11-18",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/van-dijk-injury-latest-manutd-34931497"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-man-united-injury-news-34944076"
     }
   ],
   "news": [
+    {
+      "date": "2026-11-21",
+      "source": "Liverpool Echo",
+      "title": "Virgil van Dijk makes emotional Liverpool exit admission - 'It will be hard on me'",
+      "summary": "The Dutch defender is out of contract in the summer and doesn't know if Liverpool will retain his services",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-makes-emotional-34947075",
+      "amp": true
+    },
+    {
+      "date": "2026-11-21",
+      "source": "Liverpool Echo",
+      "title": "Milos Kerkez explains Liverpool 'hurt' and lifts lid on dressing room atmosphere",
+      "summary": "Milos Kerkez has been talking ahead of Liverpool's Premier League clash with Manchester United on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/milos-kerkez-explains-liverpool-hurt-34946930",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946931.ece/ALTERNATES/s615/0_GettyImages-2303850910.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34946931.ece/ALTERNATES/s1200/0_GettyImages-2303850910.jpg"
+    },
     {
       "date": "2026-11-20",
       "source": "The Guardian",
@@ -1253,16 +1251,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
       "img": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=460&quality=85&auto=format&fit=max&s=27d6140dab96b722b303c123d2ef2675",
       "big": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=700&quality=85&auto=format&fit=max&s=5c218b7633e51726c91f4ee5936430d0"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola sets Hugo Ekitike return date as Liverpool star closes in on injury comeback",
-      "summary": "Hugo Ekitike has been out of action since April, but he is getting closer to a return to action",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-sets-hugo-ekitike-34943460",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943489.ece/ALTERNATES/s615/0_GettyImages-2289723521.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34943489.ece/ALTERNATES/s1200/0_GettyImages-2289723521.jpg"
     },
     {
       "date": "2026-11-20",
@@ -1281,16 +1269,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0985/live/d8838190-e4fa-11f1-a8e4-b1e12a49db15.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0985/live/d8838190-e4fa-11f1-a8e4-b1e12a49db15.jpg"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Liverpool Echo",
-      "title": "Trent Alexander-Arnold made to pick new BMW after Real Madrid 'banned' his car from training",
-      "summary": "Real Madrid stars, including Trent Alexander-Arnold, must adhere to strict rules",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-alexander-arnold-real-madrid-34945288",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34945357.ece/ALTERNATES/s615/0_GettyImages-2299031273.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34945357.ece/ALTERNATES/s1200/0_GettyImages-2299031273.jpg"
     },
     {
       "date": "2026-11-20",
@@ -2765,5 +2743,5 @@
     "headlinesFor": null,
     "checked": "2026-11-21"
   },
-  "fullUpdated": "2026-11-20T12:16:21Z"
+  "fullUpdated": "2026-11-21T12:16:19Z"
 }
