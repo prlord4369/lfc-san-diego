@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T18:31:01Z",
+  "updated": "2026-11-22T20:00:51Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1237,12 +1237,49 @@
   "news": [
     {
       "date": "2026-11-22",
+      "source": "BBC Sport",
+      "title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
+      "summary": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation…",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a55a/live/4cb54b80-e6a8-11f1-99a1-253766e7ad8b.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a55a/live/4cb54b80-e6a8-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "Liverpool Echo",
+      "title": "Kobbie Mainoo and Bruno Fernandes make Man United red card claims after Liverpool humiliation",
+      "summary": "The Manchester United midfielders were insistent Leny Yoro should not have been sent off for his eighth-minute foul on Alexander Isak in Liverpool's 4-0 win at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/kobbie-mainoo-bruno-fernandes-make-34951177",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951190.ece/ALTERNATES/s615/0_GettyImages-2305901069.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951190.ece/ALTERNATES/s1200/0_GettyImages-2305901069.jpg"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "Liverpool Echo",
+      "title": "Liverpool 4 Man United 0 LIVE - Ngumoha, Wirtz, Iraola and Pochettino react to thrashing",
+      "summary": "Live coverage of the massive Premier League encounter between Liverpool and Manchester United at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-live-stream-34944188",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s615/0_graphic-canvas-wide-1.png",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s1200/0_graphic-canvas-wide-1.png"
+    },
+    {
+      "date": "2026-11-22",
       "source": "The Guardian",
-      "title": "Liverpool 4-0 Manchester United: Premier League – live",
-      "summary": "Premier League updates from the 4.30pm GMT kick-off",
+      "title": "Liverpool 4-0 Manchester United: Premier League – as it happened",
+      "summary": "Mauricio Pochettino suffered a nightmare start at Anfield, where Man Utd were reduced to 10 men and taken apart by Liverpool",
       "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
       "img": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=460&quality=85&auto=format&fit=max&s=70adbc7f77d811d9d8aeae6f19d2b695",
       "big": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=700&quality=85&auto=format&fit=max&s=8c62b3ff8c3a5786dc1bc06055234fce"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "The Guardian",
+      "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
+      "summary": "Green shoots of recovery have lasted longer in a blast-furnace than in the Mauricio Pochettino era at Manchester United.",
+      "url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report",
+      "img": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/260_0_2689_2152/master/2689.jpg?width=460&quality=85&auto=format&fit=max&s=f099ccf82d1d5c7c0f8830607bf759a1",
+      "big": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/260_0_2689_2152/master/2689.jpg?width=700&quality=85&auto=format&fit=max&s=32cab6d6bb1d3ab4b733505c78a3ee14"
     },
     {
       "date": "2026-11-22",
@@ -1255,12 +1292,12 @@
     },
     {
       "date": "2026-11-22",
-      "source": "Liverpool Echo",
-      "title": "Liverpool 4 Man United 0 LIVE - Szoboszlai, Wirtz, Ngumoha, Munoz goals, Yoro red card, commentary stream",
-      "summary": "Live coverage of the massive Premier League encounter between Liverpool and Manchester United at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-live-stream-34944188",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s615/0_graphic-canvas-wide-1.png",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s1200/0_graphic-canvas-wide-1.png"
+      "source": "Sky Sports",
+      "title": "Nightmare start for Pochettino as Liverpool rout 10-man Man Utd",
+      "summary": "Mauricio Pochettino endured a horror start to his Manchester United tenure as his 10-man side were thrashed 4-0 by Liverpool at Anfield following Leny Yoro's early sending off.",
+      "url": "https://www.skysports.com/football/liverpool-vs-manchester-united/report/559550",
+      "img": "https://e1.365dm.com/26/11/768x432/skysports-rio-ngumoha-liverpool_7413795.jpg?20261122181605",
+      "big": "https://e1.365dm.com/26/11/1600x900/skysports-rio-ngumoha-liverpool_7413795.jpg?20261122181605"
     },
     {
       "date": "2026-11-22",
@@ -1270,16 +1307,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2d35/live/ce5f0cc0-e694-11f1-936e-1fd1d31671db.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2d35/live/ce5f0cc0-e694-11f1-936e-1fd1d31671db.jpg"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "Liverpool Echo",
-      "title": "Spanish media savage Trent Alexander-Arnold as former Liverpool star booed by own fans",
-      "summary": "Trent Alexander-Arnold endured an evening to forget as Real Madrid came from behind to narrowly beat Celta Vigo 2-1",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/trent-alexander-arnold-real-madrid-34950279",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950262.ece/ALTERNATES/s615/0_GettyImages-2306268991.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950262.ece/ALTERNATES/s1200/0_GettyImages-2306268991.jpg"
     },
     {
       "date": "2026-11-21",
@@ -1317,34 +1344,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0985/live/d8838190-e4fa-11f1-a8e4-b1e12a49db15.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0985/live/d8838190-e4fa-11f1-a8e4-b1e12a49db15.jpg"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "BBC Sport",
-      "title": "Iraola on being spotted at grassoots game",
-      "summary": "Liverpool boss Andoni Iraola on being spotted at his son's grassoots football game.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cqy7rx28mpy5o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/526c/live/ef5fd650-e4f2-11f1-a094-5fdc692f3e33.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/526c/live/ef5fd650-e4f2-11f1-a094-5fdc692f3e33.jpg",
-      "tall": true
-    },
-    {
-      "date": "2026-11-20",
-      "source": "The Guardian",
-      "title": "Liverpool fan found not guilty of racial abuse after Antoine Semenyo withdraws from case",
-      "summary": "Man accused of abusing former Bournemouth winger",
-      "url": "https://www.theguardian.com/football/2026/nov/20/liverpool-fan-not-guilty-racial-abuse-antoine-semenyo-withdraws-from-case-bournemouth-liverpool",
-      "img": "https://i.guim.co.uk/img/media/863ba790bc229db549ef08b443c6190e8fd1b893/294_0_2942_2353/master/2942.jpg?width=460&quality=85&auto=format&fit=max&s=36eb80d44ecd2744291a8b93e1db79de",
-      "big": "https://i.guim.co.uk/img/media/863ba790bc229db549ef08b443c6190e8fd1b893/294_0_2942_2353/master/2942.jpg?width=700&quality=85&auto=format&fit=max&s=0184cfd3917cd420250e1fffd89d7a28"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Sky Sports",
-      "title": "Semenyo withdraws support for prosecution of Liverpool fan in racial abuse case",
-      "summary": "A Liverpool fan accused of racially abusing Antoine Semenyo has been found not guilty after the Manchester City forward withdrew his support for the prosecution.",
-      "url": "https://www.skysports.com/football/news/11669/13614319/antoine-semenyo-manchester-city-forward-withdraws-support-for-prosecution-of-liverpool-fan-in-racial-abuse-case",
-      "img": "https://e0.365dm.com/26/10/768x432/skysports-semenyo-manchester-city_7376976.jpg?20261014223334",
-      "big": "https://e0.365dm.com/26/10/1600x900/skysports-semenyo-manchester-city_7376976.jpg?20261014223334"
     }
   ],
   "outlets": [
