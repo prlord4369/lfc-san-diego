@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T15:30:49Z",
+  "updated": "2026-11-22T17:30:47Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1287,13 +1287,13 @@
       "title": "Liverpool v Manchester United: Premier League – live",
       "summary": "Premier League updates from the 4.30pm GMT kick-off",
       "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
-      "img": "https://i.guim.co.uk/img/media/5b87d2c689e211d547af7c1412df6936c0dd4dcd/504_0_7560_6048/master/7560.jpg?width=460&quality=85&auto=format&fit=max&s=d0342d4d56c97775699fceb907c91530",
-      "big": "https://i.guim.co.uk/img/media/5b87d2c689e211d547af7c1412df6936c0dd4dcd/504_0_7560_6048/master/7560.jpg?width=700&quality=85&auto=format&fit=max&s=0506d62c1e6e4c9d61b613948a6c1eb0"
+      "img": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=460&quality=85&auto=format&fit=max&s=70adbc7f77d811d9d8aeae6f19d2b695",
+      "big": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=700&quality=85&auto=format&fit=max&s=8c62b3ff8c3a5786dc1bc06055234fce"
     },
     {
       "date": "2026-11-22",
       "source": "Liverpool Echo",
-      "title": "Liverpool vs Man United LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "title": "Liverpool vs Man United LIVE - score, Dominik Szoboszlai, Florian Wirtz goals, Leny Yoro red card, commentary stream",
       "summary": "Live coverage of the massive Premier League encounter between Liverpool and Manchester United at Anfield",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-live-stream-34944188",
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s615/0_graphic-canvas-wide-1.png",
@@ -1376,6 +1376,15 @@
     },
     {
       "date": "2026-11-20",
+      "source": "Sky Sports",
+      "title": "Semenyo withdraws support for prosecution of Liverpool fan in racial abuse case",
+      "summary": "A Liverpool fan accused of racially abusing Antoine Semenyo has been found not guilty after the Manchester City forward withdrew his support for the prosecution.",
+      "url": "https://www.skysports.com/football/news/11669/13614319/antoine-semenyo-manchester-city-forward-withdraws-support-for-prosecution-of-liverpool-fan-in-racial-abuse-case",
+      "img": "https://e0.365dm.com/26/10/768x432/skysports-semenyo-manchester-city_7376976.jpg?20261014223334",
+      "big": "https://e0.365dm.com/26/10/1600x900/skysports-semenyo-manchester-city_7376976.jpg?20261014223334"
+    },
+    {
+      "date": "2026-11-20",
       "source": "BBC Sport",
       "title": "Liverpool and Man Utd fans give very 'ambitious' predictions",
       "summary": "Liverpool fan Abi Rudkin and Man Utd fan Jay Motty have very differing views on how their clubs' showdown may go on Sunday",
@@ -1383,15 +1392,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-19",
-      "source": "The Guardian",
-      "title": "Premier League: 10 things to look out for this weekend",
-      "summary": "Bruno Guimarães to feel the heat on Tyneside, Alex Scott’s return further cheers Cherries and Manchester City face favourite whipping boys",
-      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend",
-      "img": "https://i.guim.co.uk/img/media/697a5b5e6adf5ec4ae93d2b6aa2ddcbf11b935ce/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=5d7f868237d7a060726f2032e70751a7",
-      "big": "https://i.guim.co.uk/img/media/697a5b5e6adf5ec4ae93d2b6aa2ddcbf11b935ce/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=0f0e85e4c79ef217859a0543f8056d8c"
     }
   ],
   "outlets": [
