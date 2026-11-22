@@ -246,5 +246,23 @@
   ],
   "card": true,
   "pos": "4th in the PL"
+ },
+ {
+  "id": "2026-11-22-manchester-united",
+  "date": "2026-11-22",
+  "kickoff": "2026-11-22T16:30:00Z",
+  "comp": "Premier League",
+  "opp": "Manchester United",
+  "ha": "H",
+  "score": "4-0",
+  "r": "W",
+  "scorers": [
+   "Szoboszlai",
+   "Wirtz",
+   "Ngumoha",
+   "Muñoz"
+  ],
+  "card": true,
+  "pos": "5th in the PL"
  }
 ]

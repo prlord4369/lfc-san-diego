@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-22T17:30:47Z",
+  "updated": "2026-11-22T18:31:01Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
     "map": "https://www.google.com/maps/search/?api=1&query=Whiskey+Girl+702+Fifth+Ave+San+Diego+CA"
   },
   "standing": {
-    "position": "5th",
+    "position": "4th",
     "competition": "Premier League",
-    "record": "P10 W5 D3 L2 · 18 pts"
+    "record": "P11 W6 D3 L2 · 21 pts"
   },
   "squad": {
     "asof": "2026-10-15",
@@ -360,11 +360,11 @@
         "team": "Brighton & Hove Albion",
         "p": 11,
         "w": 7,
-        "d": 2,
-        "l": 2,
+        "d": 1,
+        "l": 3,
         "gf": 26,
-        "ga": 7,
-        "pts": 23
+        "ga": 9,
+        "pts": 22
       },
       {
         "pos": 3,
@@ -379,6 +379,17 @@
       },
       {
         "pos": 4,
+        "team": "Liverpool",
+        "p": 11,
+        "w": 6,
+        "d": 3,
+        "l": 2,
+        "gf": 18,
+        "ga": 10,
+        "pts": 21
+      },
+      {
+        "pos": 5,
         "team": "AFC Bournemouth",
         "p": 11,
         "w": 5,
@@ -386,17 +397,6 @@
         "l": 3,
         "gf": 18,
         "ga": 14,
-        "pts": 18
-      },
-      {
-        "pos": 5,
-        "team": "Liverpool",
-        "p": 10,
-        "w": 5,
-        "d": 3,
-        "l": 2,
-        "gf": 14,
-        "ga": 10,
         "pts": 18
       },
       {
@@ -456,6 +456,17 @@
       },
       {
         "pos": 11,
+        "team": "Hull City",
+        "p": 11,
+        "w": 3,
+        "d": 5,
+        "l": 3,
+        "gf": 13,
+        "ga": 11,
+        "pts": 14
+      },
+      {
+        "pos": 12,
         "team": "Aston Villa",
         "p": 11,
         "w": 3,
@@ -466,7 +477,7 @@
         "pts": 14
       },
       {
-        "pos": 12,
+        "pos": 13,
         "team": "Newcastle United",
         "p": 11,
         "w": 3,
@@ -475,17 +486,6 @@
         "gf": 15,
         "ga": 18,
         "pts": 13
-      },
-      {
-        "pos": 13,
-        "team": "Hull City",
-        "p": 11,
-        "w": 2,
-        "d": 6,
-        "l": 3,
-        "gf": 11,
-        "ga": 11,
-        "pts": 12
       },
       {
         "pos": 14,
@@ -545,12 +545,12 @@
       {
         "pos": 19,
         "team": "Manchester United",
-        "p": 10,
+        "p": 11,
         "w": 1,
         "d": 5,
-        "l": 4,
+        "l": 5,
         "gf": 14,
-        "ga": 19,
+        "ga": 23,
         "pts": 8
       },
       {
@@ -695,63 +695,17 @@
       "score": "3-1",
       "r": "W",
       "comp": "Premier League"
+    },
+    {
+      "date": "2026-11-22",
+      "opp": "Manchester United",
+      "ha": "H",
+      "score": "4-0",
+      "r": "W",
+      "comp": "Premier League"
     }
   ],
   "fixtures": [
-    {
-      "kickoff": "2026-11-22T16:30:00Z",
-      "opp": "Manchester United",
-      "ha": "H",
-      "comp": "Premier League",
-      "scope": "domestic",
-      "venueClosed": false,
-      "watchAt": "whiskeygirl",
-      "usLocked": false,
-      "us": "USA Network",
-      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/liverpool-host-manchester-united-this-sunday-nov-22-on-usa-network-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend",
-      "h2h": [
-        {
-          "date": "2026-05-03",
-          "ha": "A",
-          "score": "2-3",
-          "r": "L",
-          "comp": "Premier League"
-        },
-        {
-          "date": "2025-10-19",
-          "ha": "H",
-          "score": "1-2",
-          "r": "L",
-          "comp": "Premier League"
-        },
-        {
-          "date": "2025-01-05",
-          "ha": "H",
-          "score": "2-2",
-          "r": "D",
-          "comp": "Premier League"
-        },
-        {
-          "date": "2024-09-01",
-          "ha": "A",
-          "score": "3-0",
-          "r": "W",
-          "comp": "Premier League"
-        },
-        {
-          "date": "2024-08-03",
-          "ha": "A",
-          "score": "3-0",
-          "r": "W",
-          "comp": "Club Friendly"
-        }
-      ],
-      "ground": {
-        "name": "Anfield",
-        "city": "Liverpool",
-        "country": "England"
-      }
-    },
     {
       "kickoff": "2026-11-25T20:00:00Z",
       "opp": "Club Brugge",
@@ -1284,7 +1238,7 @@
     {
       "date": "2026-11-22",
       "source": "The Guardian",
-      "title": "Liverpool v Manchester United: Premier League – live",
+      "title": "Liverpool 4-0 Manchester United: Premier League – live",
       "summary": "Premier League updates from the 4.30pm GMT kick-off",
       "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
       "img": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=460&quality=85&auto=format&fit=max&s=70adbc7f77d811d9d8aeae6f19d2b695",
@@ -1292,12 +1246,30 @@
     },
     {
       "date": "2026-11-22",
+      "source": "BBC Sport",
+      "title": "Yoro sees red as Ngumoha shines - Liverpool v Man Utd player ratings",
+      "summary": "How Liverpool and Manchester United's players rated following their Premier League match.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c933gzxk66yyo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8f96/live/26ee3650-e694-11f1-936e-1fd1d31671db.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8f96/live/26ee3650-e694-11f1-936e-1fd1d31671db.jpg"
+    },
+    {
+      "date": "2026-11-22",
       "source": "Liverpool Echo",
-      "title": "Liverpool vs Man United LIVE - score, Dominik Szoboszlai, Florian Wirtz goals, Leny Yoro red card, commentary stream",
+      "title": "Liverpool 4 Man United 0 LIVE - Szoboszlai, Wirtz, Ngumoha, Munoz goals, Yoro red card, commentary stream",
       "summary": "Live coverage of the massive Premier League encounter between Liverpool and Manchester United at Anfield",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-live-stream-34944188",
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s615/0_graphic-canvas-wide-1.png",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s1200/0_graphic-canvas-wide-1.png"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "BBC Sport",
+      "title": "The red card that changed Liverpool-Man Utd: correct call?",
+      "summary": "Leny Yoro's red card after eight minutes changed Liverpool v Manchester United - did officials make the correct call?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2d35/live/ce5f0cc0-e694-11f1-936e-1fd1d31671db.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2d35/live/ce5f0cc0-e694-11f1-936e-1fd1d31671db.jpg"
     },
     {
       "date": "2026-11-22",
@@ -1358,15 +1330,6 @@
     },
     {
       "date": "2026-11-20",
-      "source": "BBC Sport",
-      "title": "Filming training by drones should be illegal - Iraola",
-      "summary": "Liverpool head coach Andoni Iraola says filming with drones around training grounds should be illegal.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqdr1xmekmg5o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4fcc/live/7922cff0-e4ee-11f1-8781-bf15c9202663.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/4fcc/live/7922cff0-e4ee-11f1-8781-bf15c9202663.jpg"
-    },
-    {
-      "date": "2026-11-20",
       "source": "The Guardian",
       "title": "Liverpool fan found not guilty of racial abuse after Antoine Semenyo withdraws from case",
       "summary": "Man accused of abusing former Bournemouth winger",
@@ -1382,16 +1345,6 @@
       "url": "https://www.skysports.com/football/news/11669/13614319/antoine-semenyo-manchester-city-forward-withdraws-support-for-prosecution-of-liverpool-fan-in-racial-abuse-case",
       "img": "https://e0.365dm.com/26/10/768x432/skysports-semenyo-manchester-city_7376976.jpg?20261014223334",
       "big": "https://e0.365dm.com/26/10/1600x900/skysports-semenyo-manchester-city_7376976.jpg?20261014223334"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "BBC Sport",
-      "title": "Liverpool and Man Utd fans give very 'ambitious' predictions",
-      "summary": "Liverpool fan Abi Rudkin and Man Utd fan Jay Motty have very differing views on how their clubs' showdown may go on Sunday",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c6rrgd9lx0zpo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/c33e/live/e6373ef0-e421-11f1-99b6-a35a62fa4264.jpg",
-      "tall": true
     }
   ],
   "outlets": [
