@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T20:00:51Z",
+  "updated": "2026-11-22T23:30:46Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1238,21 +1238,11 @@
     {
       "date": "2026-11-22",
       "source": "BBC Sport",
-      "title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
-      "summary": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation…",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a55a/live/4cb54b80-e6a8-11f1-99a1-253766e7ad8b.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a55a/live/4cb54b80-e6a8-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "Liverpool Echo",
-      "title": "Kobbie Mainoo and Bruno Fernandes make Man United red card claims after Liverpool humiliation",
-      "summary": "The Manchester United midfielders were insistent Leny Yoro should not have been sent off for his eighth-minute foul on Alexander Isak in Liverpool's 4-0 win at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/kobbie-mainoo-bruno-fernandes-make-34951177",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951190.ece/ALTERNATES/s615/0_GettyImages-2305901069.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951190.ece/ALTERNATES/s1200/0_GettyImages-2305901069.jpg"
+      "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
+      "summary": "Match of the Day pundit Danny Murphy explains how Rio Ngumoha showed everyone what he is capable of in Liverpool's 4-0 win over Manchester United.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png"
     },
     {
       "date": "2026-11-22",
@@ -1262,6 +1252,51 @@
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-live-stream-34944188",
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s615/0_graphic-canvas-wide-1.png",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s1200/0_graphic-canvas-wide-1.png"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "BBC Sport",
+      "title": "'World's best could've lost 4-0' - but should Man Utd have done more at Anfield?",
+      "summary": "Mauricio Pochettino believes even the best team in the world could have conceded four goals at Liverpool in Manchester United's circumstances - but should the Red Devils have done…",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm782j80yypwo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e813/live/77008940-e6bc-11f1-a094-5fdc692f3e33.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e813/live/77008940-e6bc-11f1-a094-5fdc692f3e33.jpg"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "The Guardian",
+      "title": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
+      "summary": "Manchester United lose 4-0 to Liverpool after early red",
+      "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
+      "img": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=460&quality=85&auto=format&fit=max&s=c7e076beb21dbcd9272362f62159c6bd",
+      "big": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=700&quality=85&auto=format&fit=max&s=0ee7d0faf96cbe19e607bb84b77969c1"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "Liverpool Echo",
+      "title": "Bradley Barcola not happy as Liverpool star speaks mind after Jamie Carragher criticism",
+      "summary": "Rio Ngumoha and Florian Wirtz outperformed Bradley Barcola as Liverpool hammered Manchester United in Mauricio Pochettino's first match in charge",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-liverpool-man-utd-34951284",
+      "amp": true
+    },
+    {
+      "date": "2026-11-22",
+      "source": "BBC Sport",
+      "title": "'Man Utd looked awful' - Liverpool fan delighted after win",
+      "summary": "Liverpool fan Abigail Rudkin said she was \"laughing\" in her seat throughout the entire game as Liverpool comfortably beat rivals Man Utd 4-0 at Anfield.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cwvg2n5nrnn0o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5bda/live/89a7ea10-e6b8-11f1-99b6-a35a62fa4264.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5bda/live/89a7ea10-e6b8-11f1-99b6-a35a62fa4264.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-22",
+      "source": "The Guardian",
+      "title": "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
+      "summary": "Decision to pick the Dutch defender over Harry Maguire backfired as Manchester United fell apart in the Anfield bearpit",
+      "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-matthijs-de-ligt-harry-maguire-manchester-united-liverpool-premier-league",
+      "img": "https://i.guim.co.uk/img/media/2e5a4478b3bf6d18edc1a5b8efc06cb3779d0585/119_0_3133_2506/master/3133.jpg?width=460&quality=85&auto=format&fit=max&s=afcce0a61f772169fa6abc1587d2d898",
+      "big": "https://i.guim.co.uk/img/media/2e5a4478b3bf6d18edc1a5b8efc06cb3779d0585/119_0_3133_2506/master/3133.jpg?width=700&quality=85&auto=format&fit=max&s=462d18d0558ddfcda405310659191426"
     },
     {
       "date": "2026-11-22",
@@ -1276,10 +1311,10 @@
       "date": "2026-11-22",
       "source": "The Guardian",
       "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-      "summary": "Green shoots of recovery have lasted longer in a blast-furnace than in the Mauricio Pochettino era at Manchester United.",
+      "summary": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at Manchester United.",
       "url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report",
-      "img": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/260_0_2689_2152/master/2689.jpg?width=460&quality=85&auto=format&fit=max&s=f099ccf82d1d5c7c0f8830607bf759a1",
-      "big": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/260_0_2689_2152/master/2689.jpg?width=700&quality=85&auto=format&fit=max&s=32cab6d6bb1d3ab4b733505c78a3ee14"
+      "img": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/338_150_2492_1994/master/2492.jpg?width=460&quality=85&auto=format&fit=max&s=77d73173d9fe34fb723c501d9ff844eb",
+      "big": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/338_150_2492_1994/master/2492.jpg?width=700&quality=85&auto=format&fit=max&s=116b2575193f99e4936f2f774c19dd05"
     },
     {
       "date": "2026-11-22",
@@ -1287,8 +1322,8 @@
       "title": "Yoro sees red as Ngumoha shines - Liverpool v Man Utd player ratings",
       "summary": "How Liverpool and Manchester United's players rated following their Premier League match.",
       "url": "https://www.bbc.co.uk/sport/football/articles/c933gzxk66yyo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/8f96/live/26ee3650-e694-11f1-936e-1fd1d31671db.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/8f96/live/26ee3650-e694-11f1-936e-1fd1d31671db.jpg"
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6d14/live/a0909ae0-e6b0-11f1-99a1-253766e7ad8b.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6d14/live/a0909ae0-e6b0-11f1-99a1-253766e7ad8b.jpg"
     },
     {
       "date": "2026-11-22",
@@ -1305,45 +1340,8 @@
       "title": "The red card that changed Liverpool-Man Utd: correct call?",
       "summary": "Leny Yoro's red card after eight minutes changed Liverpool v Manchester United - did officials make the correct call?",
       "url": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2d35/live/ce5f0cc0-e694-11f1-936e-1fd1d31671db.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2d35/live/ce5f0cc0-e694-11f1-936e-1fd1d31671db.jpg"
-    },
-    {
-      "date": "2026-11-21",
-      "source": "BBC Sport",
-      "title": "Rio Ferdinand: Anfield is a cauldron for United",
-      "summary": "Rio Ferdinand: Anfield is a cauldron for United",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwp80vv6y23mo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a6e6/live/40176ce0-e5be-11f1-a094-5fdc692f3e33.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/a6e6/live/40176ce0-e5be-11f1-a094-5fdc692f3e33.jpg",
-      "tall": true
-    },
-    {
-      "date": "2026-11-20",
-      "source": "The Guardian",
-      "title": "Premier League news: Moyes demands more from Grealish, Iraola wary of United threat",
-      "summary": "Everton’s playmaker returns after being stood down, while Liverpool’s head coach keeps focus for Anfield showdown",
-      "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-news-everton-jack-grealish-manchester-city-liverpool-chelsea",
-      "img": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=460&quality=85&auto=format&fit=max&s=27d6140dab96b722b303c123d2ef2675",
-      "big": "https://i.guim.co.uk/img/media/7855f7f1d353032a06c5069503b1302dd7bfd775/224_0_4276_3421/master/4276.jpg?width=700&quality=85&auto=format&fit=max&s=5c218b7633e51726c91f4ee5936430d0"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "Sky Sports",
-      "title": "Van Dijk uncertain on Liverpool future",
-      "summary": "Liverpool captain Virgil van Dijk believes he can keeping playing for \"many more years\" - but says he does not yet know whether that will be at Anfield next season.",
-      "url": "https://www.skysports.com/football/news/11669/13614508/liverpool-virgil-van-dijk-uncertain-on-anfield-future-beyond-the-summer-but-believes-he-can-play-for-many-more-years",
-      "img": "https://e0.365dm.com/26/11/768x432/skysports-liverpool-van-dijk_7411788.jpg?20261120202101",
-      "big": "https://e0.365dm.com/26/11/1600x900/skysports-liverpool-van-dijk_7411788.jpg?20261120202101"
-    },
-    {
-      "date": "2026-11-20",
-      "source": "BBC Sport",
-      "title": "Sarr focused on Palace return after Liverpool interest",
-      "summary": "Crystal Palace forward Ismaila Sarr says he has moved on from Liverpool's interest in signing him and is keen for a \"fresh start\" under Thomas Frank.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cvj6l7pd1yd0o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/0985/live/d8838190-e4fa-11f1-a8e4-b1e12a49db15.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/0985/live/d8838190-e4fa-11f1-a8e4-b1e12a49db15.jpg"
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9413/live/785f7370-e6b0-11f1-99b6-a35a62fa4264.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/9413/live/785f7370-e6b0-11f1-99b6-a35a62fa4264.jpg"
     }
   ],
   "outlets": [
