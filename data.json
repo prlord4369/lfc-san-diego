@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T12:16:32Z",
+  "updated": "2026-11-22T15:30:49Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -358,13 +358,13 @@
       {
         "pos": 2,
         "team": "Brighton & Hove Albion",
-        "p": 10,
+        "p": 11,
         "w": 7,
-        "d": 1,
+        "d": 2,
         "l": 2,
         "gf": 26,
         "ga": 7,
-        "pts": 22
+        "pts": 23
       },
       {
         "pos": 3,
@@ -478,6 +478,17 @@
       },
       {
         "pos": 13,
+        "team": "Hull City",
+        "p": 11,
+        "w": 2,
+        "d": 6,
+        "l": 3,
+        "gf": 11,
+        "ga": 11,
+        "pts": 12
+      },
+      {
+        "pos": 14,
         "team": "Coventry City",
         "p": 11,
         "w": 4,
@@ -486,17 +497,6 @@
         "gf": 13,
         "ga": 21,
         "pts": 12
-      },
-      {
-        "pos": 14,
-        "team": "Hull City",
-        "p": 10,
-        "w": 2,
-        "d": 5,
-        "l": 3,
-        "gf": 11,
-        "ga": 11,
-        "pts": 11
       },
       {
         "pos": 15,
@@ -780,6 +780,8 @@
       "venueClosed": false,
       "watchAt": "shakespeares",
       "usLocked": false,
+      "us": "USA Network",
+      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/",
       "h2h": [
         {
           "date": "2026-04-19",
@@ -821,9 +823,7 @@
         "name": "Hill Dickinson Stadium",
         "city": "Liverpool",
         "country": "England"
-      },
-      "us": "USA Network",
-      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/"
+      }
     },
     {
       "kickoff": "2026-12-02T19:30:00Z",
@@ -1283,22 +1283,31 @@
   "news": [
     {
       "date": "2026-11-22",
-      "source": "Liverpool Echo",
-      "title": "'Laughing their heads off' - Teddy Sheringham warns Liverpool about Man Utd's Scouse 'wildcard'",
-      "summary": "Teddy Sheringham gives his thoughts on the massive Premier League match between Liverpool and Manchester United and the player who will be hoping to impress against the club his…",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/laughing-heads-off-teddy-sheringham-34949106",
-      "amp": true,
-      "img": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33839332.ece/ALTERNATES/s615/3_GettyImages-2205935323.jpg",
-      "big": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33839332.ece/ALTERNATES/s1200/3_GettyImages-2205935323.jpg"
+      "source": "The Guardian",
+      "title": "Liverpool v Manchester United: Premier League – live",
+      "summary": "Premier League updates from the 4.30pm GMT kick-off",
+      "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
+      "img": "https://i.guim.co.uk/img/media/5b87d2c689e211d547af7c1412df6936c0dd4dcd/504_0_7560_6048/master/7560.jpg?width=460&quality=85&auto=format&fit=max&s=d0342d4d56c97775699fceb907c91530",
+      "big": "https://i.guim.co.uk/img/media/5b87d2c689e211d547af7c1412df6936c0dd4dcd/504_0_7560_6048/master/7560.jpg?width=700&quality=85&auto=format&fit=max&s=0506d62c1e6e4c9d61b613948a6c1eb0"
     },
     {
       "date": "2026-11-22",
       "source": "Liverpool Echo",
-      "title": "Liverpool line-ups vs Manchester United as Dominik Szoboszlai and Alexander Isak decisions made",
-      "summary": "Liverpool predicted line-ups and teams for the Premier League clash against Manchester United on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-vs-manchester-34947608",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34947613.ece/ALTERNATES/s615/0_GettyImages-2295476843.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34947613.ece/ALTERNATES/s1200/0_GettyImages-2295476843.jpg"
+      "title": "Liverpool vs Man United LIVE - team news, TV channel, kick-off time, score and commentary stream",
+      "summary": "Live coverage of the massive Premier League encounter between Liverpool and Manchester United at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-live-stream-34944188",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s615/0_graphic-canvas-wide-1.png",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s1200/0_graphic-canvas-wide-1.png"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "Liverpool Echo",
+      "title": "Spanish media savage Trent Alexander-Arnold as former Liverpool star booed by own fans",
+      "summary": "Trent Alexander-Arnold endured an evening to forget as Real Madrid came from behind to narrowly beat Celta Vigo 2-1",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/trent-alexander-arnold-real-madrid-34950279",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950262.ece/ALTERNATES/s615/0_GettyImages-2306268991.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950262.ece/ALTERNATES/s1200/0_GettyImages-2306268991.jpg"
     },
     {
       "date": "2026-11-21",
@@ -1383,15 +1392,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/20/premier-league-10-things-to-look-out-for-this-weekend",
       "img": "https://i.guim.co.uk/img/media/697a5b5e6adf5ec4ae93d2b6aa2ddcbf11b935ce/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=5d7f868237d7a060726f2032e70751a7",
       "big": "https://i.guim.co.uk/img/media/697a5b5e6adf5ec4ae93d2b6aa2ddcbf11b935ce/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=0f0e85e4c79ef217859a0543f8056d8c"
-    },
-    {
-      "date": "2026-11-19",
-      "source": "Sky Sports",
-      "title": "PL Predictions: How will your club fare this weekend?",
-      "summary": "Our top tipster Lewis Jones, aka Jones Knows, provides his analysis and betting insight as the Premier League returns from the international break.",
-      "url": "https://www.skysports.com/football/news/11669/13611640/premier-league-predictions-jones-knows-best-bets-newcastle-vs-arsenal-liverpool-vs-manchester-united-and-much-more",
-      "img": "https://e0.365dm.com/26/10/768x432/skysports-premier-league-predictions_7385438.jpg?20261024123906",
-      "big": "https://e0.365dm.com/26/10/1600x900/skysports-premier-league-predictions_7385438.jpg?20261024123906"
     }
   ],
   "outlets": [
