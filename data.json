@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T03:26:54Z",
+  "updated": "2026-11-22T12:16:32Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -821,7 +821,9 @@
         "name": "Hill Dickinson Stadium",
         "city": "Liverpool",
         "country": "England"
-      }
+      },
+      "us": "USA Network",
+      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/"
     },
     {
       "kickoff": "2026-12-02T19:30:00Z",
@@ -953,9 +955,9 @@
       "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "scope": "domestic",
       "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1221,8 +1223,8 @@
       "player": "Ryan Gravenberch",
       "pos": "MF",
       "status": "doubt",
-      "issue": "Heel pain",
-      "detail": "Iraola says the problem is pain he is managing, and he has trained with the squad for two days. He is in contention to face Manchester United on November 22.",
+      "issue": "Heel",
+      "detail": "Iraola says he is managing pain and has trained with the group for two days, so he is hoped to be available against Manchester United. He remains a doubt until the match.",
       "reported": "2026-11-20",
       "source": "Liverpool FC",
       "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-frimpong-gravenberch-szoboszlai-van-dijk-and-more"
@@ -1232,10 +1234,10 @@
       "pos": "DF",
       "status": "back",
       "issue": "Hamstring",
-      "detail": "He is back in group training after his hamstring injury, and Iraola expects him to be available for Manchester United on November 22.",
+      "detail": "He has rejoined the group after a hamstring problem picked up at Brentford, and Iraola expects him to be available for Sunday's match with Manchester United.",
       "reported": "2026-11-20",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-frimpong-gravenberch-szoboszlai-van-dijk-and-more"
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-manutd-injuries-34942192"
     },
     {
       "player": "Hugo Ekitike",
@@ -1252,42 +1254,51 @@
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has rejoined team training after knee surgery and recovery, but is not in contention for Manchester United. Liverpool will manage his return carefully, with a late-November return date mooted.",
+      "detail": "He has started team training again after knee surgery and recovery, but Iraola says he is still not available. Liverpool will load him back in carefully.",
       "reported": "2026-11-20",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-man-united-injury-news-34944076"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/every-word-iraola-liverpool-united-34944630"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He has returned to team training after an ACL tear and is in the final stages of rehab. A late-November return is possible, but Liverpool will not rush him back.",
+      "detail": "He is training with the squad on alternate days after an ACL tear, and Iraola says he is still not available. Iraola hopes he can play in some weeks.",
       "reported": "2026-11-20",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-man-united-injury-news-34944076"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/every-word-iraola-liverpool-united-34944630"
+    },
+    {
+      "player": "Cody Gakpo",
+      "pos": "FW",
+      "status": "doubt",
+      "issue": "Unspecified",
+      "detail": "He was not pictured in training on Thursday, and Iraola did not mention him at his press conference. This Is Anfield describes him as a slight doubt for Manchester United.",
+      "reported": "2026-11-20",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-man-united/"
     }
   ],
   "news": [
     {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "source": "Liverpool Echo",
-      "title": "Man United sent me an offer - I rejected them in one second due to Liverpool",
-      "summary": "Liverpool have failed to beat Manchester United in each of their last three attempts, losing twice and drawing once, so they’ll be keen to set the record straight.",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-offer-rejected-34933430",
+      "title": "'Laughing their heads off' - Teddy Sheringham warns Liverpool about Man Utd's Scouse 'wildcard'",
+      "summary": "Teddy Sheringham gives his thoughts on the massive Premier League match between Liverpool and Manchester United and the player who will be hoping to impress against the club his…",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/laughing-heads-off-teddy-sheringham-34949106",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933434.ece/ALTERNATES/s615/0_GettyImages-483493938.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34933434.ece/ALTERNATES/s1200/0_GettyImages-483493938.jpg"
+      "img": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33839332.ece/ALTERNATES/s615/3_GettyImages-2205935323.jpg",
+      "big": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33839332.ece/ALTERNATES/s1200/3_GettyImages-2205935323.jpg"
     },
     {
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "source": "Liverpool Echo",
-      "title": "Ismaila Sarr opens up on failing to complete Liverpool transfer - 'One of the biggest'",
-      "summary": "Ismaila Sarr has confirmed he is in talks over a new Crystal Palace contract after putting Liverpool's transfer interest 'behind him'.",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/ismaila-sarr-opens-up-failing-34948417",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34948415.ece/ALTERNATES/s615/0_GettyImages-2295809766.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/sport/football/football-news/article34948415.ece/ALTERNATES/s1200/0_GettyImages-2295809766.jpg"
+      "title": "Liverpool line-ups vs Manchester United as Dominik Szoboszlai and Alexander Isak decisions made",
+      "summary": "Liverpool predicted line-ups and teams for the Premier League clash against Manchester United on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-vs-manchester-34947608",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34947613.ece/ALTERNATES/s615/0_GettyImages-2295476843.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34947613.ece/ALTERNATES/s1200/0_GettyImages-2295476843.jpg"
     },
     {
       "date": "2026-11-21",
@@ -2790,5 +2801,5 @@
     "headlinesFor": null,
     "checked": "2026-11-22"
   },
-  "fullUpdated": "2026-11-21T12:16:19Z"
+  "fullUpdated": "2026-11-22T12:16:31Z"
 }
