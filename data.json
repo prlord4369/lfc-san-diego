@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T15:30:50Z",
+  "updated": "2026-11-23T17:30:45Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1237,6 +1237,26 @@
   "news": [
     {
       "date": "2026-11-23",
+      "source": "BBC Sport",
+      "title": "Comm Cam - Liverpool thrash Manchester United",
+      "summary": "Watch John Murray react to all four of Liverpool's goals against Manchester United in Mauricio Pochettino's first game in charge.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cm1wr3lgpeglo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Liverpool Echo",
+      "title": "Poll: What is your favourite Liverpool humiliation of Manchester United?",
+      "summary": "Have your say in our latest poll after Liverpool dished out another heavy defeat to their sorry rivals Manchester United",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/poll-what-your-favourite-liverpool-34954798",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34952808.ece/ALTERNATES/s615/0_GettyImages-2306390958.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34952808.ece/ALTERNATES/s1200/0_GettyImages-2306390958.jpg"
+    },
+    {
+      "date": "2026-11-23",
       "source": "Liverpool Echo",
       "title": "Jamie Carragher sets challenge to £364m Liverpool men after Man United demolition - 'First sign'",
       "summary": "Jamie Carragher reacts to Liverpool's 4-0 win over Manchester United at Anfield on Sunday",
@@ -1244,16 +1264,6 @@
       "amp": true,
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954358.ece/ALTERNATES/s615/0_carra2.png",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954358.ece/ALTERNATES/s1200/0_carra2.png"
-    },
-    {
-      "date": "2026-11-23",
-      "source": "Liverpool Echo",
-      "title": "Trent Alexander-Arnold gets Real Madrid exit update with Liverpool return 'expected'",
-      "summary": "Former Liverpool star Trent Alexander-Arnold has failed to establish himself as a regular for Real Madrid since Jose Mourinho took the reins.",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-arnold-real-madrid-liverpool-34954560",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954594.ece/ALTERNATES/s615/0_GettyImages-2302857140.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954594.ece/ALTERNATES/s1200/0_GettyImages-2302857140.jpg"
     },
     {
       "date": "2026-11-23",
@@ -1318,16 +1328,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
       "img": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=460&quality=85&auto=format&fit=max&s=c7e076beb21dbcd9272362f62159c6bd",
       "big": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=700&quality=85&auto=format&fit=max&s=0ee7d0faf96cbe19e607bb84b77969c1"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "BBC Sport",
-      "title": "'Man Utd looked awful' - Liverpool fan delighted after win",
-      "summary": "Liverpool fan Abigail Rudkin said she was \"laughing\" in her seat throughout the entire game as Liverpool comfortably beat rivals Man Utd 4-0 at Anfield.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cwvg2n5nrnn0o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/5bda/live/89a7ea10-e6b8-11f1-99b6-a35a62fa4264.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5bda/live/89a7ea10-e6b8-11f1-99b6-a35a62fa4264.jpg",
-      "tall": true
     },
     {
       "date": "2026-11-22",
