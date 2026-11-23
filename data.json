@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T23:30:46Z",
+  "updated": "2026-11-23T03:57:52Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -337,10 +337,10 @@
         "espn": true
       }
     ],
-    "checked": "2026-11-22"
+    "checked": "2026-11-23"
   },
   "table": {
-    "asof": "2026-11-22",
+    "asof": "2026-11-23",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1237,6 +1237,25 @@
   "news": [
     {
       "date": "2026-11-22",
+      "source": "Liverpool Echo",
+      "title": "What Andoni Iraola said about Rio Ngumoha and Bradley Barcola after Liverpool thrashed Man United",
+      "summary": "Liverpool boss Andoni Iraola reflects on Rio Ngumoha's performance as the Reds hammer Manchester United 4-0 at Anfield",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-andoni-iraola-said-rio-34949956",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951453.ece/ALTERNATES/s615/0_GettyImages-2306372498-1.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951453.ece/ALTERNATES/s1200/0_GettyImages-2306372498-1.jpg"
+    },
+    {
+      "date": "2026-11-22",
+      "source": "BBC Sport",
+      "title": "Did Liverpool 'get lucky' with red card decision?",
+      "summary": "Match of the Day pundits Danny Murphy and Ashley Young believe that Liverpool were perhaps \"lucky\" when Manchester United's Leny Yoro was sent off in the 8th-minute at Anfield.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/97fd/live/e0c07400-e6c9-11f1-99b6-a35a62fa4264.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/97fd/live/e0c07400-e6c9-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "date": "2026-11-22",
       "source": "BBC Sport",
       "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
       "summary": "Match of the Day pundit Danny Murphy explains how Rio Ngumoha showed everyone what he is capable of in Liverpool's 4-0 win over Manchester United.",
@@ -1270,14 +1289,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
       "img": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=460&quality=85&auto=format&fit=max&s=c7e076beb21dbcd9272362f62159c6bd",
       "big": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=700&quality=85&auto=format&fit=max&s=0ee7d0faf96cbe19e607bb84b77969c1"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "Liverpool Echo",
-      "title": "Bradley Barcola not happy as Liverpool star speaks mind after Jamie Carragher criticism",
-      "summary": "Rio Ngumoha and Florian Wirtz outperformed Bradley Barcola as Liverpool hammered Manchester United in Mauricio Pochettino's first match in charge",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-liverpool-man-utd-34951284",
-      "amp": true
     },
     {
       "date": "2026-11-22",
@@ -1333,15 +1344,6 @@
       "url": "https://www.skysports.com/football/liverpool-vs-manchester-united/report/559550",
       "img": "https://e1.365dm.com/26/11/768x432/skysports-rio-ngumoha-liverpool_7413795.jpg?20261122181605",
       "big": "https://e1.365dm.com/26/11/1600x900/skysports-rio-ngumoha-liverpool_7413795.jpg?20261122181605"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "BBC Sport",
-      "title": "The red card that changed Liverpool-Man Utd: correct call?",
-      "summary": "Leny Yoro's red card after eight minutes changed Liverpool v Manchester United - did officials make the correct call?",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cq7827p8emmxo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9413/live/785f7370-e6b0-11f1-99b6-a35a62fa4264.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/9413/live/785f7370-e6b0-11f1-99b6-a35a62fa4264.jpg"
     }
   ],
   "outlets": [
@@ -1371,7 +1373,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-11-22",
+    "asof": "2026-11-23",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1861,7 +1863,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-11-22"
+    "checked": "2026-11-23"
   },
   "venues": {
     "whiskeygirl": {
@@ -2749,7 +2751,7 @@
     ],
     "headlines": [],
     "headlinesFor": null,
-    "checked": "2026-11-22"
+    "checked": "2026-11-23"
   },
   "fullUpdated": "2026-11-22T12:16:31Z"
 }
