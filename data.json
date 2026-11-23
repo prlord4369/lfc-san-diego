@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T12:16:24Z",
+  "updated": "2026-11-23T15:30:50Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1238,22 +1238,41 @@
     {
       "date": "2026-11-23",
       "source": "Liverpool Echo",
-      "title": "Florian Wirtz shuts down Arsenal claim with blunt five-word remark after Liverpool win",
-      "summary": "Florian Wirtz sent a message to Arsenal following Liverpool's 4-0 demolition of Manchester United in the Premier League on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-liverpool-man-utd-34953381",
+      "title": "Jamie Carragher sets challenge to £364m Liverpool men after Man United demolition - 'First sign'",
+      "summary": "Jamie Carragher reacts to Liverpool's 4-0 win over Manchester United at Anfield on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-sets-challenge-364m-34954428",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953363.ece/ALTERNATES/s615/0_Screenshot-2026-11-23-114758.png",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953363.ece/ALTERNATES/s1200/0_Screenshot-2026-11-23-114758.png"
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954358.ece/ALTERNATES/s615/0_carra2.png",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954358.ece/ALTERNATES/s1200/0_carra2.png"
     },
     {
       "date": "2026-11-23",
       "source": "Liverpool Echo",
-      "title": "Dominik Szoboszlai makes Florian Wirtz admission after 'special' Liverpool win over Man United",
-      "summary": "Dominik Szoboszlai hails Florian Wirtz after Liverpool's 4-0 hammering of Manchester United at Anfield in the Premier League on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-makes-florian-wirtz-34953006",
+      "title": "Trent Alexander-Arnold gets Real Madrid exit update with Liverpool return 'expected'",
+      "summary": "Former Liverpool star Trent Alexander-Arnold has failed to establish himself as a regular for Real Madrid since Jose Mourinho took the reins.",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-arnold-real-madrid-liverpool-34954560",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953305.ece/ALTERNATES/s615/0_GettyImages-2305887675.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953305.ece/ALTERNATES/s1200/0_GettyImages-2305887675.jpg"
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954594.ece/ALTERNATES/s615/0_GettyImages-2302857140.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954594.ece/ALTERNATES/s1200/0_GettyImages-2302857140.jpg"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "The Guardian",
+      "title": "Manchester United to appeal against Leny Yoro red card in defeat by Liverpool",
+      "summary": "Mauricio Pochettino said after game it was ‘never a foul’",
+      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
+      "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
+      "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "BBC Sport",
+      "title": "Was Isak denied a goalscoring opportunity?",
+      "summary": "Was Leny Yoro unfairly sent off in Manchester United’s 4-0 loss at Liverpool?",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmewvdynv1qjo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
+      "tall": true
     },
     {
       "date": "2026-11-23",
@@ -1327,24 +1346,6 @@
       "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
       "img": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=460&quality=85&auto=format&fit=max&s=70adbc7f77d811d9d8aeae6f19d2b695",
       "big": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=700&quality=85&auto=format&fit=max&s=8c62b3ff8c3a5786dc1bc06055234fce"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "The Guardian",
-      "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
-      "summary": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at Manchester United.",
-      "url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report",
-      "img": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/338_150_2492_1994/master/2492.jpg?width=460&quality=85&auto=format&fit=max&s=77d73173d9fe34fb723c501d9ff844eb",
-      "big": "https://i.guim.co.uk/img/media/eabaf0f7802df08b573f0b7df40105a767d353ce/338_150_2492_1994/master/2492.jpg?width=700&quality=85&auto=format&fit=max&s=116b2575193f99e4936f2f774c19dd05"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "BBC Sport",
-      "title": "Yoro sees red as Ngumoha shines - Liverpool v Man Utd player ratings",
-      "summary": "How Liverpool and Manchester United's players rated following their Premier League match.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/c933gzxk66yyo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6d14/live/a0909ae0-e6b0-11f1-99a1-253766e7ad8b.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6d14/live/a0909ae0-e6b0-11f1-99a1-253766e7ad8b.jpg"
     }
   ],
   "outlets": [
