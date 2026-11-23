@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:30:45Z",
+  "updated": "2026-11-23T20:00:46Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -413,13 +413,13 @@
       {
         "pos": 7,
         "team": "Everton",
-        "p": 10,
+        "p": 11,
         "w": 4,
-        "d": 4,
+        "d": 5,
         "l": 2,
         "gf": 12,
         "ga": 10,
-        "pts": 16
+        "pts": 17
       },
       {
         "pos": 8,
@@ -434,6 +434,17 @@
       },
       {
         "pos": 9,
+        "team": "Brentford",
+        "p": 11,
+        "w": 3,
+        "d": 6,
+        "l": 2,
+        "gf": 16,
+        "ga": 11,
+        "pts": 15
+      },
+      {
+        "pos": 10,
         "team": "Tottenham Hotspur",
         "p": 11,
         "w": 4,
@@ -442,17 +453,6 @@
         "gf": 12,
         "ga": 11,
         "pts": 15
-      },
-      {
-        "pos": 10,
-        "team": "Brentford",
-        "p": 10,
-        "w": 3,
-        "d": 5,
-        "l": 2,
-        "gf": 16,
-        "ga": 11,
-        "pts": 14
       },
       {
         "pos": 11,
@@ -1237,6 +1237,14 @@
   "news": [
     {
       "date": "2026-11-23",
+      "source": "Liverpool Echo",
+      "title": "Rio Ngumoha can fulfil career ambitions at Liverpool - but next move crucial - 'Sky's the limit'",
+      "summary": "Paul Gorst assesses Rio Ngumoha's current situation after he stars in Liverpool's 4-0 win over Manchester United",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-can-fulfill-career-34955405",
+      "amp": true
+    },
+    {
+      "date": "2026-11-23",
       "source": "BBC Sport",
       "title": "Comm Cam - Liverpool thrash Manchester United",
       "summary": "Watch John Murray react to all four of Liverpool's goals against Manchester United in Mauricio Pochettino's first game in charge.",
@@ -1254,16 +1262,6 @@
       "amp": true,
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34952808.ece/ALTERNATES/s615/0_GettyImages-2306390958.jpg",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34952808.ece/ALTERNATES/s1200/0_GettyImages-2306390958.jpg"
-    },
-    {
-      "date": "2026-11-23",
-      "source": "Liverpool Echo",
-      "title": "Jamie Carragher sets challenge to £364m Liverpool men after Man United demolition - 'First sign'",
-      "summary": "Jamie Carragher reacts to Liverpool's 4-0 win over Manchester United at Anfield on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jamie-carragher-sets-challenge-364m-34954428",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954358.ece/ALTERNATES/s615/0_carra2.png",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34954358.ece/ALTERNATES/s1200/0_carra2.png"
     },
     {
       "date": "2026-11-23",
