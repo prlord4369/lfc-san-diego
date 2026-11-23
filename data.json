@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T20:00:46Z",
+  "updated": "2026-11-23T23:30:49Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -401,6 +401,17 @@
       },
       {
         "pos": 6,
+        "team": "Brentford",
+        "p": 11,
+        "w": 4,
+        "d": 5,
+        "l": 2,
+        "gf": 20,
+        "ga": 11,
+        "pts": 17
+      },
+      {
+        "pos": 7,
         "team": "Leeds United",
         "p": 11,
         "w": 4,
@@ -408,17 +419,6 @@
         "l": 2,
         "gf": 14,
         "ga": 9,
-        "pts": 17
-      },
-      {
-        "pos": 7,
-        "team": "Everton",
-        "p": 11,
-        "w": 4,
-        "d": 5,
-        "l": 2,
-        "gf": 12,
-        "ga": 10,
         "pts": 17
       },
       {
@@ -434,14 +434,14 @@
       },
       {
         "pos": 9,
-        "team": "Brentford",
+        "team": "Everton",
         "p": 11,
-        "w": 3,
-        "d": 6,
-        "l": 2,
-        "gf": 16,
-        "ga": 11,
-        "pts": 15
+        "w": 4,
+        "d": 4,
+        "l": 3,
+        "gf": 12,
+        "ga": 14,
+        "pts": 16
       },
       {
         "pos": 10,
