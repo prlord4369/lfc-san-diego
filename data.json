@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T03:57:52Z",
+  "updated": "2026-11-23T12:16:24Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -910,8 +910,8 @@
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": false,
-      "kickoff": "2026-12-16T20:00:00Z",
       "scope": "domestic",
+      "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1178,37 +1178,27 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Heel",
-      "detail": "Iraola says he is managing pain and has trained with the group for two days, so he is hoped to be available against Manchester United. He remains a doubt until the match.",
-      "reported": "2026-11-20",
-      "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/lfc-fitness-update-frimpong-gravenberch-szoboszlai-van-dijk-and-more"
-    },
-    {
-      "player": "Jeremie Frimpong",
-      "pos": "DF",
-      "status": "back",
-      "issue": "Hamstring",
-      "detail": "He has rejoined the group after a hamstring problem picked up at Brentford, and Iraola expects him to be available for Sunday's match with Manchester United.",
-      "reported": "2026-11-20",
+      "detail": "He missed the 4-0 win over Manchester United because of a heel problem that is about managing pain rather than a set recovery. He could be fit enough for Club Brugge if the pain allows.",
+      "reported": "2026-11-23",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-manutd-injuries-34942192"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gakpo-34951699"
     },
     {
-      "player": "Hugo Ekitike",
+      "player": "Cody Gakpo",
       "pos": "FW",
       "status": "out",
-      "issue": "Achilles",
-      "detail": "He remains sidelined with an Achilles problem and could return early in 2027.",
-      "reported": "2026-11-20",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-andoni-iraola-manutd-injuries-34942192"
+      "issue": "Soleus",
+      "detail": "He picked up a soleus injury on Netherlands duty and has not trained with Liverpool since. He was absent from the Manchester United matchday squad and is expected to miss Club Brugge.",
+      "reported": "2026-11-23",
+      "source": "Liverpool FC",
+      "url": "https://liverpoolfc.com/news/cody-gakpo-and-ryan-gravenberch-injury-update"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has started team training again after knee surgery and recovery, but Iraola says he is still not available. Liverpool will load him back in carefully.",
+      "detail": "He has returned to team training after knee surgery but is still not available. Liverpool will load him back in carefully.",
       "reported": "2026-11-20",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/every-word-iraola-liverpool-united-34944630"
@@ -1224,11 +1214,21 @@
       "url": "https://www.liverpool.com/liverpool-fc-news/features/every-word-iraola-liverpool-united-34944630"
     },
     {
-      "player": "Cody Gakpo",
+      "player": "Hugo Ekitike",
       "pos": "FW",
-      "status": "doubt",
-      "issue": "Unspecified",
-      "detail": "He was not pictured in training on Thursday, and Iraola did not mention him at his press conference. This Is Anfield describes him as a slight doubt for Manchester United.",
+      "status": "out",
+      "issue": "Achilles",
+      "detail": "He is still recovering from an Achilles rupture from April. Iraola says the plan remains a return in January 2027, with an earlier return possible if all goes well.",
+      "reported": "2026-11-21",
+      "source": "Liverpool FC",
+      "url": "https://liverpoolfc.com/news/hugo-ekitike-injury-update-21112026"
+    },
+    {
+      "player": "Vitezslav Jaros",
+      "pos": "GK",
+      "status": "out",
+      "issue": "Knee",
+      "detail": "He is listed as unavailable with a knee problem in the pre-Manchester United team news. No return date has been given.",
       "reported": "2026-11-20",
       "source": "This Is Anfield",
       "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-man-united/"
@@ -1236,14 +1236,33 @@
   ],
   "news": [
     {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "source": "Liverpool Echo",
-      "title": "What Andoni Iraola said about Rio Ngumoha and Bradley Barcola after Liverpool thrashed Man United",
-      "summary": "Liverpool boss Andoni Iraola reflects on Rio Ngumoha's performance as the Reds hammer Manchester United 4-0 at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/what-andoni-iraola-said-rio-34949956",
+      "title": "Florian Wirtz shuts down Arsenal claim with blunt five-word remark after Liverpool win",
+      "summary": "Florian Wirtz sent a message to Arsenal following Liverpool's 4-0 demolition of Manchester United in the Premier League on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-liverpool-man-utd-34953381",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951453.ece/ALTERNATES/s615/0_GettyImages-2306372498-1.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34951453.ece/ALTERNATES/s1200/0_GettyImages-2306372498-1.jpg"
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953363.ece/ALTERNATES/s615/0_Screenshot-2026-11-23-114758.png",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953363.ece/ALTERNATES/s1200/0_Screenshot-2026-11-23-114758.png"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Liverpool Echo",
+      "title": "Dominik Szoboszlai makes Florian Wirtz admission after 'special' Liverpool win over Man United",
+      "summary": "Dominik Szoboszlai hails Florian Wirtz after Liverpool's 4-0 hammering of Manchester United at Anfield in the Premier League on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-makes-florian-wirtz-34953006",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953305.ece/ALTERNATES/s615/0_GettyImages-2305887675.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34953305.ece/ALTERNATES/s1200/0_GettyImages-2305887675.jpg"
+    },
+    {
+      "date": "2026-11-23",
+      "source": "Sky Sports",
+      "title": "The day Liverpool's attack showed its devastating potential",
+      "summary": "The conditions were favourable. Leny Yoro's red card after just eight minutes. A Man Utd team devoid of confidence and defensive resilience.",
+      "url": "https://www.skysports.com/football/news/11669/13615535/liverpools-attack-shows-its-devastating-potential-as-florian-wirtz-steps-up-in-thumping-win-over-10-man-man-utd",
+      "img": "https://e2.365dm.com/26/11/768x432/skysports-wirtz-florian-liverpool_7414195.jpg?20261123091321",
+      "big": "https://e2.365dm.com/26/11/1600x900/skysports-wirtz-florian-liverpool_7414195.jpg?20261123091321"
     },
     {
       "date": "2026-11-22",
@@ -1262,15 +1281,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "Liverpool Echo",
-      "title": "Liverpool 4 Man United 0 LIVE - Ngumoha, Wirtz, Iraola and Pochettino react to thrashing",
-      "summary": "Live coverage of the massive Premier League encounter between Liverpool and Manchester United at Anfield",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-united-live-stream-34944188",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s615/0_graphic-canvas-wide-1.png",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34950272.ece/ALTERNATES/s1200/0_graphic-canvas-wide-1.png"
     },
     {
       "date": "2026-11-22",
@@ -1335,15 +1345,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/c933gzxk66yyo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6d14/live/a0909ae0-e6b0-11f1-99a1-253766e7ad8b.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6d14/live/a0909ae0-e6b0-11f1-99a1-253766e7ad8b.jpg"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "Sky Sports",
-      "title": "Nightmare start for Pochettino as Liverpool rout 10-man Man Utd",
-      "summary": "Mauricio Pochettino endured a horror start to his Manchester United tenure as his 10-man side were thrashed 4-0 by Liverpool at Anfield following Leny Yoro's early sending off.",
-      "url": "https://www.skysports.com/football/liverpool-vs-manchester-united/report/559550",
-      "img": "https://e1.365dm.com/26/11/768x432/skysports-rio-ngumoha-liverpool_7413795.jpg?20261122181605",
-      "big": "https://e1.365dm.com/26/11/1600x900/skysports-rio-ngumoha-liverpool_7413795.jpg?20261122181605"
     }
   ],
   "outlets": [
@@ -2753,5 +2754,5 @@
     "headlinesFor": null,
     "checked": "2026-11-23"
   },
-  "fullUpdated": "2026-11-22T12:16:31Z"
+  "fullUpdated": "2026-11-23T12:16:24Z"
 }
