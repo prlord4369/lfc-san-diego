@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T15:30:54Z",
+  "updated": "2026-11-24T17:30:50Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1237,23 +1237,58 @@
   "news": [
     {
       "date": "2026-11-24",
-      "source": "Liverpool Echo",
-      "title": "Steven Gerrard reveals 'tinge' of regret after Liverpool thrashing of Man United - 'Don't come around very often'",
-      "summary": "Steven Gerrard has been speaking about Liverpool's 4-0 victory over Manchester United at Anfield on Sunday and Rio Ngumoha's starring role in it",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-reveals-tinge-regret-34959605",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34959655.ece/ALTERNATES/s615/0_GettyImages-2305277275.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34959655.ece/ALTERNATES/s1200/0_GettyImages-2305277275.jpg"
+      "source": "BBC Sport",
+      "title": "Klopp advice and Iraola confidence boosts Wirtz",
+      "summary": "Florian Wirtz opens up on why it's the best he has felt since joining Liverpool.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d8c1/live/b4c97960-e826-11f1-93d4-6d580946ad80.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d8c1/live/b4c97960-e826-11f1-93d4-6d580946ad80.jpg"
     },
     {
       "date": "2026-11-24",
       "source": "Liverpool Echo",
-      "title": "Liverpool 22-man squad for Club Brugge confirmed as two stars missing and two more not ready yet",
-      "summary": "Liverpool will take a 22-man to take Belgium for Wednesday's Champions League league phase clash against Club Brugge",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-22-man-squad-club-34958589",
+      "title": "Howard Webb defends controversial Liverpool penalty decision against Arsenal - 'I absolutely understand'",
+      "summary": "Chief Refereeing Officer for Pro Ref, Howard Webb, has been speaking about the failure to award Liverpool a penalty against Arsenal after Jurrien Timber pulled on Alexander Isak's…",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/howard-webb-defends-controversial-liverpool-34960864",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34958604.ece/ALTERNATES/s615/0_GettyImages-2305898193.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34958604.ece/ALTERNATES/s1200/0_GettyImages-2305898193.jpg"
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article33935744.ece/ALTERNATES/s615/1_Screenshot-2026-05-12-212833.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article33935744.ece/ALTERNATES/s1200/1_Screenshot-2026-05-12-212833.jpg"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Sky Sports",
+      "title": "Ref chief Webb backs process around Yoro sending off despite successful appeal",
+      "summary": "Referees' chief Howard Webb has backed the process of the officials who sent off Manchester United defender Leny Yoro at Liverpool - despite the red card being overturned on…",
+      "url": "https://www.skysports.com/football/news/11669/13616033/leny-yoro-red-card-ref-chief-howard-webb-backs-process-that-saw-man-utd-defender-sent-off-at-liverpool",
+      "img": "https://e0.365dm.com/26/11/768x432/skysports-leny-yoro-alexander-isak_7413691.jpg?20261122165102",
+      "big": "https://e0.365dm.com/26/11/1600x900/skysports-leny-yoro-alexander-isak_7413691.jpg?20261122165102"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Sky Sports",
+      "title": "Yoro red card overturned after successful Man Utd appeal",
+      "summary": "Leny Yoro's red card against Liverpool has been overturned following a successful appeal from Manchester United.",
+      "url": "https://www.skysports.com/football/news/11669/13616021/leny-yoros-red-card-for-manchester-united-against-liverpool-overturned-following-successful-appeal",
+      "img": "https://e2.365dm.com/26/11/768x432/skysports-leny-yoro-alexander-isak_7413680.jpg?20261122164441",
+      "big": "https://e2.365dm.com/26/11/1600x900/skysports-leny-yoro-alexander-isak_7413680.jpg?20261122164441"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola press conference LIVE - Cody Gakpo, Ryan Gravenberch and Liverpool injury news",
+      "summary": "Live coverage of the Liverpool press conference to preview Wednesday's Champions League against Club Brugge in Belgium",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-press-conference-live-34959936",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s615/0_GettyImages-2302901398.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s1200/0_GettyImages-2302901398.jpg"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "The Guardian",
+      "title": "Manchester United win appeal over Yoro’s one-match suspension after Anfield red card",
+      "summary": "Mauricio Pochettino said after game it was ‘never a foul’",
+      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
+      "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
+      "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
     },
     {
       "date": "2026-11-24",
@@ -1273,15 +1308,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-23",
-      "source": "The Guardian",
-      "title": "Manchester United to appeal against Leny Yoro red card in defeat by Liverpool",
-      "summary": "Mauricio Pochettino said after game it was ‘never a foul’",
-      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
-      "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
-      "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
     },
     {
       "date": "2026-11-23",
@@ -1313,39 +1339,12 @@
     },
     {
       "date": "2026-11-22",
-      "source": "BBC Sport",
-      "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
-      "summary": "Match of the Day pundit Danny Murphy explains how Rio Ngumoha showed everyone what he is capable of in Liverpool's 4-0 win over Manchester United.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png"
-    },
-    {
-      "date": "2026-11-22",
       "source": "The Guardian",
       "title": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
       "summary": "Manchester United lose 4-0 to Liverpool after early red",
       "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
       "img": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=460&quality=85&auto=format&fit=max&s=c7e076beb21dbcd9272362f62159c6bd",
       "big": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=700&quality=85&auto=format&fit=max&s=0ee7d0faf96cbe19e607bb84b77969c1"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "The Guardian",
-      "title": "Pochettino’s new-manager bounce falls flat with De Ligt move a disastrous step | Jamie Jackson",
-      "summary": "Decision to pick the Dutch defender over Harry Maguire backfired as Manchester United fell apart in the Anfield bearpit",
-      "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-matthijs-de-ligt-harry-maguire-manchester-united-liverpool-premier-league",
-      "img": "https://i.guim.co.uk/img/media/2e5a4478b3bf6d18edc1a5b8efc06cb3779d0585/119_0_3133_2506/master/3133.jpg?width=460&quality=85&auto=format&fit=max&s=afcce0a61f772169fa6abc1587d2d898",
-      "big": "https://i.guim.co.uk/img/media/2e5a4478b3bf6d18edc1a5b8efc06cb3779d0585/119_0_3133_2506/master/3133.jpg?width=700&quality=85&auto=format&fit=max&s=462d18d0558ddfcda405310659191426"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "The Guardian",
-      "title": "Liverpool 4-0 Manchester United: Premier League – as it happened",
-      "summary": "Mauricio Pochettino suffered a nightmare start at Anfield, where Man Utd were reduced to 10 men and taken apart by Liverpool",
-      "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live",
-      "img": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=460&quality=85&auto=format&fit=max&s=70adbc7f77d811d9d8aeae6f19d2b695",
-      "big": "https://i.guim.co.uk/img/media/d4a5199620b561b3b83196069de23b871de98e73/1033_363_4530_3625/master/4530.jpg?width=700&quality=85&auto=format&fit=max&s=8c62b3ff8c3a5786dc1bc06055234fce"
     }
   ],
   "outlets": [
