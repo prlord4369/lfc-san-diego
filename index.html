@@ -1143,17 +1143,28 @@ a.rp-tile:hover { border-color: var(--red); }
   padding: 9px 14px; border-radius: 999px; text-decoration: none; grid-column: 1 / -1; justify-self: center; }
 .rp-go:hover { box-shadow: 0 0 0 3px rgba(255,255,255,.35); }
 .rp-go.wait { background: rgba(255,255,255,.18); color: #fff; font-weight: 600; cursor: default; box-shadow: none; }
-.rc-band .wrap { padding-block: 16px 0; }
-.rc-card { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px 14px; align-items: center; background: var(--surface);
-  border: 1px solid var(--line); border-left: 4px solid var(--ok); border-radius: 8px; padding: 12px 16px; color: inherit; text-decoration: none; }
-.rc-card.D { border-left-color: var(--muted); } .rc-card.L { border-left-color: var(--bad); }
-.rc-card:hover { border-color: var(--red); }
-.rc-card .fm-b { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 4px; color: var(--on-red); font: 800 1rem/1 var(--font-display); }
-.rc-card .label { color: var(--red); }
-.rc-card b { display: block; font: 800 1.3rem/1.1 var(--font-display); text-transform: uppercase; margin-top: 4px; }
-.rc-card small { color: var(--muted); font-size: .8rem; }
-.rc-card .go { color: var(--red); font-weight: 700; font-size: .88rem; white-space: nowrap; }
-@media (max-width: 520px) { .rc-card { grid-template-columns: auto minmax(0, 1fr); } .rc-card .go { grid-column: 2; } }
+/* "Today's result" strip (owner's "A2", 2026-11-23, from mockups/result-card/): a soft rose band joined to the top of
+   the next-match banner, dark text, red text link; lighter than the banner so the next match stays the main thing */
+.rc-band { background: #ecd9dc; background: color-mix(in srgb, var(--red) 14%, var(--bg)); border-top: 1px solid rgba(0,0,0,.06); }
+.rc-band .wrap { padding-block: 11px; }
+.rc-card { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: center; color: var(--fg); text-decoration: none; }
+.rc-card .ft { grid-column: 1 / -1; display: flex; gap: 7px; align-items: center; font: 700 .64rem/1 var(--font-body); letter-spacing: .12em;
+  text-transform: uppercase; color: var(--muted); }
+.rc-card .fm-b { width: 17px; height: 17px; display: grid; place-items: center; border-radius: 3px; color: var(--on-red); font: 800 .72rem/1 var(--font-display); }
+.rc-card .sc { grid-column: 1 / -1; display: flex; align-items: center; gap: 7px; min-width: 0; }
+.rc-card .sc b { font: 800 1.25rem/1 var(--font-display); text-transform: uppercase; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rc-card .sc em { font: 800 1.45rem/1 var(--font-display); font-style: normal; margin: 0 2px; white-space: nowrap; }
+.rc-card .cr { width: 24px; height: 24px; border-radius: 50%; background: #fff; border: 1px solid rgba(0,0,0,.12); display: grid; place-items: center; flex: none; }
+.rc-card .cr img { width: 17px; height: 17px; object-fit: contain; }
+.rc-card .who { font-size: .78rem; color: var(--muted); min-width: 0; }
+.rc-card .go { color: var(--red); font: 700 .82rem/1 var(--font-body); white-space: nowrap; justify-self: end; }
+.rc-card:hover .go { text-decoration: underline; }
+.rc-card .go.wait { color: var(--muted); font-weight: 600; }
+.rc-card:has(.go.wait) { cursor: default; }
+@media (min-width: 721px) {
+  .rc-card { grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 4px 18px; }
+  .rc-card .ft, .rc-card .sc { grid-column: auto; }
+}
 .top .nav a.two { flex-direction: column; align-items: flex-start; justify-content: center; line-height: 1.2; }
 .top .nav a.two small { display: block; font-size: .76rem; font-weight: 400; opacity: .8; margin-top: 2px; }
 a.fm-row { color: inherit; text-decoration: none; }
@@ -2041,8 +2052,7 @@ function render(data) {
     fmRows.classList.toggle("open", open);
   };
 
-  // Latest match report: the menu item "Last match report" (always), and a card above the banner for the rest of match
-  // day (Pacific) once the banner has moved on (~1 hour after full time)
+  // Latest match report: the menu item "Last match report" (always)
   var lastRep = reports[reports.length - 1];
   if (lastRep) {
     var pk2 = function (a, b) { return a + (lastRep.pens ? " (" + b + ")" : ""); };
@@ -2053,16 +2063,60 @@ function render(data) {
     navRep.href = "#report-" + lastRep.id;
     navRep.hidden = false;
     document.getElementById("nav-report-sub").textContent = line;
-    var lk = new Date(lastRep.kickoff);
-    if (fmt(lk, { year: "numeric", month: "2-digit", day: "2-digit" }) === fmt(new Date(), { year: "numeric", month: "2-digit", day: "2-digit" }) &&
-        Date.now() > lk.getTime() + holdMs(lastRep)) {
+  }
+
+  // "Today's result" card above the banner: today's (Pacific) game, from the moment the banner isn't showing it any
+  // more until midnight. (2026-11-23, owner: it used to wait until ~1 hour after full time, but the update ~20 min after
+  // the whistle turns the game into a result, so a page opened after that already showed the next game and nothing
+  // pointed to the report for ~40 min.) Until the report exists it says "Match report coming soon" and checks every
+  // 2 minutes, then links to it.
+  var lastRes = data.results[data.results.length - 1];
+  if (lastRes) {
+    var resRep = repByDate[lastRes.date];
+    var dayKey = { year: "numeric", month: "2-digit", day: "2-digit" };
+    var resDay = resRep ? new Date(resRep.kickoff) : new Date(lastRes.date + "T15:00:00Z");
+    // The banner is still on this game (held ~1 hour after full time while it's listed as a fixture): same opponent,
+    // same Pacific day; then the banner's own "Match report" button does the job
+    var bannerOnIt = next && next.opp === lastRes.opp && fmt(next.d, dayKey) === fmt(resDay, dayKey);
+    if (fmt(resDay, dayKey) === fmt(new Date(), dayKey) && !bannerOnIt) {
+      var rsc = String(lastRes.score).split("-"), rpn = String(lastRes.pens || "-").split("-");
+      var resSide = function (g, p) { return g + (lastRes.pens ? " (" + p + ")" : ""); };
+      var rOpp = SHORT_NAMES[lastRes.opp] || lastRes.opp;
       var card = document.getElementById("rc-card");
-      var who = lastRep.scorers.map(function (s) { return s === "og" ? "own goal" : s; }).join(", ");
-      card.href = "#report-" + lastRep.id;
-      card.className = "rc-card " + lastRep.r;
-      card.innerHTML = "<span class=\"fm-b " + lastRep.r + "\">" + lastRep.r + "</span><span><span class=\"label\">Today's result · " + esc(lastRep.comp) + "</span>" +
-        "<b>" + esc(line) + "</b><small>" + esc([who, lastRep.pos].filter(Boolean).join(" · ")) + "</small></span><span class=\"go\">Match report →</span>";
+      // Crests from ESPN, as in the banner and the report (the opponent's comes with the report's index entry)
+      var crestImg = function (src) {
+        return src ? "<span class=\"cr\"><img src=\"" + esc(src) + "\" alt=\"\" onerror=\"this.parentNode.remove()\"></span>" : "";
+      };
+      var drawCard = function (rep) {
+        var lfc = crestImg("https://a.espncdn.com/i/teamlogos/soccer/500/364.png"), oc = crestImg(rep && rep.logo);
+        var us = resSide(rsc[0], rpn[0]), them = resSide(rsc[1], rpn[1]);
+        var score = lastRes.ha === "H" ? lfc + "<b>Liverpool</b><em>" + esc(us + "–" + them) + "</em><b>" + esc(rOpp) + "</b>" + oc
+          : oc + "<b>" + esc(rOpp) + "</b><em>" + esc(them + "–" + us) + "</em><b>Liverpool</b>" + lfc;
+        var who = rep ? rep.scorers.map(function (s) { return s === "og" ? "own goal" : s; }).join(", ") : "";
+        card.href = rep ? "#report-" + rep.id : "#results";
+        card.className = "rc-card " + lastRes.r;
+        card.setAttribute("aria-label", "Today's result: " + (lastRes.ha === "H" ? "Liverpool " + us + ", " + lastRes.opp + " " + them
+          : lastRes.opp + " " + them + ", Liverpool " + us) + (rep ? ". Read the match report" : ". Match report coming soon"));
+        card.innerHTML = "<span class=\"ft\"><span class=\"fm-b " + lastRes.r + "\">" + lastRes.r + "</span>Full-time today · " + esc(lastRes.comp) + "</span>" +
+          "<span class=\"sc\">" + score + "</span>" +
+          "<span class=\"who\">" + esc(rep ? [who, rep.pos].filter(Boolean).join(" · ") : "") + "</span>" +
+          (rep ? "<span class=\"go\">Match report →</span>" : "<span class=\"go wait\">Match report coming soon</span>");
+      };
+      drawCard(resRep);
       document.getElementById("rc-band").dataset.on = "1";   // shown by route (home page only)
+      if (!resRep) {
+        // Not made yet (the update makes it ~15 min after full time): look for it every 2 minutes, for up to 4 hours
+        var rid = reportId(lastRes.date, lastRes.opp), asks = 0;
+        var lookForReport = function () {
+          if (++asks > 120) return;
+          fetch("reports/index.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : []; }).then(function (idx) {
+            var hit = (Array.isArray(idx) ? idx : []).filter(function (e) { return e.id === rid; })[0];
+            if (hit) { drawCard(hit); return; }
+            setTimeout(lookForReport, 120e3);
+          }).catch(function () { setTimeout(lookForReport, 120e3); });
+        };
+        setTimeout(lookForReport, 120e3);
+      }
     }
   }
 
