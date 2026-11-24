@@ -12,6 +12,7 @@
    "Gakpo",
    "Szoboszlai"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
   "card": true,
   "pos": "9th in the PL"
  },
@@ -28,6 +29,7 @@
    "Isak",
    "Muñoz"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
   "card": true,
   "pos": "10th in the PL"
  },
@@ -43,6 +45,7 @@
   "scorers": [
    "Isak"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
   "card": true,
   "pos": "5th in the PL"
  },
@@ -59,6 +62,7 @@
    "Szoboszlai",
    "Mac Allister"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
   "card": true,
   "pos": "9th in the UCL"
  },
@@ -72,6 +76,7 @@
   "score": "0-0",
   "r": "D",
   "scorers": [],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
   "card": true,
   "pos": "6th in the PL"
  },
@@ -89,6 +94,7 @@
    "Gakpo",
    "Szoboszlai"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
   "card": true
  },
  {
@@ -103,6 +109,7 @@
   "scorers": [
    "Isak"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
   "card": true,
   "pos": "6th in the PL"
  },
@@ -116,6 +123,7 @@
   "score": "0-3",
   "r": "L",
   "scorers": [],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
   "card": true,
   "pos": "9th in the PL"
  },
@@ -134,6 +142,7 @@
    "Frimpong",
    "Koumas"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
   "card": true,
   "pos": "5th in the UCL"
  },
@@ -150,6 +159,7 @@
    "Muñoz",
    "Isak"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
   "card": true,
   "pos": "5th in the PL"
  },
@@ -167,6 +177,7 @@
    "Araujo",
    "Wirtz"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
   "card": true,
   "pos": "2nd in the UCL"
  },
@@ -183,6 +194,7 @@
    "Isak",
    "og"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
   "card": true,
   "pos": "4th in the PL"
  },
@@ -199,6 +211,7 @@
    "Gakpo"
   ],
   "pens": "6-5",
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
   "card": true
  },
  {
@@ -211,6 +224,7 @@
   "score": "0-1",
   "r": "L",
   "scorers": [],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
   "card": true,
   "pos": "5th in the PL"
  },
@@ -227,6 +241,7 @@
    "Nyoni",
    "Isak"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
   "card": true,
   "pos": "8th in the UCL"
  },
@@ -244,6 +259,7 @@
    "Wirtz",
    "Isak"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
   "card": true,
   "pos": "4th in the PL"
  },
@@ -262,6 +278,7 @@
    "Ngumoha",
    "Muñoz"
   ],
+  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
   "card": true,
   "pos": "4th in the PL"
  }
