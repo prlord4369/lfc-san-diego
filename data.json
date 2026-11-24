@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T20:00:54Z",
+  "updated": "2026-11-24T23:30:51Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1237,6 +1237,32 @@
   "news": [
     {
       "date": "2026-11-24",
+      "source": "The Guardian",
+      "title": "Pochettino criticises Premier League officiating after Yoro red card overturned",
+      "summary": "Manchester United defender wrongly sent off in 4-0 loss",
+      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
+      "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
+      "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola press conference - Cody Gakpo, Ryan Gravenberch and Liverpool injury news",
+      "summary": "Live coverage of the Liverpool press conference to preview Wednesday's Champions League against Club Brugge in Belgium",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-press-conference-live-34959936",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s615/0_GettyImages-2302901398.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s1200/0_GettyImages-2302901398.jpg"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Liverpool Echo",
+      "title": "Bradley Barcola at centre of Pochettino and Fernandes complaint as Premier League contacted",
+      "summary": "Mauricio Pochettino and Manchester United have slammed the officials again for what happened at Anfield on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-utd-barcola-pochettino-34961576",
+      "amp": true
+    },
+    {
+      "date": "2026-11-24",
       "source": "BBC Sport",
       "title": "'Klopp gives me advice for Liverpool' - Wirtz",
       "summary": "Liverpool midfielder Florian Wirtz says former Reds boss Jurgen Klopp gives him advice about Liverpool when he's on international duty for Germany.",
@@ -1253,25 +1279,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/24/florian-wirtz-hails-iraola-and-klopp-as-he-reaches-new-levels-for-liverpool",
       "img": "https://i.guim.co.uk/img/media/e3c654b16203f677c30937b9d4930062eed2c363/819_1051_2289_1831/master/2289.jpg?width=460&quality=85&auto=format&fit=max&s=943763814de90884e58619bdb0622c76",
       "big": "https://i.guim.co.uk/img/media/e3c654b16203f677c30937b9d4930062eed2c363/819_1051_2289_1831/master/2289.jpg?width=700&quality=85&auto=format&fit=max&s=4fecc72105fdd694a1f62fec00789ac8"
-    },
-    {
-      "date": "2026-11-24",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola gives worrying Ryan Gravenberch injury update and rules Cody Gakpo out of derby",
-      "summary": "Liverpool boss Andoni Iraola has been speaking in Belgium ahead of the Champions League clash against Club Brugge on Wednesday evening",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-1-34959652",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961196.ece/ALTERNATES/s615/0_GettyImages-2306173849.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961196.ece/ALTERNATES/s1200/0_GettyImages-2306173849.jpg"
-    },
-    {
-      "date": "2026-11-24",
-      "source": "Liverpool Echo",
-      "title": "Florian Wirtz explains Andoni Iraola and Jurgen Klopp roles in his Liverpool revival",
-      "summary": "Liverpool midfielder Florian Wirtz has been speaking in Belgium ahead of the Champions League clash against Club Brugge on Wednesday evening",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-explains-andoni-iraola-34959679",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961050.ece/ALTERNATES/s615/0_GettyImages-2306167430.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961050.ece/ALTERNATES/s1200/0_GettyImages-2306167430.jpg"
     },
     {
       "date": "2026-11-24",
@@ -1294,8 +1301,8 @@
     {
       "date": "2026-11-24",
       "source": "Sky Sports",
-      "title": "Man Utd win Yoro red card appeal - but Webb backs referee and VAR process",
-      "summary": "Referees' chief Howard Webb has backed the process of the officials who sent off Manchester United defender Leny Yoro at Liverpool - despite the red card being overturned on…",
+      "title": "Man Utd to contact PL and refs over 'totally wrong' Yoro red card interpretation",
+      "summary": "Manchester United will contact ProRef and the Premier League directly over what they believe to be a 'totally wrong' interpretation of Leny Yoro's red card against Liverpool.",
       "url": "https://www.skysports.com/football/news/11669/13616033/leny-yoro-red-card-ref-chief-howard-webb-backs-process-that-saw-man-utd-defender-sent-off-at-liverpool",
       "img": "https://e0.365dm.com/26/11/768x432/skysports-leny-yoro-alexander-isak_7413691.jpg?20261122165102",
       "big": "https://e0.365dm.com/26/11/1600x900/skysports-leny-yoro-alexander-isak_7413691.jpg?20261122165102"
@@ -1337,15 +1344,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-22",
-      "source": "The Guardian",
-      "title": "‘It’s painful for me’: Pochettino criticises Yoro red card in Anfield humiliation",
-      "summary": "Manchester United lose 4-0 to Liverpool after early red",
-      "url": "https://www.theguardian.com/football/2026/nov/22/mauricio-pochettino-manchester-united-reign-begins-with-anfield-humiliation-liverpool",
-      "img": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=460&quality=85&auto=format&fit=max&s=c7e076beb21dbcd9272362f62159c6bd",
-      "big": "https://i.guim.co.uk/img/media/835e2e3b4d08888bd283f79764d8ad1403316dcb/1444_813_3420_2736/master/3420.jpg?width=700&quality=85&auto=format&fit=max&s=0ee7d0faf96cbe19e607bb84b77969c1"
     }
   ],
   "outlets": [
@@ -1381,6 +1379,17 @@
     "rows": [
       {
         "pos": 1,
+        "team": "Real Madrid",
+        "p": 5,
+        "w": 5,
+        "d": 0,
+        "l": 0,
+        "gf": 18,
+        "ga": 8,
+        "pts": 15
+      },
+      {
+        "pos": 2,
         "team": "Paris Saint-Germain",
         "p": 4,
         "w": 4,
@@ -1391,40 +1400,62 @@
         "pts": 12
       },
       {
-        "pos": 2,
-        "team": "Real Madrid",
-        "p": 4,
+        "pos": 3,
+        "team": "Como 1907",
+        "p": 5,
         "w": 4,
         "d": 0,
-        "l": 0,
-        "gf": 13,
-        "ga": 7,
+        "l": 1,
+        "gf": 20,
+        "ga": 6,
         "pts": 12
       },
       {
-        "pos": 3,
-        "team": "Arsenal",
-        "p": 4,
-        "w": 3,
-        "d": 1,
-        "l": 0,
-        "gf": 8,
-        "ga": 3,
-        "pts": 10
-      },
-      {
         "pos": 4,
-        "team": "Como 1907",
-        "p": 4,
-        "w": 3,
+        "team": "Real Betis Balompié",
+        "p": 5,
+        "w": 4,
         "d": 0,
         "l": 1,
-        "gf": 19,
+        "gf": 10,
         "ga": 6,
-        "pts": 9
+        "pts": 12
       },
       {
         "pos": 5,
+        "team": "Arsenal",
+        "p": 5,
+        "w": 3,
+        "d": 2,
+        "l": 0,
+        "gf": 9,
+        "ga": 4,
+        "pts": 11
+      },
+      {
+        "pos": 6,
+        "team": "Manchester City",
+        "p": 5,
+        "w": 3,
+        "d": 1,
+        "l": 1,
+        "gf": 14,
+        "ga": 9,
+        "pts": 10
+      },
+      {
+        "pos": 7,
+        "team": "Borussia Dortmund",
+        "p": 5,
+        "w": 3,
+        "d": 1,
+        "l": 1,
+        "gf": 8,
+        "ga": 6,
+        "pts": 10
+      },
+      {
+        "pos": 8,
         "team": "Barcelona",
         "p": 4,
         "w": 3,
@@ -1435,18 +1466,7 @@
         "pts": 9
       },
       {
-        "pos": 6,
-        "team": "Manchester City",
-        "p": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 12,
-        "ga": 7,
-        "pts": 9
-      },
-      {
-        "pos": 7,
+        "pos": 9,
         "team": "Aston Villa",
         "p": 5,
         "w": 3,
@@ -1457,7 +1477,7 @@
         "pts": 9
       },
       {
-        "pos": 8,
+        "pos": 10,
         "team": "Liverpool",
         "p": 4,
         "w": 3,
@@ -1468,7 +1488,7 @@
         "pts": 9
       },
       {
-        "pos": 9,
+        "pos": 11,
         "team": "Club Brugge",
         "p": 4,
         "w": 3,
@@ -1479,7 +1499,7 @@
         "pts": 9
       },
       {
-        "pos": 10,
+        "pos": 12,
         "team": "Sporting CP",
         "p": 4,
         "w": 3,
@@ -1487,28 +1507,6 @@
         "l": 1,
         "gf": 8,
         "ga": 4,
-        "pts": 9
-      },
-      {
-        "pos": 11,
-        "team": "Real Betis Balompié",
-        "p": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 8,
-        "ga": 6,
-        "pts": 9
-      },
-      {
-        "pos": 12,
-        "team": "Borussia Dortmund",
-        "p": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 7,
-        "ga": 5,
         "pts": 9
       },
       {
@@ -1590,6 +1588,28 @@
       },
       {
         "pos": 20,
+        "team": "FC Porto",
+        "p": 5,
+        "w": 2,
+        "d": 0,
+        "l": 3,
+        "gf": 7,
+        "ga": 7,
+        "pts": 6
+      },
+      {
+        "pos": 21,
+        "team": "RB Leipzig",
+        "p": 5,
+        "w": 2,
+        "d": 0,
+        "l": 3,
+        "gf": 8,
+        "ga": 12,
+        "pts": 6
+      },
+      {
+        "pos": 22,
         "team": "Fenerbahçe",
         "p": 4,
         "w": 1,
@@ -1600,7 +1620,7 @@
         "pts": 5
       },
       {
-        "pos": 21,
+        "pos": 23,
         "team": "AS Roma",
         "p": 4,
         "w": 1,
@@ -1611,7 +1631,7 @@
         "pts": 4
       },
       {
-        "pos": 22,
+        "pos": 24,
         "team": "FK Shakhtar Donetsk",
         "p": 4,
         "w": 1,
@@ -1622,7 +1642,7 @@
         "pts": 4
       },
       {
-        "pos": 23,
+        "pos": 25,
         "team": "Viking FK",
         "p": 4,
         "w": 1,
@@ -1633,7 +1653,7 @@
         "pts": 4
       },
       {
-        "pos": 24,
+        "pos": 26,
         "team": "Atlético Madrid",
         "p": 4,
         "w": 1,
@@ -1644,40 +1664,29 @@
         "pts": 4
       },
       {
-        "pos": 25,
-        "team": "PSV",
-        "p": 4,
+        "pos": 27,
+        "team": "SSC Napoli",
+        "p": 5,
         "w": 1,
         "d": 1,
-        "l": 2,
-        "gf": 3,
-        "ga": 4,
+        "l": 3,
+        "gf": 8,
+        "ga": 13,
         "pts": 4
       },
       {
-        "pos": 26,
-        "team": "FC Porto",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 6,
-        "ga": 7,
-        "pts": 3
-      },
-      {
-        "pos": 27,
-        "team": "SSC Napoli",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 6,
-        "ga": 11,
-        "pts": 3
-      },
-      {
         "pos": 28,
+        "team": "PSV",
+        "p": 5,
+        "w": 1,
+        "d": 1,
+        "l": 3,
+        "gf": 4,
+        "ga": 9,
+        "pts": 4
+      },
+      {
+        "pos": 29,
         "team": "Villarreal",
         "p": 4,
         "w": 1,
@@ -1688,29 +1697,7 @@
         "pts": 3
       },
       {
-        "pos": 29,
-        "team": "PAE AEK",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 5,
-        "ga": 11,
-        "pts": 3
-      },
-      {
-        "pos": 29,
-        "team": "RB Leipzig",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 5,
-        "ga": 11,
-        "pts": 3
-      },
-      {
-        "pos": 31,
+        "pos": 30,
         "team": "Sabah FK",
         "p": 4,
         "w": 1,
@@ -1721,25 +1708,36 @@
         "pts": 3
       },
       {
-        "pos": 32,
-        "team": "Feyenoord Rotterdam",
-        "p": 4,
+        "pos": 31,
+        "team": "PAE AEK",
+        "p": 5,
         "w": 1,
         "d": 0,
-        "l": 3,
+        "l": 4,
+        "gf": 5,
+        "ga": 12,
+        "pts": 3
+      },
+      {
+        "pos": 32,
+        "team": "Feyenoord Rotterdam",
+        "p": 5,
+        "w": 1,
+        "d": 0,
+        "l": 4,
         "gf": 4,
-        "ga": 11,
+        "ga": 12,
         "pts": 3
       },
       {
         "pos": 33,
         "team": "Lens",
-        "p": 4,
+        "p": 5,
         "w": 1,
         "d": 0,
-        "l": 3,
-        "gf": 4,
-        "ga": 16,
+        "l": 4,
+        "gf": 5,
+        "ga": 19,
         "pts": 3
       },
       {
@@ -1767,12 +1765,12 @@
       {
         "pos": 36,
         "team": "ŠK Slovan Bratislava",
-        "p": 4,
+        "p": 5,
         "w": 0,
         "d": 0,
-        "l": 4,
+        "l": 5,
         "gf": 1,
-        "ga": 17,
+        "ga": 19,
         "pts": 0
       }
     ]
