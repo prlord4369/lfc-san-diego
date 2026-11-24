@@ -596,11 +596,11 @@
  },
  "table": {
   "comp": "Premier League",
-  "pos": 5,
+  "pos": 4,
   "of": 20,
-  "pts": 18,
-  "played": 10,
-  "w": 5,
+  "pts": 21,
+  "played": 11,
+  "w": 6,
   "d": 3,
   "l": 2,
   "before": 5
@@ -623,6 +623,6 @@
    "amp": true
   }
  ],
- "story": "Liverpool beat Manchester United 4-0 at Anfield in the Premier League. Manchester United were reduced to ten men when Leny Yoro was sent off in the 8th minute, and Dominik Szoboszlai opened the scoring two minutes later. Florian Wirtz doubled the lead in the 13th minute, assisted by Rio Ngumoha, before Ngumoha scored in the 66th minute and Víctor Muñoz added a fourth in the 82nd minute. The result left Liverpool fifth in the table with 18 points from 10 games.",
+ "story": "Liverpool beat Manchester United 4-0 at Anfield in the Premier League. Leny Yoro was sent off for Manchester United in the 8th minute, and Dominik Szoboszlai opened the scoring in the 10th. Florian Wirtz doubled the lead in the 13th minute, assisted by Rio Ngumoha, before Ngumoha scored in the 66th minute, assisted by Bradley Barcola, and Víctor Muñoz added a fourth in the 82nd minute, set up by Wirtz. The win moved them up to fourth in the Premier League table with 21 points from 11 games.",
  "storyV": 2
 }
