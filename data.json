@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T04:41:13Z",
+  "updated": "2026-11-24T12:16:21Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -910,8 +910,8 @@
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": false,
-      "scope": "domestic",
       "kickoff": "2026-12-16T20:00:00Z",
+      "scope": "domestic",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1178,7 +1178,7 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Heel",
-      "detail": "He missed the 4-0 win over Manchester United because of a heel problem that is about managing pain rather than a set recovery. He could be fit enough for Club Brugge if the pain allows.",
+      "detail": "He missed the 4-0 win over Manchester United with a heel problem that is about managing pain rather than a set recovery. He could be fit enough for Club Brugge if the pain allows.",
       "reported": "2026-11-23",
       "source": "Liverpool.com",
       "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gakpo-34951699"
@@ -1188,30 +1188,30 @@
       "pos": "FW",
       "status": "out",
       "issue": "Soleus",
-      "detail": "He picked up a soleus injury on Netherlands duty and has not trained with Liverpool since. He was absent from the Manchester United matchday squad and is expected to miss Club Brugge.",
+      "detail": "He picked up a soleus (calf) injury on Netherlands duty and has not trained with Liverpool since. He was absent from the Manchester United matchday squad and is expected to miss Club Brugge.",
       "reported": "2026-11-23",
-      "source": "Liverpool FC",
-      "url": "https://liverpoolfc.com/news/cody-gakpo-and-ryan-gravenberch-injury-update"
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/why-cody-gakpo-is-not-in-liverpool-squad-vs-man-united-andoni-iraola/"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He has returned to team training after knee surgery but is still not available. Liverpool will load him back in carefully.",
-      "reported": "2026-11-20",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/every-word-iraola-liverpool-united-34944630"
+      "detail": "He is back in team training after knee surgery but is still listed as unavailable. Liverpool will load him back in carefully.",
+      "reported": "2026-11-22",
+      "source": "This Is Anfield",
+      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-man-united/"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is training with the squad on alternate days after an ACL tear, and Iraola says he is still not available. Iraola hopes he can play in some weeks.",
-      "reported": "2026-11-20",
+      "detail": "He is training with the squad after a serious ACL injury and is not yet available. Iraola hopes he can play in some weeks.",
+      "reported": "2026-11-19",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/every-word-iraola-liverpool-united-34944630"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
     },
     {
       "player": "Hugo Ekitike",
@@ -1221,27 +1221,48 @@
       "detail": "He is still recovering from an Achilles rupture from April. Iraola says the plan remains a return in January 2027, with an earlier return possible if all goes well.",
       "reported": "2026-11-21",
       "source": "Liverpool FC",
-      "url": "https://liverpoolfc.com/news/hugo-ekitike-injury-update-21112026"
+      "url": "https://www.liverpoolfc.com/news/hugo-ekitike-injury-update-21112026"
     },
     {
       "player": "Vitezslav Jaros",
       "pos": "GK",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is listed as unavailable with a knee problem in the pre-Manchester United team news. No return date has been given.",
-      "reported": "2026-11-20",
+      "detail": "He is listed as unavailable with a knee problem in the Manchester United team news. No return date has been given in that report.",
+      "reported": "2026-11-22",
       "source": "This Is Anfield",
       "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-man-united/"
     }
   ],
   "news": [
     {
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "source": "Liverpool Echo",
-      "title": "Rio Ngumoha can fulfil career ambitions at Liverpool - but next move crucial - 'Sky's the limit'",
-      "summary": "Paul Gorst assesses Rio Ngumoha's current situation after he stars in Liverpool's 4-0 win over Manchester United",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-can-fulfill-career-34955405",
-      "amp": true
+      "title": "Man United legend makes Rio Ngumoha claim after devastating Liverpool reminder sent - 'Deadly serious'",
+      "summary": "Rio Ngumoha showcased his huge talent and potential in Liverpool's 4-0 hammering of Manchester United on Sunday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/man-united-legend-make-rio-34957817",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34957952.ece/ALTERNATES/s615/0_GettyImages-2306471993.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34957952.ece/ALTERNATES/s1200/0_GettyImages-2306471993.jpg"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "BBC Sport",
+      "title": "The youngest Premier League goalscorers this season",
+      "summary": "After the stellar performances of Liverpool's Rio Ngumoha and Tottenham's Luca Williams-Barnett, BBC Sport looks at the youngest players to score in the Premier League this season.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cme39v4w7ykqo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/329e/live/957cac80-e7c7-11f1-99a1-253766e7ad8b.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/329e/live/957cac80-e7c7-11f1-99a1-253766e7ad8b.jpg"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Liverpool Echo",
+      "title": "Steven Gerrard makes Florian Wirtz and Everton vs Liverpool predictions - 'He's got it now'",
+      "summary": "Steven Gerrard is happy to see Florian Wirtz coming to the boil for Liverpool, and is backing the German to play a key role in Sunday's Merseyside derby",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/steven-gerrard-makes-florian-wirtz-34956232",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34956238.ece/ALTERNATES/s615/0_imagemaker-2026-11-23T194444246.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34956238.ece/ALTERNATES/s1200/0_imagemaker-2026-11-23T194444246.jpg"
     },
     {
       "date": "2026-11-23",
@@ -1252,16 +1273,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-23",
-      "source": "Liverpool Echo",
-      "title": "Poll: What is your favourite Liverpool humiliation of Manchester United?",
-      "summary": "Have your say in our latest poll after Liverpool dished out another heavy defeat to their sorry rivals Manchester United",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/poll-what-your-favourite-liverpool-34954798",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34952808.ece/ALTERNATES/s615/0_GettyImages-2306390958.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34952808.ece/ALTERNATES/s1200/0_GettyImages-2306390958.jpg"
     },
     {
       "date": "2026-11-23",
@@ -1308,15 +1319,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/81a2/live/669edd40-e6c1-11f1-99a1-253766e7ad8b.png"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "BBC Sport",
-      "title": "'World's best could've lost 4-0' - but should Man Utd have done more at Anfield?",
-      "summary": "Mauricio Pochettino believes even the best team in the world could have conceded four goals at Liverpool in Manchester United's circumstances - but should the Red Devils have done…",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm782j80yypwo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e813/live/77008940-e6bc-11f1-a094-5fdc692f3e33.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e813/live/77008940-e6bc-11f1-a094-5fdc692f3e33.jpg"
     },
     {
       "date": "2026-11-22",
@@ -2753,5 +2755,5 @@
     "headlinesFor": null,
     "checked": "2026-11-24"
   },
-  "fullUpdated": "2026-11-23T12:16:24Z"
+  "fullUpdated": "2026-11-24T12:16:19Z"
 }
