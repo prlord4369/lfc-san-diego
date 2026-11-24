@@ -611,13 +611,14 @@
  "table": {
   "comp": "Premier League",
   "pos": 9,
-  "of": 18,
+  "of": 20,
   "pts": 1,
   "played": 1,
   "w": 0,
   "d": 1,
   "l": 0
  },
- "story": "Liverpool came from behind to draw 2-2 with Newcastle United at St. James' Park in the Premier League. Anthony Elanga gave the hosts a fifth-minute lead, assisted by William Osula, before Cody Gakpo levelled in the 55th minute, set up by Ryan Gravenberch. Joe Willock restored Newcastle's advantage two minutes later, but Dominik Szoboszlai converted a penalty in the ninth minute of added time to earn a point. The draw leaves Liverpool ninth of 18 in the Premier League table with one point from one game.",
- "storyV": 2
+ "story": "Liverpool drew 2-2 with Newcastle United at St. James' Park, a result that left them ninth in the Premier League. Anthony Elanga gave Newcastle the lead in the 5th minute, set up by William Osula, and Liverpool trailed 1-0 at half-time. Cody Gakpo levelled at 1-1 in the 55th minute, assisted by Ryan Gravenberch. Two minutes later, Joe Willock, who had come off the bench for Osula, restored Newcastle's lead at 2-1 from a Yoane Wissa assist. Dominik Szoboszlai then scored a penalty in stoppage time at the end of the match to level it again at 2-2. Liverpool had 60.8% of possession and 27 shots to Newcastle's 13, with seven of them on target.",
+ "storyV": 7,
+ "storyChecked": true
 }

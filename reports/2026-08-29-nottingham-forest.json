@@ -606,6 +606,7 @@
   "l": 0,
   "before": 10
  },
- "story": "Liverpool drew 2-2 with Nottingham Forest at Anfield in the Premier League. Nottingham Forest led at half-time after Dan Ndoye scored in the 24th minute, assisted by Morgan Gibbs-White. Alexander Isak equalised in the 60th minute, set up by Cody Gakpo, before Morgan Gibbs-White converted a penalty in the 70th minute to restore the visitors' lead. Víctor Muñoz struck in the 82nd minute, assisted by Florian Wirtz, to earn Liverpool a point, leaving them 10th of 20 in the Premier League table with two points from two games.",
- "storyV": 2
+ "story": "Liverpool drew 2-2 with Nottingham Forest at Anfield, a result that left them 10th in the Premier League. Nottingham Forest went ahead in the 24th minute through Dan Ndoye, set up by Morgan Gibbs-White, and led 1-0 at half-time. Alexander Isak levelled for Liverpool in the 60th minute, set up by Cody Gakpo. Morgan Gibbs-White restored Forest's lead with a penalty in the 70th minute. Víctor Muñoz levelled again in the 82nd minute, with Florian Wirtz providing the assist. Liverpool had 69.6% of the possession and 13 shots, four of them on target, while Forest had 12 shots, three on target.",
+ "storyV": 7,
+ "storyChecked": true
 }

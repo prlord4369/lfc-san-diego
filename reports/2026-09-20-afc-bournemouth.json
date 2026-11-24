@@ -568,6 +568,7 @@
   "l": 0,
   "before": 10
  },
- "story": "Liverpool won 1-0 away at AFC Bournemouth in the Premier League at the Vitality Stadium. The only goal came from Alexander Isak in the 57th minute, after a goalless first half. Liverpool had 12 shots, three of them on target, against Bournemouth's nine, two of which were on target, and held 53.8% of possession. Liverpool finished the day sixth in the Premier League table on nine points, having won two, drawn three and lost none of their five matches.",
- "storyV": 2
+ "story": "Liverpool beat AFC Bournemouth 1-0 at the Vitality Stadium, a win that lifted them to sixth in the Premier League. The two sides went in level at 0-0 at half-time. Alexander Isak scored in the 57th minute to put Liverpool ahead, and they stayed in front until the final whistle. Liverpool had 53.8% of the possession and took 12 shots to AFC Bournemouth's nine, with three on target to their two. Each goalkeeper made two saves. The result left Liverpool on nine points from five Premier League games, with two wins, three draws and no defeats.",
+ "storyV": 7,
+ "storyChecked": true
 }

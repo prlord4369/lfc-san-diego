@@ -551,6 +551,7 @@
   "l": 1,
   "before": 5
  },
- "story": "Liverpool beat Brighton & Hove Albion 2-0 at Anfield. Pascal Gross put the ball into his own net in the 17th minute, and Alexander Isak doubled the lead in the 21st minute, finishing a pass from Bradley Barcola. Brighton had 64.4% of possession and 17 shots, but Liverpool's two goals were enough for the win. The result lifts Liverpool to fourth in the Premier League table with 15 points from eight games.",
- "storyV": 2
+ "story": "Liverpool beat Brighton & Hove Albion 2-0 at Anfield, a win that lifted them to fourth in the Premier League. Pascal Gross put Liverpool ahead in the 17th minute when he scored an own goal. Alexander Isak made it 2-0 four minutes later, in the 21st minute, set up by Bradley Barcola. The score was 2-0 to Liverpool at half-time. Brighton had 64.4% of the possession and 17 shots to Liverpool's 13, although Liverpool had four shots on target to Brighton's one. That left Liverpool on 15 points from eight Premier League matches, with four wins, three draws and one defeat.",
+ "storyV": 7,
+ "storyChecked": true
 }

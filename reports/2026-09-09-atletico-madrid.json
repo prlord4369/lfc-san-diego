@@ -621,13 +621,14 @@
  "table": {
   "comp": "Champions League",
   "pos": 9,
-  "of": 24,
+  "of": 36,
   "pts": 3,
   "played": 1,
   "w": 1,
   "d": 0,
   "l": 0
  },
- "story": "Liverpool beat Atlético Madrid 2-1 at Anfield in the Champions League. Marcos Llorente gave the visitors the lead in the 17th minute, assisted by Julián Álvarez, but Dominik Szoboszlai equalised in the 40th minute, set up by Ronald Araujo. Alexis Mac Allister then put Liverpool ahead in the 50th minute, with Alexander Isak providing the assist, and the hosts held on to take all three points. The win moves Liverpool to ninth of 24 teams in the Champions League table after one game.",
- "storyV": 2
+ "story": "Liverpool beat Atlético Madrid 2-1 at Anfield, a win that lifted them to ninth in the Champions League table. Atlético Madrid took the lead in the 17th minute, when Marcos Llorente scored from a Julián Álvarez assist. Dominik Szoboszlai levelled for Liverpool in the 40th minute with an assist from Ronald Araujo, and the sides went in at 1-1 at half-time. Alexis Mac Allister put Liverpool 2-1 ahead in the 50th minute, set up by Alexander Isak. Atlético Madrid had 54.7% of possession, but Liverpool had 14 shots to their nine. Five of Liverpool's shots were on target, against four from Atlético Madrid.",
+ "storyV": 7,
+ "storyChecked": true
 }

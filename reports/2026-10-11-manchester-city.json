@@ -605,6 +605,7 @@
   "l": 1,
   "before": 8
  },
- "story": "Manchester City beat Liverpool 3-0 at Anfield in the Premier League. Erling Haaland opened the scoring in the 65th minute, and Jérémy Doku doubled the lead three minutes later, assisted by Elliot Anderson. Rayan Cherki added a third in the 78th minute, set up by Josko Gvardiol, after Ryan Gravenberch had been shown a red card in the 62nd minute. The defeat left Liverpool ninth in the Premier League with nine points from six matches.",
- "storyV": 2
+ "story": "Liverpool lost 3-0 to Manchester City at Anfield, a defeat that dropped them from eighth to ninth in the Premier League. The match was goalless at half-time, and Liverpool were reduced to 10 men when Ryan Gravenberch was sent off in the 62nd minute. Erling Haaland put City ahead in the 65th minute. Three minutes later Jérémy Doku, who had come off the bench for Iliman Ndiaye in the 56th minute, made it 2-0 to City from an Elliot Anderson assist. Rayan Cherki made it 3-0 in the 78th minute, set up by Josko Gvardiol, who had come off the bench for Nico O'Reilly in the 66th minute. Liverpool had 35.4% of the possession and six shots on target, and City made six saves to Liverpool's one.",
+ "storyV": 7,
+ "storyChecked": true
 }

@@ -565,6 +565,7 @@
   "l": 0,
   "before": 13
  },
- "story": "Liverpool won 2-0 away to Ipswich Town at Portman Road in the Premier League. Alexander Isak opened the scoring in the 6th minute, then doubled the lead in the 9th minute, with Cody Gakpo providing the assist on both goals. The score was already 2-0 at half-time, and it stayed that way to full time. After the win, Liverpool stood fifth of 20 teams in the Premier League table, with five points from three matches.",
- "storyV": 2
+ "story": "Liverpool beat Ipswich Town 2-0 at Portman Road, a win that left them fifth in the Premier League. Alexander Isak put Liverpool ahead in the 6th minute with a goal set up by Cody Gakpo. Isak scored again in the 9th minute, with another assist from Gakpo, to make it 2-0. The score was 2-0 at half-time and stayed that way until the end of the match. Ipswich had 14 shots to Liverpool's 10, but Liverpool put seven of theirs on target to Ipswich's five. Liverpool had 54.9% of the possession, and the two goalkeepers made five saves each.",
+ "storyV": 7,
+ "storyChecked": true
 }

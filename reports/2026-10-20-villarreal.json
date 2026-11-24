@@ -656,6 +656,7 @@
   "l": 0,
   "before": 5
  },
- "story": "Liverpool beat Villarreal 4-3 at Anfield in the Champions League. Georges Mikautadze and Sergi Cardona gave Villarreal a 2-0 lead, but Alexis Mac Allister levelled in the 36th minute and Ronald Araujo struck in the second minute of stoppage time before half-time. Mac Allister scored again in the 65th minute, Florian Wirtz made it 4-2 in the 68th, and Tani Oluwaseyi pulled one back for Villarreal in the 87th. The win lifted Liverpool to second place in the Champions League table on nine points from three games.",
- "storyV": 2
+ "story": "Liverpool beat Villarreal 4-3 at Anfield, a win that lifted them to second in the Champions League table. Villarreal went ahead through Georges Mikautadze in the 4th minute, and Sergi Cardona made it 2-0 to Villarreal in the 29th minute from a Nathan Saliba assist. Alexis Mac Allister pulled one back for Liverpool in the 36th minute, set up by Kostas Tsimikas, and Ronald Araujo levelled in first-half stoppage time from a Rio Ngumoha assist, so it was 2-2 at half-time. Mac Allister put Liverpool ahead in the 65th minute, again from a Ngumoha assist, and three minutes later Florian Wirtz, who came off the bench for Araujo at half-time, made it 4-2 from Cody Gakpo's assist. Tani Oluwaseyi, a substitute for Saliba, made it 4-3 in the 87th minute, set up by fellow substitute Ayoze Pérez. Liverpool had 22 shots to Villarreal's 14, with seven on target to five.",
+ "storyV": 7,
+ "storyChecked": true
 }

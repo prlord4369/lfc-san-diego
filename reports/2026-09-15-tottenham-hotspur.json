@@ -606,6 +606,7 @@
    ]
   }
  },
- "story": "Liverpool beat Tottenham Hotspur 3-1 in the Carabao Cup third round at Anfield. Alexis Mac Allister opened the scoring in the 21st minute, and the hosts led 1-0 at half-time. Cody Gakpo doubled the lead in the 54th minute, finishing from Mac Allister's assist, before Conor Gallagher pulled one back for Tottenham in the 69th minute. Dominik Szoboszlai struck in the first minute of added time, set up by Gakpo, to seal the win.",
- "storyV": 2
+ "story": "Liverpool beat Tottenham Hotspur 3-1 at Anfield in the Carabao Cup third round. Alexis Mac Allister put Liverpool ahead in the 21st minute, and that was the score at half-time. Cody Gakpo made it 2-0 in the 54th minute, set up by Mac Allister. Conor Gallagher pulled one back for Tottenham in the 69th minute, with the assist coming from Mateus Fernandes, who had come off the bench for Rodrigo Bentancur in the 57th minute. Dominik Szoboszlai, who had come off the bench for James McConnell in the 62nd minute, made it 3-1 in stoppage time at the end of the match, with Gakpo providing the assist. Tottenham had 56.4% of the possession and 17 shots to Liverpool's 12, and Liverpool made five saves to Tottenham's two.",
+ "storyV": 7,
+ "storyChecked": true
 }

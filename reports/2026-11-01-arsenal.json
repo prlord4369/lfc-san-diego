@@ -598,6 +598,7 @@
   "l": 2,
   "before": 5
  },
- "story": "Liverpool lost 0-1 to Arsenal at Anfield in the Premier League, as Kai Havertz scored in the 16th minute from a pass by Declan Rice. Liverpool had 17 shots and 56.4 percent possession, but none were on target, and Arsenal also led 1-0 at half-time. The defeat leaves Liverpool fifth in the table with 15 points from nine matches, the same position they held before the game.",
- "storyV": 2
+ "story": "Liverpool lost 1-0 to Arsenal at Anfield, a defeat that left them fifth in the Premier League. Arsenal went ahead in the 16th minute, when Kai Havertz scored from a Declan Rice assist. Arsenal led 1-0 at half-time, and there were no more goals in the second half. Liverpool had 56.4% of the possession and 17 shots to Arsenal's 10. None of those 17 shots were on target, while Arsenal had three, and Liverpool's goalkeeper made two saves to Arsenal's none. Liverpool had 15 points from nine games, with four wins, three draws and two defeats.",
+ "storyV": 7,
+ "storyChecked": true
 }

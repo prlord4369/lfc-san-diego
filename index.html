@@ -1105,6 +1105,11 @@ a.rp-tile:hover { border-color: var(--red); }
 .rp-lu .lu-subs li.unused { color: var(--muted); }
 .rp-lu .lu-subs .lu-came { color: var(--ok); }
 .rp-lu .lu-pl i { position: relative; }
+/* Sent off: faded spot, a small red card on the shirt's lower right */
+.rp-lu .lu-pl.off > i, .rp-lu .lu-pl.off > span { opacity: .5; }
+.rp-lu .lu-pl .rc-mk { position: absolute; left: calc(50% + 9px); top: 14px; width: 10px; height: 13px; border-radius: 1.5px; background: #e0182d;
+  box-shadow: 0 0 0 1.5px #fff; transform: rotate(10deg); }
+.rp-lu .lu-red { color: var(--bad); font-weight: 600; }
 .lu-pl .gs { position: absolute; top: -5px; left: -6px; min-width: 14px; height: 14px; border-radius: 7px; background: #fff; color: #1c1517; font: normal 700 8px/14px sans-serif; text-align: center; box-shadow: 0 0 0 1px #1c1517; padding: 0 2px; }
 .rp-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
 .rp-links a { display: block; text-decoration: none; color: inherit; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--red); border-radius: 8px; padding: 12px 14px; }
@@ -2980,6 +2985,9 @@ function render(data) {
     // Pitch
     var scored = {};
     R.events.forEach(function (e) { if (e.kind === "goal" || e.kind === "pen") scored[e.player] = (scored[e.player] || 0) + 1; });
+    // Sent off: a red card on the shirt and the spot faded (the player stays where he started; nobody replaces him)
+    var sentOff = {};
+    R.events.forEach(function (e) { if (e.kind === "red" && e.player) sentOff[e.player] = e.min; });
     var pitch = function (t, opp) {
       var keeper = t.xi.filter(function (p) { return +p.place === 1; })[0] || t.xi.filter(function (p) { return luDepth(p.pos) === 0; })[0] || t.xi[0];
       var outf = t.xi.filter(function (p) { return p !== keeper; });
@@ -2992,10 +3000,12 @@ function render(data) {
           .forEach(function (p) { var l = lines[lines.length - 1]; if (l && luDepth(l[0].pos) === luDepth(p.pos)) l.push(p); else lines.push([p]); });
       }
       var spot = function (p, x, y) {
-        var c = p.on || p, n = (scored[p.full] || 0) + (p.on ? scored[p.on.full] || 0 : 0);
-        return "<div class=\"lu-pl" + (p === keeper ? " gk" : "") + (p.on ? " sub" : "") + "\" style=\"left:" + x.toFixed(1) + "%;top:" + y.toFixed(1) + "%\" title=\"" +
-          esc(c.full + (p.on ? " (on " + mins(c.at) + " for " + p.full + ")" : "")) + "\"><i>" + esc(c.no) +
-          (n ? "<span class=\"gs\" aria-label=\"" + n + " goal" + (n > 1 ? "s" : "") + "\">" + (n > 1 ? n : "⚽") + "</span>" : "") + "</i><span>" + esc(NAMES[c.full] || c.name) + "</span></div>";
+        var c = p.on || p, n = (scored[p.full] || 0) + (p.on ? scored[p.on.full] || 0 : 0), red = sentOff[c.full];
+        return "<div class=\"lu-pl" + (p === keeper ? " gk" : "") + (p.on ? " sub" : "") + (red ? " off" : "") + "\" style=\"left:" + x.toFixed(1) + "%;top:" + y.toFixed(1) + "%\" title=\"" +
+          esc(c.full + (p.on ? " (on " + mins(c.at) + " for " + p.full + ")" : "") + (red ? " (sent off " + mins(red) + ")" : "")) + "\"><i>" + esc(c.no) +
+          (n ? "<span class=\"gs\" aria-label=\"" + n + " goal" + (n > 1 ? "s" : "") + "\">" + (n > 1 ? n : "⚽") + "</span>" : "") +
+          "</i><span>" + esc(NAMES[c.full] || c.name) + "</span>" +
+          (red ? "<b class=\"rc-mk\" role=\"img\" aria-label=\"Sent off " + esc(mins(red)) + "\"></b>" : "") + "</div>";
       };
       var h = "<div class=\"lu-pitch" + (opp ? " opp" : "") + "\"><span class=\"bx\"></span><span class=\"bx6\"></span><span class=\"arc\"></span>" + spot(keeper, 50, 88);
       lines.forEach(function (line, k) {
@@ -3012,7 +3022,8 @@ function render(data) {
       var used = t.subs.filter(function (x) { return x.came; }), unused = t.subs.filter(function (x) { return !x.came; });
       var li = function (x, came) {
         return "<li" + (came ? "" : " class=\"unused\"") + "><span class=\"mono\">" + esc(x.no) + "</span><span>" + esc(x.full) +
-          (came ? "<span class=\"lu-came\">On " + esc(mins(x.came.at)) + " for " + esc(x.came.for) + "</span>" : "") + "</span></li>";
+          (came ? "<span class=\"lu-came\">On " + esc(mins(x.came.at)) + " for " + esc(x.came.for) +
+            (sentOff[x.full] ? " · <b class=\"lu-red\">sent off " + esc(mins(sentOff[x.full])) + "</b>" : "") + "</span>" : "") + "</span></li>";
       };
       body.querySelector("#rp-subs").innerHTML = (used.length ? "<h3 class=\"label\">Came on</h3><ul>" + used.map(function (x) { return li(x, true); }).join("") + "</ul>" : "") +
         (unused.length ? "<h3 class=\"label\" style=\"margin-top:14px\">Unused</h3><ul>" + unused.map(function (x) { return li(x, false); }).join("") + "</ul>" : "");

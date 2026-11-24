@@ -629,6 +629,7 @@
   "l": 1,
   "before": 9
  },
- "story": "Liverpool came from behind to beat Brentford 2-1 at the Gtech Community Stadium in the Premier League. Keane Lewis-Potter gave Brentford the lead in the 44th minute, assisted by Igor Thiago, before Víctor Muñoz equalised in the 62nd minute from a Florian Wirtz assist. Alexander Isak scored the winner in the 70th minute, set up by Bradley Barcola. The result leaves Liverpool fifth in the table with 12 points from seven games.",
- "storyV": 2
+ "story": "Liverpool beat Brentford 2-1 away at the Gtech Community Stadium, a win that left them fifth in the Premier League. Keane Lewis-Potter put Brentford ahead in the 44th minute, set up by Igor Thiago, and Yehor Yarmoliuk was sent off for Brentford in first-half stoppage time, so Liverpool trailed 1-0 at half-time. Víctor Muñoz levelled in the 62nd minute, with Florian Wirtz providing the assist. Alexander Isak put Liverpool ahead eight minutes later, set up by Bradley Barcola. Brentford's Vitaly Janelt was sent off in stoppage time at the end of the match. Liverpool had 21 shots to Brentford's 10, with five on target to two.",
+ "storyV": 7,
+ "storyChecked": true
 }

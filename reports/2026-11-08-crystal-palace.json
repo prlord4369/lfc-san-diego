@@ -606,6 +606,7 @@
   "l": 2,
   "before": 6
  },
- "story": "Liverpool won 3-1 away at Selhurst Park against Crystal Palace in the Premier League. Alexis Mac Allister opened the scoring in the 40th minute, assisted by Dominik Szoboszlai, and Florian Wirtz doubled the lead in the 54th minute, set up by Bradley Barcola. Alexander Isak added a third in the 89th minute, assisted by Wirtz, and Eddie Nketiah scored a penalty for Palace in the fifth minute of stoppage time. The win lifts Liverpool from sixth to fourth in the table, with 18 points from 10 matches.",
- "storyV": 2
+ "story": "Liverpool beat Crystal Palace 3-1 at Selhurst Park, a win that lifted them to fourth in the Premier League. Alexis Mac Allister opened the scoring in the 40th minute, set up by Dominik Szoboszlai, and Liverpool led 1-0 at half-time. Florian Wirtz made it 2-0 in the 54th minute from a Bradley Barcola assist. Alexander Isak made it 3-0 in the 89th minute, with Wirtz providing the pass. Eddie Nketiah, who came off the bench for Jørgen Strand Larsen in the 72nd minute, scored a penalty in stoppage time at the end of the match to pull one back for Palace. Palace had 53.1% of possession, but Liverpool had 20 shots to their 19.",
+ "storyV": 7,
+ "storyChecked": true
 }

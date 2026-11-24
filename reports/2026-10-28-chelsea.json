@@ -573,6 +573,7 @@
   "lfc": 6,
   "opp": 5
  },
- "story": "Liverpool hosted Chelsea at Anfield in the Carabao Cup fourth round. Chelsea took the lead when Morgan Rogers scored from the penalty spot in the 40th minute, but Liverpool equalised three minutes later as Cody Gakpo converted a penalty of his own in the 43rd minute. The score stayed 1-1, and the tie went to a penalty shootout, which Liverpool won 6-5.",
- "storyV": 2
+ "story": "Liverpool beat Chelsea 6-5 on penalties after a 1-1 draw at Anfield in the Carabao Cup fourth round. Chelsea went ahead in the 40th minute when Morgan Rogers scored a penalty to make it 1-0 to the visitors. Liverpool levelled three minutes later, with Cody Gakpo scoring from the penalty spot in the 43rd minute. Both teams went in level at 1-1 at half-time, and neither side scored in the second half. Liverpool had 10 shots to Chelsea's 11, and each side put four of them on target. Liverpool had 51.7% of the possession to Chelsea's 48.3%, and each goalkeeper made three saves.",
+ "storyV": 7,
+ "storyChecked": true
 }
