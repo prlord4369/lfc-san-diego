@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:30:50Z",
+  "updated": "2026-11-24T20:00:54Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1238,6 +1238,44 @@
     {
       "date": "2026-11-24",
       "source": "BBC Sport",
+      "title": "'Klopp gives me advice for Liverpool' - Wirtz",
+      "summary": "Liverpool midfielder Florian Wirtz says former Reds boss Jurgen Klopp gives him advice about Liverpool when he's on international duty for Germany.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cr62pg7egy59o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/150f/live/0a8ade20-e840-11f1-99b6-a35a62fa4264.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/150f/live/0a8ade20-e840-11f1-99b6-a35a62fa4264.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-24",
+      "source": "The Guardian",
+      "title": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
+      "summary": "Playmaker in best form since moving to Anfield",
+      "url": "https://www.theguardian.com/football/2026/nov/24/florian-wirtz-hails-iraola-and-klopp-as-he-reaches-new-levels-for-liverpool",
+      "img": "https://i.guim.co.uk/img/media/e3c654b16203f677c30937b9d4930062eed2c363/819_1051_2289_1831/master/2289.jpg?width=460&quality=85&auto=format&fit=max&s=943763814de90884e58619bdb0622c76",
+      "big": "https://i.guim.co.uk/img/media/e3c654b16203f677c30937b9d4930062eed2c363/819_1051_2289_1831/master/2289.jpg?width=700&quality=85&auto=format&fit=max&s=4fecc72105fdd694a1f62fec00789ac8"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola gives worrying Ryan Gravenberch injury update and rules Cody Gakpo out of derby",
+      "summary": "Liverpool boss Andoni Iraola has been speaking in Belgium ahead of the Champions League clash against Club Brugge on Wednesday evening",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-1-34959652",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961196.ece/ALTERNATES/s615/0_GettyImages-2306173849.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961196.ece/ALTERNATES/s1200/0_GettyImages-2306173849.jpg"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "Liverpool Echo",
+      "title": "Florian Wirtz explains Andoni Iraola and Jurgen Klopp roles in his Liverpool revival",
+      "summary": "Liverpool midfielder Florian Wirtz has been speaking in Belgium ahead of the Champions League clash against Club Brugge on Wednesday evening",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtz-explains-andoni-iraola-34959679",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961050.ece/ALTERNATES/s615/0_GettyImages-2306167430.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34961050.ece/ALTERNATES/s1200/0_GettyImages-2306167430.jpg"
+    },
+    {
+      "date": "2026-11-24",
+      "source": "BBC Sport",
       "title": "Klopp advice and Iraola confidence boosts Wirtz",
       "summary": "Florian Wirtz opens up on why it's the best he has felt since joining Liverpool.",
       "url": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo",
@@ -1246,18 +1284,17 @@
     },
     {
       "date": "2026-11-24",
-      "source": "Liverpool Echo",
-      "title": "Howard Webb defends controversial Liverpool penalty decision against Arsenal - 'I absolutely understand'",
-      "summary": "Chief Refereeing Officer for Pro Ref, Howard Webb, has been speaking about the failure to award Liverpool a penalty against Arsenal after Jurrien Timber pulled on Alexander Isak's…",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/howard-webb-defends-controversial-liverpool-34960864",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article33935744.ece/ALTERNATES/s615/1_Screenshot-2026-05-12-212833.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article33935744.ece/ALTERNATES/s1200/1_Screenshot-2026-05-12-212833.jpg"
+      "source": "Sky Sports",
+      "title": "How 'quick check' and unseen angle saw Timber's Isak shirt-pull go unpunished",
+      "summary": "Referees’ chief Howard Webb admitted it was a “quick check” by VAR for Arsenal defender Jurrien Timber’s unpunished shirt-pull on Liverpool striker Alexander Isak in the Gunners’…",
+      "url": "https://www.skysports.com/football/news/11669/13616058/jurrien-timbers-shirt-pull-on-alexander-isak-ref-chief-howard-webb-admits-quick-check-in-arsenals-win-at-liverpool",
+      "img": "https://e0.365dm.com/26/11/768x432/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128",
+      "big": "https://e0.365dm.com/26/11/1600x900/skysports-alexander-isak-jurrien-timber_7403744.jpg?20261111105128"
     },
     {
       "date": "2026-11-24",
       "source": "Sky Sports",
-      "title": "Ref chief Webb backs process around Yoro sending off despite successful appeal",
+      "title": "Man Utd win Yoro red card appeal - but Webb backs referee and VAR process",
       "summary": "Referees' chief Howard Webb has backed the process of the officials who sent off Manchester United defender Leny Yoro at Liverpool - despite the red card being overturned on…",
       "url": "https://www.skysports.com/football/news/11669/13616033/leny-yoro-red-card-ref-chief-howard-webb-backs-process-that-saw-man-utd-defender-sent-off-at-liverpool",
       "img": "https://e0.365dm.com/26/11/768x432/skysports-leny-yoro-alexander-isak_7413691.jpg?20261122165102",
@@ -1271,24 +1308,6 @@
       "url": "https://www.skysports.com/football/news/11669/13616021/leny-yoros-red-card-for-manchester-united-against-liverpool-overturned-following-successful-appeal",
       "img": "https://e2.365dm.com/26/11/768x432/skysports-leny-yoro-alexander-isak_7413680.jpg?20261122164441",
       "big": "https://e2.365dm.com/26/11/1600x900/skysports-leny-yoro-alexander-isak_7413680.jpg?20261122164441"
-    },
-    {
-      "date": "2026-11-24",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola press conference LIVE - Cody Gakpo, Ryan Gravenberch and Liverpool injury news",
-      "summary": "Live coverage of the Liverpool press conference to preview Wednesday's Champions League against Club Brugge in Belgium",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-press-conference-live-34959936",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s615/0_GettyImages-2302901398.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s1200/0_GettyImages-2302901398.jpg"
-    },
-    {
-      "date": "2026-11-24",
-      "source": "The Guardian",
-      "title": "Manchester United win appeal over Yoro’s one-match suspension after Anfield red card",
-      "summary": "Mauricio Pochettino said after game it was ‘never a foul’",
-      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
-      "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
-      "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
     },
     {
       "date": "2026-11-24",
@@ -1318,24 +1337,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-23",
-      "source": "Sky Sports",
-      "title": "The day Liverpool's attack showed its devastating potential",
-      "summary": "The conditions were favourable. Leny Yoro's red card after just eight minutes. A Man Utd team devoid of confidence and defensive resilience.",
-      "url": "https://www.skysports.com/football/news/11669/13615535/liverpools-attack-shows-its-devastating-potential-as-florian-wirtz-steps-up-in-thumping-win-over-10-man-man-utd",
-      "img": "https://e2.365dm.com/26/11/768x432/skysports-wirtz-florian-liverpool_7414195.jpg?20261123091321",
-      "big": "https://e2.365dm.com/26/11/1600x900/skysports-wirtz-florian-liverpool_7414195.jpg?20261123091321"
-    },
-    {
-      "date": "2026-11-22",
-      "source": "BBC Sport",
-      "title": "Did Liverpool 'get lucky' with red card decision?",
-      "summary": "Match of the Day pundits Danny Murphy and Ashley Young believe that Liverpool were perhaps \"lucky\" when Manchester United's Leny Yoro was sent off in the 8th-minute at Anfield.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/97fd/live/e0c07400-e6c9-11f1-99b6-a35a62fa4264.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/97fd/live/e0c07400-e6c9-11f1-99b6-a35a62fa4264.jpg"
     },
     {
       "date": "2026-11-22",
@@ -1435,22 +1436,22 @@
       },
       {
         "pos": 6,
-        "team": "Aston Villa",
-        "p": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 12,
-        "ga": 6,
-        "pts": 9
-      },
-      {
-        "pos": 7,
         "team": "Manchester City",
         "p": 4,
         "w": 3,
         "d": 0,
         "l": 1,
+        "gf": 12,
+        "ga": 7,
+        "pts": 9
+      },
+      {
+        "pos": 7,
+        "team": "Aston Villa",
+        "p": 5,
+        "w": 3,
+        "d": 0,
+        "l": 2,
         "gf": 12,
         "ga": 7,
         "pts": 9
@@ -1512,6 +1513,17 @@
       },
       {
         "pos": 13,
+        "team": "Galatasaray",
+        "p": 5,
+        "w": 3,
+        "d": 0,
+        "l": 2,
+        "gf": 9,
+        "ga": 9,
+        "pts": 9
+      },
+      {
+        "pos": 14,
         "team": "Bayern Munich",
         "p": 4,
         "w": 2,
@@ -1522,7 +1534,7 @@
         "pts": 8
       },
       {
-        "pos": 14,
+        "pos": 15,
         "team": "VfB Stuttgart",
         "p": 4,
         "w": 2,
@@ -1533,7 +1545,18 @@
         "pts": 7
       },
       {
-        "pos": 15,
+        "pos": 16,
+        "team": "FK Bodø/Glimt",
+        "p": 5,
+        "w": 2,
+        "d": 1,
+        "l": 2,
+        "gf": 5,
+        "ga": 9,
+        "pts": 7
+      },
+      {
+        "pos": 17,
         "team": "Inter Milan",
         "p": 4,
         "w": 2,
@@ -1544,18 +1567,18 @@
         "pts": 6
       },
       {
-        "pos": 16,
+        "pos": 18,
         "team": "LASK Linz",
-        "p": 4,
+        "p": 5,
         "w": 2,
         "d": 0,
-        "l": 2,
+        "l": 3,
         "gf": 10,
-        "ga": 9,
+        "ga": 10,
         "pts": 6
       },
       {
-        "pos": 17,
+        "pos": 19,
         "team": "Manchester United",
         "p": 4,
         "w": 2,
@@ -1566,18 +1589,7 @@
         "pts": 6
       },
       {
-        "pos": 18,
-        "team": "Galatasaray",
-        "p": 4,
-        "w": 2,
-        "d": 0,
-        "l": 2,
-        "gf": 8,
-        "ga": 9,
-        "pts": 6
-      },
-      {
-        "pos": 19,
+        "pos": 20,
         "team": "Fenerbahçe",
         "p": 4,
         "w": 1,
@@ -1588,7 +1600,7 @@
         "pts": 5
       },
       {
-        "pos": 20,
+        "pos": 21,
         "team": "AS Roma",
         "p": 4,
         "w": 1,
@@ -1599,7 +1611,7 @@
         "pts": 4
       },
       {
-        "pos": 21,
+        "pos": 22,
         "team": "FK Shakhtar Donetsk",
         "p": 4,
         "w": 1,
@@ -1610,7 +1622,7 @@
         "pts": 4
       },
       {
-        "pos": 22,
+        "pos": 23,
         "team": "Viking FK",
         "p": 4,
         "w": 1,
@@ -1621,7 +1633,7 @@
         "pts": 4
       },
       {
-        "pos": 23,
+        "pos": 24,
         "team": "Atlético Madrid",
         "p": 4,
         "w": 1,
@@ -1632,7 +1644,7 @@
         "pts": 4
       },
       {
-        "pos": 24,
+        "pos": 25,
         "team": "PSV",
         "p": 4,
         "w": 1,
@@ -1640,17 +1652,6 @@
         "l": 2,
         "gf": 3,
         "ga": 4,
-        "pts": 4
-      },
-      {
-        "pos": 25,
-        "team": "FK Bodø/Glimt",
-        "p": 4,
-        "w": 1,
-        "d": 1,
-        "l": 2,
-        "gf": 4,
-        "ga": 9,
         "pts": 4
       },
       {
