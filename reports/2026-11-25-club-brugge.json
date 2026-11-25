@@ -1,0 +1,611 @@
+{
+ "id": "2026-11-25-club-brugge",
+ "espn": "401915292",
+ "league": "uefa.champions",
+ "comp": "Champions League",
+ "kickoff": "2026-11-25T20:00:00Z",
+ "ha": "A",
+ "opp": "Club Brugge",
+ "oppAbbr": "BRU",
+ "oppLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+ "ground": {
+  "name": "Jan Breydel Stadium",
+  "city": "Brugge",
+  "country": "Belgium"
+ },
+ "score": {
+  "lfc": 3,
+  "opp": 0
+ },
+ "r": "W",
+ "ht": {
+  "lfc": 1,
+  "opp": 0
+ },
+ "aet": false,
+ "events": [
+  {
+   "min": "13'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak",
+   "assist": "Dominik Szoboszlai"
+  },
+  {
+   "min": "42'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Rio Ngumoha",
+   "off": "Víctor Muñoz"
+  },
+  {
+   "min": "73'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Virgil van Dijk",
+   "off": "Jeremie Frimpong"
+  },
+  {
+   "min": "73'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Alexis Mac Allister",
+   "off": "Trey Nyoni"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Romeo Vermant",
+   "off": "Hugo Vetlesen"
+  },
+  {
+   "min": "75'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Mamadou Diakhon",
+   "off": "Felix Lemarechal"
+  },
+  {
+   "min": "79'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Florian Wirtz",
+   "assist": "Rio Ngumoha"
+  },
+  {
+   "min": "82'",
+   "side": "lfc",
+   "kind": "goal",
+   "player": "Alexander Isak",
+   "assist": "Alisson Becker"
+  },
+  {
+   "min": "83'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Hugo Siquet",
+   "off": "Kyriani Sabbe"
+  },
+  {
+   "min": "83'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Cheveyo Tsawa",
+   "off": "Freddie Potts"
+  },
+  {
+   "min": "86'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Luke Chambers",
+   "off": "Bradley Barcola"
+  },
+  {
+   "min": "86'",
+   "side": "lfc",
+   "kind": "sub",
+   "player": "Lewis Koumas",
+   "off": "Alexander Isak"
+  },
+  {
+   "min": "89'",
+   "side": "opp",
+   "kind": "sub",
+   "player": "Matteo Dams",
+   "off": "Joaquin Seys"
+  }
+ ],
+ "stats": [
+  {
+   "label": "Possession",
+   "lfc": 46.5,
+   "opp": 53.5,
+   "unit": "%"
+  },
+  {
+   "label": "Shots",
+   "lfc": 13,
+   "opp": 17,
+   "unit": ""
+  },
+  {
+   "label": "On target",
+   "lfc": 4,
+   "opp": 5,
+   "unit": ""
+  },
+  {
+   "label": "Corners",
+   "lfc": 4,
+   "opp": 8,
+   "unit": ""
+  },
+  {
+   "label": "Pass accuracy",
+   "lfc": 82,
+   "opp": 85,
+   "unit": "%"
+  },
+  {
+   "label": "Saves",
+   "lfc": 5,
+   "opp": 1,
+   "unit": ""
+  },
+  {
+   "label": "Fouls",
+   "lfc": 13,
+   "opp": 9,
+   "unit": ""
+  },
+  {
+   "label": "Offsides",
+   "lfc": 0,
+   "opp": 3,
+   "unit": ""
+  },
+  {
+   "label": "Yellow cards",
+   "lfc": 0,
+   "opp": 0,
+   "unit": ""
+  }
+ ],
+ "lineups": {
+  "opp": {
+   "name": "Club Brugge",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Sommer",
+     "full": "Yann Sommer",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "44",
+     "name": "Mechele",
+     "full": "Brandon Mechele",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "58",
+     "name": "Spileers",
+     "full": "Jorne Spileers",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "65",
+     "name": "Seys",
+     "full": "Joaquin Seys",
+     "pos": "LB",
+     "place": 3,
+     "on": {
+      "no": "32",
+      "name": "Dams",
+      "full": "Matteo Dams",
+      "at": "89'"
+     }
+    },
+    {
+     "no": "64",
+     "name": "Sabbe",
+     "full": "Kyriani Sabbe",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "41",
+      "name": "Siquet",
+      "full": "Hugo Siquet",
+      "at": "83'"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Vetlesen",
+     "full": "Hugo Vetlesen",
+     "pos": "AM",
+     "place": 10,
+     "on": {
+      "no": "17",
+      "name": "Vermant",
+      "full": "Romeo Vermant",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "20",
+     "name": "Vanaken",
+     "full": "Hans Vanaken",
+     "pos": "LM",
+     "place": 4
+    },
+    {
+     "no": "8",
+     "name": "Potts",
+     "full": "Freddie Potts",
+     "pos": "RM",
+     "place": 8,
+     "on": {
+      "no": "16",
+      "name": "Tsawa",
+      "full": "Cheveyo Tsawa",
+      "at": "83'"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Tresoldi",
+     "full": "Nicolo Tresoldi",
+     "pos": "F",
+     "place": 9
+    },
+    {
+     "no": "80",
+     "name": "Lemarechal",
+     "full": "Felix Lemarechal",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "67",
+      "name": "Diakhon",
+      "full": "Mamadou Diakhon",
+      "at": "75'"
+     }
+    },
+    {
+     "no": "9",
+     "name": "Forbs",
+     "full": "Carlos Forbs",
+     "pos": "AM-R",
+     "place": 7
+    }
+   ],
+   "subs": [
+    {
+     "no": "11",
+     "name": "Virgili",
+     "full": "Jan Virgili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "17",
+     "name": "Vermant",
+     "full": "Romeo Vermant",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Vetlesen"
+     }
+    },
+    {
+     "no": "3",
+     "name": "Han-Beom",
+     "full": "Lee Han-Beom",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "32",
+     "name": "Dams",
+     "full": "Matteo Dams",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "89'",
+      "for": "Seys"
+     }
+    },
+    {
+     "no": "62",
+     "name": "Audoor",
+     "full": "Lynnt Audoor",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "29",
+     "name": "Jackers",
+     "full": "Nordin Jackers",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "77",
+     "name": "Vasovic",
+     "full": "Andrej Vasovic",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "39",
+     "name": "Robberechts",
+     "full": "Milan Robberechts",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "81",
+     "name": "Driessche",
+     "full": "Argus Driessche",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "67",
+     "name": "Diakhon",
+     "full": "Mamadou Diakhon",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "75'",
+      "for": "Lemarechal"
+     }
+    },
+    {
+     "no": "41",
+     "name": "Siquet",
+     "full": "Hugo Siquet",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "83'",
+      "for": "Sabbe"
+     }
+    },
+    {
+     "no": "16",
+     "name": "Tsawa",
+     "full": "Cheveyo Tsawa",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "83'",
+      "for": "Potts"
+     }
+    }
+   ]
+  },
+  "lfc": {
+   "name": "Liverpool",
+   "formation": "4-2-3-1",
+   "xi": [
+    {
+     "no": "1",
+     "name": "Becker",
+     "full": "Alisson Becker",
+     "pos": "G",
+     "place": 1
+    },
+    {
+     "no": "5",
+     "name": "Jacquet",
+     "full": "Jérémy Jacquet",
+     "pos": "CD-L",
+     "place": 6
+    },
+    {
+     "no": "33",
+     "name": "Araujo",
+     "full": "Ronald Araujo",
+     "pos": "CD-R",
+     "place": 5
+    },
+    {
+     "no": "6",
+     "name": "Kerkez",
+     "full": "Milos Kerkez",
+     "pos": "LB",
+     "place": 3
+    },
+    {
+     "no": "30",
+     "name": "Frimpong",
+     "full": "Jeremie Frimpong",
+     "pos": "RB",
+     "place": 2,
+     "on": {
+      "no": "4",
+      "name": "van Dijk",
+      "full": "Virgil van Dijk",
+      "at": "73'"
+     }
+    },
+    {
+     "no": "7",
+     "name": "Wirtz",
+     "full": "Florian Wirtz",
+     "pos": "AM",
+     "place": 10
+    },
+    {
+     "no": "42",
+     "name": "Nyoni",
+     "full": "Trey Nyoni",
+     "pos": "LM",
+     "place": 4,
+     "on": {
+      "no": "10",
+      "name": "Mac Allister",
+      "full": "Alexis Mac Allister",
+      "at": "73'"
+     }
+    },
+    {
+     "no": "8",
+     "name": "Szoboszlai",
+     "full": "Dominik Szoboszlai",
+     "pos": "RM",
+     "place": 8
+    },
+    {
+     "no": "9",
+     "name": "Isak",
+     "full": "Alexander Isak",
+     "pos": "F",
+     "place": 9,
+     "on": {
+      "no": "67",
+      "name": "Koumas",
+      "full": "Lewis Koumas",
+      "at": "86'"
+     }
+    },
+    {
+     "no": "29",
+     "name": "Barcola",
+     "full": "Bradley Barcola",
+     "pos": "AM-L",
+     "place": 11,
+     "on": {
+      "no": "44",
+      "name": "Chambers",
+      "full": "Luke Chambers",
+      "at": "86'"
+     }
+    },
+    {
+     "no": "23",
+     "name": "Muñoz",
+     "full": "Víctor Muñoz",
+     "pos": "AM-R",
+     "place": 7,
+     "on": {
+      "no": "73",
+      "name": "Ngumoha",
+      "full": "Rio Ngumoha",
+      "at": "42'"
+     }
+    }
+   ],
+   "subs": [
+    {
+     "no": "28",
+     "name": "Woodman",
+     "full": "Freddie Woodman",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "53",
+     "name": "McConnell",
+     "full": "James McConnell",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "21",
+     "name": "Tsimikas",
+     "full": "Kostas Tsimikas",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "67",
+     "name": "Koumas",
+     "full": "Lewis Koumas",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "86'",
+      "for": "Isak"
+     }
+    },
+    {
+     "no": "4",
+     "name": "van Dijk",
+     "full": "Virgil van Dijk",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "73'",
+      "for": "Frimpong"
+     }
+    },
+    {
+     "no": "44",
+     "name": "Chambers",
+     "full": "Luke Chambers",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "86'",
+      "for": "Barcola"
+     }
+    },
+    {
+     "no": "10",
+     "name": "Mac Allister",
+     "full": "Alexis Mac Allister",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "73'",
+      "for": "Nyoni"
+     }
+    },
+    {
+     "no": "25",
+     "name": "Mamardashvili",
+     "full": "Giorgi Mamardashvili",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "2",
+     "name": "Gomez",
+     "full": "Joe Gomez",
+     "pos": "SUB",
+     "place": 0
+    },
+    {
+     "no": "73",
+     "name": "Ngumoha",
+     "full": "Rio Ngumoha",
+     "pos": "SUB",
+     "place": 0,
+     "came": {
+      "at": "42'",
+      "for": "Muñoz"
+     }
+    },
+    {
+     "no": "76",
+     "name": "Danns",
+     "full": "Jayden Danns",
+     "pos": "SUB",
+     "place": 0
+    }
+   ]
+  }
+ },
+ "story": "Liverpool beat Club Brugge 3-0 away at Jan Breydel Stadium in the Champions League. Alexander Isak put Liverpool ahead in the 13th minute, set up by Dominik Szoboszlai. Rio Ngumoha came off the bench for Víctor Muñoz in the 42nd minute, and Liverpool led 1-0 at half-time. Ngumoha then provided the assist for Florian Wirtz, who made it 2-0 in the 79th minute. Three minutes later, Isak scored again from an Alisson Becker assist to make it 3-0. Club Brugge had 53.5% possession and 17 shots to Liverpool's 13, and Liverpool made five saves to their one.",
+ "storyV": 7,
+ "storyChecked": true
+}
