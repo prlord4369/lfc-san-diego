@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T03:28:11Z",
+  "updated": "2026-11-25T12:16:15Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -735,7 +735,7 @@
       "watchAt": "shakespeares",
       "usLocked": false,
       "us": "USA Network",
-      "usUrl": "https://worldsoccertalk.com/premier-league-tv-schedule/",
+      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released",
       "h2h": [
         {
           "date": "2026-04-19",
@@ -829,7 +829,9 @@
         "name": "Anfield",
         "city": "Liverpool",
         "country": "England"
-      }
+      },
+      "us": "USA Network",
+      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released"
     },
     {
       "kickoff": "2026-12-05T12:30:00Z",
@@ -883,7 +885,9 @@
         "name": "Stamford Bridge",
         "city": "London",
         "country": "England"
-      }
+      },
+      "us": "NBCSN / Peacock",
+      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released"
     },
     {
       "kickoff": "2026-12-09T20:00:00Z",
@@ -910,8 +914,8 @@
       "ha": "H",
       "comp": "Carabao Cup QF",
       "tbc": false,
-      "kickoff": "2026-12-16T20:00:00Z",
       "scope": "domestic",
+      "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false
@@ -1178,40 +1182,40 @@
       "pos": "MF",
       "status": "doubt",
       "issue": "Heel",
-      "detail": "He missed the 4-0 win over Manchester United with a heel problem that is about managing pain rather than a set recovery. He could be fit enough for Club Brugge if the pain allows.",
-      "reported": "2026-11-23",
+      "detail": "He has been managed day to day with heel pain and was left out of the Club Brugge squad. Iraola has given no timeline for his return.",
+      "reported": "2026-11-24",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-return-gakpo-34951699"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
     },
     {
       "player": "Cody Gakpo",
       "pos": "FW",
       "status": "out",
       "issue": "Soleus",
-      "detail": "He picked up a soleus (calf) injury on Netherlands duty and has not trained with Liverpool since. He was absent from the Manchester United matchday squad and is expected to miss Club Brugge.",
-      "reported": "2026-11-23",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/11/why-cody-gakpo-is-not-in-liverpool-squad-vs-man-united-andoni-iraola/"
+      "detail": "He picked up a soleus (calf) injury on Netherlands duty and has not trained with Liverpool since. He is expected to miss the weekend and the Club Brugge game.",
+      "reported": "2026-11-24",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is back in team training after knee surgery but is still listed as unavailable. Liverpool will load him back in carefully.",
-      "reported": "2026-11-22",
-      "source": "This Is Anfield",
-      "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-man-united/"
+      "detail": "He is back in team training after serious knee surgery but is not yet available. Liverpool expect him to return around mid-December.",
+      "reported": "2026-11-24",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "out",
       "issue": "ACL",
-      "detail": "He is training with the squad after a serious ACL injury and is not yet available. Iraola hopes he can play in some weeks.",
-      "reported": "2026-11-19",
+      "detail": "He is back in team training after a long ACL recovery and is being managed carefully. Liverpool expect him to return around mid-December.",
+      "reported": "2026-11-24",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/conor-bradley-injury-ekitike-leoni-34933829"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
     },
     {
       "player": "Hugo Ekitike",
@@ -1236,6 +1240,34 @@
   ],
   "news": [
     {
+      "date": "2026-11-25",
+      "source": "Liverpool Echo",
+      "title": "Liverpool line-ups for Club Brugge as Alexander Isak and Bradley Barcola decisions made",
+      "summary": "Our Liverpool writers select their starting line-ups for this evening's Champions League clash in Belgium against Club Brugge",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-club-brugge-34963678",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34780429.ece/ALTERNATES/s615/1_GettyImages-2300122469.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34780429.ece/ALTERNATES/s1200/1_GettyImages-2300122469.jpg"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "BBC Sport",
+      "title": "Why are there 2:05pm kick-offs in the Premier League on Sunday?",
+      "summary": "Our Ask Me Anything team explain why the Premier League fixtures have some unusual kick-off times this weekend.",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gn8pneklxo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/93e1/live/1b641f20-e8bf-11f1-99b6-a35a62fa4264.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/93e1/live/1b641f20-e8bf-11f1-99b6-a35a62fa4264.jpg"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "Liverpool Echo",
+      "title": "Bradley Barcola should cut himself some slack - he is bringing a lot to Liverpool already",
+      "summary": "A closer look at the performances of Bradley Barcola, who was disappointed with his own display in Liverpool's thumping Anfield victory over Manchester United",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-should-cut-himself-34962587",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34963244.ece/ALTERNATES/s615/0_GettyImages-2306117479-1.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34963244.ece/ALTERNATES/s1200/0_GettyImages-2306117479-1.jpg"
+    },
+    {
       "date": "2026-11-24",
       "source": "The Guardian",
       "title": "Pochettino criticises Premier League officiating after Yoro red card overturned",
@@ -1243,23 +1275,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
       "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
       "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
-    },
-    {
-      "date": "2026-11-24",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola press conference - Cody Gakpo, Ryan Gravenberch and Liverpool injury news",
-      "summary": "Live coverage of the Liverpool press conference to preview Wednesday's Champions League against Club Brugge in Belgium",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-press-conference-live-34959936",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s615/0_GettyImages-2302901398.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34960049.ece/ALTERNATES/s1200/0_GettyImages-2302901398.jpg"
-    },
-    {
-      "date": "2026-11-24",
-      "source": "Liverpool Echo",
-      "title": "Bradley Barcola at centre of Pochettino and Fernandes complaint as Premier League contacted",
-      "summary": "Mauricio Pochettino and Manchester United have slammed the officials again for what happened at Anfield on Sunday",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-man-utd-barcola-pochettino-34961576",
-      "amp": true
     },
     {
       "date": "2026-11-24",
@@ -1333,16 +1348,6 @@
       "url": "https://www.bbc.co.uk/sport/football/videos/cm1wr3lgpeglo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/d511/live/c3ec8af0-e75d-11f1-a094-5fdc692f3e33.jpg",
-      "tall": true
-    },
-    {
-      "date": "2026-11-23",
-      "source": "BBC Sport",
-      "title": "Was Isak denied a goalscoring opportunity?",
-      "summary": "Was Leny Yoro unfairly sent off in Manchester United’s 4-0 loss at Liverpool?",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cmewvdynv1qjo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/740c/live/307db030-e741-11f1-99a1-253766e7ad8b.jpg",
       "tall": true
     }
   ],
@@ -2753,5 +2758,5 @@
     "headlinesFor": null,
     "checked": "2026-11-25"
   },
-  "fullUpdated": "2026-11-24T12:16:19Z"
+  "fullUpdated": "2026-11-25T12:16:12Z"
 }
