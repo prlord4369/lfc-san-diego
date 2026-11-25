@@ -1714,8 +1714,9 @@ function render(data) {
       "<span><strong>" + fmt(next.d, { weekday: "long", month: "long", day: "numeric" }) + "</strong></span>" +
       "<span><strong>" + fmt(next.d, { hour: "numeric", minute: "2-digit" }) + " PT</strong>" + (next.tbc ? " (TBC)" : "") + "</span>" +
       "<span>" + groundText(next, home) + "</span>" +
-      // Only claim the venue is showing it when the fixture is marked "atVenue": true (screening confirmed with the bar)
-      (homeVenue && next.atVenue && next.venueClosed !== true
+      // Only claim the venue is showing it when the fixture is marked "atVenue": true (screening confirmed with the bar),
+      // or an admin has moved it to another bar ("watchAt", e.g. Shakespeare's for an early kick-off; owner, 2026-11-25)
+      (homeVenue && (next.atVenue || awayFromHome(next)) && next.venueClosed !== true
         ? "<span>Watch live at <a href=\"#watch\"><strong>" + esc(venueFor(next).name) + "</strong></a></span>" : "") +
       (homeVenue && next.venueClosed === true ? "<span class=\"novenue\">Bar will not be open</span>" : "");
     var tvLine = document.getElementById("next-tv");
