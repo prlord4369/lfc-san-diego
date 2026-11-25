@@ -605,7 +605,25 @@
    ]
   }
  },
- "story": "Liverpool beat Club Brugge 3-0 away at Jan Breydel Stadium in the Champions League. Alexander Isak put Liverpool ahead in the 13th minute, set up by Dominik Szoboszlai. Rio Ngumoha came off the bench for Víctor Muñoz in the 42nd minute, and Liverpool led 1-0 at half-time. Ngumoha then provided the assist for Florian Wirtz, who made it 2-0 in the 79th minute. Three minutes later, Isak scored again from an Alisson Becker assist to make it 3-0. Club Brugge had 53.5% possession and 17 shots to Liverpool's 13, and Liverpool made five saves to their one.",
+ "story": "Liverpool beat Club Brugge 3-0 at the Jan Breydel Stadium, a win that left them fifth in the Champions League table. Alexander Isak gave Liverpool the lead in the 13th minute, set up by Dominik Szoboszlai. Liverpool led 1-0 at half-time. Florian Wirtz made it 2-0 in the 79th minute from a pass by Rio Ngumoha, who had come off the bench for Víctor Muñoz. Isak scored his second three minutes later, with Alisson Becker providing the assist, to make it 3-0. Club Brugge had 53.5% of the possession and 17 shots to Liverpool's 13, and Liverpool made five saves to their one.",
  "storyV": 7,
- "storyChecked": true
+ "storyChecked": true,
+ "links": [
+  {
+   "source": "Liverpool Echo",
+   "title": "Liverpool player ratings as Florian Wirtz among four 8/10 Reds in impressive win at Club Brugge",
+   "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-player-ratings-florian-wirtz-34963351"
+  }
+ ],
+ "table": {
+  "comp": "Champions League",
+  "pos": 5,
+  "of": 36,
+  "pts": 12,
+  "played": 5,
+  "w": 4,
+  "d": 0,
+  "l": 1,
+  "before": 10
+ }
 }
