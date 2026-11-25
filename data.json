@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T15:30:47Z",
+  "updated": "2026-11-25T17:30:49Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -1241,6 +1241,16 @@
   "news": [
     {
       "date": "2026-11-25",
+      "source": "Liverpool Echo",
+      "title": "Unseen Bradley Barcola footage shows what really happened after Man Utd complaints",
+      "summary": "Mauricio Pochettino has complained that Domink Szoboszlai's goal against Manchester United on Sunday should have been chalked off through interference from Bradley Barcola",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/bradley-barcola-liverpool-manchester-united-34966035",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34966374.ece/ALTERNATES/s615/0_szo.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34966374.ece/ALTERNATES/s1200/0_szo.jpg"
+    },
+    {
+      "date": "2026-11-25",
       "source": "BBC Sport",
       "title": "Ex-West Ham Freddie Potts on facing Liverpool in Champions League",
       "summary": "Freddie Potts is loving life at Club Brugge and now the ex-West Ham academy star talks about preparing to face Liverpool in the Champions League.",
@@ -1258,15 +1268,6 @@
       "amp": true,
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34904660.ece/ALTERNATES/s615/0_GettyImages-2303675233.jpg",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34904660.ece/ALTERNATES/s1200/0_GettyImages-2303675233.jpg"
-    },
-    {
-      "date": "2026-11-25",
-      "source": "Liverpool Echo",
-      "title": "Liverpool line-ups for Club Brugge as Alexander Isak and Bradley Barcola decisions made",
-      "summary": "Our Liverpool writers select their starting line-ups for this evening's Champions League clash in Belgium against Club Brugge",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/liverpool-line-ups-club-brugge-34963678",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34780429.ece/ALTERNATES/s615/1_GettyImages-2300122469.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34780429.ece/ALTERNATES/s1200/1_GettyImages-2300122469.jpg"
     },
     {
       "date": "2026-11-25",
@@ -1384,6 +1385,17 @@
     "rows": [
       {
         "pos": 1,
+        "team": "Real Madrid",
+        "p": 5,
+        "w": 5,
+        "d": 0,
+        "l": 0,
+        "gf": 18,
+        "ga": 8,
+        "pts": 15
+      },
+      {
+        "pos": 2,
         "team": "Paris Saint-Germain",
         "p": 4,
         "w": 4,
@@ -1394,51 +1406,62 @@
         "pts": 12
       },
       {
-        "pos": 2,
-        "team": "Real Madrid",
-        "p": 4,
+        "pos": 3,
+        "team": "Como 1907",
+        "p": 5,
         "w": 4,
         "d": 0,
-        "l": 0,
-        "gf": 13,
-        "ga": 7,
+        "l": 1,
+        "gf": 20,
+        "ga": 6,
         "pts": 12
       },
       {
-        "pos": 3,
-        "team": "Aston Villa",
+        "pos": 4,
+        "team": "Real Betis Balompié",
+        "p": 5,
+        "w": 4,
+        "d": 0,
+        "l": 1,
+        "gf": 10,
+        "ga": 6,
+        "pts": 12
+      },
+      {
+        "pos": 5,
+        "team": "Arsenal",
+        "p": 5,
+        "w": 3,
+        "d": 2,
+        "l": 0,
+        "gf": 9,
+        "ga": 4,
+        "pts": 11
+      },
+      {
+        "pos": 6,
+        "team": "Manchester City",
         "p": 5,
         "w": 3,
         "d": 1,
         "l": 1,
-        "gf": 12,
-        "ga": 6,
+        "gf": 14,
+        "ga": 9,
         "pts": 10
       },
       {
-        "pos": 4,
-        "team": "Arsenal",
-        "p": 4,
+        "pos": 7,
+        "team": "Borussia Dortmund",
+        "p": 5,
         "w": 3,
         "d": 1,
-        "l": 0,
+        "l": 1,
         "gf": 8,
-        "ga": 3,
+        "ga": 6,
         "pts": 10
       },
       {
-        "pos": 5,
-        "team": "Como 1907",
-        "p": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 19,
-        "ga": 6,
-        "pts": 9
-      },
-      {
-        "pos": 6,
+        "pos": 8,
         "team": "Barcelona",
         "p": 4,
         "w": 3,
@@ -1449,18 +1472,18 @@
         "pts": 9
       },
       {
-        "pos": 7,
-        "team": "Manchester City",
-        "p": 4,
+        "pos": 9,
+        "team": "Aston Villa",
+        "p": 5,
         "w": 3,
         "d": 0,
-        "l": 1,
+        "l": 2,
         "gf": 12,
         "ga": 7,
         "pts": 9
       },
       {
-        "pos": 8,
+        "pos": 10,
         "team": "Liverpool",
         "p": 4,
         "w": 3,
@@ -1471,7 +1494,7 @@
         "pts": 9
       },
       {
-        "pos": 9,
+        "pos": 11,
         "team": "Club Brugge",
         "p": 4,
         "w": 3,
@@ -1482,7 +1505,7 @@
         "pts": 9
       },
       {
-        "pos": 10,
+        "pos": 12,
         "team": "Sporting CP",
         "p": 4,
         "w": 3,
@@ -1493,29 +1516,18 @@
         "pts": 9
       },
       {
-        "pos": 11,
-        "team": "Real Betis Balompié",
-        "p": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 8,
-        "ga": 6,
-        "pts": 9
-      },
-      {
-        "pos": 12,
-        "team": "Borussia Dortmund",
-        "p": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 7,
-        "ga": 5,
-        "pts": 9
-      },
-      {
         "pos": 13,
+        "team": "Galatasaray",
+        "p": 5,
+        "w": 3,
+        "d": 0,
+        "l": 2,
+        "gf": 9,
+        "ga": 9,
+        "pts": 9
+      },
+      {
+        "pos": 14,
         "team": "Bayern Munich",
         "p": 4,
         "w": 2,
@@ -1526,7 +1538,7 @@
         "pts": 8
       },
       {
-        "pos": 14,
+        "pos": 15,
         "team": "VfB Stuttgart",
         "p": 4,
         "w": 2,
@@ -1537,24 +1549,13 @@
         "pts": 7
       },
       {
-        "pos": 15,
-        "team": "LASK Linz",
-        "p": 5,
-        "w": 2,
-        "d": 1,
-        "l": 2,
-        "gf": 10,
-        "ga": 9,
-        "pts": 7
-      },
-      {
         "pos": 16,
-        "team": "Galatasaray",
+        "team": "FK Bodø/Glimt",
         "p": 5,
         "w": 2,
         "d": 1,
         "l": 2,
-        "gf": 8,
+        "gf": 5,
         "ga": 9,
         "pts": 7
       },
@@ -1571,6 +1572,17 @@
       },
       {
         "pos": 18,
+        "team": "LASK Linz",
+        "p": 5,
+        "w": 2,
+        "d": 0,
+        "l": 3,
+        "gf": 10,
+        "ga": 10,
+        "pts": 6
+      },
+      {
+        "pos": 19,
         "team": "Manchester United",
         "p": 4,
         "w": 2,
@@ -1581,7 +1593,29 @@
         "pts": 6
       },
       {
-        "pos": 19,
+        "pos": 20,
+        "team": "FC Porto",
+        "p": 5,
+        "w": 2,
+        "d": 0,
+        "l": 3,
+        "gf": 7,
+        "ga": 7,
+        "pts": 6
+      },
+      {
+        "pos": 21,
+        "team": "RB Leipzig",
+        "p": 5,
+        "w": 2,
+        "d": 0,
+        "l": 3,
+        "gf": 8,
+        "ga": 12,
+        "pts": 6
+      },
+      {
+        "pos": 22,
         "team": "Fenerbahçe",
         "p": 4,
         "w": 1,
@@ -1592,18 +1626,7 @@
         "pts": 5
       },
       {
-        "pos": 20,
-        "team": "FK Bodø/Glimt",
-        "p": 5,
-        "w": 1,
-        "d": 2,
-        "l": 2,
-        "gf": 4,
-        "ga": 9,
-        "pts": 5
-      },
-      {
-        "pos": 21,
+        "pos": 23,
         "team": "AS Roma",
         "p": 4,
         "w": 1,
@@ -1614,7 +1637,7 @@
         "pts": 4
       },
       {
-        "pos": 22,
+        "pos": 24,
         "team": "FK Shakhtar Donetsk",
         "p": 4,
         "w": 1,
@@ -1625,7 +1648,7 @@
         "pts": 4
       },
       {
-        "pos": 23,
+        "pos": 25,
         "team": "Viking FK",
         "p": 4,
         "w": 1,
@@ -1636,7 +1659,7 @@
         "pts": 4
       },
       {
-        "pos": 24,
+        "pos": 26,
         "team": "Atlético Madrid",
         "p": 4,
         "w": 1,
@@ -1647,40 +1670,29 @@
         "pts": 4
       },
       {
-        "pos": 25,
-        "team": "PSV",
-        "p": 4,
+        "pos": 27,
+        "team": "SSC Napoli",
+        "p": 5,
         "w": 1,
         "d": 1,
-        "l": 2,
-        "gf": 3,
-        "ga": 4,
+        "l": 3,
+        "gf": 8,
+        "ga": 13,
         "pts": 4
       },
       {
-        "pos": 26,
-        "team": "FC Porto",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 6,
-        "ga": 7,
-        "pts": 3
-      },
-      {
-        "pos": 27,
-        "team": "SSC Napoli",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 6,
-        "ga": 11,
-        "pts": 3
-      },
-      {
         "pos": 28,
+        "team": "PSV",
+        "p": 5,
+        "w": 1,
+        "d": 1,
+        "l": 3,
+        "gf": 4,
+        "ga": 9,
+        "pts": 4
+      },
+      {
+        "pos": 29,
         "team": "Villarreal",
         "p": 4,
         "w": 1,
@@ -1691,29 +1703,7 @@
         "pts": 3
       },
       {
-        "pos": 29,
-        "team": "PAE AEK",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 5,
-        "ga": 11,
-        "pts": 3
-      },
-      {
-        "pos": 29,
-        "team": "RB Leipzig",
-        "p": 4,
-        "w": 1,
-        "d": 0,
-        "l": 3,
-        "gf": 5,
-        "ga": 11,
-        "pts": 3
-      },
-      {
-        "pos": 31,
+        "pos": 30,
         "team": "Sabah FK",
         "p": 4,
         "w": 1,
@@ -1724,25 +1714,36 @@
         "pts": 3
       },
       {
-        "pos": 32,
-        "team": "Feyenoord Rotterdam",
-        "p": 4,
+        "pos": 31,
+        "team": "PAE AEK",
+        "p": 5,
         "w": 1,
         "d": 0,
-        "l": 3,
+        "l": 4,
+        "gf": 5,
+        "ga": 12,
+        "pts": 3
+      },
+      {
+        "pos": 32,
+        "team": "Feyenoord Rotterdam",
+        "p": 5,
+        "w": 1,
+        "d": 0,
+        "l": 4,
         "gf": 4,
-        "ga": 11,
+        "ga": 12,
         "pts": 3
       },
       {
         "pos": 33,
         "team": "Lens",
-        "p": 4,
+        "p": 5,
         "w": 1,
         "d": 0,
-        "l": 3,
-        "gf": 4,
-        "ga": 16,
+        "l": 4,
+        "gf": 5,
+        "ga": 19,
         "pts": 3
       },
       {
@@ -1770,12 +1771,12 @@
       {
         "pos": 36,
         "team": "ŠK Slovan Bratislava",
-        "p": 4,
+        "p": 5,
         "w": 0,
         "d": 0,
-        "l": 4,
+        "l": 5,
         "gf": 1,
-        "ga": 17,
+        "ga": 19,
         "pts": 0
       }
     ]
