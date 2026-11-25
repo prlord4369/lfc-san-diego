@@ -1983,14 +1983,20 @@ function render(data) {
       venueMap(v) +
       "<div class=\"watch-links\">" + (venueMapFor(v) ? "" : "<a href=\"" + esc(v.map) + "\" target=\"_blank\" rel=\"noopener\">Open in Maps</a>") +
       // Park Smarter: the app for San Diego street meters with the blue Park Smarter sticker
-      "<a id=\"park-link\" href=\"" + PARK.web + "\" target=\"_blank\" rel=\"noopener\">Pay for parking (Park Smarter)</a></div>";
+      "<a id=\"park-link\" href=\"" + PARK.web + "\" target=\"_blank\" rel=\"noopener\" title=\"Pay street meters with the Park Smarter app\">Street parking</a>" +
+      // Whiskey Girl only (owner, 2026-11-25): the Park It On Market garage (Ace Parking, 6th & Market), a block away.
+      // The name opens its ParkMobile page (rates, hours, pay ahead); "Map" opens it on Google Maps by name, as
+      // listings give two addresses (614 Market St / 631 6th Ave)
+      (venueMapFor(v) === VENUE_MAPS.whiskeygirl ? "<span class=\"park-garage\"><a href=\"https://parkmobile.io/parking/locations/ca/san-diego-parking/parking-lot/park-it-on-market-garage\" target=\"_blank\" rel=\"noopener\" title=\"Park It On Market garage, 6th Ave &amp; Market St: rates, hours and paying ahead (ParkMobile)\">Park It On Market</a> · " +
+        "<a href=\"https://www.google.com/maps/search/?api=1&amp;query=Park+It+On+Market+San+Diego+CA\" target=\"_blank\" rel=\"noopener\" title=\"Park It On Market on Google Maps\">Map</a></span>" : "") +
+      "</div>";
     // Phones get the app's store page, which shows "Open" when it's already installed and "Get"/"Install"
     // when it isn't. (Park Smarter publishes no app links or URL scheme, so a website can't open it directly;
     // tested on Android 2026-10.) Computers keep the website.
     var ua = navigator.userAgent || "", pl = document.getElementById("park-link");
     var isIOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
-    if (isIOS) { pl.href = PARK.ios; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
-    else if (/Android/.test(ua)) { pl.href = PARK.android; pl.textContent = "Pay for parking (Park Smarter app)"; pl.removeAttribute("target"); }
+    if (isIOS) { pl.href = PARK.ios; pl.removeAttribute("target"); }
+    else if (/Android/.test(ua)) { pl.href = PARK.android; pl.removeAttribute("target"); }
     // Not showing the next game anywhere ("venueClosed": true, set by hand in data.json): while it's the next game,
     // a red sash is pasted across the faded box
     if (next && next.venueClosed === true) {
