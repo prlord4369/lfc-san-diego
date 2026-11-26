@@ -289,6 +289,7 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
   .derby-stamp { top: 12px; right: 12px; width: 84px; height: 84px; }
   .hero.derby .label { padding-right: 88px; line-height: 1.45; }
   .hero.derby h1 { padding-right: 84px; }   /* the title wraps clear of the stamp */
+  .hero.derby.scoring .label, .hero.derby.scoring h1 { padding-right: 0; }   /* stamp hidden: full width again */
 }
 .fx-derby { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #a87a00; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .fx-derby { color: var(--gold); } }
@@ -1757,7 +1758,9 @@ function render(data) {
   // ESPN's colours are rough, so: a white / grey / pale colour, a red like ours or an orange / yellow (muddy when
   // darkened) gives way to the second colour, else charcoal; the one kept is set to the banner red's depth (26%
   // lightness) so the white text reads the same. OPP_SHADES overrides clubs ESPN gets wrong.
-  var OPP_SHADES = { "Everton": "#003399", "Leeds United": "#1d428a" };
+  // Keyed by ESPN team number (from oppKit.id) and by name, so a renamed club still matches
+  var OPP_SHADES = { "368": "#003399", "Everton": "#003399", "357": "#1d428a", "Leeds United": "#1d428a" };
+  var EVERTON_ESPN = "368";
   var hexHsl = function (hex) {
     var n = parseInt(hex, 16), r = (n >> 16 & 255) / 255, g = (n >> 8 & 255) / 255, b = (n & 255) / 255;
     var mx = Math.max(r, g, b), mn = Math.min(r, g, b), l = (mx + mn) / 2, s = 0, h = 0, d = mx - mn;
@@ -1765,7 +1768,7 @@ function render(data) {
     return [h, s, l];
   };
   var oppShade = function (name, kit) {
-    if (OPP_SHADES[name]) return OPP_SHADES[name];
+    if (OPP_SHADES[kit.id] || OPP_SHADES[name]) return OPP_SHADES[kit.id] || OPP_SHADES[name];
     var ok = function (hex) {
       if (!/^[0-9a-f]{6}$/i.test(hex || "")) return false;
       var c = hexHsl(hex);
@@ -1778,7 +1781,8 @@ function render(data) {
     if (c[1] < .18) return "#17181c";                                      // black
     return "hsl(" + Math.round(c[0]) + " " + Math.round(Math.min(c[1], .8) * 100) + "% 26%)";
   };
-  var isDerby = function (f) { return !!f && f.opp === "Everton" && /^Premier League/.test(f.comp || ""); };
+  // Any game against Everton, in any competition (owner, 2026-11-26); by ESPN's team number or the name
+  var isDerby = function (f) { return !!f && ((f.oppKit && f.oppKit.id === EVERTON_ESPN) || /^Everton\b/.test(f.opp || "")); };
   var heroKit = function (f) {
     var hero = document.getElementById("top"), oc = document.getElementById("hero-oc"), kit = f.oppKit;
     if (!kit || !(kit.color || kit.alt)) return;
