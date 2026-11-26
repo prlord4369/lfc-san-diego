@@ -270,7 +270,8 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 /* On wide screens both emblems stay next to the centred 1100 px content column instead of the screen's far corners
    (owner, 2026-11-26): the Liver Bird (126 px wide) ends 10 px left of the content, their crest (220 px) starts 10 px
    right of it; on narrower screens the corner positions win (max) */
-.hero.kit::before { top: -24px; left: max(-34px, calc(50% - 666px)); right: auto; transform: none; height: 230px; opacity: .13; }
+/* Liver Bird only slightly off the corner (owner: more of it in view than their crest; was -24 / -34 px) */
+.hero.kit::before { top: -10px; left: max(-10px, calc(50% - 666px)); right: auto; transform: none; height: 230px; opacity: .13; }
 .hero .hero-oc { position: absolute; bottom: -46px; right: max(-50px, calc(50% - 760px)); height: 220px; aspect-ratio: 1; pointer-events: none;
   background: var(--logo) center / contain no-repeat; opacity: .14; filter: grayscale(1) brightness(1.5); mix-blend-mode: screen;
   scale: var(--cs, 1); transform-origin: 100% 100%; transition: opacity .6s; }
@@ -300,7 +301,7 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 @media (max-width: 720px) {
   /* the fade starts halfway, so our red keeps most of a phone's banner (owner, 2026-11-26; was 30% → 82%) */
   .hero.kit { background: linear-gradient(135deg, var(--red-deep) 0 52%, var(--opp) 96%); }
-  .hero.kit::before { top: -14px; left: -26px; height: 180px; }
+  .hero.kit::before { top: -6px; left: -8px; height: 180px; }
   .hero .hero-oc { bottom: -30px; right: -44px; height: 160px; }
 }
 .hero h1 { font-size: clamp(2.6rem, 8vw, 5.4rem); margin-top: 10px; }
