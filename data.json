@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T02:44:16Z",
+  "updated": "2026-11-26T12:16:23Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -724,7 +724,7 @@
       "watchAt": "shakespeares",
       "usLocked": false,
       "us": "USA Network",
-      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released",
+      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/first-place-arsenal-host-third-place-manchester-city-this-sunday-nov-29-at-11-30-a-m-et-on-usa-network-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend",
       "h2h": [
         {
           "date": "2026-04-19",
@@ -1214,67 +1214,116 @@
   ],
   "injuries": [
     {
-      "player": "Ryan Gravenberch",
-      "pos": "MF",
-      "status": "doubt",
-      "issue": "Heel",
-      "detail": "He has been managed day to day with heel pain and was left out of the Club Brugge squad. Iraola has given no timeline for his return.",
-      "reported": "2026-11-24",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
-    },
-    {
       "player": "Cody Gakpo",
       "pos": "FW",
       "status": "out",
       "issue": "Soleus",
-      "detail": "He picked up a soleus (calf) injury on Netherlands duty and has not trained with Liverpool since. He is expected to miss the weekend and the Club Brugge game.",
+      "detail": "He hurt his calf on Netherlands duty and has not trained with Liverpool since. Iraola says he will miss the trip to Everton.",
       "reported": "2026-11-24",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-iraola-gakpo-gravenberch-injury-34960285"
     },
     {
-      "player": "Conor Bradley",
-      "pos": "DF",
-      "status": "out",
+      "player": "Ryan Gravenberch",
+      "pos": "MF",
+      "status": "doubt",
+      "issue": "Pain",
+      "detail": "He is still managing pain and is being assessed day to day, with no exact timeline for his return.",
+      "reported": "2026-11-24",
+      "source": "Liverpool.com",
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-iraola-gakpo-gravenberch-injury-34960285"
+    },
+    {
+      "player": "Victor Munoz",
+      "pos": "FW",
+      "status": "doubt",
       "issue": "Knee",
-      "detail": "He is back in team training after serious knee surgery but is not yet available. Liverpool expect him to return around mid-December.",
-      "reported": "2026-11-24",
+      "detail": "He limped off with a knee knock during the 3-0 win at Club Brugge and Iraola is assessing him ahead of the Everton game.",
+      "reported": "2026-11-25",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
-    },
-    {
-      "player": "Giovanni Leoni",
-      "pos": "DF",
-      "status": "out",
-      "issue": "ACL",
-      "detail": "He is back in team training after a long ACL recovery and is being managed carefully. Liverpool expect him to return around mid-December.",
-      "reported": "2026-11-24",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/liverpool-injury-news-club-brugge-34962548"
+      "url": "https://liverpool.com/liverpool-fc-news/features/victor-munoz-injury-worry-liverpool-34967235"
     },
     {
       "player": "Hugo Ekitike",
       "pos": "FW",
       "status": "out",
       "issue": "Achilles",
-      "detail": "He is still recovering from an Achilles rupture from April. Iraola says the plan remains a return in January 2027, with an earlier return possible if all goes well.",
-      "reported": "2026-11-21",
+      "detail": "He is still recovering from an Achilles rupture, and the club's plan is a return in January 2027.",
+      "reported": "2026-11-25",
       "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/hugo-ekitike-injury-update-21112026"
+      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
+    },
+    {
+      "player": "Conor Bradley",
+      "pos": "DF",
+      "status": "back",
+      "issue": "Knee",
+      "detail": "He is back in team training after knee surgery but is still regaining match sharpness and has not returned to games.",
+      "reported": "2026-11-25",
+      "source": "Liverpool.com",
+      "url": "https://liverpool.com/liverpool-fc-news/features/victor-munoz-injury-worry-liverpool-34967235"
+    },
+    {
+      "player": "Giovanni Leoni",
+      "pos": "DF",
+      "status": "back",
+      "issue": "ACL",
+      "detail": "He is back in team training after a long ACL layoff and is still regaining match sharpness.",
+      "reported": "2026-11-25",
+      "source": "Liverpool.com",
+      "url": "https://liverpool.com/liverpool-fc-news/features/victor-munoz-injury-worry-liverpool-34967235"
     },
     {
       "player": "Vitezslav Jaros",
       "pos": "GK",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is listed as unavailable with a knee problem in the Manchester United team news. No return date has been given in that report.",
+      "detail": "He is listed as unavailable with a knee problem in the Manchester United team news, and no return date was given there.",
       "reported": "2026-11-22",
       "source": "This Is Anfield",
       "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-man-united/"
     }
   ],
   "news": [
+    {
+      "date": "2026-11-26",
+      "source": "Liverpool Echo",
+      "title": "Dominik Szoboszlai lifts lid on Liverpool Champions League gameplan and 'slippery' issue",
+      "summary": "Dominik Szoboszlai has been speaking after Liverpool earned an impressive Champions League win at Club Brugge on Wednesday evening",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/dominik-szoboszlai-lifts-lid-liverpool-34968945",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34968993.ece/ALTERNATES/s615/0_Screenshot-2026-11-26-111910.png",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34968993.ece/ALTERNATES/s1200/0_Screenshot-2026-11-26-111910.png"
+    },
+    {
+      "date": "2026-11-26",
+      "source": "The Guardian",
+      "title": "Manchester United, Liverpool and Spurs using same law firm to set up legal claim against City",
+      "summary": "Rivals engage law firm Wiggin as they seek damages",
+      "url": "https://www.theguardian.com/football/2026/nov/26/manchester-united-liverpool-tottenham-arsenal-city-legal-claim-financial-breaches-damages",
+      "img": "https://i.guim.co.uk/img/media/2d8800366f7f8332f94b19e7e27114372d9bb59f/286_0_3540_2832/master/3540.jpg?width=460&quality=85&auto=format&fit=max&s=ec75ddd9f30bfa084e1a475c57889cba",
+      "big": "https://i.guim.co.uk/img/media/2d8800366f7f8332f94b19e7e27114372d9bb59f/286_0_3540_2832/master/3540.jpg?width=700&quality=85&auto=format&fit=max&s=f6d565605d4e4f5543f67d3b3c756ddf"
+    },
+    {
+      "date": "2026-11-26",
+      "source": "Liverpool Echo",
+      "title": "Uncommon Rio Ngumoha moment doesn't go unnoticed by Steven Gerrard - 'I love that bit'",
+      "summary": "Steven Gerrard showered Liverpool youngster Rio Ngumoha with praise following a dominant display during Wednesday evening's 3-0 win over Club Brugge",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/rio-ngumoha-liverpool-brugge-gerrard-34967876",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34967928.ece/ALTERNATES/s615/0_gera.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34967928.ece/ALTERNATES/s1200/0_gera.jpg"
+    },
+    {
+      "date": "2026-11-25",
+      "source": "BBC Sport",
+      "title": "'They are absolutely frightening' - Liverpool fan after UCL win",
+      "summary": "Liverpool fan Nahyan Chowdhury believes his side are finally starting to click under new manager Andoni Iraola.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c68j4plpxl47o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/b4a3/live/8705e900-e96b-11f1-a094-5fdc692f3e33.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/b4a3/live/8705e900-e96b-11f1-a094-5fdc692f3e33.jpg",
+      "tall": true
+    },
     {
       "date": "2026-11-25",
       "source": "BBC Sport",
@@ -1295,16 +1344,6 @@
     },
     {
       "date": "2026-11-25",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola explains what's changed with Alexander Isak and delivers Victor Munoz injury update",
-      "summary": "Andoni Iraola was speaking after his Liverpool side earned a superb 3-0 win at Club Brugge in the Champions League",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-explains-whats-changed-34967540",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34967541.ece/ALTERNATES/s615/0_GettyImages-2306336639.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34967541.ece/ALTERNATES/s1200/0_GettyImages-2306336639.jpg"
-    },
-    {
-      "date": "2026-11-25",
       "source": "BBC Sport",
       "title": "Isak and Wirtz in a 'good place' - Iraola",
       "summary": "Liverpool head coach Andoni Iraola says Alexander Isak and Florian Wirtz are in a \"good place\" after both got on the scoresheet in a 3-0 victory over Club Brugge in the Champions…",
@@ -1315,21 +1354,12 @@
     },
     {
       "date": "2026-11-25",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola has got something brewing at Liverpool as star duo leave no-one in doubt",
-      "summary": "The Ian Doyle verdict from Belgium as Liverpool earned their fourth win in five Champions League matches this season",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/match-reports/andoni-iraola-something-brewing-liverpool-34963408",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34967529.ece/ALTERNATES/s615/0_GettyImages-2306318506.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34967529.ece/ALTERNATES/s1200/0_GettyImages-2306318506.jpg"
-    },
-    {
-      "date": "2026-11-25",
       "source": "The Guardian",
       "title": "Isak and Wirtz on target as resurgent Liverpool sweep aside Club Brugge",
       "summary": "Liverpool, from big money individuals to the collective, are building formidable momentum.",
       "url": "https://www.theguardian.com/football/2026/nov/25/club-brugge-liverpool-champions-league-match-report",
-      "img": "https://i.guim.co.uk/img/media/217f37b87ab0b8f2137224791cf4ae48697dcf9d/131_0_3251_2601/master/3251.jpg?width=460&quality=85&auto=format&fit=max&s=636ed1978a440b7e9935975d2d9d9f45",
-      "big": "https://i.guim.co.uk/img/media/217f37b87ab0b8f2137224791cf4ae48697dcf9d/131_0_3251_2601/master/3251.jpg?width=700&quality=85&auto=format&fit=max&s=5fca53e6c81990267ccfa2c4bae2da5d"
+      "img": "https://i.guim.co.uk/img/media/7f5594be0e1a2dc758f3598b04ccc453de05b28b/1617_333_5847_4677/master/5847.jpg?width=460&quality=85&auto=format&fit=max&s=624dbe1c4cbc9348702fc6b767de52b4",
+      "big": "https://i.guim.co.uk/img/media/7f5594be0e1a2dc758f3598b04ccc453de05b28b/1617_333_5847_4677/master/5847.jpg?width=700&quality=85&auto=format&fit=max&s=915255c6d792a8b7e36a335609cf723e"
     },
     {
       "date": "2026-11-25",
@@ -1360,15 +1390,6 @@
       "tall": true
     },
     {
-      "date": "2026-11-25",
-      "source": "BBC Sport",
-      "title": "Why are there 2:05pm kick-offs in the Premier League on Sunday?",
-      "summary": "Our Ask Me Anything team explain why the Premier League fixtures have some unusual kick-off times this weekend.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cm4gn8pneklxo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/93e1/live/1b641f20-e8bf-11f1-99b6-a35a62fa4264.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/93e1/live/1b641f20-e8bf-11f1-99b6-a35a62fa4264.jpg"
-    },
-    {
       "date": "2026-11-24",
       "source": "The Guardian",
       "title": "Pochettino criticises Premier League officiating after Yoro red card overturned",
@@ -1376,15 +1397,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
       "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
       "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
-    },
-    {
-      "date": "2026-11-24",
-      "source": "The Guardian",
-      "title": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
-      "summary": "Playmaker in best form since moving to Anfield",
-      "url": "https://www.theguardian.com/football/2026/nov/24/florian-wirtz-hails-iraola-and-klopp-as-he-reaches-new-levels-for-liverpool",
-      "img": "https://i.guim.co.uk/img/media/e3c654b16203f677c30937b9d4930062eed2c363/819_1051_2289_1831/master/2289.jpg?width=460&quality=85&auto=format&fit=max&s=943763814de90884e58619bdb0622c76",
-      "big": "https://i.guim.co.uk/img/media/e3c654b16203f677c30937b9d4930062eed2c363/819_1051_2289_1831/master/2289.jpg?width=700&quality=85&auto=format&fit=max&s=4fecc72105fdd694a1f62fec00789ac8"
     }
   ],
   "outlets": [
@@ -2794,5 +2806,5 @@
     "headlinesFor": null,
     "checked": "2026-11-26"
   },
-  "fullUpdated": "2026-11-25T12:16:12Z"
+  "fullUpdated": "2026-11-26T12:16:22Z"
 }
