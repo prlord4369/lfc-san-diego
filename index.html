@@ -529,6 +529,17 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .ha { font: 700 .66rem/1 var(--font-body); letter-spacing: .08em; padding: 3px 5px; border-radius: 3px; border: 1px solid currentColor; }
 .ha.H { color: var(--red); } .ha.A { color: var(--muted); }
 .comp.intl { color: var(--pacific); font-weight: 600; }
+/* Competition chips (2026-11-26, owner chose "B" from mockups/comp-colours/), in each competition's own recognised
+   colours (owner: "use the recognised colours wherever possible, adjust the others to remain different"), the same in
+   light and dark mode: Champions League UEFA navy-blue; Europa League orange (dark text: white on orange is too faint);
+   Carabao Cup Carabao green; FA Cup its logo's navy / red diagonal split (so it isn't another blue); Conference League
+   its bright green as text on a dark chip (a filled green would match the Carabao Cup). Premier League stays grey. */
+.comp[class*=" c-"] { color: #fff; font-weight: 700; padding: 1px 7px 2px; border-radius: 3px; font-size: .72rem; letter-spacing: .02em; }
+.comp.c-ucl { background: #1b2f8f; }
+.comp.c-uel { background: #f26b0f; color: #1c1517; }
+.comp.c-uecl { background: #0f2419; color: #2fd04a; }
+.comp.c-carabao { background: #00843d; }
+.comp.c-fa { background: linear-gradient(115deg, #1a2a5e 0 55%, #d1112b 55% 100%); }
 .fx .tv { font-size: .78rem; color: var(--pacific); margin-top: 3px; }
 .fx .tv .label { font-size: .62rem; margin-right: 2px; }
 .fx .t { text-align: right; }
@@ -1781,6 +1792,12 @@ function render(data) {
     if (c[1] < .18) return "#17181c";                                      // black
     return "hsl(" + Math.round(c[0]) + " " + Math.round(Math.min(c[1], .8) * 100) + "% 26%)";
   };
+  // Competition chip in the fixtures and results lists (see .comp.c-ucl): "" for the Premier League and anything else
+  var compChip = function (comp) {
+    return /^Champions/i.test(comp) ? " c-ucl" : /^(UEFA )?Europa League/i.test(comp) ? " c-uel"
+      : /^(UEFA )?(Europa )?Conference League/i.test(comp) ? " c-uecl"
+      : /^(Carabao|League Cup)/i.test(comp) ? " c-carabao" : /^FA Cup/i.test(comp) ? " c-fa" : "";
+  };
   // Any game against Everton, in any competition (owner, 2026-11-26); by ESPN's team number or the name
   var isDerby = function (f) { return !!f && ((f.oppKit && f.oppKit.id === EVERTON_ESPN) || /^Everton\b/.test(f.opp || "")); };
   var heroKit = function (f) {
@@ -2407,7 +2424,7 @@ function render(data) {
         (f.dateTbc ? "<div class=\"d\"><b>–</b><small>TBC</small></div>"
           : "<div class=\"d\"><b>" + fmt(f.d, { day: "numeric" }) + "</b><small>" + fmt(f.d, { weekday: "short" }) + "</small></div>") +
         "<div><div class=\"opp\">" + teamLink(f.opp) + "</div><div class=\"sub\"><span class=\"ha " + esc(f.ha) + "\">" + (f.ha === "H" ? "HOME" : "AWAY") + "</span>" +
-        "<span class=\"comp" + (f.scope === "international" ? " intl" : "") + "\">" + esc(f.comp) + "</span>" + early + "</div>" +
+        "<span class=\"comp" + compChip(f.comp) + "\">" + esc(f.comp) + "</span>" + early + "</div>" +
         (usTV(f) ? "<div class=\"tv\"><span class=\"label\">Watch on:</span> " + esc(usTV(f)) + "</div>" : "") + "</div>" +
         (f.dateTbc ? "<div class=\"t\"><span class=\"mono\">" + weekOf(f) + "</span><small>Date TBC</small></div>"
           : "<div class=\"t\"><span class=\"mono\">" + fmt(f.d, { hour: "numeric", minute: "2-digit" }) + "</span><small>" + (f.tbc ? "PT · TBC" : "PT") + "</small></div>") +
@@ -2439,7 +2456,7 @@ function render(data) {
         "<div class=\"d\"><b>" + new Intl.DateTimeFormat("en-US", { timeZone: "UTC", day: "numeric" }).format(dt) + "</b><small>" +
           new Intl.DateTimeFormat("en-US", { timeZone: "UTC", weekday: "short" }).format(dt) + "</small></div>" +
         "<div><div class=\"opp\">" + teamLink(r.opp) + "</div><div class=\"sub\"><span class=\"ha " + esc(r.ha) + "\">" + (r.ha === "H" ? "HOME" : r.ha === "A" ? "AWAY" : "NEUTRAL") + "</span>" +
-          "<span class=\"comp" + (/champions/i.test(r.comp) ? " intl" : "") + "\">" + esc(r.comp + (r.round ? " · " + r.round : "")) + "</span>" +
+          "<span class=\"comp" + compChip(r.comp) + "\">" + esc(r.comp + (r.round ? " · " + r.round : "")) + "</span>" +
           (r.pens ? "<span>" + (res === "W" ? "Won" : "Lost") + " on penalties</span>" : "") + "</div></div>" +
         "<div class=\"t rs-t\"><span class=\"rs-score\">" + (r.pens ? resultScore(r) : esc(String(r.score).replace("-", "–"))) + "</span>" +
           "<span class=\"fm-b " + res + "\">" + res + "</span>" +
