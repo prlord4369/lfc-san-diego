@@ -274,8 +274,28 @@ html { scroll-padding-top: calc(var(--header-h, 72px) + env(safe-area-inset-top,
 /* A mostly dark crest (Spurs' navy cockerel) is flipped light first, or it would all but vanish */
 .hero.darkcrest .hero-oc { filter: grayscale(1) invert(1) brightness(1.1); }
 .hero.scoring .hero-oc { opacity: 0; }
+/* Merseyside Derby (2026-11-26, owner chose the stamp, "option B" from mockups/derby/derby-label.html): Premier League
+   games against Everton get a tilted gold "Derby Day" stamp and "The Merseyside Derby" in gold in the label. Computers:
+   the stamp sits above the countdown at the right of the banner's content; phones: top-right corner, the label
+   wrapping beside it. Hidden while the live score shows (the score takes that space); the gold label stays. */
+.derby-stamp { position: absolute; top: 14px; right: 18px; width: 118px; height: 118px; transform: rotate(-12deg); color: var(--derby);
+  pointer-events: none; }
+.derby-stamp text { font: 800 15px var(--font-display); letter-spacing: 2.6px; text-transform: uppercase; fill: currentColor; }
+.derby-stamp .mid { font-size: 30px; letter-spacing: 1px; }
+.hero { --derby: #e8b23a; }
+.hero .label .derby { color: var(--derby); font-weight: 700; }
+.hero.scoring .derby-stamp { display: none; }
 @media (max-width: 720px) {
-  .hero.kit { background: linear-gradient(135deg, var(--red-deep) 0 30%, var(--opp) 82%); }
+  .derby-stamp { top: 12px; right: 12px; width: 84px; height: 84px; }
+  .hero.derby .label { padding-right: 88px; line-height: 1.45; }
+  .hero.derby h1 { padding-right: 84px; }   /* the title wraps clear of the stamp */
+}
+.fx-derby { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #a87a00; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .fx-derby { color: var(--gold); } }
+:root[data-theme="dark"] .fx-derby { color: var(--gold); }
+@media (max-width: 720px) {
+  /* the fade starts halfway, so our red keeps most of a phone's banner (owner, 2026-11-26; was 30% → 82%) */
+  .hero.kit { background: linear-gradient(135deg, var(--red-deep) 0 52%, var(--opp) 96%); }
   .hero.kit::before { top: -14px; left: -26px; height: 180px; }
   .hero .hero-oc { bottom: -30px; right: -44px; height: 160px; }
 }
@@ -1286,6 +1306,10 @@ a.fm-sq:hover { outline: 2px solid var(--fg); outline-offset: 1px; }
 <div class="hero" id="top">
   <div class="hero-oc" id="hero-oc" aria-hidden="true" hidden></div>
   <div class="wrap">
+    <svg class="derby-stamp" id="derby-stamp" viewBox="0 0 128 128" aria-hidden="true" hidden><defs><path id="derby-ring" d="M64,64 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0"/></defs>
+      <circle cx="64" cy="64" r="61" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="64" cy="64" r="39" fill="none" stroke="currentColor" stroke-width="1.5"/>
+      <text><textPath href="#derby-ring">Merseyside Derby ★ Merseyside Derby ★</textPath></text>
+      <text class="mid" x="64" y="61" text-anchor="middle">Derby</text><text class="mid" x="64" y="86" text-anchor="middle">Day</text></svg>
     <div>
       <div class="label" id="next-label">Next match</div>
       <h1 id="next-title">Liverpool <span class="v">v</span> —</h1>
@@ -1754,6 +1778,7 @@ function render(data) {
     if (c[1] < .18) return "#17181c";                                      // black
     return "hsl(" + Math.round(c[0]) + " " + Math.round(Math.min(c[1], .8) * 100) + "% 26%)";
   };
+  var isDerby = function (f) { return !!f && f.opp === "Everton" && /^Premier League/.test(f.comp || ""); };
   var heroKit = function (f) {
     var hero = document.getElementById("top"), oc = document.getElementById("hero-oc"), kit = f.oppKit;
     if (!kit || !(kit.color || kit.alt)) return;
@@ -1795,7 +1820,11 @@ function render(data) {
   var next = fixtures.filter(function (f) { return !f.dateTbc; })[0];
   if (next) {
     var home = next.ha === "H";
-    document.getElementById("next-label").textContent = "Next match · " + next.comp;
+    // Merseyside Derby: Premier League games against Everton get the stamp and a gold label (see .derby-stamp)
+    var derby = isDerby(next), derbyText = derby ? "<span class=\"derby\">The Merseyside Derby</span> · " : "";
+    document.getElementById("next-label").innerHTML = "Next match · " + derbyText + esc(next.comp);
+    document.getElementById("derby-stamp").toggleAttribute("hidden", !derby);   // an <svg> has no .hidden property
+    document.getElementById("top").classList.toggle("derby", derby);
     document.getElementById("next-title").innerHTML = home
       ? "Liverpool <span class=\"v\">v</span> " + esc(next.opp)
       : esc(next.opp) + " <span class=\"v\">v</span> Liverpool";
@@ -2010,7 +2039,7 @@ function render(data) {
           // No minute (football-data.org fallback): name the half from the time since kick-off (first half + stoppage ends by ~50 min)
           : (Date.now() - new Date(s.kickoff) < 50 * 60e3 ? "1st half" : "2nd half");
         document.getElementById("next-label").innerHTML = (s.live ? "<span class=\"live-dot\" aria-hidden=\"true\"></span>Live · "
-          : s.status === "FINISHED" ? "Final score · " : "") + esc(next.comp);
+          : s.status === "FINISHED" ? "Final score · " : "") + derbyText + esc(next.comp);
         cd.setAttribute("aria-label", "Score");
         // Team badge when the relay supplies one; the abbreviation otherwise (or if the image fails to load)
         var side = function (t) {
@@ -2366,7 +2395,8 @@ function render(data) {
       if (m !== month) { html += "<div class=\"month\">" + m + "</div>"; month = m; }
       if (brk && html.indexOf("fx-break") < 0) html += brk;   // at the top of the list: under the first heading
       if (day) prevDay = day;
-      var h = ptHour(f.d), early = (h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "") +
+      var h = ptHour(f.d), early = (isDerby(f) ? "<span class=\"fx-derby\">Merseyside Derby</span>" : "") +
+        (h < 6 && !f.dateTbc ? "<span class=\"early\">Pre-dawn</span>" : "") +
         (!homeVenue ? "" : f.venueClosed === true ? "<span class=\"novenue\">Bar will not be open</span>"
           : awayFromHome(f) ? "<span class=\"atvenue\">At " + esc(venueShort(venueFor(f))) + "</span>" : "");
       html += "<div class=\"fx\">" +
