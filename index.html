@@ -737,6 +737,9 @@ section { min-width: 0; scroll-margin-top: 16px; }
 .watch.closed .vmap { pointer-events: none; }
 .hero .meta a { color: inherit; }
 footer { border-top: 1px solid var(--line); background: var(--surface); }
+/* Kept out until the opened page is drawn (2026-11-25: Web Vitals showed the footer shifting 0.157 when a link opened
+   straight onto a page that was still empty, e.g. a shared match report); appearing later isn't a layout shift */
+html:not(.ft-on) footer { display: none; }
 footer .wrap { padding-block: 22px; font-size: .8rem; color: var(--muted); display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; }
 
 @media (max-width: 820px) {
@@ -1496,6 +1499,11 @@ a.fm-sq:hover { outline: 2px solid var(--fg); outline-offset: 1px; }
   </div>
 </div>
 
+<script>
+// Shows the footer (hidden by CSS until the opened page is drawn); also after 8 s in case data.json never arrives
+window.lfcFooterOn = function () { document.documentElement.classList.add("ft-on"); };
+setTimeout(window.lfcFooterOn, 8000);
+</script>
 <footer>
   <div class="wrap">
     <span>LFC Official Supporters Club San Diego · You'll Never Walk Alone</span>
@@ -2816,6 +2824,8 @@ function render(data) {
   var updText = "Updated " + fmt(upd, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }) + " PT";
   document.getElementById("updated").textContent = updText;
   document.getElementById("news-upd").textContent = updText;
+  // Footer in once the page is drawn; a match report shows it itself once its own file has loaded
+  if (!/^#report-/.test(location.hash)) window.lfcFooterOn();
 }
 </script>
 
@@ -2878,9 +2888,10 @@ function render(data) {
     body.innerHTML = "<p class=\"rp-msg\">Loading the match report…</p>";
     fetch("reports/" + id + ".json", { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(function (R) { cache[id] = R; if (cur === id) draw(R, data); })
+      .then(function (R) { cache[id] = R; if (cur === id) draw(R, data); window.lfcFooterOn(); })
       .catch(function () {
         if (cur === id) body.innerHTML = "<p class=\"rp-msg\">This match report isn't available yet. <a href=\"#results\">See all results</a>.</p>";
+        window.lfcFooterOn();
       });
   };
 
