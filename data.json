@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T12:16:28Z",
+  "updated": "2026-11-27T15:30:45Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -905,6 +905,8 @@
       "venueClosed": false,
       "watchAt": "whiskeygirl",
       "usLocked": false,
+      "us": "Paramount+",
+      "usUrl": "https://worldsoccertalk.com/champions-league-tv-schedule/",
       "h2h": [
         {
           "date": "2021-11-24",
@@ -957,9 +959,7 @@
         "color": "0000dd",
         "alt": "ffa000",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
-      },
-      "us": "Paramount+",
-      "usUrl": "https://worldsoccertalk.com/champions-league-tv-schedule/"
+      }
     },
     {
       "kickoff": "2026-12-12T15:00:00Z",
@@ -1313,6 +1313,25 @@
   "news": [
     {
       "date": "2026-11-27",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola makes Alisson feelings clear before Liverpool landmark - 'reference in the position'",
+      "summary": "Alisson registered an assist for Alexander Isak's second goal in the 3-0 win over Club Brugge in the Champions League on Wednesday",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-makes-alisson-feelings-34976508",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34976547.ece/ALTERNATES/s615/0_GettyImages-2306369266-1.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34976547.ece/ALTERNATES/s1200/0_GettyImages-2306369266-1.jpg"
+    },
+    {
+      "date": "2026-11-27",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola Liverpool press conference LIVE - Victor Munoz, Ryan Gravenberch injury news",
+      "summary": "Liverpool boss Andoni Iraola will face the press ahead of the 249th Merseyside derby at Hill Dickinson Stadium on Sunday afternoon",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/iraola-liverpool-press-conference-live-34975267",
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34975317.ece/ALTERNATES/s615/0_GettyImages-2291419066.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34975317.ece/ALTERNATES/s1200/0_GettyImages-2291419066.jpg"
+    },
+    {
+      "date": "2026-11-27",
       "source": "BBC Sport",
       "title": "Fans give conflicting Merseyside derby predictions",
       "summary": "Everton fan Sarah Halpin and Liverpool fan Nahyan Chowdhury give their Merseyside derby predictions ahead of the big match at the Hill Dickinson stadium on Sunday",
@@ -1329,26 +1348,6 @@
       "url": "https://www.bbc.co.uk/sport/football/articles/crgqxn1k283zo",
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ae39/live/a021d870-e9ae-11f1-859a-37130cd3a1d7.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ae39/live/a021d870-e9ae-11f1-859a-37130cd3a1d7.jpg"
-    },
-    {
-      "date": "2026-11-26",
-      "source": "Liverpool Echo",
-      "title": "Florian Wirtz's last four goals sum him up perfectly - now Liverpool need to take this form into derby",
-      "summary": "Our Reds Jury convene to discuss matters following the wins over Manchester United and Club Brugge and ahead of Sunday's Merseyside derby",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtzs-last-four-goals-34972653",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34972659.ece/ALTERNATES/s615/0_GettyImages-2306889769.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34972659.ece/ALTERNATES/s1200/0_GettyImages-2306889769.jpg"
-    },
-    {
-      "date": "2026-11-26",
-      "source": "Liverpool Echo",
-      "title": "Andoni Iraola faces difficult Trey Nyoni decision as Liverpool forward options in danger",
-      "summary": "Liverpool are next up against Everton in the Premier League with Andoni Iraola facing some selection posers",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-faces-difficult-trey-34969740",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970728.ece/ALTERNATES/s615/0_GettyImages-2306291479.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970728.ece/ALTERNATES/s1200/0_GettyImages-2306291479.jpg"
     },
     {
       "date": "2026-11-26",
