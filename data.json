@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T02:44:35Z",
+  "updated": "2026-11-27T12:16:28Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -957,7 +957,9 @@
         "color": "0000dd",
         "alt": "ffa000",
         "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png"
-      }
+      },
+      "us": "Paramount+",
+      "usUrl": "https://worldsoccertalk.com/champions-league-tv-schedule/"
     },
     {
       "kickoff": "2026-12-12T15:00:00Z",
@@ -973,8 +975,8 @@
       "opp": "AFC Bournemouth",
       "ha": "H",
       "comp": "Carabao Cup QF",
-      "tbc": false,
       "scope": "domestic",
+      "tbc": false,
       "kickoff": "2026-12-16T20:00:00Z",
       "venueClosed": false,
       "watchAt": "whiskeygirl",
@@ -1242,30 +1244,30 @@
       "pos": "FW",
       "status": "out",
       "issue": "Soleus",
-      "detail": "He hurt his calf on Netherlands duty and has not trained with Liverpool since. Iraola says he will miss the trip to Everton.",
-      "reported": "2026-11-24",
+      "detail": "He strained his calf on Netherlands duty and has not trained with Liverpool since. He has been ruled out of the Everton derby.",
+      "reported": "2026-11-26",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-iraola-gakpo-gravenberch-injury-34960285"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
     },
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
       "status": "doubt",
-      "issue": "Pain",
-      "detail": "He is still managing pain and is being assessed day to day, with no exact timeline for his return.",
-      "reported": "2026-11-24",
+      "issue": "Heel pain",
+      "detail": "He is still managing heel pain and is being assessed day to day, with no fixed date for a return.",
+      "reported": "2026-11-26",
       "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/breaking-iraola-gakpo-gravenberch-injury-34960285"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He limped off with a knee knock during the 3-0 win at Club Brugge and Iraola is assessing him ahead of the Everton game.",
-      "reported": "2026-11-25",
+      "detail": "He limped off with a knee knock in the 3-0 win at Club Brugge, and Iraola is assessing him ahead of the Everton game.",
+      "reported": "2026-11-26",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/victor-munoz-injury-worry-liverpool-34967235"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
     },
     {
       "player": "Hugo Ekitike",
@@ -1282,20 +1284,20 @@
       "pos": "DF",
       "status": "back",
       "issue": "Knee",
-      "detail": "He is back in team training after knee surgery but is still regaining match sharpness and has not returned to games.",
-      "reported": "2026-11-25",
+      "detail": "He is back in team training after knee surgery but is still building up match sharpness and has not returned to games.",
+      "reported": "2026-11-26",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/victor-munoz-injury-worry-liverpool-34967235"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
       "status": "back",
       "issue": "ACL",
-      "detail": "He is back in team training after a long ACL layoff and is still regaining match sharpness.",
-      "reported": "2026-11-25",
+      "detail": "He is back in team training after a long ACL layoff and is being brought back slowly toward full match fitness.",
+      "reported": "2026-11-26",
       "source": "Liverpool.com",
-      "url": "https://liverpool.com/liverpool-fc-news/features/victor-munoz-injury-worry-liverpool-34967235"
+      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
     },
     {
       "player": "Vitezslav Jaros",
@@ -1310,6 +1312,45 @@
   ],
   "news": [
     {
+      "date": "2026-11-27",
+      "source": "BBC Sport",
+      "title": "Fans give conflicting Merseyside derby predictions",
+      "summary": "Everton fan Sarah Halpin and Liverpool fan Nahyan Chowdhury give their Merseyside derby predictions ahead of the big match at the Hill Dickinson stadium on Sunday",
+      "url": "https://www.bbc.co.uk/sport/football/videos/c6gqxnkw8k94o",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ae07/live/3fa69430-ea54-11f1-99a1-253766e7ad8b.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ae07/live/3fa69430-ea54-11f1-99a1-253766e7ad8b.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-26",
+      "source": "BBC Sport",
+      "title": "What makes or breaks a high press?",
+      "summary": "A good high press has been the basis for some of the most successful sides in modern football, but what determines whether a press works or fails?",
+      "url": "https://www.bbc.co.uk/sport/football/articles/crgqxn1k283zo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ae39/live/a021d870-e9ae-11f1-859a-37130cd3a1d7.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/ae39/live/a021d870-e9ae-11f1-859a-37130cd3a1d7.jpg"
+    },
+    {
+      "date": "2026-11-26",
+      "source": "Liverpool Echo",
+      "title": "Florian Wirtz's last four goals sum him up perfectly - now Liverpool need to take this form into derby",
+      "summary": "Our Reds Jury convene to discuss matters following the wins over Manchester United and Club Brugge and ahead of Sunday's Merseyside derby",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/florian-wirtzs-last-four-goals-34972653",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34972659.ece/ALTERNATES/s615/0_GettyImages-2306889769.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34972659.ece/ALTERNATES/s1200/0_GettyImages-2306889769.jpg"
+    },
+    {
+      "date": "2026-11-26",
+      "source": "Liverpool Echo",
+      "title": "Andoni Iraola faces difficult Trey Nyoni decision as Liverpool forward options in danger",
+      "summary": "Liverpool are next up against Everton in the Premier League with Andoni Iraola facing some selection posers",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/andoni-iraola-faces-difficult-trey-34969740",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970728.ece/ALTERNATES/s615/0_GettyImages-2306291479.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970728.ece/ALTERNATES/s1200/0_GettyImages-2306291479.jpg"
+    },
+    {
       "date": "2026-11-26",
       "source": "The Guardian",
       "title": "Premier League: 10 things to look out for this weekend",
@@ -1317,26 +1358,6 @@
       "url": "https://www.theguardian.com/football/2026/nov/27/premier-league-10-things-to-look-out-for-this-weekend",
       "img": "https://i.guim.co.uk/img/media/6b17bad4df91456b787fe6c67a779cca98741573/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=af33a069e6f4950fcec8c6ad92177f49",
       "big": "https://i.guim.co.uk/img/media/6b17bad4df91456b787fe6c67a779cca98741573/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=dcaeb8ed13770401f34870ababc4bc51"
-    },
-    {
-      "date": "2026-11-26",
-      "source": "Liverpool Echo",
-      "title": "Virgil van Dijk details Alexander Isak change and issues strong claim over Liverpool striker",
-      "summary": "Virgil van Dijk has praised the growing impact of Alexander Isak at Liverpool after the Champions League win at Club Brugge",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/virgil-van-dijk-details-alexander-34968965",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34971615.ece/ALTERNATES/s615/0_GettyImages-2306369237.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34971615.ece/ALTERNATES/s1200/0_GettyImages-2306369237.jpg"
-    },
-    {
-      "date": "2026-11-26",
-      "source": "Liverpool Echo",
-      "title": "Jeremy Jacquet has 'improved Liverpool star's confidence' but Bradley Barcola questioned",
-      "summary": "Pundit Ally McCoist ran the rule over two of the Reds' biggest signings of the summer as Iraola's side begin to click",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jeremy-jacquet-improved-liverpool-stars-34969746",
-      "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970509.ece/ALTERNATES/s615/0_GettyImages-2300502290-1.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970509.ece/ALTERNATES/s1200/0_GettyImages-2300502290-1.jpg"
     },
     {
       "date": "2026-11-26",
@@ -1386,16 +1407,6 @@
     },
     {
       "date": "2026-11-25",
-      "source": "BBC Sport",
-      "title": "Isak and Wirtz in a 'good place' - Iraola",
-      "summary": "Liverpool head coach Andoni Iraola says Alexander Isak and Florian Wirtz are in a \"good place\" after both got on the scoresheet in a 3-0 victory over Club Brugge in the Champions…",
-      "url": "https://www.bbc.co.uk/sport/football/videos/cm4gn8vy1v31o",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6da6/live/0acee8f0-e925-11f1-9ad5-d90638539be9.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6da6/live/0acee8f0-e925-11f1-9ad5-d90638539be9.jpg",
-      "tall": true
-    },
-    {
-      "date": "2026-11-25",
       "source": "The Guardian",
       "title": "Isak and Wirtz on target as resurgent Liverpool sweep aside Club Brugge",
       "summary": "Liverpool, from big money individuals to the collective, are building formidable momentum.",
@@ -1411,16 +1422,6 @@
       "url": "https://www.skysports.com/football/club-brugge-vs-liverpool/report/577679",
       "img": "https://e0.365dm.com/26/11/768x432/skysports-alexander-isak-liverpool_7416550.jpg?20261125203911",
       "big": "https://e0.365dm.com/26/11/1600x900/skysports-alexander-isak-liverpool_7416550.jpg?20261125203911"
-    },
-    {
-      "date": "2026-11-25",
-      "source": "BBC Sport",
-      "title": "Ex-West Ham Freddie Potts on facing Liverpool in Champions League",
-      "summary": "Freddie Potts is loving life at Club Brugge and now the ex-West Ham academy star talks about preparing to face Liverpool in the Champions League.",
-      "url": "https://www.bbc.co.uk/sport/football/videos/c69q8xp90ewpo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6002/live/fce724f0-e8d9-11f1-99b6-a35a62fa4264.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6002/live/fce724f0-e8d9-11f1-99b6-a35a62fa4264.jpg",
-      "tall": true
     }
   ],
   "outlets": [
@@ -2830,5 +2831,5 @@
     "headlinesFor": null,
     "checked": "2026-11-27"
   },
-  "fullUpdated": "2026-11-26T12:16:22Z"
+  "fullUpdated": "2026-11-27T12:16:25Z"
 }
