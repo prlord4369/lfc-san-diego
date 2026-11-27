@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T20:00:49Z",
+  "updated": "2026-11-27T23:30:52Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -426,11 +426,11 @@
         "team": "Chelsea",
         "p": 12,
         "w": 5,
-        "d": 2,
-        "l": 5,
-        "gf": 20,
-        "ga": 20,
-        "pts": 17
+        "d": 1,
+        "l": 6,
+        "gf": 22,
+        "ga": 23,
+        "pts": 16
       },
       {
         "pos": 9,
@@ -489,6 +489,17 @@
       },
       {
         "pos": 14,
+        "team": "Nottingham Forest",
+        "p": 12,
+        "w": 3,
+        "d": 3,
+        "l": 6,
+        "gf": 12,
+        "ga": 17,
+        "pts": 12
+      },
+      {
+        "pos": 15,
         "team": "Coventry City",
         "p": 11,
         "w": 4,
@@ -499,7 +510,7 @@
         "pts": 12
       },
       {
-        "pos": 15,
+        "pos": 16,
         "team": "Fulham",
         "p": 11,
         "w": 2,
@@ -510,7 +521,7 @@
         "pts": 11
       },
       {
-        "pos": 16,
+        "pos": 17,
         "team": "Ipswich Town",
         "p": 11,
         "w": 3,
@@ -519,17 +530,6 @@
         "gf": 15,
         "ga": 22,
         "pts": 11
-      },
-      {
-        "pos": 17,
-        "team": "Nottingham Forest",
-        "p": 12,
-        "w": 2,
-        "d": 4,
-        "l": 6,
-        "gf": 9,
-        "ga": 15,
-        "pts": 10
       },
       {
         "pos": 18,
@@ -1314,20 +1314,21 @@
     {
       "date": "2026-11-27",
       "source": "Liverpool Echo",
+      "title": "David Moyes identifies way Everton can close gap on Liverpool amid ownership uncertainty",
+      "summary": "David Moyes was speaking ahead of the 249th Merseyside derby between Everton and Liverpool that will take place on Sunday afternoon at Hill Dickinson Stadium",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-identifies-way-everton-34978806",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34978816.ece/ALTERNATES/s615/0_GettyImages-2306533312.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34978816.ece/ALTERNATES/s1200/0_GettyImages-2306533312.jpg"
+    },
+    {
+      "date": "2026-11-27",
+      "source": "Liverpool Echo",
       "title": "Andoni Iraola Liverpool press conference - Victor Munoz, Ryan Gravenberch injury news",
       "summary": "Liverpool boss Andoni Iraola will face the press ahead of the 249th Merseyside derby at Hill Dickinson Stadium on Sunday afternoon",
       "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/iraola-liverpool-press-conference-live-34975267",
       "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34975317.ece/ALTERNATES/s615/0_GettyImages-2291419066.jpg",
       "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34975317.ece/ALTERNATES/s1200/0_GettyImages-2291419066.jpg"
-    },
-    {
-      "date": "2026-11-27",
-      "source": "Liverpool Echo",
-      "title": "David Moyes press conference - Everton injury and team news for Merseyside derby",
-      "summary": "Live coverage of Everton manager David Moyes' press conference to preview Sunday's Merseyside derby against Liverpool at Hill Dickinson Stadium",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/moyes-press-conference-live-everton-34975331",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34741377.ece/ALTERNATES/s615/0_GettyImages-2294699046.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34741377.ece/ALTERNATES/s1200/0_GettyImages-2294699046.jpg"
     },
     {
       "date": "2026-11-27",
