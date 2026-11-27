@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T23:30:45Z",
+  "updated": "2026-11-27T02:44:35Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -337,10 +337,10 @@
         "espn": true
       }
     ],
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
   },
   "table": {
-    "asof": "2026-11-26",
+    "asof": "2026-11-27",
     "source": "Premier League",
     "url": "https://www.premierleague.com/en/tables",
     "rows": [
@@ -1311,6 +1311,15 @@
   "news": [
     {
       "date": "2026-11-26",
+      "source": "The Guardian",
+      "title": "Premier League: 10 things to look out for this weekend",
+      "summary": "Liam Delap can exploit Chelsea’s defensive woes while Senne Lammens is under pressure against Brentford",
+      "url": "https://www.theguardian.com/football/2026/nov/27/premier-league-10-things-to-look-out-for-this-weekend",
+      "img": "https://i.guim.co.uk/img/media/6b17bad4df91456b787fe6c67a779cca98741573/0_0_5000_4000/master/5000.jpg?width=460&quality=85&auto=format&fit=max&s=af33a069e6f4950fcec8c6ad92177f49",
+      "big": "https://i.guim.co.uk/img/media/6b17bad4df91456b787fe6c67a779cca98741573/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=dcaeb8ed13770401f34870ababc4bc51"
+    },
+    {
+      "date": "2026-11-26",
       "source": "Liverpool Echo",
       "title": "Virgil van Dijk details Alexander Isak change and issues strong claim over Liverpool striker",
       "summary": "Virgil van Dijk has praised the growing impact of Alexander Isak at Liverpool after the Champions League win at Club Brugge",
@@ -1412,15 +1421,6 @@
       "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/6002/live/fce724f0-e8d9-11f1-99b6-a35a62fa4264.jpg",
       "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/6002/live/fce724f0-e8d9-11f1-99b6-a35a62fa4264.jpg",
       "tall": true
-    },
-    {
-      "date": "2026-11-24",
-      "source": "The Guardian",
-      "title": "Pochettino criticises Premier League officiating after Yoro red card overturned",
-      "summary": "Manchester United defender wrongly sent off in 4-0 loss",
-      "url": "https://www.theguardian.com/football/2026/nov/23/manchester-united-appeal-leny-yoro-red-card-liverpool",
-      "img": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=460&quality=85&auto=format&fit=max&s=436385262dc7f78fba59e7d0b0f24872",
-      "big": "https://i.guim.co.uk/img/media/7a1a4bacec389b5bc1af1db0bec9ad7be7c7dda1/377_76_2758_2206/master/2758.jpg?width=700&quality=85&auto=format&fit=max&s=51e45c7e63602b69a41ed48da0aebe09"
     }
   ],
   "outlets": [
@@ -1450,7 +1450,7 @@
     }
   ],
   "clTable": {
-    "asof": "2026-11-26",
+    "asof": "2026-11-27",
     "source": "UEFA",
     "url": "https://www.uefa.com/uefachampionsleague/standings/",
     "rows": [
@@ -1940,7 +1940,7 @@
         "big": "assets/club/gallery/1nooFS74KndHa9YGcfERu2LT1jEcYoH0X-1600.jpg"
       }
     ],
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
   },
   "venues": {
     "whiskeygirl": {
@@ -2828,7 +2828,7 @@
     ],
     "headlines": [],
     "headlinesFor": null,
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
   },
   "fullUpdated": "2026-11-26T12:16:22Z"
 }
