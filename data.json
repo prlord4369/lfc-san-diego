@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T02:34:44Z",
+  "updated": "2026-11-28T12:16:27Z",
   "venue": {
     "name": "Whiskey Girl",
     "address": "702 Fifth Ave (at G St), Gaslamp Quarter, San Diego, CA 92101",
@@ -724,7 +724,7 @@
       "watchAt": "shakespeares",
       "usLocked": false,
       "us": "USA Network",
-      "usUrl": "https://www.nbcsports.com/pressbox/press-releases/first-place-arsenal-host-third-place-manchester-city-this-sunday-nov-29-at-11-30-a-m-et-on-usa-network-and-telemundo-headlining-nbc-sports-premier-league-coverage-this-weekend",
+      "usUrl": "https://www.nbcsports.com/soccer/news/premier-league-schedule-for-2026-27-season-released",
       "h2h": [
         {
           "date": "2026-04-19",
@@ -1244,30 +1244,30 @@
       "pos": "FW",
       "status": "out",
       "issue": "Soleus",
-      "detail": "He strained his calf on Netherlands duty and has not trained with Liverpool since. He has been ruled out of the Everton derby.",
-      "reported": "2026-11-26",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
+      "detail": "He strained his calf on Netherlands duty and has not trained with Liverpool since. Iraola has ruled him out of the Everton derby, and he is expected to be out for about two to three weeks.",
+      "reported": "2026-11-27",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
     },
     {
       "player": "Ryan Gravenberch",
       "pos": "MF",
-      "status": "doubt",
+      "status": "out",
       "issue": "Heel pain",
-      "detail": "He is still managing heel pain and is being assessed day to day, with no fixed date for a return.",
-      "reported": "2026-11-26",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
+      "detail": "He is still managing heel pain, and Iraola says it will be difficult for him to play at Everton. No fixed date has been given for his return.",
+      "reported": "2026-11-27",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/everton-v-liverpool-merseyside-derby-team-news-112026"
     },
     {
       "player": "Victor Munoz",
       "pos": "FW",
       "status": "doubt",
       "issue": "Knee",
-      "detail": "He limped off with a knee knock in the 3-0 win at Club Brugge, and Iraola is assessing him ahead of the Everton game.",
-      "reported": "2026-11-26",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
+      "detail": "He took a big knock to the knee in the 3-0 win at Club Brugge. Scans showed no disruption in the knee, but he is still doubtful for the Everton derby.",
+      "reported": "2026-11-27",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/pre-everton-injury-update-victor-munoz-cody-gakpo-and-ryan-gravenberch"
     },
     {
       "player": "Hugo Ekitike",
@@ -1275,36 +1275,36 @@
       "status": "out",
       "issue": "Achilles",
       "detail": "He is still recovering from an Achilles rupture, and the club's plan is a return in January 2027.",
-      "reported": "2026-11-25",
+      "reported": "2026-11-27",
       "source": "Liverpool FC",
-      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
+      "url": "https://www.liverpoolfc.com/news/everton-v-liverpool-merseyside-derby-team-news-112026"
     },
     {
       "player": "Conor Bradley",
       "pos": "DF",
-      "status": "back",
+      "status": "out",
       "issue": "Knee",
-      "detail": "He is back in team training after knee surgery but is still building up match sharpness and has not returned to games.",
-      "reported": "2026-11-26",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
+      "detail": "He is still recovering from long-term knee surgery and has not returned to games. Iraola's latest update still lists him among the long-term absentees.",
+      "reported": "2026-11-27",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/everton-v-liverpool-merseyside-derby-team-news-112026"
     },
     {
       "player": "Giovanni Leoni",
       "pos": "DF",
-      "status": "back",
+      "status": "out",
       "issue": "ACL",
-      "detail": "He is back in team training after a long ACL layoff and is being brought back slowly toward full match fitness.",
-      "reported": "2026-11-26",
-      "source": "Liverpool.com",
-      "url": "https://www.liverpool.com/liverpool-fc-news/features/injury-latest-munoz-gakpo-iraola-34967832"
+      "detail": "He is still recovering from an ACL injury and has not played since September 2025. He is being brought back slowly toward match fitness.",
+      "reported": "2026-11-27",
+      "source": "Liverpool FC",
+      "url": "https://www.liverpoolfc.com/news/liverpools-injury-list-suspensions-and-availability"
     },
     {
       "player": "Vitezslav Jaros",
       "pos": "GK",
       "status": "out",
       "issue": "Knee",
-      "detail": "He is listed as unavailable with a knee problem in the Manchester United team news, and no return date was given there.",
+      "detail": "He was listed as unavailable with a knee problem in the Manchester United team news, and no return date was given.",
       "reported": "2026-11-22",
       "source": "This Is Anfield",
       "url": "https://www.thisisanfield.com/2026/11/liverpool-fc-team-news-vs-man-united/"
@@ -1312,23 +1312,43 @@
   ],
   "news": [
     {
-      "date": "2026-11-27",
+      "date": "2026-11-28",
+      "source": "BBC Sport",
+      "title": "What does Gerrard think of Ngumoha?",
+      "summary": "Steven Gerrard chats to 5 Live Sport and shares his thoughts on 18-year-old Rio Ngumoha.",
+      "url": "https://www.bbc.co.uk/sport/football/videos/cmly701p777jo",
+      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/e413/live/e031e350-eb21-11f1-99a1-253766e7ad8b.jpg",
+      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/e413/live/e031e350-eb21-11f1-99a1-253766e7ad8b.jpg",
+      "tall": true
+    },
+    {
+      "date": "2026-11-28",
       "source": "Liverpool Echo",
-      "title": "David Moyes identifies way Everton can close gap on Liverpool amid ownership uncertainty",
-      "summary": "David Moyes was speaking ahead of the 249th Merseyside derby between Everton and Liverpool that will take place on Sunday afternoon at Hill Dickinson Stadium",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/david-moyes-identifies-way-everton-34978806",
+      "title": "Jack Grealish comment that enraged Liverpool, angry accusation and Wayne Rooney dinner meeting",
+      "summary": "Everton face Liverpool in the Merseyside derby this weekend and Toffees star Jack Grealish will hope to make an impact at Hill Dickinson Stadium",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/jack-grealish-everton-vs-liverpool-34970179",
       "amp": true,
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34978816.ece/ALTERNATES/s615/0_GettyImages-2306533312.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34978816.ece/ALTERNATES/s1200/0_GettyImages-2306533312.jpg"
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970389.ece/ALTERNATES/s615/0_GettyImages-2306269240.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34970389.ece/ALTERNATES/s1200/0_GettyImages-2306269240.jpg"
+    },
+    {
+      "date": "2026-11-28",
+      "source": "The Guardian",
+      "title": "Basque to the future: Andoni Iraola fired up for first Merseyside derby",
+      "summary": "Liverpool head coach sees parallels with Athletic v Sociedad derby as he comes up against his old foe David Moyes",
+      "url": "https://www.theguardian.com/football/2026/nov/28/andoni-iraola-first-merseyside-derby-liverpool-everton-premier-league",
+      "img": "https://i.guim.co.uk/img/media/78d6b8f8e7e6b8c5c6c8df0f1c5923faab262c86/274_0_4228_3383/master/4228.jpg?width=460&quality=85&auto=format&fit=max&s=6aeeab9b76e9dad3244cdfffcdeb0442",
+      "big": "https://i.guim.co.uk/img/media/78d6b8f8e7e6b8c5c6c8df0f1c5923faab262c86/274_0_4228_3383/master/4228.jpg?width=700&quality=85&auto=format&fit=max&s=6849c603ac3a19b4a69dc8426f9d7384"
     },
     {
       "date": "2026-11-27",
       "source": "Liverpool Echo",
-      "title": "Andoni Iraola Liverpool press conference - Victor Munoz, Ryan Gravenberch injury news",
-      "summary": "Liverpool boss Andoni Iraola will face the press ahead of the 249th Merseyside derby at Hill Dickinson Stadium on Sunday afternoon",
-      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/iraola-liverpool-press-conference-live-34975267",
-      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34975317.ece/ALTERNATES/s615/0_GettyImages-2291419066.jpg",
-      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34975317.ece/ALTERNATES/s1200/0_GettyImages-2291419066.jpg"
+      "title": "Alexander Isak sets Liverpool sights on Everton as Andoni Iraola makes goals admission",
+      "summary": "Alexander Isak will lead the line for Liverpool against Everton at Hill Dickinson on Sunday aiming to add to his 10 goals this season",
+      "url": "https://www.liverpoolecho.co.uk/sport/football/football-news/alexander-isak-sets-liverpool-sights-34978139",
+      "amp": true,
+      "img": "https://i2-prod.liverpoolecho.co.uk/incoming/article34978120.ece/ALTERNATES/s615/2_GettyImages-2272034920.jpg",
+      "big": "https://i2-prod.liverpoolecho.co.uk/incoming/article34978120.ece/ALTERNATES/s1200/2_GettyImages-2272034920.jpg"
     },
     {
       "date": "2026-11-27",
@@ -1397,30 +1417,12 @@
     },
     {
       "date": "2026-11-25",
-      "source": "BBC Sport",
-      "title": "'All coming together' - Isak repaying Liverpool faith",
-      "summary": "Alexander Isak's two goals against Club Brugge take his tally for the season to 10 as the striker continues to show why Liverpool last year paid £125m to bring him to the club.",
-      "url": "https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo",
-      "img": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/60ef/live/25c99400-e927-11f1-a094-5fdc692f3e33.jpg",
-      "big": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/60ef/live/25c99400-e927-11f1-a094-5fdc692f3e33.jpg"
-    },
-    {
-      "date": "2026-11-25",
       "source": "The Guardian",
       "title": "Isak and Wirtz on target as resurgent Liverpool sweep aside Club Brugge",
       "summary": "Liverpool, from big money individuals to the collective, are building formidable momentum.",
       "url": "https://www.theguardian.com/football/2026/nov/25/club-brugge-liverpool-champions-league-match-report",
       "img": "https://i.guim.co.uk/img/media/7f5594be0e1a2dc758f3598b04ccc453de05b28b/1617_333_5847_4677/master/5847.jpg?width=460&quality=85&auto=format&fit=max&s=624dbe1c4cbc9348702fc6b767de52b4",
       "big": "https://i.guim.co.uk/img/media/7f5594be0e1a2dc758f3598b04ccc453de05b28b/1617_333_5847_4677/master/5847.jpg?width=700&quality=85&auto=format&fit=max&s=915255c6d792a8b7e36a335609cf723e"
-    },
-    {
-      "date": "2026-11-25",
-      "source": "Sky Sports",
-      "title": "Isak and Wirtz power Liverpool to easy victory at Club Brugge",
-      "summary": "Liverpool recovered from their shock defeat to Fenerbahce in their last Champions League outing to beat Club Brugge 3-0 and improve their chances of a top-eight league phase…",
-      "url": "https://www.skysports.com/football/club-brugge-vs-liverpool/report/577679",
-      "img": "https://e0.365dm.com/26/11/768x432/skysports-alexander-isak-liverpool_7416550.jpg?20261125203911",
-      "big": "https://e0.365dm.com/26/11/1600x900/skysports-alexander-isak-liverpool_7416550.jpg?20261125203911"
     }
   ],
   "outlets": [
@@ -2830,5 +2832,5 @@
     "headlinesFor": null,
     "checked": "2026-11-28"
   },
-  "fullUpdated": "2026-11-27T12:16:25Z"
+  "fullUpdated": "2026-11-28T12:16:26Z"
 }
